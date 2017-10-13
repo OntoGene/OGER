@@ -31,6 +31,30 @@ WORKERS = 1
 
 class ParamBase(object):
     'Abstract base class for parameter holders.'
+    def __init__(self, raw_config):
+        '''
+        In order to copy or override paramater holder objects,
+        their original input is saved and can be accessed
+        through the __getitem__() and keys() methods.
+        This allows to use such an object as a mapping
+        in eg. `dict(params)` or `dict(**params)`,
+        which is very useful for cascading configurations
+        (eg. `Params(**dict(defaults, **specialized))`).
+
+        Subclasses of ParamBase are required to provide all
+        of their raw input to this constructor as a single
+        dictionary.
+        '''
+        self._raw_config = raw_config
+
+    def __getitem__(self, key):
+        return self._raw_config[key]
+
+    def keys(self):
+        '''
+        A view on the keys of the raw config input.
+        '''
+        return self._raw_config.keys()
 
     @classmethod
     def iterdefaults(cls):
@@ -203,6 +227,7 @@ class Params(ParamBase):
         """
         Override default values through keyword arguments.
         """
+        super().__init__(dict(kwargs, settings=settings))
         # Load any settings file.
         params = self.load_ini_file(settings or self.settings)
         # Override settings with any keyword args.
@@ -313,8 +338,7 @@ class Params(ParamBase):
             # With no parameter groups besides the shared ones, just use those.
             instances[1] = {}
         for _, params in sorted(instances.items()):
-            args = dict(shared_params)  # copy to avoid shared memory
-            args.update(params)
+            args = dict(shared_params, **params)
             yield ERParams(**args)
 
 
@@ -362,6 +386,7 @@ class ERParams(ParamBase):
         """
         Override default values through keyword arguments.
         """
+        super().__init__(kwargs)
         # Create instance variables which hide the class defaults.
         for key, value in kwargs.items():
             if not hasattr(self, key):

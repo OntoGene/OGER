@@ -129,9 +129,11 @@ class Router(object):
     def __init__(self, config=None, **kwargs):
         '''
         Allowed call signatures:
-          - `Router(config)` with a parameters.Params instance
+          - `Router(config)` with a parameters.Params instance or a mapping
           - `Router(key=value, ...)` with named parameters
-          - `Router({key: value, ...}) with a mapping of parameters
+          - `Router(config, key=value, ...)` with both
+
+        On conflicts, named parameters take precedence.
         '''
         self.p = self._resolve_call_signature(config, kwargs)
 
@@ -145,20 +147,13 @@ class Router(object):
 
     @staticmethod
     def _resolve_call_signature(config, params):
-        if isinstance(config, collections.abc.Mapping):
-            # If config is a mapping, merge it with params, just in case.
-            # (In case of conflicts, params takes precedence.)
-            params = dict(config, **params)
-        elif isinstance(config, parameters.Params):
-            # If config is a Params instance, we can't merge.
-            if params:
-                logging.warning('ignoring config parameters %r', params)
+        if not params and isinstance(config, parameters.Params):
+            # Only a Params instance is given, no need to create a new one.
             return config
         elif config is not None:
-            # Any other type of positional argument is probably a mistake.
-            raise TypeError('expected parameters.Params or a mapping, got {}'
-                            .format(config.__class__.__name__))
-        # In case of mapping or named parameters, create a Params instance now.
+            # If config is given, merge it with params, just in case.
+            # (In case of conflicts, params takes precedence.)
+            params = dict(config, **params)
         return parameters.Params(**params)
 
     # ============== #
