@@ -381,10 +381,11 @@ class AnnotatorManager(object):
                 parameters for the default server
             n (int): max number of additional servers
         '''
+        self._default_settings = default
         self.n = n
         self.active = {}                  # all active servers
         self.additional = []              # names of additional servers
-        self.default = self.add(default, blocking=True)  # default server name
+        self.default = self.add({}, blocking=True)  # default server name
         self.additional.remove(self.default)
 
     def add(self, params, desc=None, blocking=False):
@@ -394,7 +395,7 @@ class AnnotatorManager(object):
         In case an existing one has the same settings,
         return its name instead.
         '''
-        config = router.Router(params)
+        config = router.Router(self._default_settings, **params)
         key = self.key(config)
         if key not in self.active:
             logging.info('Starting new annotator %s', key)
