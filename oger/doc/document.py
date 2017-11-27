@@ -25,7 +25,7 @@ import re
 import csv
 import json
 import pickle
-from collections import defaultdict, namedtuple, Counter
+from collections import defaultdict, namedtuple
 
 from lxml import etree as ET
 from lxml.builder import E
@@ -171,7 +171,7 @@ class Exporter(Unit):
     # The non-standard fields need to be known by the exporter methods.
     extra_fields = ()
 
-    def __init__(self, id_, basename):
+    def __init__(self, id_, basename=None):
         super().__init__(id_)
         self.basename = basename
 
@@ -357,9 +357,6 @@ class Exporter(Unit):
 
 class Collection(Exporter):
     """A collection of multiple articles."""
-    def __init__(self, id_, basename=None):
-        super().__init__(id_, basename)
-
     @classmethod
     def from_iterable(cls, iterable, id_, basename=None):
         '''
@@ -651,7 +648,7 @@ class Article(Exporter):
                        'END POSITION',
                        'MATCHED TERM',
                        'PREFERRED FORM',
-                       'TERM ID',
+                       'ENTITY ID',
                        'ZONE',
                        'SENTENCE ID',
                        'ORIGIN')
@@ -1101,35 +1098,28 @@ class Entity(object):
     instead, use its class methods with a namedtuple
     as first argument.
     '''
-    @staticmethod
-    def xml(entity):
+    @classmethod
+    def xml(cls, entity):
         'XML representation.'
         node = E('entity',
                  id=str(entity.id_),
-                 type=entity.extra.type,
                  start=str(entity.start),
-                 end=str(entity.end),
-                 origin_db=entity.extra.original_resource,
-                 origin_id=str(entity.extra.original_id),
-                 preferred_form=entity.extra.preferred_form)
+                 end=str(entity.end))
 
-        for i, value in enumerate(entity.extra[STDFLD:], STDFLD):
-            node.set(entity.extra._fields[i], value)
+        for label, value in cls._items(entity.extra):
+            node.set(label, value)
 
         node.text = entity.text
 
         return node
 
-    @staticmethod
-    def bioc(entity):
+    @classmethod
+    def bioc(cls, entity):
         'BioC XML representation.'
         annotation = E('annotation', id=str(entity.id_))
 
-        for label, value in entity.extra._asdict().items():
-            # Generate "infons" entries for almost all fields
-            # found in the term list.
-            if label not in ('position', 'ontogene_id'):
-                Unit.bioc_infon(annotation, label, value)
+        for label, value in cls._items(entity.extra):
+            Unit.bioc_infon(annotation, label, value)
 
         annotation.append(
             E('location',
@@ -1139,6 +1129,17 @@ class Entity(object):
         annotation.append(E('text', entity.text))
 
         return annotation
+
+    @classmethod
+    def _items(cls, extra):
+        '''
+        Iterate over label-value pairs of entity.extra.
+        '''
+        for label, value in extra._asdict().items():
+            # Generate "infons" entries for almost all fields
+            # found in the term list.
+            if label not in ('position', 'ontogene_id'):
+                yield label, value
 
     @classmethod
     def sort(cls, entities):
