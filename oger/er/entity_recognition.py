@@ -15,7 +15,6 @@ import csv
 import pickle
 import os.path
 import logging
-from collections import namedtuple
 
 from ..ctrl import parameters
 from ..util import stream
@@ -27,10 +26,6 @@ class EntityRecognizer(object):
     """
     Dictionary-based entity recognition.
     """
-
-    EntityEntry = namedtuple('EntityEntry',
-                             'position type preferred_form '
-                             'original_resource original_id ontogene_id')
 
     def __init__(self, config=parameters.ERParams(), **kwargs):
         """
@@ -54,19 +49,11 @@ class EntityRecognizer(object):
 
         `stopwords` is either an iterable of stopwords
         or a path to a list of stopwords (one per line).
-
-        `extra_fields` can be a sequence of additional field
-        names in the termlist TSV.
         """
         self.tokenizer = TermTokenizer(config.term_token,
                                        config.abbrev_detection)
         self._normalizers = normalization.load(config.normalize)
         self.stopwords = self.import_stopwords(config.stopwords)
-        if config.extra_fields:
-            # Redefine self.EntityEntry with extra fields.
-            name = self.EntityEntry.__name__
-            fields = self.fields() + tuple(config.extra_fields)
-            self.EntityEntry = namedtuple(name, fields)
         self.term_first, self.full_terms = self.load_termlist(config, **kwargs)
 
     @classmethod
@@ -109,9 +96,8 @@ class EntityRecognizer(object):
               [4] = original ID (in the respective database),
               [5] = OntoGene ID
             )
-        If additional fields are defined through `extra_fields`
-        in the constructor, then the value tuple is extended
-        correspondingly.
+        If additional fields were defined through `extra_fields`,
+        then the value tuple is extended correspondingly.
         '''
         # Check if pickle with the same file name exists.
         if config.path is None:
@@ -120,24 +106,25 @@ class EntityRecognizer(object):
             config.cache = os.path.dirname(config.path)
         basename = os.path.basename(config.path)
         pickle_file = os.path.join(config.cache, basename + '.pickle')
+        n_fields = 5 + config.n_extra  # 5 std fields besides the term
         if os.path.exists(pickle_file) and not config.force_reload:
             if skip_loading:
                 # Optimisation feature:
                 # Only check for a pickle, but don't load it.
                 terms = None, None
             else:
-                terms = self.load_termlist_from_pickle(pickle_file)
+                terms = self.load_termlist_from_pickle(pickle_file, n_fields)
 
         # Load the termlist from file.
         else:
             try:
-                termlist_parser = getattr(self, 'termlist_format_{}'
-                                                .format(config.field_format))
+                parser = getattr(
+                    self, 'termlist_format_{}'.format(config.field_format))
             except AttributeError:
                 logging.error('No such termlist format: %s',
                               config.field_format)
                 raise ValueError('Invalid termlist format')
-            terms = self.load_termlist_from_file(config, termlist_parser)
+            terms = self.load_termlist_from_file(config, parser, n_fields)
             try:
                 self.write_terms_to_pickle(terms, pickle_file)
             except OSError as e:
@@ -145,7 +132,8 @@ class EntityRecognizer(object):
                                 pickle_file, e)
         return terms
 
-    def load_termlist_from_pickle(self, pickle_path):
+    @staticmethod
+    def load_termlist_from_pickle(pickle_path, n_exp):
         '''
         Perform a shallow format check before loading.
         '''
@@ -162,7 +150,6 @@ class EntityRecognizer(object):
                 'Delete the pickle file or run with force_reload=True.',
                 pickle_path)
             raise
-        n_exp = len(self.fields()) - 1
         try:
             n_found = len(next(iter(full_terms.values()))[0])
         except StopIteration:
@@ -196,20 +183,17 @@ class EntityRecognizer(object):
 
         logging.info('Terms written to pickle at %s', filename)
 
-    def load_termlist_from_file(self, config, field_parser):
+    def load_termlist_from_file(self, config, field_parser, n_fields):
         """
         Index the term DB.
 
         The terms are indexed by the first token of the term
         expression.
         These keys point to a list of entries.
-        The labels of the entry fields are returned by
-        self.fields().
         """
 
         logging.info("Loading terms from file %s", config.path)
         term_first, full_terms = {}, {}
-        n_fields = len(self.fields()) - 1
         entry = ('',) * n_fields
 
         with stream.ropen(config.path, encoding='utf-8', newline='') as tsv:
@@ -320,12 +304,6 @@ class EntityRecognizer(object):
             return exact[start:stop]
         return norm
 
-    def fields(self):
-        '''
-        Get the field names of the entries.
-        '''
-        return self.EntityEntry._fields
-
     def recognize_entities(self, sentence):
         """
         Go through all words and try to match them to the terms.
@@ -365,7 +343,7 @@ class EntityRecognizer(object):
                     position = (starts[i], ends[j-1])
                     matches = self.full_terms[candidate]
                     for entry in matches:
-                        yield self.EntityEntry(position, *entry)
+                        yield position, entry
                     self._match_hook(matches,
                                      sentence, toks, normalized,
                                      position, i, j)

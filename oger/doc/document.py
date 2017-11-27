@@ -25,16 +25,13 @@ import re
 import csv
 import json
 import pickle
+import itertools as it
 from collections import defaultdict, namedtuple
 
 from lxml import etree as ET
 from lxml.builder import E
 
 from ..util.iterate import CacheOneIter, peekaheaditer
-
-
-# Number of standard annotation fields.
-STDFLD = 6
 
 
 class Unit(object):
@@ -168,8 +165,6 @@ class Exporter(Unit):
     # The tokenizers are needed at different stages of processing.
     # Set this attribute to a textprocessing object before using this class.
     tokenizer = None
-    # The non-standard fields need to be known by the exporter methods.
-    extra_fields = ()
 
     def __init__(self, id_, basename=None):
         super().__init__(id_)
@@ -245,8 +240,8 @@ class Exporter(Unit):
                     entity.end,
                     0.5,  # dummy score
                     entity.text,
-                    entity.extra.type,
-                    entity.extra.original_id
+                    Entity.TYPE(entity),
+                    Entity.ID(entity),
                 )
 
     def write_xml(self, wb_file):
@@ -582,12 +577,13 @@ class Article(Exporter):
         anno = ET.SubElement(node, 'og-dict')
         seen = set()
         for entity in self.iter_entities():
-            if entity.extra.original_id not in seen:
+            id_ = Entity.ID(entity)
+            if id_ not in seen:
                 anno.append(E('og-dict-entry',
-                              cid=str(entity.extra.original_id),
-                              cname=entity.extra.preferred_form,
-                              type=entity.extra.type))
-                seen.add(entity.extra.original_id)
+                              cid=str(id_),
+                              cname=Entity.PREF(entity),
+                              type=Entity.TYPE(entity)))
+                seen.add(id_)
 
         return node, sent_id, tok_id
 
@@ -604,7 +600,7 @@ class Article(Exporter):
         '''
         mentions = defaultdict(list)
         for e in self.iter_entities():
-            name = self._valid_brat_fieldname(e.extra.type)
+            name = self._valid_brat_fieldname(Entity.TYPE(e))
             mentions[e.start, e.end, name, e.text].append(e)
         annotations = []
         t, n, a = counters
@@ -613,11 +609,11 @@ class Article(Exporter):
                                .format(t, *loc_type))
             for n, e in enumerate(entities, n+1):
                 # Add all remaining information as "AnnotatorNotes".
-                extra = '\t'.join(e.extra[2:])
+                info = '\t'.join(e.info[1:])
                 annotations.append('#{}\tAnnotatorNotes T{}\t{}\n'
-                                   .format(n, t, extra))
+                                   .format(n, t, info))
                 for att, atype in attributes:
-                    value = getattr(e.extra, att)
+                    value = getattr(e.info, att)
                     if value:
                         a += 1
                         annotations.append(
@@ -641,6 +637,7 @@ class Article(Exporter):
 
     def write_tsv(self, w_file, include_header, all_tokens=False):
         writer = csv.writer(w_file, delimiter='\t', lineterminator='\n')
+        extra_fields = Entity.fields[5:]
         if include_header:
             headers = ('DOCUMENT ID',
                        'TYPE',
@@ -652,9 +649,9 @@ class Article(Exporter):
                        'ZONE',
                        'SENTENCE ID',
                        'ORIGIN')
-            headers += self.extra_fields
+            headers += extra_fields
             writer.writerow(headers)
-        x = ('',) * len(self.extra_fields)
+        x = ('',) * len(extra_fields)
 
         # For each token, find all recognized entities starting here.
         # Write a fully-fledged TSV line for each entity.
@@ -682,16 +679,16 @@ class Article(Exporter):
                 # Add a rich line for each entity (possibly multiple lines
                 # for the same token(s)).
                 writer.writerow((self.id_,
-                                 entity.extra.type,
+                                 Entity.TYPE(entity),
                                  entity.start,
                                  entity.end,
                                  entity.text,
-                                 entity.extra.preferred_form,
-                                 entity.extra.original_id,
+                                 Entity.PREF(entity),
+                                 Entity.ID(entity),
                                  section_type,
                                  sent_id,
-                                 entity.extra.original_resource)
-                                + entity.extra[STDFLD:])
+                                 Entity.DB(entity))
+                                + Entity.EXTRA(entity))
                 last_end = max(last_end, entity.end)
             # Add sparse lines for the remaining tokens.
             for row in interlines(last_end, float('inf'), toks, sent_id, x):
@@ -890,8 +887,7 @@ class Sentence(Unit):
         '''
         entities = entity_recognizer.recognize_entities(self.text)
         nonempty = bool(self.entities)
-        for id_, match in enumerate(entities, start_id):
-            start, end = match.position
+        for id_, ((start, end), match) in enumerate(entities, start_id):
             surface = self.text[start:end]
             entity = EntityTuple(id_,
                                  surface,
@@ -1026,11 +1022,11 @@ class Sentence(Unit):
         '''
         start = min(e.start for e in entities)
         end = max(e.end for e in entities)
-        values = '|'.join('{}:{}:{}'.format(e.extra.original_id,
-                                            e.extra.type,
+        values = '|'.join('{}:{}:{}'.format(Entity.ID(e),
+                                            Entity.TYPE(e),
                                             e.text)
                           for e in entities)
-        type_ = '|'.join(set(e.extra.type for e in entities))
+        type_ = '|'.join(set(Entity.TYPE(e) for e in entities))
         node = E('Term', allvalues=values, type=type_,
                  o1=str(start-offset), o2=str(end-offset))
         return start, end, node
@@ -1080,14 +1076,8 @@ class Token(Unit):
                  o2=str(self.end - section_offset))
         return node
 
-    def get_tuple(self):
-        '''
-        Get the triple <token, start offset, end offset>.
-        '''
-        return (self.text, self.start, self.end)
 
-
-EntityTuple = namedtuple('EntityTuple', 'id_ text start end extra')
+EntityTuple = namedtuple('EntityTuple', 'id_ text start end info')
 
 
 class Entity(object):
@@ -1098,6 +1088,44 @@ class Entity(object):
     instead, use its class methods with a namedtuple
     as first argument.
     '''
+    # Fields defined by the termlist.
+    fields = ('type', 'preferred_form',
+              'original_resource', 'original_id', 'ontogene_id')
+
+    @classmethod
+    def TYPE(cls, entity):
+        'Entity-type field.'
+        return entity.info[0]
+
+    @classmethod
+    def PREF(cls, entity):
+        'Preferred-form field.'
+        return entity.info[1]
+
+    @classmethod
+    def DB(cls, entity):
+        'Original-resource field.'
+        return entity.info[2]
+
+    @classmethod
+    def ID(cls, entity):
+        'Entity-ID field.'
+        return entity.info[3]
+
+    @classmethod
+    def EXTRA(cls, entity):
+        'Any additional fields.'
+        return entity.info[5:]
+
+    @classmethod
+    def set_fields(cls, extra, renaming):
+        '''
+        Extend and rename the default fields, if necessary.
+        '''
+        fields = tuple(renaming.get(name, name)
+                       for name in it.chain(cls.fields, extra))
+        cls.fields = fields
+
     @classmethod
     def xml(cls, entity):
         'XML representation.'
@@ -1106,7 +1134,7 @@ class Entity(object):
                  start=str(entity.start),
                  end=str(entity.end))
 
-        for label, value in cls._items(entity.extra):
+        for label, value in cls._items(entity):
             node.set(label, value)
 
         node.text = entity.text
@@ -1118,7 +1146,7 @@ class Entity(object):
         'BioC XML representation.'
         annotation = E('annotation', id=str(entity.id_))
 
-        for label, value in cls._items(entity.extra):
+        for label, value in cls._items(entity):
             Unit.bioc_infon(annotation, label, value)
 
         annotation.append(
@@ -1131,14 +1159,12 @@ class Entity(object):
         return annotation
 
     @classmethod
-    def _items(cls, extra):
+    def _items(cls, entity):
         '''
-        Iterate over label-value pairs of entity.extra.
+        Iterate over label-value pairs of entity.info.
         '''
-        for label, value in extra._asdict().items():
-            # Generate "infons" entries for almost all fields
-            # found in the term list.
-            if label not in ('position', 'ontogene_id'):
+        for label, value in zip(cls.fields, entity.info):
+            if label != 'ontogene_id':  # no use for the concept counter
                 yield label, value
 
     @classmethod

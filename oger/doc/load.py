@@ -16,13 +16,11 @@ import json
 import gzip
 from os.path import splitext, basename
 import logging
-from collections import namedtuple
 from urllib import request as url_request, parse as url_parse
 
 from lxml import etree
 
-from .document import Collection, Article, EntityTuple
-from ..er.entity_recognition import EntityRecognizer as ER
+from .document import Collection, Article, Entity, EntityTuple
 from ..util.iterate import peekaheaditer
 
 
@@ -457,31 +455,28 @@ class BioCReader(object):
 
 class BioCAnno(object):
     '''
-    Converter for BioC annotation with fieldname caching.
+    Converter for BioC annotation with cached attribute warnings.
     '''
 
-    EE = ER.EntityEntry  # namedtuple factory for standard entry
-    defaults = EE(*['unknown']*len(EE._fields))  # prototype with dummy defaults
+    warned_already = set()
 
     @classmethod
     def entity(cls, anno, start, end):
         'Create an EntityTuple instance from a BioC annotation node.'
         id_ = anno.get('id')
         text = text_node(anno, 'text')
-        extra = cls.extra(anno)
-        return EntityTuple(id_, text, start, end, extra)
+        info = cls.info(anno)
+        return EntityTuple(id_, text, start, end, info)
 
     @classmethod
-    def extra(cls, anno):
-        'Create an `extra` namedtuple instance.'
+    def info(cls, anno):
+        'Create an `info` tuple.'
         infons = BioCReader.infon_dict(anno)
-        try:
-            # Try to fit the cached fields.
-            return cls.defaults._replace(**infons)
-        except ValueError:
-            # Update the cached prototype with the new fields.
-            new_fields = sorted(set(infons).difference(cls.EE._fields))
-            factory = namedtuple(cls.EE.__name__,
-                                 cls.EE._fields + tuple(new_fields))
-            cls.defaults = factory(*['unknown']*len(factory._fields))
-            return cls.defaults._replace(**infons)
+        values = tuple(infons.pop(label, 'unknown')
+                       for label in Entity.fields)
+        for unused in infons:
+            if unused not in cls.warned_already:
+                logging.warning('ignoring BioC annotation attribute %s',
+                                unused)
+                cls.warned_already.add(unused)
+        return values

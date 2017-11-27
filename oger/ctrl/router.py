@@ -42,18 +42,14 @@ import glob
 import json
 import string
 import logging
-import collections
 from datetime import datetime
 
 from . import parameters
-from ..doc.document import Exporter, Collection
+from ..doc.document import Exporter, Collection, Entity
 from ..doc import load
 from ..nlp.tokenize import Text_processing
 from ..er.entity_recognition import EntityRecognizer, AbbrevDetector
 from ..util.iterate import iter_chunks
-
-
-STDFLD = len(EntityRecognizer.EntityEntry._fields)
 
 
 class PipelineServer(object):
@@ -76,8 +72,6 @@ class PipelineServer(object):
         self.ers = conf.entity_recognizers
         # Make the tokenizers easily accessible to the article classes.
         Exporter.tokenizer = conf.text_processor
-        # Register any additional fields.
-        Exporter.extra_fields = self.ers[0].fields()[STDFLD:]
 
     def iter_contents(self, pointers=None):
         'Iterate over input articles/collections.'
@@ -137,7 +131,8 @@ class Router(object):
         '''
         self.p = self._resolve_call_signature(config, kwargs)
 
-        # Register the exporter methods and the postfilter.
+        # Register the entity fields, the exporter methods and the postfilter.
+        Entity.set_fields(self.p.extra_fields, self.p.field_names)
         self._exporters = self._get_exporters()
         self.postfilter = self._get_postfilter(self.p.postfilter)
 

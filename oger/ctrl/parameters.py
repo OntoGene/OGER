@@ -16,6 +16,7 @@ This module provides:
 
 import re
 import sys
+import json
 import logging
 import argparse
 import configparser as cp
@@ -77,12 +78,25 @@ class ParamBase(object):
     @staticmethod
     def split(arg):
         '''
-        If arg is a string, split it on whitespace.
+        If arg is a string, parse it as a JSON array or
+        split it on whitespace.
         '''
         if isinstance(arg, str):
-            # It might be good to have hashable config values
-            arg = tuple(arg.split())
-        return arg
+            try:
+                arg = json.loads(arg)
+            except json.JSONDecodeError:
+                arg = arg.split()
+        # It can't hurt to have hashable config values where possible.
+        return tuple(arg)
+
+    @staticmethod
+    def mapping(arg):
+        '''
+        If arg is a string, parse it as a JSON object.
+        '''
+        if isinstance(arg, str):
+            arg = json.loads(arg)
+        return dict(arg)
 
     @staticmethod
     def bool(arg):
@@ -191,6 +205,13 @@ class Params(ParamBase):
     # Output format: xml|tsv|text_xml|text_tsv|bioc|becalm_tsv|becalm_json
     # A space-separated list is also accepted (multiple files per article).
     export_format = 'tsv'
+    # Additional fields in the termlist TSV.
+    # This is a list of field labels.
+    # If there are multiple termlists, all must have the same length.
+    extra_fields = ()
+    # Map default field
+    field_names = ()
+
     # Format-specific output flags:
     # - TSV formats:
     include_header = False
@@ -241,7 +262,6 @@ class Params(ParamBase):
                 er_params.append((key, value))
             else:
                 raise ValueError('Invalid settings key: {}'.format(key))
-        self.recognizers = tuple(self.parse_ER_settings(er_params))
 
         # Setup logging.
         logargs = dict(level=self.log_level,
@@ -275,6 +295,8 @@ class Params(ParamBase):
         self.sentence_split = self.bool(self.sentence_split)
         self.efetch_max_ids = int(self.efetch_max_ids)
         self.export_format = self.split(self.export_format)
+        self.extra_fields = self.split(self.extra_fields)
+        self.field_names = self.mapping(self.field_names)
         self.include_header = self.bool(self.include_header)
         self.sentence_level = self.bool(self.sentence_level)
 
@@ -284,6 +306,8 @@ class Params(ParamBase):
                                 for a, m in ((self.brat_bin_attributes, False),
                                              (self.brat_mv_attributes, True))
                                 for n in a]
+
+        self.recognizers = tuple(self.parse_ER_settings(er_params))
 
     @classmethod
     def iterdefaults(cls):
@@ -319,21 +343,21 @@ class Params(ParamBase):
 
     keypattern = re.compile(r'termlist(\d*)_(\w+)$')
 
-    @classmethod
-    def parse_ER_settings(cls, rawparams):
+    def parse_ER_settings(self, rawparams):
         '''
         Parse and distribute settings for (multiple) entity recognizers.
         '''
         instances = defaultdict(dict)
         for key, value in rawparams:
             try:
-                n, k = cls.keypattern.match(key).groups()
+                n, k = self.keypattern.match(key).groups()
             except AttributeError:
                 raise ValueError(
                     'Invalid termlist settings key: {}'.format(key))
             instances[int(n or 0)][k] = value  # n or 0: missing number == 0
 
         shared_params = instances.pop(0, {})
+        shared_params['_n_extra'] = len(self.extra_fields)
         if not instances:
             # With no parameter groups besides the shared ones, just use those.
             instances[1] = {}
@@ -356,9 +380,8 @@ class ERParams(ParamBase):
     field_format = 'hub'
     # Is the first line a column header that should be skipped?
     skip_header = False
-    # Additional fields in the termlist TSV.
-    # The field names must be valid Python identifiers.
-    extra_fields = ()
+    # Non-public config: number of extra fields (derived from global option).
+    _n_extra = 0
 
     # Location of the cached termlists (same directory as `path`, by default).
     cache = None
@@ -394,9 +417,11 @@ class ERParams(ParamBase):
                     'Invalid termlist settings key: {}'.format(key))
             setattr(self, key, value)
 
+        # Make this parameter publicly readable.
+        self.n_extra = self._n_extra
+
         # Some parameter values need preprocessing.
         self.skip_header = self.bool(self.skip_header)
-        self.extra_fields = self.split(self.extra_fields)
         self.force_reload = self.bool(self.force_reload)
         self.abbrev_detection = self.bool(self.abbrev_detection)
         self.normalize = self.split(self.normalize)
