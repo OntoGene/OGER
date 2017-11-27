@@ -174,9 +174,14 @@ class Exporter(Unit):
         '''
         Delegate entity recognition to the sentence unit.
         '''
-        entity_recognizer.reset()
-        id_ = 1
+        previous_ids = (int(e.id_) for e in self.iter_entities()
+                        if isinstance(e.id_, int) or e.id_.isdigit())
+        id_ = max(previous_ids, default=0) + 1
+        last_article = None
         for sentence in self.get_subelements(Sentence):
+            if sentence.section.article != last_article:
+                entity_recognizer.reset()
+                last_article = sentence.section.article
             id_ = sentence.recognize_entities(entity_recognizer, id_)
 
     def write_tsv_legacy_format(self, w_file, include_header=True):
@@ -370,14 +375,6 @@ class Collection(Exporter):
             raise TypeError(
                 'Invalid type: {}, expected Article'.format(type(article)))
         self.add_subelement(article)
-
-    def recognize_entities(self, entity_recognizer):
-        # Override the inherited method to clear the cache for each document.
-        id_ = 1
-        for article in self.subelements:
-            entity_recognizer.reset()
-            for sentence in article.get_subelements(Sentence):
-                id_ = sentence.recognize_entities(entity_recognizer, id_)
 
     def xml(self):
         '''
