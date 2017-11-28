@@ -32,6 +32,7 @@ from lxml import etree as ET
 from lxml.builder import E
 
 from ..util.iterate import CacheOneIter, peekaheaditer
+from ..util.misc import get_offset_manager
 
 
 class Unit(object):
@@ -527,7 +528,7 @@ class Article(Exporter):
 
         return entities
 
-    def bioc(self, **flags):
+    def bioc(self, byte_offsets=None, **flags):
         '''
         Create a BioC document node of this article.
         '''
@@ -541,8 +542,9 @@ class Article(Exporter):
         for key, value in self.metadata.items():
             self.bioc_infon(doc, key, value)
 
+        offset_mngr = get_offset_manager(byte_offsets)
         for section in self.subelements:
-            doc.append(section.bioc(**flags))
+            doc.append(section.bioc(offset_mngr, **flags))
 
         return doc
 
@@ -818,23 +820,25 @@ class Section(Unit):
 
         return section
 
-    def bioc(self, sentence_level=False):
+    def bioc(self, offset_mngr, sentence_level=False):
         passage = E('passage')
         if self.type_ is not None:
             self.bioc_infon(passage, 'type', self.type_)
         for key, value in self.metadata.items():
             self.bioc_infon(passage, key, value)
-        passage.append(E('offset', str(self.start)))
+        passage.append(E('offset', str(offset_mngr.passage(self))))
 
         # BioC allows text at sentence or passage level.
         # The annotations are anchored at the same level.
         if sentence_level:
             for sentence in self.subelements:
-                passage.append(sentence.bioc())
+                passage.append(sentence.bioc(offset_mngr))
         else:
             passage.append(E('text', self.text))
-            for entity in self.iter_entities():
-                passage.append(Entity.bioc(entity))
+            for sentence in self.subelements:
+                offset_mngr.sentence(sentence)
+                for entity in sentence.iter_entities():
+                    passage.append(Entity.bioc(entity, offset_mngr))
 
         return passage
 
@@ -915,15 +919,15 @@ class Sentence(Unit):
 
         return sentence
 
-    def bioc(self):
+    def bioc(self, offset_mngr):
         sentence = E('sentence')
         for key, value in self.metadata.items():
             self.bioc_infon(sentence, key, value)
-        sentence.append(E('offset', str(self.start)))
+        sentence.append(E('offset', str(offset_mngr.sentence(self))))
         sentence.append(E('text', self.text))
 
         for entity in self.iter_entities():
-            sentence.append(Entity.bioc(entity))
+            sentence.append(Entity.bioc(entity, offset_mngr))
 
         return sentence
 
@@ -1139,17 +1143,18 @@ class Entity(object):
         return node
 
     @classmethod
-    def bioc(cls, entity):
+    def bioc(cls, entity, offset_mngr):
         'BioC XML representation.'
         annotation = E('annotation', id=str(entity.id_))
 
         for label, value in cls._items(entity):
             Unit.bioc_infon(annotation, label, value)
 
+        start, length = offset_mngr.entity(entity)
         annotation.append(
             E('location',
-              offset=str(entity.start),
-              length=str(entity.end - entity.start)))
+              offset=str(start),
+              length=str(length)))
 
         annotation.append(E('text', entity.text))
 

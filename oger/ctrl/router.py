@@ -518,6 +518,7 @@ class Router(object):
         exporters = []
         params = {'tsv': dict(include_header=self.p.include_header),
                   'bioc': dict(sentence_level=self.p.sentence_level,
+                               byte_offsets=self.p.byte_offsets,
                                meta=self._parse_bioc_meta(self.p.bioc_meta)),
                   'brat_ann': dict(attributes=self.p.brat_attributes),
                  }
