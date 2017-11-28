@@ -23,6 +23,7 @@ import configparser as cp
 from collections import defaultdict
 
 from .. import __version__
+from ..util.misc import BackwardsCompatibility
 
 
 # Number of parallel processes.
@@ -258,9 +259,12 @@ class Params(ParamBase):
         params = self.load_ini_file(settings or self.settings)
         # Override settings with any keyword args.
         params.update(kwargs)
+
         # Create instance variables which hide the class defaults.
         er_params = []
-        for key, value in params.items():
+        backw_comp = BackwardsCompatibility(
+            termlist_extra_fields='extra_fields')
+        for key, value in backw_comp.items(params):
             if hasattr(self, key):
                 setattr(self, key, value)
             elif key.startswith('termlist'):
@@ -292,6 +296,8 @@ class Params(ParamBase):
         except KeyError as e:
             logging.exception('Invalid pointer-type: %r', e)
             raise
+        # Pending compatibility warnings.
+        backw_comp.warnings()
 
         # Some parameter values need preprocessing.
         self.ignore_load_errors = self.bool(self.ignore_load_errors)

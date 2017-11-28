@@ -10,6 +10,34 @@ Miscellaneous utilities.
 
 
 import codecs
+import logging
+
+
+class BackwardsCompatibility:
+    '''
+    Check changed parameters and report obsolete use.
+    '''
+    def __init__(self, **renamed):
+        self.renamed = renamed
+        self._warnings = []
+
+    def items(self, params):
+        '''
+        Iterate over up-to-date key-value pairs.
+        '''
+        for key, value in params.items():
+            if key in self.renamed:
+                self._warnings.append((key, self.renamed[key]))
+                key = self.renamed[key]
+            yield key, value
+
+    def warnings(self):
+        '''
+        Issue warnings for the use of obsolete parameters.
+        '''
+        for obs, new in self._warnings:
+            logging.warning(
+                'parameter %s is obsolete, use %s instead', obs, new)
 
 
 def codepoint_indices(text, codec):
