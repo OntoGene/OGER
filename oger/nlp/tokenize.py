@@ -75,7 +75,15 @@ class Text_processing(object):
             [1] begin position,
             [2] end position
         """
-        for start, end in self.sentence_tokenizer.span_tokenize(text):
+        # Use a trick to get spans that always include trailing whitespace.
+        # Iterate over bigrams of spans, ie.
+        #   <start_n, end_n>, <start_n+1, end_n+1>
+        # and then use <start_n, start_n+1> as the span for n.
+        # To get the last sentence right, use padding.
+        spans = self.sentence_tokenizer.span_tokenize(text)
+        spans = nltk.bigrams(spans, pad_right=True,
+                             right_pad_symbol=(len(text), None))
+        for (start, _), (end, _) in spans:
             yield text[start:end], start+offset, end+offset
 
     def tokenize_sentences(self, text):
