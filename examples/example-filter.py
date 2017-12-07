@@ -9,13 +9,13 @@ Example postfilters.
 
 To use the filters, run (for the first filter):
 
-    ./run.py -p path/to/example-filter.py:remove_short [...]
+    oger run -p path/to/example-filter.py:remove_short [...]
 '''
 
 
 from collections import defaultdict
 
-import article
+from oger.doc import document
 
 
 def remove_short(content):
@@ -23,7 +23,7 @@ def remove_short(content):
     Remove all annotations shorter than 3 characters.
     '''
     # Annotations are anchored at the sentence level.
-    for sentence in content.get_subelements(article.Sentence):
+    for sentence in content.get_subelements(document.Sentence):
         # Iterate over a copy, so the original entities list can be modified.
         for entity in list(sentence.entities):
             if entity.end-entity.start < 3:
@@ -32,12 +32,16 @@ def remove_short(content):
 
 def change_origin(content):
     '''
-    Change the origin_db field of every annotation to "Biogrid".
+    Change the original_resource field of every annotation to "Biogrid".
     '''
-    for entity in content.iter_entities():
-        # entity.extra is a namedtuple, therefore changing a value means
-        # replacing it with a modified copy.
-        entity.extra = entity.extra._replace(original_resource='Biogrid')
+    # The entities are nested tuples, therefore changing a value means
+    # replacing it with a modified copy.
+    field = document.Entity.fields.index('original_resource')
+    for sentence in content.get_subelements(document.Sentence):
+        for i, entity in enumerate(sentence.entities):
+            info = entity.info[:field] + ('Biogrid',) + entity.info[field+1:]
+            entity = entity._replace(info=info)
+            sentence.entities[i] = entity
 
 
 def remove_submatches(content):
@@ -46,7 +50,7 @@ def remove_submatches(content):
 
     Ignores entity type.
     '''
-    for sentence in content.get_subelements(article.Sentence):
+    for sentence in content.get_subelements(document.Sentence):
         sentence.entities = list(_remove_submatches(sentence.entities))
 
 
@@ -57,16 +61,16 @@ def remove_sametype_submatches(content):
     Contained of different entity type are kept.
     '''
     entity_types = defaultdict(list)
-    for sentence in content.get_subelements(article.Sentence):
+    for sentence in content.get_subelements(document.Sentence):
         # Divide the entities into subsets by entity type.
         for e in sentence.entities:
-            entity_types[e.extra.type].append(e)
+            entity_types[document.Entity.TYPE(e)].append(e)
         # Remove the submatches from each subset.
         filtered = []
         for entities in entity_types.values():
             filtered.extend(_remove_submatches(entities))
             entities.clear()  # entity_types is reused across sentences
-        article.Entity.sort(filtered)
+        document.Entity.sort(filtered)
         sentence.entities = filtered
 
 
