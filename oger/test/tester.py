@@ -39,8 +39,8 @@ import os
 from datetime import datetime
 
 from ..ctrl.run import run
-from ..ctrl.router import Router
 from ..ctrl import parameters
+from .. import doc
 
 
 #############################
@@ -53,7 +53,7 @@ TERMLIST = join(TESTFILES, 'test_terms.tsv')
 CACHE = tempfile.TemporaryDirectory()
 IDFILES = join(TESTFILES, 'idfiles')
 OUTPUT = 'oger-test'
-OUTPUT_FORMATS = Router.OUTFMTS
+OUTPUT_FORMATS = doc.OUTFMTS
 
 TESTCASES = [
     'txt_directory',

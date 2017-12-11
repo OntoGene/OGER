@@ -444,7 +444,7 @@ class BioCReader(object):
     def meta_dict(cls, node):
         'Read metadata into a dictionary.'
         meta = {n: node.find(n).text for n in ('source', 'date', 'key')}
-        meta['infon'] = cls.infon_dict(node)
+        meta.update(cls.infon_dict(node))
         return meta
 
     @staticmethod

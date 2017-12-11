@@ -23,6 +23,7 @@ import configparser as cp
 from collections import defaultdict
 
 from .. import __version__
+from ..doc import OUTFMTS
 from ..util.misc import BackwardsCompatibility
 
 
@@ -91,12 +92,17 @@ class ParamBase(object):
         return tuple(arg)
 
     @staticmethod
-    def mapping(arg):
+    def mapping(arg, allow_None=False):
         '''
         If arg is a string, parse it as a JSON object.
+
+        If allow_None is True, None may be returned instead
+        of a dict instance.
         '''
         if isinstance(arg, str):
             arg = json.loads(arg)
+        if allow_None and arg is None:
+            return None
         return dict(arg)
 
     @staticmethod
@@ -210,7 +216,8 @@ class Params(ParamBase):
     # This is a list of field labels.
     # If there are multiple termlists, all must have the same length.
     extra_fields = ()
-    # Map default field
+    # Map the default fields to custom names.
+    # Must be a mapping or a string with a JSON object.
     field_names = ()
 
     # Format-specific output flags:
@@ -310,6 +317,7 @@ class Params(ParamBase):
         self.field_names = self.mapping(self.field_names)
         self.include_header = self.bool(self.include_header)
         self.sentence_level = self.bool(self.sentence_level)
+        self.bioc_meta = self.mapping(self.bioc_meta, allow_None=True)
 
         self.brat_bin_attributes = self.split(self.brat_bin_attributes)
         self.brat_mv_attributes = self.split(self.brat_mv_attributes)
@@ -445,7 +453,6 @@ def parse_cmdline(args=None):
     # Get defaults defined elsewhere.
     from . import router  # imported here to avoid cyclic dependencies
     infmts = router.Router.LOADERS
-    outfmts = router.Router.OUTFMTS
 
     ap = argparse.ArgumentParser(
         description='Run the Ontogene pipeline.',
@@ -510,7 +517,7 @@ def parse_cmdline(args=None):
         help='target location '
              '(default: {})'.format(Params.output_directory))
     pg.add_argument(
-        '-e', '--export-format', nargs='+', metavar='FMT', choices=outfmts,
+        '-e', '--export-format', nargs='+', metavar='FMT', choices=OUTFMTS,
         help='format of the output files (multiple fomats are allowed). '
              'Valid formats are: %(choices)s. '
              '(default: {})'.format(Params.export_format))

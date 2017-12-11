@@ -22,7 +22,7 @@ highest level of abstraction to lowest:
     by one), or for iterating over a series of items.
 - Router: translates configurations into the right calls.
     Provides iterators over pointers (file names or IDs) and
-    loaded documents/collections, as well as a write() method
+    loaded documents/collections, as well as an export() method
     which is connected to the right export method(s).
 - Params (module parameters): merges config from all layers.
     Provides hard-coded defaults for each parameter, which are
@@ -39,13 +39,13 @@ highest level of abstraction to lowest:
 
 import os.path
 import glob
-import json
 import string
 import logging
 from datetime import datetime
 
 from . import parameters
 from ..doc.document import Exporter, Collection, Entity
+from ..doc import EXPORTERS
 from ..doc import load
 from ..nlp.tokenize import Text_processing
 from ..er.entity_recognition import EntityRecognizer, AbbrevDetector
@@ -111,9 +111,9 @@ class PipelineServer(object):
         'Postfilter an article/collection.'
         self.conf.postfilter(content)
 
-    def write(self, content):
+    def export(self, content):
         'Write an article/collection to disc.'
-        self.conf.write(content)
+        self.conf.export(content)
 
 
 class Router(object):
@@ -478,87 +478,18 @@ class Router(object):
     # OUTPUT methods. #
     # =============== #
 
-    def write(self, content):
+    def export(self, content):
         '''
         Use the configured output method for exporting this article/collection.
         '''
-        for exporter, fmt, ext, exp_params in self._exporters:
-            open_params = dict(
-                file=self.get_out_path(content.id_, content.basename, fmt, ext))
-            if ext == 'xml':
-                open_params['mode'] = 'wb'
-            else:
-                open_params['mode'] = 'w'
-                open_params['encoding'] = 'utf8'
-            try:
-                self._open_write(open_params, content, exporter, exp_params)
-            except OSError as e:
-                if e.errno != os.errno.ENOENT:
-                    raise
-                # An intermediate directory didn't exist.
-                # Create it and try again.
-                # (Use exist_ok because of race conditions -- another
-                # worker might have created it in the meantime.)
-                os.makedirs(os.path.dirname(open_params['file']), exist_ok=True)
-                self._open_write(open_params, content, exporter, exp_params)
-
-    @staticmethod
-    def _open_write(open_params, content, exporter, exp_params):
-        with open(**open_params) as f:
-            exporter(content, f, **exp_params)
-
-    # Keep this list up to date: It is needed for the commandline interface.
-    OUTFMTS = ('tsv', 'text_tsv', 'xml', 'text_xml', 'bioc', 'odin', 'brat',
-               'becalm_tsv', 'becalm_json')
+        for exporter in self._exporters:
+            exporter.export(content)
 
     def _get_exporters(self):
         '''
-        Map the `export_format` setting to Article's export methods.
+        Create all required exporters.
         '''
-        exporters = []
-        params = {'tsv': dict(include_header=self.p.include_header),
-                  'bioc': dict(sentence_level=self.p.sentence_level,
-                               byte_offsets=self.p.byte_offsets,
-                               meta=self._parse_bioc_meta(self.p.bioc_meta)),
-                  'brat_ann': dict(attributes=self.p.brat_attributes),
-                 }
-        for exp_fmt in self.p.export_format:
-            if exp_fmt == 'tsv':
-                exporters.append((Exporter.write_tsv_legacy_format,
-                                  exp_fmt, 'tsv', params['tsv']))
-            elif exp_fmt == 'text_tsv':
-                exporters.append((Exporter.write_text_tsv_format,
-                                  exp_fmt, 'tsv', params['tsv']))
-            elif exp_fmt == 'becalm_tsv':
-                exporters.append((Exporter.write_becalm_tsv,
-                                  exp_fmt, 'tsv', params['tsv']))
-            elif exp_fmt == 'becalm_json':
-                exporters.append((Exporter.write_becalm_json,
-                                  exp_fmt, 'json', {}))
-            elif exp_fmt == 'xml':
-                exporters.append((Exporter.write_entities_xml,
-                                  exp_fmt, 'xml', {}))
-            elif exp_fmt == 'text_xml':
-                exporters.append((Exporter.write_xml, exp_fmt, 'xml', {}))
-            elif exp_fmt == 'bioc':
-                exporters.append((Exporter.write_bioc,
-                                  exp_fmt, 'xml', params['bioc']))
-            elif exp_fmt == 'odin':
-                exporters.append((Exporter.write_odin, exp_fmt, 'xml', {}))
-            elif exp_fmt == 'brat':
-                # Brat format needs two files.
-                exporters.append((Exporter.write_brat_txt, exp_fmt, 'txt', {}))
-                exporters.append((Exporter.write_brat_ann,
-                                  exp_fmt, 'ann', params['brat_ann']))
-            elif callable(exp_fmt):
-                # Undocumented feature: external export method.
-                # As we know nothing about the fn extension, use '.data'.
-                # Use the `fn_format_out` setting to define a proper extension.
-                exporters.append((exp_fmt, 'external', 'data', {}))
-            else:
-                raise NotImplementedError(
-                    'Unsupported export method: {}'.format(exp_fmt))
-        return exporters
+        return [EXPORTERS[fmt](self, fmt) for fmt in self.p.export_format]
 
     @staticmethod
     def _get_postfilter(path):
@@ -582,23 +513,6 @@ class Router(object):
         from importlib.machinery import SourceFileLoader
         m = SourceFileLoader('postfilter', path).load_module()
         return getattr(m, func)
-
-    @staticmethod
-    def _parse_bioc_meta(exp):
-        '''
-        Turn the option string into a dictionary.
-        '''
-        if exp is None:
-            return None
-        meta = {}
-        if isinstance(exp, str):
-            exp = json.loads(exp)
-        for k, v in exp.items():
-            if k in ('source', 'date', 'key'):
-                meta[k] = v
-            else:
-                meta.setdefault('infon', {})[k] = v
-        return meta
 
     def get_in_path(self, id_):
         '''

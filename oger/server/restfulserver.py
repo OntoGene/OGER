@@ -9,7 +9,6 @@ A RESTful API for OGER.
 '''
 
 
-import io
 import os
 import sys
 import json
@@ -17,14 +16,13 @@ import logging
 import argparse
 import datetime
 import multiprocessing as mp
-from itertools import cycle
-from collections import defaultdict
 
 from lxml import etree as ET
 from bottle import get, post, response, request, error, HTTPError
 from bottle import run as run_bottle
 
 from ..ctrl import router, parameters
+from .expfmts import EXPORT_FMTS, export
 
 
 # ============= #
@@ -89,7 +87,6 @@ def init(pl_conf, bottle_conf):
     global ann_manager
 
     # Pipeline config.
-    pl_conf.setdefault('article_format', 'pubmed')
     pl_params = parameters.Params(**pl_conf)
     # Organise logging after basicConfig was called in the Params constructor,
     # but before anything interesting happens (like termlist loading).
@@ -115,73 +112,6 @@ def setup_logging():
 
 
 # =============== #
-# Export handler. #
-# =============== #
-
-class Exporter(object):
-    """Handler for exporting articles."""
-
-    @classmethod
-    def export(cls, article, fmt):
-        'Determine and apply the correct export function.'
-        try:
-            return getattr(cls, fmt)(article)
-        except Exception:
-            logging.exception('Export to %s failed.', fmt)
-            raise
-
-    @classmethod
-    def formats(cls):
-        'Iterate over the names of available formats.'
-        for name in dir(cls):
-            if not name.startswith('_') and name not in ('export', 'formats'):
-                yield name
-
-    @staticmethod
-    def _serialise_xml(node, **kwargs):
-        return ET.tostring(node, method='xml', encoding='UTF-8',
-                           xml_declaration=True, pretty_print=True, **kwargs)
-
-    @classmethod
-    def xml(cls, article):
-        'Export annotations in XML format.'
-        response.content_type = 'text/xml; charset=UTF-8'
-        return cls._serialise_xml(article.entities_xml())
-
-    @staticmethod
-    def tsv(article):
-        'Export annotations in TSV format.'
-        response.content_type = 'text/tab-separated-values; charset=UTF-8'
-        with io.StringIO() as f:
-            article.write_tsv(f, include_header=True, all_tokens=False)
-            data = f.getvalue()
-        return data
-
-    @staticmethod
-    def bioc(article):
-        'Export text and annotations in BioC format.'
-        response.content_type = 'text/xml; charset=UTF-8'
-        with io.BytesIO() as f:
-            for fragment in article.bioc_iter_bytes():
-                f.write(fragment)
-            data = f.getvalue()
-        return data
-
-    @classmethod
-    def odin(cls, article):
-        "Export text and annotations in color-enhanced ODIN format."
-        response.content_type = 'text/xml; charset=UTF-8'
-        return cls._serialise_xml(furbish_odin(article.odin()))
-
-    @classmethod
-    def odin_custom(cls, article):
-        "Export text and annotations in ODIN format with a custom CSS."
-        response.content_type = 'text/xml; charset=UTF-8'
-        doctype = '<?xml-stylesheet href="odin.css" type="text/css"?>'
-        return cls._serialise_xml(article.odin(), doctype=doctype)
-
-
-# =============== #
 # Route handling. #
 # =============== #
 
@@ -196,7 +126,7 @@ UPLOAD_FMTS = ('txt', 'bioc', 'pxml', 'nxml', 'pxml.gz')
 
 SOURCE = '/<source:re:{}>'.format('|'.join(FETCH_SOURCES))
 IN_FMT = '/<in_fmt:re:{}>'.format('|'.join(UPLOAD_FMTS))
-OUT_FMT = '/<out_fmt:re:{}>'.format('|'.join(Exporter.formats()))
+OUT_FMT = '/<out_fmt:re:{}>'.format('|'.join(EXPORT_FMTS))
 DOCID_WILDCARD = '/<docid:re:[1-9][0-9]*>'
 
 
@@ -313,7 +243,7 @@ Valid DOC_ID values:
 [1-9][0-9]*
 '''.format(sources='|'.join(FETCH_SOURCES),
            in_fmt='|'.join(UPLOAD_FMTS),
-           out_fmt='|'.join(Exporter.formats()))
+           out_fmt='|'.join(EXPORT_FMTS))
     msg = '<html><body><p>{}</p></body></html>\n'.format(
         msg.replace('\n\n', '</p><p>').replace('\n', '<br/>'))
     # raise HTTPError(400, msg)
@@ -471,13 +401,18 @@ class _Annotator:
         '''
         Load, process, and export one document or collection.
         '''
+        ctype, data = self._process(args)
+        response.content_type = ctype
+        return data
+
+    def _process(self, args):
         raise NotImplementedError
 
     @staticmethod
     def _load_process_export(server, data, in_fmt, out_fmt, docid):
         article = server.load_one(data, in_fmt, docid=docid)
         server.process(article)
-        return Exporter.export(article, out_fmt)
+        return export(server.conf, article, out_fmt)
 
 class BlockingAnnotator(_Annotator):
     '''
@@ -491,7 +426,7 @@ class BlockingAnnotator(_Annotator):
     def is_ready():
         return True
 
-    def process(self, args):
+    def _process(self, args):
         return self._load_process_export(self._server, *args)
 
 class AsyncAnnotator(_Annotator):
@@ -526,16 +461,14 @@ class AsyncAnnotator(_Annotator):
                 self._ready = True
         return self._ready
 
-    def process(self, args):
+    def _process(self, args):
         if not self.is_ready():
             raise RuntimeError('annotator not yet loaded')
         self._downstream.put(args)
         result = self._upstream.get()
         if isinstance(result, Exception):
             raise result
-        data, ctype = result
-        response.content_type = ctype
-        return data
+        return result
 
     @classmethod
     def _run(cls, config, requests, responses):
@@ -548,62 +481,7 @@ class AsyncAnnotator(_Annotator):
 
         for args in iter(requests.get, None):
             try:
-                data = cls._load_process_export(server, *args)
-                ctype = response.content_type
-                result = data, ctype
+                result = cls._load_process_export(server, *args)
             except Exception as e:
                 result = e
             responses.put(result)
-
-
-# ============ #
-# Helper tool. #
-# ============ #
-
-def furbish_odin(node):
-    '''
-    Add term highlighting.
-
-    Add tooltip text showing the entity type.
-    Use inline styles for bg-coloring the terms.
-    (Inline styles are bad practice, but it's hard to do better
-    without knowning the entity types in advance -- those can be
-    customised at runtime by the user.)
-    '''
-    colors = cycle('cyan magenta gold chartreuse red lavender '
-                   'yellowgreen orange skyblue grey'.split())
-    entity_colors = defaultdict(lambda: next(colors))
-
-    for term in node.iterfind('.//Term'):
-        # Add tooltip text and background coloring.
-        entity_type = min(term.get('type').split('|'), key=_type_priority)
-        term.set('type', entity_type)  # update this attribute
-        term.set('title', '\n'.join(term.get('allvalues').split('|')))
-        color = entity_colors[entity_type]
-        term.set('style', 'background-color: {}'.format(color))
-
-    # Changes were made in-place, but return the node anyway.
-    return node
-
-def _type_priority(type_):
-    '''
-    Use a hard-coded priority for type disambiguation.
-    '''
-    # Unknown (=user-defined) types are favored over known ones.
-    # Multiple unknown types are compared alphabetically.
-    return type_priorities.get(type_, -1), type_
-
-type_priorities = {
-    t: i for i, t in enumerate((
-        'biological_process',
-        'molecular_function',
-        'cellular_component',
-        'cell',
-        'disease',
-        'chemical',
-        'organism',
-        'sequence',
-        'cell_line',
-        'gene/protein',
-    ))
-}

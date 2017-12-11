@@ -107,4 +107,4 @@ def run_serial(conf, pointers=None):
         logging.info('Processing %s %s', level, content.id_)
         server.process(content)
         server.postfilter(content)
-        server.write(content)
+        server.export(content)
