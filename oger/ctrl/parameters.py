@@ -231,9 +231,11 @@ class Params(ParamBase):
     #   <infon> elements.
     bioc_meta = None
     # - BioC format: calculate offsets in bytes instead of codepoints.
-    #   If correct offsets are already given through (BioC) input, then set
-    #   anchor to "passage" or "sentence". Otherwise, any value evaluating to
-    #   true enables offset recomputation from the start of each document.
+    #   If byte offsets are already given through (BioC) input, then set
+    #   the value to "passage", "sentence", "annotation", or any combination
+    #   (the value can be a sequence or a concatenated string).
+    #   Any other value evaluating to True enables offset recomputation
+    #   from the start of each document.
     byte_offsets = None
     # - Brat format: fields that go into attribute annotations.
     brat_bin_attributes = ()  # binary attributes

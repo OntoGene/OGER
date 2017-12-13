@@ -18,7 +18,7 @@ from .document import Collection, Article, Entity, EntityTuple
 from .load import CollLoader, text_node
 from .export import XMLMemoryFormatter
 from ..util.iterate import peekaheaditer
-from ..util.misc import iter_codepoint_indices_utf8
+from ..util.misc import iter_codepoint_indices_utf8, iter_byte_indices_utf8
 
 
 class BioCLoader(CollLoader):
@@ -30,6 +30,8 @@ class BioCLoader(CollLoader):
     def __init__(self, config):
         super().__init__(config)
         self._warned_already = set()  # cache warnings
+        anchor = self.config.p.byte_offsets
+        self._anno_byte_offsets = bool(anchor and 'annotation' in anchor)
 
     def collection(self, source, id_):
         '''
@@ -69,14 +71,13 @@ class BioCLoader(CollLoader):
         article.year = article.metadata.pop('year', None)
         article.type_ = article.metadata.pop('type', None)
         for passage in node.iterfind('passage'):
-            sec_type, text, offset, infon = self._section(passage)
+            sec_type, text, offset, infon, anno = self._section(passage)
             article.add_section(sec_type, text, offset)
-            article.subelements[-1].metadata = infon
-            self._insert_annotations(article.subelements[-1],
-                                     passage.iterfind('.//annotation'))
+            section = article.subelements[-1]
+            section.metadata = infon
+            self._insert_annotations(section, anno)
             # Get infon elements on sentence level.
-            for sent, sent_node in zip(article.subelements[-1],
-                                       passage.iterfind('sentence')):
+            for sent, sent_node in zip(section, passage.iterfind('sentence')):
                 sent.metadata = self.infon_dict(sent_node)
         return article
 
@@ -87,8 +88,16 @@ class BioCLoader(CollLoader):
         offset = int(node.find('offset').text)
         text = text_node(node, 'text', ifnone='')
         if text is None:
-            text = (self._sentence(s) for s in node.iterfind('sentence'))
-        return type_, text, offset, infon
+            # Text and annotations at sentence level.
+            text, anno = [], []
+            for sent in node.iterfind('sentence'):
+                t, o = self._sentence(sent)
+                text.append((t, o))
+                anno.extend(self._get_annotations(sent, t, o))
+        else:
+            # Text and annotations at passage level.
+            anno = self._get_annotations(node, text, offset)
+        return type_, text, offset, infon, anno
 
     @staticmethod
     def _sentence(node):
@@ -97,26 +106,46 @@ class BioCLoader(CollLoader):
         text = text_node(node, 'text', ifnone='')
         return text, offset
 
+    def _get_annotations(self, node, text, offset):
+        '''
+        Iterate over annotations.
+
+        Any non-contiguous annotation is split up into
+        multiple contiguous annotations.
+
+        If the offsets are given as bytes, recalculate them
+        wrt codepoints, relative to the start offset of the
+        level at which they are anchored (sentence/passage).
+        '''
+        if self._anno_byte_offsets:
+            index = list(iter_byte_indices_utf8(text))
+            def _offset_conv(i):
+                return index[i-offset]+offset
+            for start, end, anno in self._get_raw_annotations(node):
+                start, end = _offset_conv(start), _offset_conv(end)
+                yield (start, end, anno)
+        else:
+            yield from self._get_raw_annotations(node)
+
+    @staticmethod
+    def _get_raw_annotations(node):
+        for anno in node.iterfind('annotation'):
+            for loc in anno.iterfind('location'):
+                start = int(loc.get('offset'))
+                end = start + int(loc.get('length'))
+                yield (start, end, anno)
+
     def _insert_annotations(self, section, annotations):
         '''
         Add term annotations to the correct sentence.
 
         This method changes the section by side-effect.
-
-        Any non-contiguous annotation is split up into
-        multiple contiguous annotations.
         '''
-        entities = []
-        for anno in annotations:
-            for loc in anno.iterfind('location'):
-                start = int(loc.get('offset'))
-                end = start + int(loc.get('length'))
-                entities.append((start, end, anno))
-
+        entities = sorted(annotations, key=lambda e: e[:2])
         if not entities:
+            # Short circuit if possible.
             return
 
-        entities.sort(key=lambda e: e[:2])
         sentences = iter(section)
         try:
             sent = next(sentences)
@@ -344,7 +373,8 @@ class BioCByteOffsetManager(BioCOffsetManager):
     Keep track of bytes offsets.
     '''
     def __init__(self, anchor):
-        self.anchor = anchor
+        self._passage_anchor = 'passage' in anchor
+        self._sentence_anchor = 'sentence' in anchor
         self._cumulated = 0
         self._last_sentence = 0
         self._sent_start = None
@@ -356,11 +386,14 @@ class BioCByteOffsetManager(BioCOffsetManager):
 
         Update counts and return the cumulated start offset.
         '''
-        if self.anchor == 'passage':
+        if self._passage_anchor:
             self._cumulated = section.start
+        elif self._sentence_anchor and section.subelements:
+            # If there are sentence anchors, use the first sentence's offset.
+            self._cumulated = section.subelements[0].start
         else:
             self._cumulated += self._last_sentence
-            self._last_sentence = 0
+        self._last_sentence = 0
         return self._cumulated
 
     def sentence(self, sentence):
@@ -371,11 +404,11 @@ class BioCByteOffsetManager(BioCOffsetManager):
         '''
         self._cp_index = list(iter_codepoint_indices_utf8(sentence.text))
         self._sent_start = sentence.start
-        if self.anchor == 'sentence':
+        if self._sentence_anchor:
             self._cumulated = sentence.start
         else:
             self._cumulated += self._last_sentence
-            self._last_sentence = self._cp_index[-1]
+        self._last_sentence = self._cp_index[-1]
         return self._cumulated
 
     def entity(self, entity):
