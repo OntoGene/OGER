@@ -410,7 +410,7 @@ class _Annotator:
 
     @staticmethod
     def _load_process_export(server, data, in_fmt, out_fmt, docid):
-        article = server.load_one(data, in_fmt, docid=docid)
+        article = server.load_one(data, in_fmt, id_=docid)
         server.process(article)
         return export(server.conf, article, out_fmt)
 

@@ -5,7 +5,7 @@
 
 
 '''
-Base formatter class.
+Formatter base classes.
 '''
 
 

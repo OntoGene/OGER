@@ -5,14 +5,85 @@
 
 
 '''
-Formatter for the BeCalm TIPS TSV and JSON formats.
+Loaders and formatters for the BeCalm TIPS formats.
 '''
 
 
 import json
+import codecs
+import logging
+from urllib import request as url_request
 
-from .document import Section, Entity
+from .document import Article, Section, Entity
+from .load import DocIterator
 from .export import StreamFormatter
+
+
+# ======== #
+# Loaders. #
+# ======== #
+
+
+class _BeCalmFetcher(DocIterator):
+    '''
+    Fetch documents from BeCalm's servers.
+    '''
+    domain = None
+    url = None
+    textfield = None
+
+    def iter_documents(self, source):
+        '''
+        Iterate over documents from a BeCalm server.
+        '''
+        return self._iter_documents(source)
+
+    def _iter_documents(self, docids):
+        if not isinstance(docids, (tuple, list)):
+            docids = list(docids)
+        if not docids:
+            raise ValueError('Empty doc-ID list.')
+        query = json.dumps({self.domain: docids}).encode('ascii')
+        headers = {'Content-Type': 'application/json'}
+        logging.info("POST request to BeCalm's server with the query %s", query)
+        req = url_request.Request(self.url, data=query, headers=headers)
+        with url_request.urlopen(req) as f:
+            docs = json.load(codecs.getreader('utf-8')(f))
+
+        for doc in docs:
+            yield self._document(doc)
+
+    def _document(self, doc):
+        id_ = doc['externalId']
+        title = doc['title']
+        text = doc[self.textfield]
+        article = Article(id_)
+        article.add_section('Title', title)
+        article.add_section('Abstract', text)
+        return article
+
+
+class BeCalmAbstractFetcher(_BeCalmFetcher):
+    '''
+    Fetch abstracts from BeCalm's abstract server.
+    '''
+    domain = 'abstracts'
+    url = 'http://193.147.85.10:8088/abstractserver/json'
+    textfield = 'text'
+
+
+class BeCalmPatentFetcher(_BeCalmFetcher):
+    '''
+    Fetch patent abstracts from BeCalm's patent server.
+    '''
+    domain = 'patents'
+    url = 'http://193.147.85.10:8087/patentserver/json'
+    textfield = 'abstractText'
+
+
+# =========== #
+# Formatters. #
+# =========== #
 
 
 class _BeCalmFormatter(StreamFormatter):

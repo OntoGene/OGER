@@ -9,15 +9,32 @@ Internal text representation.
 '''
 
 
+from .txt import TXTLoader
+from .pubmed import PXMLLoader, PXMLFetcher, MedlineLoader, PMCLoader, PMCFetcher
 from .tsv import TSVFormatter
 from .xml import EntityXMLFormatter, TextXMLFormatter
-from .bioc import BioCFormatter
+from .bioc import BioCLoader, BioCFormatter
 from .odin import ODINFormatter
 from .brat import BratFormatter
+from .becalm import BeCalmAbstractFetcher, BeCalmPatentFetcher
 from .becalm import BeCalmTSVFormatter, BeCalmJSONFormatter
 
 
-# Keep this mapping up to date.
+# Keep these mappings up to date.
+LOADERS = {
+    'txt': TXTLoader,
+    'bioc': BioCLoader,
+    'becalmabstracts': BeCalmAbstractFetcher,
+    'becalmpatents': BeCalmPatentFetcher,
+    'pubmed': PXMLFetcher,
+    'pxml': PXMLLoader,
+    'pxml.gz': MedlineLoader,
+    'pmc': PMCFetcher,
+    'nxml': PMCLoader,
+}
+
+INFMTS = list(LOADERS.keys())
+
 EXPORTERS = {
     'tsv': TSVFormatter,
     'text_tsv': TSVFormatter,

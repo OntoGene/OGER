@@ -45,8 +45,7 @@ from datetime import datetime
 
 from . import parameters
 from ..doc.document import Exporter, Collection, Entity
-from ..doc import EXPORTERS
-from ..doc import load
+from ..doc import EXPORTERS, LOADERS
 from ..nlp.tokenize import Text_processing
 from ..er.entity_recognition import EntityRecognizer, AbbrevDetector
 from ..util.iterate import iter_chunks
@@ -77,30 +76,22 @@ class PipelineServer(object):
         'Iterate over input articles/collections.'
         return self.conf.iter_contents(pointers)
 
-    def load_one(self, data, fmt, **params):
+    def load_one(self, data, fmt, id_=None, **params):
         'Load a single article/collection from arbitrary format.'
-        content = self._load(data, fmt, params)
-        if fmt in ('pubmed', 'pmc', 'pxml.gz',
-                   'becalmabstracts', 'becalmpatents'):
-            # These loaders return an iterator.
-            content = Collection.from_iterable(content, id_=None)
-        return content
+        loader = self._get_loader(fmt, params)
+        return loader.load_one(data, id_)
 
     def iter_load(self, data, fmt, **params):
         'Iterate over articles from arbitrary format.'
-        content = self._load(data, fmt, params)
-        if fmt in ('bioc', 'pubmed', 'pmc', 'pxml.gz',
-                   'becalmabstracts', 'becalmpatents'):
-            # These loaders return an iterator or a collection.
-            yield from content
+        loader = self._get_loader(fmt, params)
+        if hasattr(loader, 'iter_documents'):
+            yield from loader.iter_documents(data)
         else:
-            yield content
+            yield loader.load_one(data, id_=None)
 
-    def _load(self, data, fmt, params):
-        loader = Router.LOADERS[fmt]
-        specific_params = self.conf.get_load_params(fmt)
-        specific_params.update(params)
-        return loader(data, **specific_params)
+    def _get_loader(self, fmt, params):
+        conf = Router(self.conf, **params) if params else self.conf
+        return LOADERS[fmt](conf)
 
     def process(self, content):
         'Process one article/collection.'
@@ -123,7 +114,7 @@ class Router(object):
     def __init__(self, config=None, **kwargs):
         '''
         Allowed call signatures:
-          - `Router(config)` with a parameters.Params instance or a mapping
+          - `Router(config)` with a Router, a Params instance, or a mapping
           - `Router(key=value, ...)` with named parameters
           - `Router(config, key=value, ...)` with both
 
@@ -142,6 +133,9 @@ class Router(object):
 
     @staticmethod
     def _resolve_call_signature(config, params):
+        if isinstance(config, Router):
+            # In case of a Router, extract its Params attribute.
+            config = config.p
         if not params and isinstance(config, parameters.Params):
             # Only a Params instance is given, no need to create a new one.
             return config
@@ -196,32 +190,20 @@ class Router(object):
     # INPUT iterators. #
     # ================ #
 
-    LOADERS = {'txt': load.txt_to_article,
-               'pxml': load.pxml_to_article,
-               'pxml.gz': load.pxml_gz_to_articles,
-               'nxml': load.nxml_to_article,
-               'bioc': load.bioc_to_collection,
-               'pubmed': load.efetch_pxml,
-               'pmc': load.efetch_nxml,
-               'becalmabstracts': load.becalm_abstracts,
-               'becalmpatents': load.becalm_patents,
-              }
-
     def iter_contents(self, pointers=None):
         '''
         Iterate over loaded documents or collections.
         '''
         ctxt = LoadContext(self.p.ignore_load_errors,
                            bool(self.p.fallback_format))
-        loader = self.LOADERS[self.p.article_format]
-        params = self.get_load_params(self.p.article_format)
+        loader = LOADERS[self.p.article_format](self)
 
         if self.p.iter_mode == 'collection':
-            return self._iter_collections(pointers, ctxt, loader, params)
+            return self._iter_collections(pointers, ctxt, loader)
         else:
-            return self._iter_documents(pointers, ctxt, loader, params)
+            return self._iter_documents(pointers, ctxt, loader)
 
-    def _iter_collections(self, pointers, ctxt, loader, params):
+    def _iter_collections(self, pointers, ctxt, loader):
         '''
         Iterate over input collections.
 
@@ -236,24 +218,24 @@ class Router(object):
                 if id_ is None:
                     id_ = os.path.splitext(os.path.basename(path))[0]
                 with ctxt.setcurrent(id_):
-                    yield loader(path, id_, **params)
+                    yield loader.collection(path, id_)
         elif self.p.article_format == 'pxml.gz':
             # Each path node is a collection.
             for path, id_ in self.iter_path_ID(pointers):
                 if id_ is None:
                     id_ = os.path.splitext(os.path.splitext(
                         os.path.basename(path))[0])[0] # split away .xml.gz
-                yield self._collection(id_, ((path,), ctxt, loader, params))
+                yield self._collection(id_, ((path,), ctxt, loader))
         elif self.p.article_format in ('pubmed', 'pmc',
                                        'becalmabstracts', 'becalmpatents'):
             # All documents belong to the same collection.
             id_ = 'collection_{:%Y-%m-%d_%H%M%S}'.format(datetime.now())
-            yield self._collection(id_, (pointers, ctxt, loader, params))
+            yield self._collection(id_, (pointers, ctxt, loader))
         else:
             # Each subdirectory is a collection.
             # If there is no subdirectory, everything is one collection.
             for name, paths in self._iter_subdirs(pointers):
-                yield self._collection(name, (paths, ctxt, loader, params))
+                yield self._collection(name, (paths, ctxt, loader))
 
         yield from self._handle_missing_files(ctxt.pop())
 
@@ -266,7 +248,7 @@ class Router(object):
             coll.add_article(article)
         return coll
 
-    def _iter_documents(self, pointers, ctxt, loader, params):
+    def _iter_documents(self, pointers, ctxt, loader):
         '''
         Iterate over input documents.
         '''
@@ -275,28 +257,22 @@ class Router(object):
             it = self._iter_ids(pointers)  # use IDs, regardless of type
             for chunk in iter_chunks(it, self.p.efetch_max_ids):
                 with ctxt.setcurrent():
-                    yield from self._check_ids(chunk, loader, params)
-        elif self.p.article_format == 'pxml.gz':
+                    yield from self._check_ids(chunk, loader)
+        elif self.p.article_format in ('bioc', 'pxml.gz'):
             for path, id_ in self.iter_path_ID(pointers):
                 with ctxt.setcurrent(id_):
-                    yield from loader(path, **params)
-        elif self.p.article_format == 'bioc':
-            # BioC is loaded collection-wise.
-            # Iterate over its contained articles.
-            # Don't use the ctxt here, but pass it on to _iter_collections.
-            for coll in self._iter_collections(pointers, ctxt, loader, params):
-                yield from coll
+                    yield from loader.iter_documents(path)
         else:
             for path, id_ in self.iter_path_ID(pointers):
                 with ctxt.setcurrent(id_):
-                    article = loader(path, id_, **params)
+                    article = loader.document(path, id_)
                     article.basename = os.path.splitext(
                         os.path.basename(path))[0]
                     yield article
 
         yield from self._handle_missing_files(ctxt.pop())
 
-    def _check_ids(self, ids, loader, params):
+    def _check_ids(self, ids, loader):
         '''
         Check that an article is returned for each ID.
         '''
@@ -312,7 +288,7 @@ class Router(object):
 
         # Yield each article while updating the list of remaining IDs.
         try:
-            for a in loader(ids, **params):
+            for a in loader.iter_documents(ids):
                 try:
                     remaining.remove(a.id_)
                 except ValueError:
@@ -459,19 +435,6 @@ class Router(object):
         # Case 3: iterable of string.
         else:
             return iter(pointers)
-
-    def get_load_params(self, fmt):
-        '''
-        Pass the right loading parameters for this input format.
-        '''
-        params = {}
-        if fmt in ('pxml', 'pxml.gz', 'pubmed'):
-            params.update(include_mesh=self.p.include_mesh)
-        if fmt in ('pxml', 'pxml.gz', 'pubmed', 'txt'):
-            params.update(single_section=self.p.single_section)
-        if fmt == 'txt':
-            params.update(sentence_split=self.p.sentence_split)
-        return params
 
 
     # =============== #

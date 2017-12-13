@@ -23,7 +23,7 @@ import configparser as cp
 from collections import defaultdict
 
 from .. import __version__
-from ..doc import OUTFMTS
+from ..doc import INFMTS, OUTFMTS
 from ..util.misc import BackwardsCompatibility
 
 
@@ -450,10 +450,6 @@ def parse_cmdline(args=None):
     '''
     Parse commandline arguments into a dict of parameters.
     '''
-    # Get defaults defined elsewhere.
-    from . import router  # imported here to avoid cyclic dependencies
-    infmts = router.Router.LOADERS
-
     ap = argparse.ArgumentParser(
         description='Run the Ontogene pipeline.',
         usage='%(prog)s [OPTIONS] [-t (id|glob)] [POINTERS]',
@@ -502,12 +498,12 @@ def parse_cmdline(args=None):
         help='location of the raw articles '
              '(default: {})'.format(Params.input_directory))
     pg.add_argument(
-        '-f', '--article-format', metavar='FMT', choices=infmts,
+        '-f', '--article-format', metavar='FMT', choices=INFMTS,
         help='format of the input articles. '
              'Valid formats are: %(choices)s. '
              '(default: {})'.format(Params.article_format))
     pg.add_argument(
-        '-b', '--fallback-format', metavar='FMT', choices=infmts,
+        '-b', '--fallback-format', metavar='FMT', choices=INFMTS,
         help='if a file cannot be found based on its ID, '
              'fall back to using this format. '
              'This makes only sense for ID pointers! '

@@ -9,11 +9,152 @@ Loader and formatter for BioC XML.
 '''
 
 
+import logging
+
+from lxml import etree
 from lxml.builder import E
 
-from .document import Collection, Entity
+from .document import Collection, Article, Entity, EntityTuple
+from .load import CollLoader, text_node
 from .export import XMLMemoryFormatter
+from ..util.iterate import peekaheaditer
 from ..util.misc import iter_codepoint_indices_utf8
+
+
+class BioCLoader(CollLoader):
+    '''
+    Parser for BioC XML.
+
+    Currently, any existing relation nodes are discarded.
+    '''
+    def __init__(self, config):
+        super().__init__(config)
+        self._warned_already = set()  # cache warnings
+
+    def collection(self, source, id_):
+        '''
+        Read BioC XML into a document.Collection object.
+        '''
+        collection = Collection(id_)
+
+        it = peekaheaditer(self._iterparse(source))
+        coll_node = next(it).getparent()
+        collection.metadata = self._meta_dict(coll_node)
+
+        for doc in it:
+            collection.add_article(self._article(doc))
+
+        return collection
+
+    def iter_documents(self, source):
+        '''
+        Iterate over document.Article objects.
+        '''
+        for doc in self._iterparse(source):
+            yield self._article(doc)
+
+    @staticmethod
+    def _iterparse(source):
+        for _, node in etree.iterparse(source, tag='document'):
+            yield node
+            node.clear()
+
+    def _article(self, node):
+        '''
+        Read a document node into a document.Article object.
+        '''
+        article = Article(node.find('id').text)
+        article.metadata = self.infon_dict(node)
+        article.year = article.metadata.pop('year', None)
+        article.type_ = article.metadata.pop('type', None)
+        for passage in node.iterfind('passage'):
+            sec_type, text, offset, infon = self._section(passage)
+            article.add_section(sec_type, text, offset)
+            article.subelements[-1].metadata = infon
+            self._insert_annotations(article.subelements[-1],
+                                     passage.iterfind('.//annotation'))
+            # Get infon elements on sentence level.
+            for sent, sent_node in zip(article.subelements[-1],
+                                       passage.iterfind('sentence')):
+                sent.metadata = self.infon_dict(sent_node)
+        return article
+
+    def _section(self, node):
+        'Get type, text and offset from a passage node.'
+        infon = self.infon_dict(node)
+        type_ = infon.pop('type', None)
+        offset = int(node.find('offset').text)
+        text = text_node(node, 'text')
+        if text is None:
+            text = (self._sentence(s) for s in node.iterfind('sentence'))
+        return type_, text, offset, infon
+
+    @staticmethod
+    def _sentence(node):
+        'Get text and offset from a sentence node.'
+        offset = int(node.find('offset').text)
+        text = text_node(node, 'text', '')
+        return text, offset
+
+    def _insert_annotations(self, section, annotations):
+        '''
+        Add term annotations to the correct sentence.
+
+        This method changes the section by side-effect.
+
+        Any non-contiguous annotation is split up into
+        multiple contiguous annotations.
+        '''
+        entities = []
+        for anno in annotations:
+            for loc in anno.iterfind('location'):
+                start = int(loc.get('offset'))
+                end = start + int(loc.get('length'))
+                entities.append((start, end, anno))
+
+        if not entities:
+            return
+
+        entities.sort(key=lambda e: e[:2])
+        sentences = iter(section)
+        try:
+            sent = next(sentences)
+            for start, end, anno in entities:
+                while start >= sent.end:
+                    sent = next(sentences)
+                sent.entities.append(self._entity(anno, start, end))
+        except StopIteration:
+            logging.warning('annotations outside character range')
+
+    def _entity(self, anno, start, end):
+        'Create an EntityTuple instance from a BioC annotation node.'
+        id_ = anno.get('id')
+        text = text_node(anno, 'text')
+        info = self._entity_info(anno)
+        return EntityTuple(id_, text, start, end, info)
+
+    def _entity_info(self, anno):
+        'Create an `info` tuple.'
+        infons = self.infon_dict(anno)
+        values = tuple(infons.pop(label, 'unknown')
+                       for label in Entity.fields)
+        for unused in infons:
+            if unused not in self._warned_already:
+                logging.warning('ignoring BioC annotation attribute %s',
+                                unused)
+                self._warned_already.add(unused)
+        return values
+
+    def _meta_dict(self, node):
+        'Read metadata into a dictionary.'
+        meta = {n: node.find(n).text for n in ('source', 'date', 'key')}
+        meta.update(self.infon_dict(node))
+        return meta
+
+    @staticmethod
+    def infon_dict(node):
+        'Read all infon nodes into a dictionary.'
+        return {n.attrib['key']: n.text for n in node.iterfind('infon')}
 
 
 class BioCFormatter(XMLMemoryFormatter):
