@@ -251,6 +251,11 @@ class Evaluator(object):
             group = record[self.key_field]
             if group != current_group:
                 yield self._eval_group(current_group, current_records)
+                if current_group in seen_groups:
+                    logging.warning(
+                        'Annotations of the same group (document) should be '
+                        'in subsequent lines. Sort the records and/or specify '
+                        'the group-ID column (option -k).')
                 seen_groups.add(current_group)
                 current_records.clear()
                 current_group = group
