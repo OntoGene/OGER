@@ -44,7 +44,7 @@ import logging
 from datetime import datetime
 
 from . import parameters
-from ..doc.document import Exporter, Collection, Entity
+from ..doc.document import Collection, Entity
 from ..doc import EXPORTERS, LOADERS
 from ..nlp.tokenize import Text_processing
 from ..er.entity_recognition import EntityRecognizer, AbbrevDetector
@@ -69,8 +69,6 @@ class PipelineServer(object):
         'Make this server functional.'
         self.conf = conf
         self.ers = conf.entity_recognizers
-        # Make the tokenizers easily accessible to the article classes.
-        Exporter.tokenizer = conf.text_processor
 
     def iter_contents(self, pointers=None):
         'Iterate over input articles/collections.'

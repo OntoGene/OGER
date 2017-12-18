@@ -131,11 +131,9 @@ class Unit(object):
 
 
 class Exporter(Unit):
-    """Abstract class for exportable units."""
-
-    # The tokenizers are needed at different stages of processing.
-    # Set this attribute to a textprocessing object before using this class.
-    tokenizer = None
+    '''
+    Base class for exportable units (Collection and Article).
+    '''
 
     def __init__(self, id_, basename=None):
         super().__init__(id_)
@@ -169,10 +167,6 @@ class Exporter(Unit):
             return pickle.load(f)
 
 
-###################################
-# actual classes begin here #######
-###################################
-
 class Collection(Exporter):
     """A collection of multiple articles."""
     @classmethod
@@ -197,8 +191,11 @@ class Collection(Exporter):
 
 class Article(Exporter):
     '''An article with text, metadata and annotations.'''
-    def __init__(self, id_, basename=None):
+    def __init__(self, id_, basename=None, tokenizer=None):
         super().__init__(id_, basename)
+        # The tokenizer is used for sentence splitting and word tokenization.
+        # Depending on input and output format, it may or may not be needed.
+        self.tokenizer = tokenizer
 
         self.type_ = None
         self.year = None
@@ -237,7 +234,7 @@ class Section(Unit):
         if isinstance(text, str):
             # Single string element.
             self.add_sentences(
-                Exporter.tokenizer.span_tokenize_sentences(text, start))
+                self.article.tokenizer.span_tokenize_sentences(text, start))
             self._text = text
             # Use the length of the plain text avoids problems with
             # any trailing whitespace, which is reported inconsistently
@@ -328,7 +325,8 @@ class Sentence(Unit):
         Word-tokenize this sentence.
         '''
         if not self.subelements and self.text:
-            toks = Exporter.tokenizer.span_tokenize_words(self.text, self.start)
+            tokenizer = self.section.article.tokenizer
+            toks = tokenizer.span_tokenize_words(self.text, self.start)
             for id_, (token, start, end) in enumerate(toks):
                 self.add_subelement(Token(id_, token, start, end))
 

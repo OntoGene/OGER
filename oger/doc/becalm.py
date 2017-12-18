@@ -57,7 +57,7 @@ class _BeCalmFetcher(DocIterator):
         id_ = doc['externalId']
         title = doc['title']
         text = doc[self.textfield]
-        article = Article(id_)
+        article = Article(id_, tokenizer=self.config.text_processor)
         article.add_section('Title', title)
         article.add_section('Abstract', text)
         return article

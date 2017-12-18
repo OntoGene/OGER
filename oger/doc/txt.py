@@ -54,7 +54,7 @@ class TXTLoader(DocLoader):
             path = getattr(stream, 'name', None) or 'unknown'
             docid = os.path.splitext(os.path.basename(path))[0]
 
-        article = Article(docid)
+        article = Article(docid, tokenizer=self.config.text_processor)
         for text in sections:
             if not self.config.p.sentence_split:
                 text = ''.join(text)

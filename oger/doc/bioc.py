@@ -63,7 +63,8 @@ class BioCLoader(CollLoader):
         '''
         Read a document node into a document.Article object.
         '''
-        article = Article(node.find('id').text)
+        article = Article(node.find('id').text,
+                          tokenizer=self.config.text_processor)
         article.metadata = self.infon_dict(node)
         article.year = article.metadata.pop('year', None)
         article.type_ = article.metadata.pop('type', None)

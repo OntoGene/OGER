@@ -29,7 +29,7 @@ class _MedlineParser(_Loader):
         if docid is None:
             docid = text_node(node, './/PMID')
 
-        article = Article(docid)
+        article = Article(docid, tokenizer=self.config.text_processor)
         # Add metadata if they can be found.
         article.year = text_node(node, './/DateCompleted/Year')
         # There may be multiple publication types -- the first one is enough.
@@ -112,7 +112,7 @@ class _PMCParser(_Loader):
         if docid is None:
             docid = node.find('.//article-id[@pub-id-type="pmc"]').text
 
-        article = Article(docid)
+        article = Article(docid, tokenizer=self.config.text_processor)
         article.add_section('title', title)
         article.add_section('abstract', abstract)
         if body:
