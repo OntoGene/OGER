@@ -83,11 +83,19 @@ class DocIterator(_Loader):
         raise NotImplementedError()
 
 
-def text_node(tree_or_elem, xpath, default=None):
+def text_node(tree_or_elem, xpath, onerror=None, ifnone=None):
     '''
-    Get the text node of the referenced element, or default.
+    Get the text node of the referenced element.
+
+    If the node cannot be found, return `onerror`:
+    If the node is found, but its text content is None,
+    return ifnone.
     '''
     try:
-        return tree_or_elem.find(xpath).text
+        text = tree_or_elem.find(xpath).text
     except AttributeError:
-        return default
+        text = onerror
+    else:
+        if text is None:
+            text = ifnone
+    return text

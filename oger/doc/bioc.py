@@ -85,7 +85,7 @@ class BioCLoader(CollLoader):
         infon = self.infon_dict(node)
         type_ = infon.pop('type', None)
         offset = int(node.find('offset').text)
-        text = text_node(node, 'text')
+        text = text_node(node, 'text', ifnone='')
         if text is None:
             text = (self._sentence(s) for s in node.iterfind('sentence'))
         return type_, text, offset, infon
@@ -94,7 +94,7 @@ class BioCLoader(CollLoader):
     def _sentence(node):
         'Get text and offset from a sentence node.'
         offset = int(node.find('offset').text)
-        text = text_node(node, 'text', '')
+        text = text_node(node, 'text', ifnone='')
         return text, offset
 
     def _insert_annotations(self, section, annotations):
@@ -130,7 +130,7 @@ class BioCLoader(CollLoader):
     def _entity(self, anno, start, end):
         'Create an EntityTuple instance from a BioC annotation node.'
         id_ = anno.get('id')
-        text = text_node(anno, 'text')
+        text = text_node(anno, 'text', ifnone='')
         info = self._entity_info(anno)
         return EntityTuple(id_, text, start, end, info)
 
