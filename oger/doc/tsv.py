@@ -85,16 +85,16 @@ class TSVFormatter(StreamFormatter):
                 # Add a rich line for each entity (possibly multiple lines
                 # for the same token(s)).
                 writer.writerow((article.id_,
-                                 entity.type(),
+                                 entity.type,
                                  entity.start,
                                  entity.end,
                                  entity.text,
-                                 entity.pref(),
-                                 entity.cid(),
+                                 entity.pref,
+                                 entity.cid,
                                  section_type,
                                  sent_id,
-                                 entity.db())
-                                + entity.extra())
+                                 entity.db)
+                                + entity.extra)
                 last_end = max(last_end, entity.end)
             # Add sparse lines for the remaining tokens.
             for row in interlines(last_end, float('inf'), toks, ids):

@@ -109,8 +109,8 @@ class _BeCalmFormatter(StreamFormatter):
                     entity.end,
                     0.5,  # dummy score
                     entity.text,
-                    entity.type(),
-                    entity.cid(),
+                    entity.type,
+                    entity.cid,
                 )
 
 

@@ -399,22 +399,27 @@ class Entity(object):
 
     # Accessor methods for the standard fields:
 
+    @property
     def type(self):
         'Entity-type field.'
         return self.info[0]
 
+    @property
     def pref(self):
         'Preferred-form field.'
         return self.info[1]
 
+    @property
     def db(self):
         'Original-resource field.'
         return self.info[2]
 
+    @property
     def cid(self):
         'Concept-ID field (defined by DB).'
         return self.info[3]
 
+    @property
     def extra(self):
         'Any additional fields.'
         return self.info[5:]

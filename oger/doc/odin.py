@@ -169,9 +169,9 @@ class ODINFormatter(XMLMemoryFormatter):
         '''
         start = min(e.start for e in entities)
         end = max(e.end for e in entities)
-        values = '|'.join('{}:{}:{}'.format(e.cid(), e.type(), e.text)
+        values = '|'.join('{}:{}:{}'.format(e.cid, e.type, e.text)
                           for e in entities)
-        type_ = '|'.join(set(e.type() for e in entities))
+        type_ = '|'.join(set(e.type for e in entities))
         node = E('Term', allvalues=values, type=type_,
                  o1=str(start-offset), o2=str(end-offset))
         return start, end, node
@@ -193,11 +193,11 @@ class ODINFormatter(XMLMemoryFormatter):
         node = E('og-dict')
         seen = set()
         for entity in article.iter_entities():
-            id_ = entity.cid()
+            id_ = entity.cid
             if id_ not in seen:
                 node.append(E('og-dict-entry',
                               cid=str(id_),
-                              cname=entity.pref(),
-                              type=entity.type()))
+                              cname=entity.pref,
+                              type=entity.type))
                 seen.add(id_)
         return node
