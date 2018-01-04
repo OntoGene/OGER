@@ -161,13 +161,14 @@ class BioCLoader(CollLoader):
         id_ = anno.get('id')
         text = text_node(anno, 'text', ifnone='')
         info = self._entity_info(anno)
-        return EntityTuple(id_, text, start, end, info)
+        return EntityTuple(id_, text, start, end, info,
+                           self.config.entity_fields)
 
     def _entity_info(self, anno):
         'Create an `info` tuple.'
         infons = self.infon_dict(anno)
         values = tuple(infons.pop(label, 'unknown')
-                       for label in Entity.fields)
+                       for label in self.config.entity_fields)
         for unused in infons:
             if unused not in self._warned_already:
                 logging.warning('ignoring BioC annotation attribute %s',

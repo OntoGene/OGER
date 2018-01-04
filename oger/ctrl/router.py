@@ -94,7 +94,7 @@ class PipelineServer(object):
     def process(self, content):
         'Process one article/collection.'
         for er in self.ers:
-            content.recognize_entities(er)
+            content.recognize_entities(er, self.conf.entity_fields)
 
     def postfilter(self, content):
         'Postfilter an article/collection.'
@@ -121,7 +121,8 @@ class Router(object):
         self.p = self._resolve_call_signature(config, kwargs)
 
         # Register the entity fields, the exporter methods and the postfilter.
-        Entity.set_fields(self.p.extra_fields, self.p.field_names)
+        self.entity_fields = Entity.map_fields(self.p.extra_fields,
+                                               self.p.field_names)
         self._exporters = self._get_exporters()
         self.postfilter = self._get_postfilter(self.p.postfilter)
 

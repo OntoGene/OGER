@@ -139,7 +139,7 @@ class Exporter(Unit):
         super().__init__(id_)
         self.basename = basename
 
-    def recognize_entities(self, entity_recognizer):
+    def recognize_entities(self, entity_recognizer, entity_fields):
         '''
         Delegate entity recognition to the sentence unit.
         '''
@@ -151,7 +151,8 @@ class Exporter(Unit):
             if sentence.section.article != last_article:
                 entity_recognizer.reset()
                 last_article = sentence.section.article
-            id_ = sentence.recognize_entities(entity_recognizer, id_)
+            id_ = sentence.recognize_entities(entity_recognizer,
+                                              entity_fields, id_)
 
     def pickle(self, output_filename):
         '''
@@ -330,19 +331,20 @@ class Sentence(Unit):
             for id_, (token, start, end) in enumerate(toks):
                 self.add_subelement(Token(id_, token, start, end))
 
-    def recognize_entities(self, entity_recognizer, start_id=0):
+    def recognize_entities(self, entity_recognizer, entity_fields, start_id=0):
         '''
         Run entity recognition and sort the results by offsets.
         '''
         entities = entity_recognizer.recognize_entities(self.text)
         nonempty = bool(self.entities)
-        for id_, ((start, end), match) in enumerate(entities, start_id):
+        for id_, ((start, end), info) in enumerate(entities, start_id):
             surface = self.text[start:end]
             entity = EntityTuple(id_,
                                  surface,
                                  start+self.start,
                                  end+self.start,
-                                 match)
+                                 info,
+                                 entity_fields)
             self.entities.append(entity)
         try:
             final_id = id_ + 1
@@ -375,7 +377,7 @@ class Sentence(Unit):
 Token = namedtuple('Token', 'id_ text start end')
 
 
-EntityTuple = namedtuple('EntityTuple', 'id_ text start end info')
+EntityTuple = namedtuple('EntityTuple', 'id_ text start end info fields')
 
 
 class Entity(object):
@@ -416,20 +418,19 @@ class Entity(object):
         return entity.info[5:]
 
     @classmethod
-    def set_fields(cls, extra, renaming):
+    def map_fields(cls, extra, renaming):
         '''
         Extend and rename the default fields, if necessary.
         '''
-        fields = tuple(renaming.get(name, name)
-                       for name in it.chain(cls.fields, extra))
-        cls.fields = fields
+        return tuple(renaming.get(name, name)
+                     for name in it.chain(cls.fields, extra))
 
-    @classmethod
-    def info_items(cls, entity):
+    @staticmethod
+    def info_items(entity):
         '''
         Iterate over label-value pairs of entity.info.
         '''
-        for label, value in zip(cls.fields, entity.info):
+        for label, value in zip(entity.fields, entity.info):
             if label != 'ontogene_id':  # no use for the concept counter
                 yield label, value
 

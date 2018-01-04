@@ -25,7 +25,7 @@ class TSVFormatter(StreamFormatter):
     def __init__(self, config, fmt_name):
         super().__init__(config, fmt_name)
         self.all_tokens = fmt_name == 'text_tsv'
-        self.extra_fields = Entity.fields[5:]
+        self.extra_fields = self.config.entity_fields[5:]
         self.extra_dummy = ('',) * len(self.extra_fields)
 
     def write(self, stream, content):
