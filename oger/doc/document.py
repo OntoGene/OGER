@@ -339,12 +339,12 @@ class Sentence(Unit):
         nonempty = bool(self.entities)
         for id_, ((start, end), info) in enumerate(entities, start_id):
             surface = self.text[start:end]
-            entity = EntityTuple(id_,
-                                 surface,
-                                 start+self.start,
-                                 end+self.start,
-                                 info,
-                                 entity_fields)
+            entity = Entity(id_,
+                            surface,
+                            start+self.start,
+                            end+self.start,
+                            info,
+                            entity_fields)
             self.entities.append(entity)
         try:
             final_id = id_ + 1
@@ -355,7 +355,7 @@ class Sentence(Unit):
             # If the new annotations weren't the first ones, then they need
             # to be sorted in.
             if nonempty:
-                Entity.sort(self.entities)
+                self.entities.sort(key=Entity.sort_key)
         return final_id
 
     def iter_entities(self):
@@ -374,48 +374,50 @@ class Sentence(Unit):
             return default
 
 
+# The token-level unit really has no functionality.
 Token = namedtuple('Token', 'id_ text start end')
-
-
-EntityTuple = namedtuple('EntityTuple', 'id_ text start end info fields')
 
 
 class Entity(object):
     '''
     Link from textual evidence to a concept identifier.
-
-    Do not instantiate this class;
-    instead, use its class methods with a namedtuple
-    as first argument.
     '''
-    # Fields defined by the termlist.
-    fields = ('type', 'preferred_form',
-              'original_resource', 'original_id', 'ontogene_id')
+    __slots__ = ('id_', 'text', 'start', 'end', 'info', 'fields')
 
-    @classmethod
-    def TYPE(cls, entity):
+    # Default fields defined by the termlist.
+    std_fields = ('type', 'preferred_form',
+                  'original_resource', 'original_id', 'ontogene_id')
+
+    def __init__(self, id_, text, start, end, info, fields):
+        self.id_ = id_
+        self.text = text
+        self.start = start
+        self.end = end
+        self.info = info
+
+        self.fields = fields
+
+    # Accessor methods for the standard fields:
+
+    def type(self):
         'Entity-type field.'
-        return entity.info[0]
+        return self.info[0]
 
-    @classmethod
-    def PREF(cls, entity):
+    def pref(self):
         'Preferred-form field.'
-        return entity.info[1]
+        return self.info[1]
 
-    @classmethod
-    def DB(cls, entity):
+    def db(self):
         'Original-resource field.'
-        return entity.info[2]
+        return self.info[2]
 
-    @classmethod
-    def ID(cls, entity):
-        'Entity-ID field.'
-        return entity.info[3]
+    def cid(self):
+        'Concept-ID field (defined by DB).'
+        return self.info[3]
 
-    @classmethod
-    def EXTRA(cls, entity):
+    def extra(self):
         'Any additional fields.'
-        return entity.info[5:]
+        return self.info[5:]
 
     @classmethod
     def map_fields(cls, extra, renaming):
@@ -423,21 +425,20 @@ class Entity(object):
         Extend and rename the default fields, if necessary.
         '''
         return tuple(renaming.get(name, name)
-                     for name in it.chain(cls.fields, extra))
+                     for name in it.chain(cls.std_fields, extra))
 
-    @staticmethod
-    def info_items(entity):
+    def info_items(self):
         '''
         Iterate over label-value pairs of entity.info.
         '''
-        for label, value in zip(entity.fields, entity.info):
+        for label, value in zip(self.fields, self.info):
             if label != 'ontogene_id':  # no use for the concept counter
                 yield label, value
 
     @classmethod
     def sort(cls, entities):
         '''
-        Sort a list of entity tuples by offsets, in-place.
+        Sort a list of Entity instances by offsets, in-place.
         '''
         entities.sort(key=cls.sort_key)
 

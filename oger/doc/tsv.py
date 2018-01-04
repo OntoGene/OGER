@@ -11,7 +11,7 @@ Formatter for TSV output (with/without context).
 
 import csv
 
-from .document import Collection, Sentence, Entity
+from .document import Collection, Sentence
 from .export import StreamFormatter
 from ..util.iterate import CacheOneIter
 
@@ -85,16 +85,16 @@ class TSVFormatter(StreamFormatter):
                 # Add a rich line for each entity (possibly multiple lines
                 # for the same token(s)).
                 writer.writerow((article.id_,
-                                 Entity.TYPE(entity),
+                                 entity.type(),
                                  entity.start,
                                  entity.end,
                                  entity.text,
-                                 Entity.PREF(entity),
-                                 Entity.ID(entity),
+                                 entity.pref(),
+                                 entity.cid(),
                                  section_type,
                                  sent_id,
-                                 Entity.DB(entity))
-                                + Entity.EXTRA(entity))
+                                 entity.db())
+                                + entity.extra())
                 last_end = max(last_end, entity.end)
             # Add sparse lines for the remaining tokens.
             for row in interlines(last_end, float('inf'), toks, ids):

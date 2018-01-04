@@ -14,7 +14,7 @@ import codecs
 import logging
 from urllib import request as url_request
 
-from .document import Article, Section, Entity
+from .document import Article, Section
 from .load import DocIterator
 from .export import StreamFormatter
 
@@ -109,8 +109,8 @@ class _BeCalmFormatter(StreamFormatter):
                     entity.end,
                     0.5,  # dummy score
                     entity.text,
-                    Entity.TYPE(entity),
-                    Entity.ID(entity),
+                    entity.type(),
+                    entity.cid(),
                 )
 
 

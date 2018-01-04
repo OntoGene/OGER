@@ -13,7 +13,7 @@ import re
 import logging
 from collections import defaultdict
 
-from .document import Collection, Section, Entity
+from .document import Collection, Section
 from .export import StreamFormatter
 
 
@@ -105,7 +105,7 @@ class BratAnnFormatter(StreamFormatter):
     def _get_mentions(self, article):
         mentions = defaultdict(list)
         for e in article.iter_entities():
-            name = self._valid_fieldname(Entity.TYPE(e))
+            name = self._valid_fieldname(e.type())
             mentions[e.start, e.end, name, e.text].append(e)
         return mentions
 

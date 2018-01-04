@@ -11,7 +11,7 @@ Formatter for ODIN XML output.
 
 from lxml.builder import E
 
-from .document import Collection, Entity
+from .document import Collection
 from .export import XMLMemoryFormatter
 
 
@@ -169,11 +169,9 @@ class ODINFormatter(XMLMemoryFormatter):
         '''
         start = min(e.start for e in entities)
         end = max(e.end for e in entities)
-        values = '|'.join('{}:{}:{}'.format(Entity.ID(e),
-                                            Entity.TYPE(e),
-                                            e.text)
+        values = '|'.join('{}:{}:{}'.format(e.cid(), e.type(), e.text)
                           for e in entities)
-        type_ = '|'.join(set(Entity.TYPE(e) for e in entities))
+        type_ = '|'.join(set(e.type() for e in entities))
         node = E('Term', allvalues=values, type=type_,
                  o1=str(start-offset), o2=str(end-offset))
         return start, end, node
@@ -195,11 +193,11 @@ class ODINFormatter(XMLMemoryFormatter):
         node = E('og-dict')
         seen = set()
         for entity in article.iter_entities():
-            id_ = Entity.ID(entity)
+            id_ = entity.cid()
             if id_ not in seen:
                 node.append(E('og-dict-entry',
                               cid=str(id_),
-                              cname=Entity.PREF(entity),
-                              type=Entity.TYPE(entity)))
+                              cname=entity.pref(),
+                              type=entity.type()))
                 seen.add(id_)
         return node

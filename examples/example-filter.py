@@ -34,14 +34,12 @@ def change_origin(content):
     '''
     Change the original_resource field of every annotation to "Biogrid".
     '''
-    # The entities are nested tuples, therefore changing a value means
+    # The entity infos are tuples, therefore changing a value means
     # replacing it with a modified copy.
-    field = document.Entity.fields.index('original_resource')
-    for sentence in content.get_subelements(document.Sentence):
-        for i, entity in enumerate(sentence.entities):
-            info = entity.info[:field] + ('Biogrid',) + entity.info[field+1:]
-            entity = entity._replace(info=info)
-            sentence.entities[i] = entity
+    field = document.Entity.std_fields.index('original_resource')
+    for entity in content.iter_entities:
+        info = entity.info[:field] + ('Biogrid',) + entity.info[field+1:]
+        entity.info = info
 
 
 def remove_submatches(content):
@@ -64,13 +62,13 @@ def remove_sametype_submatches(content):
     for sentence in content.get_subelements(document.Sentence):
         # Divide the entities into subsets by entity type.
         for e in sentence.entities:
-            entity_types[document.Entity.TYPE(e)].append(e)
+            entity_types[e.type()].append(e)
         # Remove the submatches from each subset.
         filtered = []
         for entities in entity_types.values():
             filtered.extend(_remove_submatches(entities))
             entities.clear()  # entity_types is reused across sentences
-        document.Entity.sort(filtered)
+        filtered.sort(key=document.Entity.sort_key)
         sentence.entities = filtered
 
 

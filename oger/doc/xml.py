@@ -11,7 +11,7 @@ Formatter for simple XML output.
 
 from lxml.builder import E
 
-from .document import Collection, Entity
+from .document import Collection
 from .export import XMLMemoryFormatter
 
 
@@ -39,7 +39,7 @@ class EntityXMLFormatter(XMLMemoryFormatter):
                  start=str(entity.start),
                  end=str(entity.end))
 
-        for label, value in Entity.info_items(entity):
+        for label, value in entity.info_items():
             node.set(label, value)
 
         node.text = entity.text

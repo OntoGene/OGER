@@ -14,7 +14,7 @@ import logging
 from lxml import etree
 from lxml.builder import E
 
-from .document import Collection, Article, Entity, EntityTuple
+from .document import Collection, Article, Entity
 from .load import CollLoader, text_node
 from .export import XMLMemoryFormatter
 from ..util.iterate import peekaheaditer
@@ -157,12 +157,11 @@ class BioCLoader(CollLoader):
             logging.warning('annotations outside character range')
 
     def _entity(self, anno, start, end):
-        'Create an EntityTuple instance from a BioC annotation node.'
+        'Create an Entity instance from a BioC annotation node.'
         id_ = anno.get('id')
         text = text_node(anno, 'text', ifnone='')
         info = self._entity_info(anno)
-        return EntityTuple(id_, text, start, end, info,
-                           self.config.entity_fields)
+        return Entity(id_, text, start, end, info, self.config.entity_fields)
 
     def _entity_info(self, anno):
         'Create an `info` tuple.'
@@ -311,7 +310,7 @@ class BioCFormatter(XMLMemoryFormatter):
     def _entity(self, entity, offset_mngr):
         node = E('annotation', id=str(entity.id_))
 
-        for label, value in Entity.info_items(entity):
+        for label, value in entity.info_items():
             self._infon(node, label, value)
 
         start, length = offset_mngr.entity(entity)
