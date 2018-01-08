@@ -69,6 +69,20 @@ class BratAnnFormatter(StreamFormatter):
     ext = 'ann'
     _fieldname_pattern = re.compile(r'\W+')
 
+    def __init__(self, config, fmt_name):
+        super().__init__(config, fmt_name)
+        self.attributes = list(self._attribute_indices(self.config))
+
+    @staticmethod
+    def _attribute_indices(config):
+        for att, atype in config.p.brat_attributes:
+            try:
+                index = config.entity_fields.index(att)
+            except ValueError:
+                raise LookupError(
+                    'brat attribute: unknown entity field: {}'.format(att))
+            yield index, att, atype
+
     def write(self, stream, content):
         if isinstance(content, Collection):
             self._write_collection(stream, content)
@@ -95,8 +109,8 @@ class BratAnnFormatter(StreamFormatter):
                 # Add all remaining information as "AnnotatorNotes".
                 info = '\t'.join(e.info[1:])
                 stream.write('#{}\tAnnotatorNotes T{}\t{}\n'.format(n, t, info))
-                for att, atype in self.config.p.brat_attributes:
-                    value = getattr(e.info, att)
+                for i, att, atype in self.attributes:
+                    value = e.info[i]
                     if value:
                         a += 1
                         stream.write(self._attribute(atype, att, value, a, t))
