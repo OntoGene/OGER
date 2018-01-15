@@ -20,6 +20,7 @@ class Formatter:
     Base class for all formatters.
     '''
     ext = None
+    binary = False  # text or binary format?
 
     def __init__(self, config, fmt_name):
         self.config = config
@@ -57,7 +58,10 @@ class Formatter:
     def _get_open_params(self, content):
         path = self.config.get_out_path(content.id_, content.basename,
                                         self.fmt_name, self.ext)
-        return dict(file=path, mode='w', encoding='utf8')
+        if self.binary:
+            return dict(file=path, mode='wb')
+        else:
+            return dict(file=path, mode='w', encoding='utf8')
 
 
 class MemoryFormatter(Formatter):
@@ -77,12 +81,12 @@ class StreamFormatter(Formatter):
     Subclasses must override write(), on which dump() is based.
     '''
     def dump(self, content):
-        if 'b' in self._get_open_params(content)['mode']:
+        if self.binary:
             buffer = io.BytesIO()
         else:
             buffer = io.StringIO()
         self.write(buffer, content)
-        return buffer.value()
+        return buffer.getvalue()
 
 
 class XMLMemoryFormatter(MemoryFormatter):
@@ -93,6 +97,7 @@ class XMLMemoryFormatter(MemoryFormatter):
     an lxml.etree.Element node.
     '''
     ext = 'xml'
+    binary = True
 
     def dump(self, content):
         node = self._dump(content)
@@ -107,8 +112,3 @@ class XMLMemoryFormatter(MemoryFormatter):
         kwargs.setdefault('xml_declaration', True)
         kwargs.setdefault('pretty_print', True)
         return etree.tostring(node, **kwargs)
-
-    def _get_open_params(self, content):
-        params = super()._get_open_params(content)
-        params.update(mode='wb', encoding=None)
-        return params
