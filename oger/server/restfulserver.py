@@ -153,8 +153,9 @@ def load_process_export(ann, data, in_fmt, out_fmt, docid):
         annotator = ann_manager.get(ann.lstrip('-'))
     except KeyError:
         raise HTTPError(400, 'unknown annotator')
+    postfilter = bool(request.query.get('postfilter'))
     try:
-        return annotator.process((data, in_fmt, out_fmt, docid))
+        return annotator.process((data, in_fmt, out_fmt, docid, postfilter))
     except Exception:
         logging.exception('Fatal: data: %.40r, fmt: %s -> %s, ID: %s',
                           data, in_fmt, out_fmt, docid)
@@ -164,7 +165,7 @@ def load_process_export(ann, data, in_fmt, out_fmt, docid):
 @get('/')
 @post('/')
 def web_ui():
-    'Serve a HTML page with an input form.'
+    'Serve an HTML page with an input form.'
     if 'settings' in request.params:
         # If there is a settings param, try to load an annotator.
         try:
@@ -311,12 +312,15 @@ class AnnotatorManager(object):
                 parameters for the default server
             n (int): max number of additional servers
         '''
-        self._default_settings = default
+        self._default_settings = router.Router(default)
         self.n = n
+        self.default = self.key(self._default_settings)  # default server name
         self.active = {}                  # all active servers
         self.additional = []              # names of additional servers
-        self.default = self.add({}, blocking=True)  # default server name
-        self.additional.remove(self.default)
+
+        logging.info('Starting default annotator %s', self.default)
+        self.active[self.default] = self.start(self._default_settings,
+                                               desc='default', blocking=True)
 
     def add(self, params, desc=None, blocking=False):
         '''
@@ -325,7 +329,11 @@ class AnnotatorManager(object):
         In case an existing one has the same settings,
         return its name instead.
         '''
+        # Remove any postfilter for security reasons.
+        params = dict(params)
+        params.pop('postfilter', None)
         config = router.Router(self._default_settings, **params)
+
         key = self.key(config)
         if key not in self.active:
             logging.info('Starting new annotator %s', key)
@@ -409,9 +417,11 @@ class _Annotator:
         raise NotImplementedError
 
     @staticmethod
-    def _load_process_export(server, data, in_fmt, out_fmt, docid):
+    def _load_process_export(server, data, in_fmt, out_fmt, docid, postfilter):
         article = server.load_one(data, in_fmt, id_=docid)
         server.process(article)
+        if postfilter:
+            server.postfilter(article)
         return export(server.conf, article, out_fmt)
 
 class BlockingAnnotator(_Annotator):

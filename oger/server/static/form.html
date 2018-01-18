@@ -97,10 +97,11 @@
     }
 
     // Create the right URL format.
-    function construct_route(annotator, format, data) {
+    function construct_route(annotator, format, data, postfilter) {
       var ann = '/',
           mode = 'upload',
-          docid = '';
+          docid = '',
+          query = query_string({'postfilter': postfilter});
       if (annotator !== 'default') {
         ann = '-' + annotator + '/'
       }
@@ -108,7 +109,21 @@
         mode = 'fetch';
         docid = '/' + data.trim();
       }
-      return mode + ann + format + '/odin' + docid;
+      return mode + ann + format + '/odin' + docid + query;
+    }
+
+    // Create a query string from an object.
+    function query_string(obj) {
+      var query = [];
+      for(var p in obj)
+        if (obj.hasOwnProperty(p) && obj[p] !== false) {
+          query.push(encodeURIComponent(p) + "=" + encodeURIComponent(obj[p]));
+        }
+      if (query.length) {
+        return "?" + query.join("&");
+      } else {
+        return "";
+      }
     }
 
     // Hide/show annotated-document view.
@@ -163,6 +178,7 @@
             text_box = document.getElementById('txt-ann'),
             submit_button = document.getElementById('btn-ann-submit'),
             payload = ann_form['annotation-payload'].value,
+            postfilter = ann_form['annotation-postfilter'].checked,
             outformat = ann_form['article-format'].value,
             annotator = ann_form['annotator'].value;
 
@@ -188,7 +204,7 @@
             submit_button.removeAttribute('disabled');
           }
           // Post the AJAX request.
-          var route = construct_route(annotator, outformat, payload);
+          var route = construct_route(annotator, outformat, payload, postfilter);
           ajax_request(payload, route, doc_div, msg_div,
                        'Annotation in progress...', success, failure);
         }
@@ -245,6 +261,7 @@
               <option value="txt">plain text</option>
             </select>
             <textarea id="txt-ann" rows="3" cols="50" name="annotation-payload"></textarea>
+            <input type="checkbox" name="annotation-postfilter" value="true" checked="checked"> <label>postfilter</label>
             <input type="submit" value="Annotate"/ id="btn-ann-submit">
             <br/>
             <div id="div-ann-radios">
