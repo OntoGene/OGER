@@ -86,37 +86,35 @@
     // Make sure any PubMed/PMC ID is one number.
     function invalid_ann_request(format, data) {
       if (format == 'pubmed' || format == 'pmc') {
-        if (/^\s*[0-9]+\s*$/.test(data)) {
-          return false;
-        } else {
+        if (! /^\s*[0-9]+\s*$/.test(data)) {
+          // Invalid: not a single number.
           return true;
         }
-      } else {
-        return false;
       }
+      return false;
     }
 
     // Create the right URL format.
-    function construct_route(annotator, format, data, postfilter) {
-      var ann = '/',
-          mode = 'upload',
+    function construct_route(ann_form, format, data) {
+      var postfilter = ann_form['annotation-postfilter'].checked,
+          annotator = ann_form['annotator'].value,
+          mode = 'upload/',
           docid = '',
-          query = query_string({'postfilter': postfilter});
-      if (annotator !== 'default') {
-        ann = '-' + annotator + '/'
-      }
+          query = query_string({
+            'postfilter': postfilter,
+            'annotator': annotator !== 'default' ? annotator : null});
       if (format == 'pubmed' || format == 'pmc') {
-        mode = 'fetch';
+        mode = 'fetch/';
         docid = '/' + data.trim();
       }
-      return mode + ann + format + '/odin' + docid + query;
+      return mode + format + '/odin' + docid + query;
     }
 
     // Create a query string from an object.
     function query_string(obj) {
       var query = [];
       for(var p in obj)
-        if (obj.hasOwnProperty(p) && obj[p] !== false) {
+        if (obj.hasOwnProperty(p) && obj[p]) {
           query.push(encodeURIComponent(p) + "=" + encodeURIComponent(obj[p]));
         }
       if (query.length) {
@@ -178,9 +176,7 @@
             text_box = document.getElementById('txt-ann'),
             submit_button = document.getElementById('btn-ann-submit'),
             payload = ann_form['annotation-payload'].value,
-            postfilter = ann_form['annotation-postfilter'].checked,
-            outformat = ann_form['article-format'].value,
-            annotator = ann_form['annotator'].value;
+            outformat = ann_form['article-format'].value;
 
         // Clear any previous messages.
         msg_div.innerHTML = '';
@@ -204,7 +200,7 @@
             submit_button.removeAttribute('disabled');
           }
           // Post the AJAX request.
-          var route = construct_route(annotator, outformat, payload, postfilter);
+          var route = construct_route(ann_form, outformat, payload);
           ajax_request(payload, route, doc_div, msg_div,
                        'Annotation in progress...', success, failure);
         }
@@ -229,7 +225,7 @@
 <body>
   <center>
     <h1 class="page-heading">
-      <a id="anchor-title" style="color: black; text-decoration: none;">
+      <a href="." style="color: black; text-decoration: none;">
         OGER: OntoGene’s Biomedical Entity Recogniser
       </a>
     </h1>

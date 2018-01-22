@@ -117,9 +117,8 @@ def setup_logging():
 
 ann_manager = None  # this global variable is set in init()
 
-MODE = '/{}<ann:re:(-[0-9A-F]+)?>'
-FETCH = MODE.format('fetch')
-UPLOAD = MODE.format('upload')
+FETCH = '/fetch'
+UPLOAD = '/upload'
 
 FETCH_SOURCES = ('pubmed', 'pmc')
 UPLOAD_FMTS = ('txt', 'bioc', 'pxml', 'nxml', 'pxml.gz')
@@ -132,28 +131,29 @@ DOCID_WILDCARD = '/<docid:re:[1-9][0-9]*>'
 
 @get(FETCH + SOURCE + OUT_FMT + DOCID_WILDCARD)
 @post(FETCH + SOURCE + OUT_FMT + DOCID_WILDCARD)
-def fetch_article(ann, source, out_fmt, docid):
+def fetch_article(source, out_fmt, docid):
     'Fetch and process one article.'
     logging.info('GET request: article %s from %s in %s format',
                  docid, source, out_fmt)
-    return load_process_export(ann, [docid], source, out_fmt, docid=None)
+    return load_process_export([docid], source, out_fmt, docid=None)
 
 
 @post(UPLOAD + IN_FMT + OUT_FMT)
 @post(UPLOAD + IN_FMT + OUT_FMT + DOCID_WILDCARD)
-def upload_article(ann, in_fmt, out_fmt, docid=None):
+def upload_article(in_fmt, out_fmt, docid=None):
     'Process one uploaded article.'
     logging.info('POST request: %s -> %s (DOCID: %s)', in_fmt, out_fmt, docid)
-    return load_process_export(ann, request.body, in_fmt, out_fmt, docid)
+    return load_process_export(request.body, in_fmt, out_fmt, docid)
 
 
-def load_process_export(ann, data, in_fmt, out_fmt, docid):
+def load_process_export(data, in_fmt, out_fmt, docid):
     'Load, process, and export an article (or collection).'
+    annotator = request.query.get('annotator')
+    postfilter = bool(request.query.get('postfilter'))
     try:
-        annotator = ann_manager.get(ann.lstrip('-'))
+        annotator = ann_manager.get(annotator)
     except KeyError:
         raise HTTPError(400, 'unknown annotator')
-    postfilter = bool(request.query.get('postfilter'))
     try:
         return annotator.process((data, in_fmt, out_fmt, docid, postfilter))
     except Exception:
@@ -258,13 +258,13 @@ Valid DOC_ID values:
 @get(OUT_FMT + DOCID_WILDCARD)
 def legacy_fetch(out_fmt, docid):
     'Obsolete route for fetching.'
-    return fetch_article(None, 'pubmed', out_fmt, docid)
+    return fetch_article('pubmed', out_fmt, docid)
 
 @post(IN_FMT + OUT_FMT)
 @post(IN_FMT + OUT_FMT + DOCID_WILDCARD)
 def legacy_upload(in_fmt, out_fmt, docid=None):
     'Obsolete route for uploading.'
-    return upload_article(None, in_fmt, out_fmt, docid)
+    return upload_article(in_fmt, out_fmt, docid)
 
 
 # ============================= #
@@ -286,7 +286,8 @@ def load_annotator():
         raise HTTPError(400, e)
     return {'name': name}
 
-@post('/ann/check/<ann:re:[0-9A-f]+>')
+@get('/ann/check/<ann:re:[0-9A-F]+>')
+@post('/ann/check/<ann:re:[0-9A-F]+>')
 def check_annotator(ann):
     '''
     Check if this annotator is ready.
