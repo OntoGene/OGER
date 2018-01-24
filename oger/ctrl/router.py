@@ -62,13 +62,16 @@ class PipelineServer(object):
     def __init__(self, conf=None):
         self.conf = None
         self.ers = None
+        self._postfilter = None
         if conf is not None:
             self.setup(conf)
 
     def setup(self, conf):
         'Make this server functional.'
         self.conf = conf
+        # Get the lazy loaders now.
         self.ers = conf.entity_recognizers
+        self._postfilter = conf.postfilter
 
     def iter_contents(self, pointers=None):
         'Iterate over input articles/collections.'
@@ -98,7 +101,7 @@ class PipelineServer(object):
 
     def postfilter(self, content):
         'Postfilter an article/collection.'
-        self.conf.postfilter(content)
+        self._postfilter(content)
 
     def export(self, content):
         'Write an article/collection to disc.'
@@ -120,13 +123,13 @@ class Router(object):
         '''
         self.p = self._resolve_call_signature(config, kwargs)
 
-        # Register the entity fields, the exporter methods and the postfilter.
+        # Register the entity fields and the exporter methods.
         self.entity_fields = Entity.map_fields(self.p.extra_fields,
                                                self.p.field_names)
         self._exporters = self._get_exporters()
-        self.postfilter = self._get_postfilter(self.p.postfilter)
 
         # External objects with lazy initialisation.
+        self._postfilter = None
         self._text_processor = None
         self._entity_recognizers = None
 
@@ -147,6 +150,15 @@ class Router(object):
     # ============== #
     # SETUP methods. #
     # ============== #
+
+    @property
+    def postfilter(self):
+        '''
+        Externally defined postfilter.
+        '''
+        if self._postfilter is None:
+            self._postfilter = self._get_postfilter(self.p.postfilter)
+        return self._postfilter
 
     @property
     def text_processor(self):
