@@ -18,6 +18,7 @@ from .odin import ODINFormatter
 from .brat import BratFormatter
 from .becalm import BeCalmAbstractFetcher, BeCalmPatentFetcher
 from .becalm import BeCalmTSVFormatter, BeCalmJSONFormatter
+from .json import JSONFormatter
 
 
 # Keep these mappings up to date.
@@ -45,6 +46,7 @@ EXPORTERS = {
     'brat': BratFormatter,
     'becalm_tsv': BeCalmTSVFormatter,
     'becalm_json': BeCalmJSONFormatter,
+    'json': JSONFormatter,
 }
 
 OUTFMTS = list(EXPORTERS.keys())
