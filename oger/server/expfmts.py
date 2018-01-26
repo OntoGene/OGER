@@ -12,10 +12,10 @@ REST-specific export formats.
 from itertools import cycle
 from collections import defaultdict
 
-from ..doc import TSVFormatter, EntityXMLFormatter, BioCFormatter, ODINFormatter
+from .. import doc
 
 
-class FurbishedODINFormatter(ODINFormatter):
+class FurbishedODINFormatter(doc.ODINFormatter):
     '''
     ODIN format with default term highlighting.
     '''
@@ -25,7 +25,7 @@ class FurbishedODINFormatter(ODINFormatter):
         return node
 
 
-class CustomODINFormatter(ODINFormatter):
+class CustomODINFormatter(doc.ODINFormatter):
     '''
     ODIN format with a CSS href in the doctype declaration.
     '''
@@ -37,9 +37,11 @@ class CustomODINFormatter(ODINFormatter):
 
 
 EXPORTERS = {
-    'tsv': TSVFormatter,
-    'xml': EntityXMLFormatter,
-    'bioc': BioCFormatter,
+    'tsv': doc.TSVFormatter,
+    'xml': doc.EntityXMLFormatter,
+    'bioc': doc.BioCXMLFormatter,
+    'bioc_json': doc.BioCJSONFormatter,
+    'pubanno_json': doc.PubAnnoJSONFormatter,
     'odin': FurbishedODINFormatter,
     'odin_custom': CustomODINFormatter,
 }

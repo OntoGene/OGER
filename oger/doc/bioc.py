@@ -10,14 +10,15 @@ Loader and formatter for BioC XML.
 
 
 import logging
+from collections import OrderedDict
 
 from lxml import etree
 from lxml.builder import E
 
 from .document import Collection, Article, Entity
 from .load import CollLoader, text_node
-from .export import XMLMemoryFormatter
-from ..util.iterate import peekaheaditer
+from .export import XMLMemoryFormatter, StreamFormatter
+from ..util.iterate import peekaheaditer, json_iterencode
 from ..util.misc import iter_codepoint_indices_utf8, iter_byte_indices_utf8
 
 
@@ -187,7 +188,7 @@ class BioCLoader(CollLoader):
         return {n.attrib['key']: n.text for n in node.iterfind('infon')}
 
 
-class BioCFormatter(XMLMemoryFormatter):
+class BioCXMLFormatter(XMLMemoryFormatter):
     '''
     BioC XML output format.
     '''
@@ -197,27 +198,17 @@ class BioCFormatter(XMLMemoryFormatter):
         if isinstance(content, Collection):
             # For their size, serialise collections in a memory-friendly way.
             # The downside is that indentation isn't perfect.
-            for chunk in self._iter_bytes(content):
-                stream.write(chunk)
+            stream.writelines(self._iter_bytes(content))
         else:
             super().write(stream, content)
 
     def _dump(self, content):
-        coll = self._wrap_in_collection(content)
+        coll = wrap_in_collection(content)
         return self._collection(coll)
 
     def _tostring(self, node, **kwargs):
         kwargs.setdefault('doctype', self.doctype)
         return super()._tostring(node, **kwargs)
-
-    @staticmethod
-    def _wrap_in_collection(content):
-        if not isinstance(content, Collection):
-            # Wrap this document in a collection.
-            coll = Collection(content.id_, content.basename)
-            coll.add_article(content)
-            content = coll
-        return content
 
     def _iter_bytes(self, coll):
         '''
@@ -261,7 +252,7 @@ class BioCFormatter(XMLMemoryFormatter):
         return node
 
     def _document(self, article):
-        node = E('document', E('id', article.id_))
+        node = E('document', E('id', str(article.id_)))
 
         if article.year is not None:
             self._infon(node, 'year', article.year)
@@ -330,6 +321,109 @@ class BioCFormatter(XMLMemoryFormatter):
         Add an <infons> element.
         '''
         node.append(E('infon', value, key=key))
+
+
+class BioCJSONFormatter(StreamFormatter):
+    '''
+    BioC JSON output format.
+    '''
+    ext = 'json'
+
+    def write(self, stream, content):
+        coll = wrap_in_collection(content)
+        prep = self._collection(coll)
+        stream.writelines(json_iterencode(prep))
+
+    def _collection(self, coll):
+        meta = self.config.p.bioc_meta
+        if meta is None:
+            meta = coll.metadata
+        infons = dict(meta)
+
+        return OrderedDict((
+            ('source', infons.pop('source', '')),
+            ('date', infons.pop('date', '')),
+            ('key', infons.pop('key', '')),
+            ('infons', infons),
+            ('documents', (self._document(a) for a in coll))
+        ))
+
+    def _document(self, article):
+        offset_mngr = get_offset_manager(self.config.p.byte_offsets)
+
+        infons = dict(article.metadata)
+        if article.year is not None:
+            infons['year'] = article.year
+        if article.type_ is not None:
+            infons['type'] = article.type_
+
+        return {
+            'id': str(article.id_),
+            'infons': infons,
+            'passages': [self._passage(s, offset_mngr) for s in article],
+            'relations': (),
+        }
+
+    def _passage(self, section, offset_mngr):
+        infons = dict(section.metadata)
+        if section.type_ is not None:
+            infons['type'] = section.type_
+        offset = offset_mngr.passage(section)
+        text = ''         # empty for sentence-level anchoring
+        annotations = []  # empty for sentence-level anchoring
+        sentences = []    # empty for passage-level anchoring
+
+        # BioC allows text at sentence or passage level.
+        # The annotations are anchored at the same level.
+        if self.config.p.sentence_level:
+            for sent in section:
+                sentences.append(self._sentence(sent, offset_mngr))
+        else:
+            text = section.text
+            for sent in section:
+                offset_mngr.sentence(sent)  # synchronise without direct usage
+                for entity in sent.iter_entities():
+                    annotations.append(self._entity(entity, offset_mngr))
+
+        return {
+            'infons': infons,
+            'offset': offset,
+            'text': text,
+            'sentences': sentences,
+            'annotations': annotations,
+            'relations': (),
+        }
+
+    def _sentence(self, sent, offset_mngr):
+        return {
+            'infons': sent.metadata,
+            'offset': offset_mngr.sentence(sent),
+            'text': sent.text,
+            'annotations': [self._entity(e, offset_mngr)
+                            for e in sent.iter_entities()],
+            'relations': (),
+        }
+
+    @staticmethod
+    def _entity(entity, offset_mngr):
+        start, length = offset_mngr.entity(entity)
+        return {
+            'id': str(entity.id_),
+            'infons': dict(entity.info_items()),
+            'text': entity.text,
+            'locations': [dict(offset=start, length=length)]
+        }
+
+
+def wrap_in_collection(content):
+    '''
+    If this is an article, wrap it in a collection.
+    '''
+    if not isinstance(content, Collection):
+        coll = Collection(content.id_, content.basename)
+        coll.add_article(content)
+        content = coll
+    return content
 
 
 def get_offset_manager(anchor):

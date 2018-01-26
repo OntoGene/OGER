@@ -13,7 +13,7 @@ from .txt import TXTLoader
 from .pubmed import PXMLLoader, PXMLFetcher, MedlineLoader, PMCLoader, PMCFetcher
 from .tsv import TSVFormatter
 from .xml import EntityXMLFormatter, TextXMLFormatter
-from .bioc import BioCLoader, BioCFormatter
+from .bioc import BioCLoader, BioCXMLFormatter, BioCJSONFormatter
 from .odin import ODINFormatter
 from .brat import BratFormatter
 from .becalm import BeCalmAbstractFetcher, BeCalmPatentFetcher
@@ -41,7 +41,9 @@ EXPORTERS = {
     'text_tsv': TSVFormatter,
     'xml': EntityXMLFormatter,
     'text_xml': TextXMLFormatter,
-    'bioc': BioCFormatter,
+    'bioc': BioCXMLFormatter,  # keep for backwards compatibility
+    'bioc_xml': BioCXMLFormatter,
+    'bioc_json': BioCJSONFormatter,
     'odin': ODINFormatter,
     'brat': BratFormatter,
     'becalm_tsv': BeCalmTSVFormatter,
@@ -50,3 +52,4 @@ EXPORTERS = {
 }
 
 OUTFMTS = list(EXPORTERS.keys())
+OUTFMTS.remove('bioc')  # don't encourage obsolete names

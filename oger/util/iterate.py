@@ -9,6 +9,7 @@ Iteration utilities.
 '''
 
 
+import json
 import itertools as it
 
 
@@ -66,3 +67,53 @@ class CacheOneIter:
         the first item will be None.
         '''
         self._proceed = False
+
+
+def json_iterencode(o, check_circular=False, indent=2, **kwargs):
+    '''
+    Iterate over chunks of serialised JSON.
+
+    Iterators are supported.
+    '''
+    enc = json.JSONEncoder(check_circular=check_circular, indent=indent,
+                           default=jsonable_iterator, **kwargs)
+    return enc.iterencode(o)
+
+def jsonable_iterator(o):
+    '''
+    Default function for encoding iterators in JSON.
+
+    Warning: Relies on some implementation details about how
+    lists/tuples are serialised.
+    '''
+    # For lists/tuples, the JSON encoder
+    # (1) checks if the list is non-empty, and
+    # (2) if so, iterates over the elements (once).
+    #
+    # This function wraps non-empty iterators in a _PhonyList,
+    # which inherits from list in order to pass the isinstance()
+    # test.  Besides that, its bool() value is True and it can
+    # be iterated over (once).
+    try:
+        first = next(o)
+    except AttributeError:
+        raise TypeError("{!r} is not JSON serializable".format(0))
+    except StopIteration:
+        return ()
+    else:
+        return _PhonyList(it.chain([first], o))
+
+class _PhonyList(list):
+    '''
+    A wrapper for an iterator claiming to be a list.
+    '''
+    def __init__(self, idata):
+        super().__init__()
+        self.idata = idata
+
+    def __iter__(self):
+        for elem in self.idata:
+            yield elem
+
+    def __bool__(self):
+        return True
