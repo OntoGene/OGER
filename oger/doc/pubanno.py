@@ -1,43 +1,48 @@
 #!/usr/bin/env python3
 # coding: utf8
 
-# Author: Lenz Furrer, 2017
-# http://www.pubannotation.org/docs/annotation-format/
+# Author: Nicola Colic, 2018
 
 
 '''
-Formatter for simple JSON output.
-(Compatible with PubAnnotation.)
+Formatter for PubAnnotation JSON output.
+
 http://www.pubannotation.org/docs/annotation-format/
 '''
 
+
 import json
 
-from .export import MemoryFormatter
+from .document import Section
+from .export import StreamFormatter
 
 
-class PubAnnoJSONFormatter(MemoryFormatter):
+class PubAnnoJSONFormatter(StreamFormatter):
     '''
-    Light XML format for annotations only.
+    PubAnnotation JSON format.
     '''
-    
     ext = 'json'
-    
-    def dump(self, content):
-        
-        json_object = {'text': '', 'denotation':[]}
-        json_object['text'] = content.__str__()
-        
-        for entity in content.iter_entities():
-            denotation_object = { 'id' : entity.id_,
-                                  'span' : '',
-                                  'obj' : ''}
-            span_object = { 'begin' : entity.start ,
-                            'end' : entity.end }
-            denotation_object['span'] = span_object
-            denotation_object['obj'] = entity.cid
-            
-            json_object['denotation'].append(denotation_object)
-        
-        json_string = json.dumps(json_object)
-        return json_string
+
+    def write(self, stream, content):
+        json_object = {}
+        json_object['text'] = ''.join(
+            s.text for s in content.get_subelements(Section))
+        json_object['denotation'] = [self._entity(e)
+                                     for e in content.iter_entities()]
+        return json.dump(json_object, stream)
+
+    def _entity(self, entity):
+        return {'id' : self._format_id(entity.id_),
+                'span' : {'begin': entity.start,
+                          'end': entity.end},
+                'obj' : entity.cid}
+
+    @staticmethod
+    def _format_id(id_):
+        '''
+        For numeric IDs, produce "T<N>" format.
+        '''
+        if isinstance(id_, int) or id_.isdigit():
+            return 'T{}'.format(id_)
+        else:
+            return id_
