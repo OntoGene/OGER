@@ -13,11 +13,10 @@ http://www.pubannotation.org/docs/annotation-format/
 
 import json
 
-from .document import Collection
 from .export import MemoryFormatter
 
 
-class JSONFormatter(MemoryFormatter):
+class PubAnnoJSONFormatter(MemoryFormatter):
     '''
     Light XML format for annotations only.
     '''
@@ -33,7 +32,7 @@ class JSONFormatter(MemoryFormatter):
             denotation_object = { 'id' : entity.id_,
                                   'span' : '',
                                   'obj' : ''}
-            span_object = { 'begin' : e ntity.start ,
+            span_object = { 'begin' : entity.start ,
                             'end' : entity.end }
             denotation_object['span'] = span_object
             denotation_object['obj'] = entity.cid
