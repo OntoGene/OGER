@@ -27,8 +27,8 @@ class PubAnnoJSONFormatter(StreamFormatter):
         json_object = {}
         json_object['text'] = ''.join(
             s.text for s in content.get_subelements(Section))
-        json_object['denotation'] = [self._entity(e)
-                                     for e in content.iter_entities()]
+        json_object['denotations'] = [self._entity(e)
+                                      for e in content.iter_entities()]
         return json.dump(json_object, stream)
 
     def _entity(self, entity):
