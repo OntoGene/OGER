@@ -246,15 +246,16 @@
           </p>
           <hr/>
           <p>
-            Specify a document by ID or paste it into the text area.
+            Type or paste some text into the text area below.<br/>
+            Alternatively, insert a PubMed or PubMed-Central ID and select the corresponding option in the menu on the left.
           </p>
           <div id="div-msg"></div>
           <form id="form-ann" role="form" method="post"
               accept-charset="UTF-8">
             <select name="article-format">
+              <option value="txt">plain text</option>
               <option value="pubmed">PubMed ID</option>
               <option value="pmc">PubMed Central ID</option>
-              <option value="txt">plain text</option>
             </select>
             <textarea id="txt-ann" rows="3" cols="50" name="annotation-payload"></textarea>
             <input type="checkbox" name="annotation-postfilter" value="true" checked="checked"> <label>postfilter</label>
@@ -263,6 +264,14 @@
             <div id="div-ann-radios">
               <input type="radio" name="annotator" value="default" checked="checked" /> <label id="label-default">default</label><br/>
             </div>
+            <p>
+              Use the tick options above to select the annotation dictionary.<br/>
+              The “default” option is a large-coverage dictionary generated using the <a href="https://pub.cl.uzh.ch/purl/biodb/">Bio Term Hub</a>.
+            </p>
+            <p>
+              Notice that not all PubMed-Central articles are available as full text.<br/>
+              In some cases, PMC delivers only the abstract.
+            </p>
           </form>
         </center>
       </div>
