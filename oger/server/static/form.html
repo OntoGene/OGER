@@ -21,8 +21,8 @@
     // AJAX stuff.
 
     // Actual AJAX mechanism.
-    function ajax_request(payload, route, target,
-                          msg_node, wait_msg, success, failure) {
+    function ajax_request(payload, route, msg_node, wait_msg,
+                          success, failure) {
       var xmlhttp = new XMLHttpRequest();
 
       // Status handling.
@@ -30,7 +30,6 @@
         if (xmlhttp.readyState == 4) {
           if (xmlhttp.status == 200) {
             msg_node.innerHTML = '';
-            target.innerHTML = xmlhttp.responseText;
             // Success callback.
             if (typeof(success) !== 'undefined') {
               success(xmlhttp);
@@ -48,7 +47,7 @@
       }
 
       // Data transmission.
-      xmlhttp.open("POST", route, true);
+      xmlhttp.open(payload !== null ? "POST" : "GET", route, true);
       xmlhttp.send(payload);
     }
 
@@ -58,6 +57,8 @@
       if (!ann.disabled) {
         return;
       }
+      var route = 'dict/' + ann.value + '/status',
+          label = document.getElementById('label-' + ann.value);
       // Set an initial value for the timeout, or increase it.
       if (typeof(timeout) === 'undefined') {
         timeout = 1000;
@@ -66,21 +67,24 @@
       }
       // AJAX callback.
       function success(xmlhttp) {
-        if (xmlhttp.responseText == 'Loading...') {
+        var response = JSON.parse(xmlhttp.responseText);
+        if (response['status'] === 'loading') {
           // Recursively check again.
           setTimeout(function() {check_annotator(ann, timeout);}, timeout);
-        } else {
+        } else if (response['status'] === 'ready') {
+          label.innerHTML = response['description'];
           // Enable the radio button now.
           ann.removeAttribute('disabled');
           // Also, if this annotator is the target, enable the submit button now.
           if (ann.checked) {
             document.getElementById('btn-ann-submit').removeAttribute('disabled');
           }
+        } else {
+          // Annotator crashed.
+          label.innerHTML = response['status'];
         }
       }
-      var route = 'ann/check/' + ann.value,
-          label = document.getElementById('label-' + ann.value);
-      ajax_request(null, route, label, label, 'Checking...', success);
+      ajax_request(null, route, label, 'Checking...', success);
     }
 
     // Make sure any PubMed/PMC ID is one number.
@@ -102,8 +106,8 @@
           docid = '',
           query = query_string({
             'postfilter': postfilter,
-            'annotator': annotator !== 'default' ? annotator : null});
-      if (format == 'pubmed' || format == 'pmc') {
+            'dict': annotator === 'default' ? null : annotator});
+      if (format === 'pubmed' || format === 'pmc') {
         mode = 'fetch/';
         docid = '/' + data.trim();
       }
@@ -189,6 +193,7 @@
           submit_button.setAttribute('disabled', 'disabled');
           // Success callback: Hide all other page elements and make a legend.
           function success(xmlhttp) {
+            doc_div.innerHTML = xmlhttp.responseText;
             toggle_document_view(false);
             create_entity_type_legend(xmlhttp);
             // Select the text in the text box to mark it as used.
@@ -201,8 +206,8 @@
           }
           // Post the AJAX request.
           var route = construct_route(ann_form, outformat, payload);
-          ajax_request(payload, route, doc_div, msg_div,
-                       'Annotation in progress...', success, failure);
+          ajax_request(payload, route, msg_div, 'Annotation in progress...',
+                       success, failure);
         }
 
         // Prevent reloading the page on submit.

@@ -18,8 +18,8 @@ import datetime
 import multiprocessing as mp
 
 from lxml import etree as ET
-from bottle import get, post, response, request, error, HTTPError
-from bottle import run as run_bottle
+from bottle import get, post, delete, response, request, error, HTTPError
+from bottle import run as run_bottle, view, ERROR_PAGE_TEMPLATE
 
 from ..ctrl import router, parameters
 from .expfmts import EXPORT_FMTS, export
@@ -117,6 +117,8 @@ def setup_logging():
 
 ann_manager = None  # this global variable is set in init()
 
+ANN = '/<ann:re:[0-9A-F]+>'
+
 FETCH = '/fetch'
 UPLOAD = '/upload'
 
@@ -148,36 +150,46 @@ def upload_article(in_fmt, out_fmt, docid=None):
 
 def load_process_export(data, in_fmt, out_fmt, docid):
     'Load, process, and export an article (or collection).'
-    annotator = request.query.get('annotator')
+    annotator = request.query.get('dict')
     postfilter = bool(request.query.get('postfilter'))
     try:
         annotator = ann_manager.get(annotator)
-    except KeyError:
-        raise HTTPError(400, 'unknown annotator')
+    except KeyError as e:
+        raise HTTPError(404, 'unknown dict: {}'.format(e), exception=e)
     try:
         return annotator.process((data, in_fmt, out_fmt, docid, postfilter))
-    except Exception:
+    except Exception as e:
         logging.exception('Fatal: data: %.40r, fmt: %s -> %s, ID: %s',
                           data, in_fmt, out_fmt, docid)
-        raise
+        raise HTTPError(400, e)
 
 
 @get('/')
-@post('/')
-def web_ui():
+def web_ui(target=None):
     'Serve an HTML page with an input form.'
-    if 'settings' in request.params:
-        # If there is a settings param, try to load an annotator.
+    if target is None:
+        # Check the params for a target annotator.
+        target = request.params.get('dict')
+    return build_web_page(INPUT_FORM, target)
+
+
+@post('/')
+def web_ui_post():
+    'POST request allows annotator loading on page request.'
+    target = None
+    # If there is a payload, try to load an annotator.
+    if request.json:
+        # Preferred way is to use JSON.
+        target = _load_annotator(request.json)
+    elif 'json' in request.params:
+        # Work-around for the BTH:
+        # it uses an HTML form, so the JSON snippet is embedded in form data.
         try:
-            settings = json.loads(request.params['settings'])
-            desc = request.params.get('description')
-            target = ann_manager.add(settings, desc=desc)
+            payload = json.loads(request.params['json'])
         except Exception as e:
             raise HTTPError(400, e)
-    else:
-        # Otherwise, check the params for a target annotator.
-        target = request.params.get('target')
-    return build_web_page(INPUT_FORM, target)
+        target = _load_annotator(payload)
+    return web_ui(target)
 
 
 def build_web_page(source, target):
@@ -219,17 +231,21 @@ HTMLParser = ET.HTMLParser()
 
 
 @error(404)
+@view(ERROR_PAGE_TEMPLATE)
 def error404(err):
-    'Return a usage message.'
-    msg = '''\
+    '''
+    Without specific exception, insert a usage message.
+    '''
+    if err.exception is None:
+        err.body = '''\
 Invalid resource locator.
 
 Valid "fetch" request (GET or POST method):
-/fetch/SOURCE/OUT_FMT/DOC_ID
+/fetch/:SOURCE/:OUT_FMT/:DOC_ID
 
 Valid "upload" requests (POST method only):
-/upload/IN_FMT/OUT_FMT
-/upload/IN_FMT/OUT_FMT/DOC_ID
+/upload/:IN_FMT/:OUT_FMT
+/upload/:IN_FMT/:OUT_FMT/:DOC_ID
 
 Valid SOURCE values:
 {sources}
@@ -245,10 +261,7 @@ Valid DOC_ID values:
 '''.format(sources='|'.join(FETCH_SOURCES),
            in_fmt='|'.join(UPLOAD_FMTS),
            out_fmt='|'.join(EXPORT_FMTS))
-    msg = '<html><body><p>{}</p></body></html>\n'.format(
-        msg.replace('\n\n', '</p><p>').replace('\n', '<br/>'))
-    # raise HTTPError(400, msg)
-    return msg
+    return dict(e=err)
 
 
 # ================= #
@@ -271,35 +284,66 @@ def legacy_upload(in_fmt, out_fmt, docid=None):
 # Handling multiple annotators. #
 # ============================= #
 
-@post('/ann/load')
+@post('/dict')
 def load_annotator():
     '''
     Load a new annotator, if necessary.
 
     The settings are expected in the JSON payload.
     '''
+    name = _load_annotator(request.json)
+    response.status = '202 Accepted'
+    response.headers['Location'] = '/dict/{}'.format(name)
+    return {'dict_id': name}
+
+def _load_annotator(payload):
     try:
-        settings = request.json['settings']
-        desc = request.json.get('description')
+        settings = payload.get('settings', {})
+        desc = payload.get('description')
         name = ann_manager.add(settings, desc=desc)
     except Exception as e:
         raise HTTPError(400, e)
-    return {'name': name}
+    return name
 
-@get('/ann/check/<ann:re:[0-9A-F]+>')
-@post('/ann/check/<ann:re:[0-9A-F]+>')
+
+@get('/dict' + ANN)
+def get_annotator(ann):
+    '''
+    Obtaining an annotator is not (yet) possible.
+    '''
+    try:
+        ann_manager.get(ann)
+    except KeyError as e:
+        raise HTTPError(404, 'unknown dict: {}'.format(e), exception=e)
+    raise HTTPError(403, 'cannot export dictionary')
+
+
+@get('/dict' + ANN + '/status')
 def check_annotator(ann):
     '''
     Check if this annotator is ready.
     '''
     try:
         ann = ann_manager.get(ann)
+        status = 'ready' if ann.is_ready() else 'loading'
+    except KeyError as e:
+        raise HTTPError(404, 'unknown dict: {}'.format(e), exception=e)
     except Exception as e:
-        raise HTTPError(400, e)
-    if ann.is_ready():
-        return ann.description
-    else:
-        return 'Loading...'
+        ann_manager.remove(ann)
+        status = 'crashed'
+
+    return {'description': ann.description, 'status': status}
+
+
+@delete('/dict' + ANN)
+def remove_annotator(ann):
+    '''
+    Dispose of this annotator.
+    '''
+    try:
+        ann_manager.remove(ann)
+    except KeyError as e:
+        raise HTTPError(404, 'unknown dict: {}'.format(e), exception=e)
 
 
 class AnnotatorManager(object):
@@ -354,7 +398,10 @@ class AnnotatorManager(object):
         if name is None:
             name = self.additional.pop(0)
         else:
-            self.additional.remove(name)
+            try:
+                self.additional.remove(name)
+            except ValueError:
+                raise KeyError(name)
         logging.info('Removing annotator %s', name)
         del self.active[name]
 
