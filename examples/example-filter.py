@@ -37,7 +37,7 @@ def change_origin(content):
     # The entity infos are tuples, therefore changing a value means
     # replacing it with a modified copy.
     field = document.Entity.std_fields.index('original_resource')
-    for entity in content.iter_entities:
+    for entity in content.iter_entities():
         info = entity.info[:field] + ('Biogrid',) + entity.info[field+1:]
         entity.info = info
 
