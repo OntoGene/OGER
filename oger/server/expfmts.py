@@ -55,6 +55,8 @@ def export(config, article, fmt):
     '''
     if fmt == 'tsv':
         content_type = 'text/tab-separated-values; charset=UTF-8'
+    elif fmt.endswith('json'):
+        content_type = 'application/json'
     else:
         content_type = 'text/xml; charset=UTF-8'
 
