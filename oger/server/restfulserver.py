@@ -23,6 +23,7 @@ from bottle import run as run_bottle, view, ERROR_PAGE_TEMPLATE
 
 from ..ctrl import router, parameters
 from .expfmts import EXPORT_FMTS, export
+from .client import ParamHandler
 
 
 # ============= #
@@ -282,7 +283,7 @@ def check_annotator(ann):
         status = 'ready' if ann.is_ready() else 'loading'
     except KeyError as e:
         raise HTTPError(404, 'unknown dict: {}'.format(e), exception=e)
-    except Exception as e:
+    except RuntimeError:
         ann_manager.remove(ann)
         status = 'crashed'
 
@@ -323,17 +324,23 @@ def upload_article(in_fmt, out_fmt, docid=None):
 
 def load_process_export(data, in_fmt, out_fmt, docid):
     'Load, process, and export an article (or collection).'
-    annotator = request.query.get('dict')
-    postfilter = bool(request.query.get('postfilter'))
     try:
-        annotator = ann_manager.get(annotator)
+        params = ParamHandler(request.query)
+    except ValueError as e:
+        raise HTTPError(400, e)
+    try:
+        annotator = ann_manager.get(params.dict)
     except KeyError as e:
         raise HTTPError(404, 'unknown dict: {}'.format(e), exception=e)
+
+    in_params = dict(data=data, fmt=in_fmt, id_=docid, **params.in_params)
+    out_params = dict(fmt=out_fmt, **params.out_params)
     try:
-        return annotator.process((data, in_fmt, out_fmt, docid, postfilter))
+        return annotator.process(in_params, out_params, params.postfilters)
     except Exception as e:
-        logging.exception('Fatal: data: %.40r, fmt: %s -> %s, ID: %s',
-                          data, in_fmt, out_fmt, docid)
+        data = in_params.pop('data')
+        logging.exception('Fatal: data: %.40r, params: %r, %r, %r',
+                          data, in_params, out_params, params.postfilters)
         raise HTTPError(400, e)
 
 
@@ -368,7 +375,7 @@ def error404(err):
 # Annotator handling. #
 # =================== #
 
-class AnnotatorManager(object):
+class AnnotatorManager:
     '''
     Container for a limited number of active annotation servers.
     '''
@@ -384,10 +391,13 @@ class AnnotatorManager(object):
         self.default = self.key(self._default_settings)  # default server name
         self.active = {}                  # all active servers
         self.additional = []              # names of additional servers
+        self.postfilters = {}             # all postfilters
 
         logging.info('Starting default annotator %s', self.default)
         self.active[self.default] = self.start(self._default_settings,
                                                desc='default', blocking=True)
+        for func in self._default_settings.postfilters:
+            self.postfilters[func.__name__] = func
 
     def add(self, params, desc=None, blocking=False):
         '''
@@ -397,9 +407,8 @@ class AnnotatorManager(object):
         return its name instead.
         '''
         # Remove any postfilter for security reasons.
-        params = dict(params)
-        params.pop('postfilter', None)
-        config = router.Router(self._default_settings, **params)
+        config = router.Router(self._default_settings,
+                               postfilter=(), **params)
 
         key = self.key(config)
         if key not in self.active:
@@ -440,20 +449,15 @@ class AnnotatorManager(object):
             name = self.default
         return self.active[name]
 
-    @staticmethod
-    def start(config, desc, blocking):
+    def start(self, config, desc, blocking):
         'Initiate a new annotation server.'
-        if blocking:
-            return BlockingAnnotator(config, desc)
-        else:
-            return AsyncAnnotator(config, desc)
+        ann_type = BlockingAnnotator if blocking else AsyncAnnotator
+        return ann_type(config, desc, self.postfilters)
 
     @classmethod
     def key(cls, conf):
         'Select the relevant parts of this configuration.'
-        struct = (conf.p.word_tokenizer,
-                  conf.p.sentence_tokenizer,
-                  tuple(tuple(ep.iterparams()) for ep in conf.p.recognizers))
+        struct = tuple(tuple(ep.iterparams()) for ep in conf.p.recognizers)
         return cls.hashtoken(struct)
 
     _hash_mask = (1 << sys.hash_info.width) - 1
@@ -466,10 +470,11 @@ class AnnotatorManager(object):
 
 
 class _Annotator:
-    def __init__(self, desc):
+    def __init__(self, desc, postfilters):
         if desc is None:
             desc = 'Annotator created at {}'.format(datetime.datetime.utcnow())
         self.description = desc
+        self.postfilters = postfilters
 
     def is_ready(self):
         '''
@@ -477,46 +482,67 @@ class _Annotator:
         '''
         raise NotImplementedError
 
-    def process(self, args):
+    def process(self, in_params, out_params, postfilters):
         '''
         Load, process, and export one document or collection.
         '''
-        ctype, data = self._process(args)
+        document = self._get_annotated(in_params)
+        self._postfilter(document, postfilters)
+        ctype, data = export(document, **out_params)
         response.content_type = ctype
         return data
 
-    def _process(self, args):
+    def _get_annotated(self, params):
+        '''
+        Get an annotated document or collection.
+        '''
         raise NotImplementedError
 
     @staticmethod
-    def _load_process_export(server, data, in_fmt, out_fmt, docid, postfilter):
-        article = server.load_one(data, in_fmt, id_=docid)
-        server.process(article)
-        if postfilter:
-            server.postfilter(article)
-        return export(server.conf, article, out_fmt)
+    def _annotate(server, params):
+        '''
+        Load and annotate one document or collection.
+        '''
+        document = server.load_one(**params)
+        server.process(document)
+        return document
+
+    def _postfilter(self, document, filternames):
+        '''
+        Call each postfilter on the document.
+        '''
+        if 'true' in filternames:
+            # Special value: use all filters.
+            filternames = self.postfilters.keys()
+
+        for name in filternames:
+            try:
+                postfilter = self.postfilters[name]
+            except KeyError:
+                raise ValueError('unknown postfilter: {}'.format(name))
+            postfilter(document)
 
 class BlockingAnnotator(_Annotator):
     '''
     Wrapper for a PipelineServer with simplified interface.
     '''
-    def __init__(self, config, desc):
-        super().__init__(desc)
+    def __init__(self, config, desc, postfilters):
+        super().__init__(desc, postfilters)
         self._server = router.PipelineServer(config)
 
     @staticmethod
     def is_ready():
         return True
 
-    def _process(self, args):
-        return self._load_process_export(self._server, *args)
+    def _get_annotated(self, params):
+        return self._annotate(self._server, params)
 
 class AsyncAnnotator(_Annotator):
     '''
     Wrapper for communicating with an annotator child process.
     '''
-    def __init__(self, config, desc):
-        super().__init__(desc)
+    def __init__(self, config, desc, postfilters):
+        super().__init__(desc, postfilters)
         self._downstream = mp.Queue()
         self._upstream = mp.Queue()
         self._proc = mp.Process(
@@ -543,10 +569,10 @@ class AsyncAnnotator(_Annotator):
                 self._ready = True
         return self._ready
 
-    def _process(self, args):
+    def _get_annotated(self, params):
         if not self.is_ready():
             raise RuntimeError('annotator not yet loaded')
-        self._downstream.put(args)
+        self._downstream.put(params)
         result = self._upstream.get()
         if isinstance(result, Exception):
             raise result
@@ -561,13 +587,17 @@ class AsyncAnnotator(_Annotator):
         # Consume the start signal -- empty queue means ready.
         requests.get()
 
-        for args in iter(requests.get, None):
+        for params in iter(requests.get, None):
             try:
-                result = cls._load_process_export(server, *args)
+                result = cls._annotate(server, params)
             except Exception as e:
                 result = e
             responses.put(result)
 
+
+# ============== #
+# Miscellaneous. #
+# ============== #
 
 class IllegalAction(Exception):
     '''

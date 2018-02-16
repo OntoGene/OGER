@@ -12,6 +12,7 @@ REST-specific export formats.
 from itertools import cycle
 from collections import defaultdict
 
+from ..ctrl.router import Router
 from .. import doc
 
 
@@ -50,7 +51,7 @@ EXPORTERS = dict(_exporters)
 EXPORT_FMTS = [name for name, _ in _exporters]
 
 
-def export(config, article, fmt):
+def export(document, fmt, **params):
     '''
     Export article to fmt, considering the settings in config.
     '''
@@ -61,8 +62,9 @@ def export(config, article, fmt):
     else:
         content_type = 'text/xml; charset=UTF-8'
 
+    config = Router(export_format=(), **params)
     exporter = EXPORTERS[fmt](config, fmt)
-    data = exporter.dump(article)
+    data = exporter.dump(document)
     return content_type, data
 
 
