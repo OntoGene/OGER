@@ -32,8 +32,6 @@ from .expfmts import EXPORT_FMTS, export
 BOTTLE_HOST = '0.0.0.0'
 BOTTLE_PORT = 12321
 
-PL_SETTINGS = 'restful-settings.ini'
-
 INPUT_FORM = os.path.join(os.path.dirname(__file__), 'static', 'form.html')
 
 
@@ -60,7 +58,6 @@ def main():
     pl = ap.add_argument_group(title='OGER configuration')
     pl.add_argument(
         '-s', '--settings', dest='pl.settings', metavar='PATH', nargs='+',
-        default=PL_SETTINGS,
         help='load OGER settings from one or more .ini config files')
     pl.add_argument(
         '-c', '--config', nargs=2, action='append', default=[],
@@ -130,39 +127,31 @@ IN_FMT = '/<in_fmt:re:{}>'.format('|'.join(UPLOAD_FMTS))
 OUT_FMT = '/<out_fmt:re:{}>'.format('|'.join(EXPORT_FMTS))
 DOCID_WILDCARD = '/<docid:re:[1-9][0-9]*>'
 
+USAGE_MSG = '''\
+Valid "fetch" request (GET or POST method):
+/fetch/:SOURCE/:OUT_FMT/:DOC_ID
 
-@get(FETCH + SOURCE + OUT_FMT + DOCID_WILDCARD)
-@post(FETCH + SOURCE + OUT_FMT + DOCID_WILDCARD)
-def fetch_article(source, out_fmt, docid):
-    'Fetch and process one article.'
-    logging.info('GET request: article %s from %s in %s format',
-                 docid, source, out_fmt)
-    return load_process_export([docid], source, out_fmt, docid=None)
+Valid "upload" requests (POST method only):
+/upload/:IN_FMT/:OUT_FMT
+/upload/:IN_FMT/:OUT_FMT/:DOC_ID
+
+Valid SOURCE values:
+{sources}
+
+Valid IN_FMT values:
+{in_fmt}
+
+Valid OUT_FMT values:
+{out_fmt}
+
+Valid DOC_ID values:
+[1-9][0-9]*
+'''.format(sources='|'.join(FETCH_SOURCES),
+           in_fmt='|'.join(UPLOAD_FMTS),
+           out_fmt='|'.join(EXPORT_FMTS))
 
 
-@post(UPLOAD + IN_FMT + OUT_FMT)
-@post(UPLOAD + IN_FMT + OUT_FMT + DOCID_WILDCARD)
-def upload_article(in_fmt, out_fmt, docid=None):
-    'Process one uploaded article.'
-    logging.info('POST request: %s -> %s (DOCID: %s)', in_fmt, out_fmt, docid)
-    return load_process_export(request.body, in_fmt, out_fmt, docid)
-
-
-def load_process_export(data, in_fmt, out_fmt, docid):
-    'Load, process, and export an article (or collection).'
-    annotator = request.query.get('dict')
-    postfilter = bool(request.query.get('postfilter'))
-    try:
-        annotator = ann_manager.get(annotator)
-    except KeyError as e:
-        raise HTTPError(404, 'unknown dict: {}'.format(e), exception=e)
-    try:
-        return annotator.process((data, in_fmt, out_fmt, docid, postfilter))
-    except Exception as e:
-        logging.exception('Fatal: data: %.40r, fmt: %s -> %s, ID: %s',
-                          data, in_fmt, out_fmt, docid)
-        raise HTTPError(400, e)
-
+# Root: serve an HTML page for the web UI.
 
 @get('/')
 def web_ui(target=None):
@@ -230,6 +219,8 @@ def build_web_page(source, target):
 HTMLParser = ET.HTMLParser()
 
 
+# Status: status information of the whole service.
+
 @get('/status')
 def system_status():
     '''
@@ -242,59 +233,7 @@ def system_status():
     }
 
 
-@error(404)
-@view(ERROR_PAGE_TEMPLATE)
-def error404(err):
-    '''
-    Without specific exception, insert a usage message.
-    '''
-    if err.exception is None:
-        err.body = '''\
-Invalid resource locator.
-
-Valid "fetch" request (GET or POST method):
-/fetch/:SOURCE/:OUT_FMT/:DOC_ID
-
-Valid "upload" requests (POST method only):
-/upload/:IN_FMT/:OUT_FMT
-/upload/:IN_FMT/:OUT_FMT/:DOC_ID
-
-Valid SOURCE values:
-{sources}
-
-Valid IN_FMT values:
-{in_fmt}
-
-Valid OUT_FMT values:
-{out_fmt}
-
-Valid DOC_ID values:
-[1-9][0-9]*
-'''.format(sources='|'.join(FETCH_SOURCES),
-           in_fmt='|'.join(UPLOAD_FMTS),
-           out_fmt='|'.join(EXPORT_FMTS))
-    return dict(e=err)
-
-
-# ================= #
-# Legacy interface. #
-# ================= #
-
-@get(OUT_FMT + DOCID_WILDCARD)
-def legacy_fetch(out_fmt, docid):
-    'Obsolete route for fetching.'
-    return fetch_article('pubmed', out_fmt, docid)
-
-@post(IN_FMT + OUT_FMT)
-@post(IN_FMT + OUT_FMT + DOCID_WILDCARD)
-def legacy_upload(in_fmt, out_fmt, docid=None):
-    'Obsolete route for uploading.'
-    return upload_article(in_fmt, out_fmt, docid)
-
-
-# ============================= #
-# Handling multiple annotators. #
-# ============================= #
+# Dict: create/check/remove an annotator.
 
 @post('/dict')
 def load_annotator():
@@ -359,6 +298,72 @@ def remove_annotator(ann):
     except KeyError as e:
         raise HTTPError(404, 'unknown dict: {}'.format(e), exception=e)
 
+
+# Fetch/upload: annotate documents.
+
+@get(FETCH + SOURCE + OUT_FMT + DOCID_WILDCARD)
+@post(FETCH + SOURCE + OUT_FMT + DOCID_WILDCARD)
+def fetch_article(source, out_fmt, docid):
+    'Fetch and process one article.'
+    logging.info('GET request: article %s from %s in %s format',
+                 docid, source, out_fmt)
+    return load_process_export([docid], source, out_fmt, docid=None)
+
+
+@post(UPLOAD + IN_FMT + OUT_FMT)
+@post(UPLOAD + IN_FMT + OUT_FMT + DOCID_WILDCARD)
+def upload_article(in_fmt, out_fmt, docid=None):
+    'Process one uploaded article.'
+    logging.info('POST request: %s -> %s (DOCID: %s)', in_fmt, out_fmt, docid)
+    return load_process_export(request.body, in_fmt, out_fmt, docid)
+
+
+def load_process_export(data, in_fmt, out_fmt, docid):
+    'Load, process, and export an article (or collection).'
+    annotator = request.query.get('dict')
+    postfilter = bool(request.query.get('postfilter'))
+    try:
+        annotator = ann_manager.get(annotator)
+    except KeyError as e:
+        raise HTTPError(404, 'unknown dict: {}'.format(e), exception=e)
+    try:
+        return annotator.process((data, in_fmt, out_fmt, docid, postfilter))
+    except Exception as e:
+        logging.exception('Fatal: data: %.40r, fmt: %s -> %s, ID: %s',
+                          data, in_fmt, out_fmt, docid)
+        raise HTTPError(400, e)
+
+
+# Legacy interface.
+
+@get(OUT_FMT + DOCID_WILDCARD)
+def legacy_fetch(out_fmt, docid):
+    'Obsolete route for fetching.'
+    return fetch_article('pubmed', out_fmt, docid)
+
+@post(IN_FMT + OUT_FMT)
+@post(IN_FMT + OUT_FMT + DOCID_WILDCARD)
+def legacy_upload(in_fmt, out_fmt, docid=None):
+    'Obsolete route for uploading.'
+    return upload_article(in_fmt, out_fmt, docid)
+
+
+# Error formatting.
+
+@error(404)
+@view(ERROR_PAGE_TEMPLATE)
+def error404(err):
+    '''
+    Without specific exception, insert a usage message.
+    '''
+    if err.exception is None:
+        err.body = 'Invalid resource locator.\n\n{}'.format(USAGE_MSG)
+    return dict(e=err)
+
+
+# =================== #
+# Annotator handling. #
+# =================== #
 
 class AnnotatorManager(object):
     '''

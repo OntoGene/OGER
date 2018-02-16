@@ -36,17 +36,18 @@ class CustomODINFormatter(doc.ODINFormatter):
         return super()._tostring(node, **kwargs)
 
 
-EXPORTERS = {
-    'tsv': doc.TSVFormatter,
-    'xml': doc.EntityXMLFormatter,
-    'bioc': doc.BioCXMLFormatter,
-    'bioc_json': doc.BioCJSONFormatter,
-    'pubanno_json': doc.PubAnnoJSONFormatter,
-    'odin': FurbishedODINFormatter,
-    'odin_custom': CustomODINFormatter,
-}
+_exporters = (
+    ('tsv', doc.TSVFormatter),
+    ('xml', doc.EntityXMLFormatter),
+    ('bioc', doc.BioCXMLFormatter),
+    ('bioc_json', doc.BioCJSONFormatter),
+    ('pubanno_json', doc.PubAnnoJSONFormatter),
+    ('odin', FurbishedODINFormatter),
+    ('odin_custom', CustomODINFormatter),
+)
 
-EXPORT_FMTS = list(EXPORTERS)
+EXPORTERS = dict(_exporters)
+EXPORT_FMTS = [name for name, _ in _exporters]
 
 
 def export(config, article, fmt):
