@@ -230,6 +230,18 @@ def build_web_page(source, target):
 HTMLParser = ET.HTMLParser()
 
 
+@get('/status')
+def system_status():
+    '''
+    Check if the whole service is running.
+    '''
+    return {
+        'status': 'running',
+        'active annotation dictionaries': len(ann_manager.active),
+        'default dictionary': ann_manager.default,
+    }
+
+
 @error(404)
 @view(ERROR_PAGE_TEMPLATE)
 def error404(err):
@@ -342,6 +354,8 @@ def remove_annotator(ann):
     '''
     try:
         ann_manager.remove(ann)
+    except IllegalAction as e:
+        raise HTTPError(403, str(e).replace('annotator', 'dictionary'))
     except KeyError as e:
         raise HTTPError(404, 'unknown dict: {}'.format(e), exception=e)
 
@@ -401,6 +415,8 @@ class AnnotatorManager(object):
             try:
                 self.additional.remove(name)
             except ValueError:
+                if name == self.default:
+                    raise IllegalAction('cannot remove default annotator')
                 raise KeyError(name)
         logging.info('Removing annotator %s', name)
         del self.active[name]
@@ -543,3 +559,9 @@ class AsyncAnnotator(_Annotator):
             except Exception as e:
                 result = e
             responses.put(result)
+
+
+class IllegalAction(Exception):
+    '''
+    Attempt to perform a forbidden operation.
+    '''
