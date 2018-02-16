@@ -242,11 +242,11 @@ class Params(ParamBase):
     brat_mv_attributes = ()  # multi-valued attributes
 
     # Hook for postfiltering an article or collection.
-    # Path to a module, optionally followed by a function name,
+    # Path(s) to a module, optionally followed by a function name,
     # separated by a colon, eg. "path/to/module.py:exclude_short".
     # This function is called with an Article or Collection object,
     # for modifying it in-place before writing the result.
-    postfilter = None
+    postfilter = ()
 
 
     # TEXT PROCESSING.
@@ -327,6 +327,7 @@ class Params(ParamBase):
                                 for a, m in ((self.brat_bin_attributes, False),
                                              (self.brat_mv_attributes, True))
                                 for n in a]
+        self.postfilter = self.split(self.postfilter)
 
         self.recognizers = tuple(self.parse_ER_settings(er_params))
 
@@ -520,13 +521,14 @@ def parse_cmdline(args=None):
              'Valid formats are: %(choices)s. '
              '(default: {})'.format(Params.export_format))
     pg.add_argument(
-        '-p', '--postfilter', metavar='PATH[:FUNC]',
+        '-p', '--postfilter', nargs='+', metavar='PATH[:FUNC]',
         help='use function FUNC in the Python3 module at PATH '
              'for post-editing. '
              'This function is called with each Article/Collection object '
              'after ER, but before writing to the different output formats. '
-             'FUNC must be a top-level name. '
-             'It defaults to "postfilter"')
+             'FUNC must be a top-level name; it defaults to "postfilter". '
+             'If multiple postfilters are given, '
+             'they are applied sequentially. ')
     pg.add_argument(
         '-v', '--verbose', dest='log_level', action=IntervalCountAction,
         start=logging.WARNING, interval=-10,

@@ -62,7 +62,7 @@ class PipelineServer(object):
     def __init__(self, conf=None):
         self.conf = None
         self.ers = None
-        self._postfilter = None
+        self._postfilters = None
         if conf is not None:
             self.setup(conf)
 
@@ -71,7 +71,7 @@ class PipelineServer(object):
         self.conf = conf
         # Get the lazy loaders now.
         self.ers = conf.entity_recognizers
-        self._postfilter = conf.postfilter
+        self._postfilters = conf.postfilters
 
     def iter_contents(self, pointers=None):
         'Iterate over input articles/collections.'
@@ -101,7 +101,8 @@ class PipelineServer(object):
 
     def postfilter(self, content):
         'Postfilter an article/collection.'
-        self._postfilter(content)
+        for pf in self._postfilters:
+            pf(content)
 
     def export(self, content):
         'Write an article/collection to disc.'
@@ -129,7 +130,7 @@ class Router(object):
         self._exporters = self._get_exporters()
 
         # External objects with lazy initialisation.
-        self._postfilter = None
+        self._postfilters = None
         self._text_processor = None
         self._entity_recognizers = None
 
@@ -152,13 +153,13 @@ class Router(object):
     # ============== #
 
     @property
-    def postfilter(self):
+    def postfilters(self):
         '''
-        Externally defined postfilter.
+        Externally defined postfilters.
         '''
-        if self._postfilter is None:
-            self._postfilter = self._get_postfilter(self.p.postfilter)
-        return self._postfilter
+        if self._postfilters is None:
+            self._postfilters = self._get_postfilters(self.p.postfilter)
+        return self._postfilters
 
     @property
     def text_processor(self):
@@ -465,15 +466,14 @@ class Router(object):
         '''
         return [EXPORTERS[fmt](self, fmt) for fmt in self.p.export_format]
 
+    def _get_postfilters(self, paths):
+        return [self._load_postfilter(p) for p in paths if p is not None]
+
     @staticmethod
-    def _get_postfilter(path):
+    def _load_postfilter(path):
         '''
         Import an external postfiltering function from an arbitrary module.
         '''
-        # Default action: do nothing.
-        if path is None:
-            return lambda x: None
-
         # Get the function name, if defined.
         func = 'postfilter'
         try:
