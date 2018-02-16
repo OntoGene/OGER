@@ -52,6 +52,9 @@ def main():
         type=int,
         help='port number')
     bottle.add_argument(
+        '-n', '--annotators', metavar='N', default=3, type=int,
+        help='maximum number of non-default annotation dictionaries')
+    bottle.add_argument(
         '-d', '--debug', dest='bottle.debug', action='store_true',
         help='display exceptions in the served responses')
 
@@ -72,10 +75,10 @@ def main():
     # Raise -c args to the top level.
     pl_args.update((k.replace('-', '_'), v) for k, v in args.config)
 
-    init(pl_args, bottle_args)
+    init(pl_args, bottle_args, args.annotators)
 
 
-def init(pl_conf, bottle_conf):
+def init(pl_conf, bottle_conf, annotators):
     '''
     Setup and start the servers.
     '''
@@ -89,7 +92,7 @@ def init(pl_conf, bottle_conf):
     # but before anything interesting happens (like termlist loading).
     setup_logging()
     # Get the default OGER server.
-    ann_manager = AnnotatorManager(pl_params)
+    ann_manager = AnnotatorManager(pl_params, n=annotators)
 
     # Bottle: request handling.
     run_bottle(**bottle_conf)
