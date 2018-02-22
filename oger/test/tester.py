@@ -60,7 +60,8 @@ TESTCASES = [
     'txt_id',
     'txt_collection',
     'pxmlgz',
-    'pxml',
+    'pxml_directory',
+    'pxml_id',
     'bioc',
     'download_pubmed',
     'download_pmc',
@@ -249,9 +250,6 @@ def txt_id(outputdir):
                                    miscellaneous='-b pubmed')
         run_with_arguments(arguments)
 
-    # fails when an ID is in the list, but not in the directory
-    # unless you add fallback option -b pubmed
-
 def txt_collection(outputdir):
     for output_format in OUTPUT_FORMATS:
         testlogger.info('-> %s', output_format)
@@ -267,31 +265,25 @@ def txt_collection(outputdir):
     # Is there a way to make that nicer?
 
 def pxmlgz(outputdir):
+    _multiple_outfmts(outputdir, 'pxml.gz')
 
+def pxml_directory(outputdir):
+    _multiple_outfmts(outputdir, 'pxml')
+
+def _multiple_outfmts(outputdir, fmt):
     for mode in ['collection', 'document']:
         export = ' '.join(OUTPUT_FORMATS)
         testlogger.info('-> %s (%s mode)', export, mode)
         output = outdir(outputdir, mode)
         misc = '-c fn-format-out {fmt}/{id}.{ext}'
-        arguments = make_arguments(format='pxml.gz',
+        arguments = make_arguments(format=fmt,
                                    output=output,
                                    mode=mode,
                                    export=export,
                                    miscellaneous=misc)
         run_with_arguments(arguments)
 
-def pxml(outputdir):
-    for mode in ['collection', 'document']:
-        for output_format in OUTPUT_FORMATS:
-            testlogger.info('-> %s (%s mode)', output_format, mode)
-            output = join(outdir(outputdir, mode), output_format)
-            arguments = make_arguments(format='pxml',
-                                       output=output,
-                                       mode=mode,
-                                       export=output_format)
-            run_with_arguments(arguments)
-
-    # TODO: put this into a nice loop, and possibly into its own function
+def pxml_id(outputdir):
     testlogger.info('-> tsv (ID pointers)')
     pointers = join(IDFILES, 'pxml_pmids.txt')
     arguments = make_arguments(format='pxml',
@@ -301,7 +293,7 @@ def pxml(outputdir):
                                export='tsv')
     run_with_arguments(arguments)
 
-    # missing ids are dled
+    # missing ids are downloaded
     testlogger.info('-> tsv (ID pointers, pubmed fallback)')
     pointers = join(IDFILES, 'pxml_pmids_dl.txt')
     arguments = make_arguments(format='pxml',
