@@ -32,14 +32,13 @@ class EntityXMLFormatter(XMLMemoryFormatter):
 
         return root
 
-    @staticmethod
-    def _entity(entity):
+    def _entity(self, entity):
         node = E('entity',
                  id=str(entity.id_),
                  start=str(entity.start),
                  end=str(entity.end))
 
-        for label, value in entity.info_items():
+        for label, value in entity.info_items(self.config.entity_fields):
             node.set(label, value)
 
         node.text = entity.text

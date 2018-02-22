@@ -97,7 +97,7 @@ class PipelineServer(object):
     def process(self, content):
         'Process one article/collection.'
         for er in self.ers:
-            content.recognize_entities(er, self.conf.entity_fields)
+            content.recognize_entities(er)
 
     def postfilter(self, content):
         'Postfilter an article/collection.'

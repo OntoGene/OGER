@@ -162,7 +162,7 @@ class BioCLoader(CollLoader):
         id_ = anno.get('id')
         text = text_node(anno, 'text', ifnone='')
         info = self._entity_info(anno)
-        return Entity(id_, text, start, end, info, self.config.entity_fields)
+        return Entity(id_, text, start, end, info)
 
     def _entity_info(self, anno):
         'Create an `info` tuple.'
@@ -301,7 +301,7 @@ class BioCXMLFormatter(XMLMemoryFormatter):
     def _entity(self, entity, offset_mngr):
         node = E('annotation', id=str(entity.id_))
 
-        for label, value in entity.info_items():
+        for label, value in entity.info_items(self.config.entity_fields):
             self._infon(node, label, value)
 
         start, length = offset_mngr.entity(entity)
@@ -404,12 +404,11 @@ class BioCJSONFormatter(StreamFormatter):
             'relations': (),
         }
 
-    @staticmethod
-    def _entity(entity, offset_mngr):
+    def _entity(self, entity, offset_mngr):
         start, length = offset_mngr.entity(entity)
         return {
             'id': str(entity.id_),
-            'infons': dict(entity.info_items()),
+            'infons': dict(entity.info_items(self.config.entity_fields)),
             'text': entity.text,
             'locations': [dict(offset=start, length=length)]
         }

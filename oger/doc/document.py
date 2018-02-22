@@ -139,7 +139,7 @@ class Exporter(Unit):
         super().__init__(id_)
         self.basename = basename
 
-    def recognize_entities(self, entity_recognizer, entity_fields):
+    def recognize_entities(self, entity_recognizer):
         '''
         Delegate entity recognition to the sentence unit.
         '''
@@ -151,8 +151,7 @@ class Exporter(Unit):
             if sentence.section.article != last_article:
                 entity_recognizer.reset()
                 last_article = sentence.section.article
-            id_ = sentence.recognize_entities(entity_recognizer,
-                                              entity_fields, id_)
+            id_ = sentence.recognize_entities(entity_recognizer, id_)
 
     def pickle(self, output_filename):
         '''
@@ -331,7 +330,7 @@ class Sentence(Unit):
             for id_, (token, start, end) in enumerate(toks):
                 self.add_subelement(Token(id_, token, start, end))
 
-    def recognize_entities(self, entity_recognizer, entity_fields, start_id=0):
+    def recognize_entities(self, entity_recognizer, start_id=0):
         '''
         Run entity recognition and sort the results by offsets.
         '''
@@ -343,8 +342,7 @@ class Sentence(Unit):
                             surface,
                             start+self.start,
                             end+self.start,
-                            info,
-                            entity_fields)
+                            info)
             self.entities.append(entity)
         try:
             final_id = id_ + 1
@@ -388,14 +386,12 @@ class Entity(object):
     std_fields = ('type', 'preferred_form',
                   'original_resource', 'original_id', 'ontogene_id')
 
-    def __init__(self, id_, text, start, end, info, fields):
+    def __init__(self, id_, text, start, end, info):
         self.id_ = id_
         self.text = text
         self.start = start
         self.end = end
         self.info = info
-
-        self.fields = fields
 
     # Accessor methods for the standard fields:
 
@@ -432,11 +428,13 @@ class Entity(object):
         return tuple(renaming.get(name, name)
                      for name in it.chain(cls.std_fields, extra))
 
-    def info_items(self):
+    def info_items(self, fields=None):
         '''
         Iterate over label-value pairs of entity.info.
         '''
-        for label, value in zip(self.fields, self.info):
+        if fields is None:
+            fields = self.std_fields
+        for label, value in zip(fields, self.info):
             if label != 'ontogene_id':  # no use for the concept counter
                 yield label, value
 
