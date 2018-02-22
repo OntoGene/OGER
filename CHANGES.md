@@ -1,5 +1,18 @@
 # Changes to the OG Python3 Pipeline
 
+## Version 1.1
+
+- parameter additions:
+  * optional byte offsets for BioC input and output
+  * multiple postfilters allowed
+  * new parameter `field-names` interacts with ex-termlist parameter `extra-fields`
+  * new output formats *bioc_json* and *pubanno_json*
+- REST service:
+  * improved API (more consistent)
+  * fetch/upload requests accept input/output parameters (query params)
+  * postfilters can be selected through query params
+
+
 ## Version 1.0
 
 - parameter changes:
