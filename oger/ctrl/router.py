@@ -91,7 +91,7 @@ class PipelineServer(object):
             yield loader.load_one(data, id_=None)
 
     def _get_loader(self, fmt, params):
-        conf = Router(self.conf, **params) if params else self.conf
+        conf = Router(self.conf, **params)
         return LOADERS[fmt](conf)
 
     def process(self, content):
