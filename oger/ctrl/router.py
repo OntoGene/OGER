@@ -145,7 +145,7 @@ class Router(object):
         elif config is not None:
             # If config is given, merge it with params, just in case.
             # (In case of conflicts, params takes precedence.)
-            params = dict(config, **params)
+            params = parameters.Params.merged(config, params)
         return parameters.Params(**params)
 
     # ============== #

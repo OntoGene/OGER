@@ -78,6 +78,43 @@ class ParamBase(object):
             yield param, getattr(self, param)
 
     @staticmethod
+    def canonicalize(params):
+        '''
+        Convert dashes in parameter names to underscores.
+
+        Change the `params` dict in-place.
+        '''
+        changes = []
+        for name in params:
+            if '-' in name:
+                changes.append((name, name.replace('-', '_')))
+        for dashed, canonical in changes:
+            if canonical in params:
+                # A collision like this is most probably a mistake.
+                raise TypeError('multiple occurrences of parameter {}'
+                                .format(canonical))
+            params[canonical] = params.pop(dashed)
+
+    @classmethod
+    def canonicalized(cls, params):
+        '''
+        Create a canonicalized copy of params.
+        '''
+        params = dict(params)
+        cls.canonicalize(params)
+        return params
+
+    @classmethod
+    def merged(cls, *args, **kwargs):
+        '''
+        Cascade param overrides, taking care of dash normalisation.
+        '''
+        params = {}
+        for level in (*args, kwargs):
+            params.update(cls.canonicalized(level))
+        return params
+
+    @staticmethod
     def split(arg):
         '''
         If arg is a string, parse it as a JSON array or
@@ -263,10 +300,12 @@ class Params(ParamBase):
         """
         Override default values through keyword arguments.
         """
+        # Replace dashes and save a copy of the raw settings on the superclass.
+        self.canonicalize(kwargs)
         super().__init__(dict(kwargs, settings=settings))
-        # Load any settings file.
+
+        # Load any settings file and override them with any keyword args.
         params = self.load_ini_file(settings or self.settings)
-        # Override settings with any keyword args.
         params.update(kwargs)
 
         # Create instance variables which hide the class defaults.
@@ -341,8 +380,8 @@ class Params(ParamBase):
         ers = tuple(tuple(ep.iterparams()) for ep in self.recognizers)
         yield 'recognizers', ers
 
-    @staticmethod
-    def load_ini_file(fns):
+    @classmethod
+    def load_ini_file(cls, fns):
         '''
         Parse settings from an INI file.
         '''
@@ -361,7 +400,8 @@ class Params(ParamBase):
                 # Ignore any other sections.
         # Finally, be polite and accept dashed parameter keys,
         # just like they are spelt in the command-line options.
-        return {k.replace('-', '_'): v for k, v in params.items()}
+        cls.canonicalize(params)
+        return params
 
     keypattern = re.compile(r'termlist(\d*)_(\w+)$')
 
@@ -547,7 +587,8 @@ def parse_cmdline(args=None):
     # Argument preprocessing.
     args = vars(ap.parse_args(args))
     # Raise -c args to the top level.
-    args.update((k.replace('-', '_'), v) for k, v in args.pop('config'))
+    args.update(args.pop('config'))
+    ParamBase.canonicalize(args)
 
     return args
 

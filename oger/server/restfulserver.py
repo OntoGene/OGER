@@ -60,11 +60,11 @@ def main():
         '-d', '--debug', dest='bottle.debug', action='store_true',
         help='display exceptions in the served responses')
 
-    pl = ap.add_argument_group(title='OGER configuration')
-    pl.add_argument(
-        '-s', '--settings', dest='pl.settings', metavar='PATH', nargs='+',
+    ann = ap.add_argument_group(title='OGER configuration')
+    ann.add_argument(
+        '-s', '--settings', dest='ann.settings', metavar='PATH', nargs='+',
         help='load OGER settings from one or more .ini config files')
-    pl.add_argument(
+    ann.add_argument(
         '-c', '--config', nargs=2, action='append', default=[],
         metavar=('KEY', 'VALUE'),
         help="any other setting, passed on directly to OGER's config "
@@ -73,14 +73,13 @@ def main():
 
     # Argument preprocessing.
     args = ap.parse_args(namespace=parameters.NestedNamespace())
-    pl_args, bottle_args = vars(args.pl), vars(args.bottle)
-    # Raise -c args to the top level.
-    pl_args.update((k.replace('-', '_'), v) for k, v in args.config)
+    bottle_args = vars(args.bottle)
+    ann_args = parameters.Params.merged(vars(args.ann), args.config)
 
-    init(pl_args, bottle_args, args.annotators)
+    init(ann_args, bottle_args, args.annotators)
 
 
-def init(pl_conf, bottle_conf, annotators):
+def init(ann_conf, bottle_conf, annotators):
     '''
     Setup and start the servers.
     '''
@@ -89,12 +88,12 @@ def init(pl_conf, bottle_conf, annotators):
     global ann_manager
 
     # Pipeline config.
-    pl_params = parameters.Params(**pl_conf)
+    ann_params = parameters.Params(**ann_conf)
     # Organise logging after basicConfig was called in the Params constructor,
     # but before anything interesting happens (like termlist loading).
     setup_logging()
     # Get the default OGER server.
-    ann_manager = AnnotatorManager(pl_params, n=annotators)
+    ann_manager = AnnotatorManager(ann_params, n=annotators)
 
     # Bottle: request handling.
     run_bottle(**bottle_conf)
