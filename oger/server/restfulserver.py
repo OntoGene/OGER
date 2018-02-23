@@ -16,6 +16,7 @@ import logging
 import argparse
 import datetime
 import multiprocessing as mp
+from collections import OrderedDict
 
 from lxml import etree as ET
 from bottle import get, post, delete, response, request, error, HTTPError
@@ -391,7 +392,7 @@ class AnnotatorManager:
         self.default = self.key(self._default_settings)  # default server name
         self.active = {}                  # all active servers
         self.additional = []              # names of additional servers
-        self.postfilters = {}             # all postfilters
+        self.postfilters = OrderedDict()  # all postfilters
 
         logging.info('Starting default annotator %s', self.default)
         self.active[self.default] = self.start(self._default_settings,
