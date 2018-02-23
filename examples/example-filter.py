@@ -62,7 +62,7 @@ def remove_sametype_submatches(content):
     for sentence in content.get_subelements(document.Sentence):
         # Divide the entities into subsets by entity type.
         for e in sentence.entities:
-            entity_types[e.type()].append(e)
+            entity_types[e.type].append(e)
         # Remove the submatches from each subset.
         filtered = []
         for entities in entity_types.values():
