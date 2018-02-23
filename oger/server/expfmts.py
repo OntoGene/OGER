@@ -51,18 +51,19 @@ EXPORTERS = dict(_exporters)
 EXPORT_FMTS = [name for name, _ in _exporters]
 
 
-def export(document, fmt, **params):
+def export(document, config, fmt, **params):
     '''
     Export article to fmt, considering the settings in config.
     '''
     if fmt == 'tsv':
         content_type = 'text/tab-separated-values; charset=UTF-8'
     elif fmt.endswith('json'):
-        content_type = 'application/json'
+        content_type = 'application/json; charset=UTF-8'
     else:
         content_type = 'text/xml; charset=UTF-8'
 
-    config = Router(export_format=(), **params)
+    if params:
+        config = Router(config, export_format=(), **params)
     exporter = EXPORTERS[fmt](config, fmt)
     data = exporter.dump(document)
     return content_type, data

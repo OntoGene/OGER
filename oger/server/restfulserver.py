@@ -471,9 +471,10 @@ class AnnotatorManager:
 
 
 class _Annotator:
-    def __init__(self, desc, postfilters):
+    def __init__(self, config, desc, postfilters):
         if desc is None:
             desc = 'Annotator created at {}'.format(datetime.datetime.utcnow())
+        self.config = config
         self.description = desc
         self.postfilters = postfilters
 
@@ -489,7 +490,7 @@ class _Annotator:
         '''
         document = self._get_annotated(in_params)
         self._postfilter(document, postfilters)
-        ctype, data = export(document, **out_params)
+        ctype, data = export(document, self.config, **out_params)
         response.content_type = ctype
         return data
 
@@ -527,9 +528,9 @@ class BlockingAnnotator(_Annotator):
     '''
     Wrapper for a PipelineServer with simplified interface.
     '''
-    def __init__(self, config, desc, postfilters):
-        super().__init__(desc, postfilters)
-        self._server = router.PipelineServer(config)
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self._server = router.PipelineServer(self.config)
 
     @staticmethod
     def is_ready():
@@ -542,12 +543,13 @@ class AsyncAnnotator(_Annotator):
     '''
     Wrapper for communicating with an annotator child process.
     '''
-    def __init__(self, config, desc, postfilters):
-        super().__init__(desc, postfilters)
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         self._downstream = mp.Queue()
         self._upstream = mp.Queue()
         self._proc = mp.Process(
-            target=self._run, args=(config, self._downstream, self._upstream))
+            target=self._run,
+            args=(self.config, self._downstream, self._upstream))
         self._ready = False
 
         self._proc.start()
