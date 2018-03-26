@@ -309,23 +309,22 @@ class Section(Unit):
         Add a sequence of sentences with start offsets.
         '''
         first_id = len(self.subelements)
-        for id_, (sent, offset, *_) in enumerate(sentences, first_id):
-            self.add_subelement(
-                Sentence(id_, sent, section=self, start=offset))
+        for id_, (sent, *span) in enumerate(sentences, first_id):
+            self.add_subelement(Sentence(id_, sent, self, *span))
 
 
 class Sentence(Unit):
     '''
     Central annotation unit.
     '''
-    def __init__(self, id_, text, section=None, start=0):
+    def __init__(self, id_, text, section=None, start=0, end=None):
         super().__init__(id_)
         self.text = text
         self.section = section
         self.entities = []
         # Character offsets:
         self.start = start
-        self.end = start + len(text)
+        self.end = end if end is not None else start + len(text)
 
     def tokenize(self):
         '''
