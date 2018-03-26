@@ -235,6 +235,11 @@ class Params(ParamBase):
     # Maximum number of IDs per request to the efetch API.
     efetch_max_ids = 1000
 
+    # Interpret offsets wrt bytes instead of codepoints (bioc only).
+    # If you need byte offsets in the (BioC) output, then use the
+    # byte_offsets_out parameter.
+    byte_offsets_in = False
+
 
     # OUTPUT parameters.
     # ==================
@@ -266,13 +271,10 @@ class Params(ParamBase):
     #   Keys different from "source", "date", and "key" are put into
     #   <infon> elements.
     bioc_meta = None
-    # - BioC format: calculate offsets in bytes instead of codepoints.
-    #   If byte offsets are already given through (BioC) input, then set
-    #   the value to "passage", "sentence", "annotation", or any combination
-    #   (the value can be a sequence or a concatenated string).
-    #   Any other value evaluating to True enables offset recomputation
-    #   from the start of each document.
-    byte_offsets = None
+    # - BioC format: produce offsets wrt bytes instead of codepoints.
+    #   If byte offsets are already given through (BioC) input, then use
+    #   the byte_offsets_in parameter.
+    byte_offsets_out = False
     # - Brat format: fields that go into attribute annotations.
     brat_bin_attributes = ()  # binary attributes
     brat_mv_attributes = ()  # multi-valued attributes
@@ -358,6 +360,9 @@ class Params(ParamBase):
         self.include_header = self.bool(self.include_header)
         self.sentence_level = self.bool(self.sentence_level)
         self.bioc_meta = self.mapping(self.bioc_meta, allow_None=True)
+
+        self.byte_offsets_in = self.bool(self.byte_offsets_in)
+        self.byte_offsets_out = self.bool(self.byte_offsets_out)
 
         self.brat_bin_attributes = self.split(self.brat_bin_attributes)
         self.brat_mv_attributes = self.split(self.brat_mv_attributes)

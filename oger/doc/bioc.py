@@ -22,7 +22,24 @@ from ..util.iterate import peekaheaditer, json_iterencode
 from ..util.misc import iter_codepoint_indices_utf8, iter_byte_indices_utf8
 
 
-class BioCLoader(CollLoader):
+class _OffsetMixin:
+    '''
+    Mixin for byte-offset handling.
+    '''
+    def _offset_mngr(self):
+        if isinstance(self, BioCLoader):
+            if self.config.p.byte_offsets_in:
+                return ByteOffsetReader()
+            else:
+                return OffsetReader()
+        else:
+            if self.config.p.byte_offsets_out:
+                return ByteOffsetWriter()
+            else:
+                return OffsetWriter()
+
+
+class BioCLoader(CollLoader, _OffsetMixin):
     '''
     Parser for BioC XML.
 
@@ -31,8 +48,6 @@ class BioCLoader(CollLoader):
     def __init__(self, config):
         super().__init__(config)
         self._warned_already = set()  # cache warnings
-        anchor = self.config.p.byte_offsets
-        self._anno_byte_offsets = bool(anchor and 'annotation' in anchor)
 
     def collection(self, source, id_):
         '''
@@ -71,8 +86,11 @@ class BioCLoader(CollLoader):
         article.metadata = self.infon_dict(node)
         article.year = article.metadata.pop('year', None)
         article.type_ = article.metadata.pop('type', None)
+
+        offset_mngr = self._offset_mngr()
         for passage in node.iterfind('passage'):
-            sec_type, text, offset, infon, anno = self._section(passage)
+            sec_type, text, offset, infon, anno = self._section(passage,
+                                                                offset_mngr)
             article.add_section(sec_type, text, offset)
             section = article.subelements[-1]
             section.metadata = infon
@@ -80,60 +98,47 @@ class BioCLoader(CollLoader):
             # Get infon elements on sentence level.
             for sent, sent_node in zip(section, passage.iterfind('sentence')):
                 sent.metadata = self.infon_dict(sent_node)
+
         return article
 
-    def _section(self, node):
-        'Get type, text and offset from a passage node.'
+    def _section(self, node, offset_mngr):
+        '''Get all relevant data from a passage node.'''
         infon = self.infon_dict(node)
         type_ = infon.pop('type', None)
-        offset = int(node.find('offset').text)
         text = text_node(node, 'text', ifnone='')
         if text is None:
             # Text and annotations at sentence level.
+            offset = offset_mngr.start(node)
             text, anno = [], []
             for sent in node.iterfind('sentence'):
-                t, o = self._sentence(sent)
-                text.append((t, o))
-                anno.extend(self._get_annotations(sent, t, o))
+                text.append(self._sentence(sent, offset_mngr))
+                anno.extend(self._get_annotations(sent, offset_mngr))
         else:
             # Text and annotations at passage level.
-            anno = self._get_annotations(node, text, offset)
+            offset = offset_mngr.update(node, text)
+            anno = self._get_annotations(node, offset_mngr)
         return type_, text, offset, infon, anno
 
     @staticmethod
-    def _sentence(node):
+    def _sentence(node, offset_mngr):
         'Get text and offset from a sentence node.'
-        offset = int(node.find('offset').text)
         text = text_node(node, 'text', ifnone='')
+        offset = offset_mngr.update(node, text)
         return text, offset
 
-    def _get_annotations(self, node, text, offset):
+    @staticmethod
+    def _get_annotations(node, offset_mngr):
         '''
         Iterate over annotations.
 
         Any non-contiguous annotation is split up into
         multiple contiguous annotations.
-
-        If the offsets are given as bytes, recalculate them
-        wrt codepoints, relative to the start offset of the
-        level at which they are anchored (sentence/passage).
         '''
-        if self._anno_byte_offsets:
-            index = list(iter_byte_indices_utf8(text))
-            def _offset_conv(i):
-                return index[i-offset]+offset
-            for start, end, anno in self._get_raw_annotations(node):
-                start, end = _offset_conv(start), _offset_conv(end)
-                yield (start, end, anno)
-        else:
-            yield from self._get_raw_annotations(node)
-
-    @staticmethod
-    def _get_raw_annotations(node):
         for anno in node.iterfind('annotation'):
             for loc in anno.iterfind('location'):
-                start = int(loc.get('offset'))
-                end = start + int(loc.get('length'))
+                start, length = (int(loc.get(n)) for n in ('offset', 'length'))
+                end = offset_mngr.character(start+length)
+                start = offset_mngr.character(start)
                 yield (start, end, anno)
 
     def _insert_annotations(self, section, annotations):
@@ -188,7 +193,7 @@ class BioCLoader(CollLoader):
         return {n.attrib['key']: n.text for n in node.iterfind('infon')}
 
 
-class BioCXMLFormatter(XMLMemoryFormatter):
+class BioCXMLFormatter(XMLMemoryFormatter, _OffsetMixin):
     '''
     BioC XML output format.
     '''
@@ -260,7 +265,7 @@ class BioCXMLFormatter(XMLMemoryFormatter):
             self._infon(node, 'type', article.type_)
         self._add_meta(node, article.metadata)
 
-        offset_mngr = get_offset_manager(self.config.p.byte_offsets)
+        offset_mngr = self._offset_mngr()
         for section in article:
             node.append(self._passage(section, offset_mngr))
 
@@ -282,8 +287,7 @@ class BioCXMLFormatter(XMLMemoryFormatter):
             node.append(E('text', section.text))
             for sent in section:
                 offset_mngr.sentence(sent)  # synchronise without direct usage
-                for entity in sent.iter_entities():
-                    node.append(self._entity(entity, offset_mngr))
+                self._add_entities(node, sent, offset_mngr)
 
         return node
 
@@ -293,10 +297,13 @@ class BioCXMLFormatter(XMLMemoryFormatter):
         node.append(E('offset', str(offset_mngr.sentence(sent))))
         node.append(E('text', sent.text))
 
-        for entity in sent.iter_entities():
-            node.append(self._entity(entity, offset_mngr))
+        self._add_entities(node, sent, offset_mngr)
 
         return node
+
+    def _add_entities(self, node, sent, offset_mngr):
+        for entity in sent.iter_entities():
+            node.append(self._entity(entity, offset_mngr))
 
     def _entity(self, entity, offset_mngr):
         node = E('annotation', id=str(entity.id_))
@@ -323,7 +330,7 @@ class BioCXMLFormatter(XMLMemoryFormatter):
         node.append(E('infon', value, key=key))
 
 
-class BioCJSONFormatter(StreamFormatter):
+class BioCJSONFormatter(StreamFormatter, _OffsetMixin):
     '''
     BioC JSON output format.
     '''
@@ -349,7 +356,7 @@ class BioCJSONFormatter(StreamFormatter):
         ))
 
     def _document(self, article):
-        offset_mngr = get_offset_manager(self.config.p.byte_offsets)
+        offset_mngr = self._offset_mngr()
 
         infons = dict(article.metadata)
         if article.year is not None:
@@ -425,89 +432,122 @@ def wrap_in_collection(content):
     return content
 
 
-def get_offset_manager(anchor):
+class _OffsetManager:
     '''
-    Get an actual or dummy offset manager.
+    Abstract base class for offset conversion.
     '''
-    if not anchor:
-        return BioCOffsetManager()
-    else:
-        return BioCByteOffsetManager(anchor)
-
-class BioCOffsetManager:
-    '''
-    Offer the same interface as BioCByteOffsetManager
-    without doing anything interesting.
-    '''
-
-    @staticmethod
-    def passage(section):
+    def start(self, unit):
         '''
-        Return the start offset of this passage/section.
+        Get the converted start offset of this unit.
         '''
-        return section.start
+        # Default: act as a dummy.
+        return self._start(unit)
+
+    def update(self, unit, text):
+        '''
+        Process the text of this unit and return its start offset.
+        '''
+        # Default: act as a dummy.
+        del text
+        return self._start(unit)
 
     @staticmethod
-    def sentence(sentence):
+    def character(index):
         '''
-        Return the start offset of this sentence.
+        Convert the offset of this character in the current text unit.
         '''
-        return sentence.start
+        # Default: act as a dummy.
+        return index
+
+    def _start(self, unit):
+        '''
+        Get the start offset before conversion.
+        '''
+        raise NotImplementedError
+
+
+class _OffsetConverter(_OffsetManager):
+    '''
+    Mixin class for non-dummy offset managers.
+    '''
+    def __init__(self):
+        # Current difference at the end of the current text unit:
+        self._diff = 0  # len(target) - len(source)
+        # Start anchors for the current text unit:
+        self._cursor_source = None
+        self._cursor_target = None
+        # Character-level offset mapping for the current text unit:
+        self._conv_index = None
+
+    def start(self, unit):
+        return self._start(unit) + self._diff
+
+    def update(self, unit, text):
+        # Update internal state.
+        self._conv_index = list(self._indexer(text))
+        self._cursor_source = self._start(unit)
+        self._cursor_target = self._cursor_source + self._diff
+        len_target = self._conv_index[-1]
+        len_source = len(self._conv_index) - 1
+        self._diff += len_target - len_source
+        return self._cursor_target
+
+    def character(self, index):
+        return self._conv_index[index-self._cursor_source]+self._cursor_target
+
+    def _indexer(self, text):
+        raise NotImplementedError
+
+
+class OffsetReader(_OffsetManager):
+    '''
+    Offset forwarding (dummy conversion) for reading BioC.
+    '''
+    @staticmethod
+    def _start(unit):
+        # Unit is an lxml element.
+        return int(unit.find('offset').text)
+
+
+class ByteOffsetReader(OffsetReader, _OffsetConverter):
+    '''
+    Offset conversion from bytes to codepoints.
+    '''
+    _indexer = staticmethod(iter_byte_indices_utf8)
+
+
+class OffsetWriter(_OffsetManager):
+    '''
+    Offset forwarding (dummy conversion) for writing BioC.
+    '''
+    @staticmethod
+    def _start(unit):
+        # Unit is a oger.doc.document.Section/Sentence object.
+        return unit.start
 
     @staticmethod
     def entity(entity):
         '''
-        Return start and length of this annotation.
+        Calculate start and length of this annotation.
         '''
         return entity.start, entity.end-entity.start
 
-class BioCByteOffsetManager(BioCOffsetManager):
+    # Aliases for backward compatibility.
+    def passage(self, unit):
+        '''New passage/section: get the start offset.'''
+        return self.start(unit)
+
+    def sentence(self, unit):
+        '''New sentence: process the text before returning the start offset.'''
+        return self.update(unit, unit.text)
+
+
+class ByteOffsetWriter(OffsetWriter, _OffsetConverter):
     '''
-    Keep track of bytes offsets.
+    Offset conversion from codepoints to bytes.
     '''
-    def __init__(self, anchor):
-        self._passage_anchor = 'passage' in anchor
-        self._sentence_anchor = 'sentence' in anchor
-        self._cumulated = 0
-        self._last_sentence = 0
-        self._sent_start = None
-        self._cp_index = None
-
-    def passage(self, section):
-        '''
-        New passage/section.
-
-        Update counts and return the cumulated start offset.
-        '''
-        if self._passage_anchor:
-            self._cumulated = section.start
-        elif self._sentence_anchor and section.subelements:
-            # If there are sentence anchors, use the first sentence's offset.
-            self._cumulated = section.subelements[0].start
-        else:
-            self._cumulated += self._last_sentence
-        self._last_sentence = 0
-        return self._cumulated
-
-    def sentence(self, sentence):
-        '''
-        New sentence.
-
-        Update counts and return the cumulated start offset.
-        '''
-        self._cp_index = list(iter_codepoint_indices_utf8(sentence.text))
-        self._sent_start = sentence.start
-        if self._sentence_anchor:
-            self._cumulated = sentence.start
-        else:
-            self._cumulated += self._last_sentence
-        self._last_sentence = self._cp_index[-1]
-        return self._cumulated
+    _indexer = staticmethod(iter_codepoint_indices_utf8)
 
     def entity(self, entity):
-        '''
-        Calculate start and length for this annotation.
-        '''
-        start, end = (self._cp_index[n-self._sent_start]+self._cumulated
-                      for n in (entity.start, entity.end))
+        start, end = (self.character(n) for n in (entity.start, entity.end))
         return start, end-start
