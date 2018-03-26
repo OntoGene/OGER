@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # Nico Colic, September 2015
-# Modified by Lenz Furrer, 2015--2017
+# Modified by Lenz Furrer, 2015--2018
 
 
 """
@@ -28,19 +28,18 @@ from ..util.iterate import peekaheaditer
 
 
 class Unit(object):
-    """Abstract unit which implements functions used by all structures."""
+    """
+    Base class for all levels of representation.
+    """
 
     def __init__(self, id_):
-        '''
-        Mainly initialises subelements list.
-        '''
-        self.subelements = list()
+        self.subelements = []
         self.id_ = id_
         self._metadata = None
 
     @property
     def metadata(self):
-        'Metadata imported from input documents.'
+        '''Metadata imported from input documents.'''
         if self._metadata is None:
             self._metadata = {}
         return self._metadata
@@ -79,21 +78,18 @@ class Unit(object):
     def __iter__(self):
         return iter(self.subelements)
 
+    def __getitem__(self, index):
+        return self.subelements[index]
+
     def add_subelement(self, subelement):
         '''
-        Check for type consistency and ID before adding.
+        Check for type consistency before adding.
         '''
         # Checks that all elements in the subelements list are of the same type
         if self.subelements:
             if type(self.subelements[0]) != type(subelement):
                 raise TypeError(
                     "Subelements list may only contain objects of same type")
-
-        # if id_ in subelement is set, we use it
-        # otherwise we create a new id_
-        if subelement.id_ is None:
-            # subelement has not yet been added to the subelements list
-            subelement.id_ = len(self.subelements)
 
         self.subelements.append(subelement)
 
@@ -102,10 +98,21 @@ class Unit(object):
         Iterate over subelements at any subordinate level.
 
         Example use:
-            my_article.get_subelements(document.Token)
-        for a flat iterator over all of the article's
-        tokens.
+            my_article.get_subelements("sentence")
+        for a flat iterator over all sentences of an article.
         """
+        if isinstance(subelement_type, str):
+            try:
+                subelement_type = dict(
+                    article=Article,
+                    section=Section,
+                    sentence=Sentence,
+                    token=Token,
+                )[subelement_type.lower()]
+            except KeyError:
+                raise TypeError('unknown subelement_type: {}'
+                                .format(subelement_type))
+
         if not self.subelements:
             return iter([])
 
@@ -216,7 +223,7 @@ class Article(Exporter):
 
 
 class Section(Unit):
-    """Can be something like title or abstract"""
+    """Any unit of text between document and sentence level."""
 
     def __init__(self, id_, section_type, text, article, start=0):
         '''
