@@ -48,25 +48,6 @@ class Unit(object):
     def metadata(self, value):
         self._metadata = value
 
-    def __str__(self):
-        '''
-        Used so you can print(my_article), for example
-        Useful for inspection (but use xml() etc for true outputting)
-        '''
-        string = ''
-        if not self.subelements:
-            return self.text
-
-        for subelement in self.subelements:
-            if hasattr(subelement, 'text'):
-                if subelement.text is not None:
-                    string += subelement.text + ' '
-            else:
-                string += repr(subelement)
-
-        # get rid of final \n
-        return string.rstrip('\r\n')
-
     def __repr__(self):
         name = self.__class__.__name__
         elems = len(self.subelements)
@@ -145,6 +126,28 @@ class Exporter(Unit):
     def __init__(self, id_, basename=None):
         super().__init__(id_)
         self.basename = basename
+
+    @property
+    def text(self):
+        '''
+        Plain text form for inspection and Brat output.
+        '''
+        return ''.join(self.iter_text())
+
+    def iter_text(self):
+        '''
+        Iterate over all text segments, including separators.
+
+        Separator whitespace is reconstructed from offsets,
+        using "\n" between sections and " " between sentences.
+        '''
+        offset = 0
+        for section in self.get_subelements(Section):
+            if offset < section.start:
+                # Insert space that was removed between sections.
+                yield '\n' * (section.start-offset)
+            yield from section.iter_text()
+            offset = section.end
 
     def recognize_entities(self, entity_recognizer):
         '''
@@ -271,16 +274,23 @@ class Section(Unit):
         Plain text form for inspection and Brat output.
         '''
         if self._text is None:
-            self._text = ''
-            offset = self.start
-            for sent in self.subelements:
-                if offset < sent.start:
-                    # Insert space that was removed in sentence splitting.
-                    self._text += ' ' * (sent.start-offset-1) + '\n'
-                    offset = sent.start
-                self._text += sent.text
-                offset += len(sent.text)
+            self._text = ''.join(self.iter_text())
         return self._text
+
+    def iter_text(self):
+        '''
+        Iterate over sentence text and blanks.
+        '''
+        offset = self.start
+        for sent in self.subelements:
+            if offset < sent.start:
+                # Insert space that was removed in sentence splitting.
+                yield ' ' * (sent.start-offset)
+            yield sent.text
+            offset = sent.end
+        # Check for trailing whitespace.
+        if offset < self.end:
+            yield ' ' * (self.end-offset)
 
     @staticmethod
     def _guess_offsets(sentences, offset):

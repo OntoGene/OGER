@@ -58,8 +58,7 @@ class BratTxtFormatter(StreamFormatter):
 
     @staticmethod
     def write(stream, content):
-        for s in content.get_subelements(Section):
-            stream.write(s.text)
+        stream.writelines(content.iter_text())
 
 
 class BratAnnFormatter(StreamFormatter):
