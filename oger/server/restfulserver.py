@@ -33,6 +33,10 @@ from .client import ParamHandler
 
 BOTTLE_HOST = '0.0.0.0'
 BOTTLE_PORT = 12321
+# Bottle's tempfile solution for large files interferes with queue pickling
+# for multiprocessing. Increase the threshold to 100M, which should be enough,
+# since the allowed payload max size is far less.
+request.__class__.MEMFILE_MAX = 100 * 1024 * 1024
 
 INPUT_FORM = os.path.join(os.path.dirname(__file__), 'static', 'form.html')
 
