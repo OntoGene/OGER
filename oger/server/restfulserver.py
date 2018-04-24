@@ -128,7 +128,7 @@ FETCH = '/fetch'
 UPLOAD = '/upload'
 
 FETCH_SOURCES = ('pubmed', 'pmc')
-UPLOAD_FMTS = ('txt', 'bioc', 'pxml', 'nxml', 'pxml.gz')
+UPLOAD_FMTS = ('txt', 'txt_json', 'bioc', 'pxml', 'nxml', 'pxml.gz')
 
 SOURCE = '/<source:re:{}>'.format('|'.join(FETCH_SOURCES))
 IN_FMT = '/<in_fmt:re:{}>'.format('|'.join(UPLOAD_FMTS))

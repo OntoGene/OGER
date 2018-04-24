@@ -11,30 +11,30 @@ Loader for plain-text input.
 
 import os
 import io
+import json
 import codecs
 
 from .document import Article
-from .load import DocLoader
+from .load import DocLoader, DocIterator
 
 
-class TXTLoader(DocLoader):
+class _TXTLoaderMixin:
     '''
-    Loader for plain-text documents.
+    Base loader for plain-text documents.
     '''
-    def document(self, source, id_):
-        '''
-        Get a very simply structured article.
-        '''
+    @staticmethod
+    def _text_stream(source, call):
+        # Source is a stream.
         if hasattr(source, 'read'):
-            return self._document(source, id_)
+            # Check if this stream needs decoding.
+            if isinstance(source, (io.RawIOBase, io.BufferedIOBase)):
+                source = codecs.getreader('utf-8')(source)
+            return call(source)
+        # Source is a path.
         with open(source, encoding='utf-8') as f:
-            return self._document(f, id_)
+            return call(f)
 
     def _document(self, stream, docid):
-        # Check if this stream needs decoding.
-        if isinstance(stream, (io.RawIOBase, io.BufferedIOBase)):
-            stream = codecs.getreader('utf-8')(stream)
-
         if self.config.p.single_section:
             # All text in a single section.
             sections = [self._reattach_blank(stream)]
@@ -106,3 +106,27 @@ class TXTLoader(DocLoader):
         # Unless the input sequence was empty, the last line is now due.
         if last:
             yield last
+
+
+class TXTLoader(DocLoader, _TXTLoaderMixin):
+    '''
+    Loader for single plain-text documents.
+    '''
+    def document(self, source, id_):
+        '''
+        Get a very simply structured article.
+        '''
+        return self._text_stream(source, lambda f: self._document(f, id_))
+
+
+class TXTJSONLoader(DocIterator, _TXTLoaderMixin):
+    '''
+    Loader for multiple plain-text documents embedded in JSON.
+    '''
+    def iter_documents(self, source):
+        docs = self._text_stream(source, json.load)
+
+        for doc in docs:
+            stream = io.StringIO(doc['text'])
+            id_ = doc['id']
+            yield self._document(stream, id_)

@@ -9,7 +9,7 @@ Internal text representation.
 '''
 
 
-from .txt import TXTLoader
+from .txt import TXTLoader, TXTJSONLoader
 from .pubmed import PXMLLoader, PXMLFetcher, MedlineLoader, PMCLoader, PMCFetcher
 from .tsv import TSVFormatter
 from .xml import EntityXMLFormatter, TextXMLFormatter
@@ -24,6 +24,7 @@ from .pubanno import PubAnnoJSONFormatter
 # Keep these mappings up to date.
 LOADERS = {
     'txt': TXTLoader,
+    'txt_json': TXTJSONLoader,
     'bioc': BioCLoader,
     'becalmabstracts': BeCalmAbstractFetcher,
     'becalmpatents': BeCalmPatentFetcher,
