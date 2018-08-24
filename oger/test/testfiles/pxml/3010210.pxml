@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010210</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>09</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>09</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2015</Year>
+<Month>11</Month>
+<Day>19</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0167-6784</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>7</Volume>
+<Issue>1</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Mar</Month>
+</PubDate>
+</JournalIssue>
+<Title>Ophthalmic paediatrics and genetics</Title>
+<ISOAbbreviation>Ophthalmic Paediatr Genet</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Congenital cataract and evolutive myopia. Relationship with hypophyseal-adrenal cortical axis function.</ArticleTitle>
+<Pagination>
+<MedlinePgn>63-7</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>To see whether or not reduced light input in children with congenital cataract produces degenerative myopia and whether it is associated with an impairment of the hypophyseal-adrenal cortical axis, the authors studied biometric values and circadian rhythm and cortisol reserve in nine children with monolateral and ten children with bilateral cataract. 38.75% of patients had: refractions less than 10D, increased antero-posterior diameter of the eyeball, varying degrees of myopic chorioretinitis, showing that the lack of light input induces degenerative myopia only in a group of patients who are probably genetically predisposed. The negative correlation between cortisol reserve and ocular lesions seems to reveal a precocious negative effect of the lack of light input on the development of the hypothalamic-hypophyseal-adrenal cortical axis. The alteration of the circadian cortisol rhythm and the reduction of the cortisol reserve found exclusively in children with monolateral cataract must be studied further to be explained. The slight increase in plasma cortisol levels earlier described in adults with acquired degenerative myopia was not found in children with congenital cataract. This difference could be due to: special endocrine characteristics in children with congenital cataract, endocrine differences between childhood and adulthood, differing influences of hormonal factors on myopia, or vice versa, in childhood and adulthood.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Balacco-Gabrieli</LastName>
+<ForeName>C</ForeName>
+<Initials>C</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Mastrandea</LastName>
+<ForeName>G</ForeName>
+<Initials>G</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Acquafredda</LastName>
+<ForeName>A</ForeName>
+<Initials>A</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Stefania</LastName>
+<ForeName>O</ForeName>
+<Initials>O</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Ciufreda</LastName>
+<ForeName>A</ForeName>
+<Initials>A</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Cavallo</LastName>
+<ForeName>L</ForeName>
+<Initials>L</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>NETHERLANDS</Country>
+<MedlineTA>Ophthalmic Paediatr Genet</MedlineTA>
+<NlmUniqueID>8206832</NlmUniqueID>
+<ISSNLinking>0167-6784</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>9002-60-2</RegistryNumber>
+<NameOfSubstance UI="D000324">Adrenocorticotropic Hormone</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>WI4X0X7BPJ</RegistryNumber>
+<NameOfSubstance UI="D006854">Hydrocortisone</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000293">Adolescent</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000324">Adrenocorticotropic Hormone</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000367">Age Factors</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002386">Cataract</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000150">complications</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000151">congenital</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000503">physiopathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002648">Child</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002675">Child, Preschool</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002825">Chorioretinitis</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000209">etiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002940">Circadian Rhythm</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006854">Hydrocortisone</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000097">blood</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007030">Hypothalamo-Hypophyseal System</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000503">physiopathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007223">Infant</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009216">Myopia</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000209">etiology</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010913">Pituitary-Adrenal System</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000503">physiopathology</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

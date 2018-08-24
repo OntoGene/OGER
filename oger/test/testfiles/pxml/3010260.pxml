@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010260</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>06</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>06</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>11</Month>
+<Day>21</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0032-3756</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>41</Volume>
+<Issue>2</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Jan</Month>
+<Day>13</Day>
+</PubDate>
+</JournalIssue>
+<Title>Polski tygodnik lekarski (Warsaw, Poland : 1960)</Title>
+<ISOAbbreviation>Pol Tyg Lek</ISOAbbreviation>
+</Journal>
+<ArticleTitle>[Effect of naloxone on parathyroid hormone and calcitonin secretion and 25-hydroxyvitamin D levels in patients with acute renal failure].</ArticleTitle>
+<Pagination>
+<MedlinePgn>38-41</MedlinePgn>
+</Pagination>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Grzeszczak</LastName>
+<ForeName>W</ForeName>
+<Initials>W</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Kokot</LastName>
+<ForeName>F</ForeName>
+<Initials>F</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Duława</LastName>
+<ForeName>J</ForeName>
+<Initials>J</Initials>
+</Author>
+</AuthorList>
+<Language>pol</Language>
+<PublicationTypeList>
+<PublicationType UI="D004740">English Abstract</PublicationType>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+</PublicationTypeList>
+<VernacularTitle>Wpływ naloksonu na wydzielanie parathormonu (PTH) i kalcytoniny oraz stezenie 25-hydroksy-witaminy D u chorych na ostra niewydolność nerek.</VernacularTitle>
+</Article>
+<MedlineJournalInfo>
+<Country>POLAND</Country>
+<MedlineTA>Pol Tyg Lek</MedlineTA>
+<NlmUniqueID>9705468</NlmUniqueID>
+<ISSNLinking>0032-3756</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D010281">Parathyroid Hormone</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D011957">Receptors, Opioid</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>36B82AMQ7N</RegistryNumber>
+<NameOfSubstance UI="D009270">Naloxone</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9007-12-9</RegistryNumber>
+<NameOfSubstance UI="D002116">Calcitonin</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>P6YZ13C99Q</RegistryNumber>
+<NameOfSubstance UI="D002112">Calcifediol</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D058186">Acute Kidney Injury</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000503">physiopathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002112">Calcifediol</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000097">blood</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002116">Calcitonin</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000557">secretion</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009270">Naloxone</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010280">Parathyroid Glands</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000503">physiopathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010281">Parathyroid Hormone</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000557">secretion</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011957">Receptors, Opioid</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000187">drug effects</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013960">Thyroid Function Tests</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013961">Thyroid Gland</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000503">physiopathology</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

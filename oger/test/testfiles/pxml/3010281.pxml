@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010281</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>10</Month>
+<Day>01</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0027-8424</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>83</Volume>
+<Issue>10</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>May</Month>
+</PubDate>
+</JournalIssue>
+<Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+<ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Activation of gene expression is adversely affected at high multiplicities of linked simian virus 40 enhancer.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3199-203</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>We have cloned multiple copies of 72-base-pair (bp) repeat transcriptional enhancer element from simian virus 40 in plasmid vectors upstream from the bacterial chloramphenicol acetyltransferase gene under the control of the simian virus 40 early promoter. Two copies of the 72-bp repeat provided efficient activation of gene expression. Increasing the number of linked 72-bp units to four substantially improved the activation of gene expression, but further addition of enhancers diminished the activation of gene expression proportionally to the number of enhancers added. Enhancer regions containing 10 or more copies of the 72-bp sequence were very inefficient in gene activation. Plasmids containing such expanded enhancer regions also competed less efficiently in vivo for trans-acting enhancer-binding factors. These effects are specific for the enhancer element and are not produced by reiterations of the 21-bp promoter element. Multiple enhancer units placed upstream do not interfere with the accuracy of mRNA initiation directed by the simian virus 40 early promoter in these plasmid constructs but do severely inhibit the initiation of replication at the neighboring simian virus 40 origin of replication that overlaps the early promoter region. These results are consistent with the hypothesis that the structural alterations induced in the DNA by a large number of copies of the enhancer are not favorable for the activation of a linked gene or for the binding of factors believed to mediate the enhancement effect.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Kumar</LastName>
+<ForeName>R</ForeName>
+<Initials>R</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Firak</LastName>
+<ForeName>T A</ForeName>
+<Initials>TA</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Schroll</LastName>
+<ForeName>C T</ForeName>
+<Initials>CT</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Subramanian</LastName>
+<ForeName>K N</ForeName>
+<Initials>KN</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<GrantList CompleteYN="Y">
+<Grant>
+<GrantID>CA 09318-04</GrantID>
+<Acronym>CA</Acronym>
+<Agency>NCI NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+</GrantList>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+<PublicationType UI="D013487">Research Support, U.S. Gov't, P.H.S.</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+<NlmUniqueID>7505876</NlmUniqueID>
+<ISSNLinking>0027-8424</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D004274">DNA, Recombinant</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 2.3.1.-</RegistryNumber>
+<NameOfSubstance UI="D000123">Acetyltransferases</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 2.3.1.28</RegistryNumber>
+<NameOfSubstance UI="D015500">Chloramphenicol O-Acetyltransferase</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1983 Jul;47(1):1-14</RefSource>
+<PMID Version="1">6306266</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1983 Jun 23-29;303(5919):674-9</RefSource>
+<PMID Version="1">6304535</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Feb;36(2):403-11</RefSource>
+<PMID Version="1">6319021</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Feb 23-29;307(5953):708-14</RefSource>
+<PMID Version="1">6321997</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Apr;36(4):983-92</RefSource>
+<PMID Version="1">6323032</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Oct;81(20):6335-9</RefSource>
+<PMID Version="1">6093097</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Nov;81(21):6652-6</RefSource>
+<PMID Version="1">6093109</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1985 Jan 18;227(4684):266-70</RefSource>
+<PMID Version="1">3917575</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1985 Feb 7-13;313(6002):458-63</RefSource>
+<PMID Version="1">2982105</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1985 Feb 21-27;313(6004):711-4</RefSource>
+<PMID Version="1">2983220</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1978 May 11;273(5658):113-20</RefSource>
+<PMID Version="1">205802</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1978 May 5;200(4341):494-502</RefSource>
+<PMID Version="1">205947</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1979 Oct 26;206(4417):456-62</RefSource>
+<PMID Version="1">228391</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochemistry. 1979 Nov 27;18(24):5294-9</RefSource>
+<PMID Version="1">518835</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1979 Dec;18(4):963-77</RefSource>
+<PMID Version="1">229976</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Methods Enzymol. 1980;65(1):499-560</RefSource>
+<PMID Version="1">6246368</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1980 Jul;77(7):3937-41</RefSource>
+<PMID Version="1">6254003</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1981 Jan;23(1):175-82</RefSource>
+<PMID Version="1">6260373</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1981 Oct;40(1):224-40</RefSource>
+<PMID Version="1">6270376</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Appl Genet. 1982;1(4):327-41</RefSource>
+<PMID Version="1">6286831</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1982 Nov;79(21):6453-7</RefSource>
+<PMID Version="1">6292901</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1982 Sep;2(9):1044-51</RefSource>
+<PMID Version="1">6960240</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1982 Nov;79(22):6777-81</RefSource>
+<PMID Version="1">6294651</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1983 Feb 11;219(4585):626-31</RefSource>
+<PMID Version="1">6297005</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Jul;33(3):695-703</RefSource>
+<PMID Version="1">6871991</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000123">Acetyltransferases</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002460">Cell Line</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002522">Cercopithecus aethiops</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D015500">Chloramphenicol O-Acetyltransferase</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004274">DNA, Recombinant</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D004742">Enhancer Elements, Genetic</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005786">Gene Expression Regulation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D005809">Genes, Regulator</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006367">HeLa Cells</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013539">Simian virus 40</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D015533">Transcriptional Activation</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC323480</OtherID>
+</MedlineCitation>

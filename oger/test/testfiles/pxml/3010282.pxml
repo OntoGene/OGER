@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010282</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2015</Year>
+<Month>11</Month>
+<Day>19</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0027-8424</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>83</Volume>
+<Issue>10</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>May</Month>
+</PubDate>
+</JournalIssue>
+<Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+<ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Murine myb protooncogene mRNA: cDNA sequence and evidence for 5' heterogeneity.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3204-8</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>We have sequenced two overlapping cDNA clones from a murine pro-B cell library to generate a composite sequence that includes 3413 bases of the murine c-myb mRNA. There is a single long open reading frame, beginning at the first base of this sequence, and continuing from the first methionine codon at nucleotide 265 to a TGA termination codon at nucleotide 2173. The predicted murine translation product contains 636 amino acid residues and is about 71 kDa long, which is in good agreement with the 75-kDa molecular size determined for the avian c-myb protein. The murine c-myb protein shows a striking 82% amino acid homology in the region (amino acids 71-444) where it can be compared to the published avian c-myb gene sequence. S1 nuclease protection analysis indicates extreme heterogeneity at the 5' end of steady-state murine c-myb mRNA.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Bender</LastName>
+<ForeName>T P</ForeName>
+<Initials>TP</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Kuehl</LastName>
+<ForeName>W M</ForeName>
+<Initials>WM</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<DataBankList CompleteYN="Y">
+<DataBank>
+<DataBankName>GENBANK</DataBankName>
+<AccessionNumberList>
+<AccessionNumber>K03465</AccessionNumber>
+<AccessionNumber>M12848</AccessionNumber>
+<AccessionNumber>M21169</AccessionNumber>
+</AccessionNumberList>
+</DataBank>
+</DataBankList>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+<NlmUniqueID>7505876</NlmUniqueID>
+<ISSNLinking>0027-8424</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D012333">RNA, Messenger</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9007-49-2</RegistryNumber>
+<NameOfSubstance UI="D004247">DNA</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.-</RegistryNumber>
+<NameOfSubstance UI="D004720">Endonucleases</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.21.-</RegistryNumber>
+<NameOfSubstance UI="D004262">DNA Restriction Enzymes</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.30.1</RegistryNumber>
+<NameOfSubstance UI="D015719">Single-Strand Specific DNA and RNA Endonucleases</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1982 Jun;2(6):617-24</RefSource>
+<PMID Version="1">14582157</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1985 Dec 20;230(4732):1378-81</RefSource>
+<PMID Version="1">2999983</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Immunol. 1978 Aug;121(2):641-7</RefSource>
+<PMID Version="1">308074</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochemistry. 1979 Nov 27;18(24):5294-9</RefSource>
+<PMID Version="1">518835</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Exp Cell Res. 1981 Feb;131(2):331-43</RefSource>
+<PMID Version="1">6258948</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1981 Dec 10;294(5841):536-40</RefSource>
+<PMID Version="1">6273747</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1982 Jun 25;216(4553):1421-3</RefSource>
+<PMID Version="1">6283631</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1982 Apr;79(7):2194-8</RefSource>
+<PMID Version="1">6954533</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1982 Feb;2(2):161-70</RefSource>
+<PMID Version="1">6287227</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1982 Dec 9;300(5892):500-5</RefSource>
+<PMID Version="1">6292733</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1982 Dec;31(2 Pt 1):453-63</RefSource>
+<PMID Version="1">6297766</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1982 Dec;31(3 Pt 2):643-53</RefSource>
+<PMID Version="1">6297778</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1983 Mar;80(5):1194-8</RefSource>
+<PMID Version="1">6219389</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1983 May 20;220(4599):795-8</RefSource>
+<PMID Version="1">6687762</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Jun;33(2):345-55</RefSource>
+<PMID Version="1">6305504</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Int J Cancer. 1983 Aug 15;32(2):185-91</RefSource>
+<PMID Version="1">6603429</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Virology. 1983 Aug;129(1):65-78</RefSource>
+<PMID Version="1">6310886</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Oct;34(3):779-87</RefSource>
+<PMID Version="1">6414718</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Nov;35(1):187-97</RefSource>
+<PMID Version="1">6194897</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Exp Cell Res. 1983 Nov;149(1):151-62</RefSource>
+<PMID Version="1">6196212</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1983 Dec 22-1984 Jan 4;306(5945):803-6</RefSource>
+<PMID Version="1">6656884</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Gene. 1983 Nov;25(2-3):263-9</RefSource>
+<PMID Version="1">6198242</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1984 Jan 25;12(2):857-72</RefSource>
+<PMID Version="1">6694911</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1984 Jun 8;224(4653):1117-21</RefSource>
+<PMID Version="1">6585957</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Jun;37(2):537-47</RefSource>
+<PMID Version="1">6327074</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Jul 19-25;310(5974):249-51</RefSource>
+<PMID Version="1">6205276</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Jul;81(14):4265-9</RefSource>
+<PMID Version="1">6087315</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Aug;38(1):275-85</RefSource>
+<PMID Version="1">6088070</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1984 Nov 30;226(4678):1077-80</RefSource>
+<PMID Version="1">6093260</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1984 Dec 10;259(23):14642-6</RefSource>
+<PMID Version="1">6209277</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1984 Jul;4(7):1206-12</RefSource>
+<PMID Version="1">6504046</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Virology. 1984 Dec;139(2):330-9</RefSource>
+<PMID Version="1">6097027</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1985 Apr;40(4):983-90</RefSource>
+<PMID Version="1">2985272</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1985 Jun;41(2):349-59</RefSource>
+<PMID Version="1">2580642</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1985 Jun;41(2):449-56</RefSource>
+<PMID Version="1">3921261</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Virology. 1985 Jul 15;144(1):115-26</RefSource>
+<PMID Version="1">2414915</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>EMBO J. 1985 Aug;4(8):2003-8</RefSource>
+<PMID Version="1">2998780</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1975 Mar 10;250(5):1759-64</RefSource>
+<PMID Version="1">1112829</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001483">Base Sequence</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002874">Chromosome Mapping</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004247">DNA</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004262">DNA Restriction Enzymes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004720">Endonucleases</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051379">Mice</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D011519">Proto-Oncogenes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012333">RNA, Messenger</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D015719">Single-Strand Specific DNA and RNA Endonucleases</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC323481</OtherID>
+</MedlineCitation>

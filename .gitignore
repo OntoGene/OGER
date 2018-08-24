@@ -1,0 +1,9 @@
+.*
+!.gitignore
+
+*.ini
+!examples/example-settings.ini
+
+*.pyc
+
+oger/test/testfiles/test_terms.tsv.pickle

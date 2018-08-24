@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010243</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>10</Month>
+<Day>01</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0305-1048</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>14</Volume>
+<Issue>8</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Apr</Month>
+<Day>25</Day>
+</PubDate>
+</JournalIssue>
+<Title>Nucleic acids research</Title>
+<ISOAbbreviation>Nucleic Acids Res.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Expression of the major heat shock gene of Drosophila melanogaster in Saccharomyces cerevisiae.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3587-601</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>A copy of the gene which encodes the major heat shock protein (hsp70) of D. melanogaster was integrated in both orientations into the genome of S. cerevisiae at the leu2 locus. The level of transcript from the D. melanogaster gene was measured under both normal conditions and conditions which are known to give rise to the heat shock response in S. cerevisiae. In both orientations the D. melanogaster gene gave rise to an abundant transcript in uninduced cells. The level of this transcript was increased transiently on heat shock, peaking after about 30 min at the elevated temperature. The average induction observed was around 5-fold. Although the D. melanogaster gene is heat inducible in S. cerevisiae, the transcripts are initiated at several sites which lie between 10 and 40 base pairs downstream of the initiation site in D. melanogaster. Thus, the transcriptional apparatus of S. cerevisiae appears to recognize the promoter and regulatory elements of the D. melanogaster major heat shock gene, although the manner in which transcription is initiated differs between the two species.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>de Banzie</LastName>
+<ForeName>J S</ForeName>
+<Initials>JS</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Sinclair</LastName>
+<ForeName>L</ForeName>
+<Initials>L</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Lis</LastName>
+<ForeName>J T</ForeName>
+<Initials>JT</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D003160">Comparative Study</PublicationType>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+<PublicationType UI="D013487">Research Support, U.S. Gov't, P.H.S.</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>ENGLAND</Country>
+<MedlineTA>Nucleic Acids Res</MedlineTA>
+<NlmUniqueID>0411011</NlmUniqueID>
+<ISSNLinking>0305-1048</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D006360">Heat-Shock Proteins</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.21.-</RegistryNumber>
+<NameOfSubstance UI="D004262">DNA Restriction Enzymes</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1969 May 14;41(3):459-72</RefSource>
+<PMID Version="1">4896022</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Feb 11;11(3):789-800</RefSource>
+<PMID Version="1">6300768</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem J. 1973 Mar;131(3):569-82</RefSource>
+<PMID Version="1">4352720</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1974 May 15;85(2):309-22</RefSource>
+<PMID Version="1">4600143</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1974 Dec;3(4):315-25</RefSource>
+<PMID Version="1">4216403</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1975 Nov 5;98(3):503-17</RefSource>
+<PMID Version="1">1195397</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Methods Cell Biol. 1975;12:39-44</RefSource>
+<PMID Version="1">1105072</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1977 Jun 15;113(1):237-51</RefSource>
+<PMID Version="1">881736</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>FEBS Lett. 1977 Oct 15;82(2):314-6</RefSource>
+<PMID Version="1">913604</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>FEBS Lett. 1978 Mar 1;87(1):107-10</RefSource>
+<PMID Version="1">631324</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1978 Mar;75(3):1274-8</RefSource>
+<PMID Version="1">206891</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1978 Mar;13(3):427-34</RefSource>
+<PMID Version="1">350413</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1978 Aug;14(4):901-19</RefSource>
+<PMID Version="1">99245</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1978 Dec;15(4):1277-86</RefSource>
+<PMID Version="1">569556</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1979 May;76(5):2385-9</RefSource>
+<PMID Version="1">109841</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1979 May;17(1):1-8</RefSource>
+<PMID Version="1">110458</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1979 May;17(1):9-18</RefSource>
+<PMID Version="1">110461</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1979 Jun;17(2):241-54</RefSource>
+<PMID Version="1">110462</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1979 Nov 24;7(6):1513-23</RefSource>
+<PMID Version="1">388356</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Gene. 1979 Dec;8(1):17-24</RefSource>
+<PMID Version="1">395030</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1980 Apr 10;255(7):2629-32</RefSource>
+<PMID Version="1">7358690</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1980 Feb 28;283(5750):835-40</RefSource>
+<PMID Version="1">6987524</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Methods Enzymol. 1979;68:176-82</RefSource>
+<PMID Version="1">232211</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Methods Enzymol. 1980;65(1):499-560</RefSource>
+<PMID Version="1">6246368</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem Biophys Res Commun. 1980 Apr 14;93(3):819-24</RefSource>
+<PMID Version="1">6992776</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1980 Nov;22(1 Pt 1):299-307</RefSource>
+<PMID Version="1">6775819</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Dev Biol. 1980 Oct;79(2):399-408</RefSource>
+<PMID Version="1">6775994</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1980 Oct;21(3):669-79</RefSource>
+<PMID Version="1">6777045</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1980 Jul 25;8(14):3105-23</RefSource>
+<PMID Version="1">6255408</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1981 Jan 1;289(5793):33-7</RefSource>
+<PMID Version="1">6256646</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1980 Dec;22(3):825-34</RefSource>
+<PMID Version="1">6780199</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1981 Jun;78(6):3531-5</RefSource>
+<PMID Version="1">6943552</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Biochem. 1981 Jul;117(2):341-6</RefSource>
+<PMID Version="1">7274214</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Gene. 1981 Oct;15(1):67-80</RefSource>
+<PMID Version="1">6795091</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1981 Nov;78(11):7038-42</RefSource>
+<PMID Version="1">6273904</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Bacteriol. 1982 Feb;149(2):542-7</RefSource>
+<PMID Version="1">6276360</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1981 Nov 5;152(3):569-75</RefSource>
+<PMID Version="1">7035683</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1982 Jan;28(1):145-54</RefSource>
+<PMID Version="1">7039847</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1982 Mar 5;155(3):267-80</RefSource>
+<PMID Version="1">6281448</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochemistry. 1982 Mar 30;21(7):1513-21</RefSource>
+<PMID Version="1">7082633</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Bacteriol. 1982 Jul;151(1):311-27</RefSource>
+<PMID Version="1">7045079</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1982 Aug 10;257(15):8569-72</RefSource>
+<PMID Version="1">7096324</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1982 Mar;2(3):267-74</RefSource>
+<PMID Version="1">7110134</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1982 Sep;30(2):517-28</RefSource>
+<PMID Version="1">6814763</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1982 Aug 25;159(4):623-36</RefSource>
+<PMID Version="1">6754951</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1982 Oct;2(10):1212-9</RefSource>
+<PMID Version="1">6817079</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem Biophys Res Commun. 1982 Oct 15;108(3):1340-5</RefSource>
+<PMID Version="1">6758774</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1982 Jul;29(3):811-9</RefSource>
+<PMID Version="1">6891290</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1983 Jan;80(2):569-73</RefSource>
+<PMID Version="1">6572907</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Oct 25;11(20):7011-30</RefSource>
+<PMID Version="1">6314271</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Dec;35(2 Pt 1):403-10</RefSource>
+<PMID Version="1">6418386</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>EMBO J. 1982;1(10):1279-85</RefSource>
+<PMID Version="1">6821333</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>EMBO J. 1982;1(11):1473-7</RefSource>
+<PMID Version="1">6327271</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>EMBO J. 1982;1(12):1583-8</RefSource>
+<PMID Version="1">6821336</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1984 Jul 25;12(14):5719-35</RefSource>
+<PMID Version="1">6431397</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Oct;38(3):841-9</RefSource>
+<PMID Version="1">6386178</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1984 Aug;4(8):1454-9</RefSource>
+<PMID Version="1">6436685</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1984 Sep;4(9):1853-63</RefSource>
+<PMID Version="1">6436689</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1984 Dec;4(12):2573-9</RefSource>
+<PMID Version="1">6098811</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1983 Jan 13;301(5896):167-9</RefSource>
+<PMID Version="1">6296690</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1982 Nov;2(11):1388-98</RefSource>
+<PMID Version="1">6761581</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1983 Mar 25;258(6):3516-22</RefSource>
+<PMID Version="1">6403517</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1973 Feb 25;248(4):1466-71</RefSource>
+<PMID Version="1">4568819</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003001">Cloning, Molecular</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004262">DNA Restriction Enzymes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004331">Drosophila melanogaster</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D005796">Genes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D005800">Genes, Fungal</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006360">Heat-Shock Proteins</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006358">Hot Temperature</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009693">Nucleic Acid Hybridization</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010957">Plasmids</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012441">Saccharomyces cerevisiae</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013045">Species Specificity</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D014158">Transcription, Genetic</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC339795</OtherID>
+</MedlineCitation>

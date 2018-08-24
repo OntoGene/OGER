@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010248</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>09</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>09</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>11</Month>
+<Day>21</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0163-5581</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>7</Volume>
+<Issue>4</Issue>
+<PubDate>
+<Year>1985</Year>
+</PubDate>
+</JournalIssue>
+<Title>Nutrition and cancer</Title>
+<ISOAbbreviation>Nutr Cancer</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Dietary fiber and cancer: a supplement for intervention studies.</ArticleTitle>
+<Pagination>
+<MedlinePgn>211-20</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Dietary fiber is one of several variables being considered in the study of the relationship between diet and cancer. Intervention trials in which dietary fiber is increased are the most direct way of assessing the possible role of fiber in this disease. Two dietary snack products have been developed for use in a fiber intervention study: the high-fiber snack (HFS), which supplies 23 g of dietary fiber per day (mostly from wheat bran) and the low-fiber product (LFS), which provides 3.5 g. Over a 12-week period, 28 volunteers consumed the HFS for 6 weeks and the LFS for 6 weeks. Compliance, as assessed by reports, through recovery of a riboflavin marker in the urine and fecal fiber analysis, was good. The only adverse effects reported were mild abdominal discomfort and gas. Serum ferritin and calcium decreased in some subjects, indicating a need to supplement the products with these essential minerals. Consumption of the snacks did not affect total energy intake or the intake of the nutrients monitored.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Bright-See</LastName>
+<ForeName>E</ForeName>
+<Initials>E</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>McKeown-Eyssen</LastName>
+<ForeName>G</ForeName>
+<Initials>G</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Jacobson</LastName>
+<ForeName>E A</ForeName>
+<Initials>EA</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Newmark</LastName>
+<ForeName>H W</ForeName>
+<Initials>HW</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Mathews</LastName>
+<ForeName>R</ForeName>
+<Initials>R</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Morson</LastName>
+<ForeName>L</ForeName>
+<Initials>L</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Jazmaji</LastName>
+<ForeName>V</ForeName>
+<Initials>V</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Bruce</LastName>
+<ForeName>W R</ForeName>
+<Initials>WR</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Nutr Cancer</MedlineTA>
+<NlmUniqueID>7905040</NlmUniqueID>
+<ISSNLinking>0163-5581</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>SY7Q814VUP</RegistryNumber>
+<NameOfSubstance UI="D002118">Calcium</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>TLM2976OFR</RegistryNumber>
+<NameOfSubstance UI="D012256">Riboflavin</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000368">Aged</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002118">Calcium</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000008">administration &amp; dosage</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003111">Colonic Polyps</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000517">prevention &amp; control</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004043">Dietary Fiber</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000008">administration &amp; dosage</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000009">adverse effects</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005243">Feces</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000032">analysis</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008875">Middle Aged</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009364">Neoplasm Recurrence, Local</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000517">prevention &amp; control</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009369">Neoplasms</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000517">prevention &amp; control</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010349">Patient Compliance</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012256">Riboflavin</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000032">analysis</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000652">urine</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

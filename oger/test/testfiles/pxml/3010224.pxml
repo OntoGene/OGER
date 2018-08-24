@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010224</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>05</Month>
+<Day>28</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>05</Month>
+<Day>28</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>11</Month>
+<Day>21</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0031-3998</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>20</Volume>
+<Issue>3</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Mar</Month>
+</PubDate>
+</JournalIssue>
+<Title>Pediatric research</Title>
+<ISOAbbreviation>Pediatr. Res.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Role of aldosterone for control of colonic NaKATPase activity in weanling rats.</ArticleTitle>
+<Pagination>
+<MedlinePgn>242-5</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Experiments were performed to examine how aldosterone modulates colonic NaKATPase activity during the weaning period. NaKATPase activity was determined in proximal and distal colon in control rats aged 16, 20, and 40 days, in rats aged 20 and 40 days fed low sodium diet for 4 days and in 20-day-old rats adrenalectomized on day 16. In some protocols net sodium and water transport was determined with in vivo perfusion technique. In control rats colonic NaKATPase activity increased significantly between day 16 and 20. This increase was abolished by adrenalectomy but restored by aldosterone substitution, 5 micrograms/100 g body weight/12 h. No significant increase in NaKATPase activity occurred between day 20 and 40. Serum levels of both aldosterone and of corticosterone were low until day 14 and increased to peak level at day 18-20. In 20- and 40-day-old rats fed a low sodium diet, NaKATPase activity increased significantly in proximal and distal colon in both age groups but the increases were significantly greater in the 20- than the 40-day-old animals. A low sodium diet increased serum aldosterone, but not serum corticosterone levels in both age groups: also the low sodium diet significantly increased net sodium and water transport in 20- but not in 40-day-old rats. Aldosterone is of physiological importance for the regulation of NaKATPase activity in the colon at the time of weaning. The immature colon may have an enhanced sensitivity to aldosterone.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Finkel</LastName>
+<ForeName>Y</ForeName>
+<Initials>Y</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Aperia</LastName>
+<ForeName>A</ForeName>
+<Initials>A</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Pediatr Res</MedlineTA>
+<NlmUniqueID>0100714</NlmUniqueID>
+<ISSNLinking>0031-3998</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>4964P6T9RB</RegistryNumber>
+<NameOfSubstance UI="D000450">Aldosterone</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.6.3.9</RegistryNumber>
+<NameOfSubstance UI="D000254">Sodium-Potassium-Exchanging ATPase</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>W980KJ009P</RegistryNumber>
+<NameOfSubstance UI="D003345">Corticosterone</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000315">Adrenalectomy</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000367">Age Factors</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000450">Aldosterone</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000097">blood</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000502">physiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003106">Colon</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000201">enzymology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003345">Corticosterone</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000097">blood</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004039">Diet, Sodium-Restricted</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051381">Rats</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011919">Rats, Inbred Strains</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000254">Sodium-Potassium-Exchanging ATPase</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014886">Weaning</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

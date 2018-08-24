@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010285</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>10</Month>
+<Day>01</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0027-8424</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>83</Volume>
+<Issue>10</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>May</Month>
+</PubDate>
+</JournalIssue>
+<Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+<ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Alpha 4, the major regulatory protein of herpes simplex virus type 1, is stably and specifically associated with promoter-regulatory domains of alpha genes and of selected other viral genes.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3218-22</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Herpes simplex virus type 1 genes form at least five groups (alpha, beta 1, beta 2, gamma 1, and gamma 2) whose expression is coordinately regulated and sequentially ordered in a cascade fashion. Previous studies have shown that functional alpha 4 gene product is essential for the transition from alpha to beta protein synthesis and have suggested that alpha 4 gene expression is autoregulatory. However, the mechanism by which alpha 4 regulates gene expression remained unknown. We report that labeled DNA fragments containing promoter-regulatory domains of three alpha (alpha 0, alpha 4, and alpha 27) and a gamma 2 gene form stable complexes with proteins from infected-cell lysates as detected by a gel electrophoresis binding assay. The protein(s) exhibits sequence specificity since autologous DNA fragments but not heterologous DNA fragments, synthetic polydeoxynucleotide chains, or salmon sperm DNA competitively displace the DNA probe from the complexes. Murine monoclonal antibody to alpha 4 protein added before or after DNA-protein complex formation further retarded the electrophoretic mobility of the complexes whereas monoclonal antibody to alpha 0, alpha 27, or to a viral glycoprotein had no effect. Complexes consisting of the promoter-regulatory domain of the beta-class thymidine kinase gene and infected cell proteins were low in abundance and could be detected only in the presence of antibody to alpha 4 protein. The alpha 4 protein, therefore, forms stable complexes with promoter-regulatory domains of alpha genes and of selected other herpes simplex virus type 1 genes either alone or in combination with other proteins.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Kristie</LastName>
+<ForeName>T M</ForeName>
+<Initials>TM</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Roizman</LastName>
+<ForeName>B</ForeName>
+<Initials>B</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<GrantList CompleteYN="Y">
+<Grant>
+<GrantID>CA08494</GrantID>
+<Acronym>CA</Acronym>
+<Agency>NCI NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+<Grant>
+<GrantID>CA19264</GrantID>
+<Acronym>CA</Acronym>
+<Agency>NCI NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+<Grant>
+<GrantID>CA192642</GrantID>
+<Acronym>CA</Acronym>
+<Agency>NCI NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+</GrantList>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+<PublicationType UI="D013487">Research Support, U.S. Gov't, P.H.S.</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+<NlmUniqueID>7505876</NlmUniqueID>
+<ISSNLinking>0027-8424</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D004279">DNA, Viral</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D004268">DNA-Binding Proteins</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D017874">Immediate-Early Proteins</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D014157">Transcription Factors</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D014764">Viral Proteins</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="C048925">herpes simplex virus, type 1 protein ICP4</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1982 Sep;43(3):1015-23</RefSource>
+<PMID Version="1">6292445</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1982 Aug;79(16):4917-21</RefSource>
+<PMID Version="1">6289323</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1982 Dec;44(3):939-49</RefSource>
+<PMID Version="1">6294341</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Gene. 1982 Oct;19(3):259-68</RefSource>
+<PMID Version="1">6295879</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Mar 11;11(5):1475-89</RefSource>
+<PMID Version="1">6828386</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1983 May;46(2):371-7</RefSource>
+<PMID Version="1">6302308</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1983 May;46(2):498-512</RefSource>
+<PMID Version="1">6302315</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Cell Biol. 1983 Oct;97(4):1240-2</RefSource>
+<PMID Version="1">6619193</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Nov;35(1):127-36</RefSource>
+<PMID Version="1">6313219</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Nov;35(1):137-48</RefSource>
+<PMID Version="1">6313220</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Oct 11;11(19):6647-66</RefSource>
+<PMID Version="1">6314251</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Virology. 1983 Dec;131(2):492-501</RefSource>
+<PMID Version="1">6318441</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Jul;81(13):4065-9</RefSource>
+<PMID Version="1">6330737</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Jul;37(3):889-901</RefSource>
+<PMID Version="1">6540146</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1984 Oct;52(1):108-18</RefSource>
+<PMID Version="1">6090689</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Dec 13-19;312(5995):608-12</RefSource>
+<PMID Version="1">6095113</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1985 Mar;5(3):518-28</RefSource>
+<PMID Version="1">2985955</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1985 Aug;55(2):329-37</RefSource>
+<PMID Version="1">2991559</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1985 Aug;55(2):338-46</RefSource>
+<PMID Version="1">2991560</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1985 Sep;55(3):601-10</RefSource>
+<PMID Version="1">4020960</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1985 Sep;55(3):796-805</RefSource>
+<PMID Version="1">2991596</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1985 Sep;82(17):5870-4</RefSource>
+<PMID Version="1">2994050</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1985 Dec;56(3):723-33</RefSource>
+<PMID Version="1">2999428</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1985 Nov 11;13(21):7865-79</RefSource>
+<PMID Version="1">2999707</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Gen Virol. 1968 May;2(3):357-64</RefSource>
+<PMID Version="1">4300104</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1973 Dec;12(6):1347-65</RefSource>
+<PMID Version="1">4357511</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1974 Jul;14(1):8-19</RefSource>
+<PMID Version="1">4365321</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1977 Jun;22(3):720-5</RefSource>
+<PMID Version="1">195087</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1978 May;26(2):389-410</RefSource>
+<PMID Version="1">207894</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Annu Rev Genet. 1979;13:25-57</RefSource>
+<PMID Version="1">231931</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1980 Jan;33(1):167-82</RefSource>
+<PMID Version="1">6245226</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Methods Enzymol. 1980;65(1):499-560</RefSource>
+<PMID Version="1">6246368</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1980 May 29;285(5763):329-30</RefSource>
+<PMID Version="1">6246451</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1980 Jul;77(7):3855-9</RefSource>
+<PMID Version="1">6933441</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Infect Immun. 1980 Aug;29(2):724-32</RefSource>
+<PMID Version="1">6260657</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1981 May;24(2):555-65</RefSource>
+<PMID Version="1">6263501</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1981 Jul 10;9(13):3047-60</RefSource>
+<PMID Version="1">6269071</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1981 Aug;25(2):385-98</RefSource>
+<PMID Version="1">6269744</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1981 Dec 11;9(23):6505-25</RefSource>
+<PMID Version="1">6275366</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1982 Jul 23;217(4557):316-24</RefSource>
+<PMID Version="1">6283634</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1982 Aug;43(2):594-607</RefSource>
+<PMID Version="1">6287033</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1982 Dec;44(3):1084-7</RefSource>
+<PMID Version="1">6294324</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004279">DNA, Viral</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004268">DNA-Binding Proteins</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005786">Gene Expression Regulation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005814">Genes, Viral</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006367">HeLa Cells</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D017874">Immediate-Early Proteins</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D011401">Promoter Regions, Genetic</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D018139">Simplexvirus</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014157">Transcription Factors</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014764">Viral Proteins</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC323484</OtherID>
+</MedlineCitation>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010211</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>02</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>02</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2004</Year>
+<Month>11</Month>
+<Day>17</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0030-4220</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>61</Volume>
+<Issue>3</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Mar</Month>
+</PubDate>
+</JournalIssue>
+<Title>Oral surgery, oral medicine, and oral pathology</Title>
+<ISOAbbreviation>Oral Surg. Oral Med. Oral Pathol.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>The incidence of oral herpes simplex virus infection in patients undergoing cancer chemotherapy.</ArticleTitle>
+<Pagination>
+<MedlinePgn>238-42</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Oral lesions in twenty-nine immunocompromised patients were evaluated for the incidence of herpes simplex virus (HSV) infections during either cancer chemotherapy or cancer chemotherapy plus bone marrow transplantation (BMT). Patients' HSV antibody titers were not determined, and positive diagnoses were based solely on the results of viral cultures. Fourteen patients (48%) were found to have herpetic infections, which is comparable with incidence rates of 50% to 90% in antibody-positive patients and 40% to 50% in mixed antibody populations reported in the medical literature. However, this finding is in conflict with the 10.7% to 15.1% incidence rate cited in the dental literature for patients undergoing cancer chemotherapy. This underestimation is believed to reflect insensitivity in the criteria used for diagnosis in these studies.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Montgomery</LastName>
+<ForeName>M T</ForeName>
+<Initials>MT</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Redding</LastName>
+<ForeName>S W</ForeName>
+<Initials>SW</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>LeMaistre</LastName>
+<ForeName>C F</ForeName>
+<Initials>CF</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Oral Surg Oral Med Oral Pathol</MedlineTA>
+<NlmUniqueID>0376406</NlmUniqueID>
+<ISSNLinking>0030-4220</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D000914">Antibodies, Viral</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>D</CitationSubset>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000914">Antibodies, Viral</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000032">analysis</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D016026">Bone Marrow Transplantation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007165">Immunosuppression</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000009">adverse effects</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009369">Neoplasms</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000188">drug therapy</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000601">surgery</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D018139">Simplexvirus</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000302">isolation &amp; purification</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013283">Stomatitis, Herpetic</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000453">epidemiology</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000209">etiology</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000382">microbiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" Type="Geographic" UI="D013781">Texas</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

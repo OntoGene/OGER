@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010215</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>10</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>10</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2015</Year>
+<Month>10</Month>
+<Day>29</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0030-6657</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>39</Volume>
+<Issue>6</Issue>
+<PubDate>
+<Year>1985</Year>
+</PubDate>
+</JournalIssue>
+<Title>Otolaryngologia polska = The Polish otolaryngology</Title>
+<ISOAbbreviation>Otolaryngol Pol</ISOAbbreviation>
+</Journal>
+<ArticleTitle>[Results of roentgenotherapy of chemodectoma of the ear].</ArticleTitle>
+<Pagination>
+<MedlinePgn>476-80</MedlinePgn>
+</Pagination>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Ulkowski</LastName>
+<ForeName>M</ForeName>
+<Initials>M</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Kukolewska-Machnicka</LastName>
+<ForeName>J</ForeName>
+<Initials>J</Initials>
+</Author>
+</AuthorList>
+<Language>pol</Language>
+<PublicationTypeList>
+<PublicationType UI="D002363">Case Reports</PublicationType>
+<PublicationType UI="D004740">English Abstract</PublicationType>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+<VernacularTitle>Wyniki rentgenoterapii chemodectoma ucha.</VernacularTitle>
+</Article>
+<MedlineJournalInfo>
+<Country>POLAND</Country>
+<MedlineTA>Otolaryngol Pol</MedlineTA>
+<NlmUniqueID>0404453</NlmUniqueID>
+<ISSNLinking>0030-6657</ISSNLinking>
+</MedlineJournalInfo>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000293">Adolescent</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000368">Aged</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004428">Ear Neoplasms</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000532">radiotherapy</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D004431">Ear, External</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D004432">Ear, Middle</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005500">Follow-Up Studies</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008875">Middle Aged</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010236">Paraganglioma, Extra-Adrenal</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000532">radiotherapy</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

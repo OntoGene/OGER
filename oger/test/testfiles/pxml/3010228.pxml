@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010228</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>10</Month>
+<Day>01</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0305-1048</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>14</Volume>
+<Issue>8</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Apr</Month>
+<Day>25</Day>
+</PubDate>
+</JournalIssue>
+<Title>Nucleic acids research</Title>
+<ISOAbbreviation>Nucleic Acids Res.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Processing in the external transcribed spacer of ribosomal RNA from Physarum polycephalum.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3153-66</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>The rDNA of the myxomycete Physarum polycephalum is transcribed to give a 13.3 kb precursor of ribosomal RNA. At 1.7 kb downstream of the primary initiation site there is a processing site or a second initiation site. This site was studied by S1-mapping, DNA sequencing and electron microscopy. None of these methods could conclusively distinguish between the two formal possibilities. However, capping experiments indicate that rapid processing is taking place at this site rather than reinitiation. In addition, primary transcripts and processed molecules were assayed throughout the synchronous mitotic cycle. During all interphase stages newly initiated transcripts of rDNA and products of the first processing step are present in similar amounts, indicating control of initiation and not of maturation as being the main regulatory step for the accumulation of mature rRNAs. During the brief period of mitosis the level of newly initiated rRNA precursors is lowered.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Blum</LastName>
+<ForeName>B</ForeName>
+<Initials>B</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Pierron</LastName>
+<ForeName>G</ForeName>
+<Initials>G</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Seebeck</LastName>
+<ForeName>T</ForeName>
+<Initials>T</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Braun</LastName>
+<ForeName>R</ForeName>
+<Initials>R</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>ENGLAND</Country>
+<MedlineTA>Nucleic Acids Res</MedlineTA>
+<NlmUniqueID>0411011</NlmUniqueID>
+<ISSNLinking>0305-1048</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D002843">Chromatin</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D009694">Nucleic Acid Precursors</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D012315">RNA Caps</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D012322">RNA Precursors</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D012335">RNA, Ribosomal</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.-</RegistryNumber>
+<NameOfSubstance UI="D004720">Endonucleases</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.21.-</RegistryNumber>
+<NameOfSubstance UI="D004262">DNA Restriction Enzymes</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.30.1</RegistryNumber>
+<NameOfSubstance UI="D015719">Single-Strand Specific DNA and RNA Endonucleases</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>FEBS Lett. 1979 Apr 15;100(2):347-50</RefSource>
+<PMID Version="1">456573</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1979 Mar;16(3):565-73</RefSource>
+<PMID Version="1">455443</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Methods Enzymol. 1980;65(1):499-560</RefSource>
+<PMID Version="1">6246368</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1980 Jun 25;8(12):2647-64</RefSource>
+<PMID Version="1">6253887</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Adv Microb Physiol. 1980;21:1-46</RefSource>
+<PMID Version="1">7004134</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1981 Nov 25;9(22):6093-102</RefSource>
+<PMID Version="1">6273823</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1981 Nov;27(1 Pt 2):165-74</RefSource>
+<PMID Version="1">7326749</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Chromosoma. 1981;84(2):279-90</RefSource>
+<PMID Version="1">7327047</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Gene. 1981 Dec;16(1-3):309-15</RefSource>
+<PMID Version="1">7044892</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Chromosoma. 1982;86(5):703-15</RefSource>
+<PMID Version="1">7151544</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1982 Aug 15;159(3):359-81</RefSource>
+<PMID Version="1">6300409</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1983 Mar 17-23;302(5905):223-8</RefSource>
+<PMID Version="1">6835360</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Jun 11;11(11):3487-502</RefSource>
+<PMID Version="1">6304633</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1984 Feb 24;12(4):2047-53</RefSource>
+<PMID Version="1">6322132</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Dec 10;11(23):8519-33</RefSource>
+<PMID Version="1">6324087</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1984 Sep 25;12(18):7187-98</RefSource>
+<PMID Version="1">6091060</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Dec;39(3 Pt 2):623-9</RefSource>
+<PMID Version="1">6210151</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Biochem. 1976 Sep 15;68(2):541-9</RefSource>
+<PMID Version="1">987907</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1976 Sep 25;106(3):567-87</RefSource>
+<PMID Version="1">988186</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1977 Dec;74(12):5463-7</RefSource>
+<PMID Version="1">271968</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1979 Oct;18(2):485-99</RefSource>
+<PMID Version="1">498280</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001483">Base Sequence</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002843">Chromatin</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000648">ultrastructure</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004262">DNA Restriction Enzymes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004720">Endonucleases</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008854">Microscopy, Electron</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009694">Nucleic Acid Precursors</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010804">Physarum</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010957">Plasmids</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012315">RNA Caps</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012322">RNA Precursors</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D012323">RNA Processing, Post-Transcriptional</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012335">RNA, Ribosomal</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D015719">Single-Strand Specific DNA and RNA Endonucleases</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D014158">Transcription, Genetic</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC339739</OtherID>
+</MedlineCitation>

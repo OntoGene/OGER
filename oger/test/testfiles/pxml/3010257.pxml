@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010257</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>05</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>05</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2007</Year>
+<Month>11</Month>
+<Day>14</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0196-9781</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>6</Volume>
+<Issue>6</Issue>
+<PubDate>
+<MedlineDate>1985 Nov-Dec</MedlineDate>
+</PubDate>
+</JournalIssue>
+<Title>Peptides</Title>
+<ISOAbbreviation>Peptides</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Interleukin 1 reduces opioid binding in guinea pig brain.</ArticleTitle>
+<Pagination>
+<MedlinePgn>1149-54</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Interleukin 1 (IL1) is a macrophage-derived polypeptide which signals neurons in the preoptic-anterior hypothalamus to initiate fever and the acute-phase glycoprotein response. Recently, increases in cerebrospinal fluid and hypothalamic levels of beta-endorphin have been reported during endotoxin (LPS)- and IL1-induced fevers, suggesting that this opioid may participate in the modulation of IL1 effects in the CNS. In this study, we investigated whether purified (human) IL1 influences the specific binding of three prototypic opioid agonists (2-D-alanine-5-L-methionineamide, DAME; (-)-ethylketocyclazocine, EKC; dihydromorphine, DHM) and one antagonist (naloxone) to opioid receptor-enriched membrane preparations in cerebral cortex, hypothalamus, midbrain, pons, medulla, and cerebellum of guinea pig brain. IL1 reduced the binding of these ligands to their receptors during a 30-min incubation. The extent of IL1 inhibition of a given ligand for its binding sites varied according to the brain region; within some regions, the extent of this inhibition also varied with the four ligands tested. But in cortex the effect of IL1 on the specific binding of DHM is dose-dependent. Similar results were obtained with crude homologous IL1. S. enteritidis endotoxin, suspended in pyrogen-free saline at concentrations from 4 to 36 micrograms/ml, did not inhibit the binding of these opioid ligands to their receptors in any brain region. These results indicate that IL1 interacts with the opiate receptors in guinea pig brain. This interaction, moreover, is not limited to the hypothalamus alone, the primary site of the pyrogenic action of IL1, but also occurs in other brain regions.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Ahmed</LastName>
+<ForeName>M S</ForeName>
+<Initials>MS</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Llanos-Q</LastName>
+<ForeName>J</ForeName>
+<Initials>J</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Dinarello</LastName>
+<ForeName>C A</ForeName>
+<Initials>CA</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Blatteis</LastName>
+<ForeName>C M</ForeName>
+<Initials>CM</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<GrantList CompleteYN="Y">
+<Grant>
+<GrantID>A115614</GrantID>
+<Agency>PHS HHS</Agency>
+<Country>United States</Country>
+</Grant>
+<Grant>
+<GrantID>FOS TWO 3099-0151</GrantID>
+<Acronym>TW</Acronym>
+<Agency>FIC NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+</GrantList>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+<PublicationType UI="D013486">Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+<PublicationType UI="D013487">Research Support, U.S. Gov't, P.H.S.</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Peptides</MedlineTA>
+<NlmUniqueID>8008690</NlmUniqueID>
+<ISSNLinking>0196-9781</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D007375">Interleukin-1</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D009292">Narcotic Antagonists</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D011957">Receptors, Opioid</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001921">Brain</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002462">Cell Membrane</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006168">Guinea Pigs</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007375">Interleukin-1</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000008">administration &amp; dosage</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007700">Kinetics</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009292">Narcotic Antagonists</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009928">Organ Specificity</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011957">Receptors, Opioid</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000187">drug effects</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013329">Structure-Activity Relationship</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

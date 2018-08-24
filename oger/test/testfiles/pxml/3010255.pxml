@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010255</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>05</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>05</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>11</Month>
+<Day>21</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0196-9781</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>6</Volume>
+<Issue>6</Issue>
+<PubDate>
+<MedlineDate>1985 Nov-Dec</MedlineDate>
+</PubDate>
+</JournalIssue>
+<Title>Peptides</Title>
+<ISOAbbreviation>Peptides</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Synthesis and release of vasoactive intestinal polypeptide (VIP) by mouse neuroblastoma cells: modulation by cyclic nucleotides and ascorbic acid.</ArticleTitle>
+<Pagination>
+<MedlinePgn>1075-8</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>The mouse neuroblastoma cell line N18TG2 synthesizes and secretes a VIP-like immunoreactive material. The majority of this VIP-like material from both cell and media extracts elutes on HPLC in the same position as porcine or rat VIP. Several additional peaks which appear in the media extracts may represent variant forms or degradation products of VIP. The synthesis and release of VIP was significantly enhanced by agents which elevate cAMP levels directly (dbcAMP and forskolin) or through a receptor mediated process (secretin). These agents are also known to promote differentiation of these cells. The synthesis and release of VIP was also enhanced by ascorbate (thought to be a co-factor for the enzyme which amidates the carboxyl-terminal of VIP) [11]. In the presence of forskolin, ascorbate had a synergistic effect on the release of VIP, suggesting that forskolin and ascorbate are elevating VIP levels by different mechanisms; forskolin through a possible effect on VIP mRNA synthesis or translation, and ascorbate by increasing the rate of VIP processing. These results suggest that VIP synthesis and release is controlled by more than one process, whose rate can be altered with pharmacological agents.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Brick</LastName>
+<ForeName>P L</ForeName>
+<Initials>PL</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Howlett</LastName>
+<ForeName>A C</ForeName>
+<Initials>AC</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Beinfeld</LastName>
+<ForeName>M C</ForeName>
+<Initials>MC</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<GrantList CompleteYN="N">
+<Grant>
+<GrantID>DA 03690</GrantID>
+<Acronym>DA</Acronym>
+<Agency>NIDA NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+<Grant>
+<GrantID>NS 18335</GrantID>
+<Acronym>NS</Acronym>
+<Agency>NINDS NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+<Grant>
+<GrantID>NS 18677</GrantID>
+<Acronym>NS</Acronym>
+<Agency>NINDS NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+</GrantList>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013487">Research Support, U.S. Gov't, P.H.S.</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Peptides</MedlineTA>
+<NlmUniqueID>8008690</NlmUniqueID>
+<ISSNLinking>0196-9781</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>1F7A44V6OU</RegistryNumber>
+<NameOfSubstance UI="D005576">Colforsin</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>37221-79-7</RegistryNumber>
+<NameOfSubstance UI="D014660">Vasoactive Intestinal Peptide</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>63X7MBT2LQ</RegistryNumber>
+<NameOfSubstance UI="D003994">Bucladesine</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>E0399OZS9N</RegistryNumber>
+<NameOfSubstance UI="D000242">Cyclic AMP</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>PQ6CK8PD0R</RegistryNumber>
+<NameOfSubstance UI="D001205">Ascorbic Acid</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001205">Ascorbic Acid</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003994">Bucladesine</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002460">Cell Line</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002851">Chromatography, High Pressure Liquid</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005576">Colforsin</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000242">Cyclic AMP</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000502">physiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007700">Kinetics</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051379">Mice</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008805">Mice, Inbred A</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009447">Neuroblastoma</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011863">Radioimmunoassay</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013120">Spinal Cord Neoplasms</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014660">Vasoactive Intestinal Peptide</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000096">biosynthesis</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000557">secretion</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

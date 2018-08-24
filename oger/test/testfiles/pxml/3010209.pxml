@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010209</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>05</Month>
+<Day>30</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>05</Month>
+<Day>30</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>11</Month>
+<Day>21</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0030-3755</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>192</Volume>
+<Issue>1</Issue>
+<PubDate>
+<Year>1986</Year>
+</PubDate>
+</JournalIssue>
+<Title>Ophthalmologica. Journal international d'ophtalmologie. International journal of ophthalmology. Zeitschrift für Augenheilkunde</Title>
+<ISOAbbreviation>Ophthalmologica</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Steroids and neuroendocrine hormones detected by the immunoperoxidase technique from malignant melanomas and nevi of the choroid and conjunctiva.</ArticleTitle>
+<Pagination>
+<MedlinePgn>34-8</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>By the peroxidase-antiperoxidase technique, the authors studied 7 malignant choroidal melanomas, 7 conjunctival nevi and 1 malignant conjunctival melanoma with the aim to detect the presence of vasoactive intestinal polypeptide (VIP), adrenocorticotropic hormone (ACTH), gastrin, estradiol and testosterone. Positive staining reaction for VIP, estradiol and testosterone was observed in both malignant melanomas of the choroid and conjunctival nevi. The case of conjunctival melanoma was positive for VIP and ACTH but not for estradiol and gastrin.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Di Tondo</LastName>
+<ForeName>U</ForeName>
+<Initials>U</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Balestrazzi</LastName>
+<ForeName>E</ForeName>
+<Initials>E</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Santeusanio</LastName>
+<ForeName>G</ForeName>
+<Initials>G</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Pintucci</LastName>
+<ForeName>S</ForeName>
+<Initials>S</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Spadea</LastName>
+<ForeName>L</ForeName>
+<Initials>L</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>SWITZERLAND</Country>
+<MedlineTA>Ophthalmologica</MedlineTA>
+<NlmUniqueID>0054655</NlmUniqueID>
+<ISSNLinking>0030-3755</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D005755">Gastrins</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D006729">Hormones, Ectopic</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>37221-79-7</RegistryNumber>
+<NameOfSubstance UI="D014660">Vasoactive Intestinal Peptide</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>3XMK78S47O</RegistryNumber>
+<NameOfSubstance UI="D013739">Testosterone</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>4TI98Z838E</RegistryNumber>
+<NameOfSubstance UI="D004958">Estradiol</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9002-60-2</RegistryNumber>
+<NameOfSubstance UI="D000324">Adrenocorticotropic Hormone</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000293">Adolescent</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000324">Adrenocorticotropic Hormone</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000368">Aged</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002648">Child</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002675">Child, Preschool</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002829">Choroid</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002830">Choroid Neoplasms</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003228">Conjunctiva</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003230">Conjunctival Neoplasms</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004958">Estradiol</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005755">Gastrins</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006729">Hormones, Ectopic</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007124">Immunoenzyme Techniques</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008545">Melanoma</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008875">Middle Aged</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009508">Nevus, Pigmented</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013739">Testosterone</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014660">Vasoactive Intestinal Peptide</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

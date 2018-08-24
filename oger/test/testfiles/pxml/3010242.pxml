@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010242</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>10</Month>
+<Day>01</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0305-1048</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>14</Volume>
+<Issue>8</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Apr</Month>
+<Day>25</Day>
+</PubDate>
+</JournalIssue>
+<Title>Nucleic acids research</Title>
+<ISOAbbreviation>Nucleic Acids Res.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Mouse muscle nicotinic acetylcholine receptor gamma subunit: cDNA sequence and gene expression.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3539-55</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Clones coding for the mouse nicotinic acetylcholine receptor (AChR) gamma subunit precursor have been selected from a cDNA library derived from a mouse myogenic cell line and sequenced. The deduced protein sequence consists of a signal peptide of 22 amino acid residues and a mature gamma subunit of 497 amino acid residues. There is a high degree of sequence conservation between this mouse sequence and published human and calf AChR gamma subunits and, after allowing for functional amino acid substitutions, also to the more distantly related chicken and Torpedo AChR gamma subunits. The degree of sequence conservation is especially high in the four putative hydrophobic membrane spanning regions, supporting the assignment of these domains. RNA blot hybridization showed that the mRNA level of the gamma subunit increases by 30 fold or more upon differentiation of the two mouse myogenic cell lines, BC3H-1 and C2C12, suggesting that the primary controls for changes in gene expression during differentiation are at the level of transcription. One cDNA clone was found to correspond to a partially processed nuclear transcript containing two as yet unspliced intervening sequences.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Yu</LastName>
+<ForeName>L</ForeName>
+<Initials>L</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>LaPolla</LastName>
+<ForeName>R J</ForeName>
+<Initials>RJ</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Davidson</LastName>
+<ForeName>N</ForeName>
+<Initials>N</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<DataBankList CompleteYN="Y">
+<DataBank>
+<DataBankName>GENBANK</DataBankName>
+<AccessionNumberList>
+<AccessionNumber>X03818</AccessionNumber>
+<AccessionNumber>X03819</AccessionNumber>
+</AccessionNumberList>
+</DataBank>
+</DataBankList>
+<PublicationTypeList>
+<PublicationType UI="D003160">Comparative Study</PublicationType>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+<PublicationType UI="D013487">Research Support, U.S. Gov't, P.H.S.</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>ENGLAND</Country>
+<MedlineTA>Nucleic Acids Res</MedlineTA>
+<NlmUniqueID>0411011</NlmUniqueID>
+<ISSNLinking>0305-1048</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D046911">Macromolecular Substances</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D011978">Receptors, Nicotinic</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9007-49-2</RegistryNumber>
+<NameOfSubstance UI="D004247">DNA</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.21.-</RegistryNumber>
+<NameOfSubstance UI="D004262">DNA Restriction Enzymes</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Cell Biol. 1974 May;61(2):398-413</RefSource>
+<PMID Version="1">4363958</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1983 Apr;80(7):2067-71</RefSource>
+<PMID Version="1">6572962</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1976 Sep 30;263(5576):433-4</RefSource>
+<PMID Version="1">184397</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem Soc Symp. 1974;(40):17-26</RefSource>
+<PMID Version="1">4620382</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1977 Mar 25;252(6):2143-53</RefSource>
+<PMID Version="1">845167</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1977 Nov;74(11):4835-8</RefSource>
+<PMID Version="1">73185</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1977 Dec;74(12):5463-7</RefSource>
+<PMID Version="1">271968</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Physiol Rev. 1979 Jan;59(1):165-227</RefSource>
+<PMID Version="1">375254</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1980 Jan 31;283(5746):433-8</RefSource>
+<PMID Version="1">7352023</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Annu Rev Biochem. 1981;50:317-48</RefSource>
+<PMID Version="1">7023361</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Annu Rev Biochem. 1981;50:349-83</RefSource>
+<PMID Version="1">6791577</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Annu Rev Biochem. 1981;50:555-83</RefSource>
+<PMID Version="1">7023366</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Cell Biol. 1982 Jan;92(1):1-22</RefSource>
+<PMID Version="1">7035466</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1982 Jan 22;10(2):459-72</RefSource>
+<PMID Version="1">7063411</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1982 May 5;157(1):105-32</RefSource>
+<PMID Version="1">7108955</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Annu Rev Biochem. 1982;51:491-530</RefSource>
+<PMID Version="1">7051962</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1983 Feb;80(4):1111-5</RefSource>
+<PMID Version="1">6573658</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1983 Jun;80(12):3845-9</RefSource>
+<PMID Version="1">6344089</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1983 Jun 5;166(4):557-80</RefSource>
+<PMID Version="1">6345791</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Methods Enzymol. 1983;101:20-78</RefSource>
+<PMID Version="1">6310323</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Jan;36(1):1-13</RefSource>
+<PMID Version="1">6198089</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Jan;81(1):155-9</RefSource>
+<PMID Version="1">6320162</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Mar;36(3):573-5</RefSource>
+<PMID Version="1">6697388</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biophys J. 1984 Jan;45(1):249-61</RefSource>
+<PMID Version="1">6324907</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Jul 12-18;310(5973):105-11</RefSource>
+<PMID Version="1">6738709</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Jul;37(3):879-87</RefSource>
+<PMID Version="1">6744415</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Gene. 1984 Jun;28(3):351-9</RefSource>
+<PMID Version="1">6235151</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Biochem. 1984 Aug 15;143(1):109-15</RefSource>
+<PMID Version="1">6547904</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Physiol Rev. 1984 Oct;64(4):1162-239</RefSource>
+<PMID Version="1">6208568</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Dec;81(24):7970-4</RefSource>
+<PMID Version="1">6096870</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Dec;81(24):7975-9</RefSource>
+<PMID Version="1">6096871</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1985 Jun;41(2):349-59</RefSource>
+<PMID Version="1">2580642</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Gene. 1985;33(1):103-19</RefSource>
+<PMID Version="1">2985470</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1985 Jun 27-Jul 3;315(6022):761-4</RefSource>
+<PMID Version="1">3839289</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Exp Med. 1985 Aug 1;162(2):528-45</RefSource>
+<PMID Version="1">3894562</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1985 Jul;82(14):4852-6</RefSource>
+<PMID Version="1">3860826</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Neurosci. 1985 Sep;5(9):2545-52</RefSource>
+<PMID Version="1">2993547</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1986 Jan;6(1):15-25</RefSource>
+<PMID Version="1">3023820</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1982 Oct 28;299(5886):793-7</RefSource>
+<PMID Version="1">6182472</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1983 Jan 20;301(5897):251-5</RefSource>
+<PMID Version="1">6687403</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1983 Apr 7;302(5908):528-32</RefSource>
+<PMID Version="1">6188060</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1975 Oct;72(10):4028-32</RefSource>
+<PMID Version="1">1060086</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000595">Amino Acid Sequence</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002478">Cells, Cultured</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004247">DNA</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000302">isolation &amp; purification</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004262">DNA Restriction Enzymes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D005796">Genes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D046911">Macromolecular Substances</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051379">Mice</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008809">Mice, Inbred C3H</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009693">Nucleic Acid Hybridization</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011978">Receptors, Nicotinic</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013045">Species Specificity</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D014158">Transcription, Genetic</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC339792</OtherID>
+</MedlineCitation>

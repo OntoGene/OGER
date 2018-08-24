@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010277</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>09</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>09</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2004</Year>
+<Month>11</Month>
+<Day>17</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0262-9283</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>4</Volume>
+<Issue>1</Issue>
+<PubDate>
+<Year>1986</Year>
+<Season>Spring</Season>
+</PubDate>
+</JournalIssue>
+<Title>Psychiatric developments</Title>
+<ISOAbbreviation>Psychiatr Dev</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Imaging of brain activity and behavioral disorders.</ArticleTitle>
+<Pagination>
+<MedlinePgn>65-76</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Recent advances in brain imaging permit metabolic variables to be measured in psychiatric patients. These include regional cerebral blood flow, oxygen utilization, oxygen extraction and glucose utilization--all measures which reflect CNS energy utilization. The quantitative relationships between these metabolic parameters, neuronal activity, and higher cortical function are poorly understood. In evaluating the results of imaging studies, it is important to establish whether the reported changes correlate with episodic symptomatology or with a chronic disease process. Affective disorders exemplify conditions which are episodic, progress rapidly and respond to medication, making it difficult to identify consistent patterns of metabolic change. Thus unipolar subgroups have been described with both left and right metabolic predominance. On the other hand, imaging studies in dementia have consistently shown decreased glucose utilization, and more particularly poor verbal performance may go with reduced glucose uptake in the left temporal/parietal area. Although neuro-imaging studies are still at an early stage, the additional capacity to measure regional receptor distribution and kinetics using ligands tagged with positron emitters will open up new dimensions in the study of psycho-pathophysiology.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Rubin</LastName>
+<ForeName>E H</ForeName>
+<Initials>EH</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>ENGLAND</Country>
+<MedlineTA>Psychiatr Dev</MedlineTA>
+<NlmUniqueID>8305469</NlmUniqueID>
+<ISSNLinking>0262-9283</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D001786">Blood Glucose</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000544">Alzheimer Disease</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000503">physiopathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001786">Blood Glucose</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001810">Blood Volume</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001921">Brain</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000503">physiopathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D002560">Cerebrovascular Circulation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002908">Chronic Disease</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D004734">Energy Metabolism</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001523">Mental Disorders</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000503">physiopathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D019964">Mood Disorders</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000503">physiopathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009410">Nerve Degeneration</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009483">Neuropsychological Tests</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D010101">Oxygen Consumption</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009435">Synaptic Transmission</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

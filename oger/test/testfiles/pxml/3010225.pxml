@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010225</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>02</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>02</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2010</Year>
+<Month>11</Month>
+<Day>18</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0031-4005</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>77</Volume>
+<Issue>5</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>May</Month>
+</PubDate>
+</JournalIssue>
+<Title>Pediatrics</Title>
+<ISOAbbreviation>Pediatrics</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Presence of respiratory viruses in middle ear fluids and nasal wash specimens from children with acute otitis media.</ArticleTitle>
+<Pagination>
+<MedlinePgn>698-702</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>During a 28-month period, 84 children with acute otitis media were studied by viral and bacterial cultures of middle ear fluid and viral cultures of nasal lavage fluid. Viruses were isolated from the middle ear fluid of 17 (20%) patients. Evidence of viral infection was demonstrated by positive viral cultures of middle ear fluid and/or nasal lavage fluid in 33 (39%) patients. Rhinovirus in one patient and influenza b virus in another were the only pathogens isolated. Influenza virus, enterovirus, and rhinovirus were the most common viruses found in middle ear fluids. Parainfluenza virus, adenovirus, and respiratory syncytial virus were found less often. In 82% of cases, the virus isolated from middle ear fluid was also isolated from nasal lavage fluid, but only 44% of viruses found in nasal lavage fluid were also found in middle ear fluid. Mixed bacterial and combined viral-bacterial infections were common. Only 15% of patients had no pathogen isolated from middle ear fluids. Using tissue culture techniques, we demonstrated that enterovirus and rhinovirus are also common middle ear pathogens. Our data reemphasize the significance of viruses as etiologic agents of acute otitis media and propose several questions regarding the viral-bacterial interactions and the types of viruses involved in the pathogenesis of the disease.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Chonmaitree</LastName>
+<ForeName>T</ForeName>
+<Initials>T</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Howie</LastName>
+<ForeName>V M</ForeName>
+<Initials>VM</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Truant</LastName>
+<ForeName>A L</ForeName>
+<Initials>AL</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Pediatrics</MedlineTA>
+<NlmUniqueID>0376422</NlmUniqueID>
+<ISSNLinking>0031-4005</ISSNLinking>
+</MedlineJournalInfo>
+<CitationSubset>AIM</CitationSubset>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000208">Acute Disease</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001419">Bacteria</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000302">isolation &amp; purification</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002648">Child</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002675">Child, Preschool</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004432">Ear, Middle</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000382">microbiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005122">Exudates and Transudates</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000382">microbiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007223">Infant</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007231">Infant, Newborn</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009666">Nose</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000382">microbiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010033">Otitis Media</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000382">microbiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012401">Rotavirus</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007507">Therapeutic Irrigation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014776">Virus Cultivation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014780">Viruses</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000302">isolation &amp; purification</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

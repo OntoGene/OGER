@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010268</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>10</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>10</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2015</Year>
+<Month>11</Month>
+<Day>19</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0197-3851</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>6</Volume>
+<Issue>2</Issue>
+<PubDate>
+<MedlineDate>1986 Mar-Apr</MedlineDate>
+</PubDate>
+</JournalIssue>
+<Title>Prenatal diagnosis</Title>
+<ISOAbbreviation>Prenat. Diagn.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>First-trimester prenatal diagnosis of severe alpha-thalassemia.</ArticleTitle>
+<Pagination>
+<MedlinePgn>89-95</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>By means of chorion biopsy together with restriction endonuclease analysis of fetal DNA, first trimester diagnoses were successfully made in 33 fetuses at risk for Bart's hydrops fetalis. Seven pregnancies with Hb H or hydrops fetalis were therapeutically terminated before 4 1/2 months of gestation. Of the 26 pregnancies intended to continue, 18 have come to term with normal deliveries; one with threatened abortion was terminated at the end of the first trimester and, seven are progressing normally.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="N">
+<Author ValidYN="Y">
+<LastName>Wang</LastName>
+<ForeName>L M</ForeName>
+<Initials>LM</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Zhang</LastName>
+<ForeName>J W</ForeName>
+<Initials>JW</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Wu</LastName>
+<ForeName>G Y</ForeName>
+<Initials>GY</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Wang</LastName>
+<ForeName>S W</ForeName>
+<Initials>SW</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Fan</LastName>
+<ForeName>Y u</ForeName>
+<Initials>Yu</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Huang</LastName>
+<ForeName>Y W</ForeName>
+<Initials>YW</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Zhao</LastName>
+<ForeName>L T</ForeName>
+<Initials>LT</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Wang</LastName>
+<ForeName>R X</ForeName>
+<Initials>RX</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Su</LastName>
+<ForeName>J D</ForeName>
+<Initials>JD</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Zhang</LastName>
+<ForeName>N J</ForeName>
+<Initials>NJ</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>ENGLAND</Country>
+<MedlineTA>Prenat Diagn</MedlineTA>
+<NlmUniqueID>8106540</NlmUniqueID>
+<ISSNLinking>0197-3851</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>EC 3.1.21.-</RegistryNumber>
+<NameOfSubstance UI="D004262">DNA Restriction Enzymes</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001706">Biopsy</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002824">Chorionic Villi</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002874">Chromosome Mapping</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004262">DNA Restriction Enzymes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004487">Edema</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000175">diagnosis</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005838">Genotype</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011247">Pregnancy</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011261">Pregnancy Trimester, First</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D011296">Prenatal Diagnosis</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013789">Thalassemia</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000175">diagnosis</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014327">Trophoblasts</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

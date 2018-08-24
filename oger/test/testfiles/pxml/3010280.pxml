@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010280</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>11</Month>
+<Day>21</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0027-8424</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>83</Volume>
+<Issue>10</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>May</Month>
+</PubDate>
+</JournalIssue>
+<Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+<ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Superoxide mediates the toxicity of paraquat for Chinese hamster ovary cells.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3189-93</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>The roles of superoxide and H2O2 in the cytotoxicity of paraquat were assessed in Chinese hamster ovary cells. Neither catalase nor superoxide dismutase inhibited the loss of ability to form colonies when added to the medium. When introduced into the cells, superoxide dismutase but not catalase inhibited the toxicity of paraquat. That superoxide dismutase acted by its known catalytic action is shown by the loss of inhibition when the enzyme was inactivated by H2O2 before being introduced into the cells. The lack of inhibition by catalase, by dimethyl sulfoxide, and by desferoxamine suggests that the toxicity is not mediated by a reaction between H2O2 and superoxide to engender the hydroxyl radical. Exposure of Chinese hamster ovary cells to paraquat may be a suitable means to determine the effects of superoxide anion in cultured cells and the ways in which cells can resist this toxic action.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Bagley</LastName>
+<ForeName>A C</ForeName>
+<Initials>AC</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Krall</LastName>
+<ForeName>J</ForeName>
+<Initials>J</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Lynch</LastName>
+<ForeName>R E</ForeName>
+<Initials>RE</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<GrantList CompleteYN="Y">
+<Grant>
+<GrantID>ES 03169</GrantID>
+<Acronym>ES</Acronym>
+<Agency>NIEHS NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+</GrantList>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+<PublicationType UI="D013487">Research Support, U.S. Gov't, P.H.S.</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+<NlmUniqueID>7505876</NlmUniqueID>
+<ISSNLinking>0027-8424</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>11062-77-4</RegistryNumber>
+<NameOfSubstance UI="D013481">Superoxides</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 1.11.1.6</RegistryNumber>
+<NameOfSubstance UI="D002374">Catalase</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 1.15.1.1</RegistryNumber>
+<NameOfSubstance UI="D013482">Superoxide Dismutase</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>PLG39H7695</RegistryNumber>
+<NameOfSubstance UI="D010269">Paraquat</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1969 Nov 25;244(22):6049-55</RefSource>
+<PMID Version="1">5389100</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1970 Aug 15;227(5259):680-5</RefSource>
+<PMID Version="1">5432063</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochim Biophys Acta. 1973 Sep 26;314(3):372-81</RefSource>
+<PMID Version="1">4751237</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Cell Biol. 1974 Dec;63(3):949-69</RefSource>
+<PMID Version="1">4140194</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochim Biophys Acta. 1975 Apr 14;387(1):176-87</RefSource>
+<PMID Version="1">164939</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochemistry. 1975 Dec 2;14(24):5294-9</RefSource>
+<PMID Version="1">49</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Cell Biol. 1984 Apr;98(4):1556-64</RefSource>
+<PMID Version="1">6201494</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1978 Nov 25;253(22):8143-8</RefSource>
+<PMID Version="1">213429</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Methods Enzymol. 1979;58:279-92</RefSource>
+<PMID Version="1">423767</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Anal Biochem. 1981 Oct;117(1):136-46</RefSource>
+<PMID Version="1">7316186</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1982 May 25;257(10):5751-4</RefSource>
+<PMID Version="1">6279612</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1984 Feb 10;259(3):1744-52</RefSource>
+<PMID Version="1">6546380</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1978 Sep 8;201(4359):875-80</RefSource>
+<PMID Version="1">210504</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002374">Catalase</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000008">administration &amp; dosage</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002460">Cell Line</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002470">Cell Survival</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000187">drug effects</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006224">Cricetinae</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010053">Ovary</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010269">Paraquat</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000633">toxicity</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013482">Superoxide Dismutase</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000008">administration &amp; dosage</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013481">Superoxides</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000633">toxicity</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC323478</OtherID>
+</MedlineCitation>

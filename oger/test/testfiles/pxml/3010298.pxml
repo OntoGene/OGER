@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010298</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2014</Year>
+<Month>11</Month>
+<Day>20</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0027-8424</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>83</Volume>
+<Issue>10</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>May</Month>
+</PubDate>
+</JournalIssue>
+<Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+<ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Effect of atrial natriuretic peptide on gonadotropin release in superfused rat pituitary cells.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3444-6</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Cardiac atrial muscle cells produce a polypeptide hormone that plays a role in the control of water and electrolyte balance and blood pressure. The circulating form of this hormone is the atrial natriuretic peptide (ANP), which contains 28 amino acids. Various immunohistochemical studies have shown that ANP is present in many areas of the central nervous system, including the median eminence. In our studies, we investigated the effect of ANP in a superfused rat pituitary cell system. When ANP was administered at increasing concentrations (0.01 microM to 1 microM), it caused a significant dose-related stimulation of the release of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). The lowest effective dose of ANP in our system was 0.03 microM. When ANP and LH-releasing hormone were administered together, the response was prolonged and had the characteristics of ANP-stimulated LH and FSH release. In contrast with some previous reports, ANP in high concentration (1 microM) consistently induced a small but significant stimulation of the release of corticotropin. ANP did not influence the basal release of prolactin, growth hormone, and thyrotropin.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Horvath</LastName>
+<ForeName>J</ForeName>
+<Initials>J</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Ertl</LastName>
+<ForeName>T</ForeName>
+<Initials>T</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Schally</LastName>
+<ForeName>A V</ForeName>
+<Initials>AV</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<GrantList CompleteYN="Y">
+<Grant>
+<GrantID>AM 07467</GrantID>
+<Acronym>AM</Acronym>
+<Agency>NIADDK NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+</GrantList>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013486">Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+<PublicationType UI="D013487">Research Support, U.S. Gov't, P.H.S.</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+<NlmUniqueID>7505876</NlmUniqueID>
+<ISSNLinking>0027-8424</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>85637-73-6</RegistryNumber>
+<NameOfSubstance UI="D009320">Atrial Natriuretic Factor</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9002-60-2</RegistryNumber>
+<NameOfSubstance UI="D000324">Adrenocorticotropic Hormone</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9002-67-9</RegistryNumber>
+<NameOfSubstance UI="D007986">Luteinizing Hormone</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9002-68-0</RegistryNumber>
+<NameOfSubstance UI="D005640">Follicle Stimulating Hormone</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9015-71-8</RegistryNumber>
+<NameOfSubstance UI="D003346">Corticotropin-Releasing Hormone</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1972 Sep;69(9):2677-81</RefSource>
+<PMID Version="1">4341705</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1985 Nov 15;230(4727):767-70</RefSource>
+<PMID Version="1">2932797</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Clin Chem. 1978 May;24(5):796-9</RefSource>
+<PMID Version="1">647914</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocrinology. 1978 Nov;103(5):1527-33</RefSource>
+<PMID Version="1">218779</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Cyclic Nucleotide Res. 1978 Dec;4(6):475-86</RefSource>
+<PMID Version="1">85642</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1980 Jan 25;255(2):342-4</RefSource>
+<PMID Version="1">6243274</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Life Sci. 1981 Jan 5;28(1):89-94</RefSource>
+<PMID Version="1">7219045</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocr Rev. 1981 Spring;2(2):174-85</RefSource>
+<PMID Version="1">6271546</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Soc Exp Biol Med. 1982 Jun;170(2):133-8</RefSource>
+<PMID Version="1">7201139</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Soc Exp Biol Med. 1982 Sep;170(4):502-8</RefSource>
+<PMID Version="1">6889736</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Can J Physiol Pharmacol. 1983 Feb;61(2):127-30</RefSource>
+<PMID Version="1">6839212</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem Biophys Res Commun. 1984 Jun 29;121(3):855-62</RefSource>
+<PMID Version="1">6540085</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Peptides. 1984;5 Suppl 1:241-7</RefSource>
+<PMID Version="1">6207510</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem Biophys Res Commun. 1984 Sep 17;123(2):515-27</RefSource>
+<PMID Version="1">6091631</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocrinology. 1984 Nov;115(5):2026-8</RefSource>
+<PMID Version="1">6092045</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Oct;81(20):6325-9</RefSource>
+<PMID Version="1">6238331</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem Biophys Res Commun. 1984 Oct 30;124(2):663-8</RefSource>
+<PMID Version="1">6238598</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1984 Dec 10;259(23):14332-4</RefSource>
+<PMID Version="1">6150043</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Neuroendocrinology. 1985 Jan;40(1):92-4</RefSource>
+<PMID Version="1">3881691</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1985 Mar 1;227(4690):1047-9</RefSource>
+<PMID Version="1">2858127</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Life Sci. 1985 May 13;36(19):1873-9</RefSource>
+<PMID Version="1">3157852</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Kidney Int. 1985 Apr;27(4):607-15</RefSource>
+<PMID Version="1">2989607</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Pharmacol. 1985 Apr 23;111(1):141-2</RefSource>
+<PMID Version="1">2990940</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Histochem Cytochem. 1985 Aug;33(8):828-32</RefSource>
+<PMID Version="1">3160763</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>FEBS Lett. 1975 Oct 15;58(1):318-21</RefSource>
+<PMID Version="1">178535</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000324">Adrenocorticotropic Hormone</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000557">secretion</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009320">Atrial Natriuretic Factor</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002478">Cells, Cultured</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003346">Corticotropin-Releasing Hormone</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005640">Follicle Stimulating Hormone</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000557">secretion</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D066298">In Vitro Techniques</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007986">Luteinizing Hormone</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000557">secretion</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010903">Pituitary Gland, Anterior</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000557">secretion</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051381">Rats</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012636">Secretory Rate</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000187">drug effects</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC323531</OtherID>
+</MedlineCitation>

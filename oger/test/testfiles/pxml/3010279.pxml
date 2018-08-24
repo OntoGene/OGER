@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010279</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>10</Month>
+<Day>01</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0027-8424</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>83</Volume>
+<Issue>10</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>May</Month>
+</PubDate>
+</JournalIssue>
+<Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+<ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Transcriptional "silencer" element in rat repetitive sequences associated with the rat insulin 1 gene locus.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3151-5</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>The enhancer elements from either simian virus 40 or murine sarcoma virus activate the expression of a transfected rat insulin 1 (rI1) gene when placed within 2.0 kilobases or less of the rI1 gene cap site. Inclusion of 4.0 kilobases of upstream rI1 sequence, however, results in a substantial reduction in the enhancer-dependent insulin gene expression. These observations suggested that a negative transcriptional regulatory element was present between 2.0 and 4.0 kilobases of the rI1 sequence. To test this notion, we employed a heterologous enhancer-dependent transcription assay in which the simian virus 40 72-base-pair repeat is linked to a human beta-globin gene. Addition of the upstream rI1 element to this system decreased the level of enhancer-dependent beta-globin transcription by a factor of 5 to 15. This rI1 "silencer" element functions in a manner relatively independent of position and orientation and requires a cis-dependent relationship to the transcription unit on which it acts. Thus, the silencer sequence seems to have a number of the characteristics of enhancer elements, and we suggest that it may function by the converse of the enhancer mechanism. The rI1 silencer sequence was identified as a member of a long interspersed rat repetitive family. Thus, a potential role for certain repetitive sequences interspersed throughout the eukaryotic genome may be to regulate gene expression by retaining transcriptional activity within defined domains.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Laimins</LastName>
+<ForeName>L</ForeName>
+<Initials>L</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Holmgren-König</LastName>
+<ForeName>M</ForeName>
+<Initials>M</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Khoury</LastName>
+<ForeName>G</ForeName>
+<Initials>G</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+<NlmUniqueID>7505876</NlmUniqueID>
+<ISSNLinking>0027-8424</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D004274">DNA, Recombinant</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D007328">Insulin</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9004-22-2</RegistryNumber>
+<NameOfSubstance UI="D005914">Globins</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1979 Oct;18(2):533-43</RefSource>
+<PMID Version="1">498283</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1985 Dec;5(12):3507-16</RefSource>
+<PMID Version="1">3018523</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1980 Nov;22(2 Pt 2):405-13</RefSource>
+<PMID Version="1">7448868</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1981 Dec;27(2 Pt 1):299-308</RefSource>
+<PMID Version="1">6277502</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1982 Sep;2(9):1044-51</RefSource>
+<PMID Version="1">6960240</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Feb;32(2):503-14</RefSource>
+<PMID Version="1">6297796</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Jun;33(2):313-4</RefSource>
+<PMID Version="1">6305503</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cold Spring Harb Symp Quant Biol. 1983;47 Pt 2:911-9</RefSource>
+<PMID Version="1">6305591</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1983 Jul 21-27;304(5923):277-80</RefSource>
+<PMID Version="1">6306481</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Aug 11;11(15):5073-91</RefSource>
+<PMID Version="1">6308571</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1983 Dec 8-14;306(5943):557-61</RefSource>
+<PMID Version="1">6358900</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1984 Jan;49(1):183-9</RefSource>
+<PMID Version="1">6690710</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1984 Mar 15;173(4):419-36</RefSource>
+<PMID Version="1">6708106</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1984 Aug 25;259(16):10481-92</RefSource>
+<PMID Version="1">6206054</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1985 Mar;53(3):998-1000</RefSource>
+<PMID Version="1">2983106</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1985 May;41(1):41-8</RefSource>
+<PMID Version="1">3888409</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1985 Sep;5(9):2197-203</RefSource>
+<PMID Version="1">3016521</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1979 Oct;18(2):545-58</RefSource>
+<PMID Version="1">498284</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002522">Cercopithecus aethiops</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004274">DNA, Recombinant</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004742">Enhancer Elements, Genetic</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005786">Gene Expression Regulation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D005809">Genes, Regulator</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005914">Globins</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007328">Insulin</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007739">L Cells (Cell Line)</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051379">Mice</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051381">Rats</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D012091">Repetitive Sequences, Nucleic Acid</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013539">Simian virus 40</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014158">Transcription, Genetic</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014162">Transfection</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC323470</OtherID>
+</MedlineCitation>

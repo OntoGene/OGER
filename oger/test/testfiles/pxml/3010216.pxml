@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010216</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>02</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>02</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2008</Year>
+<Month>11</Month>
+<Day>21</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0369-8114</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>34</Volume>
+<Issue>1</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Jan</Month>
+</PubDate>
+</JournalIssue>
+<Title>Pathologie-biologie</Title>
+<ISOAbbreviation>Pathol. Biol.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>[Evaluation of the use of bronchial brushings after cytocentrifugation in the diagnosis of bronchial tumors (475 fibroscopies)].</ArticleTitle>
+<Pagination>
+<MedlinePgn>27-32</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Since 1971, cytodiagnosis of lung tumors by association of the bronchial brushing and cytocentrifugation techniques has been carried out routinely at the University Hospital of Angers. Our study covers 475 cytodiagnoses of bronchial brushings. The results obtained enable an evaluation of the diagnostic efficiency of bronchial brushing in the detection of lung tumors. The technique is convenient for routine screening and in several cases contributes directly to diagnosis.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Chrétien</LastName>
+<ForeName>M F</ForeName>
+<Initials>MF</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Rebel</LastName>
+<ForeName>A</ForeName>
+<Initials>A</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Berruchon</LastName>
+<ForeName>J</ForeName>
+<Initials>J</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Saint-André</LastName>
+<ForeName>J P</ForeName>
+<Initials>JP</Initials>
+</Author>
+</AuthorList>
+<Language>fre</Language>
+<PublicationTypeList>
+<PublicationType UI="D003160">Comparative Study</PublicationType>
+<PublicationType UI="D004740">English Abstract</PublicationType>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+<VernacularTitle>Bilan de l'utilisation des brossages bronchiques après cytocentrifugation dans le diagnostic des tumeurs bronchiques (475 fibroscopies).</VernacularTitle>
+</Article>
+<MedlineJournalInfo>
+<Country>FRANCE</Country>
+<MedlineTA>Pathol Biol (Paris)</MedlineTA>
+<NlmUniqueID>0265365</NlmUniqueID>
+<ISSNLinking>0369-8114</ISSNLinking>
+</MedlineJournalInfo>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000230">Adenocarcinoma</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001707">Biopsy, Needle</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001984">Bronchial Neoplasms</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001999">Bronchoscopy</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002277">Carcinoma</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D018288">Carcinoma, Small Cell</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002294">Carcinoma, Squamous Cell</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002498">Centrifugation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003584">Cytological Techniques</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005189">False Positive Reactions</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005336">Fiber Optic Technology</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013183">Sputum</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000166">cytology</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

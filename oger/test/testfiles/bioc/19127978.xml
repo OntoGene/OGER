@@ -1,0 +1,1689 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>BioCBioGRID.key</key>
+  <document>
+    <id>19127978</id>
+    <infon key="top">96</infon>
+    <infon key="catagory">marked</infon>
+    <passage>
+      <infon key="name_2">surname:Racz;given-names:Attila</infon>
+      <infon key="name_3">surname:Weng;given-names:Julan</infon>
+      <infon key="name_0">surname:Skruzny;given-names:Michal</infon>
+      <infon key="name_1">surname:Schneider;given-names:Claudia</infon>
+      <infon key="name_6">surname:Corbett;given-names:Anita</infon>
+      <infon key="alt-title">Endonuclease Link to mRNP Quality Control</infon>
+      <infon key="article-id_publisher-id">08-PLBI-RA-2445R3</infon>
+      <infon key="name_5">surname:Hurt;given-names:Ed</infon>
+      <infon key="issue">1</infon>
+      <infon key="elocation-id">e1000008</infon>
+      <infon key="article-id_doi">10.1371/journal.pbio.1000008</infon>
+      <infon key="article-id_pmid">19127978</infon>
+      <infon key="volume">7</infon>
+      <infon key="article-id_pmc">2613419</infon>
+      <infon key="journal-title">PLoS Biology</infon>
+      <infon key="year">2009</infon>
+      <infon key="article-id_sici">plbi-07-01-02</infon>
+      <infon key="name_4">surname:Tollervey;given-names:David</infon>
+      <infon key="type">front</infon>
+      <offset>0</offset>
+      <text>An Endoribonuclease Functionally Linked to Perinuclear mRNP Quality Control Associates with the Nuclear Pore Complexes</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>119</offset>
+      <text>Nuclear mRNA export is a crucial step in eukaryotic gene expression, which is in yeast coupled to cotranscriptional messenger ribonucleoprotein particle (mRNP) assembly and surveillance. Several surveillance systems that monitor nuclear mRNP biogenesis and export have been described, but the mechanism by which the improper mRNPs are recognized and eliminated remains poorly understood. Here we report that the conserved PIN domain protein Swt1 is an RNA endonuclease that participates in quality control of nuclear mRNPs and can associate with the nuclear pore complex (NPC). Swt1 showed endoribonuclease activity in vitro that was inhibited by a point mutation in the predicted catalytic site. Swt1 lacked clear sequence specificity but showed a strong preference for single-stranded regions. Genetic interactions were found between Swt1 and the THO/TREX and TREX-2 complexes, and with components of the perinuclear mRNP surveillance system, Mlp1, Nup60, and Esc1. Inhibition of the nuclease activity of Swt1 increased the levels and cytoplasmic leakage of unspliced aberrant pre-mRNA, and induced robust nuclear poly(A)+ RNA accumulation in mlp1Delta and esc1Delta strains. Overexpression of Swt1 also caused strong nuclear poly(A)+ RNA accumulation. Swt1 is normally distributed throughout the nucleus and cytoplasm but becomes concentrated at nuclear pore complexes (NPCs) in the nup133Delta mutant, which causes NPC clustering and defects in mRNP export. The data suggest that Swt1 endoribonuclease might be transiently recruited to NPCs to initiate the degradation of defective pre-mRNPs or mRNPs trapped at nuclear periphery in order to avoid their cytoplasmic export and translation.</text>
+      <annotation id="1">
+        <infon key="OrganismID">559292</infon>
+        <infon key="type">Organism</infon>
+        <infon key="src">edit</infon>
+        <location offset="200" length="5"/>
+        <text>yeast</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="955" length="4"/>
+        <text>Swt1</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853970</infon>
+        <location offset="1064" length="4"/>
+        <text>Mlp1</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851263</infon>
+        <location offset="1070" length="5"/>
+        <text>Nup60</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855259</infon>
+        <location offset="1081" length="4"/>
+        <text>Esc1</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="1126" length="4"/>
+        <text>Swt1</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853970</infon>
+        <location offset="1264" length="9"/>
+        <text>mlp1Delta</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855259</infon>
+        <location offset="1278" length="9"/>
+        <text>esc1Delta</text>
+      </annotation>
+      <annotation id="GIe_67">
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="1087" length="209"/>
+        <text>Inhibition of the nuclease activity of Swt1 increased the levels and cytoplasmic leakage of unspliced aberrant pre-mRNA, and induced robust nuclear poly(A)+ RNA accumulation in mlp1Delta and esc1Delta strains.</text>
+      </annotation>
+      <annotation id="GIm_155">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="915" length="171"/>
+        <text>Genetic interactions were found between Swt1 and the THO/TREX and TREX-2 complexes, and with components of the perinuclear mRNP surveillance system, Mlp1, Nup60, and Esc1.</text>
+      </annotation>
+      <annotation id="GIm_156">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="1087" length="209"/>
+        <text>Inhibition of the nuclease activity of Swt1 increased the levels and cytoplasmic leakage of unspliced aberrant pre-mRNA, and induced robust nuclear poly(A)+ RNA accumulation in mlp1Delta and esc1Delta strains.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>1804</offset>
+      <text>Author Summary</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract_title_1</infon>
+      <offset>1819</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>1820</offset>
+      <text>Nuclear export of messenger RNA (mRNA) is a crucial step during eukaryotic gene expression. Newly synthesized precursor mRNAs are processed during synthesis, packaged into messenger ribonucleoprotein particles (mRNPs), and transported through the nuclear pore complex to the cytoplasm. To avoid nuclear export of aberrant transcripts and their translation in the cytoplasm, the quality of nuclear mRNPs is monitored by several surveillance systems. Here we show that the conserved protein Swt1 is an RNA endoribonuclease, an RNA-degrading enzyme, that becomes indispensable when factors involved in co-transcriptional mRNP assembly and mRNP quality control are mutated. We found that inactive Swt1 increases the levels and cytoplasmic leakage of aberrant, unprocessed precursor mRNA. Moreover, Swt1 accumulates at the nuclear pore complexes in the pore-clustering nup133Delta mutant. Thus, we speculate that the Swt1 endoribonuclease can be transiently recruited to the nuclear periphery to initiate the degradation of defective, pore-trapped pre-mRNPs in order to prevent their inappropriate cytoplasmic export.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>2930</offset>
+      <text>When errors in messenger RNA processing or packaging occur along the path from the site of transcription to the nuclear pore complex, the conserved RNA-degrading enzyme Swt1 comes into the game.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>3125</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3138</offset>
+      <text>Nuclear export of messenger RNA (mRNA) is a fundamental process of eukaryotic gene expression. In yeast, newly synthesized pre-mRNAs are cotranscriptionally assembled into messenger ribonucleoprotein particles (mRNPs) with the assistance of transcription-export (TREX) complexes. The THO/TREX (Tho2-Hpr1-Mft1-Thp2-Tex1-Sub2-Yra1) and TREX-2 (Sac3-Thp1-Sus1-Cdc31) complexes couple mRNA transcription with the recruitment of RNA binding proteins (e.g., Yra1, Npl3, and Nab2), and the conserved mRNA export receptor Mex67-Mtr2 (TAP-p15 in humans) [1,2]. In the absence of TREX or TREX-2 components, nascent mRNAs are not correctly assembled into mRNPs, which can lead to hybridization with the DNA template (R-loops formation), defective polyadenylation, and accumulation at the 3' end of the gene [3-5]. As a result, export-incompetent mRNPs accumulate in the nucleus [6,7]. During maturation and transport, nuclear mRNPs are monitored by surveillance systems to prevent the export and subsequent translation of aberrant mRNAs (reviewed in [8,9]). In TREX mutants, imperfect mRNPs can be targeted and degraded by the nuclear exosome together with the TRAMP polyadenylation complex [10].</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4328</offset>
+      <text>An important task of nuclear mRNA quality control is to avoid an export of intron-containing pre-mRNAs to the cytoplasm. The export of unspliced pre-mRNAs is rare in wild-type cells, whereas substantial leakage of pre-mRNA is seen in strains with defects in early splicing factors or for transcripts mutated in the 5' splice site or the branch-point sequence [11-13]. Leakage of pre-mRNAs that lack any clear splicing defects was observed in cells lacking Mlp1 (a homolog of human TPR) or Nup60, two structural constituents of the nucleoplasmic basket of the nuclear pore complex (NPC) [14]. This suggested that Nup60-Mlp1 selectively traps intron-containing pre-mRNAs, and perhaps other aberrantly processed mRNAs, to prevent their exit from the nucleus [14,15]. More recently, Pml39, the binding partner of Mlp1, and Esc1, a protein of the nuclear periphery involved in the correct localization of the Nup60-Mlp1 complex, were shown to contribute to the function of Mlp1-Nup60 [16,17]. However, the mechanism by which the aberrant transcripts are recognized and eliminated remains unclear.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5424</offset>
+      <text>The yeast PIN domain protein Swt1/Yor166c (Synthetic lethal with TREX 1) was identified in a screen for synthetic lethality with the TREX subunit Hpr1, interacts functionally with the TREX complex and is required for optimal transcription rates [18]. The PIN (PilT N terminus) module is approximately 130 residues in length and adopts a fold similar to 5' exonucleases and FLAP endonucleases [19,20]. Typical features are four invariant acidic residues located in a negatively charged surface cleft, forming the predicted catalytic center [21]. These residues probably chelate a divalent ion and, together with two adjacent hydroxyl residues, are involved in the nucleophilic attack on the substrate phosphodiester bond. The PIN domain of human SMG6 exhibited endonuclease activity in vitro and is required for its function in nonsense-mediated mRNA decay (NMD) [22]. The yeast genome encodes eight PIN domain-containing proteins, including Nob1 and Utp24/Fcf1, that assist in endonucleolytic cleavages of rRNA precursors during ribosome biogenesis [23,24] and the Rrp44/Dis3 subunit of the exosome (C. Schneider and D. Tollervey, unpublished data). However, none of these yeast proteins has been demonstrated to function as an endonuclease.</text>
+      <annotation id="30">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851716</infon>
+        <location offset="5570" length="4"/>
+        <text>Hpr1</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="5453" length="4"/>
+        <text>Swt1</text>
+      </annotation>
+      <annotation id="GIe_68">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <location offset="5424" length="250"/>
+        <text>The yeast PIN domain protein Swt1/Yor166c (Synthetic lethal with TREX 1) was identified in a screen for synthetic lethality with the TREX subunit Hpr1, interacts functionally with the TREX complex and is required for optimal transcription rates [18].</text>
+      </annotation>
+      <annotation id="GIm_157">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <location offset="5424" length="250"/>
+        <text>The yeast PIN domain protein Swt1/Yor166c (Synthetic lethal with TREX 1) was identified in a screen for synthetic lethality with the TREX subunit Hpr1, interacts functionally with the TREX complex and is required for optimal transcription rates [18].</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6668</offset>
+      <text>Here, we report that the evolutionarily conserved protein Swt1 shows RNA endonuclease activity that is dependent on the PIN domain. Swt1 is essential in cells compromised for cotranscriptional mRNP formation or perinuclear mRNP quality control and can associate with NPCs. These findings reveal an important role for endonucleolytic cleavage in the process of nuclear mRNA surveillance.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>7055</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7063</offset>
+      <text>SWT1 Functionally Overlaps with Factors Involved in Cotranscriptional mRNP Assembly and Perinuclear mRNP Quality Control</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7184</offset>
+      <text>To identify factors that interact with TREX-2, a transcription-export complex, which functions at the inner side of the NPC, we performed a synthetic lethality (sl) screen with the sac3Delta strain. Among the candidates, we identified a mutant allele of the SWT1/YOR166 gene. The genetic interaction was verified by absence of growth of a haploid sac3Delta swt1Delta strain, generated by plasmid loss (Figure S1). Other TREX-2 components Thp1 and Sus1 were either sl (thp1Delta) or showed strong synergistic interaction (sus1Delta) with swt1Delta, demonstrating an intimate functional interaction between Swt1 and TREX-2 complex (Table 1 and Figure S1).</text>
+      <annotation id="34">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851737</infon>
+        <location offset="7365" length="9"/>
+        <text>sac3Delta</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="7442" length="4"/>
+        <text>SWT1</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851737</infon>
+        <location offset="7531" length="9"/>
+        <text>sac3Delta</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="7541" length="9"/>
+        <text>swt1Delta</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854082</infon>
+        <location offset="7622" length="4"/>
+        <text>Thp1</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">1466445</infon>
+        <location offset="7631" length="4"/>
+        <text>Sus1</text>
+      </annotation>
+      <annotation id="42">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="7721" length="9"/>
+        <text>swt1Delta</text>
+      </annotation>
+      <annotation id="43">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="7789" length="4"/>
+        <text>Swt1</text>
+      </annotation>
+      <annotation id="GIe_69">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <location offset="7184" length="198"/>
+        <text>To identify factors that interact with TREX-2, a transcription-export complex, which functions at the inner side of the NPC, we performed a synthetic lethality (sl) screen with the sac3Delta strain.</text>
+      </annotation>
+      <annotation id="GIe_70">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <location offset="7598" length="239"/>
+        <text>Other TREX-2 components Thp1 and Sus1 were either sl (thp1Delta) or showed strong synergistic interaction (sus1Delta) with swt1Delta, demonstrating an intimate functional interaction between Swt1 and TREX-2 complex (Table 1 and Figure S1).</text>
+      </annotation>
+      <annotation id="GIm_158">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <location offset="7184" length="198"/>
+        <text>To identify factors that interact with TREX-2, a transcription-export complex, which functions at the inner side of the NPC, we performed a synthetic lethality (sl) screen with the sac3Delta strain.</text>
+      </annotation>
+      <annotation id="GIm_159">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="7383" length="76"/>
+        <text>Among the candidates, we identified a mutant allele of the SWT1/YOR166 gene.</text>
+      </annotation>
+      <annotation id="GIm_160">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="7460" length="137"/>
+        <text>The genetic interaction was verified by absence of growth of a haploid sac3Delta swt1Delta strain, generated by plasmid loss (Figure S1).</text>
+      </annotation>
+      <annotation id="GIm_161">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <location offset="7598" length="239"/>
+        <text>Other TREX-2 components Thp1 and Sus1 were either sl (thp1Delta) or showed strong synergistic interaction (sus1Delta) with swt1Delta, demonstrating an intimate functional interaction between Swt1 and TREX-2 complex (Table 1 and Figure S1).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>7820</offset>
+      <text>Genetic Interactions of SWT1</text>
+      <annotation id="A11">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="7844" length="4"/>
+        <text>SWT1</text>
+      </annotation>
+      <annotation id="GIm_162">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="7820" length="28"/>
+        <text>Genetic Interactions of SWT1</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7849</offset>
+      <text>To extend these studies, we tested whether SWT1 functionally overlaps with other factors involved in mRNP biogenesis and turnover. Strong genetic interactions were observed between swt1Delta and THO/TREX components (tho2Delta, hpr1Delta, mft1Delta, thp2Delta, and sub2-85) consistent with previous findings [18]. In contrast, no genetic interactions were detected between swt1Delta and the mRNA export receptor Mex67 or adaptor Yra1 [18]. In addition, we found an sl interaction between swt1Delta and NPL3, which encodes an mRNA binding protein with multiple roles in mRNP biogenesis [25,26] (Table 1 and Figure S1).</text>
+      <annotation id="44">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="8030" length="9"/>
+        <text>swt1Delta</text>
+      </annotation>
+      <annotation id="45">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851716</infon>
+        <location offset="8076" length="9"/>
+        <text>hpr1Delta</text>
+      </annotation>
+      <annotation id="46">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851475</infon>
+        <location offset="8113" length="4"/>
+        <text>sub2</text>
+      </annotation>
+      <annotation id="47">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855583</infon>
+        <location offset="8065" length="9"/>
+        <text>tho2Delta</text>
+      </annotation>
+      <annotation id="48">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854940</infon>
+        <location offset="8087" length="9"/>
+        <text>mft1Delta</text>
+      </annotation>
+      <annotation id="49">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856572</infon>
+        <location offset="8098" length="9"/>
+        <text>thp2Delta</text>
+      </annotation>
+      <annotation id="50">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="8350" length="4"/>
+        <text>NPL3</text>
+      </annotation>
+      <annotation id="51">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="8336" length="9"/>
+        <text>swt1Delta</text>
+      </annotation>
+      <annotation id="GIe_71">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="8288" length="177"/>
+        <text>In addition, we found an sl interaction between swt1Delta and NPL3, which encodes an mRNA binding protein with multiple roles in mRNP biogenesis [25,26] (Table 1 and Figure S1).</text>
+      </annotation>
+      <annotation id="GIm_163">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="7980" length="181"/>
+        <text>Strong genetic interactions were observed between swt1Delta and THO/TREX components (tho2Delta, hpr1Delta, mft1Delta, thp2Delta, and sub2-85) consistent with previous findings [18].</text>
+      </annotation>
+      <annotation id="GIm_164">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="8288" length="177"/>
+        <text>In addition, we found an sl interaction between swt1Delta and NPL3, which encodes an mRNA binding protein with multiple roles in mRNP biogenesis [25,26] (Table 1 and Figure S1).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8447</offset>
+      <text>These studies also uncovered genetic interactions between SWT1 and MLP1, NUP60, and ESC1 (Table 1 and Figure S1). Mlp1 and Nup60 are NPC-associated factors that are thought to constitute the nuclear basket of NPC and participate in mRNP quality control before nuclear export [14]. Esc1 is a protein of the inner side of the nuclear membrane recently shown to affects the association of the Mlp1-Nup60 complex with the NPC [17].</text>
+      <annotation id="53">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="8505" length="4"/>
+        <text>SWT1</text>
+      </annotation>
+      <annotation id="54">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853970</infon>
+        <location offset="8514" length="4"/>
+        <text>MLP1</text>
+      </annotation>
+      <annotation id="55">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851263</infon>
+        <location offset="8520" length="5"/>
+        <text>NUP60</text>
+      </annotation>
+      <annotation id="56">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855259</infon>
+        <location offset="8531" length="4"/>
+        <text>ESC1</text>
+      </annotation>
+      <annotation id="GIm_165">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="8447" length="113"/>
+        <text>These studies also uncovered genetic interactions between SWT1 and MLP1, NUP60, and ESC1 (Table 1 and Figure S1).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8875</offset>
+      <text>Several factors implicated in various steps of mRNP production, export and surveillance did not interact genetically with swt1Delta, including subunits of the nuclear exosome (Rrp6 and Rrp44/Dis3), components of the TRAMP complex (Trf4 and Mtr4), the Rat1 5'-exonuclease, and factors involved in cytoplasmic mRNA turnover (see Table 1 for factors tested). These genetic analyses indicate that Swt1 interacts specifically with factors required for cotranscriptional assembly and perinuclear quality control of nuclear mRNPs.</text>
+      <annotation id="57">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="9268" length="4"/>
+        <text>Swt1</text>
+      </annotation>
+      <annotation id="GIm_166">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="9231" length="167"/>
+        <text>These genetic analyses indicate that Swt1 interacts specifically with factors required for cotranscriptional assembly and perinuclear quality control of nuclear mRNPs.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9398</offset>
+      <text>Swt1 Has Endoribonuclease Activity In Vitro</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9442</offset>
+      <text>The PIN domain of Swt1, which lies in the central region (residues 130-262), is evolutionarily conserved and contains all four conserved acidic residues implicated in catalysis (Figure S2). We therefore tested whether Swt1 purified from yeast has in vitro nuclease activity. We generated FLAG-tagged wild-type Swt1 and an Swt1 mutant expected to be catalytically inactive (Swt1-D135N; Asp 135 is predicted to be a residue of the catalytic center). These were expressed in yeast and purified by affinity chromatography (Figure 1A). The ability of these proteins to degrade single-stranded RNA in vitro was assessed using 5'- or 3'-radiolabeled oligo(A)30 substrates. Wild-type Swt1 efficiently degraded both 5'- and 3'-labeled oligo(A)30 RNA. In contrast, the Swt1-D135N mutant protein exhibited no activity on the 3'-labeled RNA substrate and only very weak activity on the 5'-labeled probe (Figure 1B). The residual activity on the 5'-labeled substrate could be due to a contaminating 3'-5' exonuclease that is frequently observed in exonuclease assays (C. Schneider, unpublished data). The lack of degradation of the 3'-labeled substrate by this activity probably reflects protection by the presence of a 3'-phosphate on the [32P]pCp-labeled RNA. Time course experiments further showed that wild-type Swt1 degrades both 5'- and 3'-labeled substrates with very similar kinetics (Figure 1C), consistent with endoribonuclease activity.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10905</offset>
+      <text>Swt1 Has Endonucleolytic Activity on Single-Stranded RNA In Vitro</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10971</offset>
+      <text>(A) Purified wild-type Swt1 and mutant Swt1-D135N proteins used for in vitro nuclease activity measurements. The indicated FLAG-tagged Swt1 proteins were affinity-purified from yeast and analyzed by SDS-PAGE and Coomassie staining. M, molecular weight marker.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11231</offset>
+      <text>(B) Wild-type Swt1 or mutant Swt1-D135N protein (0.5 mug each) were incubated with 5'-[32P]-end-labeled (left panel) or 3'-[32P]-end-labeled (right panel) oligo(A)30 RNA for 0, 60, and 120 min at 30  C. The reaction products were separated on a denaturing 12% polyacrylamide/8 M urea gel and visualized by autoradiography. RNA probes incubated without protein served as negative controls, indicated by the negative sign (-). The asterisk (*) denotes a low activity of a contaminating yeast exonuclease.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11745</offset>
+      <text>(C) Time course of Swt1 RNase activity on 5'-[32P]-end-labeled (left panel) or 3'-[32P]-end-labeled (right panel) oligo(A)30 RNA. The assay was performed as described in (B), and aliquots were taken at the indicated time points.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11982</offset>
+      <text>(D) Wild-type Swt1 or mutant Swt1-D135N were incubated with 5'-[32P]-end-labeled 52-nt RNA with a stable terminal stem for 0, 30, and 60 min at 30  C, and the reaction was analyzed as outlined in (B). OH, a partial alkaline hydrolysis of the RNA probe used as a molecular weight ladder. The positions of the stem residues are indicated in blue on the right side of the gel and on the RNA secondary structure calculated by MFOLD.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12416</offset>
+      <text>To assess whether Swt1 functions as an endonuclease, a structured 52-nucleotide (nt) RNA substrate was used, which contains a stable stem (from the mouse 5.8S rRNA) that closes the 5'- and 3'-ends of the RNA (Figure 1D). The remaining part of the RNA (nt 11-43) is predicted to be at least partially single stranded. Wild-type Swt1, but not the Swt1-D135N mutant, efficiently cleaved the structured 52-nt RNA endonucleolytically, with a clear preference for single-stranded regions of the RNA substrate (Figure 1D). Taken together, the data show that Swt1 exhibits in vitro endonuclease activity without clear sequence specificity but with a preference for single-stranded RNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>13096</offset>
+      <text>Deletion of SWT1 Induces Nuclear Poly(A)+ RNA Accumulation and Enhances Cytoplasmic Leakage of Splicing-Defective Pre-mRNAs in mlp1Delta and nup60Delta Mutants</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13250</offset>
+      <text>To further investigate the in vivo role of Swt1 in the context of transcription-coupled mRNA export and nuclear mRNP surveillance, we performed mRNA export and pre-mRNA leakage assays with the viable double mutants (Figure S1) carrying swt1Delta together with thp2Delta, mft1Delta (THO/TREX), sus1Delta (TREX-2), nup60Delta, mlp1Delta, and esc1Delta (perinuclear mRNP quality control). Deletion of SWT1 significantly enhanced nuclear poly(A)+ RNA accumulation relative to the thp2Delta, mft1Delta, sus1Delta, and nup60Delta single mutants (Figures 2A, S3A and unpublished data). Moreover, swt1Delta induced nuclear accumulation of poly(A)+ RNA in the mlp1Delta and esc1Delta mutants, which was not detected in the single mutants (Figure 2A; see also [27,28]).</text>
+      <annotation id="58">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="13648" length="4"/>
+        <text>SWT1</text>
+      </annotation>
+      <annotation id="60">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856572</infon>
+        <location offset="13726" length="9"/>
+        <text>thp2Delta</text>
+      </annotation>
+      <annotation id="61">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854940</infon>
+        <location offset="13737" length="9"/>
+        <text>mft1Delta</text>
+      </annotation>
+      <annotation id="62">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">1466445</infon>
+        <location offset="13748" length="9"/>
+        <text>sus1Delta</text>
+      </annotation>
+      <annotation id="63">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851263</infon>
+        <location offset="13763" length="10"/>
+        <text>nup60Delta</text>
+      </annotation>
+      <annotation id="64">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="13839" length="9"/>
+        <text>swt1Delta</text>
+      </annotation>
+      <annotation id="65">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853970</infon>
+        <location offset="13901" length="9"/>
+        <text>mlp1Delta</text>
+      </annotation>
+      <annotation id="66">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855259</infon>
+        <location offset="13915" length="9"/>
+        <text>esc1Delta</text>
+      </annotation>
+      <annotation id="GIe_72">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="13636" length="192"/>
+        <text>Deletion of SWT1 significantly enhanced nuclear poly(A)+ RNA accumulation relative to the thp2Delta, mft1Delta, sus1Delta, and nup60Delta single mutants (Figures 2A, S3A and unpublished data).</text>
+      </annotation>
+      <annotation id="GIm_167">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="13636" length="192"/>
+        <text>Deletion of SWT1 significantly enhanced nuclear poly(A)+ RNA accumulation relative to the thp2Delta, mft1Delta, sus1Delta, and nup60Delta single mutants (Figures 2A, S3A and unpublished data).</text>
+      </annotation>
+      <annotation id="GIm_168">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="13829" length="180"/>
+        <text>Moreover, swt1Delta induced nuclear accumulation of poly(A)+ RNA in the mlp1Delta and esc1Delta mutants, which was not detected in the single mutants (Figure 2A; see also [27,28]).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>13968</offset>
+      <text>SWT1 Is Involved in Mlp1-Nup60-Assisted Nuclear mRNP Quality Control</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14037</offset>
+      <text>(A) Disruption of SWT1 induces or enhances the nuclear accumulation of poly(A)+ and SSA1 RNA in mlp1Delta, esc1Delta, or nup60Delta strain, respectively. The indicated single- and double-mutant strains were grown at 30  C (nup60Delta) or shifted to 37  C for 90 min (mlp1Delta and esc1Delta), and the localization of poly(A)+ RNA and SSA1 RNA was analyzed by in situ hybridization using Cy3-oligo(dT) and SSA1-specific probes, respectively. DNA was stained with DAPI. The percentage of the cells showing a nuclear accumulation of poly(A)+ RNA or SSA1 mRNA, respectively, was calculated for n &gt; 150 cells and indicated below each panel (mlp1Delta and esc1Delta strains). In the case of the nup60Delta strain, the percentage of cells with a significantly enhanced nuclear poly(A)+ signal (above 1.5-fold of the average intensity of the nup60Delta nuclear signal) is shown.</text>
+      <annotation id="67">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="14055" length="4"/>
+        <text>SWT1</text>
+      </annotation>
+      <annotation id="69">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853970</infon>
+        <location offset="14133" length="9"/>
+        <text>mlp1Delta</text>
+      </annotation>
+      <annotation id="70">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855259</infon>
+        <location offset="14144" length="9"/>
+        <text>esc1Delta</text>
+      </annotation>
+      <annotation id="71">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851263</infon>
+        <location offset="14158" length="10"/>
+        <text>nup60Delta</text>
+      </annotation>
+      <annotation id="72">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851259</infon>
+        <location offset="14121" length="4"/>
+        <text>SSA1</text>
+      </annotation>
+      <annotation id="GIe_73">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="14037" length="153"/>
+        <text>(A) Disruption of SWT1 induces or enhances the nuclear accumulation of poly(A)+ and SSA1 RNA in mlp1Delta, esc1Delta, or nup60Delta strain, respectively.</text>
+      </annotation>
+      <annotation id="GIm_169">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="14037" length="153"/>
+        <text>(A) Disruption of SWT1 induces or enhances the nuclear accumulation of poly(A)+ and SSA1 RNA in mlp1Delta, esc1Delta, or nup60Delta strain, respectively.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14880</offset>
+      <text>(B) Deletion of SWT1 induces a leakage of reporter pre-mRNAs to the cytoplasm and synergistically enhances the pre-mRNA leakage of mlp1Delta and nup60Delta cells. The leakage of unspliced lacZ pre-mRNA reporters that give rise to beta-galactosidase activity was analyzed as described in Materials and Methods. The ratios between beta-galactosidase activities derived from the reporter pre-mRNA and intronless control mRNA were calculated and shown relatively to the ratio of respective wild-type strain. The results of four independent experiments are shown. Error bars indicate standard deviations.</text>
+      <annotation id="73">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="14896" length="4"/>
+        <text>SWT1</text>
+      </annotation>
+      <annotation id="75">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853970</infon>
+        <location offset="15011" length="9"/>
+        <text>mlp1Delta</text>
+      </annotation>
+      <annotation id="76">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851263</infon>
+        <location offset="15025" length="10"/>
+        <text>nup60Delta</text>
+      </annotation>
+      <annotation id="GIe_74">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="14880" length="162"/>
+        <text>(B) Deletion of SWT1 induces a leakage of reporter pre-mRNAs to the cytoplasm and synergistically enhances the pre-mRNA leakage of mlp1Delta and nup60Delta cells.</text>
+      </annotation>
+      <annotation id="GIm_170">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="14880" length="162"/>
+        <text>(B) Deletion of SWT1 induces a leakage of reporter pre-mRNAs to the cytoplasm and synergistically enhances the pre-mRNA leakage of mlp1Delta and nup60Delta cells.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15470</offset>
+      <text>To assess whether the poly(A)+ RNA accumulation reflects the accumulation of nuclear mRNA, we tested a specific transcript, the heat-shock SSA1 mRNA (Figure 2A). This mRNA was clearly accumulated in the nucleus of the mpl1Delta swt1Delta double mutant, but not in the corresponding single mutants. In contrast, no nuclear accumulation was observed when the nuclear export of tRNA was assayed (unpublished data). To quantify whether the levels of SSA1 transcript were increased in the mlp1Delta swt1Delta double mutant, we measured the amount of SSA1 mRNA before and after heat shock by real-time reverse-transcription polymerase chain reaction (RT-PCR). The SSA1 levels were mildly increased in the single mutants, but a synergistic increase was observed in the mlp1Delta swt1Delta double mutant in comparison to wild-type strain (Figure S4).</text>
+      <annotation id="77">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853970</infon>
+        <location offset="15688" length="9"/>
+        <text>mpl1Delta</text>
+      </annotation>
+      <annotation id="78">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="15698" length="9"/>
+        <text>swt1Delta</text>
+      </annotation>
+      <annotation id="80">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853970</infon>
+        <location offset="16232" length="9"/>
+        <text>mlp1Delta</text>
+      </annotation>
+      <annotation id="81">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="16242" length="9"/>
+        <text>swt1Delta</text>
+      </annotation>
+      <annotation id="GIm_171">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="15632" length="135"/>
+        <text>This mRNA was clearly accumulated in the nucleus of the mpl1Delta swt1Delta double mutant, but not in the corresponding single mutants.</text>
+      </annotation>
+      <annotation id="GIm_172">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="16124" length="188"/>
+        <text>The SSA1 levels were mildly increased in the single mutants, but a synergistic increase was observed in the mlp1Delta swt1Delta double mutant in comparison to wild-type strain (Figure S4).</text>
+      </annotation>
+      <annotation id="PPIe_113">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="16124" length="188"/>
+        <text>The SSA1 levels were mildly increased in the single mutants, but a synergistic increase was observed in the mlp1Delta swt1Delta double mutant in comparison to wild-type strain (Figure S4).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16295</offset>
+      <text>To test whether the double mutants of swt1Delta and mlp1Delta or nup60Delta result in synergistic defects in pre-mRNP surveillance, we monitored cytoplasmic leakage of unspliced pre-mRNA reporters [11,12,14]. No leakage of the reporter with intact splicing signals (pJCR1) was observed in the swt1Delta strain, whereas the nup60Delta strain showed increased leakage of the unspliced pre-mRNA, which was synergistically enhanced in the swt1Delta nup60Delta double mutant (Figure 2B). Next, we tested whether pre-mRNA reporters with a mutation in the 5' splicing site (mut5'SS) or in the branch-point site (mutBP) exhibit an increased cytoplasmic leakage in swt1Delta cells. Notably, leakage of the mutBP reporter was increased approximately 4-fold in the swt1Delta or mlp1Delta single mutants relative the wild type (Figure 2B; see also [14,16]). Cytoplasmic leakage of both mutant pre-mRNA reporters was again strongly synergistically enhanced in the swt1Delta mlp1Delta double mutant (Figure 2B).</text>
+      <annotation id="82">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="16588" length="9"/>
+        <text>swt1Delta</text>
+      </annotation>
+      <annotation id="84">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851263</infon>
+        <location offset="16618" length="10"/>
+        <text>nup60Delta</text>
+      </annotation>
+      <annotation id="85">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851263</infon>
+        <location offset="16740" length="10"/>
+        <text>nup60Delta</text>
+      </annotation>
+      <annotation id="86">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="16730" length="9"/>
+        <text>swt1Delta</text>
+      </annotation>
+      <annotation id="88">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="17246" length="9"/>
+        <text>swt1Delta</text>
+      </annotation>
+      <annotation id="89">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853970</infon>
+        <location offset="17256" length="9"/>
+        <text>mlp1Delta</text>
+      </annotation>
+      <annotation id="A51">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="17049" length="9"/>
+        <text>swt1Delta</text>
+      </annotation>
+      <annotation id="A52">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853970</infon>
+        <location offset="17062" length="9"/>
+        <text>mlp1Delta</text>
+      </annotation>
+      <annotation id="GIe_75">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="16504" length="273"/>
+        <text>No leakage of the reporter with intact splicing signals (pJCR1) was observed in the swt1Delta strain, whereas the nup60Delta strain showed increased leakage of the unspliced pre-mRNA, which was synergistically enhanced in the swt1Delta nup60Delta double mutant (Figure 2B).</text>
+      </annotation>
+      <annotation id="GIe_76">
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="16968" length="172"/>
+        <text>Notably, leakage of the mutBP reporter was increased approximately 4-fold in the swt1Delta or mlp1Delta single mutants relative the wild type (Figure 2B; see also [14,16]).</text>
+      </annotation>
+      <annotation id="GIe_77">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="17141" length="151"/>
+        <text>Cytoplasmic leakage of both mutant pre-mRNA reporters was again strongly synergistically enhanced in the swt1Delta mlp1Delta double mutant (Figure 2B).</text>
+      </annotation>
+      <annotation id="GIm_173">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="16504" length="273"/>
+        <text>No leakage of the reporter with intact splicing signals (pJCR1) was observed in the swt1Delta strain, whereas the nup60Delta strain showed increased leakage of the unspliced pre-mRNA, which was synergistically enhanced in the swt1Delta nup60Delta double mutant (Figure 2B).</text>
+      </annotation>
+      <annotation id="GIm_174">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="16968" length="172"/>
+        <text>Notably, leakage of the mutBP reporter was increased approximately 4-fold in the swt1Delta or mlp1Delta single mutants relative the wild type (Figure 2B; see also [14,16]).</text>
+      </annotation>
+      <annotation id="GIm_175">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="17141" length="151"/>
+        <text>Cytoplasmic leakage of both mutant pre-mRNA reporters was again strongly synergistically enhanced in the swt1Delta mlp1Delta double mutant (Figure 2B).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17261</offset>
+      <text>We conclude that loss of Swt1 leads to increased cytoplasmic leakage of splicing-defective pre-mRNAs, which can be synergistically enhanced by mutations in the Mlp1-Nup60 complex. This suggests that Swt1 and Mlp1-Nup60 have distinct but overlapping roles in nuclear mRNP surveillance. At first sight, it appears contradictory that an increased pre-mRNA leakage goes along with nuclear accumulation of poly(A)+ RNA. However, these two effects are necessarily not mutually exclusive. When nuclear quality control is severely compromised (e.g., in mlp1Delta swt1Delta or nup60Delta swt1Delta cells), larger amounts of aberrant mRNPs could accumulate in the nucleus and hence have a higher chance to leak out.</text>
+      <annotation id="90">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="17286" length="4"/>
+        <text>Swt1</text>
+      </annotation>
+      <annotation id="92">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853970</infon>
+        <location offset="17421" length="4"/>
+        <text>Mlp1</text>
+      </annotation>
+      <annotation id="93">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851263</infon>
+        <location offset="17426" length="5"/>
+        <text>Nup60</text>
+      </annotation>
+      <annotation id="GIe_78">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <location offset="17261" length="179"/>
+        <text>We conclude that loss of Swt1 leads to increased cytoplasmic leakage of splicing-defective pre-mRNAs, which can be synergistically enhanced by mutations in the Mlp1-Nup60 complex.</text>
+      </annotation>
+      <annotation id="GIm_176">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <location offset="17261" length="179"/>
+        <text>We conclude that loss of Swt1 leads to increased cytoplasmic leakage of splicing-defective pre-mRNAs, which can be synergistically enhanced by mutations in the Mlp1-Nup60 complex.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17955</offset>
+      <text>The Endonuclease Domain Is Essential for Swt1 Function at Physiological Expression Levels</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18045</offset>
+      <text>In a previous study [18], Swt1 lacking the PIN (endonuclease) domain was shown to complement the lethality of swt1Delta in THO mutant strains. However, Swt1 is a low-abundance protein (see below), and the constructs were overexpressed from the relatively strong NOP1 promoter. To assess whether the endonuclease activity of Swt1 is essential for complementation of swt1Delta phenotypes under physiological expression levels, we analyzed the catalytically inactive Swt1-D135N mutant expressed from the endogenous promoter (Figure 3A). Swt1-D135N and wild-type Swt1 were expressed at similar levels (Figure 3B), but Swt1-D135N failed to complement the growth defects of swt1Delta in any double-mutant combination (Figure 3A and unpublished data). Moreover, Swt1-D135N did not rescue the nuclear mRNA accumulation induced by swt1Delta in the background of the mlp1Delta, nup60Delta, sus1Delta, or thp2Delta mutations (Figure 3C and unpublished data). Finally, the nuclear leakage of the unspliced pre-mRNA reporter (mutBP) in Swt1-D135N-expressing cells (Figure 3D) was indistinguishable from the leakage observed in the swt1Delta strain (Figure 2B). Similar loss-of-function phenotypes were observed for the swt1 truncation mutant lacking the entire PIN domain (Swt1DeltaPIN) (Figure S5 and unpublished data).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19325</offset>
+      <text>The Catalytically Inactive swt1-D135N Mutant Resembles the swt1 Null Mutation In Vivo</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19411</offset>
+      <text>(A) The swt1-D135N mutant does not complement the synthetically lethal/enhanced phenotypes of the indicated swt1Delta double-mutant strains. Strains were transformed with wild-type SWT1 or mutant swt1-D135N, and transformants were spotted in 10-fold serial dilutions on the indicated plates. The strains were incubated for 5 d at 30  C (tho2Delta swt1Delta) or for 3 d at 36  C (thp2Delta swt1Delta and nup60Delta swt1Delta).</text>
+      <annotation id="95">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854337</infon>
+        <location offset="19519" length="9"/>
+        <text>swt1Delta</text>
+      </annotation>
+      <annotation id="GIe_79">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <location offset="19411" length="140"/>
+        <text>(A) The swt1-D135N mutant does not complement the synthetically lethal/enhanced phenotypes of the indicated swt1Delta double-mutant strains.</text>
+      </annotation>
+      <annotation id="GIm_177">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <location offset="19411" length="140"/>
+        <text>(A) The swt1-D135N mutant does not complement the synthetically lethal/enhanced phenotypes of the indicated swt1Delta double-mutant strains.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19818</offset>
+      <text>(B) The expression levels of wild-type and mutant Swt1 proteins are similar. Whole-cell lysates prepared from a swt1Delta strain or a swt1Delta strain expressing wild-type Swt1 or Swt1-D135N were analyzed by SDS-PAGE and western blotting using polyclonal anti-Swt1 antibodies. The detection of Arc1 protein by an anti-Arc1 polyclonal antibody was used as a loading control.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20186</offset>
+      <text>(C) The Swt1-D135N mutant cannot rescue the poly(A)+ export defect of the mlp1Delta swt1Delta strain. mlp1Delta swt1Delta cells expressing wild-type Swt1 or Swt1-D135N were analyzed for poly(A)+ RNA localization as in Figure 2A or stained with DAPI to detect DNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20438</offset>
+      <text>(D) Swt1-D135N-expressing cells show a nuclear pre-mRNA leakage phenotype. The swt1Delta and mlp1Delta swt1Delta strains were transformed with the indicated plasmids and assayed for the leakage of the lacZ pre-mRNA reporter (mutBP) as described in Figure 2B. The results of four independent experiments are shown. Error bars indicate standard deviations.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20784</offset>
+      <text>(E) Swt1-D135N cells accumulate elevated levels of mutated lacZ pre-mRNA. Total RNA was isolated from the swt1-D135N and isogenic wild-type strain expressing the intron-containing lacZ reporter transcript (norm., for normal) or the intron-containing lacZ transcript mutated in the branch-point splicing site (mut., for mutated). The lacZ levels were quantified by real-time RT-PCR using the GAL1 mRNA as a reference transcript. The results of four independent experiments are shown. Error bars indicate standard errors of the mean.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21316</offset>
+      <text>(F) Overexpression of wild-type Swt1, but not overexpression of the catalytically inactive Swt1-D135N mutant, is toxic to the cells. Swt1Delta cells containing GAL1::SWT1, GAL1::swt1-D135N, or empty plasmid were spotted in 10-fold serial dilutions on plates containing either galactose or glucose and incubated for 3 d at 30  C. Only the last two dilutions of glucose plate are shown.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21699</offset>
+      <text>(G) Overexpression of wild-type Swt1, but not overexpression of the catalytically inactive Swt1-D135N mutant, induces strong nuclear accumulation of poly(A)+ RNA. The same strains as used in (F) were grown in raffinose-containing medium to early-log phase and then induced by 2% galactose for 5 h. The localization of poly(A)+ RNA was analyzed by in situ hybridization using a Cy3-oligo(dT) probe. DNA was stained with DAPI. The percentage of the cells showing an accumulation of nuclear poly(A)+ signal is shown (n &gt; 150 cells).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22229</offset>
+      <text>However, Swt1-D135N, Swt1DeltaPIN, and other partial deletion constructs could complement swt1Delta for growth in the tho2Delta background, when overexpressed under the control of the strong ADH1 promoter (Figure S5). In contrast, other swt1Delta phenotypes, including nuclear pre-mRNA leakage and nuclear poly(A)+ RNA accumulation in mlp1Delta swt1Delta strains, could not be suppressed by overexpression of Swt1-D135N or Swt1DeltaPIN mutants from the ADH1 promoter (Figure 3D and unpublished data). Thus, under physiological expression levels, the endonuclease activity of Swt1 is essential for its function, whereas the requirement for catalytic activity can be partially relieved by overexpression of the inactive Swt1 protein.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>22940</offset>
+      <text>Swt1-D135N Cells Accumulate Elevated Levels of an Aberrant Pre-mRNA</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23008</offset>
+      <text>To assess possible roles for the endonuclease activity of Swt1 in the degradation of defective mRNPs, we determined whether an "aberrant" transcript is stabilized in swt1-D135N cells relative to the otherwise isogenic wild type. As an abnormal transcript, we used the intron-containing lacZ construct (expressed from mutBP plasmid; see above) that was used in the pre-mRNA leakage assays. This harbors a mutation in the splicing branch-point site that efficiently blocks pre-mRNA splicing [12]. The wild-type intron-containing lacZ transcript encoded by plasmid pJCR51 was used as a control pre-mRNA. Accumulation of the aberrant transcript was substantially elevated in swt1-D135N cells relative to wild-type strain (mut. bars in Figure 3E), whereas the levels of normally processed lacZ mRNA was unchanged between the swt1-D135N and wild-type strains (norm. bars in Figure 3E). These results suggest that the endoribonuclease activity of Swt1 participates in the selective elimination of defective mRNA transcripts.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>24030</offset>
+      <text>Swt1 Overexpression Is Toxic and Induces a Strong Nuclear Accumulation of Pre-mRNA</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24113</offset>
+      <text>As Swt1 participates in nuclear mRNP surveillance, its expression and/or targeting may be subject to regulation. Quantitative western blot analysis using anti-Swt1 antibodies indicated that in vivo levels of Swt1 endonuclease are very low (~200-300 molecules per cell) (unpublished data; see also [18]), which might be important to avoid inappropriate RNA degradation. In a large-scale analysis, Yor166/Swt1 was reported to be toxic following overexpression by the Tet-off system [29]. Consistent with this finding, a dominant-lethal phenotype was induced by overexpression of wild-type Swt1 but not of catalytically inactive mutant Swt1-D135N from the GAL1 promoter (Figure 3F). The majority of Swt1 overexpressing cells showed strong nuclear accumulation of both poly(A)+ RNA (Figure 3E) and SSA1 mRNA, whereas tRNA was normally exported (Figure S3B and unpublished data). Notably, when the localization of intron-containing/intronless lacZ reporter constructs was analyzed, the nuclear accumulation of an intron-containing pre-mRNA reporter was stronger than for the intronless mRNA (Figure S3C), consistent with a defect in pre-mRNA surveillance. These analyses demonstrate that overexpression of catalytically active Swt1 is toxic and interferes with mRNA export and/or pre-mRNA surveillance.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>25415</offset>
+      <text>Swt1 Associates with the Nuclear Pore Complexes in nup133Delta Cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25481</offset>
+      <text>Subcellular fractionation previously indicated that TAP-tagged Swt1 is located in the nucleus [18]. The exact location of Swt1 could not be determined, however, because the abundance of green fluorescent protein (GFP)- or immuno-labeled Swt1 expressed from the endogenous promoter was too low to be visualized (unpublished data and [18]). The attachment of multiple GFP tags can allow the detection of low-abundance proteins (N. Daigle, A. Bancaud, and J. Ellenberg, unpublished data). We therefore generated a functional 4xGFP-Swt1 construct expressed from SWT1 endogenous promoter, which complemented the double-deletion strains swt1Delta mlp1Delta, swt1Delta nup60Delta, or swt1Delta tho2Delta (Figure S6 and unpublished data). When analyzed in the swt1Delta strain, 4xGFP-Swt1 was localized in both the nucleus and cytoplasm, with a slight nuclear enrichment in some cells (Figure 4A). When expressed in the nup133Delta nuclear pore-clustering mutant [30], 4xGFP-Swt1 exhibited significant coclustering with NPCs at the nuclear periphery, which was lost upon complementation of the nup133Delta strain by plasmid-derived NUP133 (Figure 4A). When a 4xGFP-Swt1 construct lacking the catalytic PIN domain (4xGFP-Swt1DeltaPIN) was expressed in swt1Delta cells, it was concentrated in a few spots. These were always close to the NPCs, as revealed by covisualization of Nup120-mCherry (Figure 4B), and 4xGFP-Swt1DeltaPIN also associated with NPCs in nup133Delta cells. Targeting of Swt1DeltaPIN to the NPCs did not depend on Mlp1, Nup60, or Esc1. Instead, 4xGFP-Swt1DeltaPIN showed more distinct and punctuate nuclear envelope staining in the mlp1Delta, nup60Delta, and esc1Delta strains than in the corresponding isogenic wild-type strains (Figure 4B and unpublished data). The nucleocytoplasmic localization of full-length 4xGFP-Swt1 in the mlp1Delta, nup60Delta, and esc1Delta cells was not altered (unpublished data). Together with the genetic data, these observations indicate that Swt1 interacts with the NPCs.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>27432</offset>
+      <text>Swt1 Associates with Nuclear Pore Complexes in the Nucleoporin Mutant nup133Delta</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27511</offset>
+      <text>(A) 4xGFP-Swt1 (green) or (B) 4xGFP-Swt1DeltaPIN (green) were coexpressed with Nup120-mCherry (a marker for NPCs; red) in the indicated strains (swt1Delta, nup133Delta swt1Delta, nup133Delta swt1Delta + NUP133 [expressed from a centromeric plasmid], mlp1Delta swt1Delta, and nup60Delta swt1Delta) and analyzed by fluorescence microscopy. Cells were also viewed by Nomarski optics.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>27862</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27873</offset>
+      <text>We show in this study that Swt1 is an RNA endonuclease that can associate with NPCs and participates in the systems that control the quality of nuclear mRNPs prior to export to the cytoplasm. The endonuclease activity of the PIN domain of Swt1 is crucial for its in vivo function at physiological (i.e., low) expression levels. Heavily overexpressed Swt1 constructs lacking the PIN domain could fulfill some of the in vivo functions of Swt1, whereas overexpression of active Swt1 was lethal. This indicates that Swt1 functions both as a nuclease and as a protein component of mRNP surveillance complexes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28478</offset>
+      <text>To avoid the cytoplasmic translation of defective mRNPs into a potentially deleterious proteins, mRNP biogenesis and surveillance systems cooperate in the nucleus. The endoribonuclease activity of Swt1 is essential when the function of complexes that cotranscriptionally form and check the nuclear mRNPs is impaired, suggesting that Swt1 could be involved in degrading the mRNA component of aberrant nuclear mRNPs. An endonuclease activity could be important because transcriptionally trapped mRNPs, export-incompetent mRNPs, or pre-mRNPs incapable of splicing all lack accessible RNA ends that would allow degradation by the nuclear 5'-exonuclease Rat1 or the 3'-exonuclease activity of the exosome. Endonuclease cleavage of defective mRNA and mRNPs by Swt1 could generate free mRNA ends for further exonucleolytic degradation. Consistent with this model, an aberrant pre-mRNA reporter construct that cannot be spliced was selectively accumulated in the catalytically inactive Swt1-D135N mutant, and loss of Swt1 from the mlp1Delta strain stabilized the nuclear-restricted SSA1 mRNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29564</offset>
+      <text>High levels of Swt1 were toxic and induced strong nuclear poly(A)+ RNA accumulation. Among the several possibilities, which could explain this phenotype, overexpressed Swt1 could induce erroneous RNA cleavage in properly formed RNP complexes. We estimate the number of Swt1 molecules in the cell to be only about 200-300 copies, and this low level may be important to suppress off-target RNA cleavage. The nuclear accumulation of an intron-containing reporter pre-mRNA induced by Swt1 overexpression was stronger than for the corresponding intronless pre-mRNA, consistent with a defect in pre-mRNA surveillance. Notably, overexpression of Mlp1, but not deletion of its gene, also caused nuclear accumulation of intron-containing pre-mRNAs [14,28], consistent with the model that Swt1 and Mlp1 function together in this pathway.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30394</offset>
+      <text>Our data are consistent with the previously suggested role of Swt1 in TREX-assisted mRNA transcription [18]. TREX/TREX-2 complexes are required for a cotranscriptional mRNP assembly, and failure in their function leads to formation of aberrant mRNP structures, which impede RNAPII transcription [3-5,9]. We predict that these defective mRNP particles represent important substrates for endonuclease degradation by Swt1. Consistent with this model, defective and export-incompetent mRNPs formed in TREX mutants accumulate in association with the NPCs [9,31], where Swt1 can also be detected.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30987</offset>
+      <text>In wild-type cells, Swt1 was distributed between the nucleus and cytoplasm, and hence could potentially detect the formation of defective pre-mRNPs all along the mRNP biogenesis pathway. However, Swt1 was accumulated at the NPCs when these were clustered in the nup133Delta mutant [30]. This NPC localization of Swt1 cannot be correlated to an impaired mRNA export (nup133Delta cells also exhibit an mRNA export defect), as 4xGFP-Swt1 did not accumulate at the nuclear envelope in the mex67-5 mRNA export mutant (unpublished data). Moreover, Swt1 lacking its endonuclease domain became concentrated in perinuclear spots even in cells with a normal complement of nucleoporins. We speculate that Swt1 is transiently recruited to the NPCs via interactions with nucleoporins and/or with export-incompetent pre-mRNPs blocked at the NPCs, and function there to prevent inappropriate pre-mRNA export.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31877</offset>
+      <text>Analyses of nuclear degradation of defective RNAs in yeast have largely concentrated on the activities of the 5'- and 3'-exonucleases. This work demonstrates that endonuclease cleavage is also likely to play an important role in nuclear RNA surveillance.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>32136</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32158</offset>
+      <text>Yeast strains, plasmids, and genetic manipulations.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32210</offset>
+      <text>Yeast strains used in this study are listed in Table S1; plasmid constructs are described in Table S2. Site-directed mutagenesis of the SWT1 gene to create the swt1-D135N mutant was performed by fusion PCR [32]. The synthetic lethality screen with the sac3Delta strain was performed as previously described [33].</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32520</offset>
+      <text>In vitro nuclease activity assay.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32554</offset>
+      <text>For in vitro measurements of Swt1 nuclease activity, the FLAG-Swt1 wild-type and D135N mutant protein were expressed from plasmids pADH111-FLAG-SWT1 or pADH111-FLAG-swt1-D135N (ADH1 promoter) and purified by anti-FLAG affinity chromatography. Briefly, 4 l of yeast culture were harvested at an optical density at 600 nm (OD600) of approximately 4.0, resuspended in FLAG buffer (50 mM Tris-HCl [pH 7.5], 200 mM NaCl, 0.5 mM DTT, 0.05% NP-40) to a final volume of 50 ml, lysed by bead-beating (Pulverissete 6; Fritsch) and incubated with 120 mul of anti-FLAG M2 agarose (Sigma) for 120 min at 4  C. Anti-FLAG slurry was washed by 750 volumes of FLAG buffer, and the bound material was eluted with FLAG peptide according to the manufacturer's instructions (Sigma) followed by concentration and buffer exchange.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33363</offset>
+      <text>The analyses of nuclease activity of the purified proteins on 5'-end- or 3'-end-radiolabeled RNAs were performed at 30  C in 15 mM Tris-HCl (pH 7.6), 75 mM NaCl, 2 mM DTT, 100 mug/ml BSA, 0.8 U/mul RNasin, 4.5% glycerol, 0.05% NP-40, 0.3 muM Escherichia coli tRNA, and 7.5 mM MnCl2. Prior to addition of 20-30 fmoles of the labeled RNA substrate, the 20 or 30 mul reactions containing 10 pmoles of protein were pre-incubated for 15 min at 30  C. Subsequently, 4-mul aliquots were taken at the time points indicated in Figure 1, and the reaction was stopped by the addition of formamide-containing RNA loading buffer. Reaction products were resolved on a denaturing 12% polyacrylamide/8 M urea gel and visualized by autoradiography. 5'-[32P]- and 3'-[32P]-labeled RNA substrates (Dharmacon) were labeled and gel-purified as described [34].</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34222</offset>
+      <text>Pre-mRNA leakage assays.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34247</offset>
+      <text>At least four independent experiments were performed for each strain containing an indicated lacZ pre-mRNA leakage reporter (pJCR1, pmut5'SS, and pmutBP) or intronless lacZ control (pLGSD5). Transformants were pooled and grown overnight in selective raffinose medium. Cells were diluted, grown to mid-log phase and the expression of reporter was induced by 2% galactose for 150 min. beta-Galactosidase assays were performed in triplicate for each sample according to the published protocol [11] with the modifications described in [16].</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34784</offset>
+      <text>Analysis of SSA1 and lacZ RNA levels.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34822</offset>
+      <text>To induce SSA1 expression, heat shock (42  C for 15 min) was applied to exponentially grown cultures by the addition of an equal volume of prewarmed medium. The expression of lacZ pre-mRNA reporters (pmutBP or pJCR51) was induced by an addition of galactose (2% final concentration) to early-log phase cultures and their subsequent incubation in minimal galactose-raffinose medium for 6 h. Cells were lysed by glass beads and vortexing, and total RNA was isolated with the RNeasy Mini Kit (QIAGEN). RNA was reverse transcribed using the QuatiTect Reverse Transcription Kit (QIAGEN), and levels of specific RNA transcript were measured by quantitative real-time PCR using the ABI Prism 7000 system (Applied Biosystems) and ABsolute QPCR ROX Mix (ABgene). Each cDNA sample, as well as controls without reverse transcriptase, was amplified in triplicate with the primer and probe sets described in Table S3. The levels of SSA1 and lacZ RNA were normalized to RPB4 and GAL1 mRNA levels, respectively, which were found to be unchanged under the tested conditions.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35882</offset>
+      <text>Miscellaneous.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35897</offset>
+      <text>Fluorescence in situ hybridization (FISH) using oligo(dT), SSA1 transcript-, tRNA-, and lacZ-specific Cy3-labeled probes was performed as described [33,35,14]. The localization of the 4xGFP-Swt1, 4xGFP-Swt1DeltaPIN, and Nup120-mCherry fusions was analyzed in a Zeiss Axio Imager.Z1 microscope equipped with AxioVision 4.6.3 software. The expression of Swt1 was analyzed by immunoblotting using rabbit polyclonal anti-Swt1 serum generated against the recombinant Swt1 (PickCell Laboratories) and anti-rabbit HRP-conjugate as a secondary antibody (BIO-RAD). The expression of FLAG-tagged Swt1 protein variants was analyzed by anti-FLAG-HRP conjugate (Sigma).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>36551</offset>
+      <text>Supporting Information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>36574</offset>
+      <text>Abbreviations</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36588</offset>
+      <text>GFP</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36592</offset>
+      <text>green fluorescent protein</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36618</offset>
+      <text>mRNP</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36623</offset>
+      <text>messenger ribonucleoprotein particle</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36660</offset>
+      <text>NPC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36664</offset>
+      <text>nuclear pore complex</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36685</offset>
+      <text>RT-PCR</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36692</offset>
+      <text>reverse-transcription polymerase chain reaction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36740</offset>
+      <text>sl</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36743</offset>
+      <text>synthetic lethality</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36763</offset>
+      <text>TREX</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36768</offset>
+      <text>transcription-export</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>36789</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="lpage">773</infon>
+      <infon key="name_0">surname:Kohler;given-names:A</infon>
+      <infon key="name_1">surname:Hurt;given-names:E</infon>
+      <infon key="pub-id_pmid">17786152</infon>
+      <infon key="volume">8</infon>
+      <infon key="source">Nat Rev Mol Cell Biol</infon>
+      <infon key="fpage">761</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>36800</offset>
+      <text>Exporting RNA from the nucleus to the cytoplasm</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Gudipati;given-names:RK</infon>
+      <infon key="name_3">surname:Libri;given-names:D</infon>
+      <infon key="name_0">surname:Rougemaille;given-names:M</infon>
+      <infon key="name_1">surname:Villa;given-names:T</infon>
+      <infon key="pub-id_pmid">18479253</infon>
+      <infon key="volume">100</infon>
+      <infon key="source">Biol Cell</infon>
+      <infon key="fpage">327</infon>
+      <infon key="year">2008</infon>
+      <infon key="lpage">342</infon>
+      <infon key="type">ref</infon>
+      <offset>36848</offset>
+      <text>mRNA journey to the cytoplasm: attire required</text>
+    </passage>
+    <passage>
+      <infon key="lpage">721</infon>
+      <infon key="name_0">surname:Huertas;given-names:P</infon>
+      <infon key="name_1">surname:Aguilera;given-names:A</infon>
+      <infon key="pub-id_pmid">14527416</infon>
+      <infon key="volume">12</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="fpage">711</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>36895</offset>
+      <text>Cotranscriptionally formed DNA:RNA hybrids mediate transcription elongation impairment and transcription-associated recombination</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Gomez-Gonzales;given-names:B</infon>
+      <infon key="name_3">surname:Huertas;given-names:P</infon>
+      <infon key="name_0">surname:Gonzales-Aguilera;given-names:C</infon>
+      <infon key="name_1">surname:Tous;given-names:C</infon>
+      <infon key="name_4">surname:Luna;given-names:R</infon>
+      <infon key="volume">10</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="fpage">4310</infon>
+      <infon key="year">2008</infon>
+      <infon key="lpage">4318</infon>
+      <infon key="type">ref</infon>
+      <offset>37025</offset>
+      <text>The THP1-SAC3-SUS1-CDC31 Complex works in transcription elongation-mRNA export preventing RNA-mediated genome instability</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Olesen;given-names:JR</infon>
+      <infon key="name_3">surname:Ghazy;given-names:MA</infon>
+      <infon key="name_0">surname:Saguez;given-names:C</infon>
+      <infon key="name_1">surname:Schmid;given-names:M</infon>
+      <infon key="name_4">surname:Qu;given-names:X</infon>
+      <infon key="pub-id_pmid">18614048</infon>
+      <infon key="volume">31</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="fpage">91</infon>
+      <infon key="year">2008</infon>
+      <infon key="lpage">103</infon>
+      <infon key="type">ref</infon>
+      <offset>37147</offset>
+      <text>Nuclear mRNA surveillance in THO/sub2 mutants is triggered by inefficient polyadenylation</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Mason;given-names:P</infon>
+      <infon key="name_3">surname:Pfannstiel;given-names:J</infon>
+      <infon key="name_0">surname:Strasser;given-names:K</infon>
+      <infon key="name_1">surname:Masuda;given-names:S</infon>
+      <infon key="name_4">surname:Oppizzi;given-names:M</infon>
+      <infon key="pub-id_pmid">11979277</infon>
+      <infon key="volume">417</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">304</infon>
+      <infon key="year">2002</infon>
+      <infon key="lpage">308</infon>
+      <infon key="type">ref</infon>
+      <offset>37237</offset>
+      <text>TREX is a conserved complex coupling transcription with messenger RNA export</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Racz;given-names:A</infon>
+      <infon key="name_3">surname:Rodriguez-Navarro;given-names:S</infon>
+      <infon key="name_0">surname:Fischer;given-names:T</infon>
+      <infon key="name_1">surname:Strasser;given-names:K</infon>
+      <infon key="name_4">surname:Oppizzi;given-names:M</infon>
+      <infon key="pub-id_pmid">12411502</infon>
+      <infon key="volume">21</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="fpage">5843</infon>
+      <infon key="year">2002</infon>
+      <infon key="lpage">5852</infon>
+      <infon key="type">ref</infon>
+      <offset>37314</offset>
+      <text>The mRNA export machinery requires the novel Sac3p-Thp1p complex to dock at the nucleoplasmic entrance of the nuclear pores</text>
+    </passage>
+    <passage>
+      <infon key="lpage">488</infon>
+      <infon key="name_0">surname:Fasken;given-names:MB</infon>
+      <infon key="name_1">surname:Corbett;given-names:AH</infon>
+      <infon key="pub-id_pmid">15933735</infon>
+      <infon key="volume">12</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="fpage">482</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>37438</offset>
+      <text>Process or perish: quality control in mRNA biogenesis</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Libri;given-names:D</infon>
+      <infon key="lpage">531</infon>
+      <infon key="name_0">surname:Villa;given-names:T</infon>
+      <infon key="name_1">surname:Rougemaille;given-names:M</infon>
+      <infon key="pub-id_pmid">18644474</infon>
+      <infon key="volume">1779</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="fpage">524</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>37492</offset>
+      <text>Nuclear quality control of RNA polymerase II ribonucleoproteins in yeast: tilting the balance to shape the transcriptome</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Olesen;given-names:JR</infon>
+      <infon key="name_3">surname:Thomsen;given-names:R</infon>
+      <infon key="name_0">surname:Rougemaille;given-names:M</infon>
+      <infon key="name_1">surname:Gudipati;given-names:RK</infon>
+      <infon key="name_4">surname:Seraphin;given-names:B</infon>
+      <infon key="pub-id_pmid">17410208</infon>
+      <infon key="volume">26</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="fpage">2317</infon>
+      <infon key="year">2007</infon>
+      <infon key="lpage">2326</infon>
+      <infon key="type">ref</infon>
+      <offset>37613</offset>
+      <text>Dissecting mechanisms of nuclear mRNA surveillance in THO/sub2 complex mutants</text>
+    </passage>
+    <passage>
+      <infon key="lpage">583</infon>
+      <infon key="name_0">surname:Legrain;given-names:P</infon>
+      <infon key="name_1">surname:Rosbash;given-names:M</infon>
+      <infon key="pub-id_pmid">2655924</infon>
+      <infon key="volume">57</infon>
+      <infon key="source">Cell</infon>
+      <infon key="fpage">573</infon>
+      <infon key="year">1989</infon>
+      <infon key="type">ref</infon>
+      <offset>37692</offset>
+      <text>Some cis- and trans-acting mutants for splicing target pre-mRNA to the cytoplasm</text>
+    </passage>
+    <passage>
+      <infon key="lpage">1771</infon>
+      <infon key="name_0">surname:Rain;given-names:JC</infon>
+      <infon key="name_1">surname:Legrain;given-names:P</infon>
+      <infon key="pub-id_pmid">9130720</infon>
+      <infon key="volume">16</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="fpage">1759</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>37773</offset>
+      <text>In vivo commitment to splicing in yeast involves the nucleotide upstream from the branch site conserved sequence and the Mud2 protein</text>
+    </passage>
+    <passage>
+      <infon key="lpage">1886</infon>
+      <infon key="name_0">surname:Rutz;given-names:B</infon>
+      <infon key="name_1">surname:Seraphin;given-names:B</infon>
+      <infon key="pub-id_pmid">10775271</infon>
+      <infon key="volume">19</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="fpage">1873</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>37907</offset>
+      <text>A dual role for BBP/ScSF1 in nuclear pre-mRNA retention and splicing</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Fromont-Racine;given-names:M</infon>
+      <infon key="name_3">surname:Romano;given-names:A</infon>
+      <infon key="name_0">surname:Galy;given-names:V</infon>
+      <infon key="name_1">surname:Gadal;given-names:O</infon>
+      <infon key="name_4">surname:Jacquier;given-names:A</infon>
+      <infon key="name_5">surname:Nehrbass;given-names:U</infon>
+      <infon key="volume">116</infon>
+      <infon key="pub-id_pmid">14718167</infon>
+      <infon key="source">Cell</infon>
+      <infon key="fpage">63</infon>
+      <infon key="year">2004</infon>
+      <infon key="lpage">73</infon>
+      <infon key="type">ref</infon>
+      <offset>37976</offset>
+      <text>Nuclear retention of unspliced mRNAs in yeast is mediated by perinuclear Mlp1</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Camblong;given-names:J</infon>
+      <infon key="name_3">surname:Zenklusen;given-names:D</infon>
+      <infon key="name_0">surname:Vinciguerra;given-names:P</infon>
+      <infon key="name_1">surname:Iglesias;given-names:N</infon>
+      <infon key="name_4">surname:Stutz;given-names:F</infon>
+      <infon key="pub-id_pmid">15692572</infon>
+      <infon key="volume">24</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="fpage">813</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">823</infon>
+      <infon key="type">ref</infon>
+      <offset>38054</offset>
+      <text>Perinuclear Mlp proteins downregulate gene expression in response to a defect in mRNA export</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Loeillet;given-names:S</infon>
+      <infon key="name_3">surname:Nicolas;given-names:A</infon>
+      <infon key="name_0">surname:Palancade;given-names:B</infon>
+      <infon key="name_1">surname:Zuccolo;given-names:M</infon>
+      <infon key="name_4">surname:Doye;given-names:V</infon>
+      <infon key="pub-id_pmid">16162818</infon>
+      <infon key="volume">16</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="fpage">5258</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">5268</infon>
+      <infon key="type">ref</infon>
+      <offset>38147</offset>
+      <text>Pml39, a novel protein of the nuclear periphery required for nuclear retention of improper messenger ribonucleoparticles</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Hochstrasser;given-names:M</infon>
+      <infon key="lpage">822</infon>
+      <infon key="name_0">surname:Lewis;given-names:A</infon>
+      <infon key="name_1">surname:Felberbaum;given-names:R</infon>
+      <infon key="pub-id_pmid">17724121</infon>
+      <infon key="volume">178</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="fpage">813</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>38268</offset>
+      <text>A nuclear envelope protein linking nuclear pore basket assembly, SUMO protease regulation, and mRNA surveillance</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kieser;given-names:A</infon>
+      <infon key="name_3">surname:Strasser;given-names:K</infon>
+      <infon key="name_0">surname:Rother;given-names:S</infon>
+      <infon key="name_1">surname:Clausing;given-names:E</infon>
+      <infon key="pub-id_pmid">17030511</infon>
+      <infon key="volume">281</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="fpage">36518</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">36525</infon>
+      <infon key="type">ref</infon>
+      <offset>38381</offset>
+      <text>Swt1, a novel yeast protein, functions in transcription</text>
+    </passage>
+    <passage>
+      <infon key="lpage">890</infon>
+      <infon key="name_0">surname:Clissold;given-names:PM</infon>
+      <infon key="name_1">surname:Ponting;given-names:CP</infon>
+      <infon key="pub-id_pmid">11137022</infon>
+      <infon key="volume">10</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="fpage">R888</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>38437</offset>
+      <text>PIN domains in nonsense-mediated mRNA decay and RNAi</text>
+    </passage>
+    <passage>
+      <infon key="lpage">27</infon>
+      <infon key="name_0">surname:Anantharaman;given-names:V</infon>
+      <infon key="name_1">surname:Aravind;given-names:L</infon>
+      <infon key="pub-id_pmid">17114934</infon>
+      <infon key="volume">3</infon>
+      <infon key="source">RNA Biol</infon>
+      <infon key="fpage">18</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>38490</offset>
+      <text>The NYN domains: novel predicted RNAses with a PIN domain-like fold</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kuroishi;given-names:C</infon>
+      <infon key="name_3">surname:Tahirov;given-names:TH</infon>
+      <infon key="name_0">surname:Jeyakanthan;given-names:J</infon>
+      <infon key="name_1">surname:Inagaki;given-names:E</infon>
+      <infon key="volume">61</infon>
+      <infon key="lpage">468</infon>
+      <infon key="source">Acta Crystallograph Sect F Struct Biol Cryst Commun</infon>
+      <infon key="fpage">463</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>38558</offset>
+      <text>Structure of PIN-domain protein PH0500 from Pyrococcus horikoshii</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Izaurralde;given-names:E</infon>
+      <infon key="name_3">surname:Conti;given-names:E</infon>
+      <infon key="name_0">surname:Glavan;given-names:F</infon>
+      <infon key="name_1">surname:Behm-Ansmant;given-names:I</infon>
+      <infon key="pub-id_pmid">17053788</infon>
+      <infon key="volume">25</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="fpage">5117</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">5125</infon>
+      <infon key="type">ref</infon>
+      <offset>38624</offset>
+      <text>Structures of the PIN domains of SMG6 and SMG5 reveal a nuclease within the mRNA surveillance complex</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Dlakic;given-names:M</infon>
+      <infon key="lpage">1701</infon>
+      <infon key="name_0">surname:Fatica;given-names:A</infon>
+      <infon key="name_1">surname:Tollervey;given-names:D</infon>
+      <infon key="pub-id_pmid">15388878</infon>
+      <infon key="volume">10</infon>
+      <infon key="source">RNA</infon>
+      <infon key="fpage">1698</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>38726</offset>
+      <text>PIN domain of Nob1p is required for D-site cleavage in 20S pre-rRNA</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Osheim;given-names:YN</infon>
+      <infon key="name_3">surname:Beyer;given-names:AL</infon>
+      <infon key="name_0">surname:Bleichert;given-names:F</infon>
+      <infon key="name_1">surname:Granneman;given-names:S</infon>
+      <infon key="name_4">surname:Baserga;given-names:SJ</infon>
+      <infon key="pub-id_pmid">16769905</infon>
+      <infon key="volume">103</infon>
+      <infon key="source">Proc Natl Acad Sci U S A</infon>
+      <infon key="fpage">9464</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">9469</infon>
+      <infon key="type">ref</infon>
+      <offset>38794</offset>
+      <text>The PINc domain protein Utp24, a putative nuclease, is required for the early cleavage steps in 18S rRNA maturation</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Silver;given-names:PA</infon>
+      <infon key="lpage">1782</infon>
+      <infon key="name_0">surname:Lei;given-names:EP</infon>
+      <infon key="name_1">surname:Krebber;given-names:H</infon>
+      <infon key="pub-id_pmid">11459827</infon>
+      <infon key="volume">15</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="fpage">1771</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>38910</offset>
+      <text>Messenger RNAs are recruited for nuclear export during transcription</text>
+    </passage>
+    <passage>
+      <infon key="lpage">212</infon>
+      <infon key="name_0">surname:Gilbert;given-names:W</infon>
+      <infon key="name_1">surname:Guthrie;given-names:C</infon>
+      <infon key="pub-id_pmid">14759366</infon>
+      <infon key="volume">13</infon>
+      <infon key="source">Mol Cell</infon>
+      <infon key="fpage">201</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>38979</offset>
+      <text>The Glc7p nuclear phosphatase promotes mRNA export by facilitating association of Mex67p with mRNA</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Rout;given-names:MP</infon>
+      <infon key="lpage">55</infon>
+      <infon key="name_0">surname:Strambio-de-Castillia;given-names:C</infon>
+      <infon key="name_1">surname:Blobel;given-names:G</infon>
+      <infon key="pub-id_pmid">10085285</infon>
+      <infon key="volume">144</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="fpage">839</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>39078</offset>
+      <text>Proteins connecting the nuclear pore complex with the nuclear interior</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Rollenhagen;given-names:C</infon>
+      <infon key="name_3">surname:Podtelejnikov;given-names:A</infon>
+      <infon key="name_0">surname:Kosova;given-names:B</infon>
+      <infon key="name_1">surname:Pante;given-names:N</infon>
+      <infon key="name_4">surname:Mann;given-names:M</infon>
+      <infon key="pub-id_pmid">10617624</infon>
+      <infon key="volume">275</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="fpage">343</infon>
+      <infon key="year">2000</infon>
+      <infon key="lpage">350</infon>
+      <infon key="type">ref</infon>
+      <offset>39149</offset>
+      <text>Mlp2p, a component of nuclear pore attached intranuclear filaments, associates with Nic96p</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Fairhead;given-names:C</infon>
+      <infon key="name_3">surname:Talla;given-names:E</infon>
+      <infon key="name_0">surname:Boyer;given-names:J</infon>
+      <infon key="name_1">surname:Badis;given-names:G</infon>
+      <infon key="name_4">surname:Hantraye;given-names:F</infon>
+      <infon key="pub-id_pmid">15345056</infon>
+      <infon key="volume">5</infon>
+      <infon key="source">Genome Biol</infon>
+      <infon key="fpage">R72</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>39240</offset>
+      <text>Large-scale exploration of growth inhibition caused by overexpression of genomic fragments in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Hurt;given-names:EC</infon>
+      <infon key="lpage">6075</infon>
+      <infon key="name_0">surname:Doye;given-names:V</infon>
+      <infon key="name_1">surname:Wepf;given-names:R</infon>
+      <infon key="pub-id_pmid">7813444</infon>
+      <infon key="volume">13</infon>
+      <infon key="source">EMBO J</infon>
+      <infon key="fpage">6062</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>39359</offset>
+      <text>A novel nuclear pore protein Nup133p with distinct roles in poly(A)+ RNA transport and nuclear pore distribution</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kisseleva-Romanova;given-names:E</infon>
+      <infon key="name_3">surname:Gudipati;given-names:RK</infon>
+      <infon key="name_0">surname:Rougemaille;given-names:M</infon>
+      <infon key="name_1">surname:Dieppois;given-names:G</infon>
+      <infon key="name_4">surname:Lemoine;given-names:S</infon>
+      <infon key="pub-id_pmid">18957205</infon>
+      <infon key="volume">135</infon>
+      <infon key="source">Cell</infon>
+      <infon key="fpage">308</infon>
+      <infon key="year">2008</infon>
+      <infon key="lpage">321</infon>
+      <infon key="type">ref</infon>
+      <offset>39472</offset>
+      <text>THO/Sub2p functions to coordinates 3'-end processing with gene-nuclear pore association</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Horton;given-names:RM</infon>
+      <infon key="name_3">surname:Pullen;given-names:JK</infon>
+      <infon key="name_0">surname:Ho;given-names:SN</infon>
+      <infon key="name_1">surname:Hunt;given-names:HD</infon>
+      <infon key="name_4">surname:Pease;given-names:LR</infon>
+      <infon key="pub-id_pmid">2744487</infon>
+      <infon key="volume">77</infon>
+      <infon key="source">Gene</infon>
+      <infon key="fpage">51</infon>
+      <infon key="year">1989</infon>
+      <infon key="lpage">59</infon>
+      <infon key="type">ref</infon>
+      <offset>39562</offset>
+      <text>Site-directed mutagenesis by overlap extension using the polymerase chain reaction</text>
+    </passage>
+    <passage>
+      <infon key="lpage">652</infon>
+      <infon key="name_0">surname:Strasser;given-names:K</infon>
+      <infon key="name_1">surname:Hurt;given-names:E</infon>
+      <infon key="pub-id_pmid">11675790</infon>
+      <infon key="volume">413</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">648</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>39645</offset>
+      <text>Splicing factor Sub2p is required for nuclear mRNA export through its interaction with Yra1p</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Tollervey;given-names:D</infon>
+      <infon key="lpage">513</infon>
+      <infon key="name_0">surname:Mitchell;given-names:P</infon>
+      <infon key="name_1">surname:Petfalski;given-names:E</infon>
+      <infon key="pub-id_pmid">8600032</infon>
+      <infon key="volume">10</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="fpage">502</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>39738</offset>
+      <text>The 3' end of yeast 5.8S rRNA is generated by an exonuclease processing mechanism</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Stutz;given-names:F</infon>
+      <infon key="name_3">surname:Rosbash;given-names:M</infon>
+      <infon key="name_0">surname:Long;given-names:RM</infon>
+      <infon key="name_1">surname:Elliott;given-names:DJ</infon>
+      <infon key="name_4">surname:Singer;given-names:RH</infon>
+      <infon key="pub-id_pmid">8595562</infon>
+      <infon key="volume">1</infon>
+      <infon key="source">RNA</infon>
+      <infon key="fpage">1071</infon>
+      <infon key="year">1995</infon>
+      <infon key="lpage">1078</infon>
+      <infon key="type">ref</infon>
+      <offset>39820</offset>
+      <text>Spatial consequences of defective processing of specific yeast mRNAs revealed by fluorescent in situ hybridization</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>39935</offset>
+      <text>$ Current address: EMBL, Heidelberg, Germany</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>39981</offset>
+      <text>Author contributions. MS, CS, DT, and EH conceived and designed the experiments. MS, CS, AR, and JW performed the experiments. MS, CS, JW, DT, and EH analyzed the data. MS, CS, DT, and EH wrote the paper.</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>40186</offset>
+      <text>Funding. MS was recipient of an Alexander von Humboldt Research Fellowship, CS was supported by a long-term fellowship of the Human Frontiers Science Program, and EH is recipient of grants from the Deutsche Forschungsgemeinschaft (SFB 638/B3) and Fonds der Chemischen Industrie.</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>40465</offset>
+      <text>Competing interests. The authors have declared that no competing interests exist.</text>
+    </passage>
+  </document>
+</collection>

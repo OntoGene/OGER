@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010246</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>10</Month>
+<Day>01</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0305-1048</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>14</Volume>
+<Issue>8</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Apr</Month>
+<Day>25</Day>
+</PubDate>
+</JournalIssue>
+<Title>Nucleic acids research</Title>
+<ISOAbbreviation>Nucleic Acids Res.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Simplified preparation of unidirectional deletion clones.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3605</MedlinePgn>
+</Pagination>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Hoheisel</LastName>
+<ForeName>J</ForeName>
+<Initials>J</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Pohl</LastName>
+<ForeName>F M</ForeName>
+<Initials>FM</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>ENGLAND</Country>
+<MedlineTA>Nucleic Acids Res</MedlineTA>
+<NlmUniqueID>0411011</NlmUniqueID>
+<ISSNLinking>0305-1048</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>EC 3.1.-</RegistryNumber>
+<NameOfSubstance UI="D004720">Endonucleases</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.30.1</RegistryNumber>
+<NameOfSubstance UI="D015719">Single-Strand Specific DNA and RNA Endonucleases</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>Gene. 1984 Jun;28(3):351-9</RefSource>
+<PMID Version="1">6235151</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Gene. 1985;33(1):103-19</RefSource>
+<PMID Version="1">2985470</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D002872">Chromosome Deletion</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D003001">Cloning, Molecular</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004720">Endonucleases</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005818">Genetic Engineering</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000379">methods</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D015719">Single-Strand Specific DNA and RNA Endonucleases</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC339798</OtherID>
+</MedlineCitation>

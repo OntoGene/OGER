@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010222</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>02</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>02</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2004</Year>
+<Month>11</Month>
+<Day>17</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0301-0449</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>16</Volume>
+<Issue>3</Issue>
+<PubDate>
+<Year>1986</Year>
+</PubDate>
+</JournalIssue>
+<Title>Pediatric radiology</Title>
+<ISOAbbreviation>Pediatr Radiol</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Hypertrophic osteoarthropathy in a young child with cytomegalovirus pneumonia and the bare lymphocyte syndrome.</ArticleTitle>
+<Pagination>
+<MedlinePgn>257-9</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>A case of hypertrophic osteoarthropathy is reported in a 3-year-old Turkish girl. She had combined immunodeficiency, later shown to be the bare lymphocyte syndrome, and chronic pneumonia. Lung biopsy showed cytomegalovirus. The child developed painful elbow and knee joints and hypertrophic osteoarthropathy was demonstrated radiologically.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Taets van Amerongen</LastName>
+<ForeName>A H</ForeName>
+<Initials>AH</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Golding</LastName>
+<ForeName>R P</ForeName>
+<Initials>RP</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Veerman</LastName>
+<ForeName>A J</ForeName>
+<Initials>AJ</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D002363">Case Reports</PublicationType>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>GERMANY, WEST</Country>
+<MedlineTA>Pediatr Radiol</MedlineTA>
+<NlmUniqueID>0365332</NlmUniqueID>
+<ISSNLinking>0301-0449</ISSNLinking>
+</MedlineJournalInfo>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001402">B-Lymphocytes</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002675">Child, Preschool</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003586">Cytomegalovirus Infections</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000150">complications</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007153">Immunologic Deficiency Syndromes</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000150">complications</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008285">Major Histocompatibility Complex</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010005">Osteoarthropathy, Secondary Hypertrophic</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000209">etiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011024">Pneumonia, Viral</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000150">complications</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013601">T-Lymphocytes</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

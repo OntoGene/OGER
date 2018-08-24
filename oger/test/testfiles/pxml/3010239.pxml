@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010239</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>10</Month>
+<Day>01</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0305-1048</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>14</Volume>
+<Issue>8</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Apr</Month>
+<Day>25</Day>
+</PubDate>
+</JournalIssue>
+<Title>Nucleic acids research</Title>
+<ISOAbbreviation>Nucleic Acids Res.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>A 'hot-spot' for Ty transposition on the left arm of yeast chromosome III.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3475-85</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>The small ring derivative of Saccharomyces cerevisiae chromosome III, which was formed by a cross-over between HML on the left arm and HMR on the right arm, contains three Ty elements. The class II element Ty 1-17 lies immediately centromere-distal to LEU2 on the left arm while two class I elements are tandemly arranged distal to PGK on the right arm. We have sequenced the regions of chromosome III surrounding Ty 1-17 and have defined a region where a number of transposition events have occurred. This region is flanked by the 5' ends of two tRNA genes, tRNA3Glu on the centromere distal side and tRNA3Leu immediately in front of LEU2. Close to the tRNA3Glu gene there is a region containing degenerate delta sequences organised in opposite orientations. Immediately distal to Ty 1-17 there are two complete solo delta elements, one inserted into the other. The sequence indicates that these two delta sequences were inserted into chromosome II by separate transposition events. A model is presented to explain how this structure arose and the role of solo delta elements in transposon propagation and maintenance is discussed.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Warmington</LastName>
+<ForeName>J R</ForeName>
+<Initials>JR</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Anwar</LastName>
+<ForeName>R</ForeName>
+<Initials>R</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Newlon</LastName>
+<ForeName>C S</ForeName>
+<Initials>CS</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Waring</LastName>
+<ForeName>R B</ForeName>
+<Initials>RB</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Davies</LastName>
+<ForeName>R W</ForeName>
+<Initials>RW</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Indge</LastName>
+<ForeName>K J</ForeName>
+<Initials>KJ</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Oliver</LastName>
+<ForeName>S G</ForeName>
+<Initials>SG</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<DataBankList CompleteYN="Y">
+<DataBank>
+<DataBankName>GENBANK</DataBankName>
+<AccessionNumberList>
+<AccessionNumber>M19542</AccessionNumber>
+<AccessionNumber>X02991</AccessionNumber>
+<AccessionNumber>X03840</AccessionNumber>
+</AccessionNumberList>
+</DataBank>
+</DataBankList>
+<GrantList CompleteYN="Y">
+<Grant>
+<GrantID>GM21510</GrantID>
+<Acronym>GM</Acronym>
+<Agency>NIGMS NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+</GrantList>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+<PublicationType UI="D013487">Research Support, U.S. Gov't, P.H.S.</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>ENGLAND</Country>
+<MedlineTA>Nucleic Acids Res</MedlineTA>
+<NlmUniqueID>0411011</NlmUniqueID>
+<ISSNLinking>0305-1048</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D004251">DNA Transposable Elements</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.21.-</RegistryNumber>
+<NameOfSubstance UI="D004262">DNA Restriction Enzymes</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1977 Dec;74(12):5463-7</RefSource>
+<PMID Version="1">271968</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1981 Feb 5;145(4):619-32</RefSource>
+<PMID Version="1">7021854</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1979 Oct;18(2):309-19</RefSource>
+<PMID Version="1">387260</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1980 Jul 24;286(5771):352-6</RefSource>
+<PMID Version="1">6250062</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1980 Jul 24;286(5771):414-8</RefSource>
+<PMID Version="1">6250065</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1982 Jan 11;10(1):141-56</RefSource>
+<PMID Version="1">7063399</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1982 Jul;79(13):4138-42</RefSource>
+<PMID Version="1">6287468</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Gene. 1982 Jun;18(3):277-88</RefSource>
+<PMID Version="1">6290331</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1982 Dec;79(24):7674-8</RefSource>
+<PMID Version="1">6760201</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1982 Dec;31(2 Pt 1):319-25</RefSource>
+<PMID Version="1">6297759</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Anal Biochem. 1983 Feb 15;129(1):216-23</RefSource>
+<PMID Version="1">6305233</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1983 May;3(5):803-10</RefSource>
+<PMID Version="1">6346056</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>EMBO J. 1982;1(10):1245-50</RefSource>
+<PMID Version="1">6327259</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1984 Aug 25;259(16):10518-25</RefSource>
+<PMID Version="1">6088502</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1984 Oct;4(10):2207-13</RefSource>
+<PMID Version="1">6095047</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1985 Jun 11;13(11):4097-112</RefSource>
+<PMID Version="1">2989787</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1985 Sep 25;13(18):6679-93</RefSource>
+<PMID Version="1">2997719</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1980 Aug;21(1):227-37</RefSource>
+<PMID Version="1">6250712</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1981 Jan 22;289(5795):244-50</RefSource>
+<PMID Version="1">6256656</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1981 Jun 11;291(5815):464-9</RefSource>
+<PMID Version="1">6262655</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1979 Apr;16(4):739-51</RefSource>
+<PMID Version="1">378399</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001483">Base Sequence</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002875">Chromosomes</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000502">physiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004262">DNA Restriction Enzymes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D004251">DNA Transposable Elements</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005800">Genes, Fungal</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009693">Nucleic Acid Hybridization</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010957">Plasmids</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012441">Saccharomyces cerevisiae</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC339786</OtherID>
+</MedlineCitation>

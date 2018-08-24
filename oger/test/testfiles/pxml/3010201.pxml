@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010201</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>16</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>16</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2006</Year>
+<Month>11</Month>
+<Day>15</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0028-8446</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>99</Volume>
+<Issue>798</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Mar</Month>
+<Day>26</Day>
+</PubDate>
+</JournalIssue>
+<Title>The New Zealand medical journal</Title>
+<ISOAbbreviation>N. Z. Med. J.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>A comparison of the ages of patients with cervical smears showing human papilloma virus, dysplasia and carcinoma in situ changes.</ArticleTitle>
+<Pagination>
+<MedlinePgn>205-6</MedlinePgn>
+</Pagination>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Chang</LastName>
+<ForeName>A R</ForeName>
+<Initials>AR</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D003160">Comparative Study</PublicationType>
+<PublicationType UI="D016422">Letter</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>NEW ZEALAND</Country>
+<MedlineTA>N Z Med J</MedlineTA>
+<NlmUniqueID>0401067</NlmUniqueID>
+<ISSNLinking>0028-8446</ISSNLinking>
+</MedlineJournalInfo>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000367">Age Factors</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002278">Carcinoma in Situ</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000175">diagnosis</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D027383">Papillomaviridae</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000302">isolation &amp; purification</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014412">Tumor Virus Infections</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000175">diagnosis</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002578">Uterine Cervical Dysplasia</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000175">diagnosis</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D014626">Vaginal Smears</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

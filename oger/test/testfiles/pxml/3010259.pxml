@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010259</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>05</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>05</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2006</Year>
+<Month>11</Month>
+<Day>15</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0196-9781</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>6</Volume>
+<Issue>6</Issue>
+<PubDate>
+<MedlineDate>1985 Nov-Dec</MedlineDate>
+</PubDate>
+</JournalIssue>
+<Title>Peptides</Title>
+<ISOAbbreviation>Peptides</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Comparison of structural requirements of alpha-MSH and ACTH for inducing excessive grooming and pigment dispersion.</ArticleTitle>
+<Pagination>
+<MedlinePgn>1185-9</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>alpha-MSH and ACTH-like peptides are known to play an important role in the adaptation of many vertebrates to a new environment. These peptides induce pigment dispersion in amphibian melanophores through a receptor-mediated mechanism. In this study we compared the structural requirements of these peptides for melanotropic activity on Xenopus laevis melanophores with those for inducing excessive grooming in the rat. With the exception of ACTH1-24 there is a close resemblance in structure-activity relationships of the fragments and analogs tested in the two bioassays. [Nle4,-D-Phe7]-alpha-MSH is extremely active in both assays. Weak agonists such as [Leu9]-alpha-MSH did not possess antagonistic properties either in the melanophore assay or in the excessive grooming test. The data suggest that the mechanism of action of alpha-MSH-like peptides in rat brain is receptor-mediated like their action on melanophores.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Spruijt</LastName>
+<ForeName>B M</ForeName>
+<Initials>BM</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>De Graan</LastName>
+<ForeName>P N</ForeName>
+<Initials>PN</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Eberle</LastName>
+<ForeName>A N</ForeName>
+<Initials>AN</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Gispen</LastName>
+<ForeName>W H</ForeName>
+<Initials>WH</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D003160">Comparative Study</PublicationType>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Peptides</MedlineTA>
+<NlmUniqueID>8008690</NlmUniqueID>
+<ISSNLinking>0196-9781</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D010860">Pigments, Biological</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9002-60-2</RegistryNumber>
+<NameOfSubstance UI="D000324">Adrenocorticotropic Hormone</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9002-79-3</RegistryNumber>
+<NameOfSubstance UI="D009074">Melanocyte-Stimulating Hormones</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000324">Adrenocorticotropic Hormone</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006120">Grooming</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000187">drug effects</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007700">Kinetics</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009074">Melanocyte-Stimulating Hormones</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000031">analogs &amp; derivatives</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008547">Melanophores</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000187">drug effects</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010860">Pigments, Biological</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051381">Rats</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011919">Rats, Inbred Strains</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013329">Structure-Activity Relationship</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014981">Xenopus</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

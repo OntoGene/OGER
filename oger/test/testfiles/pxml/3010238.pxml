@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010238</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>11</Month>
+<Day>21</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0305-1048</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>14</Volume>
+<Issue>8</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Apr</Month>
+<Day>25</Day>
+</PubDate>
+</JournalIssue>
+<Title>Nucleic acids research</Title>
+<ISOAbbreviation>Nucleic Acids Res.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Role of thymidine residues in DNA recognition by the EcoRI and EcoRV restriction endonucleases.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3463-74</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>We have synthesized a series of oligonucleotides containing the EcoRI (GAATTC) or EcoRV (GATATC) recognition site within which or adjacent to which thymidine was substituted by uridine or derivatives of uridine. The effects of these substitutions on the rate of the EcoRI and EcoRV catalyzed cleavage reaction were investigated. Our results show that most of the substitutions within the site are quite well tolerated by EcoRI, not, however, by EcoRV. We conclude that the thymin residues most likely are not directly involved in the recognition process of the EcoRI reaction. In contrast, they are major points of contact, between substrate and enzyme in the EcoRV reaction. The effects of substitutions in the position adjacent to the recognition site is also markedly different for EcoRI and EcoRV. Here, EcoRI seems to be considerably more selective than EcoRV.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Fliess</LastName>
+<ForeName>A</ForeName>
+<Initials>A</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Wolfes</LastName>
+<ForeName>H</ForeName>
+<Initials>H</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Rosenthal</LastName>
+<ForeName>A</ForeName>
+<Initials>A</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Schwellnus</LastName>
+<ForeName>K</ForeName>
+<Initials>K</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Blöcker</LastName>
+<ForeName>H</ForeName>
+<Initials>H</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Frank</LastName>
+<ForeName>R</ForeName>
+<Initials>R</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Pingoud</LastName>
+<ForeName>A</ForeName>
+<Initials>A</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>ENGLAND</Country>
+<MedlineTA>Nucleic Acids Res</MedlineTA>
+<NlmUniqueID>0411011</NlmUniqueID>
+<ISSNLinking>0305-1048</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D009838">Oligodeoxyribonucleotides</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9007-49-2</RegistryNumber>
+<NameOfSubstance UI="D004247">DNA</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.21.-</RegistryNumber>
+<NameOfSubstance UI="D004262">DNA Restriction Enzymes</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.21.-</RegistryNumber>
+<NameOfSubstance UI="D015246">Deoxyribonuclease EcoRI</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.21.4</RegistryNumber>
+<NameOfSubstance UI="D015252">Deoxyribonucleases, Type II Site-Specific</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.21.4</RegistryNumber>
+<NameOfSubstance UI="C027440">GATATC-specific type II deoxyribonucleases</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>VC2W18DGKR</RegistryNumber>
+<NameOfSubstance UI="D013936">Thymidine</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1975 Mar 25;250(6):2395-7</RefSource>
+<PMID Version="1">1090619</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1985 Dec 20;13(24):8983-98</RefSource>
+<PMID Version="1">3001656</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1977 May 25;252(10):3185-93</RefSource>
+<PMID Version="1">863878</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1977 Oct 25;252(20):7273-8</RefSource>
+<PMID Version="1">332689</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1978 Dec 25;253(24):9075-81</RefSource>
+<PMID Version="1">721831</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1979 Apr 10;254(7):2551-60</RefSource>
+<PMID Version="1">372183</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Biochem. 1980 Feb;104(1):101-7</RefSource>
+<PMID Version="1">6245864</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1982 Feb 11;10(3):993-1007</RefSource>
+<PMID Version="1">6278444</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1982 Aug 11;10(15):4671-8</RefSource>
+<PMID Version="1">7133994</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Apr 25;11(8):2495-510</RefSource>
+<PMID Version="1">6304654</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Jun 25;11(12):4109-26</RefSource>
+<PMID Version="1">6306575</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Jul 11;11(13):4365-77</RefSource>
+<PMID Version="1">6306587</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Biochem. 1984 Mar 15;139(3):447-50</RefSource>
+<PMID Version="1">6321178</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Biochem. 1984 Apr 2;140(1):83-92</RefSource>
+<PMID Version="1">6323183</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1985 Feb 25;260(4):1987-90</RefSource>
+<PMID Version="1">2982799</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1985 Feb 25;13(4):1173-84</RefSource>
+<PMID Version="1">4000936</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1985 May 10;13(9):3343-55</RefSource>
+<PMID Version="1">4000973</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Biochem. 1985 Jul 1;150(1):105-10</RefSource>
+<PMID Version="1">2990922</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochim Biophys Acta. 1976 Jul 16;435(4):405-16</RefSource>
+<PMID Version="1">8099</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001483">Base Sequence</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D004247">DNA</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004262">DNA Restriction Enzymes</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D015246">Deoxyribonuclease EcoRI</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D015252">Deoxyribonucleases, Type II Site-Specific</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004926">Escherichia coli</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000201">enzymology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007700">Kinetics</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009838">Oligodeoxyribonucleotides</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013379">Substrate Specificity</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D013936">Thymidine</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC339785</OtherID>
+</MedlineCitation>

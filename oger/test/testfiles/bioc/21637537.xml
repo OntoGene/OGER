@@ -1,0 +1,880 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>BioCBioGRID.key</key>
+  <document>
+    <id>21637537</id>
+    <infon key="top">21</infon>
+    <infon key="catagory">marked</infon>
+    <passage>
+      <infon key="name_2">surname:Vargas;given-names:Diana</infon>
+      <infon key="license">License information: This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="name_0">surname:Lizcano;given-names:Fernando</infon>
+      <infon key="name_1">surname:Romero;given-names:Carolina</infon>
+      <infon key="kwd">PPARgamma histones demethylation JMJD2C deacetylation adipocyte Trichostatin A</infon>
+      <infon key="article-id_publisher-id">gmb-34-1-19</infon>
+      <infon key="type">front</infon>
+      <infon key="article-id_doi">10.1590/S1415-47572010005000105</infon>
+      <infon key="article-id_pmid">21637537</infon>
+      <infon key="lpage">24</infon>
+      <infon key="article-id_pmc">3085367</infon>
+      <infon key="fpage">19</infon>
+      <infon key="year">2011</infon>
+      <infon key="issue">1</infon>
+      <infon key="volume">34</infon>
+      <offset>0</offset>
+      <text>Regulation of adipogenesis by nuclear receptor PPARgamma is modulated by the histone demethylase JMJD2C</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>101</offset>
+      <text>A potential strategy to combat obesity and its associated complications involves modifying gene expression in adipose cells to reduce lipid accumulation. The nuclear receptor Peroxisome Proliferator-activated receptor gamma (PPARgamma) is the master regulator of adipose cell differentiation and its functional activation is currently used as a therapeutic approach for Diabetes Mellitus type 2. However, total activation of PPARgamma induces undesirable secondary effects that might be set with a partial activation. A group of proteins that produce histone demethylation has been shown to modify the transcriptional activity of nuclear receptors. Here we describe the repressive action of the jumonji domain containing 2C/lysine demethylase 4 C (JMJD2C/KDM4C) on PPARgamma transcriptional activation. JMJD2C significantly reduced the rosiglitazone stimulated PPARgamma activation. This effect was mainly observed in experiments performed using the Tudor domains that may interact with histone deacetylase class 1 (HDAC) and this interaction probably reduces the mediated activation of PPARgamma. Trichostatin A, a HDAC inhibitor, reduces the repressive effect of JMJD2C. When JMJD2C was over-expressed in 3T3-L1 cells, a reduction of differentiation was observed with the Tudor domain. In summary, we herein describe JMJD2C-mediated reduction of PPARgamma transcriptional activation as well as preadipocyte differentiation. This novel action of JMJD2C might have an important role in new therapeutic approaches to treat obesity and its complications.</text>
+      <annotation id="PPIm_331">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="984" length="214"/>
+        <text>This effect was mainly observed in experiments performed using the Tudor domains that may interact with histone deacetylase class 1 (HDAC) and this interaction probably reduces the mediated activation of PPARgamma.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1639</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1652</offset>
+      <text>Obesity is a public health problem in many countries because it increases the prevalence of cardiovascular diseases and other metabolic disorders. Secretions from adipocyte cells include a variety of proteins that affect other organs and can cause complications (Kim et al., 2007). Transcriptional regulation of some adipocyte genes has been proposed as a therapeutic option in order to reduce complications in the obese patient. PPARgamma is a ligand-activated transcription factor that belongs to the nuclear hormone receptor superfamily (Berger et al., 2005).It induces adipose differentiation, modulates the expression of many adipocyte genes and increases insulin sensitivity (Leherke and Lazar, 2005). PPARgamma may bind, as a heterodimer with retinoic X receptors (RXRs), to the promoters of different genes and regulate glucose and lipid metabolisms (Desvergne and Wahli, 1999). However, some total agonists of PPARgamma such as Rosiglitazone or Pioglitazone may induce secondary effects such as weight gain, cardiac alterations and liquid retention in diabetic patients (Semple et al., 2006; Nissen and Wolski., 2007). To avoid these complications, new molecules that can selectively modulate PPARgamma transcriptional activity as partial agonists or partial antagonists are under evaluation (Gelman et al., 2007).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2964</offset>
+      <text>Recently, a new family of histone demethylase proteins JMJD2/KDM4 (Nottke et al., 2009), have been shown to modulate the transcriptional activity of some nuclear receptors (Tan et al., 2008; Wissmann et al., 2007). The jmjd2-a, -b and -c genes encode proteins containing a JmjC domain, a JmjN domain, a plant homeodomain (PHD) and a Tudor domain. The JmjC domain is a putative enzymatic domain that has been implicated in the regulation of chromatin reorganization (Chen et al., 2006). PHD finger motifs are found in nuclear proteins that participate in chromatin-mediated transcriptional regulation and they are present in a number of oncogenes (Yang et al., 2001). The double Tudor domain has an interdigitated structure, and an unusual fold is required for it to bind methylated histone tails (Huang et al., 2006). Both the JmjN and JmjC domains are required for demethylase activity, while the PHD and Tudor domains are required for interactions with other proteins and bipartite nuclear and cytoplasmic localization (Whetstine et al., 2006).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4011</offset>
+      <text>We have shown that JMJD2A associates with members of the class I HDAC's transcriptional repressor proteins and that amino acids 661-1064 of JMJD2A, which contains the PHD and Tudor domains, was the minimum region necessary to associate direct repression, possibly because of its ability to recruit both pRb and HDACs proteins and repress the expression of some cell cycle genes (Gray et al., 2005).</text>
+      <annotation id="PPIm_332">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="4011" length="398"/>
+        <text>We have shown that JMJD2A associates with members of the class I HDAC's transcriptional repressor proteins and that amino acids 661-1064 of JMJD2A, which contains the PHD and Tudor domains, was the minimum region necessary to associate direct repression, possibly because of its ability to recruit both pRb and HDACs proteins and repress the expression of some cell cycle genes (Gray et al., 2005).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4414</offset>
+      <text>However, the influence of these proteins on transcriptional activity is variable. Recently, it was shown that JMJD2A, JMJD2C and JMJD2D may activate androgen receptors (AR), glucocorticoid receptors (GR) and progesterone receptors (PR) in the presence of ligands, but these effects were probably due to histone 3 lysine 9 trimethylate (H3K9me3) demethylation mediated by the JmjC domain (Wissmann et al., 2007; Shin and Janknecht, 2007). However, there is no clear evidence concerning the influence of JMJD2 proteins on nuclear receptors that heterodimerize with RXR, these proteins have been shown to be clinically relevant for endocrine disorders, cancer, metabolic syndromes and type 2 diabetes (Shulman and Mangelsdorf, 2005). In the present work, we show that JMJD2C may reduce PPARgamma ligand transcriptional activity for PPARgamma response element (PPRE) genes and that this activity is mainly mediated by the Tudor domain probably through the binding of HDAC class I repressors. JMJD2C may also reduce pre-adipocyte 3T3L-1 cell differentiation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5465</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>5487</offset>
+      <text>Plasmids and Vectors</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5508</offset>
+      <text>Plasmids containing the full-length JMJD2C cDNA, as well as each individual domain, were constructed. The full-length JMJD2C cDNA (KIAA0780) was obtained from the Kazusa Institute, Japan. Primers were selected using the software Amplify 3X. The sequences were compared with other sequences from GenBank, using the BLAST program and primers with homology to different sequences were redesigned. All primers were purchased from Invitrogen: JMJD2C-fwd: 5'-TAGCGGCCGCATG GAGGTGG-3', JMJD2C-rvs: GCTCTAGATAGGTTCC ACTAAG-3', JmjC- fwd:5'-CACCATGACTG TGAAG GAGTTC-3', JmjC-rvs:5'-CCTGCAAGTGCACAATTT GGC-3', Tudor-fwd: 5'CACCATGGCTGTGACATC GCA-3', Tudor-rvs:5'-ATAGGTTCCACTAAGGAAAA TG-3'. Each domain was amplified by protein chain reaction (PCR), purified in a 2% agarose gel and cloned into pcDNA3.1 vector using a Directional TOPO Expression kit (Invitrogen, USA). The PPRE and PPARgamma expression plasmids were a gift form Dr. Bruce Spiegelman (Danan Farber Institute) and Peter Tontonoz (UCLA). PPRE-LUC is a -5.4 kb to -4.9 adipocyte P2 gene (aP2) enhancer (518-bp DNA fragment) binding to luciferase.</text>
+      <annotation id="PPIm_333">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="6501" length="107"/>
+        <text>PPRE-LUC is a -5.4 kb to -4.9 adipocyte P2 gene (aP2) enhancer (518-bp DNA fragment) binding to luciferase.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6632</offset>
+      <text>Transient transfections and luciferase assays</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6678</offset>
+      <text>Assays were performed in the U2OS and 293 cell lines obtained from American Tissue Culture Collection (ATCC). These were grown in Dulbecco's modified Eagle's medium (DMEM) with 10% of fetal bovine serum (FBS) and 100 U/mL penicillin/100 mug/mL streptomycin in a 5% CO2 atmosphere. When cells were 85% confluent, they were transiently transfected using Lipofectamine 2000 (Invitrogen, USA). The cells were co-transfected with either reporter plasmids (0.85 mug/well) containing the PPRE-LUC and pSVSport-PPARgamma (0.2 mug/well), or reporter plasmids 5x-UAS-LUC (0.85 ug/well) and Gal4-PPARgamma (0.2 mug/well), Cells were also transfected with a plasmid encoding JMJD2C, JMJD2C-JmjC or JMJD2C-Tudor. Rosiglitazone 1 muM (GlaxoSmithKline, UK) was used as the ligand, and assays were also performed with a histone deacetylase (HDAC) inhibitor, Trichostatin A 100 nM (Sigma, USA). Luciferase assays were performed using a Luminometer Lumat LB 9507 (Berthold Technologies, Germany). Values were normalized to beta-galactosidase activity and the data are shown as the mean +- S.E. from a minimum of three independent experiments, with each sample being run in triplicate.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7841</offset>
+      <text>RNA interference</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7858</offset>
+      <text>3T3-L1 cell lines were obtained from American Tissue Culture Collection (ATCC) and transfected with double-stranded oligonucleotides targeting JMJD2C (Invitrogen, USA) in order to select the oligos and the concentration that most efficiently silenced JMJD2C expression. Three sets of oligos were assayed, and we used the siRNA AUU UGU UGA ACU CCC GGA ACU CCU C at 100 nM concentration for experiments reported here. 3T3-L1 cells were induced to differentiate and were transfected after the fourth day with this duplex. RT-PCR was used to confirm the silencing of JMJD2C.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>8429</offset>
+      <text>Adipocyte differentiation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8455</offset>
+      <text>3T3-L1 preadipocytes were grown in DMEM medium containing 10% FBS. Cells were transiently transfected with a plasmid expressing JMJD2C, JmjC or Tudor using Lipofectamine 2000 (Invitrogen, USA). Two days after the cells reached 100% confluence, they were incubated in DMEM containing a differentiation cocktail (1 muM dexamethasone, 0.5 mM 3-isobutyl-1-methyl-xanthine (IBMX) and 1 muM Rosiglitazone), and 48 h later, the cells were treated with 1 muM Rosiglitazone. After 8 days of differentiation, cells were fixed with formaldehyde and stained with Oil Red O, which binds to triacylglycerol (TAG) in fat droplets, a hallmark of adipocyte formation, for 2 h. Cells were then washed with ddH2O and staining was analyzed in a biophotometer (Eppendorf AG, Germany) at 520 nm.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9229</offset>
+      <text>Western blot</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9242</offset>
+      <text>Cultured 3T3L-1 cells were lysed in RIPA buffer (1x PBS, 1% Nonidet P-40, 0.1% SDS) and protease inhibitor complex (Roche, Germany). After centrifugation, 10 mug of total protein from the supernatant was mixed with an equal volume of sample buffer and denatured at 95  C for 4 min. Electrophoresis was done in an 8% SDS-polyacrylamide gel, followed by transfer to a nitrocellulose filter by tank blotting with transfer buffer pH 8.3 (39 mM glycine, 48 mM Tris base, 0.037% SDS, 20% methanol. After transfer, the membrane was incubated with 5% non-fat dried milk, in 0.1% (v/v). Tween 20 in PBS (PBS-T) for 1 h at room temperature to block the unspecific binding sites. After washing, the membrane was incubated with a rabbit anti-JMJD2C (SH-18) antibody (1:500 dilution; Abcam ab27532, USA). Following four washes with PBS-T and incubation with HRP-conjugated anti-rabbit IgG (1:2000 dilution; Amersham, UK) for 1 h, the membrane was developed using ECL solution (Amersham, UK). The reaction was visualized with autoradiography film according to the manufacturer's instructions (Hyperfilm ECL, Amersham, UK).</text>
+      <annotation id="PPIe_190">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="10034" length="186"/>
+        <text>Following four washes with PBS-T and incubation with HRP-conjugated anti-rabbit IgG (1:2000 dilution; Amersham, UK) for 1 h, the membrane was developed using ECL solution (Amersham, UK).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>10354</offset>
+      <text>Immunoprecipitation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10374</offset>
+      <text>At 36 h post transfection, U2Os cells were washed with PBS and harvested in lysis buffer containing protease inhibitors. Proteins were immunoprecipitated from the supernatant by overnight incubation with an anti-HDAC1 or anti-HDAC3 antibody (Affinity Bioreagents, USA) at 4  C. The immunoprecipitated proteins were precipitated using protein A-agarose and analyzed using 8% SDS-PAGE. Additionally, 3T3-L1 preadipocytes were differentiated as described previously and the cells were washed with PBS and harvested on days 0, 4 and 8 in lysis buffer containing protease inhibitors. Whole-cell lysates were incubated with a PPARgamma-specific antibody for 2 h at 4  C, and the proteins recovered by using protein A-sepharose (Invitrogen, USA) for 2 h at 4  C. The recovered proteins were washed three times with 1% Triton X-100 in PBS and analyzed in western blots with a JMJD2C-specific antibody.</text>
+      <annotation id="9">
+        <infon key="OrganismID">9606</infon>
+        <infon key="type">Organism</infon>
+        <infon key="src">edit</infon>
+        <location offset="10401" length="10"/>
+        <text>U2Os cells</text>
+      </annotation>
+      <annotation id="PPIe_191">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="10652" length="105"/>
+        <text>The immunoprecipitated proteins were precipitated using protein A-agarose and analyzed using 8% SDS-PAGE.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>11268</offset>
+      <text>RT-PCR analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11284</offset>
+      <text>Total RNA was isolated from cultured 3T3-L1 cells, using a (Qiagen, USA) kit. Reverse transcription was carried out at 37  C for 90 min and stopped at 75  C for 10 min. PCR was carried out using 1 muL of the RT reaction, 10x reaction buffer (200 mM Tris-HCL, 500 mM KCL), 50 mM MgCl2, 10 mM dNTP's, 50 pM of the primer pair and 7 U of Taq DNA polymerase (Invitrogen, USA) in a total volume of 100 muL. PCR was performed with the primers specific for the JmjC domain of JMJD2C. The PCR products were analyzed in a 1% agarose gel. The size of the amplicon was 650 bp, which matched the expected size.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>11887</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>11895</offset>
+      <text>JMJD2C-mediated repression of PPARgamma transcriptional activity</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11957</offset>
+      <text>In transient transfection studies with PPRE and 5XUAS reporter constructs we observed that JMJD2C partially reduced PPARgamma ligand-dependent transactivation following treatment with Rosiglitazone (Figure 1A). When the Tudor domain was assayed, we found that this domain reduced PPARgamma transactivation activity (Figure 1A). Conversely, when the JmjC domain was studied, a significant increase of PPARgamma activity was observed (Figure 1A). To further investigate the relationship between JMJD2C and PPARgamma, we performed RT-PCR and western blot analyses to investigate how JMJD2C is expressed in the preadipocytes 3T3-L1 cell lines. JMJD2C was continuously expressed during differentiation of 3T3-L1 cells with dexamethasone, isobutyl-metylxanthine and Rosiglitazone (Figure 2).</text>
+      <annotation id="PPIe_192">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="12168" length="116"/>
+        <text>When the Tudor domain was assayed, we found that this domain reduced PPARgamma transactivation activity (Figure 1A).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12731</offset>
+      <text>JMJD2C binds histone deacetylases</text>
+      <annotation id="1">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">23081</infon>
+        <location offset="12731" length="6"/>
+        <text>JMJD2C</text>
+      </annotation>
+      <annotation id="PPIm_334">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="12731" length="33"/>
+        <text>JMJD2C binds histone deacetylases</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12765</offset>
+      <text>We had previously observed that JMJD2A-mediated repressor activity was associated with pRb and histone deacetylases, and that it increases the pRb-mediated-repression on E2F-regulated promoters (Gray et al., 2005). In order to determine if JMJD2C repressor activity is due to binding with HDACs, functional assays were performed following transient transfection with the Gal4-PPARgamma and UAS-LUC reporters and Rosiglitazone treatment. When adding Trichostatin A, an inhibitor of HDACS, the repressive activity of JMJD2C and the Tudor Domain were blocked (Figure 1B). These results suggest that JMJD2C repression activity is mediated through the binding to HDACs, which are important in the assembly of the transcriptional repression complex. Conversely, the JmjC mediated activation of PPARgamma was reduced when TSA was added. This demonstrates that TSA probably reduces the capacity of the JmjC domain to activate the transcription of genes regulated by PPARgamma (Figure 1B). In order to check if JMJD2C could bind to HDACs, immunoprecipitation studies were performed. We observed that JMJD2C may bind to HDAC1 and HDAC3 (Figure 2A), besides binding with PPARgamma during the differentiation process (Figure 2B). These observations highlight the importance of JMJD2C on the transcriptional activity of PPARgamma.</text>
+      <annotation id="4">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">23081</infon>
+        <location offset="13856" length="6"/>
+        <text>JMJD2C</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">3065</infon>
+        <location offset="13875" length="5"/>
+        <text>HDAC1</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8841</infon>
+        <location offset="13885" length="5"/>
+        <text>HDAC3</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5468</infon>
+        <location offset="13925" length="9"/>
+        <text>PPARgamma</text>
+      </annotation>
+      <annotation id="A2">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">23081</infon>
+        <location offset="13767" length="6"/>
+        <text>JMJD2C</text>
+      </annotation>
+      <annotation id="PPIm_335">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="13746" length="92"/>
+        <text>In order to check if JMJD2C could bind to HDACs, immunoprecipitation studies were performed.</text>
+      </annotation>
+      <annotation id="PPIm_336">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="13839" length="143"/>
+        <text>We observed that JMJD2C may bind to HDAC1 and HDAC3 (Figure 2A), besides binding with PPARgamma during the differentiation process (Figure 2B).</text>
+      </annotation>
+      <annotation id="PPIe_193">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="12980" length="221"/>
+        <text>In order to determine if JMJD2C repressor activity is due to binding with HDACs, functional assays were performed following transient transfection with the Gal4-PPARgamma and UAS-LUC reporters and Rosiglitazone treatment.</text>
+      </annotation>
+      <annotation id="PPIe_194">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="13746" length="92"/>
+        <text>In order to check if JMJD2C could bind to HDACs, immunoprecipitation studies were performed.</text>
+      </annotation>
+      <annotation id="PPIe_195">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="13839" length="143"/>
+        <text>We observed that JMJD2C may bind to HDAC1 and HDAC3 (Figure 2A), besides binding with PPARgamma during the differentiation process (Figure 2B).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14068</offset>
+      <text>Effect of JMJD2C on 3T3-L1 pre-adipocyte differentiation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14125</offset>
+      <text>We induced cell differentiation in 3T3-L1 pre-adipocytes expressing JMJD2C or the JmJC and Tudor domains. The fat storage capacity of the differentiated adipocytes was reduced when the JMJD2C or Tudor domains were over-expressed. We observed the same effect as observed with the transient transfections, except with JmjC (Figure 3A), which did not show any significant differences (Figure 3B).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14519</offset>
+      <text>We observed a modest increase in adipocyte differentiation (Figure 4A) and Red Oil O staining (Figure 4B) when JMJD2C was down-regulated using RNAi compared to the control.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>14692</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14703</offset>
+      <text>In the present work we demonstrate that JMJD2C may repress the activity of PPARgamma and reduce the accumulation of triglycerides in adipocyte cells. The repressive effect on PPARgamma-mediated activation is due to the binding of JMJD2C to histone deacetylase repressors. In fact, the transfection studies showed that JMJD2C protein and the Tudor domains significantly reduced PPARgamma activation in the presence of the ligand. When Trichostatin A, an inhibitor of HDAC, was added in these experiments, the repressive effect of JMJD2C and the Tudor domain was attenuated.</text>
+      <annotation id="11">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">23081</infon>
+        <location offset="14933" length="6"/>
+        <text>JMJD2C</text>
+      </annotation>
+      <annotation id="PPIm_337">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="14853" length="121"/>
+        <text>The repressive effect on PPARgamma-mediated activation is due to the binding of JMJD2C to histone deacetylase repressors.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15276</offset>
+      <text>We previously observed that the homologous protein JMJD2A could repress gene expression due to binding to HDAC proteins. These observations support those reported by Kim et al. (2006), who proposed that JMJD2C has repressor activity and that Tudor domains are required for this action. This repression may be due to the capacity of Tudor domains to bind to histone tails (Huang et al., 2006; Lee et al., 2008; Rottach et al., 2010). The Tudor domains of JMJD2A bind to methylated histones (H3K4 and H4K20) and the extent of the methylation, along with the presence of the enzymes Suv39h, is important for the interaction (mono- di- and trimethylation) (Kim et al., 2006). Zhang et al. (2005) observed an interaction between JMJD2A and NCoR, and proposed that the C-terminal region containing the Tudor domains has consistent repressor activity, while the JmjC and JmjN domains do not.</text>
+      <annotation id="PPIm_338">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="15276" length="120"/>
+        <text>We previously observed that the homologous protein JMJD2A could repress gene expression due to binding to HDAC proteins.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16161</offset>
+      <text>In our study when the JmjC domain was evaluated, a significant increase in PPARgamma activity was observed (Figure 1A). JmjC is a catalytic domain that is involved in the regulation of chromatin reorganization processes through heterochromatization modulation (Ayoub et al., 2003) and it has been shown that JmjC demethylates lysine residues that are di- or tri-methylated on histone 3 and 4 tails (Tsukada et al., 2006). Furthermore, its amino acid sequences is conserved and it is related with the binding between Fe+2 and alpha-ketoglutarate, which are required for the demethylase activity of proteins that contain this domain (Tsukada et al., 2006).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16810</offset>
+      <text>Recently, JMJD2C has been described as a co-activator of certain nuclear receptors, such as androgen receptors (AR), glucocorticoid receptors (GR) and progesterone receptors (PR), and this effect may explain, in part, its demethylase activity on tri-methyl H3K9 (Wissmann et al., 2007). Nevertheless, PPARgamma belongs to a different family of the nuclear receptor superfamily of transcription factors; it groups together with thyroid hormone receptor (TR), retinoic acid receptor (RAR) and Vitamin D receptor (VDR) that bind to DNA as heterodimers with 9-cis-reinoic acid receptor (RXR) and form a complex with the co-repressors NCoR and SMRT (Wu and Zhang, 2009). JMJD2A is part of the NCoR repressor complex and might have a role in receptor-mediated transcriptional repression (Zhang et al., 2005). Interestingly, JMJD2A is implicated in epigenetic regulation of the achaete-scute complex homolog 2 (ASCL2), a basic helix-loop-helix transcription factor whose mouse homolog is encoded by an imprinted gene that is highly expressed during development of extra-embryonic trophoblast lineages, but repressed in other tissues. It is essential for proper placental development, a process regulated by steroid hormones and their receptors (Zhang et al., 2005).</text>
+      <annotation id="PPIm_339">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="17613" length="323"/>
+        <text>Interestingly, JMJD2A is implicated in epigenetic regulation of the achaete-scute complex homolog 2 (ASCL2), a basic helix-loop-helix transcription factor whose mouse homolog is encoded by an imprinted gene that is highly expressed during development of extra-embryonic trophoblast lineages, but repressed in other tissues.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18066</offset>
+      <text>Consequently, we consider that different domains may have different roles, and that the catalytic domain JmjC is probably not involved in the JMJD2C-mediated negative regulation of PPARgamma observed herein. To further investigate the relationship between JMJD2C and PPARgamma, we performed RT-PCR and western blot analyses to check how JMJD2C is expressed in the preadipocytes 3T3-L1cell line. JMJD2C was continuously expressed during differentiation of 3T3-L1 cells exposed to dexamethasone, isobutyl-metylxanthine and Rosiglitazone (Figure 2).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18607</offset>
+      <text>The fat storage capacity of the differentiated adipocytes was reduced when the JMJD2C or Tudor domains were over-expressed. We also observed a modest increase in adipocyte differentiation (Figure 4A) or Red Oil O staining (Figure 4B) when JMJD2C was down-regulated by means of RNAi. Recent knockout studies on Jhdm2a (Jumonji protein also known as KDM3A) deficient mice resulted in obesity phenotypes that may be in part explained by a reduced beta-adrenergic receptor and PPARgamma activity (Tateishi et al., 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19119</offset>
+      <text>The relation between histone deacetylation and demethylation has been reported previously (Lee et al., 2006) with the demethylase protein LSD1 (KDM1A), which is part of a repressor complex that include deacethylase proteins. This observation is related with the activity of JMJD2C that we observed in the present work. PPARgamma transcriptional activity reduced by JMJD2C was recovered when TSA was added, suggesting that a similar level of PPARgamma activity was retained only in presence of its ligand, and that hyperacetylation scenario occurs in the promoter region of PPARgamma. When JMJD2C was inhibited by RNAi or by blocking its repressor activity with TSA, an increased level of PPARgamma transcriptional activity was observed, measured either in the transfections or by menas of the adipocyte differentiation assay. This suggests that the absence of JMJD2C might slightly influence the fat storage in adipocytes, while its over-expression results in a partial reduction of PPARgamma transcriptional activity. Thus, JMJD2C may modulate the differentiation of adipose cells and reduce lipid accumulation. Our results indicate that JMJD2C may be described as a selective PPARgamma modulator (SPARMS). This class of molecules has the ability of regulating the PPARgamma receptor activity more selectively, possibly through differential co-repressor and co-activator recruitment (Sugii et al., 2009). This could have a beneficial effect, by avoiding weight gain, improving insulin sensitivity, and reducing liquid accumulation.</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>20631</offset>
+      <text>Associate Editor: Carlos F.M. Menck</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>20667</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Isaac;given-names:S</infon>
+      <infon key="name_3">surname:Kahn;given-names:T</infon>
+      <infon key="name_0">surname:Ayoub;given-names:N</infon>
+      <infon key="name_1">surname:Noma;given-names:K</infon>
+      <infon key="name_4">surname:Grewal;given-names:SI</infon>
+      <infon key="name_5">surname:Cohen;given-names:A</infon>
+      <infon key="volume">23</infon>
+      <infon key="pub-id_pmid">12773576</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="fpage">4356</infon>
+      <infon key="year">2003</infon>
+      <infon key="lpage">4370</infon>
+      <infon key="type">ref</infon>
+      <offset>20678</offset>
+      <text>A novel jmjC domain protein modulates heterochromatization in fission yeast</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="name_0">surname:Berger;given-names:JP</infon>
+      <infon key="lpage">S4</infon>
+      <infon key="source">Int J Obes</infon>
+      <infon key="fpage">S3</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>20754</offset>
+      <text>Role of PPARgamma, transcriptional cofactors, and adiponectin in the regulation of nutrient metabolism, adipogenesis and insulin action: View from the chair</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Whetstine;given-names:J</infon>
+      <infon key="name_3">surname:Hong;given-names:X</infon>
+      <infon key="name_0">surname:Chen;given-names:Z</infon>
+      <infon key="name_1">surname:Zang;given-names:J</infon>
+      <infon key="name_6">surname:Simpson;given-names:M</infon>
+      <infon key="name_7">surname:Mao;given-names:Q</infon>
+      <infon key="name_4">surname:Davrazou;given-names:F</infon>
+      <infon key="name_5">surname:Kutateladze;given-names:TG</infon>
+      <infon key="name_8">surname:Pan;given-names:CH</infon>
+      <infon key="name_9">surname:Dai;given-names:S</infon>
+      <infon key="volume">125</infon>
+      <infon key="pub-id_pmid">16677698</infon>
+      <infon key="source">Cell</infon>
+      <infon key="fpage">691</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">702</infon>
+      <infon key="type">ref</infon>
+      <offset>20911</offset>
+      <text>Structural insights into histone demethylation by JMJD2 family members</text>
+    </passage>
+    <passage>
+      <infon key="volume">20</infon>
+      <infon key="name_0">surname:Desvergne;given-names:B</infon>
+      <infon key="name_1">surname:Wahli;given-names:W</infon>
+      <infon key="source">Endocr Rev</infon>
+      <infon key="lpage">88</infon>
+      <infon key="pub-id_pmid">10529898</infon>
+      <infon key="fpage">649</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>20982</offset>
+      <text>Peroxisome proliferator-activated receptors: Nuclear control of metabolism</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Desvergne;given-names:B</infon>
+      <infon key="volume">177</infon>
+      <infon key="name_0">surname:Gelman;given-names:L</infon>
+      <infon key="name_1">surname:Feige;given-names:J</infon>
+      <infon key="source">Biochim Biophys Acta</infon>
+      <infon key="lpage">1107</infon>
+      <infon key="pub-id_pmid">17459763</infon>
+      <infon key="fpage">1094</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>21057</offset>
+      <text>Molecular basis of selective PPARg modulation for the treatment of type 2 diabetes</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Lizcano;given-names:F</infon>
+      <infon key="name_3">surname:Villanueva;given-names:R</infon>
+      <infon key="name_0">surname:Gray;given-names:SG</infon>
+      <infon key="name_1">surname:Iglesias;given-names:A</infon>
+      <infon key="name_6">surname:Koibuchi;given-names:N</infon>
+      <infon key="name_7">surname:Chin;given-names:WW</infon>
+      <infon key="name_4">surname:Camelo;given-names:S</infon>
+      <infon key="name_5">surname:Jingu;given-names:H</infon>
+      <infon key="name_8">surname:Kokkotou;given-names:E</infon>
+      <infon key="name_9">surname:Dangond;given-names:F</infon>
+      <infon key="volume">280</infon>
+      <infon key="pub-id_pmid">15927959</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="fpage">28507</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">28518</infon>
+      <infon key="type">ref</infon>
+      <offset>21140</offset>
+      <text>Functional characterization of JMJD2A, a histone deacetylase- and retinoblastoma-binding protein</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Bedford;given-names:MT</infon>
+      <infon key="name_3">surname:Zhang;given-names:Y</infon>
+      <infon key="name_0">surname:Huang;given-names:Y</infon>
+      <infon key="name_1">surname:Fang;given-names:J</infon>
+      <infon key="name_4">surname:Xu;given-names:RM</infon>
+      <infon key="source">Science</infon>
+      <infon key="volume">312</infon>
+      <infon key="pub-id_pmid">16601153</infon>
+      <infon key="fpage">748</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">51</infon>
+      <infon key="type">ref</infon>
+      <offset>21237</offset>
+      <text>Recognition of histone H3 lysine-4 methylation by the double tudor domain of JMJD2A</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Espejo;given-names:A</infon>
+      <infon key="name_3">surname:Lake;given-names:A</infon>
+      <infon key="name_0">surname:Kim;given-names:J</infon>
+      <infon key="name_1">surname:Daniel;given-names:J</infon>
+      <infon key="name_6">surname:Zhang;given-names:Y</infon>
+      <infon key="name_7">surname:Bedford;given-names:MT</infon>
+      <infon key="name_4">surname:Krishna;given-names:A</infon>
+      <infon key="name_5">surname:Xia;given-names:L</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">16415788</infon>
+      <infon key="source">EMBO Rep</infon>
+      <infon key="fpage">397</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">403</infon>
+      <infon key="type">ref</infon>
+      <offset>21321</offset>
+      <text>Tudor, MBT and chromo domains gauge the degree of lysine methylation</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Laplante;given-names:M</infon>
+      <infon key="name_3">surname:Azzara;given-names:A</infon>
+      <infon key="name_0">surname:Kim;given-names:J</infon>
+      <infon key="name_1">surname:de Wall;given-names:E</infon>
+      <infon key="name_6">surname:Schraw;given-names:T</infon>
+      <infon key="name_4">surname:Trujillo;given-names:M</infon>
+      <infon key="name_5">surname:Hofman;given-names:S</infon>
+      <infon key="volume">117</infon>
+      <infon key="pub-id_pmid">17717599</infon>
+      <infon key="source">J Clin Invest</infon>
+      <infon key="fpage">2621</infon>
+      <infon key="year">2007</infon>
+      <infon key="lpage">2637</infon>
+      <infon key="type">ref</infon>
+      <offset>21390</offset>
+      <text>Obesity-associated improvements in metabolics profile through expansion of adipose tissue</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Botuyan;given-names:MV</infon>
+      <infon key="name_3">surname:Mer;given-names:G</infon>
+      <infon key="name_0">surname:Lee;given-names:J</infon>
+      <infon key="name_1">surname:Thompson;given-names:JR</infon>
+      <infon key="source">Nat Struct Mol Biol</infon>
+      <infon key="volume">15</infon>
+      <infon key="pub-id_pmid">18084306</infon>
+      <infon key="fpage">109</infon>
+      <infon key="year">2008</infon>
+      <infon key="lpage">111</infon>
+      <infon key="type">ref</infon>
+      <offset>21480</offset>
+      <text>Distinct binding modes specify the recognition of methylated histones H3K4 and H4K20 by JMJD2A-tudor</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Bochar;given-names:DA</infon>
+      <infon key="name_3">surname:Hakimi;given-names:M</infon>
+      <infon key="name_0">surname:Lee;given-names:MG</infon>
+      <infon key="name_1">surname:Wynder;given-names:C</infon>
+      <infon key="name_4">surname:Cooch;given-names:N</infon>
+      <infon key="name_5">surname:Shiekhattar;given-names:R</infon>
+      <infon key="volume">26</infon>
+      <infon key="pub-id_pmid">16914725</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="fpage">6395</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">6402</infon>
+      <infon key="type">ref</infon>
+      <offset>21581</offset>
+      <text>Functional interplay between histone demethylase and deacetylase enzymes</text>
+    </passage>
+    <passage>
+      <infon key="volume">123</infon>
+      <infon key="name_0">surname:Leherke;given-names:M</infon>
+      <infon key="name_1">surname:Lazar;given-names:MA</infon>
+      <infon key="source">Cell</infon>
+      <infon key="lpage">999</infon>
+      <infon key="pub-id_pmid">16360030</infon>
+      <infon key="fpage">993</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>21654</offset>
+      <text>The many faces of PPARgama</text>
+    </passage>
+    <passage>
+      <infon key="volume">356</infon>
+      <infon key="name_0">surname:Nissen;given-names:SE</infon>
+      <infon key="name_1">surname:Wolski;given-names:K</infon>
+      <infon key="source">N Engl J Med</infon>
+      <infon key="lpage">2471</infon>
+      <infon key="pub-id_pmid">17517853</infon>
+      <infon key="fpage">2457</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>21681</offset>
+      <text>Effect of Rosiglitazone on the risk of myocardial infarction and death from cardiovascular causes</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Shi;given-names:Y</infon>
+      <infon key="volume">136</infon>
+      <infon key="name_0">surname:Nottke;given-names:L</infon>
+      <infon key="name_1">surname:Colaiacovo;given-names:MP</infon>
+      <infon key="source">Development</infon>
+      <infon key="lpage">889</infon>
+      <infon key="pub-id_pmid">19234061</infon>
+      <infon key="fpage">879</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>21779</offset>
+      <text>Developmental roles of the histone lysine demethylases</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Pichler;given-names:G</infon>
+      <infon key="name_3">surname:Bonapace;given-names:IM</infon>
+      <infon key="name_0">surname:Rottach;given-names:A</infon>
+      <infon key="name_1">surname:Frauer;given-names:C</infon>
+      <infon key="name_4">surname:Spada;given-names:F</infon>
+      <infon key="name_5">surname:Leonhardt;given-names:H</infon>
+      <infon key="volume">38</infon>
+      <infon key="pub-id_pmid">20026581</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="fpage">1796</infon>
+      <infon key="year">2010</infon>
+      <infon key="lpage">1804</infon>
+      <infon key="type">ref</infon>
+      <offset>21834</offset>
+      <text>The multi-domain protein Np95 connects DNA methylation and histone modification</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:O'Rahilly;given-names:S</infon>
+      <infon key="volume">116</infon>
+      <infon key="name_0">surname:Semple;given-names:R</infon>
+      <infon key="name_1">surname:Chatterjee;given-names:V</infon>
+      <infon key="source">J Clin Invest</infon>
+      <infon key="lpage">589</infon>
+      <infon key="pub-id_pmid">16511590</infon>
+      <infon key="fpage">581</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>21914</offset>
+      <text>PPARg and human metabolic disease</text>
+    </passage>
+    <passage>
+      <infon key="volume">359</infon>
+      <infon key="name_0">surname:Shin;given-names:S</infon>
+      <infon key="name_1">surname:Janknecht;given-names:R</infon>
+      <infon key="source">Biochem Biophys Res Commun</infon>
+      <infon key="lpage">746</infon>
+      <infon key="pub-id_pmid">17555712</infon>
+      <infon key="fpage">742</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>21948</offset>
+      <text>Activation of androgen receptor by histone demethylases JMJD2A and JMJD2D</text>
+    </passage>
+    <passage>
+      <infon key="volume">353</infon>
+      <infon key="name_0">surname:Shulman;given-names:AI</infon>
+      <infon key="name_1">surname:Mangelsdorf;given-names:DJ</infon>
+      <infon key="source">N Engl J Med</infon>
+      <infon key="lpage">615</infon>
+      <infon key="pub-id_pmid">16093469</infon>
+      <infon key="fpage">604</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>22022</offset>
+      <text>Retinoid X receptor heterodimers in the metabolic syndrome</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Sears;given-names:DD</infon>
+      <infon key="name_3">surname:Saberi;given-names:M</infon>
+      <infon key="name_0">surname:Sugii;given-names:S</infon>
+      <infon key="name_1">surname:Olson;given-names:P</infon>
+      <infon key="name_6">surname:Hong;given-names:S-H</infon>
+      <infon key="name_7">surname:Castro;given-names:Gl</infon>
+      <infon key="name_4">surname:Atkins;given-names:AR</infon>
+      <infon key="name_5">surname:Barish;given-names:GD</infon>
+      <infon key="name_8">surname:Yin;given-names:Y-Q</infon>
+      <infon key="name_9">surname:Nelson;given-names:MC</infon>
+      <infon key="volume">106</infon>
+      <infon key="pub-id_pmid">20018750</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="fpage">22504</infon>
+      <infon key="year">2009</infon>
+      <infon key="lpage">22509</infon>
+      <infon key="type">ref</infon>
+      <offset>22081</offset>
+      <text>PPARgamma activation in adipocyte is sufficient for systemic insulin sensitization</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kallin;given-names:EM</infon>
+      <infon key="name_3">surname:Zhang;given-names:Y</infon>
+      <infon key="name_0">surname:Tateishi;given-names:K</infon>
+      <infon key="name_1">surname:Okada;given-names:Y</infon>
+      <infon key="source">Nature</infon>
+      <infon key="volume">458</infon>
+      <infon key="pub-id_pmid">19194461</infon>
+      <infon key="fpage">757</infon>
+      <infon key="year">2009</infon>
+      <infon key="lpage">761</infon>
+      <infon key="type">ref</infon>
+      <offset>22164</offset>
+      <text>Role of Jhdm2a in regulating metabolic gene expression and obesity resistance</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Wang;given-names:J</infon>
+      <infon key="name_3">surname:Zhao;given-names:ZK</infon>
+      <infon key="name_0">surname:Tan;given-names:H</infon>
+      <infon key="name_1">surname:Wu;given-names:S</infon>
+      <infon key="source">Mol Biol Rep</infon>
+      <infon key="volume">35</infon>
+      <infon key="pub-id_pmid">17668288</infon>
+      <infon key="fpage">551</infon>
+      <infon key="year">2008</infon>
+      <infon key="lpage">556</infon>
+      <infon key="type">ref</infon>
+      <offset>22242</offset>
+      <text>The JMJD2 members of histone demethylase revisited</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Erdjument-Bromage;given-names:E</infon>
+      <infon key="name_3">surname:Warren;given-names:ME</infon>
+      <infon key="name_0">surname:Tsukada;given-names:Y</infon>
+      <infon key="name_1">surname:Fang;given-names:J</infon>
+      <infon key="name_6">surname:Zhang;given-names:Y</infon>
+      <infon key="name_4">surname:Borchers;given-names:CH</infon>
+      <infon key="name_5">surname:Tempst;given-names:P</infon>
+      <infon key="volume">439</infon>
+      <infon key="pub-id_pmid">16362057</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">811</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">816</infon>
+      <infon key="type">ref</infon>
+      <offset>22293</offset>
+      <text>Histone demethylation by a family of JmjC domain-containing proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Lan;given-names:F</infon>
+      <infon key="name_3">surname:Huarte;given-names:M</infon>
+      <infon key="name_0">surname:Whetstine;given-names:JR</infon>
+      <infon key="name_1">surname:Nottke;given-names:A</infon>
+      <infon key="name_6">surname:Spooner;given-names:E</infon>
+      <infon key="name_7">surname:Li;given-names:E</infon>
+      <infon key="name_4">surname:Smolikov;given-names:S</infon>
+      <infon key="name_5">surname:Chen;given-names:Z</infon>
+      <infon key="name_8">surname:Zhang;given-names:G</infon>
+      <infon key="name_9">surname:Colaiacovo;given-names:M</infon>
+      <infon key="volume">125</infon>
+      <infon key="pub-id_pmid">16603238</infon>
+      <infon key="source">Cell</infon>
+      <infon key="fpage">467</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">481</infon>
+      <infon key="type">ref</infon>
+      <offset>22362</offset>
+      <text>Reversal of histone lysine trimethylation by the JMJD2 family of histone demethylases</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Muller;given-names:JM</infon>
+      <infon key="name_3">surname:Greschik;given-names:H</infon>
+      <infon key="name_0">surname:Wissmann;given-names:M</infon>
+      <infon key="name_1">surname:Yin;given-names:N</infon>
+      <infon key="name_6">surname:Vogler;given-names:C</infon>
+      <infon key="name_7">surname:Schneider;given-names:R</infon>
+      <infon key="name_4">surname:Fodor;given-names:BD</infon>
+      <infon key="name_5">surname:Jenuwein;given-names:T</infon>
+      <infon key="name_8">surname:Gunther;given-names:T</infon>
+      <infon key="name_9">surname:Buettner;given-names:R</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">17277772</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="fpage">347</infon>
+      <infon key="year">2007</infon>
+      <infon key="lpage">53</infon>
+      <infon key="type">ref</infon>
+      <offset>22448</offset>
+      <text>Cooperative demethylation by JMJD2C and LSD1 promotes androgen receptor-dependent gene expression</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="name_0">surname:Wu;given-names:SC</infon>
+      <infon key="name_1">surname:Zhang;given-names:Y</infon>
+      <infon key="lpage">1334</infon>
+      <infon key="source">Mol Endocr</infon>
+      <infon key="fpage">1323</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>22546</offset>
+      <text>Minireview: Role of protein methylation and demethylation in nuclear hormone signaling</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Pimkhaokham;given-names:A</infon>
+      <infon key="name_3">surname:Shimada;given-names:Y</infon>
+      <infon key="name_0">surname:Yang;given-names:ZQ</infon>
+      <infon key="name_1">surname:Imoto;given-names:I</infon>
+      <infon key="name_6">surname:Inazawa;given-names:J</infon>
+      <infon key="name_4">surname:Sasaki;given-names:K</infon>
+      <infon key="name_5">surname:Oka;given-names:K</infon>
+      <infon key="volume">92</infon>
+      <infon key="pub-id_pmid">11346465</infon>
+      <infon key="source">Jpn J Cancer Res</infon>
+      <infon key="fpage">423</infon>
+      <infon key="year">2001</infon>
+      <infon key="lpage">428</infon>
+      <infon key="type">ref</infon>
+      <offset>22633</offset>
+      <text>A novel amplicon at 9p23-24 in squamous cell carcinoma of the esophagus that lies proximal to GASC1 and harbors NFIB</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Wong;given-names:J</infon>
+      <infon key="volume">25</infon>
+      <infon key="name_0">surname:Zhang;given-names:D</infon>
+      <infon key="name_1">surname:Yoon;given-names:H</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">6414</infon>
+      <infon key="pub-id_pmid">16024779</infon>
+      <infon key="fpage">6404</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>22752</offset>
+      <text>JMJD2C is a Novel N-CoR-interacting protein and is involved in repression of the human transcription factor Achaete Scute-like homologue 2 (ASCL2/Hash2)</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>22905</offset>
+      <text>JMJD2C partially represses PPARgamma transcriptional activity. (A) PPARgamma transcriptional activity following expression of JMJD2C, or of each of its domains, in both the absence and presence of Rosiglitazone (1 muM). *p &lt; 0.05. (B) PPARgamma transcriptional activity after transfection with expression vectors with JMJD2C or the JmjC and Tudor domains. *p &lt; 0.05, in presence and absence of TSA (100 nM) for each case. U2Os cells were transfected with constructs expressing each domain, and luciferase reactive activity was measured and normalized with beta-galactosidase activity. The values are presented as means +- S.E. from at least two independent triplicate assays.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23570</offset>
+      <text>JMJD2C expression in the 3T3-L1 cell line, capacity of binding to histone deacetylases and - to PPARgamma (A) RNA extractions and RT-PCR assays for JMJD2c were performed on 3T3-L1 cell line at days 0, 4 and 8 of differentiation; (B) Western blot showing JMJD2C expression at all days of differentiation; (C) Co-immunoprecipitation of JMJD2C and HDAC type I.</text>
+      <annotation id="13">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">23081</infon>
+        <location offset="23570" length="6"/>
+        <text>JMJD2C</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5468</infon>
+        <location offset="23666" length="9"/>
+        <text>PPARgamma</text>
+      </annotation>
+      <annotation id="16">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">23081</infon>
+        <location offset="23904" length="6"/>
+        <text>JMJD2C</text>
+      </annotation>
+      <annotation id="17">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">3065</infon>
+        <location offset="23915" length="4"/>
+        <text>HDAC</text>
+      </annotation>
+      <annotation id="PPIm_340">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <location offset="23570" length="357"/>
+        <text>JMJD2C expression in the 3T3-L1 cell line, capacity of binding to histone deacetylases and - to PPARgamma (A) RNA extractions and RT-PCR assays for JMJD2c were performed on 3T3-L1 cell line at days 0, 4 and 8 of differentiation; (B) Western blot showing JMJD2C expression at all days of differentiation; (C) Co-immunoprecipitation of JMJD2C and HDAC type I.</text>
+      </annotation>
+      <annotation id="PPIe_196">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <location offset="23570" length="357"/>
+        <text>JMJD2C expression in the 3T3-L1 cell line, capacity of binding to histone deacetylases and - to PPARgamma (A) RNA extractions and RT-PCR assays for JMJD2c were performed on 3T3-L1 cell line at days 0, 4 and 8 of differentiation; (B) Western blot showing JMJD2C expression at all days of differentiation; (C) Co-immunoprecipitation of JMJD2C and HDAC type I.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23927</offset>
+      <text>Effect of JMJD2C over-expression on 3T3-L1 pre-adipocyte differentiation. (A) Micrographs of 3T3-L1 cells after eight days of differentiation, following over-expression of JMJD2C or the JmjC and Tudor domains. Transfections were performed on day 0, when confluence of pre-adipocytes was 100%; (B) Triglyceride levels in differentiated 3T3-L1 cells. Values are presented as the means +- S.E. from at least two independent assays, each run in triplicate.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>24380</offset>
+      <text>Results of RNAi-mediated silencing of JMJD2C. (A) Micrographs of 3T3-L1 after eight days of differentiation; (B) Triglyceride levels in differentiated 3T3-L1 cells following transfection with specific constructs. The negative control was not induced to differentiate, whereas the positive control was mock-transfected and induced to differentiate. Values are presented as the means +- S.E. from at least two independent assays, each run in triplicate; (C) RT-PCR results showing JMJD2C transcript levels for the different treatments at 48 h after transfection.</text>
+    </passage>
+  </document>
+</collection>

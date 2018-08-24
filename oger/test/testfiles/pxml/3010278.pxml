@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010278</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2014</Year>
+<Month>11</Month>
+<Day>20</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0027-8424</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>83</Volume>
+<Issue>10</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>May</Month>
+</PubDate>
+</JournalIssue>
+<Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+<ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>The chicken delta 1-crystallin gene promoter: binding of transcription factor(s) to the upstream G+C-rich region is necessary for promoter function in vitro.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3131-5</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>There are two linked delta-crystallin genes in the chicken (5' delta 1-delta 2 3'). Only the delta 1 gene has been shown definitively to be active in the lens. Transcription of deletion mutants, reported here, shows that the sequences necessary for the functioning of the delta 1 promoter in a HeLa cell extract are located upstream from the RNA initiation site, between nucleotide positions -121 and -38. This region includes a number of G+C-rich motifs, including one hexanucleotide sequence, CCGCCC, that is repeated six times in the simian virus 40 (SV40) promoter. Competition experiments with purified fragments from the delta 1-crystallin gene promoter showed that binding of transcription factor(s) from the HeLa cell extract to this G+C-rich region is required for promoter activity in vitro. Further, competition experiments using three different fragments from the SV40 promoter suggest that the transcription factor(s) is similar to Sp1, which stimulates transcription by binding to the G+C-rich 21-base-pair repeats of the SV40 promoter, and differs from that which interacts with the SV40 enhancer region.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Das</LastName>
+<ForeName>G C</ForeName>
+<Initials>GC</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Piatigorsky</LastName>
+<ForeName>J</ForeName>
+<Initials>J</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<DataBankList CompleteYN="Y">
+<DataBank>
+<DataBankName>GENBANK</DataBankName>
+<AccessionNumberList>
+<AccessionNumber>M13199</AccessionNumber>
+</AccessionNumberList>
+</DataBank>
+</DataBankList>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+<NlmUniqueID>7505876</NlmUniqueID>
+<ISSNLinking>0027-8424</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D003459">Crystallins</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D004279">DNA, Viral</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D014157">Transcription Factors</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1980 Jul;77(7):3855-9</RefSource>
+<PMID Version="1">6933441</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Prog Nucleic Acid Res Mol Biol. 1985;32:217-36</RefSource>
+<PMID Version="1">3003799</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Differentiation. 1981;19(3):134-53</RefSource>
+<PMID Version="1">7030840</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem J. 1982 Feb 1;201(2):339-44</RefSource>
+<PMID Version="1">6282266</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Dev Biol. 1982 Jul;92(1):60-5</RefSource>
+<PMID Version="1">7106387</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Appl Genet. 1982;1(5):457-81</RefSource>
+<PMID Version="1">6296253</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1983 Feb 24;301(5902):680-6</RefSource>
+<PMID Version="1">6828151</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Mar;32(3):669-80</RefSource>
+<PMID Version="1">6187469</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Mar;32(3):695-706</RefSource>
+<PMID Version="1">6299573</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Apr 25;11(8):2447-64</RefSource>
+<PMID Version="1">6304653</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Jul 11;11(13):4521-40</RefSource>
+<PMID Version="1">6306592</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Nov;35(1):79-87</RefSource>
+<PMID Version="1">6313230</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Feb;36(2):357-69</RefSource>
+<PMID Version="1">6537904</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Jan;81(2):308-12</RefSource>
+<PMID Version="1">6320179</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1984 Jan;4(1):133-41</RefSource>
+<PMID Version="1">6321950</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biochem. 1984;59(1-2):33-56</RefSource>
+<PMID Version="1">6369110</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Apr;81(7):2147-51</RefSource>
+<PMID Version="1">6326107</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 May;81(9):2611-5</RefSource>
+<PMID Version="1">6585817</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 May;37(1):253-62</RefSource>
+<PMID Version="1">6233005</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 May;37(1):273-83</RefSource>
+<PMID Version="1">6722872</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>EMBO J. 1984 Jun;3(6):1397-402</RefSource>
+<PMID Version="1">6547670</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1984 Aug 10;259(15):9821-5</RefSource>
+<PMID Version="1">6746668</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Aug;38(1):275-85</RefSource>
+<PMID Version="1">6088070</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Nov 29-Dec 5;312(5993):409-13</RefSource>
+<PMID Version="1">6095100</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1984 Dec 11;12(23):8779-99</RefSource>
+<PMID Version="1">6096806</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1985 Feb 7-13;313(6002):458-63</RefSource>
+<PMID Version="1">2982105</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1984 Dec;4(12):2911-20</RefSource>
+<PMID Version="1">6098828</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1985 Mar 20;182(2):229-39</RefSource>
+<PMID Version="1">2987512</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1985 Mar 11;13(5):1593-606</RefSource>
+<PMID Version="1">2987831</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>EMBO J. 1985 Feb;4(2):445-52</RefSource>
+<PMID Version="1">4018032</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1985 Aug 5;260(16):9100-5</RefSource>
+<PMID Version="1">3839507</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1985 Aug;82(15):4915-9</RefSource>
+<PMID Version="1">2991898</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1985 Aug;82(15):4920-4</RefSource>
+<PMID Version="1">2991899</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1985 Sep;42(2):559-72</RefSource>
+<PMID Version="1">2992804</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1985 Nov 1;230(4725):511-7</RefSource>
+<PMID Version="1">2996137</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>EMBO J. 1985 Sep;4(9):2201-7</RefSource>
+<PMID Version="1">3000763</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1986 Jan 15;261(2):552-7</RefSource>
+<PMID Version="1">3941090</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Annu Rev Biochem. 1981;50:349-83</RefSource>
+<PMID Version="1">6791577</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001483">Base Sequence</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002645">Chickens</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003001">Cloning, Molecular</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003459">Crystallins</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004279">DNA, Viral</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006367">HeLa Cells</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D066298">In Vitro Techniques</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D011401">Promoter Regions, Genetic</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013539">Simian virus 40</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014157">Transcription Factors</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014158">Transcription, Genetic</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC323466</OtherID>
+</MedlineCitation>

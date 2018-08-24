@@ -1,0 +1,2108 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>BioCBioGRID.key</key>
+  <document>
+    <id>10952997</id>
+    <infon key="top">141</infon>
+    <infon key="catagory">marked</infon>
+    <passage>
+      <infon key="volume">150</infon>
+      <infon key="name_0">surname:Yun;given-names:Chi Y.</infon>
+      <infon key="name_1">surname:Fu;given-names:Xiang-Dong</infon>
+      <infon key="kwd">serine and arginine-rich protein kinase RNA binding protein nuclear transport phosphorylation arginine methylation</infon>
+      <infon key="article-id_publisher-id">0005081</infon>
+      <infon key="type">front</infon>
+      <infon key="article-id_pmid">10952997</infon>
+      <infon key="lpage">718</infon>
+      <infon key="article-id_pmc">2175287</infon>
+      <infon key="journal-title">The Journal of Cell Biology</infon>
+      <infon key="fpage">707</infon>
+      <infon key="year">2000</infon>
+      <infon key="issue">4</infon>
+      <offset>0</offset>
+      <text>Conserved Sr Protein Kinase Functions in Nuclear Import and Its Action Is Counteracted by Arginine Methylation in Saccharomyces cerevisiae</text>
+      <annotation id="3">
+        <infon key="OrganismID">559292</infon>
+        <infon key="type">Organism</infon>
+        <infon key="src">edit</infon>
+        <location offset="114" length="24"/>
+        <text>Saccharomyces cerevisiae</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>139</offset>
+      <text>Mammalian serine and arginine-rich (SR) proteins play important roles in both constitutive and regulated splicing, and SR protein-specific kinases (SRPKs) are conserved from humans to yeast. Here, we demonstrate a novel function of the single conserved SR protein kinase Sky1p in nuclear import in budding yeast. The yeast SR-like protein Npl3p is known to enter the nucleus through a composite nuclear localization signal (NLS) consisting of a repetitive arginine- glycine-glycine (RGG) motif and a nonrepetitive sequence. We found that the latter is the site for phosphorylation by Sky1p and that this phosphorylation regulates nuclear import of Npl3p by modulating the interaction of the RGG motif with its nuclear import receptor Mtr10p. The RGG motif is also methylated on arginine residues, but methylation does not affect the Npl3p-Mtr10p interaction in vitro. Remarkably, arginine methylation interferes with Sky1p-mediated phosphorylation, thereby indirectly influencing the Npl3p-Mtr10p interaction in vivo and negatively regulating nuclear import of Npl3p. These results suggest that nuclear import of Npl3p is coordinately influenced by methylation and phosphorylation in budding yeast, which may represent conserved components in the dynamic regulation of RNA processing in higher eukaryotic cells.</text>
+      <annotation id="A1">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855256</infon>
+        <location offset="723" length="5"/>
+        <text>Sky1p</text>
+      </annotation>
+      <annotation id="A2">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="787" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="A3">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="873" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="PPIm_341">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="663" length="217"/>
+        <text>We found that the latter is the site for phosphorylation by Sky1p and that this phosphorylation regulates nuclear import of Npl3p by modulating the interaction of the RGG motif with its nuclear import receptor Mtr10p.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1459</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1472</offset>
+      <text>RNA binding proteins containing one or two RNA recognition motifs (RRMs) and a signature arginine- and serine-rich (RS) domain are collectively referred to as serine and arginine-rich (SR) proteins (for reviews see Fu 1995; Manley and Tacke 1996; Valcarcel and Green 1996). Biochemical studies demonstrate that SR proteins are essential factors for spliceosome assembly at multiple steps, from the formation of commitment complexes in early splice site recognition (Fu 1993; Kohtz et al. 1994) to the conversion of the prespliceosome to the spliceosome (Roscigno and Garcia-Blanco 1995; Tarn and Steitz 1995). Besides their roles in constitutive splicing, SR proteins are also known to affect alternative splicing in a concentration-dependent manner (for reviews see Fu 1995; Manley and Tacke 1996). Interestingly, in all examined cases, the activity of SR proteins in alternative splicing is antagonized by heteregeneous nuclear ribonucleoprotein (hnRNP) A/B proteins (for a review see Caceres and Krainer 1997). These observations have led to the current view that alternative splicing may be controlled by balanced activities of SR and hnRNP proteins in mammalian cells. In this regard, regulation of alternative splicing may be achieved by regulating SR and hnRNP proteins at transcriptional and posttranscriptional levels.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2808</offset>
+      <text>Regulation of SR and hnRNP proteins and the functional consequences associated with it are just beginning to be understood. Although most SR proteins are ubiquitously expressed, some are expressed in a tissue-specific manner (Ayane et al. 1991), during T cell development (Lemaire et al. 1999), or induced in response to mitogens (Diamond et al. 1993; Screaton et al. 1995). All RS domain-containing proteins are posttranslationally modified by phosphorylation. Because RS domains are known to participate in protein-protein (Wu and Maniatis 1993) and protein-RNA (Valcarcel et al. 1996) interactions during spliceosome assembly, phosphorylation may regulate the activity of SR proteins in splicing. Indeed, it has been shown that phosphorylation can modulate physical interactions involving SR proteins (Xiao and Manley 1997; Wang et al. 1998; Yeakley et al. 1999), and is essential for their functions in splicing (Cao et al. 1997; Xiao and Manley 1997). As expected, alternative splicing can be induced by SR protein-specific kinases (SRPKs) in transfected cells (Duncan et al. 1997; Prasad et al. 1999; Ding and Fu, unpublished observations). Finally, RS domains are also known to function as a nuclear localization signal (NLS) (Li and Bingham 1991; Hedley et al. 1995; Caceres et al. 1997). However, it is presently unclear whether nuclear translocation of SR proteins is subject to phosphorylation regulation in mammalian cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4254</offset>
+      <text>Compared with SR proteins, the function of hnRNP proteins in RNA metabolism is not well understood. These abundant RNA binding proteins appear to have a variety of cellular activities, ranging from transcription and pre-mRNA processing to RNA transport and turnover (for a review see Krecic and Swanson 1999). Some hnRNPs are modified by phosphorylation (Karn et al. 1977) or are glycosylated (Soulard et al. 1993). Interestingly, a large number of mammalian hnRNP proteins are modified by arginine methylation (Liu and Dreyfuss 1995), which accounts for 65% of the total NG,NG-dimethylarginine found in the cell nucleus (Boffa et al. 1977). Arginine methylation appears to take place mainly in the RGG box (an arginine-glycine-glycine-rich region) involved in both RNA binding and protein-protein interactions. Because methylation would not alter the positive charge on arginine, this modification may affect functional properties of modified proteins by disrupting hydrogen bonds or introducing steric hindrance. In contrast to data on SR protein phosphorylation, no clear-cut biochemical evidence has been documented to show a major effect of arginine methylation on RNA-protein and protein-protein interactions, and thus, the functional significance of this modification remains largely elusive. Recently, an arginine methyltransferase HMT1/RMT1 was shown to be conserved in budding yeast (Gary et al. 1996; Henry and Silver 1996; Siebel and Guthrie 1996), which can be used for functional studies of arginine methylation using genetic approaches. Indeed, genetic studies from the Silver laboratory revealed a role of Hmt1p/Rmt1p in the regulation of hnRNP protein nuclear export in yeast (Shen et al. 1998). However, the biochemical basis for the cellular function of Hmt1p/Rmt1p remains unknown.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6064</offset>
+      <text>We have been characterizing a family of SRPKs that regulate the interaction and nuclear distribution of SR proteins in mammalian cells (Gui et al. 1994a,Gui et al. 1994b; Colwill et al. 1996; Wang et al. 1998). Recently, we demonstrated that a single SRPK family member, named Sky1p, is conserved in Saccharomyces cerevisiae (Siebel et al. 1999). This finding is surprising because generally it is assumed that budding yeast do not have an SR system based in part on the observations that alternative splicing does not occur in yeast and that their genome does not encode proteins containing a continuous stretch of SR/RS dipeptide repeats. Interestingly, we found that one of the endogenous substrates for Sky1p is the well-studied RNA binding protein Npl3p, which has been implicated in both pre-mRNA splicing (Siebel and Guthrie, unpublished results) and mRNA transport (Kadowaki et al. 1994; Lee et al. 1996; Krebber et al. 1999). Npl3p has two RRMs and a COOH-terminal RGG/RS domain containing multiple RGG repeats and distributed RS or SR dipeptides. Therefore, Npl3p resembles both hnRNP and SR proteins in mammalian cells, as previously indicated by sequence alignment (Birney et al. 1993). Here, we present biochemical and genetic evidence revealing that Sky1p regulates nuclear import of Npl3p by promoting the interaction between Npl3p and its nuclear import receptor Mtr10p. Strikingly, we found that arginine methylation also regulates nuclear import of Npl3p by using an unprecedented mechanism: hypermethylation of the RGG box by Hmt1p/Rmt1p interferes with Sky1p-mediated phosphorylation, thereby indirectly blocking complex formation between Npl3p and Mtr10p both in vitro and in vivo. Therefore, nuclear import of Npl3p may be regulated by both phosphorylation and methylation. These findings have significant implications on the regulation of SR and hnRNP proteins in mammalian cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>7968</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7990</offset>
+      <text>Strains and Plasmids</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8011</offset>
+      <text>Wild-type (YCS19) and sky1Delta (YCS22) strains used for green fluorescent protein (GFP)-Npl3p localization and for synthetic lethality were described previously (Siebel et al. 1999). Strains MHY132 (Lee et al. 1996), and DF5A containing Mtr10-Protein A (PrA) (Pemberton et al. 1997) were used for plasmid shuffling and coimmunoprecipitation experiments, respectively. MTR10 and SKY1 were deleted from these strains by standard recombination (Wach et al. 1994). PCR-amplified full length NPL3 and its mutants were subcloned into pGEX-KG for glutathione S-transferase (GST) fusion protein production. Wild-type and mutant npl3p were expressed as GFP fusion proteins from the GAL-inducible plasmid pPS811 for localization or expressed from its own promoter in a CEN-LEU plasmid pMHY3 for plasmid shuffling experiments (Lee et al. 1996). MTR10 was PCR-amplified from genomic DNA and subcloned into pSP72 for transcription translation reactions in vitro, or into the GAL-inducible plasmid p415 for overexpression in yeast. The genomic MTR10 fragment was also cloned into pET30a to express His- and S-tagged recombinant protein in bacteria. Plasmids pRS316-SKY1 for expression of Sky1p in yeast (Siebel et al. 1999) and pGEX-RMT1/HMT1 for preparation of recombinant methyltransferase (Gary et al. 1996) were described previously. A BamHI-EcoRI fragment of HMT1/RMT1 from pGEX-RMT1/HMT1 was subcloned into p415 for Hmt1p overexpression in yeast. His-tagged IkappaB/RS fusion protein was obtained from B. Nolen and G. Ghosh (University of California at San Diego).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9565</offset>
+      <text>Immunoprecipitation and Immunoblotting</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9604</offset>
+      <text>IgG-Sepharose beads (Jackson ImmunoResearch Laboratories) were used to immunoprecipitate Mtr10-PrA from either cytoplasmic or whole cell extracts as described previously (Pemberton et al. 1997). We used 2 mul beads which is sufficient to capture most Mtr10-PrA from 100 mug total yeast protein. The use of a minimum amount of beads is critical, because some IgG heavy chain was released during incubation with yeast extract and the released heavy chain comigrated with Npl3p in our gels, interfering with quantitation of coimmunoprecitated Npl3p by Western blot analysis. Npl3p and Mtr10-PrA in the immunocomplexes were detected with rabbit polyclonal antibodies against Npl3p (a gift from C.W. Siebel and C. Guthrie, University of California at San Francisco) and rabbit IgG (Jackson ImmunoResearch Laboratories), respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10433</offset>
+      <text>Expression of GFP-Npl3p and HA-tagged Hmt1p/Rmt1p was confirmed by Western blotting using a rabbit polyclonal anti-GFP antibody (a gift from Kahana and Silver, J. Kahana and P. Silver, Dana Farber Cancer Institute, Boston, MA) and mouse anti-HA mAb 12CA5 (Eastman Kodak Co.). The methylation state of Npl3p was determined by immunoblotting with the methylation-specific mAb 1E4 (a gift from Swanson, University of Florida, Gainesville, FL).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>10874</offset>
+      <text>In Vitro Modification and Binding</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10908</offset>
+      <text>GST-Npl3p phosphorylation using Sky1p (Siebel et al. 1999) and methylation using Hmt1p/Rmt1p with methylation donor S-adenosyl-l-methionine (SAM; Sigma-Aldrich) or with the SAM analogue S-adenosyl-l-homocysteine (SAH; Sigma-Aldrich) (Gary et al. 1996) were done as described. GST pull-down assays were performed as described (Yeakley et al. 1999) with the following modifications: binding was done in 200 mul of 30 mM KPO4, pH 6.5, 50 mM KCl, 0.5 mM EDTA, 1 mM DTT. Glutathione sepharose (Amersham Pharmacia Biotech) bound with 1 mug GST-Npl3p was incubated with 2 mul in vitro-translated Mtr10p (Promega) in the presence or absence of sky1Delta cytosolic extract (10 mug total protein). Beads were washed three times in 0.5 mM Hepes, pH 7.6, 200 mM NaCl, 2 mM MgCl2, and 1 mM DTT before SDS-PAGE. For binding studies using purified components, bacterially produced His-S-Mtr10p was purified on a Ni column and equal amounts (~1 mug) of recombinant His-S-Mtr10p and GST-Npl3p were used for in vitro binding under the same conditions described above for in vitro-translated Mtr10p. After binding and washing, bound His-S-Mtr10p was detected by Western blotting using the S-tag AP LumiBlot kit (Novagen).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12114</offset>
+      <text>Plasmid Shuffling and Synthetic Lethal Test</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12158</offset>
+      <text>Strain MHY132 (NPL3-deleted strain covered with wild-type NPL3 in a URA plasmid) was transformed with pMHY3, a CEN-LEU plasmid containing wild-type and mutant npl3. These Leu+, Ura+ transformants were streaked on 5-FOA minus Leu plates, and growth was monitored at 25 and 37 C. To test synthetic lethality, YCS22 (sky1Delta) was transformed with pRS316-SKY1. MTR10 was then deleted from the strain using a kanamycin resistance expression unit flanked by MTR10 genomic sequences (Wach et al. 1994). MTR10 deletion was confirmed by PCR, and yeast were streaked on 5-FOA and monitored for growth at 25 and 30 C.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>12766</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12774</offset>
+      <text>Sky1p Phosphorylates Npl3p at a Single Site in the COOH Terminus</text>
+      <annotation id="A5">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855256</infon>
+        <location offset="12774" length="5"/>
+        <text>Sky1p</text>
+      </annotation>
+      <annotation id="A6">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="12795" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="PPIm_342">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="12774" length="64"/>
+        <text>Sky1p Phosphorylates Npl3p at a Single Site in the COOH Terminus</text>
+      </annotation>
+      <annotation id="PPIe_197">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="12774" length="64"/>
+        <text>Sky1p Phosphorylates Npl3p at a Single Site in the COOH Terminus</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12839</offset>
+      <text>Npl3p can be efficiently phosphorylated by Sky1p both in vitro (Siebel et al. 1999) and in vivo (Siebel and Guthrie, personal communication). Unlike mammalian SR proteins, which are characterized by continuous SR/RS repeats, Npl3p contains eight SR/RS dipeptides dispersed in its COOH-terminal RGG/RS domain (Fig. 1 a). We first sought to determine the Sky1p phosphorylation site(s) in Npl3p. Our previous peptide selection experiment (Wang et al. 1998) indicated that human SRPK2 strongly selects for arginine (R), histidine (H), glutamic acid (E), and proline (P), and against lysine (K), phenylalanine (F), and glycine (G) around the phosphorylation site (Fig. 1 b). Because Sky1p displays identical substrate specificity to its mammalian counterparts (Siebel et al. 1999), we applied this rule to Npl3p and found that only the most COOH-terminal RS dipeptide fits this consensus (Fig. 1 a). This prediction was tested by mutagenesis. As shown in Fig. 1 c, deletion of the most COOH-terminal sequence (Delta1) or point mutations of the predicted phosphorylation site (S411A) or the consensus sequence (E409K) abolished Npl3p phosphorylation by Sky1p. These data indicate that Sky1p phosphorylates a single site (Ser411) in Npl3p.</text>
+      <annotation id="1">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="13961" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="2">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855256</infon>
+        <location offset="13986" length="5"/>
+        <text>Sky1p</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855256</infon>
+        <location offset="14018" length="5"/>
+        <text>Sky1p</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="14065" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="PPIm_343">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="13777" length="215"/>
+        <text>As shown in Fig. 1 c, deletion of the most COOH-terminal sequence (Delta1) or point mutations of the predicted phosphorylation site (S411A) or the consensus sequence (E409K) abolished Npl3p phosphorylation by Sky1p.</text>
+      </annotation>
+      <annotation id="PPIm_344">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="13993" length="78"/>
+        <text>These data indicate that Sky1p phosphorylates a single site (Ser411) in Npl3p.</text>
+      </annotation>
+      <annotation id="PPIe_198">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="13993" length="78"/>
+        <text>These data indicate that Sky1p phosphorylates a single site (Ser411) in Npl3p.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14069</offset>
+      <text>Phosphorylation Defects Cause Npl3p to Accumulate in the Cytoplasm</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14136</offset>
+      <text>This simple pattern of phosphorylation is in contrast to the numerous SRPK sites present in mammalian SR proteins, making budding yeast an ideal system for functional studies of SRPK-mediated phosphorylation. In fact, an important clue to the function of Sky1p in vivo emerged from this mapping study because npl3p(E409K) corresponds to a previously isolated npl3p mutant which mislocalized in the cytoplasm at steady state (Lee et al. 1996; see Fig. 2 b). Thus, Sky1p may function in the regulation of nucleocytoplasmic shuttling and the mutant phenotype associated with npl3p(E409K) may be attributable to a defect in Sky1p-mediated phosphorylation. To further test this hypothesis, we used the GFP-Npl3p fusion protein as described previously (Lee et al. 1996) to examine the localization of additional npl3p phosphorylation mutants. In contrast to the exclusively nuclear localization of GFP-tagged wild-type Npl3p, both phosphorylation mutants GFP-npl3p(S411A) and GFP-npl3p(E409K) mislocalized in the cytoplasm (Fig. 2 b). In the converse experiment, we took advantage of SKY1 being nonessential (Siebel et al. 1999) and found that wild-type GFP-Npl3p was localized in the cytoplasm of sky1Delta yeast (Fig. 2 b). Together, these results demonstrate an important role for Sky1p in the regulation of Npl3p nuclear localization in budding yeast.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>15483</offset>
+      <text>Sky1p Is Required for Efficient Npl3p-Mtr10p Interaction</text>
+      <annotation id="8">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="15515" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="15521" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="PPIm_345">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="15483" length="56"/>
+        <text>Sky1p Is Required for Efficient Npl3p-Mtr10p Interaction</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15542</offset>
+      <text>Because Npl3p shuttles between the nucleus and the cytoplasm, its accumulation in the cytoplasm could be due to impaired nuclear import and/or accelerated export. Although we cannot rule out a potential function of Sky1p in export, an active role for the kinase in nuclear import is consistent with the primary localization of this kinase and all other SRPK family members in the cytoplasm (Takeuchi and Yanagida 1993; Wang et al. 1998; Siebel et al. 1999). Recently, the nuclear import receptor for Npl3p was identified as Mtr10p, a member of the importin beta superfamily (Pemberton et al. 1997; Senger et al. 1998), and deletion of MTR10 resulted in cytoplasmic accumulation of Npl3p. Thus, the simplest explanation for the mislocalization of Npl3p in sky1Delta yeast is that Sky1p-mediated phosphorylation is important for efficient interaction between Npl3p and its nuclear import receptor Mtr10p. We tested this hypothesis by conducting coimmunoprecipitation experiments to compare the association of Npl3p with Mtr10p in wild-type and sky1Delta yeast strains. To facilitate detection, MTR10 was genomically tagged with PrA in these strains (Pemberton et al. 1997). The Mtr10p-PrA fusion protein from yeast cytoplasmic extracts was captured by IgG-Sepharose and associated Npl3p was detected by Western blotting using polyclonal anti-Npl3p antibodies. Npl3p bound Mtr10p-PrA in wild-type yeast as previously reported (Pemberton et al. 1997; Senger et al. 1998), but binding was less efficient in sky1Delta cells (Fig. 3 a; see also Fig. 6 d). Such a reduction in binding between Mtr10p and unphosphorylated Npl3p is significant, considering that more Npl3p molecules are available for Mtr10p binding in the cytoplasm of sky1Delta cells (Fig. 2 b, data not shown). These results demonstrate that Sky1p plays an important role in facilitating the interaction between Npl3p and Mtr10p in vivo and provide a molecular basis for the observation that Sky1p-mediated phosphorylation is required for efficient nuclear localization of Npl3p.</text>
+      <annotation id="11">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="16718" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="12">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="16821" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="17413" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="15">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="17423" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="A15">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="16900" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="A16">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="16912" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="PPIm_346">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="16714" length="185"/>
+        <text>The Mtr10p-PrA fusion protein from yeast cytoplasmic extracts was captured by IgG-Sepharose and associated Npl3p was detected by Western blotting using polyclonal anti-Npl3p antibodies.</text>
+      </annotation>
+      <annotation id="PPIm_347">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="16900" length="190"/>
+        <text>Npl3p bound Mtr10p-PrA in wild-type yeast as previously reported (Pemberton et al. 1997; Senger et al. 1998), but binding was less efficient in sky1Delta cells (Fig. 3 a; see also Fig. 6 d).</text>
+      </annotation>
+      <annotation id="PPIm_348">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="17312" length="268"/>
+        <text>These results demonstrate that Sky1p plays an important role in facilitating the interaction between Npl3p and Mtr10p in vivo and provide a molecular basis for the observation that Sky1p-mediated phosphorylation is required for efficient nuclear localization of Npl3p.</text>
+      </annotation>
+      <annotation id="PPIe_199">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="16900" length="190"/>
+        <text>Npl3p bound Mtr10p-PrA in wild-type yeast as previously reported (Pemberton et al. 1997; Senger et al. 1998), but binding was less efficient in sky1Delta cells (Fig. 3 a; see also Fig. 6 d).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17567</offset>
+      <text>To determine whether Sky1p mediates a direct interaction between the cargo and its import receptor, we carried out in vitro binding studies using a GST-Npl3p fusion protein to pull down in vitro-translated 35S-labeled Mtr10p. We found that phosphorylated Npl3p bound Mtr10p directly (Fig. 3 b, lane 4) with a high affinity (Kd = 30 nM, data not shown). Such a high affinity was also reflected by the nearly quantitative capture of input Mtr10p in the binding reactions (Fig. 3b and Fig. c). Similar to the coimmunoprecipitation results, both unphosphorylated GST-Npl3p and the S411A mutant interacted less efficiently with Mtr10p than Sky1p-phosphorylated GST-Npl3p (Fig. 3 b, compare lane 4 with lanes 3 and 5). However, the difference was reproducibly smaller than that observed in vivo, suggesting that an additional mechanism may operate in cells to discriminate between Npl3p phosphorylation states. Indeed, we observed that binding of unphosphorylated GST-Npl3p to Mtr10p was significantly reduced in the presence of a yeast extract while binding of phosphorylated GST-Npl3p remained efficient (Fig. 3 b, lanes 6-9). To provide further evidence that Npl3p interacts directly with Mtr10p, we expressed and purified recombinant histidine and S peptide-tagged Mtr10p, which was then used to interact with GST-Npl3p in different phosphorylation states. As shown in Fig. 3 c, recombinant His-S-Mtr10p bound GST-Npl3p. The binding was modestly affected by phosphorylation (Fig. 3 c, compare lanes 3 and 4) in the absence of the yeast extract, and significantly diminished in the presence of the yeast extract (Fig. 3 c, compare lanes 6 and 7). Together, these results demonstrate that the physical interaction between Npl3p and Mtr10p is profoundly affected by Sky1p-mediated phosphorylation both in vivo and in vitro in the presence of a yeast extract.</text>
+      <annotation id="18">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="17719" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="17785" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="17822" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="17834" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="18538" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="18529" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="18723" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="18753" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="18830" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="18879" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="19285" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="19295" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="112">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="18962" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="113">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="18979" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="PPIm_349">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="17567" length="225"/>
+        <text>To determine whether Sky1p mediates a direct interaction between the cargo and its import receptor, we carried out in vitro binding studies using a GST-Npl3p fusion protein to pull down in vitro-translated 35S-labeled Mtr10p.</text>
+      </annotation>
+      <annotation id="PPIm_350">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="17793" length="126"/>
+        <text>We found that phosphorylated Npl3p bound Mtr10p directly (Fig. 3 b, lane 4) with a high affinity (Kd = 30 nM, data not shown).</text>
+      </annotation>
+      <annotation id="PPIm_351">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="18472" length="217"/>
+        <text>Indeed, we observed that binding of unphosphorylated GST-Npl3p to Mtr10p was significantly reduced in the presence of a yeast extract while binding of phosphorylated GST-Npl3p remained efficient (Fig. 3 b, lanes 6-9).</text>
+      </annotation>
+      <annotation id="PPIm_352">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="18690" length="231"/>
+        <text>To provide further evidence that Npl3p interacts directly with Mtr10p, we expressed and purified recombinant histidine and S peptide-tagged Mtr10p, which was then used to interact with GST-Npl3p in different phosphorylation states.</text>
+      </annotation>
+      <annotation id="PPIm_353">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="18922" length="63"/>
+        <text>As shown in Fig. 3 c, recombinant His-S-Mtr10p bound GST-Npl3p.</text>
+      </annotation>
+      <annotation id="PPIm_354">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="19211" length="209"/>
+        <text>Together, these results demonstrate that the physical interaction between Npl3p and Mtr10p is profoundly affected by Sky1p-mediated phosphorylation both in vivo and in vitro in the presence of a yeast extract.</text>
+      </annotation>
+      <annotation id="PPIe_200">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="17567" length="225"/>
+        <text>To determine whether Sky1p mediates a direct interaction between the cargo and its import receptor, we carried out in vitro binding studies using a GST-Npl3p fusion protein to pull down in vitro-translated 35S-labeled Mtr10p.</text>
+      </annotation>
+      <annotation id="PPIe_201">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="18922" length="63"/>
+        <text>As shown in Fig. 3 c, recombinant His-S-Mtr10p bound GST-Npl3p.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19427</offset>
+      <text>The mechanism for the observed effect of yeast extract requires further investigation, although we ruled out several simple scenarios. First, RNA and DNA in the yeast extract might block unphosphorylated Npl3p through ionic interactions, thereby preventing its interaction with Mtr10p. However, our binding reactions were routinely carried out in the presence of excess total yeast tRNA, and treatment of the yeast extract with RNase and DNase did not improve the interaction of Mtr10p with unphosphorylated Npl3p (data not shown). Thus, the effect does not seem to be due to RNA or DNA in the yeast extract. Second, a protein factor might bind specifically to unphosphorylated Npl3p to sequester it from contacting Mtr10p. We deleted the COOH-terminal domain containing the Sky1p phosphorylation site, and the mutant protein behaved the same way as unphosphorylated Npl3p (see below). This observation suggests that the sequestering scenario may not be true. Third, we tested both whole cell and cytosolic extracts from wild-type or sky1Delta yeast strains, and observed the same effect. Thus, it is unlikely that endogenous phosphorylated Npl3p in the extracts was in competition with unphosphorylated Npl3p in the in vitro binding assays. Furthermore, we tested Escherichia coli extract or included NP-40 in washing buffer, and under either condition, we detected some reduction of nonspecific binding through free GST, but no effect on phosphorylation-dependent binding (data not shown). Future studies will test whether other Mtr10p cargos unaffected by Sky1p in the extracts compete out unphosphorylated Npl3p, or more interestingly, whether a cofactor cooperates with Mtr10p to enhance and/or stabilize its interaction with phosphorylated Npl3p.</text>
+      <annotation id="38">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="21102" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="21173" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="PPIm_355">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="20919" length="260"/>
+        <text>Future studies will test whether other Mtr10p cargos unaffected by Sky1p in the extracts compete out unphosphorylated Npl3p, or more interestingly, whether a cofactor cooperates with Mtr10p to enhance and/or stabilize its interaction with phosphorylated Npl3p.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>21177</offset>
+      <text>Mtr10p Contacts the RGG Box in Npl3p</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21214</offset>
+      <text>The RS domain of mammalian SR proteins is believed to directly engage in protein-protein interactions, and phosphorylation of the RS domain can therefore modulate the affinity between two interacting RS domains. It is unclear, however, whether the COOH-terminal region harboring the last RS dipeptide in Npl3p directly interacts with Mtr10p, which does not contain an RS domain itself. Both the repetitive RGG domain and the COOH-terminal nonrepetitive sequence are required for Npl3p to localize in the nucleus, but neither functions as an autonomous NLS (Senger et al. 1998). How these two types of sequences act together as a functional NLS remains obscure. To determine which of these sequences directly contacts Mtr10p, we carried out in vitro binding studies using a series of npl3p COOH-terminal deletion mutants. In the absence of yeast extract, both unphosphorylated Npl3p and the COOH-terminal deletion mutant Delta1 bound Mtr10p, but further deletion of the RGG domain gradually decreased binding (Fig. 4 a, lanes 2-7). In the presence of yeast extract, however, both unphosphorylated Npl3p and Delta1 mutant retained a low level binding and further deletions eliminated binding (Fig. 4 a, lanes 10-15). These biochemical experiments, together with the genetic evidence described below, suggest that the RGG domain serves as the binding site for Mtr10p and that binding is allosterically regulated by Sky1-mediated phosphorylation at Ser411.</text>
+      <annotation id="41">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="22090" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="42">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="22147" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="PPIm_356">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="22035" length="209"/>
+        <text>In the absence of yeast extract, both unphosphorylated Npl3p and the COOH-terminal deletion mutant Delta1 bound Mtr10p, but further deletion of the RGG domain gradually decreased binding (Fig. 4 a, lanes 2-7).</text>
+      </annotation>
+      <annotation id="PPIe_202">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="22035" length="209"/>
+        <text>In the absence of yeast extract, both unphosphorylated Npl3p and the COOH-terminal deletion mutant Delta1 bound Mtr10p, but further deletion of the RGG domain gradually decreased binding (Fig. 4 a, lanes 2-7).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22667</offset>
+      <text>Significantly, our binding studies revealed that the interaction of Mtr10p with the RGG domain of Npl3p decreased gradually as this domain was truncated (Fig. 4 a, lanes 2-7). To determine whether this gradual decrease in binding correlated with a gradual loss of function, we performed a plasmid shuffling experiment using individual deletion mutants to substitute for wild-type Npl3p. Fig. 4 b shows that a point mutation (S411A) and deletion (Delta1) of the Sky1p phosphorylation site in Npl3p had little effect on growth. Although these mutations significantly reduced Mtr10p binding in the presence of yeast extract (Fig. 4 a, lanes 10 and 12), the residual binding was nevertheless sufficient for growth. This observation is also consistent with SKY1 being a nonessential gene under laboratory conditions. However, deletion of some RGG repeats (Delta3) severely impaired growth, but surprisingly, cells were still able to grow slowly at 25 C although not at 37 C, and further deletions (Delta6 and DeltaRS) completely inactivated Npl3p function. Therefore, a gradual decrease in Mtr10p binding is correlated with a gradual loss of Npl3p function in supporting growth, although the growth defect may result from pleiotropic effects of Npl3p as the function of the RGG domain may not be restricted to nuclear import.</text>
+      <annotation id="44">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="22735" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="45">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="22765" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="PPIm_357">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="22667" length="175"/>
+        <text>Significantly, our binding studies revealed that the interaction of Mtr10p with the RGG domain of Npl3p decreased gradually as this domain was truncated (Fig. 4 a, lanes 2-7).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23980</offset>
+      <text>SKY1 and MTR10 Show a Genetic Interaction</text>
+      <annotation id="47">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855256</infon>
+        <location offset="23980" length="4"/>
+        <text>SKY1</text>
+      </annotation>
+      <annotation id="48">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="23989" length="5"/>
+        <text>MTR10</text>
+      </annotation>
+      <annotation id="GIm_22">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="23980" length="41"/>
+        <text>SKY1 and MTR10 Show a Genetic Interaction</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24022</offset>
+      <text>To provide further in vivo evidence for the functional importance of the interaction between the RGG box and Mtr10p in nuclear import, we reasoned that if the absence of Sky1p-mediated phosphorylation impaired but did not eliminate the Npl3p-Mtr10p interaction as seen in the coimmunoprecipitation and in vitro binding experiments, overexpression of Mtr10p might compensate for both inefficient Mtr10p binding and nuclear import caused by phosphorylation defects. To examine this possibility, we conducted an overexpression suppression experiment, and found that both the npl3p(S411A) mutant in wild-type yeast and wild-type Npl3p in sky1Delta cells were driven back in to the nucleus when Mtr10p was overexpressed (Fig. 5 a). A similar observation was also made with the npl3p(E409K) mutant by the Silver laboratory (Krebber et al. 1999). These experiments clearly illustrate the importance of Mtr10p binding in Npl3p nuclear import and the regulatory nature of Sky1p-mediated phosphorylation in this process.</text>
+      <annotation id="50">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="24258" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="51">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="24264" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="PPIm_358">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <location offset="24022" length="463"/>
+        <text>To provide further in vivo evidence for the functional importance of the interaction between the RGG box and Mtr10p in nuclear import, we reasoned that if the absence of Sky1p-mediated phosphorylation impaired but did not eliminate the Npl3p-Mtr10p interaction as seen in the coimmunoprecipitation and in vitro binding experiments, overexpression of Mtr10p might compensate for both inefficient Mtr10p binding and nuclear import caused by phosphorylation defects.</text>
+      </annotation>
+      <annotation id="PPIe_203">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <location offset="24022" length="463"/>
+        <text>To provide further in vivo evidence for the functional importance of the interaction between the RGG box and Mtr10p in nuclear import, we reasoned that if the absence of Sky1p-mediated phosphorylation impaired but did not eliminate the Npl3p-Mtr10p interaction as seen in the coimmunoprecipitation and in vitro binding experiments, overexpression of Mtr10p might compensate for both inefficient Mtr10p binding and nuclear import caused by phosphorylation defects.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25032</offset>
+      <text>Both published work (Pemberton et al. 1997; Senger et al. 1998) and our current results demonstrate that Mtr10p functions as the major nuclear import pathway for Npl3p. However, deletion of MTR10 generated a temperature sensitive rather than lethal phenotype (Pemberton et al. 1997). In our hands, deletion of MTR10 resulted in no growth at 37 C (data not shown) but had little effect on growth at 30 C (Fig. 5 b, top right). These observations suggest that Npl3p may also be imported through a separate pathway. Sky1p may also function in this parallel import pathway and/or downstream from the nuclear import step. In either case, simultaneous deletion of both SKY1 and MTR10 would result in a synthetic lethal phenotype. This prediction was confirmed as deletion of both SKY1 and MTR10 prevented cell growth at both 25 (data not shown) and 30 C (Fig. 5 b, top left). These results, coupled with those of the overexpression suppression experiment, clearly establish a genetic interaction between SKY1 and MTR10, and are complementary to the biochemical evidence for the function of Sky1p in nuclear import.</text>
+      <annotation id="53">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855256</infon>
+        <location offset="25806" length="4"/>
+        <text>SKY1</text>
+      </annotation>
+      <annotation id="54">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="25815" length="5"/>
+        <text>MTR10</text>
+      </annotation>
+      <annotation id="56">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855256</infon>
+        <location offset="26030" length="4"/>
+        <text>SKY1</text>
+      </annotation>
+      <annotation id="57">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="26039" length="5"/>
+        <text>MTR10</text>
+      </annotation>
+      <annotation id="A39">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855256</infon>
+        <location offset="25695" length="4"/>
+        <text>SKY1</text>
+      </annotation>
+      <annotation id="A40">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="25704" length="5"/>
+        <text>MTR10</text>
+      </annotation>
+      <annotation id="GIe_9">
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="25649" length="106"/>
+        <text>In either case, simultaneous deletion of both SKY1 and MTR10 would result in a synthetic lethal phenotype.</text>
+      </annotation>
+      <annotation id="GIm_23">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="25649" length="106"/>
+        <text>In either case, simultaneous deletion of both SKY1 and MTR10 would result in a synthetic lethal phenotype.</text>
+      </annotation>
+      <annotation id="GIm_24">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="25756" length="145"/>
+        <text>This prediction was confirmed as deletion of both SKY1 and MTR10 prevented cell growth at both 25 (data not shown) and 30 C (Fig. 5 b, top left).</text>
+      </annotation>
+      <annotation id="GIm_25">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="25902" length="238"/>
+        <text>These results, coupled with those of the overexpression suppression experiment, clearly establish a genetic interaction between SKY1 and MTR10, and are complementary to the biochemical evidence for the function of Sky1p in nuclear import.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>26144</offset>
+      <text>Arginine Methylation Affects the Npl3p Import Pathway In Vivo</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26206</offset>
+      <text>In addition to Sky1p-mediated phosphorylation, Npl3p is also modified in the RGG domain by arginine methylation (Henry and Silver 1996; Siebel and Guthrie 1996), and this modification is mediated by the predominant arginine methyltransferase Hmt1p/Rmt1p in budding yeast (Gary et al. 1996; Henry and Silver 1996). Interestingly, cytoplasmic localization of Npl3p could be induced by overexpressing HMT1/RMT1 (Fig. 6 a) even though overexpressed Hmt1p/Rmt1p exclusively localized in the nucleus (Henry and Silver 1996). Because Npl3p continously shuttles between the nucleus and the cytoplasm, the observed steady state localization of Npl3p in the cytoplasm of sky1Delta yeast could be explained by a positive role of Sky1p in nuclear import and/or a negative function of the kinase in nuclear export. The former appears to be the case based on the evidence presented in this report, and the latter remains a possibility to be addressed. Similarly, the localization of Npl3p in the cytoplasm of HMT1/RMT1-overexpressing cells is consistent with a negative role of Hmt1p/Rmt1p in nuclear import and/or a positive function of the arginine methyltransferase in export. Hmt1p/Rmt1p was previously shown to play a positive role in Npl3p export (Shen et al. 1998; McBride et al. 2000), but its potential function in nuclear import has not been examined.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27551</offset>
+      <text>Because the import pathway for Npl3p is well characterized, we asked whether overexpression of HMT1/RMT1 could induce Npl3p hypermethylation and whether Hmt1p/Rmt1p-induced hypermethylation could exert a negative influence on Npl3p nuclear import through Mtr10p. For these purposes, we transformed wild-type yeast with the HMT1/RMT1 gene under the GAL1 promoter and examined Npl3p methylation using the methylation-specific mAb 1E4 (Wilson et al. 1994; Siebel and Guthrie 1996). When the expression of HMT1/RMT1 was induced with galactose (Fig. 6 b), methylation of Npl3p increased over time (Fig. 6 c), indicating that Npl3p became hypermethylated. Consequently, the Npl3p-Mtr10p complexes formed in cells overexpressing HMT1/RMT1 were reduced (Fig. 6 d). These data strongly suggest that arginine methylation plays a negative role in Npl3p nuclear import. It should be pointed out that these data do not argue against a positive role for arginine methylation in Npl3p export, and it is quite plausible that the effect of overexpressed Hmt1p on Npl3p localization (Fig. 6 a) results from a combination of negative impact on import and positive influence on export (see Discussion).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28736</offset>
+      <text>Arginine Methylation Indirectly Interferes with the Npl3p-Mtr10p Interaction</text>
+      <annotation id="59">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="28788" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="60">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="28794" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="PPIm_359">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="28736" length="76"/>
+        <text>Arginine Methylation Indirectly Interferes with the Npl3p-Mtr10p Interaction</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28815</offset>
+      <text>To understand the mechanism by which arginine methylation interferes with the Npl3p-Mtr10p interaction in vivo, we asked whether the reduced interaction between Npl3p and Mtr10p was a direct consequence of Hmt1p/Rmt1p-catalyzed arginine methylation of the RGG motifs in Npl3p. In vitro methylation of a series of COOH-terminal deletion mutants revealed that arginine methylation of Npl3p took place in the middle of the RGG domain (Fig. 7 a). Although half of the RGG repeats remain in the Delta6 mutant, it is possible that these repeats are methylated in the full length protein but not in the mutant due to a conformational change. We then tested whether arginine methylation directly interfered with Mtr10p binding. As shown in Fig. 7 b, both unmethylated control and Npl3p treated with saturating methylation conditions bound Mtr10p indistinguishably (lanes 3 and 4), suggesting that methylation alone does not affect the Npl3p-Mtr10p interaction. We noted, however, that the interaction of Npl3p with Mtr10p was significantly reduced in the presence of yeast extract, regardless of its methylation state (Fig. 7 b, lanes 6 and 7), indicating that phosphorylation might be a prerequisite for a potential methylation effect on Npl3p binding to Mtr10p.</text>
+      <annotation id="62">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="29587" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="63">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="29646" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="65">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="29742" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="66">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="29748" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="68">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="29811" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="69">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="29822" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="A45">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="29197" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="A46">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="29085" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="A47">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852322</infon>
+        <location offset="29021" length="11"/>
+        <text>Hmt1p/Rmt1p</text>
+      </annotation>
+      <annotation id="PPIm_360">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="28815" length="276"/>
+        <text>To understand the mechanism by which arginine methylation interferes with the Npl3p-Mtr10p interaction in vivo, we asked whether the reduced interaction between Npl3p and Mtr10p was a direct consequence of Hmt1p/Rmt1p-catalyzed arginine methylation of the RGG motifs in Npl3p.</text>
+      </annotation>
+      <annotation id="PPIm_361">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="29092" length="165"/>
+        <text>In vitro methylation of a series of COOH-terminal deletion mutants revealed that arginine methylation of Npl3p took place in the middle of the RGG domain (Fig. 7 a).</text>
+      </annotation>
+      <annotation id="PPIm_362">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="29535" length="232"/>
+        <text>As shown in Fig. 7 b, both unmethylated control and Npl3p treated with saturating methylation conditions bound Mtr10p indistinguishably (lanes 3 and 4), suggesting that methylation alone does not affect the Npl3p-Mtr10p interaction.</text>
+      </annotation>
+      <annotation id="PPIm_363">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="29768" length="302"/>
+        <text>We noted, however, that the interaction of Npl3p with Mtr10p was significantly reduced in the presence of yeast extract, regardless of its methylation state (Fig. 7 b, lanes 6 and 7), indicating that phosphorylation might be a prerequisite for a potential methylation effect on Npl3p binding to Mtr10p.</text>
+      </annotation>
+      <annotation id="PPIe_204">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="28815" length="276"/>
+        <text>To understand the mechanism by which arginine methylation interferes with the Npl3p-Mtr10p interaction in vivo, we asked whether the reduced interaction between Npl3p and Mtr10p was a direct consequence of Hmt1p/Rmt1p-catalyzed arginine methylation of the RGG motifs in Npl3p.</text>
+      </annotation>
+      <annotation id="PPIe_205">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="29535" length="232"/>
+        <text>As shown in Fig. 7 b, both unmethylated control and Npl3p treated with saturating methylation conditions bound Mtr10p indistinguishably (lanes 3 and 4), suggesting that methylation alone does not affect the Npl3p-Mtr10p interaction.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30072</offset>
+      <text>To test this possibility, we investigated the effect of both modifications. When Npl3p was phosphorylated first with Sky1p, methylation had no effect on its efficient interaction with Mtr10p either in the presence or absence of yeast extract (Fig. 7 c, lanes 4 and 7). Surprisingly, when Npl3p was first methylated with Hmt1p/Rmt1p, further treatment with Sky1p failed to enhance its interaction with Mtr10p (Fig. 7 c, lane 9). These results suggest that Hmt1p/Rmt1p-mediated methylation may interfere with the Npl3p-Mtr10p interaction through an indirect mechanism.</text>
+      <annotation id="71">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="30583" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="72">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="30589" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="PPIm_364">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="30500" length="138"/>
+        <text>These results suggest that Hmt1p/Rmt1p-mediated methylation may interfere with the Npl3p-Mtr10p interaction through an indirect mechanism.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30641</offset>
+      <text>Methylation Antagonizes Phosphorylation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30681</offset>
+      <text>To investigate the mechanism by which Hmt1p/Rmt1p-mediated methylation interferes with phosphorylation-dependent binding, we carried out sequential modifications using the proteins illustrated in Fig. 8 a. Consistent with the binding results, prior phosphorylation with Sky1p or deletion of the Sky1p phosphorylation site (Delta1) had no effect on Hmt1p-mediated methylation of Npl3p (Fig. 8 b, lanes 1 and 3). In contrast, prior methylation with Hmtlp/Rmt1p significantly attenuated Sky1p-mediated phosphorylation of Npl3p (Fig. 8 c, lanes 1 and 4). Mock methylation with either Hmt1p (Fig. 8 c, lane 4) or the methylation donor SAM (data not shown) alone did not interfere with Npl3p phosphorylation. To rule out the possibility that Hmt1p/Rmt1p binds to Npl3p in the presence of a methylation donor, thereby sequestering Sky1p from binding to Npl3p, we carried out mock methylation in the presence of a SAM analogue, SAH. Clearly, Npl3p mock methylated with SAH was phosphorylated by Sky1p as efficiently as untreated Npl3p (Fig. 8 d). Thus, the effect of methylation on phosphorylation was due to modification on arginine residues.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31814</offset>
+      <text>Because arginine is critical for substrate recognition by the SRPK family of kinases (Colwill et al., 1996b; Wang et al. 1998; Siebel et al. 1999), we investigated the possibility that methylation on arginine residue 410 directly blocked Sky1p-mediated phosphorylation at serine 411. We fused the Sky1p phosphorylation site to Ikappab (Fig. 8 a) so that we could carry out phosphorylation without the adjacent RGG box. We found that phosphorylation of this fusion protein was unaffected by treatment with Hmt1p/Rmt1p (Fig. 8 c, lanes 3 and 6). We conclude that Hmt1p/Rmt1p-mediated methylation in the RGG domain interferes allosterically with Sky1p-mediated phosphorylation at the COOH-terminal sequence, which in turn regulates the binding of Mtr10p to the RGG domain.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>32581</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32592</offset>
+      <text>Our current results suggest that nuclear import of Npl3p is affected by juxtaposed methylation and phosphorylation (Fig. 9 a). Our finding that Sky1p-mediated phosphorylation plays an important role in nuclear import is consistent with the localization of the kinase in the cytoplasm. Thus, newly synthesized Npl3p may be readily phosphorylated by Sky1p in the cytoplasm for efficient interaction with its nuclear import receptor Mtr10p, which leads to efficient nuclear import, and this modification may also be important for the function of Npl3p in the nucleus. Upon translocation to the nucleus, RanGTP and RNA release Npl3p from the import complex, as previously demonstrated (Senger et al. 1998). The arginine methyltransferase Hmt1p/Rmt1p is localized in the nucleus even when it is overexpressed (Henry and Silver 1996), which may mediate multiple steps important for Npl3p export with RNA as proposed based on genetic studies (Shen et al. 1998). Because Npl3p is localized in the nucleus at steady state, its import (Fig. 9 a, large arrow) must be faster than export (Fig. 9 a, medium arrow) in wild-type yeast.</text>
+      <annotation id="74">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="32901" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="75">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855256</infon>
+        <location offset="32940" length="5"/>
+        <text>Sky1p</text>
+      </annotation>
+      <annotation id="76">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="33022" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="PPIm_365">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="32877" length="279"/>
+        <text>Thus, newly synthesized Npl3p may be readily phosphorylated by Sky1p in the cytoplasm for efficient interaction with its nuclear import receptor Mtr10p, which leads to efficient nuclear import, and this modification may also be important for the function of Npl3p in the nucleus.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33713</offset>
+      <text>Our results also extend previous genetic data regarding the function of methyltransferase Hmt1p/Rmt1p in Npl3p nucleocytoplasmic shuttling. As reported previously (Lee et al. 1996), wild-type GFP-Npl3p accumulated in the cytoplasm of nucleoporin mutant (nup49-313) cells when nuclear import was impaired (Fig. 9 b, small arrow) while nuclear export proceeded normally (Fig. 9 b, medium arrow). In the present studies, we found that phosphorylation defects also caused the accumulation of mutant npl3p in the cytoplasm of wild-type yeast (see Fig. 2; illustrated in Fig. 9 c) due to its inefficient interaction with Mtr10p. The function of Hmt1p/Rmt1p became evident when the HMT1/RMT1 gene was deleted or inactivated in these genetic backgrounds (Fig. 9d and Fig. e). When HMT1/RMT1 was deleted in the nup49-313 strain, wild-type GFP-Npl3p quantitatively relocated to the nucleus, as reported previously (Shen, et al. 1998). The observation was previously interpreted to indicate that nuclear export of GFP-Npl3p was impaired in the absence of Hmt1p/Rmt1p (Fig. 9 d, small arrow). However, considering the possibility that nuclear import in nup49-313 cells was impaired but not completely blocked at the restrictive temperature, redistribution of Npl3p to the nucleus of hmt1/rmt1Delta cells could also be contributed by the removal of the methylation interference of phosphorylation as shown in this study. As a result, improved import (Fig. 9 d, medium arrow) was concomitant with impaired export in the absence of Hmt1p/Rmt1p, which together caused efficient shift of Npl3p back into the nucleus.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35316</offset>
+      <text>According to this model, one would predict that the improvement of nuclear import could not occur if the Sky1p phosphorylation site is mutated. Indeed, we observed that GFP-npl3p(S411A) expressed from a plasmid under the GAL1 promoter remained in the cytoplasm of hmt1/rmt1Delta cells (data not shown). Consistently, endogenously expressed npl3p(E409K) only partially shifted back to the nucleus when Hmt1p/Rmt1p was inactivated (McBride et al. 2000). Thus, the observed distribution of the mutant npl3p in both the cytoplasm and the nucleus is likely due to defects in both import and export pathways (indicated by small arrows in both directions in Fig. 9 e). Together, these observations in combination with biochemical evidence presented in this report lend strong support for a positive role for the major arginine methyltransferase in Npl3p export and a negative role for this enzyme in Npl3p import in budding yeast.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36237</offset>
+      <text>The model presented in Fig. 9 raises several fundamental questions with regard to the functional consequences of phosphorylation and arginine methylation: (a) Which components of this regulatory pathway are conserved in mammalian cells? (b) Are phosphatases and demethylases involved in the pathway? and (c) Does this regulatory pathway represent some of the key steps in controlling the function of shuttling RNA binding proteins? Below, we discuss the significance of our novel findings in the context of these global questions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36768</offset>
+      <text>The NLS in Npl3p is composed of both repetitive (RGG repeats) and nonrepetitive (Sky1p phosphorylation site) sequences. Interestingly, these sequence features are conserved in two separate classes of RNA binding proteins (hnRNP and SR proteins) in mammalian cells (Burd and Dreyfuss 1994; Fu 1995). Many hnRNP proteins shuttle between the nucleus and the cytoplasm, but their transport appears to be mediated by separate signal sequences adjacent to their RGG domains (Nakielny and Dreyfuss 1997). Although hnRNP proteins are extensively modified by arginine methylation in mammalian cells (Liu and Dreyfuss 1995), how methylation might modulate their transport signals remains to be addressed. The RS domain in SR proteins is critical for nuclear and subnuclear localization (Li and Bingham 1991; Hedley et al. 1995; Caceres, et al. 1997). It was recently shown that SR proteins in mammalian cells interact with two Mtr10p-related receptors called transportin-SR (Kataoka et al. 1999) and transportin-SR2 (Lai et al. 2000). Thus, the transport machinery for SR and SR-like proteins, including nuclear import receptors (transportin-SR, transportin-SR2 and Mtr10p) and regulators (SRPKs), are conserved between yeast and humans. However, the yeast and metazoan receptors have evolved distinct substrate specificities because Mtr10p contacts the RGG box in Npl3p whereas transportin-SR interacts with the RS domain containing SR/RS instead of RGG repeats. Furthermore, it appears that transportin-SR can interact with unphosphorylated SR proteins in vitro, although potential phosphorylation regulation of the interaction was not addressed (Kataoka et al. 1999). On the other hand, the interaction between SR proteins and transportin-SR2 was shown to be dependent on SRPK-mediated phosphorylation (Lai et al. 2000). Future studies will define the signal sequences for nuclear import of SR proteins and address how their nuclear import might be regulated by SRPKs in mammalian cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38750</offset>
+      <text>Phosphorylation of SR proteins is required for spliceosome assembly and dephosphorylation is critical for the splicing reaction to occur (Mermoud et al. 1994). Npl3p and other Sky1p substrates may play a role in pre-mRNA splicing in budding yeast, but it is not known whether a phosphorylation-dephosphorylation cycle accompanies their function in the nucleus. In contrast to reversible phosphorylation, the reversibility of arginine methylation remains highly controversial. It is clear that arginine methylation is rather stable (Desjardins and Morell 1983). It has been argued that demethylation may be absent because the reaction to break the N-C bond would be energetically unfavorable and a potential arginine demethylase has not been found. In the absence of a specific arginine demethylase, we speculate that the stable arginine modification may serve as a mechanism to allow shuttling Npl3p sufficient time in the cytoplasm to unload its RNA cargo. Whether Sky1p-mediated phosphorylation, although inefficient on methylated Npl3p, serves as a molecular switch for unloading and reimport is another interesting possibility to be investigated. Considering the irreversibility of this modification, our data clearly demonstrated that methylation is not saturated on Npl3p, indicating that arginine methylation may be more dynamic than previously assumed. Since Npl3p is largely cytoplasmic when hypermethylated, it is possible that nuclear import of Npl3p may gradually decrease as methylation gradually accumulates. Thus, methylation may function as a molecular device to determine how many cycles each Npl3p molecule can shuttle between the nucleus and cytoplasm before it is degraded in the cytoplasm. Further experiments will test this interesting possibility.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40525</offset>
+      <text>Continuous shuttling of RNA binding proteins may not only reflect their function in transporting materials out of the nucleus, but also represent a mechanism to regulate their function in the nucleus. For example, hnRNP A1 and SR proteins can switch splice site selection in opposite ways in a concentration-dependent manner (for reviews see Fu 1995; Manley and Tacke 1996; Caceres and Krainer 1997). Therefore, the ratio of hnRNP and SR proteins in the nucleus may be critical for specific alternative splicing events. Modification of hnRNP proteins by arginine methylation and SR proteins by phosphorylation may effectively control their trafficking and therefore their ratio in the nucleus during development or in response to external stimuli. Our results using yeast as a genetic system have revealed a novel function of the conserved SRPK in regulated nuclear import and established a framework to investigate the function of the SRPK family members in mammalian cells.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kohler;given-names:G.</infon>
+      <infon key="name_3">surname:Nielsen;given-names:P.J.</infon>
+      <infon key="name_0">surname:Ayane;given-names:M.</infon>
+      <infon key="name_1">surname:Preuss;given-names:U.</infon>
+      <infon key="source">Nucleic Acids Res.</infon>
+      <infon key="volume">19</infon>
+      <infon key="pub-id_pmid">2030943</infon>
+      <infon key="fpage">1273</infon>
+      <infon key="year">1991</infon>
+      <infon key="lpage">1278</infon>
+      <infon key="type">ref</infon>
+      <offset>41502</offset>
+      <text>A differentially expressed murine RNA encoding a protein with similarities to two types of nucleic acid binding motifs</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Krainer;given-names:A.R.</infon>
+      <infon key="volume">21</infon>
+      <infon key="name_0">surname:Birney;given-names:E.</infon>
+      <infon key="name_1">surname:Kumar;given-names:S.</infon>
+      <infon key="source">Nucleic Acids Res.</infon>
+      <infon key="lpage">5816</infon>
+      <infon key="pub-id_pmid">8290338</infon>
+      <infon key="fpage">5803</infon>
+      <infon key="year">1993</infon>
+      <infon key="type">ref</infon>
+      <offset>41621</offset>
+      <text>Analysis of the RNA-recognition motif and RS and RGG domainsconservation in metazoan pre-mRNA splicing factors</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Vidali;given-names:G.</infon>
+      <infon key="name_3">surname:Allfrey;given-names:V.G.</infon>
+      <infon key="name_0">surname:Boffa;given-names:L.C.</infon>
+      <infon key="name_1">surname:Karn;given-names:J.</infon>
+      <infon key="source">Biochem. Biophys. Res. Commun.</infon>
+      <infon key="volume">74</infon>
+      <infon key="pub-id_pmid">843361</infon>
+      <infon key="fpage">969</infon>
+      <infon key="year">1977</infon>
+      <infon key="lpage">976</infon>
+      <infon key="type">ref</infon>
+      <offset>41732</offset>
+      <text>Distribution of NG,NG-dimethylarginine in nuclear protein fractions</text>
+    </passage>
+    <passage>
+      <infon key="volume">29</infon>
+      <infon key="name_0">surname:Burd;given-names:C.G.</infon>
+      <infon key="name_1">surname:Dreyfuss;given-names:G.</infon>
+      <infon key="source">Science</infon>
+      <infon key="lpage">621</infon>
+      <infon key="pub-id_pmid">8036511</infon>
+      <infon key="fpage">615</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>41800</offset>
+      <text>Conserved structures and diversity of functions of RNA-binding proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Screaton;given-names:G.R.</infon>
+      <infon key="name_3">surname:Spector;given-names:D.L.</infon>
+      <infon key="name_0">surname:Caceres;given-names:J.F.</infon>
+      <infon key="name_1">surname:Misteli;given-names:T.</infon>
+      <infon key="name_4">surname:Krainer;given-names:A.R.</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="volume">138</infon>
+      <infon key="pub-id_pmid">9230067</infon>
+      <infon key="fpage">225</infon>
+      <infon key="year">1997</infon>
+      <infon key="lpage">238</infon>
+      <infon key="type">ref</infon>
+      <offset>41872</offset>
+      <text>Role of the modular domains of SR proteins in subnuclear localization and alternative splicing specificity</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Krainer;given-names:A.R.</infon>
+      <infon key="name_0">surname:Caceres;given-names:J.F.</infon>
+      <infon key="name_1">surname:Krainer;given-names:A.R.</infon>
+      <infon key="lpage">212</infon>
+      <infon key="source">Eukaryotic mRNA ProcessingFrontiers in Molecular Biology</infon>
+      <infon key="fpage">174</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>41979</offset>
+      <text>Mammalian pre-mRNA splicing factors</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Garcia-Blanco;given-names:M.A.</infon>
+      <infon key="volume">3</infon>
+      <infon key="name_0">surname:Cao;given-names:W.</infon>
+      <infon key="name_1">surname:Jamison;given-names:S.F.</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">1467</infon>
+      <infon key="pub-id_pmid">9404896</infon>
+      <infon key="fpage">1456</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>42015</offset>
+      <text>Both phosphorylation and dephosphorylation of ASF/SF2 are required for pre-mRNA splicing in vitro</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Andrews;given-names:B.</infon>
+      <infon key="name_3">surname:Prasad;given-names:J.</infon>
+      <infon key="name_0">surname:Colwill;given-names:K.</infon>
+      <infon key="name_1">surname:Pawson;given-names:T.</infon>
+      <infon key="name_6">surname:Duncan;given-names:P.I.</infon>
+      <infon key="name_4">surname:Manley;given-names:J.L.</infon>
+      <infon key="name_5">surname:Bell;given-names:J.C.</infon>
+      <infon key="volume">15</infon>
+      <infon key="source">EMBO (Eur. Mol. Biol. Organ.) J.</infon>
+      <infon key="fpage">265</infon>
+      <infon key="year">1996</infon>
+      <infon key="lpage">275</infon>
+      <infon key="type">ref</infon>
+      <offset>42113</offset>
+      <text>The Clk/Sty protein kinase phosphorylates SR splicing factors and regulates their intracellular distribution</text>
+    </passage>
+    <passage>
+      <infon key="volume">97</infon>
+      <infon key="name_0">surname:Desjardins;given-names:K.C.</infon>
+      <infon key="name_1">surname:Morell;given-names:P.</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="lpage">446</infon>
+      <infon key="pub-id_pmid">6193125</infon>
+      <infon key="fpage">438</infon>
+      <infon key="year">1983</infon>
+      <infon key="type">ref</infon>
+      <offset>42222</offset>
+      <text>Phosphate groups modifying myelin basic proteins are metabolically labile; methyl groups are stable</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Lee;given-names:V.M.</infon>
+      <infon key="name_3">surname:Mohn;given-names:K.L.</infon>
+      <infon key="name_0">surname:Diamond;given-names:R.H.</infon>
+      <infon key="name_1">surname:Du;given-names:K.</infon>
+      <infon key="name_6">surname:Taub;given-names:R.</infon>
+      <infon key="name_4">surname:Haber;given-names:B.A.</infon>
+      <infon key="name_5">surname:Tewari;given-names:D.S.</infon>
+      <infon key="volume">268</infon>
+      <infon key="pub-id_pmid">7686911</infon>
+      <infon key="source">J. Biol. Chem</infon>
+      <infon key="fpage">15185</infon>
+      <infon key="year">1993</infon>
+      <infon key="lpage">15192</infon>
+      <infon key="type">ref</infon>
+      <offset>42322</offset>
+      <text>Novel delayed-early and highly insulin-induced growth response genes. Identification of HRS, a potential regulator of alternative pre-mRNA splicing</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Marius;given-names:R.M.</infon>
+      <infon key="name_3">surname:Bell;given-names:J.C.</infon>
+      <infon key="name_0">surname:Duncan;given-names:P.I.</infon>
+      <infon key="name_1">surname:Stojdl;given-names:D.F.</infon>
+      <infon key="source">Mol. Cell. Biol</infon>
+      <infon key="volume">17</infon>
+      <infon key="pub-id_pmid">9315658</infon>
+      <infon key="fpage">5996</infon>
+      <infon key="year">1997</infon>
+      <infon key="lpage">6001</infon>
+      <infon key="type">ref</infon>
+      <offset>42470</offset>
+      <text>In vivo regulation of alternative pre-mRNA splicing by the Clk1 protein kinase</text>
+    </passage>
+    <passage>
+      <infon key="volume">365</infon>
+      <infon key="name_0">surname:Fu;given-names:X.-D.</infon>
+      <infon key="source">Nature.</infon>
+      <infon key="lpage">85</infon>
+      <infon key="pub-id_pmid">8361546</infon>
+      <infon key="fpage">82</infon>
+      <infon key="year">1993</infon>
+      <infon key="type">ref</infon>
+      <offset>42549</offset>
+      <text>Specific commitment of different pre-mRNAs to splicing by single SR proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">7</infon>
+      <infon key="name_0">surname:Fu;given-names:X.-D.</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">680</infon>
+      <infon key="pub-id_pmid">7585252</infon>
+      <infon key="fpage">663</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>42626</offset>
+      <text>The superfamily of arginine/serine-rich splicing factors</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Yang;given-names:M.C.</infon>
+      <infon key="name_3">surname:Herschman;given-names:H.R.</infon>
+      <infon key="name_0">surname:Gary;given-names:J.D.</infon>
+      <infon key="name_1">surname:Lin;given-names:W.J.</infon>
+      <infon key="name_4">surname:Clarke;given-names:S.</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="volume">271</infon>
+      <infon key="pub-id_pmid">8647869</infon>
+      <infon key="fpage">12585</infon>
+      <infon key="year">1996</infon>
+      <infon key="lpage">12594</infon>
+      <infon key="type">ref</infon>
+      <offset>42683</offset>
+      <text>The predominant protein-arginine methyltransferase from Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Fu;given-names:X.-D.</infon>
+      <infon key="volume">369</infon>
+      <infon key="name_0">surname:Gui;given-names:J.F.</infon>
+      <infon key="name_1">surname:Lane;given-names:W.S.</infon>
+      <infon key="source">Nature.</infon>
+      <infon key="citation">a</infon>
+      <infon key="lpage">682</infon>
+      <infon key="pub-id_pmid">8208298</infon>
+      <infon key="fpage">678</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>42766</offset>
+      <text>A serine kinase regulates intracellular localization of splicing factors in the cell cycle</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Chandler;given-names:S.D.</infon>
+      <infon key="name_3">surname:Fu;given-names:X.-D.</infon>
+      <infon key="name_0">surname:Gui;given-names:J.F.</infon>
+      <infon key="name_1">surname:Tronchere;given-names:H.</infon>
+      <infon key="source">Proc. Natl. Acad. Sci. USA.</infon>
+      <infon key="citation">b</infon>
+      <infon key="volume">91</infon>
+      <infon key="pub-id_pmid">7526381</infon>
+      <infon key="fpage">10824</infon>
+      <infon key="year">1994</infon>
+      <infon key="lpage">10828</infon>
+      <infon key="type">ref</infon>
+      <offset>42857</offset>
+      <text>Purification and characterization of a kinase specific for the serine- and arginine-rich pre-mRNA splicing factors</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Maniatis;given-names:T.</infon>
+      <infon key="volume">92</infon>
+      <infon key="name_0">surname:Hedley;given-names:M.L.</infon>
+      <infon key="name_1">surname:Amrein;given-names:H.</infon>
+      <infon key="source">Proc. Natl. Acad. Sci. USA.</infon>
+      <infon key="lpage">11528</infon>
+      <infon key="pub-id_pmid">8524796</infon>
+      <infon key="fpage">11524</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>42972</offset>
+      <text>An amino acid sequence motif sufficient for subnuclear localization of an arginine/serine-rich splicing factor</text>
+    </passage>
+    <passage>
+      <infon key="volume">16</infon>
+      <infon key="name_0">surname:Henry;given-names:M.F.</infon>
+      <infon key="name_1">surname:Silver;given-names:P.A.</infon>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="lpage">3678</infon>
+      <infon key="pub-id_pmid">8668183</infon>
+      <infon key="fpage">3668</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>43083</offset>
+      <text>A novel methyltransferase (Hmt1p) modifies poly(A)+-RNA-binding proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Hitomi;given-names:M.</infon>
+      <infon key="name_3">surname:Jacobs;given-names:E.</infon>
+      <infon key="name_0">surname:Kadowaki;given-names:T.</infon>
+      <infon key="name_1">surname:Chen;given-names:S.</infon>
+      <infon key="name_6">surname:Schneiter;given-names:R.</infon>
+      <infon key="name_7">surname:Singleton;given-names:D.</infon>
+      <infon key="name_4">surname:Kumagai;given-names:C.</infon>
+      <infon key="name_5">surname:Liang;given-names:S.</infon>
+      <infon key="name_8">surname:Wisniewska;given-names:J.</infon>
+      <infon key="name_9">surname:Tartakoff;given-names:A.M.</infon>
+      <infon key="volume">126</infon>
+      <infon key="pub-id_pmid">8045930</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="fpage">649</infon>
+      <infon key="year">1994</infon>
+      <infon key="lpage">659</infon>
+      <infon key="type">ref</infon>
+      <offset>43156</offset>
+      <text>Isolation and characterization of Saccharomyces cerevisiae mRNA transport-defective (mtr) mutants</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Boffa;given-names:L.C.</infon>
+      <infon key="name_3">surname:Allfrey;given-names:V.G.</infon>
+      <infon key="name_0">surname:Karn;given-names:J.</infon>
+      <infon key="name_1">surname:Vidali;given-names:G.</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="volume">252</infon>
+      <infon key="pub-id_pmid">903364</infon>
+      <infon key="fpage">7307</infon>
+      <infon key="year">1977</infon>
+      <infon key="lpage">7322</infon>
+      <infon key="type">ref</infon>
+      <offset>43254</offset>
+      <text>Characterization of the non-histone nuclear proteins associated with rapidly labeled heterogeneous nuclear RNA</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Dreyfuss;given-names:G.</infon>
+      <infon key="volume">145</infon>
+      <infon key="name_0">surname:Kataoka;given-names:N.</infon>
+      <infon key="name_1">surname:Bachorik;given-names:J.L.</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="lpage">1152</infon>
+      <infon key="pub-id_pmid">10366588</infon>
+      <infon key="fpage">1145</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>43365</offset>
+      <text>Transportin-SR, a nuclear import receptor for SR proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Will;given-names:C.L.</infon>
+      <infon key="name_3">surname:Zuo;given-names:P.</infon>
+      <infon key="name_0">surname:Kohtz;given-names:J.D.</infon>
+      <infon key="name_1">surname:Jamison;given-names:S.F.</infon>
+      <infon key="name_6">surname:Manley;given-names:J.L.</infon>
+      <infon key="name_4">surname:Luhrmann;given-names:R.</infon>
+      <infon key="name_5">surname:Garcia-Blanco;given-names:M.A.</infon>
+      <infon key="volume">368</infon>
+      <infon key="pub-id_pmid">8139654</infon>
+      <infon key="source">Nature.</infon>
+      <infon key="fpage">119</infon>
+      <infon key="year">1994</infon>
+      <infon key="lpage">124</infon>
+      <infon key="type">ref</infon>
+      <offset>43423</offset>
+      <text>Protein-protein interactions and 5'-splice-site recognition in mammalian mRNA precursors</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Lee;given-names:M.S.</infon>
+      <infon key="name_3">surname:Silver;given-names:P.A.</infon>
+      <infon key="name_0">surname:Krebber;given-names:H.</infon>
+      <infon key="name_1">surname:Taura;given-names:T.</infon>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="volume">13</infon>
+      <infon key="pub-id_pmid">10444597</infon>
+      <infon key="fpage">1994</infon>
+      <infon key="year">1999</infon>
+      <infon key="lpage">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>43516</offset>
+      <text>Uncoupling of the hnRNP Npl3p from mRNAs during the stress-induced block in mRNA export</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="name_0">surname:Krecic;given-names:A.M.</infon>
+      <infon key="name_1">surname:Swanson;given-names:M.S.</infon>
+      <infon key="source">Curr. Opin. Cell Biol.</infon>
+      <infon key="lpage">371</infon>
+      <infon key="pub-id_pmid">10395553</infon>
+      <infon key="fpage">363</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>43604</offset>
+      <text>hnRNP complexescomposition, structure, and function</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Huang;given-names:S.-Y.</infon>
+      <infon key="name_3">surname:Tsai;given-names:C.-W.</infon>
+      <infon key="name_0">surname:Lai;given-names:M.-C.</infon>
+      <infon key="name_1">surname:Lin;given-names:R.-I.</infon>
+      <infon key="name_4">surname:Tarn;given-names:W.-Y.</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="volume">275</infon>
+      <infon key="pub-id_pmid">10713112</infon>
+      <infon key="fpage">7950</infon>
+      <infon key="year">2000</infon>
+      <infon key="lpage">7957</infon>
+      <infon key="type">ref</infon>
+      <offset>43656</offset>
+      <text>A human importin-beta family protein, Transportin-SR2, interacts with the phosphorylated RS domain of SR proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Silver;given-names:P.A.</infon>
+      <infon key="volume">10</infon>
+      <infon key="name_0">surname:Lee;given-names:M.S.</infon>
+      <infon key="name_1">surname:Henry;given-names:M.F.</infon>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="lpage">1246</infon>
+      <infon key="pub-id_pmid">8675010</infon>
+      <infon key="fpage">1233</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>43768</offset>
+      <text>A protein that shuttles between the nucleus and the cytoplasm is an important mediator of RNA export</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Sarkissian;given-names:M.</infon>
+      <infon key="name_3">surname:Lafyatis;given-names:R.</infon>
+      <infon key="name_0">surname:Lemaire;given-names:R.</infon>
+      <infon key="name_1">surname:Winne;given-names:A.</infon>
+      <infon key="source">Eur. J. Immunol.</infon>
+      <infon key="volume">29</infon>
+      <infon key="pub-id_pmid">10092085</infon>
+      <infon key="fpage">823</infon>
+      <infon key="year">1999</infon>
+      <infon key="lpage">837</infon>
+      <infon key="type">ref</infon>
+      <offset>43869</offset>
+      <text>SF2 and SRp55 regulation of CD45 exon 4 skipping during T cell activation</text>
+    </passage>
+    <passage>
+      <infon key="volume">67</infon>
+      <infon key="name_0">surname:Li;given-names:H.</infon>
+      <infon key="name_1">surname:Bingham;given-names:P.M.</infon>
+      <infon key="source">Cell.</infon>
+      <infon key="lpage">342</infon>
+      <infon key="pub-id_pmid">1655279</infon>
+      <infon key="fpage">335</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>43943</offset>
+      <text>Arginine/serine-rich domains of the su(wa) and tra RNA processing regulators target proteins to a subnuclear compartment implicated in splicing</text>
+    </passage>
+    <passage>
+      <infon key="volume">15</infon>
+      <infon key="name_0">surname:Liu;given-names:Q.</infon>
+      <infon key="name_1">surname:Dreyfuss;given-names:G.</infon>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="lpage">2808</infon>
+      <infon key="pub-id_pmid">7739561</infon>
+      <infon key="fpage">2800</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>44087</offset>
+      <text>In vivo and in vitro arginine methylation of RNA binding proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">10</infon>
+      <infon key="name_0">surname:Manley;given-names:J.L.</infon>
+      <infon key="name_1">surname:Tacke;given-names:R.</infon>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="lpage">1579</infon>
+      <infon key="pub-id_pmid">8682289</infon>
+      <infon key="fpage">1569</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>44153</offset>
+      <text>SR proteins and splicing control</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kim;given-names:H.K.</infon>
+      <infon key="name_3">surname:Hogle;given-names:J.M.</infon>
+      <infon key="name_0">surname:McBride;given-names:A.E.</infon>
+      <infon key="name_1">surname:Weiss;given-names:V.H.</infon>
+      <infon key="name_4">surname:Silver;given-names:P.A.</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="volume">275</infon>
+      <infon key="pub-id_pmid">10652296</infon>
+      <infon key="fpage">3128</infon>
+      <infon key="year">2000</infon>
+      <infon key="lpage">3136</infon>
+      <infon key="type">ref</infon>
+      <offset>44186</offset>
+      <text>Analysis of the yeast arginine methyltransferase Hmt1p/Rmt1p and its in vivo function. Cofactor binding and substrate interactions</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Lamond;given-names:A.E.</infon>
+      <infon key="volume">13</infon>
+      <infon key="name_0">surname:Mermoud;given-names:J.E.</infon>
+      <infon key="name_1">surname:Cohen;given-names:P.T.</infon>
+      <infon key="lpage">5688</infon>
+      <infon key="source">EMBO (Eur. Mol. Biol. Organ.) J.</infon>
+      <infon key="fpage">5679</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>44317</offset>
+      <text>Regulation of mammalian spliceosome assembly by a protein phosphorylation mechanism</text>
+    </passage>
+    <passage>
+      <infon key="volume">9</infon>
+      <infon key="name_0">surname:Nakielny;given-names:S.</infon>
+      <infon key="name_1">surname:Dreyfuss;given-names:G.</infon>
+      <infon key="source">Curr. Opin. Cell Biol.</infon>
+      <infon key="lpage">429</infon>
+      <infon key="pub-id_pmid">9159083</infon>
+      <infon key="fpage">420</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>44401</offset>
+      <text>Nuclear export of proteins and RNAs</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Blobel;given-names:G.</infon>
+      <infon key="volume">139</infon>
+      <infon key="name_0">surname:Pemberton;given-names:L.F.</infon>
+      <infon key="name_1">surname:Rosenblum;given-names:J.S.</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="lpage">1653</infon>
+      <infon key="pub-id_pmid">9412460</infon>
+      <infon key="fpage">1645</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>44437</offset>
+      <text>A distinct and parallel pathway for the nuclear import of an mRNA-binding protein</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Pawson;given-names:T.</infon>
+      <infon key="name_3">surname:Manley;given-names:J.L.</infon>
+      <infon key="name_0">surname:Prasad;given-names:J.</infon>
+      <infon key="name_1">surname:Colwill;given-names:K.</infon>
+      <infon key="source">Mol. Cell Biol.</infon>
+      <infon key="volume">19</infon>
+      <infon key="pub-id_pmid">10490636</infon>
+      <infon key="fpage">6991</infon>
+      <infon key="year">1999</infon>
+      <infon key="lpage">7000</infon>
+      <infon key="type">ref</infon>
+      <offset>44519</offset>
+      <text>The protein kinase Clk/Sty directly modulates SR protein activityboth hyper- and hypophosphorylation inhibit splicing</text>
+    </passage>
+    <passage>
+      <infon key="volume">1</infon>
+      <infon key="name_0">surname:Roscigno;given-names:R.F.</infon>
+      <infon key="name_1">surname:Garcia-Blanco;given-names:M.A.</infon>
+      <infon key="source">RNA</infon>
+      <infon key="lpage">706</infon>
+      <infon key="pub-id_pmid">7585254</infon>
+      <infon key="fpage">692</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>44637</offset>
+      <text>SR proteins escort the U4/U6.U5 tri-snRNP to the spliceosome</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Mayeda;given-names:A.</infon>
+      <infon key="name_3">surname:Bell;given-names:M.V.</infon>
+      <infon key="name_0">surname:Screaton;given-names:G.R.</infon>
+      <infon key="name_1">surname:Caceres;given-names:J.F.</infon>
+      <infon key="name_6">surname:Bell;given-names:J.I.</infon>
+      <infon key="name_7">surname:Krainer;given-names:A.R.</infon>
+      <infon key="name_4">surname:Plebanski;given-names:M.</infon>
+      <infon key="name_5">surname:Jackson;given-names:D.G.</infon>
+      <infon key="volume">14</infon>
+      <infon key="source">EMBO (Eur. Mol. Biol. Organ.) J.</infon>
+      <infon key="fpage">4336</infon>
+      <infon key="year">1995</infon>
+      <infon key="lpage">4349</infon>
+      <infon key="type">ref</infon>
+      <offset>44698</offset>
+      <text>Identification and characterization of three members of the human SR family of pre-mRNA splicing factors</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Bischoff;given-names:F.R.</infon>
+      <infon key="name_3">surname:Podtelejnikov;given-names:A.</infon>
+      <infon key="name_0">surname:Senger;given-names:B.</infon>
+      <infon key="name_1">surname:Simos;given-names:G.</infon>
+      <infon key="name_4">surname:Mann;given-names:M.</infon>
+      <infon key="name_5">surname:Hurt;given-names:E.</infon>
+      <infon key="volume">17</infon>
+      <infon key="source">EMBO (Eur. Mol. Biol. Organ.) J.</infon>
+      <infon key="fpage">2196</infon>
+      <infon key="year">1998</infon>
+      <infon key="lpage">2207</infon>
+      <infon key="type">ref</infon>
+      <offset>44803</offset>
+      <text>Mtr10p functions as a nuclear import receptor for the mRNA-binding protein Npl3p</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Weiss;given-names:V.H.</infon>
+      <infon key="name_3">surname:Valentini;given-names:S.R.</infon>
+      <infon key="name_0">surname:Shen;given-names:E.C.</infon>
+      <infon key="name_1">surname:Henry;given-names:M.F.</infon>
+      <infon key="name_4">surname:Silver;given-names:P.A.</infon>
+      <infon key="name_5">surname:Lee;given-names:M.S.</infon>
+      <infon key="volume">12</infon>
+      <infon key="pub-id_pmid">9499403</infon>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="fpage">679</infon>
+      <infon key="year">1998</infon>
+      <infon key="lpage">691</infon>
+      <infon key="type">ref</infon>
+      <offset>44884</offset>
+      <text>Arginine methylation facilitates the nuclear export of hnRNP proteins</text>
+    </passage>
+    <passage>
+      <infon key="volume">93</infon>
+      <infon key="name_0">surname:Siebel;given-names:C.W.</infon>
+      <infon key="name_1">surname:Guthrie;given-names:C.</infon>
+      <infon key="source">Proc. Natl. Acad. Sci. USA</infon>
+      <infon key="lpage">13646</infon>
+      <infon key="pub-id_pmid">8942987</infon>
+      <infon key="fpage">13641</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>44954</offset>
+      <text>The essential yeast RNA binding protein Np13p is methylated</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Guthrie;given-names:C.</infon>
+      <infon key="name_3">surname:Fu;given-names:X.-D.</infon>
+      <infon key="name_0">surname:Siebel;given-names:C.W.</infon>
+      <infon key="name_1">surname:Feng;given-names:L.</infon>
+      <infon key="source">Proc. Natl. Acad. Sci. USA</infon>
+      <infon key="volume">96</infon>
+      <infon key="pub-id_pmid">10318902</infon>
+      <infon key="fpage">5440</infon>
+      <infon key="year">1999</infon>
+      <infon key="lpage">5445</infon>
+      <infon key="type">ref</infon>
+      <offset>45014</offset>
+      <text>Conservation of a yeast protein kinase specific for the SR family of splicing factors</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Siomi;given-names:M.C.</infon>
+      <infon key="name_3">surname:Pinol-Roma;given-names:S.</infon>
+      <infon key="name_0">surname:Soulard;given-names:M.</infon>
+      <infon key="name_1">surname:Della Valle;given-names:V.</infon>
+      <infon key="name_6">surname:Bellini;given-names:M.</infon>
+      <infon key="name_7">surname:Lacroix;given-names:J.C.</infon>
+      <infon key="name_4">surname:Codogno;given-names:P.</infon>
+      <infon key="name_5">surname:Bauvy;given-names:C.</infon>
+      <infon key="name_8">surname:Monod;given-names:G.</infon>
+      <infon key="name_9">surname:Dreyfuss;given-names:G.</infon>
+      <infon key="volume">21</infon>
+      <infon key="pub-id_pmid">7692398</infon>
+      <infon key="source">Nucleic Acids Res.</infon>
+      <infon key="fpage">4210</infon>
+      <infon key="year">1993</infon>
+      <infon key="lpage">4217</infon>
+      <infon key="type">ref</infon>
+      <offset>45100</offset>
+      <text>hnRNP Gsequence and characterization of a glycosylated RNA-binding protein</text>
+    </passage>
+    <passage>
+      <infon key="volume">4</infon>
+      <infon key="name_0">surname:Takeuchi;given-names:M.</infon>
+      <infon key="name_1">surname:Yanagida;given-names:M.</infon>
+      <infon key="source">Mol. Biol. Cell.</infon>
+      <infon key="lpage">260</infon>
+      <infon key="pub-id_pmid">8485317</infon>
+      <infon key="fpage">247</infon>
+      <infon key="year">1993</infon>
+      <infon key="type">ref</infon>
+      <offset>45175</offset>
+      <text>A mitotic role for a novel fission yeast protein kinase dsk1 with cell cycle stage dependent phosphorylation and localization</text>
+    </passage>
+    <passage>
+      <infon key="volume">92</infon>
+      <infon key="name_0">surname:Tarn;given-names:W.Y.</infon>
+      <infon key="name_1">surname:Steitz;given-names:J.A.</infon>
+      <infon key="source">Proc. Natl. Acad. Sci. USA</infon>
+      <infon key="lpage">2508</infon>
+      <infon key="pub-id_pmid">7708674</infon>
+      <infon key="fpage">2504</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>45301</offset>
+      <text>Modulation of 5' splice site choice in pre-messenger RNA by two distinct steps</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="name_0">surname:Valcarcel;given-names:J.</infon>
+      <infon key="name_1">surname:Green;given-names:M.R.</infon>
+      <infon key="source">Trends Biochem. Sci.</infon>
+      <infon key="lpage">301</infon>
+      <infon key="pub-id_pmid">8772383</infon>
+      <infon key="fpage">296</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>45382</offset>
+      <text>The SR protein familypleiotropic functions in pre-mRNA splicing</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Singh;given-names:R.</infon>
+      <infon key="name_3">surname:Green;given-names:M.R.</infon>
+      <infon key="name_0">surname:Valcarcel;given-names:J.</infon>
+      <infon key="name_1">surname:Gaur;given-names:R.K.</infon>
+      <infon key="source">Science.</infon>
+      <infon key="volume">273</infon>
+      <infon key="pub-id_pmid">8781232</infon>
+      <infon key="fpage">1706</infon>
+      <infon key="year">1996</infon>
+      <infon key="lpage">1709</infon>
+      <infon key="type">ref</infon>
+      <offset>45446</offset>
+      <text>Interaction of U2AF65 RS region with pre-mRNA branch point and promotion of base pairing with U2 snRNA</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Pohlmann;given-names:R.</infon>
+      <infon key="name_3">surname:Philippsen;given-names:P.</infon>
+      <infon key="name_0">surname:Wach;given-names:A.</infon>
+      <infon key="name_1">surname:Brachat;given-names:A.</infon>
+      <infon key="source">Yeast.</infon>
+      <infon key="volume">10</infon>
+      <infon key="pub-id_pmid">7747518</infon>
+      <infon key="fpage">1793</infon>
+      <infon key="year">1994</infon>
+      <infon key="lpage">1808</infon>
+      <infon key="type">ref</infon>
+      <offset>45549</offset>
+      <text>New heterologous modules for classical or PCR-based gene disruptions in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Dyck;given-names:J.A.</infon>
+      <infon key="name_3">surname:Yeakley;given-names:J.M.</infon>
+      <infon key="name_0">surname:Wang;given-names:H.-Y.</infon>
+      <infon key="name_1">surname:Lin;given-names:W.</infon>
+      <infon key="name_6">surname:Fu;given-names:X.-D.</infon>
+      <infon key="name_4">surname:Songyang;given-names:Z.</infon>
+      <infon key="name_5">surname:Cantley;given-names:L.C.</infon>
+      <infon key="volume">140</infon>
+      <infon key="pub-id_pmid">9472028</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="fpage">737</infon>
+      <infon key="year">1998</infon>
+      <infon key="lpage">750</infon>
+      <infon key="type">ref</infon>
+      <offset>45646</offset>
+      <text>SRPK2a differentially expressed SR protein-specific kinase involved in mediating the interaction and localization of pre-mRNA splicing in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Paddy;given-names:M.R.</infon>
+      <infon key="name_3">surname:Swedlow;given-names:J.R.</infon>
+      <infon key="name_0">surname:Wilson;given-names:S.M.</infon>
+      <infon key="name_1">surname:Datar;given-names:K.V.</infon>
+      <infon key="name_4">surname:Swanson;given-names:M.S.</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="volume">127</infon>
+      <infon key="pub-id_pmid">7962083</infon>
+      <infon key="fpage">1173</infon>
+      <infon key="year">1994</infon>
+      <infon key="lpage">1184</infon>
+      <infon key="type">ref</infon>
+      <offset>45802</offset>
+      <text>Characterization of nuclear polyadenylated RNA-binding proteins in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="volume">75</infon>
+      <infon key="name_0">surname:Wu;given-names:J.Y.</infon>
+      <infon key="name_1">surname:Maniatis;given-names:T.</infon>
+      <infon key="source">Cell.</infon>
+      <infon key="lpage">1070</infon>
+      <infon key="pub-id_pmid">8261509</infon>
+      <infon key="fpage">1061</infon>
+      <infon key="year">1993</infon>
+      <infon key="type">ref</infon>
+      <offset>45894</offset>
+      <text>Specific interactions between proteins implicated in splice site selection and regulated alternative splicing</text>
+    </passage>
+    <passage>
+      <infon key="volume">11</infon>
+      <infon key="name_0">surname:Xiao;given-names:S.-H.</infon>
+      <infon key="name_1">surname:Manley;given-names:J.L.</infon>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="lpage">344</infon>
+      <infon key="pub-id_pmid">9030686</infon>
+      <infon key="fpage">334</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>46004</offset>
+      <text>Phosphorylation of the ASF/SF2 RS domain affects both protein-protein and protein-RNA interactions and is necessary for splicing</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Olesen;given-names:J.</infon>
+      <infon key="name_3">surname:Dyck;given-names:J.A.</infon>
+      <infon key="name_0">surname:Yeakley;given-names:J.M.</infon>
+      <infon key="name_1">surname:Tronchere;given-names:H.</infon>
+      <infon key="name_4">surname:Wang;given-names:H.-Y.</infon>
+      <infon key="name_5">surname:Fu;given-names:X.-D.</infon>
+      <infon key="volume">145</infon>
+      <infon key="pub-id_pmid">10225947</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="fpage">447</infon>
+      <infon key="year">1999</infon>
+      <infon key="lpage">455</infon>
+      <infon key="type">ref</infon>
+      <offset>46137</offset>
+      <text>Phosphorylation regulates in vivo interaction and molecular targeting of serine/arginine-rich pre-mRNA splicing factors</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>46257</offset>
+      <text>Abbreviations used in this paper: GFP, green fluorescent protein; GST, glutathione S-transferase; hnRNP, heterogeneous nuclear ribonucleoprotein; NLS, nuclear localization signal; PrA, protein A; RGG, arginine-glycine-glycine; RRM, RNA recognition motif; RS, arginine- and serine-rich; SAH, S-adenosyl-l-homocysteine; SAM, S-adenosyl-l-methionine; SR, serine and arginine-rich; SRPK, SR protein-specific kinase.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>46673</offset>
+      <text>Sky1p phosphorylates a single site in Npl3p. (a) Sequence of the RGG/RS domain in Npl3p. RGG repeats and SR/RS dipeptides are underlined and in bold, respectively. Deletion mutants are named according to the number of SR/RS dipeptides removed, and specific point mutations in the deduced phosphorylation site are indicated. (b) Phosphorylation consensus deduced from in vitro peptide selection using human SRPK2 (Wang et al. 1998). (c) Wild-type and mutant Npl3p were expressed as GST fusion proteins (Coomassie stain, top) and tested for phosphorylation with recombinant Sky1p (Autoradiograph, bottom).</text>
+      <annotation id="78">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855256</infon>
+        <location offset="46673" length="5"/>
+        <text>Sky1p</text>
+      </annotation>
+      <annotation id="79">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="46711" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="119">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="47130" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="120">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855256</infon>
+        <location offset="47245" length="5"/>
+        <text>Sky1p</text>
+      </annotation>
+      <annotation id="PPIm_366">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="46673" length="88"/>
+        <text>Sky1p phosphorylates a single site in Npl3p. (a) Sequence of the RGG/RS domain in Npl3p.</text>
+      </annotation>
+      <annotation id="PPIm_367">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <location offset="47105" length="171"/>
+        <text>(c) Wild-type and mutant Npl3p were expressed as GST fusion proteins (Coomassie stain, top) and tested for phosphorylation with recombinant Sky1p (Autoradiograph, bottom).</text>
+      </annotation>
+      <annotation id="PPIe_206">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="46673" length="88"/>
+        <text>Sky1p phosphorylates a single site in Npl3p. (a) Sequence of the RGG/RS domain in Npl3p.</text>
+      </annotation>
+      <annotation id="PPIe_207">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <location offset="47105" length="171"/>
+        <text>(c) Wild-type and mutant Npl3p were expressed as GST fusion proteins (Coomassie stain, top) and tested for phosphorylation with recombinant Sky1p (Autoradiograph, bottom).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>47277</offset>
+      <text>Defects in Sky1p-mediated phosphorylation result in Npl3p accumulation in the cytoplasm. (a) All GFP fusion proteins were intact as determined by Western blotting analysis using an anti-GFP mAb. (b) Localization of wild-type (wt) and mutant GFP-npl3p in wild-type (SKY1) and sky1Delta strains.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>47568</offset>
+      <text>Sky1p-mediated phosphorylation plays an important role in facilitating Npl3p-Mtr10p interaction. (a) Coimmunoprecipitation between Npl3p and Mtr10p. Immunoprecipitation (IP) was done with IgG-Sepharose beads and analyzed by Western blotting using rabbit polyclonal anti-Npl3p antibodies and IgG to detect Npl3p and Mtr10-PrA, respectively. Quantification of these coimmunoprecipitation results revealed a threefold reduction of Npl3p binding to Mtr10p-PrA in sky1Delta yeast. (b) In vitro GST binding assay. Wild-type and mutant (S411A) GST-npl3p were phosphorylated (+P) using Sky1p or mock phosphorylated (-P), and used to pull down in vitro-translated 35S-labeled Mtr10p in the absence (lanes 2-5) or presence (lanes 6-9) of cytosolic yeast extract. (c) In vitro binding using purified components. The binding was done as in b, except that equal amounts (1 mug) of purified recombinant GST-Npl3p and His-S-Mtr10p were used. Bound His-S-Mtr10p was detected with alkaline phosphatase-conjugated S-protein.</text>
+      <annotation id="84">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="47699" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="85">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="47709" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="129">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="48109" length="5"/>
+        <text>npl3p</text>
+      </annotation>
+      <annotation id="130">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855256</infon>
+        <location offset="48146" length="5"/>
+        <text>Sky1p</text>
+      </annotation>
+      <annotation id="131">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="48235" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="PPIm_368">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="47665" length="51"/>
+        <text>(a) Coimmunoprecipitation between Npl3p and Mtr10p.</text>
+      </annotation>
+      <annotation id="PPIm_369">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <location offset="48044" length="31"/>
+        <text>(b) In vitro GST binding assay.</text>
+      </annotation>
+      <annotation id="PPIm_370">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="48076" length="244"/>
+        <text>Wild-type and mutant (S411A) GST-npl3p were phosphorylated (+P) using Sky1p or mock phosphorylated (-P), and used to pull down in vitro-translated 35S-labeled Mtr10p in the absence (lanes 2-5) or presence (lanes 6-9) of cytosolic yeast extract.</text>
+      </annotation>
+      <annotation id="PPIe_208">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="47665" length="51"/>
+        <text>(a) Coimmunoprecipitation between Npl3p and Mtr10p.</text>
+      </annotation>
+      <annotation id="PPIe_209">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <location offset="48044" length="31"/>
+        <text>(b) In vitro GST binding assay.</text>
+      </annotation>
+      <annotation id="PPIe_210">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="48076" length="244"/>
+        <text>Wild-type and mutant (S411A) GST-npl3p were phosphorylated (+P) using Sky1p or mock phosphorylated (-P), and used to pull down in vitro-translated 35S-labeled Mtr10p in the absence (lanes 2-5) or presence (lanes 6-9) of cytosolic yeast extract.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>48584</offset>
+      <text>SKY1 and MTR10 show a genetic interaction. (a) Overexpression suppression of Npl3p localization defect. The left panels show localization of mutant GFP-npl3p(S411A) in wild-type yeast containing empty vector (p415) or a GAL-inducible plasmid overexpressing Mtr10p (p415-MTR10). The right panel shows a similar analysis on localization of wild-type GFP-Npl3p in sky1Delta yeast. (b) Synthetic lethality between SKY1 and MTR10. A sky1Delta strain was first covered with a Ura+ plasmid containing SKY1 (pRS316-SKY1). Transformants with (top left) or without (bottom right) targeted disruption of MTR10 were streaked on a 5-FOA plate and incubated at 30 C. SKY1 (bottom left) or MTR10 (top right) deletion strains were used as controls.</text>
+      <annotation id="92">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855256</infon>
+        <location offset="48994" length="4"/>
+        <text>SKY1</text>
+      </annotation>
+      <annotation id="93">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="49003" length="5"/>
+        <text>MTR10</text>
+      </annotation>
+      <annotation id="A68">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855256</infon>
+        <location offset="48584" length="4"/>
+        <text>SKY1</text>
+      </annotation>
+      <annotation id="A69">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="48593" length="5"/>
+        <text>MTR10</text>
+      </annotation>
+      <annotation id="GIe_10">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="48962" length="47"/>
+        <text>(b) Synthetic lethality between SKY1 and MTR10.</text>
+      </annotation>
+      <annotation id="GIm_26">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="48584" length="42"/>
+        <text>SKY1 and MTR10 show a genetic interaction.</text>
+      </annotation>
+      <annotation id="GIm_27">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="48962" length="47"/>
+        <text>(b) Synthetic lethality between SKY1 and MTR10.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49312</offset>
+      <text>Mtr10p interacts with the RGG box in Npl3p. (a) Deletion mapping of the Mtr10p interaction domain in Npl3p. Binding was done as in the legend to Fig. 3 b using deletion mutants illustrated in Fig. 1 a. (b) Plasmid shuffling experiments. An npl3Delta strain covered by wild-type NPL3 (wt) on a Ura+ plasmid was transformed with Leu+ plasmids containing wild-type or mutant npl3. Transformants were streaked on 5-FOA minus Leu plates and incubated at 25 or 37 C.</text>
+      <annotation id="95">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="49312" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="96">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="49349" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="PPIm_371">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="49312" length="107"/>
+        <text>Mtr10p interacts with the RGG box in Npl3p. (a) Deletion mapping of the Mtr10p interaction domain in Npl3p.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49771</offset>
+      <text>In vivo evidence for the negative regulation of Npl3p nuclear import by the arginine methyltransferase Hmt1p/Rmt1p. (a) Localization of GFP-Npl3p in wild-type yeast transformed with empty vector (p415) or with Hmt1p/Rmt1p overexpression plasmid (labeled p415-HMT1). (b) Immunoblot analysis of HA-tagged Hmt1p/Rmt1p expression before and after galactose induction. The asterisk indicates a cross-reactive band in yeast extract against the anti-HA antibody. (c) Hypermethylation of Npl3p. Npl3p methylation was detected by the methylation specific mAb 1E4 and total Npl3p by rabbit polyclonal anti-Npl3p. (d) Coimmunoprecipitation between Npl3p and Mtr10p-PrA was done as in the legend to Fig. 3 a. Complex formation was compared among wild-type, sky1Delta, and Hmt1p/Rmt1p overexpressing cells.</text>
+      <annotation id="98">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="50408" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="99">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="50418" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="PPIm_372">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="50258" length="209"/>
+        <text>Npl3p methylation was detected by the methylation specific mAb 1E4 and total Npl3p by rabbit polyclonal anti-Npl3p. (d) Coimmunoprecipitation between Npl3p and Mtr10p-PrA was done as in the legend to Fig. 3 a.</text>
+      </annotation>
+      <annotation id="PPIe_211">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="50258" length="209"/>
+        <text>Npl3p methylation was detected by the methylation specific mAb 1E4 and total Npl3p by rabbit polyclonal anti-Npl3p. (d) Coimmunoprecipitation between Npl3p and Mtr10p-PrA was done as in the legend to Fig. 3 a.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>50562</offset>
+      <text>Arginine methylation interferes with phosphorylation-dependent binding through an indirect mechanism. (a) Methylation of wild-type (wt) and mutant npl3p using purified Hmt1p/Rmt1p in the presence of the methyl donor 3H-SAM. (b) In vitro GST binding assay. GST-Npl3p methylated (+M) or mock methylated (-M) were used to pull down in vitro-translated 35S-labeled Mtr10p in the absence (lanes 2-4) or presence (lanes 5-7) of yeast extract. (c) Effect of double modification on Npl3p binding to Mtr10p. GST-Npl3p was either phosphorylated using Sky1p (lanes 4 and 7) or mock phosphorylated (lanes 3 and 6) and then methylated using Hmt1p/Rmt1p. Conversely, the fusion protein was mock methylated (lane 8) or methylated (lane 9) and then phosphorylated. These modified proteins were used in the GST binding assay as in b.</text>
+      <annotation id="101">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="50822" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="102">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="50923" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="104">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="51036" length="5"/>
+        <text>Npl3p</text>
+      </annotation>
+      <annotation id="105">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854331</infon>
+        <location offset="51053" length="6"/>
+        <text>Mtr10p</text>
+      </annotation>
+      <annotation id="A82">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852042</infon>
+        <location offset="50709" length="5"/>
+        <text>npl3p</text>
+      </annotation>
+      <annotation id="A83">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852322</infon>
+        <location offset="50730" length="11"/>
+        <text>Hmt1p/Rmt1p</text>
+      </annotation>
+      <annotation id="PPIm_373">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="50664" length="121"/>
+        <text>(a) Methylation of wild-type (wt) and mutant npl3p using purified Hmt1p/Rmt1p in the presence of the methyl donor 3H-SAM.</text>
+      </annotation>
+      <annotation id="PPIm_374">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="50786" length="31"/>
+        <text>(b) In vitro GST binding assay.</text>
+      </annotation>
+      <annotation id="PPIm_375">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="50818" length="180"/>
+        <text>GST-Npl3p methylated (+M) or mock methylated (-M) were used to pull down in vitro-translated 35S-labeled Mtr10p in the absence (lanes 2-4) or presence (lanes 5-7) of yeast extract.</text>
+      </annotation>
+      <annotation id="PPIm_376">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="50999" length="61"/>
+        <text>(c) Effect of double modification on Npl3p binding to Mtr10p.</text>
+      </annotation>
+      <annotation id="PPIe_212">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="50664" length="121"/>
+        <text>(a) Methylation of wild-type (wt) and mutant npl3p using purified Hmt1p/Rmt1p in the presence of the methyl donor 3H-SAM.</text>
+      </annotation>
+      <annotation id="PPIe_213">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="50818" length="180"/>
+        <text>GST-Npl3p methylated (+M) or mock methylated (-M) were used to pull down in vitro-translated 35S-labeled Mtr10p in the absence (lanes 2-4) or presence (lanes 5-7) of yeast extract.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>51387</offset>
+      <text>Arginine methylation antagonizes Sky1p-mediated phosphorylation. (a) Constructs for in vitro phosphorylation and methylation. The single Sky1p phosphorylation site at the COOH-terminal region of Npl3p and multiple Hmt1p/Rmt1p methylation sites in the RGG domain are indicated. Ikappab/RS represents a fusion protein containing Ikappab and the Sky1p phosphorylation site from Npl3p. (b) Methylation of phosphorylated or mock-phosphorylated wild-type Npl3p and deletion mutant Delta1, indicating that phosphorylation does not affect methylation. (c) The proteins illustrated in d were methylated using Hmt1p/Rmt1p or mock methylated, and then tested for phosphorylation using Sky1p. (d) Phosphorylation of Npl3p that was untreated, mock methylated in the presence of SAH, or methylated with SAM.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>52172</offset>
+      <text>A model for Npl3p nuclear import and export controlled by Sky1p-mediated phosphorylation and Hmt1p-mediated methylation. (a) In wild-type cells, Sky1p in the cytoplasm phosphorylates Npl3p, which is required for its efficient nuclear import by Mtr10p. Imported Npl3p is methylated by Hmt1p/Rmt1p in the nucleus, which may faciliate Npl3p export. Methylation of Npl3p interferes with Sky1p-mediated phosphorylation, thereby indirectly inhibiting Npl3p import. The size of the arrows indicates relative transport efficiency, and shaded regions indicate Npl3p localization at steady state. (b) Impaired nuclear import of wild-type Npl3p in the nucleoporin mutant nup49-313 strain (based on data from Lee et al. 1996). (c) Impaired nuclear import of the phosphorylation mutant npl3pE409K in wild-type yeast. (d) Deletion of HMT1/RMT1 improves import and impairs export of Npl3p in the nup49-313 strain. (e) Import and export are affected by Npl3p mutation in the phosphorylation site and inactivation of Hmt1p/Rmt1p, respectively (our observation, and that reported by McBride et al. 2000).</text>
+    </passage>
+  </document>
+</collection>

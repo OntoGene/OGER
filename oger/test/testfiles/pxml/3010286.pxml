@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010286</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>10</Month>
+<Day>01</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0027-8424</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>83</Volume>
+<Issue>10</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>May</Month>
+</PubDate>
+</JournalIssue>
+<Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+<ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Specific binding of human corticosteroid-binding globulin to cell membranes.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3253-6</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Specific binding sites for corticosteroid-binding globulin were detected on membranes prepared from human prostates. The binding sites are typical of membrane receptors: they are saturable and specific and have high affinity. There was little specific binding at 4 degrees C and 23 degrees C. Maximal specific binding was obtained at 37 degrees C. Scatchard analysis revealed the presence of a single set of binding sites with an apparent dissociation constant of 8.7 X 10(-7) M and a binding capacity of 22 pmol/mg of membrane protein. The sites were specific for corticosteroid-binding globulin; binding was not inhibited by human testosterone/estradiol-binding globulin, by albumin, or by transferrin. The density of specific binding sites in membranes obtained from several organs from the rhesus monkey is consistent with the hypothesis that corticosteroid-binding globulin is involved in the transport of steroid hormones into target tissues.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Hryb</LastName>
+<ForeName>D J</ForeName>
+<Initials>DJ</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Khan</LastName>
+<ForeName>M S</ForeName>
+<Initials>MS</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Romas</LastName>
+<ForeName>N A</ForeName>
+<Initials>NA</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Rosner</LastName>
+<ForeName>W</ForeName>
+<Initials>W</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<GrantList CompleteYN="Y">
+<Grant>
+<GrantID>AM28562</GrantID>
+<Acronym>AM</Acronym>
+<Agency>NIADDK NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+</GrantList>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013487">Research Support, U.S. Gov't, P.H.S.</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+<NlmUniqueID>7505876</NlmUniqueID>
+<ISSNLinking>0027-8424</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D000418">Albumins</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D011956">Receptors, Cell Surface</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D012738">Sex Hormone-Binding Globulin</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D014168">Transferrin</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9010-38-2</RegistryNumber>
+<NameOfSubstance UI="D014156">Transcortin</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1970 Dec 19;228(5277):1205-6</RefSource>
+<PMID Version="1">5530574</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Steroid Biochem. 1983 Oct;19(4):1397-401</RefSource>
+<PMID Version="1">6645482</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocrinology. 1973 May;92(5):1429-41</RefSource>
+<PMID Version="1">4348651</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Feb 23-29;307(5953):745-7</RefSource>
+<PMID Version="1">6700704</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Feb 23-29;307(5953):747-9</RefSource>
+<PMID Version="1">6700705</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem Biophys Res Commun. 1984 Jan 30;118(2):488-94</RefSource>
+<PMID Version="1">6367739</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Steroid Biochem. 1984 Jan;20(1):77-88</RefSource>
+<PMID Version="1">6368989</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocrinology. 1984 Jun;114(6):2002-14</RefSource>
+<PMID Version="1">6373239</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocrinology. 1984 Aug;115(2):559-69</RefSource>
+<PMID Version="1">6378593</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Endocrinol. 1984 Jun;36(1-2):11-5</RefSource>
+<PMID Version="1">6378689</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochim Biophys Acta. 1984 Dec 20;802(3):459-66</RefSource>
+<PMID Version="1">6542426</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocrinology. 1985 Apr;116(4):1473-84</RefSource>
+<PMID Version="1">3971924</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem Biophys Res Commun. 1985 Apr 16;128(1):432-40</RefSource>
+<PMID Version="1">4039136</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocrinology. 1985 Jul;117(1):155-60</RefSource>
+<PMID Version="1">3891311</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocrinology. 1986 Feb;118(2):513-7</RefSource>
+<PMID Version="1">2417823</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Lab Clin Med. 1956 Aug;48(2):311-4</RefSource>
+<PMID Version="1">13346201</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem J. 1955 Dec;61(4):629-41</RefSource>
+<PMID Version="1">13276348</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1973 Sep 25;248(18):6398-407</RefSource>
+<PMID Version="1">4125868</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Acta Endocrinol (Copenh). 1974 Apr;75(4):773-84</RefSource>
+<PMID Version="1">4136809</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Steroid Biochem. 1974 May;5(3):219-25</RefSource>
+<PMID Version="1">4369390</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Methods Enzymol. 1975;36:104-9</RefSource>
+<PMID Version="1">1110628</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1975 Feb 25;250(4):1207-11</RefSource>
+<PMID Version="1">163248</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocrinology. 1975 Jun;96(6):1499-508</RefSource>
+<PMID Version="1">165064</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Clin Endocrinol Metab. 1975 Oct;41(4):761-70</RefSource>
+<PMID Version="1">51854</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochemistry. 1975 Nov 4;14(22):4813-20</RefSource>
+<PMID Version="1">170962</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochim Biophys Acta. 1976 Jan 14;421(1):115-23</RefSource>
+<PMID Version="1">174733</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Steroid Biochem. 1976 Aug;7:553-9</RefSource>
+<PMID Version="1">183058</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1976 Aug 12;262(5569):589-90</RefSource>
+<PMID Version="1">8726</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochim Biophys Acta. 1976 Sep 24;444(2):497-507</RefSource>
+<PMID Version="1">971419</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Annu Rev Biochem. 1977;46:669-722</RefSource>
+<PMID Version="1">332066</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Endocrinol. 1978 Nov;79(2):215-22</RefSource>
+<PMID Version="1">731146</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1980 Sep 4;287(5777):58-60</RefSource>
+<PMID Version="1">6251378</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Anal Biochem. 1980 Sep 1;107(1):220-39</RefSource>
+<PMID Version="1">6254391</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1980 Oct;77(10):5678-82</RefSource>
+<PMID Version="1">7003594</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocrinology. 1981 Nov;109(5):1625-33</RefSource>
+<PMID Version="1">7028463</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Clin Endocrinol Metab. 1982 Apr;54(4):705-10</RefSource>
+<PMID Version="1">7199534</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Annu Rev Biochem. 1982;51:531-54</RefSource>
+<PMID Version="1">6287920</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Recent Prog Horm Res. 1982;38:457-510</RefSource>
+<PMID Version="1">6750727</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>C R Seances Acad Sci III. 1982 Sep 20;295(2):107-11</RefSource>
+<PMID Version="1">6816400</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochim Biophys Acta. 1983 Feb 22;755(3):514-7</RefSource>
+<PMID Version="1">6824742</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Clin Chem. 1983 Jul;29(7):1389-91</RefSource>
+<PMID Version="1">6861345</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Steroid Biochem. 1983 Jul;19(1A):1-15</RefSource>
+<PMID Version="1">6887851</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocrinology. 1972 Sep;91(3):626-32</RefSource>
+<PMID Version="1">4402763</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000418">Albumins</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001692">Biological Transport</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002462">Cell Membrane</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007700">Kinetics</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008253">Macaca mulatta</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011467">Prostate</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011956">Receptors, Cell Surface</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012738">Sex Hormone-Binding Globulin</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013696">Temperature</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014018">Tissue Distribution</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014156">Transcortin</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014168">Transferrin</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC323491</OtherID>
+</MedlineCitation>

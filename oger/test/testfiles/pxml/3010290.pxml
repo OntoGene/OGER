@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010290</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2015</Year>
+<Month>11</Month>
+<Day>19</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0027-8424</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>83</Volume>
+<Issue>10</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>May</Month>
+</PubDate>
+</JournalIssue>
+<Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+<ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Rearrangement of chicken immunoglobulin genes is not an ongoing process in the embryonic bursa of Fabricius.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3336-40</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>We report a molecular analysis of the chicken Ig loci in single bursal follicles from 3- to 7-week-old chickens. Each follicle contained between 10(5) and 3 X 10(5) cells. The Ig gene rearrangement patterns obtained were compared to the pattern observed with the corresponding total bursal DNA. The results obtained for the light chain locus imply that a very small number (two on average) of rearrangement events takes place in each follicle. For the heavy chain locus similar results were obtained, each follicle showing a more restricted pattern than the total bursa. These data favor a model in which each follicle is colonized by a very few prebursal stem cells that are committed to a particular Ig gene rearrangement at the very beginning of the development of the embryonic bursa. The role of the bursa as the organ in which such a committed stem cell population for the B-cell lineage arises is discussed.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Weill</LastName>
+<ForeName>J C</ForeName>
+<Initials>JC</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Reynaud</LastName>
+<ForeName>C A</ForeName>
+<Initials>CA</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Lassila</LastName>
+<ForeName>O</ForeName>
+<Initials>O</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Pink</LastName>
+<ForeName>J R</ForeName>
+<Initials>JR</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+<NlmUniqueID>7505876</NlmUniqueID>
+<ISSNLinking>0027-8424</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D007127">Immunoglobulin Constant Regions</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D007143">Immunoglobulin Heavy Chains</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D007147">Immunoglobulin Light Chains</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D007135">Immunoglobulin Variable Region</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D007146">Immunoglobulin lambda-Chains</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D007148">Immunoglobulin mu-Chains</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>8N3DW7272P</RegistryNumber>
+<NameOfSubstance UI="D003520">Cyclophosphamide</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.21.-</RegistryNumber>
+<NameOfSubstance UI="D004262">DNA Restriction Enzymes</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1975 Nov 5;98(3):503-17</RefSource>
+<PMID Version="1">1195397</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1981 Jan;78(1):484-8</RefSource>
+<PMID Version="1">6264446</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Immunol. 1981 Apr;11(4):306-10</RefSource>
+<PMID Version="1">6454581</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Immunogenetics. 1982;15(5):441-7</RefSource>
+<PMID Version="1">7106862</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1983 Jul;80(13):4099-103</RefSource>
+<PMID Version="1">6408641</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Aug 25;11(16):5381-9</RefSource>
+<PMID Version="1">6310496</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Exp Med. 1984 Mar 1;159(3):731-45</RefSource>
+<PMID Version="1">6607968</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>EMBO J. 1984 Jun;3(6):1209-19</RefSource>
+<PMID Version="1">6086308</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Dec;81(23):7554-8</RefSource>
+<PMID Version="1">6334312</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1985 Feb;40(2):283-91</RefSource>
+<PMID Version="1">3917859</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Immunol. 1985 Jan;15(1):83-7</RefSource>
+<PMID Version="1">3871398</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1985 Jul;41(3):727-34</RefSource>
+<PMID Version="1">3924409</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Immunol. 1985 Jun;15(6):617-20</RefSource>
+<PMID Version="1">3874075</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Exp Med. 1985 Jun 1;161(6):1554-68</RefSource>
+<PMID Version="1">3874257</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1985 Aug;42(1):71-9</RefSource>
+<PMID Version="1">4016956</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Immunol. 1985 Oct;135(4):2303-11</RefSource>
+<PMID Version="1">3875650</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1985 Sep 26-Oct 2;317(6035):353-5</RefSource>
+<PMID Version="1">3930970</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1985 Nov 14-20;318(6042):149-54</RefSource>
+<PMID Version="1">3903518</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Immunol. 1986 Feb;16(2):129-33</RefSource>
+<PMID Version="1">3485527</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Exp Med. 1968 Mar 1;127(3):455-64</RefSource>
+<PMID Version="1">5636553</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Immunol. 1973 Sep;3(9):585-95</RefSource>
+<PMID Version="1">4203295</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1975 Jul;72(7):2701-5</RefSource>
+<PMID Version="1">1101262</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Dev Biol. 1976 Oct 15;53(2):250-64</RefSource>
+<PMID Version="1">992209</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Exp Med. 1977 Jun 1;145(6):1567-79</RefSource>
+<PMID Version="1">140917</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1977 Jun 15;113(1):237-51</RefSource>
+<PMID Version="1">881736</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Poult Sci. 1978 Sep;57(5):1445-50</RefSource>
+<PMID Version="1">724605</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Exp Med. 1979 Sep 19;150(3):548-63</RefSource>
+<PMID Version="1">39107</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1979 Aug;76(8):3683-7</RefSource>
+<PMID Version="1">291033</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Scand J Immunol. 1980;11(4):445-8</RefSource>
+<PMID Version="1">6966820</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Exp Med. 1981 Jan 1;153(1):154-65</RefSource>
+<PMID Version="1">6969781</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1981 Apr 2;290(5805):372-8</RefSource>
+<PMID Version="1">6783959</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001402">B-Lymphocytes</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000502">physiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002060">Bursa of Fabricius</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000166">cytology</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000196">embryology</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002642">Chick Embryo</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003520">Cyclophosphamide</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004262">DNA Restriction Enzymes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006579">Heterozygote</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007127">Immunoglobulin Constant Regions</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007143">Immunoglobulin Heavy Chains</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007147">Immunoglobulin Light Chains</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007135">Immunoglobulin Variable Region</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007146">Immunoglobulin lambda-Chains</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007148">Immunoglobulin mu-Chains</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011110">Polymorphism, Genetic</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011995">Recombination, Genetic</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC323508</OtherID>
+</MedlineCitation>

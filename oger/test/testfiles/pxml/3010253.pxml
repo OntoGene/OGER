@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010253</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>06</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>06</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2014</Year>
+<Month>11</Month>
+<Day>20</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0376-4761</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>53</Volume>
+<Issue>11-12</Issue>
+<PubDate>
+<MedlineDate>1985 Nov-Dec</MedlineDate>
+</PubDate>
+</JournalIssue>
+<Title>Pneumonologia polska</Title>
+<ISOAbbreviation>Pneumonol Pol</ISOAbbreviation>
+</Journal>
+<ArticleTitle>[Effect of seasonal allergic exposure of patients with pollen-induced asthma on basophil susceptibility to the action of polymyxin B in vitro].</ArticleTitle>
+<Pagination>
+<MedlinePgn>542-5</MedlinePgn>
+</Pagination>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Górski</LastName>
+<ForeName>P</ForeName>
+<Initials>P</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Rozniecki</LastName>
+<ForeName>J</ForeName>
+<Initials>J</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Kuźmińska</LastName>
+<ForeName>B</ForeName>
+<Initials>B</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Grzegorczyk</LastName>
+<ForeName>J</ForeName>
+<Initials>J</Initials>
+</Author>
+</AuthorList>
+<Language>pol</Language>
+<PublicationTypeList>
+<PublicationType UI="D003160">Comparative Study</PublicationType>
+<PublicationType UI="D004740">English Abstract</PublicationType>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+<VernacularTitle>Wpływ sezonowej ekspozycji alergicznej na podatność bazofilów na działanie polimyksyny B in vitro u chorych na astme pyłkowa.</VernacularTitle>
+</Article>
+<MedlineJournalInfo>
+<Country>POLAND</Country>
+<MedlineTA>Pneumonol Pol</MedlineTA>
+<NlmUniqueID>7605692</NlmUniqueID>
+<ISSNLinking>0376-4761</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D011113">Polymyxins</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>1404-26-8</RegistryNumber>
+<NameOfSubstance UI="D011112">Polymyxin B</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001249">Asthma</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000276">immunology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001491">Basophils</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000187">drug effects</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D066298">In Vitro Techniques</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011058">Pollen</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000276">immunology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011112">Polymyxin B</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011113">Polymyxins</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012621">Seasons</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

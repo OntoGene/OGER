@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010251</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>03</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>03</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2015</Year>
+<Month>11</Month>
+<Day>19</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0163-5581</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>8</Volume>
+<Issue>2</Issue>
+<PubDate>
+<Year>1986</Year>
+</PubDate>
+</JournalIssue>
+<Title>Nutrition and cancer</Title>
+<ISOAbbreviation>Nutr Cancer</ISOAbbreviation>
+</Journal>
+<ArticleTitle>In vitro binding of steroid hormones by natural and purified fibers.</ArticleTitle>
+<Pagination>
+<MedlinePgn>141-7</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>The in vitro binding of estrone, estradiol-17 beta, estriol, testosterone, dihydrotestosterone, and estrone-3-glucuronide by wheat, oat, and corn brans, oat hulls, cellulose, lignin, and cholestyramine resin was measured. The extent of steroid sequestration was characteristic and reproducible for each hormone. Cholestyramine bound an average of 90% of all the steroids tested, whereas cellulose bound the least (12%). Of the other substances tested, each bound the following percentage of unconjugated hormones: lignin, 87%; wheat and oat brans, 45% each; corn bran 44%; and oat hulls, 32%. The conjugated steroid was less likely to bind than the unconjugated steroids. Lignin appeared to be an important component in the interaction with steroid hormones. The results support the hydrophobic nature of adsorption and suggest that the components of fiber in diet should be considered separately when evaluating in vivo metabolic effects.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Shultz</LastName>
+<ForeName>T D</ForeName>
+<Initials>TD</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Howie</LastName>
+<ForeName>B J</ForeName>
+<Initials>BJ</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Nutr Cancer</MedlineTA>
+<NlmUniqueID>7905040</NlmUniqueID>
+<ISSNLinking>0163-5581</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D013256">Steroids</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>08J2K08A3Y</RegistryNumber>
+<NameOfSubstance UI="D013196">Dihydrotestosterone</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>11041-12-6</RegistryNumber>
+<NameOfSubstance UI="D002792">Cholestyramine Resin</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>2479-90-5</RegistryNumber>
+<NameOfSubstance UI="C015856">estrone-3-glucuronide</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>2DI9HA706A</RegistryNumber>
+<NameOfSubstance UI="D004970">Estrone</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>3XMK78S47O</RegistryNumber>
+<NameOfSubstance UI="D013739">Testosterone</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>4TI98Z838E</RegistryNumber>
+<NameOfSubstance UI="D004958">Estradiol</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9004-34-6</RegistryNumber>
+<NameOfSubstance UI="D002482">Cellulose</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9005-53-2</RegistryNumber>
+<NameOfSubstance UI="D008031">Lignin</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>FB33469R8E</RegistryNumber>
+<NameOfSubstance UI="D004964">Estriol</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000327">Adsorption</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002482">Cellulose</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002792">Cholestyramine Resin</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004043">Dietary Fiber</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013196">Dihydrotestosterone</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002523">Edible Grain</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004958">Estradiol</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004964">Estriol</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004970">Estrone</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000031">analogs &amp; derivatives</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D066298">In Vitro Techniques</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008031">Lignin</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013256">Steroids</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013739">Testosterone</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013997">Time Factors</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014908">Triticum</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003313">Zea mays</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

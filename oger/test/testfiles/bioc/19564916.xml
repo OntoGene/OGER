@@ -1,0 +1,1354 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>BioCBioGRID.key</key>
+  <document>
+    <id>19564916</id>
+    <infon key="top">30</infon>
+    <infon key="catagory">marked</infon>
+    <passage>
+      <infon key="name_2">surname:Yan;given-names:Gonghong</infon>
+      <infon key="name_3">surname:Ma;given-names:Dongzhu</infon>
+      <infon key="name_0">surname:Guo;given-names:Shuguang</infon>
+      <infon key="name_1">surname:Shen;given-names:Xiaoyun</infon>
+      <infon key="name_6">surname:Jiang;given-names:Yu</infon>
+      <infon key="alt-title">Mpk1-Dependent Feedback Loop</infon>
+      <infon key="article-id_publisher-id">09-PONE-RA-08733R1</infon>
+      <infon key="name_5">surname:Li;given-names:Suoping</infon>
+      <infon key="type">front</infon>
+      <infon key="elocation-id">e6089</infon>
+      <infon key="article-id_doi">10.1371/journal.pone.0006089</infon>
+      <infon key="article-id_pmid">19564916</infon>
+      <infon key="volume">4</infon>
+      <infon key="article-id_pmc">2699537</infon>
+      <infon key="year">2009</infon>
+      <infon key="name_4">surname:Bai;given-names:Xiaochun</infon>
+      <infon key="issue">6</infon>
+      <infon key="name_7">surname:Lew;given-names:Daniel</infon>
+      <offset>0</offset>
+      <text>A MAP Kinase Dependent Feedback Mechanism Controls Rho1 GTPase and Actin Distribution in Yeast</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>95</offset>
+      <text>In the yeast Saccharomyces cerevisiae the guanosine triphosphatase (GTPase) Rho1 controls actin polarization and cell wall expansion. When cells are exposed to various environmental stresses that perturb the cell wall, Rho1 activates Pkc1, a mammalian Protein Kinase C homologue, and Mpk1, a mitogen activated protein kinase (MAPK), resulting in actin depolarization and cell wall remodeling. In this study, we demonstrate a novel feedback loop in this Rho1-mediated Pkc1-MAPK pathway that involves regulation of Rom2, the guanine nucleotide exchange factor of Rho1, by Mpk1, the end kinase of the pathway. This previously unrecognized Mpk1-depedent feedback is a critical step in regulating Rho1 function. Activation of this feedback mechanism is responsible for redistribution of Rom2 and cell wall synthesis activity from the bud to cell periphery under stress conditions. It is also required for terminating Rho1 activity toward the Pkc1-MAPK pathway and for repolarizing actin cytoskeleton and restoring growth after the stressed cells become adapted.</text>
+      <annotation id="2">
+        <infon key="OrganismID">559292</infon>
+        <infon key="type">Organism</infon>
+        <infon key="src">edit</infon>
+        <location offset="108" length="24"/>
+        <text>Saccharomyces cerevisiae</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1152</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1165</offset>
+      <text>Cells of the yeast Saccharomyces cerevisiae grow by a unique process called budding, during which the growth of a cell is restricted at its bud [1], [2]. The polarized growth is maintained by a highly asymmetric distribution of the actin cytoskeleton, which channels transport vesicles to the site of growth for cell wall expansion. Actin distribution in yeast cells is a dynamic process that undergoes depolarization and repolarization during cell cycle or when cells are under stressful conditions [3]. This dynamic process is regulated by a family of small guanosine triphosphatases (GTPase), including Rho1, Cdc42, and several other Rho-type GTPases. Rho1 is the major GTPase involved in maintaining the polarized actin distribution and cell wall expansion during bud growth [4], [5].</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1954</offset>
+      <text>Rho1 elicits its function through several distinct effectors, among which are Fks1 and Pkc1 [4], [6], [7]. Fks1 is the catalytic subunit of beta-1,3-glucan synthase that catalyzes the synthesis of beta-1,3-linked glucan, a major structural component of the yeast cell wall [8]. Pkc1 is a homologue of mammalian Protein Kinase C that controls a mitogen activated protein kinase (MAPK) signaling module composed of Bck1 (MAPKKK), Mkk1 and Mkk2 (MAPKK), and Mpk1/Slt2 (MAPK) [9]. Activation of these two effectors by Rho1 results in changes in actin distribution and cell wall synthesis activity, which are essential for cell survival under stress conditions. Like other small GTPases, the activity of Rho1 depends on its guanine nucleotide binding states. It is active in GTP bound state and inactive in GDP bound state. The guanine nucleotide binding state of Rho1 is reciprocally regulated by its guanine nucleotide exchange factors (GEF) and GTPase activating proteins (GAP) [4]. Several exchange factors of Rho1 have been identified, including two homologous proteins, Rom1 and Rom2, as well as a distantly related protein, Tus1 [10], [11]. Among these proteins, Rom2 is the major GEF for Rho1 that is responsible for relaying signals from cell surface to Rho1 for its activation [10], [12]. Rom2 associates with the plasma membrane through its pleckstrin homology (PH) domain that binds phospholipids as well as its interaction with several integrin-like cell surface proteins, including Wsc1 and Mid2. It has been suggested that these cell surface proteins function as stress sensors to activate Rom2 in response to stresses that alter cell wall integrity [13]-[15]. During normal growth, Rom2 is co-localized with Rho1 at the bud, the site of growth [14], [16]. In response to environmental stresses, such as elevated temperature, both proteins redistribute to cell periphery, where they function together with beta-1,3-glucan synthase to remodel the cell wall [13], [17], [18].</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3934</offset>
+      <text>The Rho1 mediated Pkc1-MAPK pathway is involved in controlling actin distribution and cell wall expansion [19]. During normal growth, a basal activity of the pathway is required for maintaining the polarized distribution of actin and new wall synthesis. Reduction in its signaling activity often results in randomized actin distribution and a weak cell wall, which causes cell lysis defect at elevated temperature [20], [21]. Activation of this pathway occurs during bud emergence and in response to various stresses that perturb the cell wall [12], [22], [23]. Analysis of heat stress induced activation of the pathway reveals that the activation is a transient process in that the activity of the pathway returns to basal level following a short activation period despite the persistence of the heat stress [11], [22]. The transient activation of the pathway leads to temporary changes in a series of cellular events, including depolarization of actin, redistribution of Rom2 and Rho1 from the bud to cell periphery, a delay in G2/M transition and an increase in transcription of genes involved in cell wall synthesis [17], [24]-[26]. Collaboratively, these events result in cessation of polarized growth and changes in cell wall structure, which allow the affected cells to become adapted to the insult [17], [24]. Despite this, it remains unclear how these events are organized in an orderly manner. In the present study, we identify a novel feedback mechanism in the Rho1 mediated Pkc1-MAPK pathway, in which the end kinase of the pathway, Mpk1, controls the upstream activity through Rom2, the nucleotide exchange factor of Rho1. Our results suggest that this Mpk1 dependent feedback mechanism plays a critical role in coordinating cellular responses to environmental stresses.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5720</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>5728</offset>
+      <text>Rom2 undergoes Mpk1 dependent phosphorylation upon heat stress</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5791</offset>
+      <text>In response to mild heat stress the Rho1 mediated Pkc1-MAPK pathway undergoes a transient activation, which culminates at a short duration of an increase in Mpk1 activity [11]. As previous reported [27] and shown in Fig. 1A, the increase in Mpk1 activity was manifested by a rise in the levels of the dual phosphorylation at Thr190/Tyr192 located in the kinase activation loop of Mpk1 (Fig. 1A, lower panel). Interestingly, accompanying the Mpk1 activation was a transient decrease in the mobility of Rom2 on SDS PAGE, which appeared coincidently with Mpk1 activation, and disappeared following Mpk1 inactivation (Fig. 1A, upper panel). The heat induced change in the mobility of Rom2 was also observed with cells treated with cycloheximide, which blocked new protein synthesis (Fig. S1). This observation suggests that the mobility change of Rom2 does not require production of new proteins. To determine whether the mobility shift of Rom2 under heat stress is a common response to an activated Pkc1-MAPK pathway, we treated cells with rapamycin, a drug that is known to stimulate the pathway by inducing starvation responses [28], [29]. As shown in Fig. 1B (upper panel), a similar decrease in Rom2 mobility was detected upon the drug treatment. In comparison with that induced by heat stress, the drug induced change in Rom2 mobility lasted longer, which correlated with an extended duration of Mpk1 activation. Interestingly, while Mpk1 activation appeared 30 min after the drug treatment (lower panel), Rom2 mobility did not change until 60 min later (upper panel). This observation suggests that Mpk1 activation takes place prior to Rom2 mobility shift, implying that the latter might be a consequence rather than a cause for Mpk1 activation.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>7540</offset>
+      <text>Stress induced Rom2 phosphorylation is Mpk1 dependent.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7595</offset>
+      <text>Exponentially growing cells (Y974) were shifted from 23 C to 38 C (A. or treated with rapamycin at 23 C (B. for indicated duration. Cells were collected and lysed. The expressed Rom2-myc13 and the levels of phospho-Mpk1 in the lysates were detected by western blotting. C. Wild cells expressing Rom2-myc13 (Y974) were grown to early log phase at 23 C and shifted to 38 C. Aliquots of cells were removed at the indicated time points after the shift and lysed. Rom2-myc13 was immunopurified with anti-Myc antibody and treated for 1 hr with alkaline phosphatase (Pase+) in the presence (PI+) or absence (PI-) of 20 mM of beta-glycerophosphate. D. Exponentially growing wild type (Y974) and its isogenic mpk1Delta cells expressing Rom2-myc13 (Y973) were shifted from 23 C to 38 C. Aliquots of cells were removed at the indicated time points and lysed. The expressed Rom2-myc13 in the lysates was detected by western blotting.</text>
+      <annotation id="PPIe_104">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="7759" length="105"/>
+        <text>The expressed Rom2-myc13 and the levels of phospho-Mpk1 in the lysates were detected by western blotting.</text>
+      </annotation>
+      <annotation id="PPIe_105">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="8443" length="73"/>
+        <text>The expressed Rom2-myc13 in the lysates was detected by western blotting.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8521</offset>
+      <text>To determine whether the shift in Rom2 mobility was caused by phosphorylation, we immunopurified Rom2 from heat stressed cells and examined its mobility by SDS PAGE after treating it with alkaline phosphatase. As shown in Fig. 1C, the shift of Rom2 induced by the heat stress was eliminated by the phosphatase treatment (compare lanes 2-4), suggesting that the shift was caused by phosphorylation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8921</offset>
+      <text>Since the stress induced Mpk1 activation precedes Rom2 phosphorylation, we tested whether Rom2 phosphorylation is dependent on Mpk1 by monitoring the mobility of Rom2 from mpk1deletion cells. As shown in Fig. 1D, heat stress failed to cause a change in the mobility of Rom2 in the mutant cells (lanes 3-7), which was in contrast to that in wild type cells (lanes 1 and 2). Since &gt;85% of the mpk1 deletion cells remained viable at the end of the heat treatment (Fig. S2), the absence of Rom2 mobility shift was unlikely due to cell lysis defect of the mutant cells. These observations suggest that the heat induced Rom2 phosphorylation is dependent on Mpk1.</text>
+      <annotation id="GIm_141">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="9294" length="191"/>
+        <text>Since &gt;85% of the mpk1 deletion cells remained viable at the end of the heat treatment (Fig. S2), the absence of Rom2 mobility shift was unlikely due to cell lysis defect of the mutant cells.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9580</offset>
+      <text>Given that Mpk1 is the end kinase in the Pkc1-MAPK pathway, the above observations also raised the possibility that Mpk1 may phosphorylate Rom2 directly. To confirm the notion, we first determined whether overproduction of Mkk1S386P was able to cause Rom2 phosphorylation. Mkk1S386P is an active mutant of Mkk1, a MAPKK in yeast. When overexpressed, it activates Mpk1 independent of upstream signals of the Pkc1-MAPK pathway [30]. As shown in Fig. 2A, Mkk1S386P overproduction induced Rom2 phosphorylation in wild type cells but not in cells deleted of MPK1. This finding suggests that MKK1S386P promotes Rom2 phosphorylation through Mpk1. The Mpk1 dependent phosphorylation was also observed in cells deleted of both WSC1 and MID2, indicating that these upstream activators of Rom2 are not required for the phosphorylation. Similarly, deletion of PKC1 or BCK1, which encode two upstream kinases of Mkk1 [9], did not affect the phosphorylation, nor did the deletion of the gene for the transcription factor Rlm1, a target of Mpk1 in transcription [30]. These findings demonstrate that activation of Mpk1 alone is sufficient for Rom2 phosphorylation, supporting the notion that Mpk1 is directly involved in regulation of Rom2.</text>
+      <annotation id="A1">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856425</infon>
+        <location offset="10133" length="4"/>
+        <text>MPK1</text>
+      </annotation>
+      <annotation id="A2">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854406</infon>
+        <location offset="10032" length="9"/>
+        <text>Mkk1S386P</text>
+      </annotation>
+      <annotation id="A3">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851086</infon>
+        <location offset="10065" length="4"/>
+        <text>Rom2</text>
+      </annotation>
+      <annotation id="GIm_142">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="10011" length="127"/>
+        <text>As shown in Fig. 2A, Mkk1S386P overproduction induced Rom2 phosphorylation in wild type cells but not in cells deleted of MPK1.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>10806</offset>
+      <text>Mpk1 phosphorylates Rom2.</text>
+      <annotation id="4">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856425</infon>
+        <location offset="10806" length="4"/>
+        <text>Mpk1</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851086</infon>
+        <location offset="10826" length="4"/>
+        <text>Rom2</text>
+      </annotation>
+      <annotation id="PPIm_156">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="10806" length="25"/>
+        <text>Mpk1 phosphorylates Rom2.</text>
+      </annotation>
+      <annotation id="PPIe_106">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="10806" length="25"/>
+        <text>Mpk1 phosphorylates Rom2.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>10832</offset>
+      <text>A. Yeast cells expressing Myc tagged Rom2, including those of wild type (Y1243), mpk1Delta (Y1272)*, wsc1Delta mid2Delta (Y1273)*, pkc1Delta (Y1274)*, bck1Delta (Y1275)* and rlm1Delta (Y1276) were transformed with GAL1p-MKK1S386P or a control vector. Transformed cells were grown overnight in medium containing 2% raffinose to exponential phase, followed by addition of galactose to a final concentration of 1%. An aliquot of cells was collected before or 3 hr after the addition of galactose. Cells were lysed and lysates were analyzed by western blotting with anti-Myc antibody. B. Cells expressing HA3-MPK1 (Y1054) or HA3-mpk1K54R (Y1052) were grown to exponential phase at 23 C and shifted to 38 C. Cells were collected at the indicated time points after the shift. HA tagged Mpk1 proteins were immunopurified and incubated with Rom2-myc13 in the presence of ATPgamma32P. The phosphorylation levels of Rom2-myc13 by HA3-Mpk1 were monitored by the incorporation of 32P into the protein (lower panel). The levels of the Mpk1 protein (upper panel) and phospho-Mpk1 (middle panel) were determined by western blotting. Note: * these strains are not isogenic to the wild type strain (Y1243).</text>
+      <annotation id="PPIe_107">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="11326" length="86"/>
+        <text>Cells were lysed and lysates were analyzed by western blotting with anti-Myc antibody.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12003</offset>
+      <text>To further confirm that Mpk1 phosphorylates Rom2 directly, we assessed the ability of Mpk1 to phosphorylate Rom2 using an in vitro kinase assay. We found that immunopurified Mpk1 was able to phosphorylate Rom2, and the kinase activity was greatly enhanced when Mpk1 was purified from heat-stressed cells (Fig. 2B, lower panel, compare lanes 2 and 3), which correlated with the heat induced Mpk1 activation (middle panel). In contrast, a kinase inactive mutant of Mpk1 (Mpk1K54R) was virtually unable to phosphorylate Rom2 (lane 1). This finding demonstrates that Mpk1 is capable of directly phosphorylating Rom2.</text>
+      <annotation id="8">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856425</infon>
+        <location offset="12177" length="4"/>
+        <text>Mpk1</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851086</infon>
+        <location offset="12208" length="4"/>
+        <text>Rom2</text>
+      </annotation>
+      <annotation id="PPIm_157">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <location offset="12003" length="144"/>
+        <text>To further confirm that Mpk1 phosphorylates Rom2 directly, we assessed the ability of Mpk1 to phosphorylate Rom2 using an in vitro kinase assay.</text>
+      </annotation>
+      <annotation id="PPIm_158">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="12148" length="276"/>
+        <text>We found that immunopurified Mpk1 was able to phosphorylate Rom2, and the kinase activity was greatly enhanced when Mpk1 was purified from heat-stressed cells (Fig. 2B, lower panel, compare lanes 2 and 3), which correlated with the heat induced Mpk1 activation (middle panel).</text>
+      </annotation>
+      <annotation id="PPIe_108">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <location offset="12003" length="144"/>
+        <text>To further confirm that Mpk1 phosphorylates Rom2 directly, we assessed the ability of Mpk1 to phosphorylate Rom2 using an in vitro kinase assay.</text>
+      </annotation>
+      <annotation id="PPIe_109">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="12148" length="276"/>
+        <text>We found that immunopurified Mpk1 was able to phosphorylate Rom2, and the kinase activity was greatly enhanced when Mpk1 was purified from heat-stressed cells (Fig. 2B, lower panel, compare lanes 2 and 3), which correlated with the heat induced Mpk1 activation (middle panel).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12616</offset>
+      <text>Collectively, the above results strongly suggest that Rom2 is a direct target of Mpk1, thus revealing the existence of a feedback control loop in the Rho1 mediated Pkc1-MAPK pathway, through which the end kinase of the pathway regulates its upstream signaling activity. In the following experiments, we investigated the physiologic significance of this novel feedback control loop.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12998</offset>
+      <text>Mpk1 is required for Rom2 redistribution from the bud to cell periphery</text>
+      <annotation id="PPIm_159">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="12998" length="71"/>
+        <text>Mpk1 is required for Rom2 redistribution from the bud to cell periphery</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13070</offset>
+      <text>Under normal growth conditions, Rom2 is localized to the bud of actively growing budded cells, where its effector Rho1 resides, but is displaced from the site upon heat stress [13], [14]. We thus determined whether Mpk1 is responsible for this displacement. As shown in Fig. 3A, in wild type cells Rom2 was localized at the bud under normal growth condition, but was quickly displaced from the site in response to heat stress (upper row). In the mpk1 deletion cells grown under normal condition, Rom2 was also found at the bud, although the percentage of small- or mid-size budded cells displaying bud staining was lower than that of the wild type cells (Fig. 3B). Despite this, the bud localization of Rom2 in the mutant cells was largely unaffected by heat stress (Fig. 3A, lower row), suggesting that Mpk1 is required for displacement of Rom2 from the site. Interestingly, the heat induced displacement of Rom2 in wild type cells was a transient process. Rom2 relocated back to the bud after 90 min despite the persistence of the heat stress, which coincided with Rom2 dephosphorylation following Mpk1 inactivation (Fig. 1A). This observation suggests that the Mpk1 dependent phosphorylation may dictate the localization of Rom2.</text>
+      <annotation id="GIm_143">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="13509" length="225"/>
+        <text>In the mpk1 deletion cells grown under normal condition, Rom2 was also found at the bud, although the percentage of small- or mid-size budded cells displaying bud staining was lower than that of the wild type cells (Fig. 3B).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>14303</offset>
+      <text>Rom2 undergoes Mpk1 dependent redistribution in response to heat stress.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14376</offset>
+      <text>A. Wild type (Y1038) and its isogenic mpk1Delta cells (Y1037) expressing ROM2-GFP were grown to early log phase at 23 C and shifted to 38 C. The localization of Rom2-GFP at the indicated time points after the shift was examined by confocal microscopy. B. The relative percentage of small- and mid-size budded cells showing bud staining of Rom2-GFP at the indicated time points shown in A was quantified. The small- and mid sized buds were defined as those with a cross section bud diameter less than two-thirds of that of the mother cell. Data shown are average of three independent experiments with &gt;=200 cells counted for each experiment. C. Wild type (Y1038) and mpk1 deletion (Y1037) cells expressing ROM2-GFP and GAL1p-MKK1S386P were grown to exponential phase in medium containing raffinose (2%) followed by adding 1% of galactose. At the indicated time points after the addition of galactose, cells were harvested, fixed and imaged by confocal microscopy.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15339</offset>
+      <text>To further confirm that heat induced Rom2 relocation is caused by Mpk1 activation, we overexpressed MKK1S386P in both wild type and mpk1 deletion cells. As shown in Fig. 3C, overexpression of MKK1S386P caused redistribution of Rom2 in wild type cells but not in the mutant ones, suggesting that Mpk1 activation alone is sufficient for Rom2 redistribution.</text>
+      <annotation id="A13">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854406</infon>
+        <location offset="15439" length="9"/>
+        <text>MKK1S386P</text>
+      </annotation>
+      <annotation id="A14">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856425</infon>
+        <location offset="15471" length="4"/>
+        <text>mpk1</text>
+      </annotation>
+      <annotation id="A15">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854406</infon>
+        <location offset="15531" length="9"/>
+        <text>MKK1S386P</text>
+      </annotation>
+      <annotation id="A16">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851086</infon>
+        <location offset="15566" length="4"/>
+        <text>Rom2</text>
+      </annotation>
+      <annotation id="GIm_144">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="15339" length="152"/>
+        <text>To further confirm that heat induced Rom2 relocation is caused by Mpk1 activation, we overexpressed MKK1S386P in both wild type and mpk1 deletion cells.</text>
+      </annotation>
+      <annotation id="GIm_145">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="15492" length="202"/>
+        <text>As shown in Fig. 3C, overexpression of MKK1S386P caused redistribution of Rom2 in wild type cells but not in the mutant ones, suggesting that Mpk1 activation alone is sufficient for Rom2 redistribution.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>15695</offset>
+      <text>Redistribution of Rho1 and Fks1 from the bud to cell periphery does not require Mpk1</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15780</offset>
+      <text>In addition to Rom2, Rho1 and its effector in cell wall synthesis, Fks1, also reside at the bud and undergo stress induced redistribution in a way similar to that of Rom2 [17], [18]. We thus examined whether the redistribution of these two proteins under stress conditions was also controlled by Mpk1. As shown in Fig. 4, we found that upon heat stress Rho1 was displaced from the bud in wild type cells and those deleted of MPK1 (Figs. 4A and 4B). Similarly, Fks1 was also dislocated in both cell types (Figs. 4C and 4D). These findings suggest that Mpk1 is dispensable for the stress induced redistribution of Rho1 and Fks1. Nevertheless, the displacement of these two proteins in the mutant cells did not appear to be as effective as in wild type cells, since in a significant portion of the small- and mid-size budded cells a small amount of the proteins remained at the bud (Fig. 4). This observation indicates that Mpk1 may play an indirect role in regulating the redistribution of Rho1 and Fks1, likely through controlling Rom2 relocation. Collectively, these findings suggest that Rom2 is the primary target of the Mpk1 dependent feedback mechanism.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>16938</offset>
+      <text>Heat induced redistribution of Rho1 and Fks1 does not require Mpk1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>17006</offset>
+      <text>A. Wild type (Y1128) and its isogenic mpk1Delta cells (Y1129) expressing HA3-RHO1 were grown to early log phase at 23 C and shifted to 38 C. The localization of HA3-Rho1 at the indicated time points after the shift was examined using confocal microscopy. B. The relative percentage of small- and mid-size budded cells showing bud staining of HA3-Rho1 at the indicated time points shown in A was quantified. Data shown are average of three independent experiments with &gt;=200 cells counted for each experiment. C. Wild type (Y1125) and its isogenic mpk1Delta cells (Y1126) expressing FKS1-GFP were grown to early log phase at 23 C and shifted to 38 C. The localization of Fks1-GFP at the indicated time points after the shift was examined using confocal microscopy. D. The relative percentage of small- and mid-size budded cells showing bud staining of Fks1-GFP at the indicated time points shown in C was quantified. Data shown are average of three independent experiments with &gt;=200 cells counted for each experiment.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>18024</offset>
+      <text>Mpk1 is required for inactivation of the Rho1 mediated Pkc1-MAPK pathway</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18097</offset>
+      <text>The Mpk1 dependent redistribution of Rom2 reveals the existence of a feedback mechanism by which the end kinase of the Pkc1-MAPK pathway affects the upstream signaling activity. One potential outcome of the feedback is that the Mpk1 dependent redistribution of Rom2 deprives Rho1 activity from Pkc1, and consequently, leads to Pkc1 inactivation. Should this be the case, inactivation of Mpk1 would result in a sustained activation of the Pkc1-MAPK pathway. To test this notion, we examined the signaling activity of the pathway in the absence of Mpk1. Accordingly, we expressed a wild type or a kinase inactive mutant of Mpk1 (Mpk1K54R) in mpk1 deletion cells and monitored the dual phosphorylation levels at Thr190/Tyr192 of the ectopically expressed proteins. Because Mpk1K54R contains a Lys to Arg point mutation in its kinase domain that abrogates its kinase activity [31], this mutant is able to receive Mkk1/Mkk2 directed phosphorylation at Thr190/Tyr192 but is unable to become activated, thus incapable of initiating the feedback. On the other hand, wild type Mpk1 is able to set off the feedback upon Mkk1/Mkk2 directed phosphorylation. As shown in Fig. 5A, in cells expressing wild type Mpk1 heat stress induced a short duration of increase in the phosphorylation levels at Thr190/Tyr192 of the expressed protein, indicating that the activation of pathway was transient. In contrast, in cells expressing the mutant Mpk1, the same treatment caused a prolonged increase in the phosphorylation, indicating that the activation of the pathway was sustained.</text>
+      <annotation id="PPIm_160">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="19243" length="234"/>
+        <text>As shown in Fig. 5A, in cells expressing wild type Mpk1 heat stress induced a short duration of increase in the phosphorylation levels at Thr190/Tyr192 of the expressed protein, indicating that the activation of pathway was transient.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>19660</offset>
+      <text>Mpk1 is required for inactivation of Rho1.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>19703</offset>
+      <text>A. The mpk1Delta cells (Y972) expressing either HA tagged wild type MPK1 (upper panels) or the mpk1K54R mutant gene (lower panels) were grown at 23 C to early log phrase and shifted to 38 C. Aliquots of cells were collected at the indicated time points after the shift. The levels of phosphorylated wild type (P-HA-Mpk1) and kinase mutant Mpk1 (P-HA-Mpk1-km) were detected using anti-phospho MAPK antibody (1st and 3rd panels). The levels of both wild type (HA-Mpk1) and kinase mutant Mpk1 (HA-Mpk1-km) were detected using anti-HA antibody (2nd and 4th panels). B. Exponentially growing yeast cells of isogenic strains, Y1277 (wt), Y1281 (mpk1Delta) and Y1278 (RHO1Q68H), were shifted from 23 C to 38 C. At indicated time points after the shift, aliquots of cells were removed and lysed. Cell lysates were precipitated with anti-Myc antibody and precipitates were analyzed by western blotting for the presence of Myc3-Rho1 and Pkc1-HA3. C. Wild type (Y1277) and mpk1Delta (Y1281) cells expressing MKK1S386P or control vector were grown at 23 C to exponential phase in medium containing 2% raffinose. The expression of MKK1S386P was induced by addition of galactose to a final concentration of 1%. Upon induction for 3 hr, cells were shifted to 38 C. Aliquots of cells were removed at the indicated time points after the shift and lysed for immunoprecipitation as in B.</text>
+      <annotation id="A20">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856294</infon>
+        <location offset="20621" length="4"/>
+        <text>Rho1</text>
+      </annotation>
+      <annotation id="A21">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852169</infon>
+        <location offset="20630" length="4"/>
+        <text>Pkc1</text>
+      </annotation>
+      <annotation id="GIm_146">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="20803" length="96"/>
+        <text>The expression of MKK1S386P was induced by addition of galactose to a final concentration of 1%.</text>
+      </annotation>
+      <annotation id="PPIm_161">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="20491" length="148"/>
+        <text>Cell lysates were precipitated with anti-Myc antibody and precipitates were analyzed by western blotting for the presence of Myc3-Rho1 and Pkc1-HA3.</text>
+      </annotation>
+      <annotation id="PPIe_110">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="20491" length="148"/>
+        <text>Cell lysates were precipitated with anti-Myc antibody and precipitates were analyzed by western blotting for the presence of Myc3-Rho1 and Pkc1-HA3.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21069</offset>
+      <text>Because mpk1 deletion cells are defective in several cellular processes, including G2/M transition, cell wall integrity and transcription, it is possible that the sustained activation of the Pkc1-MAPK pathway in the mutant cells was caused indirectly by malfunctions in these processes. To rule out this possibility, we examined the activity of the pathway in cells bearing similar defects. We found that heat induced activation of the pathway was effectively terminated in cells arrested at G2/M by nocodazole treatment, blocked for cell wall synthesis or deleted of the major transcriptional target of Mpk1, Rlm1 (Fig. S3). These results indicate that the sustained activation of the Pkc1-MAPK pathway in mpk1 deletion cells is unlikely to be an indirect consequence of Mpk1 inactivation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>21860</offset>
+      <text>Mpk1 negatively regulates Rho1</text>
+      <annotation id="PPIm_162">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="21860" length="30"/>
+        <text>Mpk1 negatively regulates Rho1</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21891</offset>
+      <text>To determine that Mpk1 downregulates the Pkc1-MAPK pathway by inhibiting Rho1 activity toward Pkc1, we first investigated whether in the absence of Mpk1, Rho1 undergoes a sustained activation upon heat stress. Previous studies have shown that Rho1 interacts with Pkc1 only in active GTP-bound form [32], [33]. We thus exploited the ability of Rho1 to interact with Pkc1 as an indication for Rho1 activation. In wild type cells heat stress induced a transient interaction between Rho1 and Pkc1, but in mpk1 deletion cells the same treatment caused a prolonged interaction between Rho1 and Pkc1. As a control, we found that Rho1Q68H, an active mutant of Rho1 [34], exhibited a constitutive interaction with Pkc1 (Fig. 5B, lower panels). These findings demonstrated that heat induced Rho1 activation was sustained in the absence of Mpk1.</text>
+      <annotation id="12">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856294</infon>
+        <location offset="22470" length="4"/>
+        <text>Rho1</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852169</infon>
+        <location offset="22479" length="4"/>
+        <text>Pkc1</text>
+      </annotation>
+      <annotation id="A24">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856294</infon>
+        <location offset="22370" length="4"/>
+        <text>Rho1</text>
+      </annotation>
+      <annotation id="A25">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852169</infon>
+        <location offset="22379" length="4"/>
+        <text>Pkc1</text>
+      </annotation>
+      <annotation id="A26">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856425</infon>
+        <location offset="22392" length="4"/>
+        <text>mpk1</text>
+      </annotation>
+      <annotation id="PPIm_163">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="22299" length="185"/>
+        <text>In wild type cells heat stress induced a transient interaction between Rho1 and Pkc1, but in mpk1 deletion cells the same treatment caused a prolonged interaction between Rho1 and Pkc1.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22726</offset>
+      <text>To further confirm the negatively role of Mpk1 in Rho1 regulation, we examined whether MKK1S386P overproduction, which drives Mpk1 activation, was able to repress heat induced Rho1 activation. As shown in Fig. 5C, we found that heat failed to induce the association of Rho1 with Pkc1 in wild type cells expressing MKK1S386P, but caused a prolonged association of Rho1 with Pkc1 in mpk1 deletion cells expressing the same gene. These observations demonstrate that high Mpk1 activity prevents Rho1 activation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23234</offset>
+      <text>The Mpk1-Rom2 feedback loop mediates the lethal effect of MKK1S386P</text>
+      <annotation id="GIm_147">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="23234" length="67"/>
+        <text>The Mpk1-Rom2 feedback loop mediates the lethal effect of MKK1S386P</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23302</offset>
+      <text>The existence of the Mpk1-Rom2 feedback loop in the Rho1 mediated Pkc1-MAPK pathway predicts that a sustained activation of Mpk1 would inhibit Rho1 and Pkc1 dependent processes. Coincidently, it was previously shown that overexpression of the MKK1S386P mutant inhibited cell growth through a Mpk1 dependent mechanism [30]. It is thus possible that the lethality associated with MKK1S386P overproduction was caused by inhibition of Rho1 through the Mpk1 dependent feedback loop. To test this possibility, we first determined whether expressing RHO1Q68H is able to rescue the MKK1S386P induced growth arrest. We found that expressing the active but not wild type RHO1 permitted cell growth in the presence of MKK1S386P overproduction (Fig. 6A), suggesting that the downregulation of Rho1 is likely to be the cause for MKK1S386P induced growth arrest. To further determine whether the Mpk1 mediated feedback loop is involved in the growth arrest, we examined the effect of MKK1S386P overexpression in cells deleted of ROM2 or MPK1. As shown in Fig. 6B, whereas overexpression of MKK1S386P inhibited the growth of wild type cells, it failed to do so to cells depleted of ROM2 or MPK1. This result suggests that the inhibitory effect of MKK1S386P is mediated through the Mpk1 dependent feedback mechanism. Furthermore, we determined whether other components of the Rho1-mediated Pkc1-MAPK pathway are involved. Like wild type cells, those deleted of both WSC1 and MID2, PKC1, BCK1, FKS1 and RLM1 remained sensitive to MKK1S386P overexpression, suggesting these gene products are not required for the inhibitory activity of MKK1S386P. Interestingly, deletion of ROM1, which encodes a GEF of Rho1, rendered cells resistant to MKK1S386P overexpression, while deletion of TUS1, encoding another GEF of Rho1, did not. This observation suggests that Rom1, but not Tus1, functions similarly to Rom2 in the feedback loop. Collectively, the above findings demonstrate that other components of the Rho1 mediated PKC1-MAPK pathway are not involved in the inhibitory feedback loop, further endorsing the notion that the loop constitutes a direct phosphorylation of Rom2, and possibly, of Rom1, by Mpk1.</text>
+      <annotation id="17">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856294</infon>
+        <location offset="23963" length="4"/>
+        <text>RHO1</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851086</infon>
+        <location offset="24469" length="4"/>
+        <text>ROM2</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856425</infon>
+        <location offset="24477" length="4"/>
+        <text>MPK1</text>
+      </annotation>
+      <annotation id="20">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854406</infon>
+        <location offset="24009" length="9"/>
+        <text>MKK1S386P</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854406</infon>
+        <location offset="24378" length="9"/>
+        <text>MKK1S386P</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852961</infon>
+        <location offset="24958" length="4"/>
+        <text>ROM1</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856294</infon>
+        <location offset="24987" length="4"/>
+        <text>Rho1</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854406</infon>
+        <location offset="25021" length="9"/>
+        <text>MKK1S386P</text>
+      </annotation>
+      <annotation id="GIm_148">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="23909" length="241"/>
+        <text>We found that expressing the active but not wild type RHO1 permitted cell growth in the presence of MKK1S386P overproduction (Fig. 6A), suggesting that the downregulation of Rho1 is likely to be the cause for MKK1S386P induced growth arrest.</text>
+      </annotation>
+      <annotation id="GIm_149">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="24331" length="151"/>
+        <text>As shown in Fig. 6B, whereas overexpression of MKK1S386P inhibited the growth of wild type cells, it failed to do so to cells depleted of ROM2 or MPK1.</text>
+      </annotation>
+      <annotation id="GIm_150">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="24931" length="178"/>
+        <text>Interestingly, deletion of ROM1, which encodes a GEF of Rho1, rendered cells resistant to MKK1S386P overexpression, while deletion of TUS1, encoding another GEF of Rho1, did not.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>25488</offset>
+      <text>The lethal effect of MKK1S386P overexpression is caused by Mpk1 dependent inhibition of Rho1.</text>
+      <annotation id="GIm_151">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="25488" length="93"/>
+        <text>The lethal effect of MKK1S386P overexpression is caused by Mpk1 dependent inhibition of Rho1.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>25582</offset>
+      <text>Yeast cells expressing GAL1p-MKK1S386P (+) or a control vector (-) were spotted onto plates containing 1 M sorbitol with either 2% of glucose or 2% of raffinose plus 1% of galactose. Plates were imaged after incubation at 30 C for two days. Strains used were wt (Y661), rom2Delta (Y741), rom1Delta (AAY265)*, mpk1Delta (Y972)*, wsc1Delta mid2Delta (Y1214)*, pkc1Delta (D376)*, bck1Delta (Y1177)*, fks1Delta (Y1216)*, tus1Delta (1203)* and rlm1Delta (Y1221). Note: * these strains are not isogenic to Y661.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>26059</offset>
+      <text>Downregulation of Pkc1 is required for actin repolarization in mpk1 deletion cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26142</offset>
+      <text>In response to heat stress, actin undergoes a transient depolarization followed by repolarization. While the depolarization depends on Pkc1 activation, the repolarization requires Mpk1. In the absence of Mpk1, depolarized actin is unable to repolarize and remains disorganized [17]. In light of the finding that Mpk1 is required for terminating the upstream signaling activity of Pkc1, it is possible that the requirement of Mpk1 for actin repolarization reflects a need for Mpk1 to downregulate Pkc1. To test this possibility, we examined whether inhibition of Pkc1 was able to repolarize actin in the absence of Mpk1. As shown in Fig. 7A, we found that actin became depolarized in both wild type and mpk1 deletion cells upon exposure to heat stress for 45 min. Within 3 hr, actin repolarized in wild type cells but remained depolarized in the mutant cells. These observations are consistent with the previous finding [17]. However, when a dominant negative PKC1 mutant, PKC1K853R [7], was overexpressed (Fig. 7B), it permitted actin repolarization in the mutant cells (Fig. 7A, lower row). This observation indicates that downregulation of Pkc1 is required for actin repolarization, thus supporting a notion that Pkc1 activity controls both depolarization and repolarization of actin (Fig. 7C).</text>
+      <annotation id="A41">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852169</infon>
+        <location offset="27101" length="4"/>
+        <text>PKC1</text>
+      </annotation>
+      <annotation id="GIm_152">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="27067" length="166"/>
+        <text>However, when a dominant negative PKC1 mutant, PKC1K853R [7], was overexpressed (Fig. 7B), it permitted actin repolarization in the mutant cells (Fig. 7A, lower row).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_title_caption</infon>
+      <offset>27439</offset>
+      <text>Downregulation of Pkc1 is required for actin repolarization in mpk1Delta cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>27516</offset>
+      <text>A. Wild type (Y062) and its isogenic mpk1Delta cells (Y972) expressing GAL1p-PKC1K853R or a control vector were grown in medium containing 2% of raffinose at 23 C to early log phase and shifted to 38 C. Galactose was added to the medium to a final concentration of 1% immediately following the shift. Aliquots of cells were collected, fixed at the indicated time points, stained with fluor-phalloidin and visualized by confocal microscopy. B. Expression levels of Pkc1K853R in mpk1Delta cells (Y972) at the indicated time points after the shift. The level of an HA tagged endogenous Pkc1 in wild type cells was shown as a control (ctrl). C. A model for the action of Mpk1 in the Rho1 mediated Pkc1-MAPK pathway and actin distribution (see text for detail).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>28269</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28280</offset>
+      <text>The Rho1 GTPase mediated Pkc1-MAPK pathway in yeast cells regulates actin organization and cell wall expansion during normal growth or under stress conditions [3], [5]. The signaling process of the pathway is believed to involve a series of sequential reactions that culminate at the activation of Mpk1, the end kinase of the pathway [9]. In the present study, we uncovered a Mpk1 dependent feedback loop that is an integral part of the signaling processes of the pathway. This novel feedback loop involves phosphorylation of Rom2, the upstream activator of Rho1, by the end kinase of the pathway, Mpk1, leading to redistribution of Rom2 from the bud to cell periphery and termination of the Pkc1-MAPK cascade. This finding indicates that the signaling mechanisms of Rho1 are more complicated than previously appreciated.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29102</offset>
+      <text>The redistribution of Rom2, Rho1 and Fks1 from the bud to cell periphery upon heat stress is believed to shift cell wall synthesis activity to cell periphery, where repairing or remodeling of cell wall is required for the affected cells to withstand the insult [13], [17]. Because Rom2 fails to relocate to cell periphery in the absence of Mpk1 (Fig. 3A), it is conceivable that Rom2 redistribution is not caused by signals from upstream but by a feedback from Mpk1. Consistent with this notion, we found that activation of Mpk1 by overexpression of MKK1S386P was sufficient to direct Rom2 to cell periphery (Fig. 3C). While Mpk1 controls redistribution of Rom2, it does not affect that of Rho1 and Fks1 (Figs. 3 and 4). In the absence of Mpk1, Rho1 and Fks1 are still able to relocate from the bud tip to cell periphery. However, they are unable to become active at the site, because Rom2, the activator of Rho1, is absent. As a consequence, the affected cells lost the ability to repair or remodel cell wall at cell periphery, which may contribute to the cell lysis defect associated with mpk1 deletion cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30214</offset>
+      <text>The sustained signaling activity of the Pkc1-MAPK pathway in the absence of Mpk1 indicates that the Mpk1 dependent feedback is required to terminate the signaling activity of the pathway (Fig. 5). It is possible that the Mpk1 dependent feedback inhibits the Pkc1-MAPK pathway by downregulating the GEF activity of Rom2. However, a downregulated Rom2 activity would jeopardize its function for cell wall repairing or remodeling at cell periphery, leading to cell lysis defect under stress conditions. Since this scenario does not happen to wild type cells under mild heat stress, we consider the possibility unlikely. On the other hand, given that Pkc1 resides at sites of polarized growth during cell cycle, such as the bud tip and bud neck [35], it is possible that the redistribution of Rom2 and Rho1 from the bud tip to cell periphery deprives of the upstream signaling activity from Pkc1, causing its inactivation. In the absence of Mpk1, Rom2, together with some Rho1 remained at the bud, may keep Pkc1 active. In this regard, Mpk1 acts as a negative regulator of the pathway.</text>
+      <annotation id="PPIm_164">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="30411" length="122"/>
+        <text>It is possible that the Mpk1 dependent feedback inhibits the Pkc1-MAPK pathway by downregulating the GEF activity of Rom2.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31296</offset>
+      <text>The negative role of Mpk1 also explains the lethality associated with MKK1S386P overexpression. As the direct activator of Mpk1, MKK1S386P overexpression is expected to stimulate and uphold Mpk1 activity, resulting in a sustained Rom2 phosphorylation. It may be assumed that the phosphorylated Rom2 causes downregulation of Rho1 function, because an active allele of RHO1 alleviates the lethal effect of MKK1S386P overexpression (Fig. 6). Nevertheless, it appears that the downregulation in Rho1 activity is not caused simply by Rom2 inactivation, because inactivation of Rom2 or Rom1 by genetic deletion abolishes the lethal effect of MKK1S386P overexpression rather than exaggerates it. The requirement for Rom1 and Rom2 for the lethal activity of MKK1S386P overexpression indicates that these factors, upon phosphorylation, acquire an activity that negatively regulates Rho1. It remains unclear how this negative regulation is achieved. It is possible that the Mpk1 dependent phosphorylation of Rom2 may prevent Rho1 and Fks1 from re-locating back to the bud, and consequently block bud growth. Further study is needed to determine the underlying mechanism.</text>
+      <annotation id="26">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851086</infon>
+        <location offset="31868" length="4"/>
+        <text>Rom2</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852961</infon>
+        <location offset="31876" length="4"/>
+        <text>Rom1</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854406</infon>
+        <location offset="31932" length="9"/>
+        <text>MKK1S386P</text>
+      </annotation>
+      <annotation id="A43">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856294</infon>
+        <location offset="31663" length="4"/>
+        <text>RHO1</text>
+      </annotation>
+      <annotation id="A44">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854406</infon>
+        <location offset="31700" length="9"/>
+        <text>MKK1S386P</text>
+      </annotation>
+      <annotation id="GIe_65">
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="31548" length="186"/>
+        <text>It may be assumed that the phosphorylated Rom2 causes downregulation of Rho1 function, because an active allele of RHO1 alleviates the lethal effect of MKK1S386P overexpression (Fig. 6).</text>
+      </annotation>
+      <annotation id="GIe_66">
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="31735" length="249"/>
+        <text>Nevertheless, it appears that the downregulation in Rho1 activity is not caused simply by Rom2 inactivation, because inactivation of Rom2 or Rom1 by genetic deletion abolishes the lethal effect of MKK1S386P overexpression rather than exaggerates it.</text>
+      </annotation>
+      <annotation id="GIm_153">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="31548" length="186"/>
+        <text>It may be assumed that the phosphorylated Rom2 causes downregulation of Rho1 function, because an active allele of RHO1 alleviates the lethal effect of MKK1S386P overexpression (Fig. 6).</text>
+      </annotation>
+      <annotation id="GIm_154">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="31735" length="249"/>
+        <text>Nevertheless, it appears that the downregulation in Rho1 activity is not caused simply by Rom2 inactivation, because inactivation of Rom2 or Rom1 by genetic deletion abolishes the lethal effect of MKK1S386P overexpression rather than exaggerates it.</text>
+      </annotation>
+      <annotation id="PPIm_165">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="32236" length="157"/>
+        <text>It is possible that the Mpk1 dependent phosphorylation of Rom2 may prevent Rho1 and Fks1 from re-locating back to the bud, and consequently block bud growth.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32457</offset>
+      <text>In response to heat stress actin undergoes a transient depolarization and repolarization process. It has been found that the upstream components of the pathway, including Rom2, Rho1 and Pkc1, are required for depolarization, but Mpk1 is required for actin repolarization. These observations have led to the suggestion that Pkc1 controls actin distribution through both Mpk1 dependent and independent mechanisms [17]. Our findings suggest that the role of Mpk1 in actin repolarization process is to terminate Pkc1 activity by removing its upstream activators, which supports a notion that Pkc1 activity dictates both actin depolarization and repolarization. It is likely that Pkc1 activation promotes and sustains actin depolarization and its inactivation allows actin repolarization (Fig. 7C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33251</offset>
+      <text>The existence of a Mpk1 dependent feedback control as an integral part of the Rho1 mediated Pkc1-MAPK pathway suggests that there are two sequential signaling activities that propagate through the pathway when cells are exposed to adverse conditions. In the first phase, Rho1 is activated by Rom2 in response to stresses, which in turn promotes Pkc1 and Mpk1 activation. Pkc1 activation leads to actin depolarization, and consequently inhibits bud growth by disrupting vesicular transport. Upon activation, Mpk1 elicits at least three different functions. First, it increases transcription of genes involved in cell wall synthesis [25]. Second, it inactivates Cdc28 via a checkpoint mechanism that causes a delay in cell cycle progression [24], [26]. Finally, it initiates the second phase of signaling by phosphorylating Rom2 and directing cell wall synthesis activity toward cell periphery (Figs. 1 and 3). In doing so, it removes the upstream activators from Pkc1, causing its inactivation and actin repolarization. Conceivably, the Mpk1 dependent feedback loop also leads to its own inactivation, which may allow Rom2 and Rho1 to relocate back to the bud so that growth may resume. Hence, Mpk1, the end kinase of the Rho1 mediated Pkc1-MAPK pathway, acts as a switch to control the signaling activity of Rho1 and Pkc1 and to coordinate cellular responses to environmental stresses.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>34637</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34659</offset>
+      <text>Media and reagents</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34678</offset>
+      <text>Yeast cells were normally grown in YP medium containing 1% yeast extract and 2% peptone or synthetic complete media lacking an appropriate amino acid for selection. All media normally contain 2% glucose as the carbon source unless indicated otherwise. Rapamycin and FK506 were purchased from LC laboratories (Woburn, MA), and Nocodazole and cycloheximide from Sigma. Anti-phospho-MAPK (Thr202/Tyr204) antibody was purchased from Cell Signaling (Beverly, MA), and anti-HA and myc antibodies from Roche (Indianapolis, IN).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35199</offset>
+      <text>Yeast strains and plasmids</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35226</offset>
+      <text>Yeast strains used in this study are listed in Table S1 of the Supplementary Materials S1. Plasmid expressing a dominant negative PKC1 gene under control of the GAL1 promoter, GAL1p-PKC1K853R, was a generous gift from David Levin [7]. Plasmids pNV7-MKK1S386P expressing an active allele of MKK1 (MKK1S386P) under the GAL1 promoter, the control vector pNV7 and the rlm1Delta::LEU2 construct were kindly provided by Kunihiro Mutsumoto [30]. To construct HA3-MPK1-pRS314, a 2.2 kb fragment containing the MPK1 gene was amplified by PCR from yeast genomic DNA and cloned into pRS314. A sequence cassette containing triple tandem repeats of HA epitope was inserted at the second codon the MPK1 gene. HA3-MPK1-pRS424 was made by cloning the HA3-MPK1 gene into pRS424. The HA3-mpk1K54R kinase mutant was generated by site directed mutagenesis using QuikChange kit from Strategene. To construct Myc3-RHO1-pRS406, a 1.4 kb fragment containing RHO1 gene was amplified by PCR and cloned into pRS406, and a sequence cassette containing triple tandem repeats of Myc epitope was inserted at the second codon of the RHO1 gene. Myc3-RHO1Q68H was created by site directed mutagenesis. A 5' end truncated Myc epitope-tagged ROM2 gene (rom2Delta5'-myc13) was constructed by cloning a SacI-BamHI PCR fragment containing the last 658 base pairs of the ROM2 gene into pRS406. A sequence cassette containing 13 tandem myc epitopes (myc13) and an ADH1 termination sequence was then inserted into the BamHI site that was placed immediately before the stop codon. Plasmid rom2Delta5'-myc13-pRS404 was created by cloning the truncated myc tagged ROM2 gene into pRS404. A 5' truncated HA tagged PKC1 gene (pkc1Delta5'-HA3) was generated by cloning a 2.1 kb fragment containing the 3' region of PKC1 (from 1301 upstream of the stop codon to 795 bp after) into pRS406 and followed by inserting a triple HA sequence cassette immediately before the stop codon. The epitope-tagged genes were used to replace their endogenous versions by two step-gene replacement method [36].</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37269</offset>
+      <text>Fluorescence Microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37293</offset>
+      <text>For analysis of actin distribution, cells were fixed with formaldehyde and stained with Alexa-conjugated phalloidin (Molecular Probes) as described before [37]. Localization studies of HA3-Rho1 were performed as previously described [17]. For localization studies of GFP tagged Rom2 and Fks1, cells were collected, fixed in methanol at -20 C for 10 min and washed once with acetone, 3x with PBS. After the final wash, cells were resuspended in PBS and visualized by confocal microscopy (Zeiss Pascal 5 M).</text>
+      <annotation id="PPIe_111">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="37532" length="156"/>
+        <text>For localization studies of GFP tagged Rom2 and Fks1, cells were collected, fixed in methanol at -20 C for 10 min and washed once with acetone, 3x with PBS.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37803</offset>
+      <text>In vitro kinase assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37825</offset>
+      <text>The kinase activity of Mpk1 toward Rom2 was determined using immunopurified epitope tagged Mpk1 and Rom2. To purify Rom2-myc13, Y974 cells were grown in YPD medium at 30 C to exponential phase. Cells (2x109) were harvested and lysed with glass beads in 0.5 ml of lysis buffer containing 50 mM Tris-Cl, pH 7.4, 150 mM NaCl, 1 mM DTT, 1 mM EDTA, 1% Triton X-100, 5 mM sodium pyrophosphate, 5 mM beta-glycerophosphate, 5 mM Na3VO4 and 1x protease inhibitor cocktail (Roche, Indianapolis, IN). Lysates (10 mg) were incubated for 3 hr with 120 microl of Protein A agarose beads conjugated with anti-myc antibody. Beads were washed 3x with lysis buffer and twice with kinase buffer containing 50 mM Tris-Cl, pH 6.8, 1 mM DTT, 10 mM MgCl2, 0.1% Triton X-100. The washed beads were divided into aliquots of 20 microl each and used for kinase reaction. To purify HA3-Mpk1, Y972 cells were transformed with plasmid HA3-MPK1-pRS424 or HA3-mpk1K54R-pRS424, and transformed cells were grown to exponential phase at 23 C and then shifted to 38 C. Aliquots of cells (5x108) were collected before and 30 min after the shift and lysed in 0.5 ml of lysis buffer. Lysates (3 mg) were precipitated with 20 microl of Protein A agarose bead conjugated with anti-HA antibody. Beads were washed 3x with lysis buffer and twice with kinase buffer. After the final wash, beads were resuspended in 70 microl of kinase buffer containing 5 mM HA epitope peptides (GenScript, Piscataway, NJ) and incubated for 30 min at 30 C. Beads were removed after the incubation by centrifugation. An aliquot of 30 microl of supernatant was incubated with 20 microl of Rom2-myc13 bounded beads in the presence of 100 microM ATP, 1 microCi ATPgamma 32P at 30 C for 30 min. The reaction was terminated by adding 15 microl of 5x SDS sample buffer followed by boiling for 5 min. Samples were subjected to SDS PAGE and transferred to nitrocellular membrane. Phosphorylated Rom2 was visualized by radioautography and the amount of HA3-Mpk1 and phospho-Mpk1 (Thr190/Tyr192) in each reaction was determined by western blotting.</text>
+      <annotation id="PPIe_112">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="38970" length="107"/>
+        <text>Lysates (3 mg) were precipitated with 20 microl of Protein A agarose bead conjugated with anti-HA antibody.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39880</offset>
+      <text>Co-immunoprecipitation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39903</offset>
+      <text>Yeast cells expressing PKC1-HA3 and Myc3-RHO1 were grown overnight at 23 C to early log phase and shifted to 38 C. At each of the indicated time points after the shift, an aliquot of cells (2x109) was transferred to a centrifuge tube filled with ice and collected by centrifugation at 500 g for 5 min. After washing once with ice-cold lysis buffer containing 50 mM Tris-Cl, pH 7.4, 100 mM NaCl, 1% Triton X-100, 2 mM DTT, 1 mM PMSF and 1.5x EDTA-free protease inhibitor cocktail (Roche), cells were resuspended in 0.5 ml lysis buffer and lysed with glass beads. Lysate (10 mg) was incubated 2 microg of anti-Myc antibody (9E10) for 2 hrs at 4 C and followed by addition of 15 microl of Protein A beads. After incubation for 1 hr, beads were washed 3x with wash buffer containing 50 mM Tris-Cl, pH 7.4, 300 mM NaCl, 1% Triton X-100, and once with 20 mM Tris-Cl, pH 7.4. After the final wash, beads were resuspended in 60 microl of 2x SDS sample buffer. Upon incubation at 65 C for 10 min, samples were immediately subjected to SDS PAGE and western blot analysis. HRP-linked protein A/G was used to replace secondary antibody for detecting Myc3-Rho1 in western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>41071</offset>
+      <text>Supporting Information</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>41094</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="volume">5</infon>
+      <infon key="name_0">surname:Casamayor;given-names:A</infon>
+      <infon key="name_1">surname:Snyder;given-names:M</infon>
+      <infon key="source">Curr Opin Microbiol</infon>
+      <infon key="lpage">186</infon>
+      <infon key="pub-id_pmid">11934615</infon>
+      <infon key="fpage">179</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>41105</offset>
+      <text>Bud-site selection and cell polarity in budding yeast.</text>
+    </passage>
+    <passage>
+      <infon key="volume">129</infon>
+      <infon key="name_0">surname:Chant;given-names:J</infon>
+      <infon key="name_1">surname:Pringle;given-names:JR</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">765</infon>
+      <infon key="pub-id_pmid">7730409</infon>
+      <infon key="fpage">751</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>41160</offset>
+      <text>Patterns of bud-site selection in the yeast Saccharomyces cerevisiae.</text>
+    </passage>
+    <passage>
+      <infon key="volume">52</infon>
+      <infon key="name_0">surname:Madden;given-names:K</infon>
+      <infon key="name_1">surname:Snyder;given-names:M</infon>
+      <infon key="source">Annu Rev Microbiol</infon>
+      <infon key="lpage">744</infon>
+      <infon key="pub-id_pmid">9891811</infon>
+      <infon key="fpage">687</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>41230</offset>
+      <text>Cell polarity and morphogenesis in budding yeast.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Drgon;given-names:T</infon>
+      <infon key="volume">67</infon>
+      <infon key="name_0">surname:Cabib;given-names:E</infon>
+      <infon key="name_1">surname:Drgonova;given-names:J</infon>
+      <infon key="source">Annu Rev Biochem</infon>
+      <infon key="lpage">333</infon>
+      <infon key="pub-id_pmid">9759491</infon>
+      <infon key="fpage">307</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>41280</offset>
+      <text>Role of small G proteins in yeast cell polarization and wall biosynthesis.</text>
+    </passage>
+    <passage>
+      <infon key="volume">14</infon>
+      <infon key="name_0">surname:Schmidt;given-names:A</infon>
+      <infon key="name_1">surname:Hall;given-names:MN</infon>
+      <infon key="source">Annu Rev Cell Dev Biol</infon>
+      <infon key="lpage">338</infon>
+      <infon key="pub-id_pmid">9891786</infon>
+      <infon key="fpage">305</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>41355</offset>
+      <text>Signaling to the actin cytoskeleton.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Inoue;given-names:SB</infon>
+      <infon key="name_3">surname:Arisawa;given-names:M</infon>
+      <infon key="name_0">surname:Qadota;given-names:H</infon>
+      <infon key="name_1">surname:Python;given-names:CP</infon>
+      <infon key="name_4">surname:Anraku;given-names:Y</infon>
+      <infon key="source">Science</infon>
+      <infon key="volume">272</infon>
+      <infon key="pub-id_pmid">8602515</infon>
+      <infon key="fpage">279</infon>
+      <infon key="year">1996</infon>
+      <infon key="lpage">281</infon>
+      <infon key="type">ref</infon>
+      <offset>41392</offset>
+      <text>Identification of yeast Rho1p GTPase as a regulatory subunit of 1,3-beta-glucan synthase.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Levin;given-names:DE</infon>
+      <infon key="volume">269</infon>
+      <infon key="name_0">surname:Watanabe;given-names:M</infon>
+      <infon key="name_1">surname:Chen;given-names:CY</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="lpage">16836</infon>
+      <infon key="pub-id_pmid">8207005</infon>
+      <infon key="fpage">16829</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>41482</offset>
+      <text>Saccharomyces cerevisiae PKC1 encodes a protein kinase C (PKC) homolog with a substrate specificity similar to that of mammalian PKC.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Marrinan;given-names:JA</infon>
+      <infon key="name_3">surname:Morin;given-names:N</infon>
+      <infon key="name_0">surname:Douglas;given-names:CM</infon>
+      <infon key="name_1">surname:Foor;given-names:F</infon>
+      <infon key="name_4">surname:Nielsen;given-names:JB</infon>
+      <infon key="source">Proc Natl Acad Sci U S A</infon>
+      <infon key="volume">91</infon>
+      <infon key="pub-id_pmid">7528927</infon>
+      <infon key="fpage">12907</infon>
+      <infon key="year">1994</infon>
+      <infon key="lpage">12911</infon>
+      <infon key="type">ref</infon>
+      <offset>41616</offset>
+      <text>The Saccharomyces cerevisiae FKS1 (ETG1) gene encodes an integral membrane protein which is a subunit of 1,3-beta-D-glucan synthase.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Schmitz;given-names:HP</infon>
+      <infon key="name_3">surname:Jacoby;given-names:JJ</infon>
+      <infon key="name_0">surname:Heinisch;given-names:JJ</infon>
+      <infon key="name_1">surname:Lorberg;given-names:A</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="volume">32</infon>
+      <infon key="pub-id_pmid">10361272</infon>
+      <infon key="fpage">671</infon>
+      <infon key="year">1999</infon>
+      <infon key="lpage">680</infon>
+      <infon key="type">ref</infon>
+      <offset>41749</offset>
+      <text>The protein kinase C-mediated MAP kinase pathway involved in the maintenance of cellular integrity in Saccharomyces cerevisiae.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Imamura;given-names:H</infon>
+      <infon key="name_3">surname:Hihara;given-names:T</infon>
+      <infon key="name_0">surname:Ozaki;given-names:K</infon>
+      <infon key="name_1">surname:Tanaka;given-names:K</infon>
+      <infon key="name_4">surname:Kameyama;given-names:T</infon>
+      <infon key="source">Embo J</infon>
+      <infon key="volume">15</infon>
+      <infon key="pub-id_pmid">8641285</infon>
+      <infon key="fpage">2196</infon>
+      <infon key="year">1996</infon>
+      <infon key="lpage">2207</infon>
+      <infon key="type">ref</infon>
+      <offset>41877</offset>
+      <text>Rom1p and Rom2p are GDP/GTP exchange proteins (GEPs) for the Rho1p small GTP binding protein in Saccharomyces cerevisiae.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Hall;given-names:MN</infon>
+      <infon key="volume">22</infon>
+      <infon key="name_0">surname:Schmelzle;given-names:T</infon>
+      <infon key="name_1">surname:Helliwell;given-names:SB</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">1339</infon>
+      <infon key="pub-id_pmid">11839800</infon>
+      <infon key="fpage">1329</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>41999</offset>
+      <text>Yeast protein kinases and the RHO1 exchange factor TUS1 are novel components of the cell integrity pathway in yeast.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Schmidt;given-names:A</infon>
+      <infon key="name_3">surname:Hall;given-names:MN</infon>
+      <infon key="name_0">surname:Bickle;given-names:M</infon>
+      <infon key="name_1">surname:Delley;given-names:PA</infon>
+      <infon key="source">Embo J</infon>
+      <infon key="volume">17</infon>
+      <infon key="pub-id_pmid">9545237</infon>
+      <infon key="fpage">2235</infon>
+      <infon key="year">1998</infon>
+      <infon key="lpage">2245</infon>
+      <infon key="type">ref</infon>
+      <offset>42116</offset>
+      <text>Cell wall integrity modulates RHO1 activity via the exchange factor ROM2.</text>
+    </passage>
+    <passage>
+      <infon key="volume">2</infon>
+      <infon key="name_0">surname:Audhya;given-names:A</infon>
+      <infon key="name_1">surname:Emr;given-names:SD</infon>
+      <infon key="source">Dev Cell</infon>
+      <infon key="lpage">605</infon>
+      <infon key="pub-id_pmid">12015967</infon>
+      <infon key="fpage">593</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>42190</offset>
+      <text>Stt4 PI 4-kinase localizes to the plasma membrane and functions in the Pkc1-mediated MAP kinase cascade.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Snyder;given-names:M</infon>
+      <infon key="volume">8</infon>
+      <infon key="name_0">surname:Manning;given-names:BD</infon>
+      <infon key="name_1">surname:Padmanabha;given-names:R</infon>
+      <infon key="source">Mol Biol Cell</infon>
+      <infon key="lpage">1844</infon>
+      <infon key="pub-id_pmid">9348527</infon>
+      <infon key="fpage">1829</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>42295</offset>
+      <text>The Rho-GEF Rom2p localizes to sites of polarized cell growth and participates in cytoskeletal functions in Saccharomyces cerevisiae.</text>
+    </passage>
+    <passage>
+      <infon key="volume">21</infon>
+      <infon key="name_0">surname:Philip;given-names:B</infon>
+      <infon key="name_1">surname:Levin;given-names:DE</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">280</infon>
+      <infon key="pub-id_pmid">11113201</infon>
+      <infon key="fpage">271</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>42429</offset>
+      <text>Wsc1 and Mid2 are cell surface sensors for cell wall integrity signaling that act through Rom2, a guanine nucleotide exchange factor for Rho1.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Nonaka;given-names:H</infon>
+      <infon key="name_3">surname:Maeda;given-names:A</infon>
+      <infon key="name_0">surname:Yamochi;given-names:W</infon>
+      <infon key="name_1">surname:Tanaka;given-names:K</infon>
+      <infon key="name_4">surname:Musha;given-names:T</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="volume">125</infon>
+      <infon key="pub-id_pmid">8195291</infon>
+      <infon key="fpage">1077</infon>
+      <infon key="year">1994</infon>
+      <infon key="lpage">1093</infon>
+      <infon key="type">ref</infon>
+      <offset>42572</offset>
+      <text>Growth site localization of Rho1 small GTP-binding protein and its involvement in bud formation in Saccharomyces cerevisiae.</text>
+    </passage>
+    <passage>
+      <infon key="volume">147</infon>
+      <infon key="name_0">surname:Delley;given-names:PA</infon>
+      <infon key="name_1">surname:Hall;given-names:MN</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="lpage">174</infon>
+      <infon key="pub-id_pmid">10508863</infon>
+      <infon key="fpage">163</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>42697</offset>
+      <text>Cell wall stress depolarizes cell growth via hyperactivation of RHO1.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Hirata;given-names:A</infon>
+      <infon key="name_3">surname:Abe;given-names:M</infon>
+      <infon key="name_0">surname:Utsugi;given-names:T</infon>
+      <infon key="name_1">surname:Minemura;given-names:M</infon>
+      <infon key="name_4">surname:Watanabe;given-names:D</infon>
+      <infon key="source">Genes Cells</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">11856368</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2002</infon>
+      <infon key="lpage">9</infon>
+      <infon key="type">ref</infon>
+      <offset>42767</offset>
+      <text>Movement of yeast 1,3-beta-glucan synthase is essential for uniform cell wall synthesis.</text>
+    </passage>
+    <passage>
+      <infon key="volume">69</infon>
+      <infon key="name_0">surname:Levin;given-names:DE</infon>
+      <infon key="source">Microbiol Mol Biol Rev</infon>
+      <infon key="lpage">291</infon>
+      <infon key="pub-id_pmid">15944456</infon>
+      <infon key="fpage">262</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>42856</offset>
+      <text>Cell wall integrity signaling in Saccharomyces cerevisiae.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Lee;given-names:KS</infon>
+      <infon key="name_3">surname:Levin;given-names:DE</infon>
+      <infon key="name_0">surname:Irie;given-names:K</infon>
+      <infon key="name_1">surname:Takase;given-names:M</infon>
+      <infon key="name_4">surname:Araki;given-names:H</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="volume">13</infon>
+      <infon key="pub-id_pmid">8386320</infon>
+      <infon key="fpage">3076</infon>
+      <infon key="year">1993</infon>
+      <infon key="lpage">3083</infon>
+      <infon key="type">ref</infon>
+      <offset>42915</offset>
+      <text>MKK1 and MKK2, which encode Saccharomyces cerevisiae mitogen-activated protein kinase-kinase homologs, function in the pathway mediated by protein kinase C.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Chen;given-names:CY</infon>
+      <infon key="name_3">surname:Kamada;given-names:Y</infon>
+      <infon key="name_0">surname:Levin;given-names:DE</infon>
+      <infon key="name_1">surname:Bowers;given-names:B</infon>
+      <infon key="name_4">surname:Watanabe;given-names:M</infon>
+      <infon key="source">Cell Mol Biol Res</infon>
+      <infon key="volume">40</infon>
+      <infon key="pub-id_pmid">7874200</infon>
+      <infon key="fpage">229</infon>
+      <infon key="year">1994</infon>
+      <infon key="lpage">239</infon>
+      <infon key="type">ref</infon>
+      <offset>43072</offset>
+      <text>Dissecting the protein kinase C/MAP kinase signalling pathway of Saccharomyces cerevisiae.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Piotrowski;given-names:J</infon>
+      <infon key="name_3">surname:Levin;given-names:DE</infon>
+      <infon key="name_0">surname:Kamada;given-names:Y</infon>
+      <infon key="name_1">surname:Jung;given-names:US</infon>
+      <infon key="source">Genes Dev</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">7628692</infon>
+      <infon key="fpage">1559</infon>
+      <infon key="year">1995</infon>
+      <infon key="lpage">1571</infon>
+      <infon key="type">ref</infon>
+      <offset>43163</offset>
+      <text>The protein kinase C-activated MAP kinase pathway of Saccharomyces cerevisiae mediates a novel aspect of the heat shock response.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Mann;given-names:C</infon>
+      <infon key="volume">15</infon>
+      <infon key="name_0">surname:Zarzov;given-names:P</infon>
+      <infon key="name_1">surname:Mazzoni;given-names:C</infon>
+      <infon key="source">Embo J</infon>
+      <infon key="lpage">91</infon>
+      <infon key="pub-id_pmid">8598209</infon>
+      <infon key="fpage">83</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>43293</offset>
+      <text>The SLT2(MPK1) MAP kinase is activated during periods of polarized cell growth in yeast.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Ohya;given-names:Y</infon>
+      <infon key="name_3">surname:Lew;given-names:DJ</infon>
+      <infon key="name_0">surname:Harrison;given-names:JC</infon>
+      <infon key="name_1">surname:Bardes;given-names:ES</infon>
+      <infon key="source">Nat Cell Biol</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">11283616</infon>
+      <infon key="fpage">417</infon>
+      <infon key="year">2001</infon>
+      <infon key="lpage">420</infon>
+      <infon key="type">ref</infon>
+      <offset>43382</offset>
+      <text>A role for the Pkc1p/Mpk1p kinase cascade in the morphogenesis checkpoint.</text>
+    </passage>
+    <passage>
+      <infon key="volume">34</infon>
+      <infon key="name_0">surname:Jung;given-names:US</infon>
+      <infon key="name_1">surname:Levin;given-names:DE</infon>
+      <infon key="source">Mol Microbiol</infon>
+      <infon key="lpage">1057</infon>
+      <infon key="pub-id_pmid">10594829</infon>
+      <infon key="fpage">1049</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>43457</offset>
+      <text>Genome-wide analysis of gene expression regulated by the yeast cell wall integrity signalling pathway.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Miyahara;given-names:K</infon>
+      <infon key="name_3">surname:Tsuchiya;given-names:E</infon>
+      <infon key="name_0">surname:Mizunuma;given-names:M</infon>
+      <infon key="name_1">surname:Hirata;given-names:D</infon>
+      <infon key="name_4">surname:Miyakawa;given-names:T</infon>
+      <infon key="source">Nature</infon>
+      <infon key="volume">392</infon>
+      <infon key="pub-id_pmid">9521328</infon>
+      <infon key="fpage">303</infon>
+      <infon key="year">1998</infon>
+      <infon key="lpage">306</infon>
+      <infon key="type">ref</infon>
+      <offset>43560</offset>
+      <text>Role of calcineurin and Mpk1 in regulating the onset of mitosis in budding yeast.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Ruiz;given-names:C</infon>
+      <infon key="name_3">surname:Nombela;given-names:C</infon>
+      <infon key="name_0">surname:Martin;given-names:H</infon>
+      <infon key="name_1">surname:Rodriguez-Pachon;given-names:JM</infon>
+      <infon key="name_4">surname:Molina;given-names:M</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="volume">275</infon>
+      <infon key="pub-id_pmid">10625705</infon>
+      <infon key="fpage">1511</infon>
+      <infon key="year">2000</infon>
+      <infon key="lpage">1519</infon>
+      <infon key="type">ref</infon>
+      <offset>43642</offset>
+      <text>Regulatory mechanisms for modulation of signaling through the cell integrity Slt2-mediated pathway in Saccharomyces cerevisiae.</text>
+    </passage>
+    <passage>
+      <infon key="volume">12</infon>
+      <infon key="name_0">surname:Krause;given-names:SA</infon>
+      <infon key="name_1">surname:Gray;given-names:JV</infon>
+      <infon key="source">Curr Biol</infon>
+      <infon key="lpage">593</infon>
+      <infon key="pub-id_pmid">11937029</infon>
+      <infon key="fpage">588</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>43770</offset>
+      <text>The protein kinase C pathway is required for viability in quiescence in Saccharomyces cerevisiae.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Herrero;given-names:E</infon>
+      <infon key="name_3">surname:De La Torre-Ruiz;given-names:MA</infon>
+      <infon key="name_0">surname:Torres;given-names:J</infon>
+      <infon key="name_1">surname:Di Como;given-names:CJ</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="volume">277</infon>
+      <infon key="pub-id_pmid">12171921</infon>
+      <infon key="fpage">43495</infon>
+      <infon key="year">2002</infon>
+      <infon key="lpage">43504</infon>
+      <infon key="type">ref</infon>
+      <offset>43868</offset>
+      <text>Regulation of the cell integrity pathway by rapamycin-sensitive TOR function in budding yeast.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Matsumoto;given-names:K</infon>
+      <infon key="volume">15</infon>
+      <infon key="name_0">surname:Watanabe;given-names:Y</infon>
+      <infon key="name_1">surname:Irie;given-names:K</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">5749</infon>
+      <infon key="pub-id_pmid">7565726</infon>
+      <infon key="fpage">5740</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>43963</offset>
+      <text>Yeast RLM1 encodes a serum response factor-like protein that may function downstream of the Mpk1 (Slt2) mitogen-activated protein kinase pathway.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Sanchez;given-names:M</infon>
+      <infon key="name_3">surname:Molina;given-names:M</infon>
+      <infon key="name_0">surname:Martin;given-names:H</infon>
+      <infon key="name_1">surname:Arroyo;given-names:J</infon>
+      <infon key="name_4">surname:Nombela;given-names:C</infon>
+      <infon key="source">Mol Gen Genet</infon>
+      <infon key="volume">241</infon>
+      <infon key="pub-id_pmid">8232202</infon>
+      <infon key="fpage">177</infon>
+      <infon key="year">1993</infon>
+      <infon key="lpage">184</infon>
+      <infon key="type">ref</infon>
+      <offset>44109</offset>
+      <text>Activity of the yeast MAP kinase homologue Slt2 is critically required for cell integrity at 37 degrees C.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Python;given-names:CP</infon>
+      <infon key="name_3">surname:Anraku;given-names:Y</infon>
+      <infon key="name_0">surname:Kamada;given-names:Y</infon>
+      <infon key="name_1">surname:Qadota;given-names:H</infon>
+      <infon key="name_4">surname:Ohya;given-names:Y</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="volume">271</infon>
+      <infon key="pub-id_pmid">8621575</infon>
+      <infon key="fpage">9193</infon>
+      <infon key="year">1996</infon>
+      <infon key="lpage">9196</infon>
+      <infon key="type">ref</infon>
+      <offset>44216</offset>
+      <text>Activation of yeast protein kinase C by Rho1 GTPase.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Hirano;given-names:H</infon>
+      <infon key="name_3">surname:Fujiwara;given-names:T</infon>
+      <infon key="name_0">surname:Nonaka;given-names:H</infon>
+      <infon key="name_1">surname:Tanaka;given-names:K</infon>
+      <infon key="name_4">surname:Kohno;given-names:H</infon>
+      <infon key="source">Embo J</infon>
+      <infon key="volume">14</infon>
+      <infon key="pub-id_pmid">8846785</infon>
+      <infon key="fpage">5931</infon>
+      <infon key="year">1995</infon>
+      <infon key="lpage">5938</infon>
+      <infon key="type">ref</infon>
+      <offset>44269</offset>
+      <text>A downstream target of RHO1 small GTP-binding protein is PKC1, a homolog of protein kinase C, which leads to activation of the MAP kinase cascade in Saccharomyces cerevisiae.</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Myers;given-names:AM</infon>
+      <infon key="volume">84</infon>
+      <infon key="name_0">surname:Madaule;given-names:P</infon>
+      <infon key="name_1">surname:Axel;given-names:R</infon>
+      <infon key="source">Proc Natl Acad Sci U S A</infon>
+      <infon key="lpage">783</infon>
+      <infon key="pub-id_pmid">3543936</infon>
+      <infon key="fpage">779</infon>
+      <infon key="year">1987</infon>
+      <infon key="type">ref</infon>
+      <offset>44444</offset>
+      <text>Characterization of two members of the rho gene family from the yeast Saccharomyces cerevisiae.</text>
+    </passage>
+    <passage>
+      <infon key="volume">113(Pt 15)</infon>
+      <infon key="name_0">surname:Andrews;given-names:PD</infon>
+      <infon key="name_1">surname:Stark;given-names:MJ</infon>
+      <infon key="source">J Cell Sci</infon>
+      <infon key="lpage">2693</infon>
+      <infon key="pub-id_pmid">10893184</infon>
+      <infon key="fpage">2685</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>44540</offset>
+      <text>Dynamic, Rho1p-dependent localization of Pkc1p to sites of polarized growth.</text>
+    </passage>
+    <passage>
+      <infon key="volume">194</infon>
+      <infon key="name_0">surname:Rothstein;given-names:R</infon>
+      <infon key="lpage">301</infon>
+      <infon key="source">Method Enzymol</infon>
+      <infon key="fpage">281</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>44617</offset>
+      <text>Targeting, disruption, raplacement, and rescue:intergrative DNA transformation in yeast.</text>
+    </passage>
+    <passage>
+      <infon key="volume">23</infon>
+      <infon key="name_0">surname:Wang;given-names:H</infon>
+      <infon key="name_1">surname:Jiang;given-names:Y</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="lpage">3125</infon>
+      <infon key="pub-id_pmid">12697813</infon>
+      <infon key="fpage">3116</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>44706</offset>
+      <text>The Tap42-protein phosphatase type 2A catalytic subunit complex is required for cell cycle-dependent distribution of actin in yeast.</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>44839</offset>
+      <text>Competing Interests: The authors have declared that no competing interests exist.</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>44921</offset>
+      <text>Funding: This work was supported by grant GM068832 from the National Institutes of Health (to YJ). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</text>
+    </passage>
+  </document>
+</collection>

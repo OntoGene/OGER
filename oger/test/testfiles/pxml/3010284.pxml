@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010284</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>10</Month>
+<Day>01</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0027-8424</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>83</Volume>
+<Issue>10</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>May</Month>
+</PubDate>
+</JournalIssue>
+<Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+<ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Transcriptional activation encoded by the v-fos gene.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3213-7</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>We present evidence that the fos oncogene encodes a transcriptional trans-activation function. trans-activation was assayed by cotransfection into NIH 3T3 mouse fibroblasts of v-fos DNA containing plasmids together with a plasmid containing a test promoter. Three v-fos DNAs were used: (i) pFBR-1, a plasmid containing the FBR proviral sequences; (ii) pFBJ-2, a plasmid harboring the FBJ proviral sequences; (iii) pMF-J, a plasmid containing the FBJ fos sequences linked to a mouse metallothionein promoter. Each of the three v-fos DNA plasmids stimulated the expression of a cotransfected chimeric gene consisting of a promoter segment of the mouse alpha 1(III) collagen gene linked to the gene for chloramphenicol transacetylase. In similar experiments the v-fos gene also stimulated the long terminal repeat promoter of Rous sarcoma virus (RSV) but neither the early promoter of simian virus 40 nor the beta-actin promoter. Evidence that the trans-activation function is specified by the v-fos coding sequences comes from the fact that a frameshift mutation in the v-fos coding sequence inhibits the trans-activation. Two mutations that map around nucleotide -100 in the RSV promoter do not respond to cotransfection with v-fos, whereas other mutations respond like the wild-type RSV promoter. These experiments suggest that the v-fos gene either encodes or induces an activator of transcription that recognizes specific sequences in promoters.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Setoyama</LastName>
+<ForeName>C</ForeName>
+<Initials>C</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Frunzio</LastName>
+<ForeName>R</ForeName>
+<Initials>R</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Liau</LastName>
+<ForeName>G</ForeName>
+<Initials>G</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Mudryj</LastName>
+<ForeName>M</ForeName>
+<Initials>M</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>de Crombrugghe</LastName>
+<ForeName>B</ForeName>
+<Initials>B</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+<NlmUniqueID>7505876</NlmUniqueID>
+<ISSNLinking>0027-8424</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D009856">Oncogene Proteins, Viral</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D014157">Transcription Factors</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9007-34-5</RegistryNumber>
+<NameOfSubstance UI="D003094">Collagen</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1966 Feb 11;151(3711):698-701</RefSource>
+<PMID Version="1">5218049</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1985 Sep 20;229(4719):1265-8</RefSource>
+<PMID Version="1">4035354</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Dev Biol. 1980 Feb;74(2):470-8</RefSource>
+<PMID Version="1">6154618</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1980 Aug;35(2):436-43</RefSource>
+<PMID Version="1">6255184</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1981 Sep;78(9):5334-8</RefSource>
+<PMID Version="1">6946474</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1982 Apr;42(1):114-22</RefSource>
+<PMID Version="1">6283132</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1982 Nov;44(2):674-82</RefSource>
+<PMID Version="1">6292525</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1982 Sep;2(9):1044-51</RefSource>
+<PMID Version="1">6960240</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1982 Nov;79(22):6777-81</RefSource>
+<PMID Version="1">6294651</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Nov;35(1):137-48</RefSource>
+<PMID Version="1">6313220</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1983 Nov;3(11):2110-5</RefSource>
+<PMID Version="1">6318082</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Jan;36(1):51-60</RefSource>
+<PMID Version="1">6607118</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Feb;36(2):259-68</RefSource>
+<PMID Version="1">6319013</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1984 Feb;36(2):381-9</RefSource>
+<PMID Version="1">6319019</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Feb;81(4):1193-7</RefSource>
+<PMID Version="1">6199792</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1983 Dec;80(24):7428-32</RefSource>
+<PMID Version="1">6200874</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Apr;81(7):2040-4</RefSource>
+<PMID Version="1">6201850</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>EMBO J. 1984 Apr;3(4):789-94</RefSource>
+<PMID Version="1">6723627</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Virology. 1984 May;135(1):229-43</RefSource>
+<PMID Version="1">6203215</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1984 Jul 27;225(4660):381-5</RefSource>
+<PMID Version="1">6330891</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>EMBO J. 1984 Aug;3(8):1887-90</RefSource>
+<PMID Version="1">6479151</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Oct 4-10;311(5985):433-8</RefSource>
+<PMID Version="1">6090941</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Oct 4-10;311(5985):438-42</RefSource>
+<PMID Version="1">6541297</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1984 Nov 30;226(4678):1080-2</RefSource>
+<PMID Version="1">6093261</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Nov 15-21;312(5991):280-2</RefSource>
+<PMID Version="1">6438521</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1985 Jan 10;260(1):531-6</RefSource>
+<PMID Version="1">2981217</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Dec 20-1985 Jan 2;312(5996):711-6</RefSource>
+<PMID Version="1">6514007</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Dec 20-1985 Jan 2;312(5996):716-20</RefSource>
+<PMID Version="1">6334806</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1985 Jan 11;227(4683):171-3</RefSource>
+<PMID Version="1">2981427</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1985 Jan 18;227(4684):317-20</RefSource>
+<PMID Version="1">2981431</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1985 Jan 18;227(4684):320-2</RefSource>
+<PMID Version="1">2981432</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1985 Jan;40(1):209-17</RefSource>
+<PMID Version="1">3881183</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1985 Mar;40(3):537-46</RefSource>
+<PMID Version="1">2982497</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1985 Mar 21-27;314(6008):286-9</RefSource>
+<PMID Version="1">2984572</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1985 Jun;41(2):629-37</RefSource>
+<PMID Version="1">2985286</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochemistry. 1979 Nov 27;18(24):5294-9</RefSource>
+<PMID Version="1">518835</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001358">Avian Sarcoma Viruses</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002460">Cell Line</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003001">Cloning, Molecular</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003094">Collagen</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005786">Gene Expression Regulation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051379">Mice</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009856">Oncogene Proteins, Viral</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D009857">Oncogenes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D011401">Promoter Regions, Genetic</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012091">Repetitive Sequences, Nucleic Acid</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014157">Transcription Factors</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D014158">Transcription, Genetic</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC323483</OtherID>
+</MedlineCitation>

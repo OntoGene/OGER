@@ -1,0 +1,2042 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>BioCBioGRID.key</key>
+  <document>
+    <id>9722616</id>
+    <infon key="top">71</infon>
+    <infon key="catagory">marked</infon>
+    <passage>
+      <infon key="name_2">surname:Kano;given-names:Kyoko</infon>
+      <infon key="name_3">surname:Kawano;given-names:Yoji</infon>
+      <infon key="name_0">surname:Taya;given-names:Shinichiro</infon>
+      <infon key="name_1">surname:Yamamoto;given-names:Takaharu</infon>
+      <infon key="name_6">surname:Tanaka;given-names:Keiji</infon>
+      <infon key="kwd">AF-6 Fam deubiquitinating enzyme ubiquitination cell-cell adhesions</infon>
+      <infon key="name_4">surname:Iwamatsu;given-names:Akihiro</infon>
+      <infon key="name_5">surname:Tsuchiya;given-names:Tomoko</infon>
+      <infon key="issue">4</infon>
+      <infon key="name_8">surname:Wood;given-names:Stephen A.</infon>
+      <infon key="name_9">surname:Mattick;given-names:John S.</infon>
+      <infon key="article-id_pmid">9722616</infon>
+      <infon key="lpage">1062</infon>
+      <infon key="article-id_pmc">2132865</infon>
+      <infon key="journal-title">The Journal of Cell Biology</infon>
+      <infon key="fpage">1053</infon>
+      <infon key="year">1998</infon>
+      <infon key="name_10">surname:Kaibuchi;given-names:Kozo</infon>
+      <infon key="name_7">surname:Kanai-Azuma;given-names:Masami</infon>
+      <infon key="type">front</infon>
+      <infon key="volume">142</infon>
+      <offset>0</offset>
+      <text>The Ras Target AF-6 is a Substrate of the Fam Deubiquitinating Enzyme </text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>71</offset>
+      <text>The Ras target AF-6 has been shown to  serve as one of the peripheral components of cell-cell  adhesions, and is thought to participate in cell-cell adhesion regulation downstream of Ras. We here purified  an AF-6-interacting protein with a molecular mass of  ~220 kD (p220) to investigate the function of AF-6 at  cell-cell adhesions. The peptide sequences of p220  were identical to the amino acid sequences of mouse  Fam. Fam is homologous to a deubiquitinating enzyme  in Drosophila, the product of the fat facets gene. Recent  genetic analyses indicate that the deubiquitinating activity of the fat facets product plays a critical role in controlling the cell fate. We found that Fam accumulated  at the cell-cell contact sites of MDCKII cells, but not at  free ends of plasma membranes. Fam was partially  colocalized with AF-6 and interacted with AF-6 in vivo  and in vitro. We also showed that AF-6 was ubiquitinated in intact cells, and that Fam prevented the ubiquitination of AF-6. </text>
+      <annotation id="20">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="280" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="340" length="4"/>
+        <text>p220</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="864" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="900" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="925" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="PPIm_525">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="259" length="147"/>
+        <text>We here purified  an AF-6-interacting protein with a molecular mass of  ~220 kD (p220) to investigate the function of AF-6 at  cell-cell adhesions.</text>
+      </annotation>
+      <annotation id="PPIm_526">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="864" length="88"/>
+        <text>Fam was partially  colocalized with AF-6 and interacted with AF-6 in vivo  and in vitro.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1075</offset>
+      <text>These results indicate that AF-6 forms a complex  with and serves as one of the substrates for Fam, and  suggest that the degradation of peripheral components  of cell-cell adhesions may be regulated by Fam. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1286</offset>
+      <text>Ras (Ha-Ras, Ki-Ras, N-Ras) is a signal-transducing  guanine nucleotide-binding protein for tyrosine kinase-type receptors such as epidermal growth factor receptors and the Src family (for reviews see Satoh  et al., 1992; McCormick, 1994). Ras has GDP-bound inactive and GTP-bound active forms, the latter of which  make physical contact with targets (Marshall, 1995a). Intensive investigations revealed that the Raf kinase family,  consisting of c-Raf-1 (for reviews see Blenis, 1993; Daum  et al., 1994), A-Raf (Vojtek et al., 1993), and B-Raf  (Moodie et al., 1994; Jaiswal et al., 1994; Catling et al.,  1994; Yamamori et al., 1995), is one of the direct targets  for Ras. The activated Raf phosphorylates mitogen-activated protein (MAP)1 kinase kinase and activates it. Consequently, the activated MAP kinase kinase activates  MAP kinase, leading to the expression of certain genes  such as c-fos (for reviews see Cano and Mahadevan, 1995;  Marshall, 1995b). Several molecules interacting with activated Ras in addition to Raf have been identified in mammals. These include phosphatidylinositol-3-OH kinase  (Rodriguez-Viciana et al., 1994), Ral guanine nucleotide  dissociation stimulator (Kikuchi et al., 1994; Spaargaren  and Bischoff, 1994), and Rin1 (Han and Colicelli, 1995).  We previously identified the acute lymphoblastic leukemia-1 (ALL-1) fusion partner from chromosome 6 (AF-6)  as a Ras target (Kuriyama et al., 1996). AF-6 was identified as the fusion partner of ALL-1 protein (Prasad et al.,  1993). The ALL-1/AF-6 chimeric protein is a critical product of the t(6;11) abnormality associated with some human  leukemia. AF-6 has the postsynaptic density protein PSD-95/discs-large tumor suppressor protein Dlg/ZO-1 (PDZ)  domain, which is thought to localize AF-6 at the specialized sites of plasma membranes such as cell-cell contact  sites.</text>
+      <annotation id="PPIm_527">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="1286" length="239"/>
+        <text>Ras (Ha-Ras, Ki-Ras, N-Ras) is a signal-transducing  guanine nucleotide-binding protein for tyrosine kinase-type receptors such as epidermal growth factor receptors and the Src family (for reviews see Satoh  et al., 1992; McCormick, 1994).</text>
+      </annotation>
+      <annotation id="PPIm_528">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="1963" length="97"/>
+        <text>The activated Raf phosphorylates mitogen-activated protein (MAP)1 kinase kinase and activates it.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3153</offset>
+      <text>We have recently found that AF-6 accumulates at tight  junctions in epithelial cells such as MDCKII cells and at  cell-cell adhesions in nonepithelial cells such as Rat1 fibroblasts and PC12 rat pheochromocytoma cells (Yamamoto et al., 1997). AF-6 interacts with ZO-1 in vitro. ZO-1  interacts with the Ras-binding domain of AF-6, and this  interaction is inhibited by activated Ras. Overexpression  of activated Ras in Rat1 cells results in perturbation of  cell-cell contacts, followed by a decrease of the accumulation of AF-6 and ZO-1 at the cell surface (Yamamoto et al.,  1997). These observations indicate that AF-6 serves as one  of the peripheral components of tight junctions in epithelial cells and of cell-cell adhesions in nonepithelial cells,  and that AF-6 may participate in the regulation of cell-cell  contacts including tight junctions via direct interaction  with ZO-1 downstream of Ras. To understand the function of AF-6 at cell-cell contact sites, we here attempted to  identify AF-6-interacting molecules. We purified an AF-6-interacting protein with a molecular mass of ~220 kD,  and identified it as the bovine counterpart of mouse Fam  protein (Wood et al., 1997).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4361</offset>
+      <text>Fam is homologous to a deubiquitinating enzyme in  Drosophila, the product of the fat facets (faf) gene (Fischer-Vize et al., 1992; Huang et al., 1995; Huang and Fischer-Vize, 1996). The faf gene is specifically required for  normal eye development in Drosophila. The ubiquitin-proteasome pathway plays an important role in the complete degradation of abnormal and short-lived regulatory  proteins that include transcriptional activators such as c-fos,  NFkappaB-IkappaB complex, and p53, or growth factor receptors  such as platelet-derived growth factor receptor (PDGFR)  and fibroblast growth factor 1 receptor (FGFR-1; Hochstrasser, 1995; Hicke, 1997). This pathway requires ATP  and a covalent conjugation of the ubiquitin (Ub) molecules. The conjugation involves a series of enzymatic reactions: Ub itself is first activated with ATP by the Ub-activating enzyme (E1), secondly transferred onto a Ub  carrier protein (E2), and in a third step transferred onto a  Ub ligase (E3). Multiubiquitinated substrates are then recognized by the 26S proteasome and rapidly degraded into  short peptides.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5454</offset>
+      <text>A large superfamily of genes encoding deubiquitinating  enzymes, ubiquitin-specific proteases (Ubps), was recently  identified (Hochstrasser, 1995). The deubiquitinating enzymes can generally be divided into two main types. The  first one is thought to remove ubiquitin from Ub-conjugated degradation products produced by the proteasomes,  and thereby to accelerate the proteasome-dependent proteolysis. This type is present in all cells, and is thought to  have little substrate specificity. The second one is thought  to remove Ub from multiubiquitinated substrates, and  thereby to prevent their proteasome-dependent proteolysis before they reach the proteasome. This type shows a  tissue-specific expression pattern, and is thought to have  substrate specificity (Hochstrasser, 1995). Recent genetic  analyses indicate that Faf belongs to the second type, and  that the deubiquitinating activity of Faf is essential for regulating a cell communication pathway essential for normal  eye development (Huang et al., 1995; Huang and Fischer-Vize, 1996). In situ hybridization analyses revealed that  mouse Fam transcripts exist in the rapidly expanding cell  population of gastrulating and neurulating embryos, and  in postmitotic cells of the central nervous system as well as  in the apoptotic regions between digits (Wood et al.,  1997), although the role and the physiological substrate of  mammalian Fam are unknown.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6876</offset>
+      <text>In this study, we found that Fam accumulated at cell- cell contacts, and that AF-6 interacted with Fam both in  vivo and in vitro. We also found that AF-6 was ubiquitinated in intact cells and that Fam prevented the ubiquitination of AF-6.</text>
+      <annotation id="25">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="6954" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="6975" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="A5">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="6905" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="PPIm_529">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="6876" length="130"/>
+        <text>In this study, we found that Fam accumulated at cell- cell contacts, and that AF-6 interacted with Fam both in  vivo and in vitro.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>7118</offset>
+      <text>Materials and Methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7140</offset>
+      <text>Materials and Chemicals</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7164</offset>
+      <text>The Fam cDNA clone was generated as described previously (Wood et al.,  1997). MDCKII cells, EL cells, and the mouse antibody against ZO-1  were kindly provided by Drs. A. Nagafuchi and S. Tsukita (University of  Kyoto, Kyoto, Japan) (Itoh et al., 1991; Nagafuchi et al., 1994). pMT123  (HA-ubiquitin expression plasmid) was kindly provided by Dr. D. Bohmann (European Molecular Biology Laboratory, Heidelberg, Germany)  (Treier et al., 1994). Rabbit polyclonal antibodies against AF-6 (914-1129  aa; #3), AF-6 (1130-1612 aa; #4), Fam (1-20 aa; N20), Fam (2441-2554 aa;  C114), and Fam (1165-1967 aa; K2) were generated as described previously (Harlow and Lame, 1988). FITC-conjugated anti-rabbit IgG antibody, Texas red-conjugated anti-mouse IgG antibody, and [35S]methionine were purchased from Amersham Corp. (Buckinghamshire, United  Kingdom). Mouse monoclonal antibody against beta-catenin was purchased  from Transduction Laboratories (Lexington, KY). Rabbit polyclonal antibodies against alpha-catenin and beta-catenin were purchased from Sigma  Chemical Co. (St. Louis, MO). Polyvinylidene difluoride membranes  (Problott, 0.45-mum pore size) were purchased from PE Applied Biosystems (Foster, CA). Achromobacter protease I was purchased from Wako  Pure Chemical Industries, Ltd. (Osaka, Japan). Proteasome inhibitor  ALLN (N-acetyl-Leu-Leu-norleucinal) and calpain inhibitor II ALLM  (N-acetyl-Leu-Leu-methional) were purchased from Peptide Institute,  Inc. (Osaka, Japan). All materials used in the nucleic acid study were purchased from Takara Shuzo Corp. (Kyoto, Japan). Other materials and  chemicals were obtained from commercial sources.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>8822</offset>
+      <text>Plasmid Construction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8843</offset>
+      <text>The Escherichia coli expression plasmid pGEX-3X-AF-6 (1130-1612 aa)  was constructed by subcloning the PvuII and EcoRI fragments of AF-6  into the SmaI and EcoRI sites of pGEX-3X. The plasmids for in vitro  translation of Fam were constructed by amplifying the cDNA fragments  encoding Fam (1-669 aa, 670-1213 aa, 1210-2100 aa, and 2097-2554 aa)  by PCR from the full-length Fam cDNA in pBluescript SK(-). The fragment of Fam (1-669 aa) was amplified using the sense primer containing  a BamHI site (5'-AATTGGATCCATGACAGCCACGACTCGTG-3')  and the antisense primer containing a BamHI site (5'-ATTAGGATCCTCACAGCTGGCCATCCTTCA-3'). The fragment of Fam (670-1213 aa)  was amplified using the sense primer containing a BamHI site (5'-AATTGGATCCCTGTGGCTGTGTGCTCCAC-3') and the antisense primer  containing a BamHI site (5'-ATTAGGATCCTCAGCATGCATTCAGATGATGGG-3'). The fragment of Fam (1210-2100 aa) was amplified  using the sense primer containing a BamHI site (5'-AATTGGATCCTGCATGCTTAGAAACGTGTC-3') and the antisense primer containing  a BamHI site (5'-ATTAGGATCCTTACTCAGAGAATCGATTTGAAAC-3'). The fragment of Fam (2097-2554 aa) was amplified using the  sense primer containing a BamHI site (5'-AATTGGATCCCGATTCTCTGAGTACCTTTTG-3') and the antisense primer containing a  BamHI site (5'-ATTAGGATCCTTAATATGTGCATTTCACTGATC-3'). The fragments (1-669 aa, 670-1213 aa, and 2097-2554 aa) were cloned  into the BamHI site of pRSET-A, and the fragment (1210-2100 aa) was  cloned into the BamHI site of pBluescript SK(-). The Escherichia coli expression plasmid pMal-c2-Fam (1476-1918 aa) was constructed by inserting  the blunt-ended PstI and BstXI fragment of Fam into pMal-c2. The mammalian expression plasmid pEF-BOS-AF-6-myc was constructed as follows:  the cDNA fragments encoding AF-6 were subcloned into pBluescript SK(-)  having a sequence encoding a myc epitope tag (MEQKLISEEDL), and  AF-6-myc cDNA fragment was inserted into the XbaI site of pEF-BOS.  For the preparation of pEF-BOS-HA-Fam-CAT (1210-2410 aa), the fragment (1210-2410 aa) was subcloned into pBluescript SK(-), and the fragment was inserted into the BamHI site of pEF-BOS-HA.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>11047</offset>
+      <text>Cell Culture</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11060</offset>
+      <text>MDCKII and Rat1 cells were grown in DME containing 10% calf serum,  penicillin, and streptomycin in an air-5% CO2 atmosphere at constant humidity. EL cells were grown in DME containing 10% FBS and 100 mug/ml  of G418 in an air-5% CO2 atmosphere at constant humidity. COS7 cells  were grown in DME containing 10% FBS, penicillin, and streptomycin in  an air-5% CO2 atmosphere at constant humidity.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>11457</offset>
+      <text>Preparation of Bovine Brain Cytosolic Fraction</text>
+      <annotation id="5">
+        <infon key="OrganismID">9913</infon>
+        <infon key="type">Organism</infon>
+        <infon key="src">edit</infon>
+        <location offset="11472" length="6"/>
+        <text>Bovine</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11504</offset>
+      <text>100 g of bovine brain gray matter was cut into small pieces with scissors  and suspended in 300 ml of homogenizing buffer A (25 mM Tris/HCl at  pH 7.5, 1 mM EDTA, 1 mM DTT, 10 mM MgCl2, 10 muM [p-amidino-phenyl]methanesulfonyl fluoride [p-APMSF], 1 mug/ml leupeptin, 10% sucrose).  The suspension was homogenized with a Potter-Elvehjem Tefron-glass  homogenizer and filtered through four layers of gauze. The homogenate  was centrifuged at 20,000 g for 30 min at 4 C and then at 100,000 g for 60  min at 4 C as described (Yamamoto et al., 1995). The supernatant was  stored at -80 C as the cytosolic fraction.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12119</offset>
+      <text>GST-AF-6 (1130-1612 aa) Affinity Column Chromatography</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12176</offset>
+      <text>Glutathione-S-transferase (GST)-AF-6 (1130-1612 aa) was expressed in  Escherichia coli BL21 (DE3) and purified according to the manufacturer's  instructions. Glutathione-Sepharose 4B (1 ml) was coated with GST-AF-6  (1130-1612 aa; 30 nmol). The brain cytosolic fraction was then preabsorbed to remove the native GST with glutathione-Sepharose 4B and  loaded onto the GST-AF-6 (1130-1612 aa) affinity column. The column  was washed with 10 ml of buffer B (20 mM Tris/HCl at pH 7.5, 1 mM  EDTA, 1 mM DTT, 5 mM MgCl2, 10 muM p-APMSF, 1 mug/ml leupeptin)  followed by washing with 10 ml of buffer B containing 75 mM NaCl. The  protein bound to the affinity column was eluted 10 times with 1 ml of  buffer B containing 10 mM reduced glutathione.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12923</offset>
+      <text>Peptide Sequence Analysis of p220</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12957</offset>
+      <text>The 10-mM reduced glutathione eluates from the first to seventh fractions  were dialyzed three times against distilled water and concentrated by  freeze-drying. The concentrated samples were subjected to SDS-PAGE  and transferred onto polyvinylidene difluoride membranes (Iwamatsu,  1992). The immobilized p220 was reduced and S-carboxymethylated, followed by in situ digestion with Achromobacter protease I and Asp-N. The  digested peptides were fractionated by C18 column chromatography and  subjected to amino acid sequencing (Iwamatsu, 1992).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>13504</offset>
+      <text>Hydrolysis Assay of Ub-PEST</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13532</offset>
+      <text>For purification of Fam, the brain cytosolic fraction was loaded onto the  GST-AF-6 (1130-1612 aa) affinity column. Fam was eluted by adding  buffer B containing 200 mM NaCl from the GST-AF-6 affinity column.  Ubiquitin-alphaNH-MHISPPEPESEEEEEHYC (Ub-PEST) was radiolabeled with Na125I using IODO-BEADS (Markwell, 1982). Fam (1.6 mug)  was incubated for various periods at 37 C in a final volume (50 mul) containing 1 mug of 125I-labeled Ub-PEST, 100 mM Tris/HCl at pH 7.5, 1 mM  EDTA, 1 mM DTT, and 5% (vol/vol) glycerol. The reaction was terminated by adding 50 mul of acetone, and the mixture was frozen overnight at  -80 C. The pellet fractions were boiled in sample buffer for SDS-PAGE,  and were subjected to SDS-PAGE detected by Coomassie Brilliant Blue  staining and by autoradiography (Woo et al., 1995).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14349</offset>
+      <text>Immunofluorescence and Laser Scanning Confocal Microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14407</offset>
+      <text>MDCKII cells plated on 13-mm round glass coverslips were fixed with  methanol for 10 min. The fixed cells were incubated for 2 h with mouse  monoclonal antibodies against ZO-1 or beta-catenin, and were washed three  times for 10 min with PBS. The cells were then incubated for 2 h with anti-Fam antibody (K2) and washed three times for 10 min with PBS. The cells  were incubated for 1 h with FITC-conjugated anti-rabbit IgG antibody  and Texas red-conjugated anti-mouse IgG antibody, and washed three  times for 10 min with PBS. The distributions of Fam, ZO-1, and beta-catenin  were examined using a laser scanning confocal microscope (Carl Zeiss,  Inc., Thornwood, NY) equipped with an argon laser and a helium-neon laser for double fluorescence at 488 and 543 nm (emission filter; BP510-525  and LP590).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>15214</offset>
+      <text>Coimmunoprecipitation Assay</text>
+      <annotation id="PPIe_281">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="15214" length="27"/>
+        <text>Coimmunoprecipitation Assay</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15242</offset>
+      <text>MDCKII cells were grown in 100-mm tissue culture dishes. After being  washed with PBS, the cells were lysed with 1 ml of buffer C (50 mM Tris/ HCl at pH 8.0, 1 mM EDTA, 75 mM NaCl, 1 mM MgCl2, 0.2% Triton  X-100, 10 muM p-APMSF, 10 mug/ml leupeptin). The lysate was removed  from the dishes with a rubber policeman. The lysate was sonicated, incubated in a 1.5-ml tube for 15 min on ice, and then clarified by centrifugation at 12,000 g for 30 min at 4 C. The soluble supernatant was incubated  with 10 mug of anti-Fam antibody (K2), anti-AF-6 antibody (#3), or preimmuneserum. The immunocomplexes were then precipitated with protein  A-Sepharose 4B (Pharmacia LKB Biotechnology AB, Uppsala, Sweden).  The immunocomplexes were washed six times with buffer C, eluted by  boiling in sample buffer for SDS-PAGE and subjected to immunoblot  analysis using anti-Fam antibody (N20) or anti-AF-6 antibody (#4).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>16147</offset>
+      <text>In Vitro Binding Assay (In Vitro-translated Fam)</text>
+      <annotation id="PPIe_282">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="16147" length="48"/>
+        <text>In Vitro Binding Assay (In Vitro-translated Fam)</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16198</offset>
+      <text>In vitro translation of pRSET-Fam (1-669 aa), pRSET-Fam (670-1213  aa), pBluescript SK(-)-Fam (1210-2100 aa), and pRSET-Fam (2097- 2554 aa) were performed using a TNT T7-coupled reticulocyte lysate system (Promega Corp., Madison, WI) under the conditions described in the  manufacturer's instruction manual. Glutathione-Sepharose 4B beads (31 mul)  were coated with GST fusion proteins and washed with 310 mul of buffer B.  The coated beads were added to 40 mul of the in vitro-translated products  labeled with [35S]methionine containing 1 mg/ml BSA, and were incubated for 1 h at 4 C with gentle mixing. The beads were washed six times  with 102 mul of buffer B, and the bound proteins were coeluted with GST  fusion proteins three times by adding 102 mul of buffer B containing 10 mM  reduced glutathione. The eluates were subjected to SDS-PAGE and vacuum-dried. The [35S]-labeled bands corresponding to in vitro-translated  Fam were visualized with an image analyzer (BAS-2000; Fuji Photo Film  Co., Tokyo, Japan).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17232</offset>
+      <text>In Vitro Binding Assay (Maltose-binding Protein [MBP]-Fam)</text>
+      <annotation id="PPIe_283">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="17232" length="58"/>
+        <text>In Vitro Binding Assay (Maltose-binding Protein [MBP]-Fam)</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17293</offset>
+      <text>The deubiquitinating catalytic domain of Fam (1476-1918 aa) was expressed as a MBP fusion protein, and was purified with amylose resin  (New England Biolabs, Inc., Beverly, MA). MBP-Fam (1476-1918 aa;  0.05, 0.125, 0.25, 1.25, 2.5, and 7.5 nmol) was mixed with glutathione-Sepharose 4B beads (30 mul) coated with 0.3 nmol of either GST or GST-AF-6 (1130-1612 aa) in 250 mul of buffer B. The beads were washed six  times with 100 mul of buffer B, and were then washed three times with 100 mul  of buffer B containing 50 mM NaCl. The bound MBP-Fam (1476-1918 aa)  was coeluted with GST or GST-AF-6 (1130-1612 aa) by adding 100 mul of  buffer B containing 10 mM glutathione three times. Portions (30 mul each)  of the three fractions of the glutathione-eluates were subjected to SDS-PAGE, followed by Coomassie Brilliant Blue staining. MBP-Fam (1476- 1918 aa) was visualized and estimated with a densitograph (ATTO, Tokyo, Japan).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>18233</offset>
+      <text>Effect of Proteasome Inhibitor on Rat1 and EL Cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>18285</offset>
+      <text>Rat1 and EL cells were seeded in 100-mm tissue culture dishes at a cell  density of 1 x 106 cells/dish, and were cultured for 24 h. The cells were  then treated with 25 muM ALLN or ALLM for 3 h. ALLN and ALLM  were dissolved in DMSO to a final concentration of 10 mM. The cells  were washed twice with PBS and lysed in 360 mul of buffer D (50 mM Tris/ HCl at pH 7.5, 100 mM KCl, 4 mM EGTA, 1 mM NaF, 1 mM sodium vanadate, 0.25% Triton X-100, 10 muM p-APMSF, 1 mug/ml leupeptin, 25 muM  ALLN, and 300 mM sucrose). The cell lysates of Rat1 and EL cells were  subjected to SDS-PAGE and immunoblotted with anti-AF-6 (#4) antibody, polyclonal antibody against beta-catenin, or anti-alpha-catenin antibody.</text>
+      <annotation id="PPIe_284">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="18798" length="187"/>
+        <text>The cell lysates of Rat1 and EL cells were  subjected to SDS-PAGE and immunoblotted with anti-AF-6 (#4) antibody, polyclonal antibody against beta-catenin, or anti-alpha-catenin antibody.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>18982</offset>
+      <text>Ubiquitination Assay of AF-6 In Vivo</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19019</offset>
+      <text>COS7 cells were seeded on 60-mm tissue culture dishes at a cell density of  6 x 105 cells/dish, and were cultured for 16 h. COS7 cells were transfected  with pEF-BOS-AF-6-myc (12 mug) and pMT123 (HA-ubiquitin; 3 mug) by  the standard DEAE-dextran method (Lopata et al., 1984). To examine  the effect of the proteasome inhibitor ALLN, COS7 cells were grown for  30 h after transfection, and were then treated with 25 muM ALLN for 18 h.  The cells were washed twice with PBS and lysed in 360 mul of buffer D. An  immunoprecipitation analysis with anti-AF-6 antibody (#3) was performed as described above. The samples were subjected to SDS-PAGE  followed by immunoblot analysis using anti-HA antibody.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>19719</offset>
+      <text>Deubiquitination Assay of the Ubiquitinated AF-6 by Fam</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19775</offset>
+      <text>The plasmids pEF-BOS-AF-6-myc (12 mug) and pMT123 (3 mug) were  transfected with or without pEF-BOS-HA-Fam-CAT (5 mug) in COS7  cells. Immunoprecipitation and an immunoblot analysis were carried out  as described above.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>19995</offset>
+      <text>Other Procedures</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20012</offset>
+      <text>SDS-PAGE was performed as described (Laemmli, 1970). Protein concentrations were determined with BSA as the reference protein as described (Bradford, 1976). Immunoblot analyses were carried out as described (Harlow and Lame, 1988).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>20244</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>20252</offset>
+      <text>Identification of AF-6 (1130-1612 aa)-interacting Molecules</text>
+      <annotation id="27">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="20270" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="PPIm_530">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="20252" length="59"/>
+        <text>Identification of AF-6 (1130-1612 aa)-interacting Molecules</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20314</offset>
+      <text>To detect molecules interacting with AF-6 (1130-1612 aa),  which includes a proline-rich region, the bovine brain cytosolic fraction was loaded onto affinity columns coated  with GST, GST-AF-6 (1130-1612 aa), or GST-CD44. The  proteins bound to the affinity columns were coeluted with  GST-AF-6 (1130-1612 aa) by adding glutathione. The glutathione-eluted fractions were subjected to SDS-PAGE  followed by silver staining. A protein with a molecular  mass of ~220 kD (p220) was detected in the glutathione  eluate from the GST-AF-6 (1130-1612 aa) affinity column,  but not from the GST or GST-CD44 affinity columns (Fig.  1 a), indicating that p220 specifically interacts with AF-6  (1130-1612 aa) directly or indirectly. To identify the AF-6  (1130-1612 aa)-interacting molecule, p220 was subjected  to amino acid sequencing as described in Materials and  Methods. Two peptide sequences derived from p220 were  determined. These were LSVPATFMLVSLD and NDYFEF. Both peptide sequences were identical to the deduced amino acid sequence of mouse Fam, which is one of  the deubiquitinating enzymes (Wood et al., 1997). </text>
+      <annotation id="28">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="20841" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">507307</infon>
+        <location offset="20782" length="4"/>
+        <text>p220</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">507307</infon>
+        <location offset="20958" length="4"/>
+        <text>p220</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="20991" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="PPIm_531">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="20737" length="298"/>
+        <text>A protein with a molecular  mass of ~220 kD (p220) was detected in the glutathione  eluate from the GST-AF-6 (1130-1612 aa) affinity column,  but not from the GST or GST-CD44 affinity columns (Fig.  1 a), indicating that p220 specifically interacts with AF-6  (1130-1612 aa) directly or indirectly.</text>
+      </annotation>
+      <annotation id="PPIe_285">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="20737" length="298"/>
+        <text>A protein with a molecular  mass of ~220 kD (p220) was detected in the glutathione  eluate from the GST-AF-6 (1130-1612 aa) affinity column,  but not from the GST or GST-CD44 affinity columns (Fig.  1 a), indicating that p220 specifically interacts with AF-6  (1130-1612 aa) directly or indirectly.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21444</offset>
+      <text>Fam shows homology with Ubps-type deubiquitinating  enzyme in Drosophila, the product of the fat facets (faf)  gene. Recent genetic analyses indicate that the faf gene is  required for normal eye development and embryogenesis,  suggesting that the deubiquitinating activity of the faf  product plays a critical role in controlling the cell fate. The  amino acid sequence of Fam shows ~50% amino acid  identity and 70% similarity with that of Faf (Wood et al.,  1997). Fam has the cysteine and histidine domains characteristic of Ubps. Fam shows a high similarity to several  Ubps from yeast to mammals in these two regions (Wood  et al., 1997). The calculated molecular mass of mouse Fam  is 290 kD, but the apparent molecular mass of bovine Fam  estimated by SDS-PAGE is ~220 kD. To confirm that  p220 is Fam, an immunoblot analysis was performed on  p220 from the glutathione-eluted fraction with two anti-Fam antibodies. Anti-Fam antibody (N20) against 20 aa of  the amino-terminal site and anti-Fam antibody (C114)  against 114 aa of the carboxy-terminal site were generated.  Since p220 was recognized by both anti-Fam antibodies  (N20 and C114) as shown in Fig. 1 b, we judged that p220 was  the full length of Fam, but not the degradation product of  Fam. We therefore concluded that p220 was the bovine counterpart of mouse Fam, and hereafter refer to it as Fam.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>22819</offset>
+      <text>Deubiquitinating Activity Catalyzed by Fam</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22862</offset>
+      <text>First we examined whether Fam has deubiquitinating activity. We used the 200-mM NaCl eluate from the GST-AF-6 (1130-1612 aa) affinity column as a source of Fam.  Fam was incubated with the 125I-labeled ubiquitin-conjugated PEST sequence (Ub-PEST) for various periods of  time. As shown in Fig. 2, Fam could release ubiquitin from  Ub-PEST (a), and could produce the hydrolyzed 125I-PEST peptides from Ub-PEST (b). In the Fam minus control of Fig. 2, the 200-mM NaCl buffer that did not contain  any enzyme was used. These results indicate that Fam is  able to generate free ubiquitin from Ub-PEST. It is well-known that ubiquitin-aldehyde (Ub-CHO) inhibits Ubps.  Release of ubiquitin from Ub-PEST or production of the  PEST peptides was almost abolished in the presence of  Ub-CHO. The deubiquitinating activity was not detected  in the 200-mM NaCl eluate from the GST affinity column  (data not shown). These results demonstrated that Fam  has deubiquitinating activity. </text>
+      <annotation id="PPIe_286">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="22923" length="99"/>
+        <text>We used the 200-mM NaCl eluate from the GST-AF-6 (1130-1612 aa) affinity column as a source of Fam.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23838</offset>
+      <text>Distributions of Fam in Confluent MDCKII Cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23885</offset>
+      <text>To understand the functions of Fam, we examined its intracellular distribution in MDCKII epithelial cells that  show characteristics of polarized epithelial cells and form  the junctional complex, including the tight junction and  adherens junction at cell-cell contact sites (Gonzalez-Mariscal et al., 1985). The immunoblot analysis of cell lysates from MDCKII cells showed that anti-Fam antibody  recognized a single band corresponding to a molecular  weight of ~220 kD (Fig. 3 A) as in the case of bovine brain  extract (Fig. 1 b). Antibody preincubation with the recombinant Fam abolished the immunoreactivity (data not  shown). The immunoreactivity of Fam was specifically localized at sites where a cell contacted a neighboring cell,  and not at free ends of plasma membranes (Fig. 3 B). The  cytoplasm exhibited a relatively low level of immunoreactivity. To further examine whether Fam exists in the apical  or basal site of the lateral membrane, cellular distribution  of Fam was compared with that of ZO-1 and beta-catenin  (Fig. 3, C, b and e). ZO-1 was concentrated at the apical  sections, whereas beta-catenin was found at more basal sections as described previously (Nagafuchi and Takeichi,  1989; Itoh et al., 1993). In contrast, Fam immunoreactivity  was colocalized at the immunofluorescence microscopic  level with ZO-1 at the apical sites, and with beta-catenin at  the basal sites (Fig. 3, C, c and f). Since we have previously  shown that AF-6 interacts with ZO-1 and is colocalized  with ZO-1 at cell-cell contact sites including tight junctions (Yamamoto et al., 1997), part of the Fam that is localized at the same sites with ZO-1 may be colocalized  with AF-6. We also found that accumulation of Fam is induced by the formation of cell-cell adhesions by using a  Ca2+ switch assay in MDCKII cells (data not shown).  These results suggest that Fam is partly colocalized with  AF-6 at apical sites of the lateral membrane in confluent  MDCKII cells. </text>
+      <annotation id="PPIm_532">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="23885" length="309"/>
+        <text>To understand the functions of Fam, we examined its intracellular distribution in MDCKII epithelial cells that  show characteristics of polarized epithelial cells and form  the junctional complex, including the tight junction and  adherens junction at cell-cell contact sites (Gonzalez-Mariscal et al., 1985).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>25862</offset>
+      <text>Interaction of Fam and AF-6 In Vivo</text>
+      <annotation id="33">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="25877" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="A12">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="25885" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="PPIm_533">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="25862" length="35"/>
+        <text>Interaction of Fam and AF-6 In Vivo</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25898</offset>
+      <text>Because Fam was partly colocalized with AF-6 at apical  sites of the lateral membrane, we examined whether Fam  interacts with AF-6 in vivo. When Fam was immunoprecipitated with anti-Fam antibody from confluent MDCKII  cells, AF-6 was coimmunoprecipitated with Fam (Fig. 4 a).  AF-6 was not coimmunoprecipitated with control preimmuneserum. AF-6 appeared to associate with Fam with a  stoichiometry of about one AF-6 per ten Fam under these  conditions. Similarly, Fam was also coimmunoprecipitated  with AF-6 (Fig. 4 b) when AF-6 was immunoprecipitated  with anti-AF-6 antibody from confluent MDCKII cells.  These results indicate that Fam interacts with AF-6 in  vivo. </text>
+      <annotation id="36">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="26044" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="26124" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="26159" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="26363" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="40">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="26403" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="PPIm_534">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="26039" length="135"/>
+        <text>When Fam was immunoprecipitated with anti-Fam antibody from confluent MDCKII  cells, AF-6 was coimmunoprecipitated with Fam (Fig. 4 a).</text>
+      </annotation>
+      <annotation id="PPIm_535">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <location offset="26352" length="153"/>
+        <text>Similarly, Fam was also coimmunoprecipitated  with AF-6 (Fig. 4 b) when AF-6 was immunoprecipitated  with anti-AF-6 antibody from confluent MDCKII cells.</text>
+      </annotation>
+      <annotation id="PPIe_287">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="26039" length="135"/>
+        <text>When Fam was immunoprecipitated with anti-Fam antibody from confluent MDCKII  cells, AF-6 was coimmunoprecipitated with Fam (Fig. 4 a).</text>
+      </annotation>
+      <annotation id="PPIe_288">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <location offset="26352" length="153"/>
+        <text>Similarly, Fam was also coimmunoprecipitated  with AF-6 (Fig. 4 b) when AF-6 was immunoprecipitated  with anti-AF-6 antibody from confluent MDCKII cells.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>26570</offset>
+      <text>Interaction of Fam and AF-6 In Vitro</text>
+      <annotation id="41">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="26585" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="42">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="26593" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="PPIm_536">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="26570" length="36"/>
+        <text>Interaction of Fam and AF-6 In Vitro</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26607</offset>
+      <text>We examined which domain of Fam interacts with AF-6  using in vitro-translated Fam such as Fam (1-669 aa), Fam  (670-1213 aa), Fam (1210-2100 aa), and Fam (2097-2554  aa; Fig. 5 a). Affinity beads coated with GST or GST-AF-6  (1130-1612 aa) were mixed with the in vitro-translated  Fam (1-669 aa), Fam (670-1213 aa), Fam (1210-2100 aa),  and Fam (2097-2554 aa), and the interacting proteins were  then coeluted with GST fusion proteins by adding glutathione. As shown in Fig. 5 b, Fam (1210-2100 aa) bound  to GST-AF-6 (1130-1612 aa), but Fam (1-669 aa), Fam  (670-1213 aa), and Fam (2097-2554 aa) did not. Fam  (1210-2100 aa) did not bind to control GST. </text>
+      <annotation id="43">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="27088" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="45">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="27121" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="A22">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="26654" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="A23">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="26827" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="A25">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="26635" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="A26">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="26686" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="A27">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="26698" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="A28">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="26734" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="A29">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="26758" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="A30">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="26889" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="A31">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="26905" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="A32">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="26924" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="A33">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="26949" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="A35">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="27146" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="A36">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="27162" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="A37">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="27186" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="PPIm_537">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="26607" length="181"/>
+        <text>We examined which domain of Fam interacts with AF-6  using in vitro-translated Fam such as Fam (1-669 aa), Fam  (670-1213 aa), Fam (1210-2100 aa), and Fam (2097-2554  aa; Fig. 5 a).</text>
+      </annotation>
+      <annotation id="PPIm_538">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="26789" length="276"/>
+        <text>Affinity beads coated with GST or GST-AF-6  (1130-1612 aa) were mixed with the in vitro-translated  Fam (1-669 aa), Fam (670-1213 aa), Fam (1210-2100 aa),  and Fam (2097-2554 aa), and the interacting proteins were  then coeluted with GST fusion proteins by adding glutathione.</text>
+      </annotation>
+      <annotation id="PPIm_539">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="27066" length="147"/>
+        <text>As shown in Fig. 5 b, Fam (1210-2100 aa) bound  to GST-AF-6 (1130-1612 aa), but Fam (1-669 aa), Fam  (670-1213 aa), and Fam (2097-2554 aa) did not.</text>
+      </annotation>
+      <annotation id="PPIm_540">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="27214" length="48"/>
+        <text>Fam  (1210-2100 aa) did not bind to control GST.</text>
+      </annotation>
+      <annotation id="PPIe_289">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="26789" length="276"/>
+        <text>Affinity beads coated with GST or GST-AF-6  (1130-1612 aa) were mixed with the in vitro-translated  Fam (1-669 aa), Fam (670-1213 aa), Fam (1210-2100 aa),  and Fam (2097-2554 aa), and the interacting proteins were  then coeluted with GST fusion proteins by adding glutathione.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27298</offset>
+      <text>To test the specificity of the binding, we carried out a kinetic study of the binding of Fam to AF-6. We first examined whether GST-AF-6 (1130-1612 aa) could bind to  MBP-Fam (1476-1918 aa) involving the deubiquitinating  catalytic domain. Affinity beads coated with GST or GST-AF-6 (1130-1612 aa) were mixed with MBP-Fam (1476- 1918 aa). The bound MBP-Fam (1476-1918 aa) was then  coeluted with the GST fusion proteins by adding glutathione, and the eluted MBP-Fam (1476-1918 aa) was detected by Coomassie Brilliant Blue staining. MBP-Fam  (1476-1918 aa) was detected in the eluates from the GST-AF-6 (1130-1612 aa) affinity beads, but only slightly in  those from the GST affinity beads (data not shown). In addition, as shown in Fig. 6, MBP-Fam (1476-1918 aa)  bound to GST-AF-6 (1130-1612 aa) in a dose-dependent  manner, and this binding was saturable when the amounts  of MBP-Fam (1476-1918 aa) were increased (Fig. 6, a and  b). The apparent Kd value for binding MBP-Fam (1476- 1918 aa) to GST-AF-6 (1130-1612 aa) was estimated to be  ~810 nM under the conditions used. These results indicate  that mainly 1476-1918 aa of Fam is responsible for binding  Fam to AF-6. </text>
+      <annotation id="46">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="27834" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="47">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="27895" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="48">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="28042" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="49">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="28075" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="50">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="28180" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="51">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="28272" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="52">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="28299" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="53">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="28427" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="54">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="28459" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="55">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="28466" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="PPIm_541">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="27830" length="174"/>
+        <text>MBP-Fam  (1476-1918 aa) was detected in the eluates from the GST-AF-6 (1130-1612 aa) affinity beads, but only slightly in  those from the GST affinity beads (data not shown).</text>
+      </annotation>
+      <annotation id="PPIm_542">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="28005" length="228"/>
+        <text>In addition, as shown in Fig. 6, MBP-Fam (1476-1918 aa)  bound to GST-AF-6 (1130-1612 aa) in a dose-dependent  manner, and this binding was saturable when the amounts  of MBP-Fam (1476-1918 aa) were increased (Fig. 6, a and  b).</text>
+      </annotation>
+      <annotation id="PPIm_543">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <location offset="28234" length="140"/>
+        <text>The apparent Kd value for binding MBP-Fam (1476- 1918 aa) to GST-AF-6 (1130-1612 aa) was estimated to be  ~810 nM under the conditions used.</text>
+      </annotation>
+      <annotation id="PPIm_544">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="28375" length="96"/>
+        <text>These results indicate  that mainly 1476-1918 aa of Fam is responsible for binding  Fam to AF-6.</text>
+      </annotation>
+      <annotation id="PPIe_290">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="27538" length="98"/>
+        <text>Affinity beads coated with GST or GST-AF-6 (1130-1612 aa) were mixed with MBP-Fam (1476- 1918 aa).</text>
+      </annotation>
+      <annotation id="PPIe_291">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <location offset="28234" length="140"/>
+        <text>The apparent Kd value for binding MBP-Fam (1476- 1918 aa) to GST-AF-6 (1130-1612 aa) was estimated to be  ~810 nM under the conditions used.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28503</offset>
+      <text>Ubiquitination of AF-6 In Vivo</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28534</offset>
+      <text>As described above, AF-6 interacts with Fam, and the AF-6-interacting domain of Fam involves the deubiquitinating  catalytic domain of Fam. This raises the possibility that  AF-6 is the substrate of Fam, and that AF-6 is Ub-conjugated and subjected to the ubiquitin-proteasome pathway.  First, to determine whether AF-6 is degraded by the proteasome-dependent proteolysis pathway, Rat1 fibroblasts  and EL cells were treated with the proteasome inhibitor.  EL cells are L cells stably expressing E-cadherin (Nagafuchi et al., 1994). It is well-known that the peptide aldehyde  ALLN inhibits the proteasome-dependent proteolysis  pathway, leading to an accumulation of proteins that are  usually metabolized by the proteasome pathway (Coux  et al., 1996). ALLM is the related peptide aldehyde and a  calpain inhibitor, but it does not inhibit the proteasome  pathway. Recently some groups reported that the turnover  of beta-catenin is regulated by the ubiquitin-proteasome  pathway (Aberle et al., 1997; Orford et al., 1997). They  showed that treating certain cell lines with ALLN resulted  in accumulation of the higher molecular weight beta-catenin.  It has been reported that such a modification in alpha-catenin  was not observed when cells were treated with ALLN. We  obtained similar results as shown in Fig. 7, b and c, when  Rat1 and EL cells were treated with ALLN. To determine  whether AF-6 shows the similar modification, we immunoblotted the cell lysates with anti-AF-6 antibody. The  higher molecular weight forms of AF-6 were detected by  the treatment with ALLN, but little was detected by the  treatment with ALLM under the same conditions (Fig. 7  a). These results suggest that AF-6 is degraded by the proteasome pathway. </text>
+      <annotation id="GIm_309">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="29560" length="126"/>
+        <text>They  showed that treating certain cell lines with ALLN resulted  in accumulation of the higher molecular weight beta-catenin.</text>
+      </annotation>
+      <annotation id="GIm_310">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="29804" length="105"/>
+        <text>We  obtained similar results as shown in Fig. 7, b and c, when  Rat1 and EL cells were treated with ALLN.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30276</offset>
+      <text>Next, to determine whether AF-6 is ubiquitinated, we  performed an assay to detect ubiquitinated proteins  (Treier et al., 1994; Aberle et al., 1997). AF-6 and hemagglutinin-tagged ubiquitin (HA-Ub) were transiently expressed in COS7 cells. The immunoprecipitates were then  collected with anti-AF-6 antibody and subjected to an immunoblot analysis with anti-HA antibody. As shown in  Fig. 8, HA-Ub-conjugated AF-6 was detected in cells expressing HA-Ub, but not in control cells. We examined  the effect of ALLN on AF-6 ubiquitination. HA-Ub-conjugated proteins were more strongly detected in the cells  treated with ALLN than in the untreated cells (Fig. 8).  The band below HA-Ub-conjugated AF-6 was as strong  as HA-Ub-conjugated AF-6 in the lane of ALLN plus.  The lower band was probably the degradation product of  the full-length AF-6, because the lower band as well as the  upper band were detected only when the AF-6 cDNA was  transfected. It may be noted that the intensity of the lower  band was more strongly enhanced by ALLN, though we  can not give the precise reasons for this phenomenon.  Taken together, these results indicate that AF-6 is ubiquitinated in vivo and suggest that the ubiquitinated AF-6 is  degraded by the proteasome pathway. </text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>31545</offset>
+      <text>Deubiquitination of the Ubiquitinated AF-6 by Fam-CAT</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31599</offset>
+      <text>For the determination of whether Fam can release ubiquitin from the ubiquitinated AF-6 in vivo, AF-6 and HA-Ub were expressed with or without Fam-CAT in COS7  cells. We used Fam-CAT, which includes the deubiquitinating catalytic domain of Fam (1210-2410 aa), because  we could not detect the expression of full-length Fam,  probably due to its low expression level. As described  above, AF-6 was immunoprecipitated from the cell lysates  with anti-AF-6 antibody, and the immunoprecipitates  were subjected to an immunoblot analysis with anti-HA  antibody. In the absence of Fam-CAT, HA-Ub-conjugated AF-6 was observed (Fig. 9) as shown in Fig. 8. When  AF-6 was coexpressed with Fam-CAT, the amount of HA-Ub-conjugated AF-6 was reduced while the amount of immunoprecipitated AF-6 was not affected (Fig. 9). These  results indicate that Fam inhibited the ubiquitination of  AF-6, and suggest that AF-6 is one of the substrates of Fam. </text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>32540</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32551</offset>
+      <text>Interaction of AF-6 and Fam</text>
+      <annotation id="56">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="32566" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="57">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="32575" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="PPIm_545">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="32551" length="27"/>
+        <text>Interaction of AF-6 and Fam</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32579</offset>
+      <text>We here identified Fam as an AF-6 (1130-1612 aa)-interacting protein. The carboxyl terminal domain of AF-6  (1130-1612 aa) has the proline-rich region. Since it has  been reported that the proline-rich region interacts with  certain proteins containing the src homology region 3  (SH3) or WW domain (Sudol, 1996), we first thought that  AF-6 (1130-1612 aa) may interact with proteins containing the SH3 or WW domain. The present results, however,  showed that the AF-6 (1130-1612 aa) containing the proline-rich region interacts with Fam, which has neither an  SH3 nor a WW domain, and that the AF-6-interacting domain of Fam involves the cysteine and histidine domains  characteristic of Ubps.</text>
+      <annotation id="58">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="32598" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="59">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="32608" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="60">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="33043" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="61">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="33113" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="PPIm_546">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="32579" length="69"/>
+        <text>We here identified Fam as an AF-6 (1130-1612 aa)-interacting protein.</text>
+      </annotation>
+      <annotation id="PPIm_547">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="32731" length="264"/>
+        <text>Since it has  been reported that the proline-rich region interacts with  certain proteins containing the src homology region 3  (SH3) or WW domain (Sudol, 1996), we first thought that  AF-6 (1130-1612 aa) may interact with proteins containing the SH3 or WW domain.</text>
+      </annotation>
+      <annotation id="PPIm_548">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="32996" length="277"/>
+        <text>The present results, however,  showed that the AF-6 (1130-1612 aa) containing the proline-rich region interacts with Fam, which has neither an  SH3 nor a WW domain, and that the AF-6-interacting domain of Fam involves the cysteine and histidine domains  characteristic of Ubps.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33286</offset>
+      <text>As described above, Fam is partly colocalized with AF-6  at cell-cell contact sites, but not at free ends of the plasma  membrane. We also found that accumulation of Fam is induced by formation of cell-cell adhesions by using a Ca2+  switch assay in MDCKII cells (data not shown). These observations raised the possibility that AF-6 may function as  an anchoring molecule for recruiting Fam to cell-cell contact sites. Fam is, however, widely distributed at other lateral membranes where AF-6 is not localized. In this case,  Fam may be recruited to lateral membranes by interacting  with other cell-cell adhesion molecules. In this regard, we  have recently found that Fam interacts with beta-catenin, but  not with alpha-catenin and the cytoplasmic domain of E-cadherin in vitro (unpublished results). Investigations to identify the Fam-interacting molecules are in progress; their  findings may clarify the mechanisms by which Fam is recruited to cell-cell contact sites.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34266</offset>
+      <text>Ubiquitination of AF-6</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34289</offset>
+      <text>Since the AF-6-interacting domain of Fam involves the  deubiquitinating catalytic domain of Fam, we speculate  that AF-6 is the substrate of Fam, and is subjected to the  ubiquitin-proteasome pathway. As described above, when  Rat1 and EL cells were treated with the proteasome inhibitor ALLN, the higher molecular weight forms of AF-6  were detected. We also performed an assay for detecting  the ubiquitinated proteins (Treier et al., 1994; Aberle et al.,  1997) and found that AF-6 was ubiquitinated in vivo.  Many proteins involved in cell cycle control, transcription  activation, cell growth, antigen presentation, and so on are  known to be regulated by the ubiquitin-proteasome pathway. These proteins include c-fos, NFkappaB-IkappaB complex,  p53 and growth factor receptors such as PDGFR and  FGFR-1, and it has been gradually clarified how these proteins are subjected to the ubiquitin-proteasome pathway  (Hochstrasser, 1995; Hicke, 1997). It remains to be clarified how AF-6 is ubiquitinated and subsequently degraded  by the proteasome pathway.</text>
+      <annotation id="PPIm_549">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="34289" length="200"/>
+        <text>Since the AF-6-interacting domain of Fam involves the  deubiquitinating catalytic domain of Fam, we speculate  that AF-6 is the substrate of Fam, and is subjected to the  ubiquitin-proteasome pathway.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35350</offset>
+      <text>Deubiquitination of AF-6 by Fam</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35382</offset>
+      <text>Fam belongs to the deubiquitinating enzyme, and we  showed that Fam has deubiquitinating activity in vitro  (Fig. 2). Indeed, we found that Fam-CAT decreases the  amount of HA-Ub-conjugated AF-6 in COS7 cells (Fig.  9), suggesting that Fam can release ubiquitin from AF-6,  although we cannot exclude the possibility that Fam simply inhibits the ubiquitination of AF-6. Whether Fam-CAT is expressed or not in Fig. 9, the AF-6 level was similar. We first thought that the AF-6 level might increase  when Fam-CAT was expressed. However, HA-Ub-conjugated AF-6 was only ~5% of the total AF-6 under our  conditions. Thus, we think that we can not detect a big  change of the AF-6 level in this assay.</text>
+      <annotation id="PPIe_292">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="35500" length="251"/>
+        <text>Indeed, we found that Fam-CAT decreases the  amount of HA-Ub-conjugated AF-6 in COS7 cells (Fig.  9), suggesting that Fam can release ubiquitin from AF-6,  although we cannot exclude the possibility that Fam simply inhibits the ubiquitination of AF-6.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36084</offset>
+      <text>Since Fam is widely distributed at lateral membranes, it  is possible that Fam deubiquitinates components of cell- cell adhesions including beta-catenin. We have recently found  that Fam interacts with beta-catenin in vitro as described  above. However, we could not examine whether beta-catenin  is the substrate of Fam because exogenous beta-catenin was  hardly ubiquitinated in COS7 cells under our assay conditions. Further studies are necessary to resolve this problem  and to clarify the substrate spectrum of the Fam deubiquitinating enzyme.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>36627</offset>
+      <text>Possible Roles of Fam at Cell-Cell Adhesions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36674</offset>
+      <text>Polarized epithelial cells form the junctional complex, including tight junctions and adherens junctions, at cell-cell  contact sites (Gonzalez-Mariscal et al., 1985). In epithelial  and endothelial cells, ZO-1 is directly associated with occludin, which has four transmembrane domains in its  amino-terminal half, in tight junctions (Itoh et al., 1993;  Furuse et al., 1993). In nonepithelial cells, ZO-1 is concentrated at adherens junctions, and is associated with a cadherin/catenin complex via a direct interaction with alpha-catenin (Itoh et al., 1993; Itoh et al. 1997). Since AF-6 directly  interacts with ZO-1 and Fam, we propose that the roles of  Fam in epithelial cells and nonepithelial cells are as follows: Fam is probably recruited to tight junctions or adherens junctions via direct interaction with AF-6. When cells  move and enter the mitotic phase, cell-cell adhesions appear to be perturbed or dynamically rearranged. These  perturbations or rearrangements of cell-cell adhesions  may be regulated by the ubiquitin-proteasome pathway.  Fam probably maintains the stability of cell-cell adhesions  by deubiquitinating the components of cell-cell adhesions.  It remains to be determined whether Fam deubiquitinates  the components of cell-cell adhesions.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37957</offset>
+      <text>The transformation of epithelial and fibroblastic cells by  activated Ras results in the perturbation of cell-cell adhesions. We observed that the formation of the AF-6/ZO-1  complex is specifically inhibited or changed by activated  Ras, as described previously (Yamamoto et al., 1997).  Since this alteration by activated Ras may prevent recruitment of Fam to the cell-cell adhesions or inhibit the deubiquitinating activity of Fam, Fam may become unable to  contribute to the stability of cell-cell adhesions. It remains  to be clarified whether the function of Fam is regulated by  Ras signaling and is implicated in the Ras-induced transformation.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38616</offset>
+      <text>The Interaction of AF-6-Fam Pathway with Ras Signaling</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38671</offset>
+      <text>AF-6 shows strong sequence homology with Drosophila  Canoe, and shares a common domain organization with  Canoe (Kuriyama et al., 1996). The Drosophila compound  eye consists of 800 identical facets that are each made up  of eight photoreceptors (R1-R8) and four cone cells. Canoe is implicated in cone cell formation in the developing  compound eye in Drosophila (Matsuo et al., 1997). The  fates of cone cells are thought to be determined by cell- cell contacts. The phenotypic effect of Canoe mutations on  the cone cells depends on the state of Ras (Matsuo et al.,  1997), and Canoe is shown to interact with the activated  Ras, indicating that Canoe serves as a target of Ras, as described for AF-6 (Kuriyama et al., 1996; Matsuo et al.,  1997).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39426</offset>
+      <text>Here we showed that AF-6 interacts with Fam in vitro  and in vivo. Fam is homologous to a deubiquitinating enzyme in Drosophila, the product of the fat facets (faf) gene  (Huang et al., 1995; Wood et al., 1997). Faf is essential for  regulating of a cell communication pathway in the early  stage of eye development. Faf regulates the number of  photoreceptor cells in each facet of the compound eye  (Fischer-Vize et al., 1992; Huang and Fischer-Vize, 1996).  When the deubiquitinating activity of Faf is abolished by  mutagenesis in Drosophila, the mutant fly has an abnormal eye morphology, suggesting that the deubiquitinating  activity of Faf is necessary for the normal eye development (Huang et al., 1995). It was recently reported that  Ras1 interacts genetically with Faf in Drosophila eye development (Li et al., 1997). Faf has an additional function  in the later stage of eye development involving Ras1.  These observations in Drosophila raise the possibility that  both Faf and Canoe function downstream of Ras and that  Faf interacts genetically with Canoe, although further genetic analyses are required to determine the relation of the  Ras1-Canoe and Ras1-Faf pathways.</text>
+      <annotation id="62">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="39446" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="63">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="39466" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="GIm_311">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="39426" length="66"/>
+        <text>Here we showed that AF-6 interacts with Fam in vitro  and in vivo.</text>
+      </annotation>
+      <annotation id="GIm_312">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="39887" length="252"/>
+        <text>When the deubiquitinating activity of Faf is abolished by  mutagenesis in Drosophila, the mutant fly has an abnormal eye morphology, suggesting that the deubiquitinating  activity of Faf is necessary for the normal eye development (Huang et al., 1995).</text>
+      </annotation>
+      <annotation id="PPIm_550">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="39426" length="66"/>
+        <text>Here we showed that AF-6 interacts with Fam in vitro  and in vivo.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>40613</offset>
+      <text>Figures and Tables</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>40632</offset>
+      <text>Purification of AF-6-interacting protein. (a) The bovine  brain cytosol was loaded onto glutathione-Sepharose 4B columns  coated with GST, GST-AF-6 (1130-1612 aa), or GST-CD44. The  bound proteins were coeluted with the respective GST fusion  proteins by adding glutathione. Aliquots of the eluates were resolved by SDS-PAGE, followed by silver staining. Lane 1, GST;  lane 2, GST-AF-6 (1130-1612 aa); lane 3, GST-CD44. The arrowhead denotes the position of p220. (b) Protein p220 was immunoblotted with the anti-Fam antibodies. Lane 1, the position of p220  by silver staining; lane 2, with preimmuneserum; lane 3, with the  anti-Fam antibody (N20); lane 4, with the anti-Fam antibody  (C114). The arrowhead denotes the position of p220. The results  shown are representative of three independent experiments.</text>
+      <annotation id="A47">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="40648" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="PPIm_551">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="40632" length="41"/>
+        <text>Purification of AF-6-interacting protein.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>41447</offset>
+      <text>Hydrolysis of 125I-labeled Ub-PEST by Fam.The 125I-labeled Ub-PEST was incubated alone or with 1.6 mug of Fam purified by GST-AF-6 (1130-1612 aa) affinity column in the absence or presence of ubiquitin-aldehyde (Ub-CHO) for 1, 3, or  6 h at 37 C. After the incubation, the samples were subjected to  SDS-PAGE, followed by Coomassie Brilliant Blue staining (a),  and by autoradiography (b). The release of ubiquitin from Ub-PEST (a) or the production of the hydrolysis of 125I-labeled PEST  peptides from Ub-PEST (b). The results shown are representative of three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>42038</offset>
+      <text>Confocal microscope images of confluent MDCKII  cells showing the distributions of Fam, ZO-1 and beta-catenin. (A)  Immunoblot analysis of MDCKII cell lysates with preimmune serum (lane 1) and with anti-Fam antibody (K2; lane 2). The arrowhead denotes the position of Fam. (B) Subconfluent MDCKII  cells stained with anti-Fam antibody (K2). Arrows indicate free  ends of plasma membrane. (C) Confluent MDCKII cells doubly  stained with a rabbit polyclonal antibody against Fam (K2; a and  d) and mouse monoclonal antibodies against ZO-1 (b) or beta-catenin (e). Fam immunoreactivity is shown in green, and ZO-1 and  beta-catenin immunoreactivities are shown in red. ZO-1 was concentrated at the apical sections (b), whereas beta-catenin was found  at more basal sections (e). The yellow area indicates colocalization of Fam and ZO-1 at the apical sites (c), or Fam and beta-catenin  at the basal sites (f). The results shown are representative of  three independent experiments. Bar, 10 mum.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43020</offset>
+      <text>Coimmunoprecipitation of Fam with AF-6. MDCKII  cells were lysed and solubilized with buffer C (see Materials and  Methods). This sample was incubated with preimmuneserum  (lane 1), with anti-Fam antibody (K2; lane 2), or with anti-AF-6  antibody (#3; lane 3). The immunocomplexes were then precipitated with protein A-Sepharose 4B, and subjected to immunoblot  analysis using anti-AF-6 antibody (#4; a) or anti-Fam antibody  (N20; b). The arrowheads denote the positions of AF-6 (a) and  Fam (b), respectively. The results shown are representative of  three independent experiments.</text>
+      <annotation id="65">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="43045" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="68">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="43054" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="PPIm_552">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="43020" length="39"/>
+        <text>Coimmunoprecipitation of Fam with AF-6.</text>
+      </annotation>
+      <annotation id="PPIe_293">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="43020" length="39"/>
+        <text>Coimmunoprecipitation of Fam with AF-6.</text>
+      </annotation>
+      <annotation id="PPIe_294">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <infon key="Text_Mining_Shown">1</infon>
+        <location offset="43281" length="174"/>
+        <text>The immunocomplexes were then precipitated with protein A-Sepharose 4B, and subjected to immunoblot  analysis using anti-AF-6 antibody (#4; a) or anti-Fam antibody  (N20; b).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>43604</offset>
+      <text>Interaction of in vitro-translated Fam (1210-2100 aa)  with GST-AF-6 (1130-1612 aa). (a) Domain diagram of Fam and  the recombinant fragments used for the in vitro binding assay.  D.U., catalytic site of deubiquitinating enzyme including cysteine  and histidine domains. Bold lines show the recombinant fragments used for the in vitro binding assay. (b) In vitro-translated  Fam (1-669 aa; lanes 1 and 2), Fam (670-1213 aa; lanes 3 and 4),  Fam (1210-2100 aa; lanes 5 and 6), and Fam (2097-2554 aa; lanes  7 and 8) were mixed with GST (lanes 1, 3, 5, and 7) or GST-AF-6  (1130-1612 aa; lanes 2, 4, 6, and 8)-coated glutathione-Sepharose  4B beads. The interacting proteins were coeluted with GST fusion proteins by adding glutathione. The eluates were subjected  to SDS-PAGE and vacuum-dried. The in vitro-translated Fam  fragments were visualized with an image analyzer. The arrowhead denotes the position of the in vitro-translated Fam (1210- 2100 aa). The results shown are representative of three independent experiments.</text>
+      <annotation id="66">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="43639" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="69">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="43668" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="PPIm_553">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="43604" length="84"/>
+        <text>Interaction of in vitro-translated Fam (1210-2100 aa)  with GST-AF-6 (1130-1612 aa).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>44652</offset>
+      <text>Interaction of MBP-Fam (1476-1918 aa) and GST-AF-6  (1130-1612 aa) in vitro.The result of the kinetic study of the  binding of MBP-Fam (1476-1918 aa) with GST-AF-6 (1130-1612  aa) are shown. Various amounts of MBP-Fam (1476-1918 aa)  were mixed with GST (lanes 1, 3, 5, 7, 9, and 11) or GST-AF-6  (1130-1612 aa) (lanes 2, 4, 6, 8, 10, and 12)-coated glutathione-Sepharose 4B beads. The interacting proteins were coeluted with  GST fusion proteins by adding glutathione. (a) The eluted MBP-Fam (1476-1918 aa) was detected by Coomassie Brilliant Blue  staining. (b) The bound MBP-Fam (1476-1918 aa) was visualized  and estimated with a densitograph. The values shown are means +-  SEM of triplicate experiments.</text>
+      <annotation id="67">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">8239</infon>
+        <location offset="44671" length="3"/>
+        <text>Fam</text>
+      </annotation>
+      <annotation id="70">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4301</infon>
+        <location offset="44698" length="4"/>
+        <text>AF-6</text>
+      </annotation>
+      <annotation id="PPIm_554">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="44652" length="76"/>
+        <text>Interaction of MBP-Fam (1476-1918 aa) and GST-AF-6  (1130-1612 aa) in vitro.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>45378</offset>
+      <text>Regulation of AF-6 by the ubiquitin-proteasome pathway. Rat1 and EL cells were treated with the vehicle (DMSO;  lanes 1 and 4), 25 muM ALLM (lanes 2 and 5), or 25 muM ALLN  (lanes 3 and 6) for 3 h. Cell lysates of Rat1 (lanes 1-3) and EL  (lanes 4-6) cells were immunoblotted with anti-AF-6 antibody  (#4; a), anti-beta-catenin antibody (b), and anti-alpha-catenin antibody  (c). The arrowheads denote the position of the ubiquitinated AF-6  (a) and the ubiquitinated beta-catenin (b), respectively. The results  shown are representative of three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>45949</offset>
+      <text>Ubiquitination of AF-6 in COS7 cells.AF-6 and HA-tagged ubiquitin (HA-Ub) were expressed in COS7 cells. COS7  cells were treated with or without 25 muM ALLN for 18 h. The immunoprecipitates were then collected with anti-AF-6 antibody  (#3) and subjected to an immunoblot analysis with anti-HA antibody. The arrowhead denotes the position of HA-Ub-conjugated  AF-6. The results shown are representative of three independent  experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>46386</offset>
+      <text>Deubiquitination of the ubiquitinated AF-6 by Fam-CAT. AF-6 and HA-tagged ubiquitin (HA-Ub) were expressed  with or without Fam-CAT (the deubiquitinating catalytic domain  of Fam) in COS7 cells. The immunoprecipitates were then collected with anti-AF-6 antibody (#3), and subjected to an immunoblot analysis with anti-HA antibody or anti-AF-6 antibody  (#4). The arrowhead denotes the position of HA-Ub-conjugated  AF-6, and the arrow denotes the position of the immunoprecipitated AF-6. The results shown are representative of three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>46947</offset>
+      <text>Abbreviations used in this paper</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46980</offset>
+      <text>ALL-1</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46986</offset>
+      <text>acute lymphoblastic  leukemia-1</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47018</offset>
+      <text>ALLM</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47023</offset>
+      <text>N-acetyl-Leu-Leu-methional</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47050</offset>
+      <text>ALLN</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47055</offset>
+      <text>N-acetyl-Leu-Leu-norleucinal</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47084</offset>
+      <text>HA-Ub</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47090</offset>
+      <text>hemagglutinin-tagged ubiquitin</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47121</offset>
+      <text>GST</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47125</offset>
+      <text>glutathione-S-transferase</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47151</offset>
+      <text>MAP</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47155</offset>
+      <text>mitogen-activated protein</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47181</offset>
+      <text>MBP</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47185</offset>
+      <text>maltose-binding protein</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47209</offset>
+      <text>p-APMSF</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47217</offset>
+      <text>(p-amidino-phenyl)methanesulfonyl fluoride</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47260</offset>
+      <text>SH3</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47264</offset>
+      <text>src homology region 3</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47286</offset>
+      <text>Ub</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47289</offset>
+      <text>ubiquitin</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47299</offset>
+      <text>Ubps</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47304</offset>
+      <text>ubiquitin-specific proteases</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47333</offset>
+      <text>Ub-PEST</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47341</offset>
+      <text>ubiquitin-alphaNH-MHISPPEPESEEEEEHYC</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47375</offset>
+      <text>ZO-1</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47380</offset>
+      <text>zonula occludens-1</text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>47399</offset>
+      <text>References</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Stappert;given-names:J</infon>
+      <infon key="name_3">surname:Kispert;given-names:A</infon>
+      <infon key="name_0">surname:Aberle;given-names:H</infon>
+      <infon key="name_1">surname:Bauer;given-names:A</infon>
+      <infon key="name_4">surname:Kemler;given-names:R</infon>
+      <infon key="pub-id_pmid">9233789</infon>
+      <infon key="volume">16</infon>
+      <infon key="source">EMBO (Eur Mol Biol Organ) J</infon>
+      <infon key="fpage">3797</infon>
+      <infon key="year">1997</infon>
+      <infon key="lpage">3804</infon>
+      <infon key="type">ref</infon>
+      <offset>47410</offset>
+      <text>beta-catenin is a target for the ubiquitin-proteasome pathway</text>
+    </passage>
+    <passage>
+      <infon key="lpage">5892</infon>
+      <infon key="name_0">surname:Blenis;given-names:J</infon>
+      <infon key="pub-id_pmid">8392180</infon>
+      <infon key="volume">90</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="fpage">5889</infon>
+      <infon key="year">1993</infon>
+      <infon key="type">ref</infon>
+      <offset>47470</offset>
+      <text>Signal transduction via the MAP kinases: proceed at your own RSK</text>
+    </passage>
+    <passage>
+      <infon key="lpage">254</infon>
+      <infon key="name_0">surname:Bradford;given-names:M</infon>
+      <infon key="pub-id_pmid">942051</infon>
+      <infon key="volume">72</infon>
+      <infon key="source">Anal  Biochem</infon>
+      <infon key="fpage">248</infon>
+      <infon key="year">1976</infon>
+      <infon key="type">ref</infon>
+      <offset>47535</offset>
+      <text>A rapid and sensitive method for the quantitation of microgram quantities of protein using the principle of protein-dye binding</text>
+    </passage>
+    <passage>
+      <infon key="lpage">122</infon>
+      <infon key="name_0">surname:Cano;given-names:E</infon>
+      <infon key="name_1">surname:Mahadevan;given-names:LC</infon>
+      <infon key="pub-id_pmid">7709430</infon>
+      <infon key="volume">20</infon>
+      <infon key="source">Trends Biochem Sci</infon>
+      <infon key="fpage">117</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>47663</offset>
+      <text>Parallel signal processing among mammalian MAPKs</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Cox;given-names:ME</infon>
+      <infon key="name_3">surname:Parsons;given-names:SJ</infon>
+      <infon key="name_0">surname:Catling;given-names:AD</infon>
+      <infon key="name_1">surname:Reuter;given-names:CWM</infon>
+      <infon key="name_4">surname:Weber;given-names:MJ</infon>
+      <infon key="pub-id_pmid">7962002</infon>
+      <infon key="volume">269</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="fpage">30014</infon>
+      <infon key="year">1994</infon>
+      <infon key="lpage">30021</infon>
+      <infon key="type">ref</infon>
+      <offset>47712</offset>
+      <text>Partial purification of a mitogen-activated protein kinase kinase activator from bovine brain</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Goldberg;given-names:AL</infon>
+      <infon key="lpage">847</infon>
+      <infon key="name_0">surname:Coux;given-names:O</infon>
+      <infon key="name_1">surname:Tanaka;given-names:K</infon>
+      <infon key="pub-id_pmid">8811196</infon>
+      <infon key="volume">65</infon>
+      <infon key="source">Annu Rev Biochem</infon>
+      <infon key="fpage">801</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>47806</offset>
+      <text>Structure and functions of the 20S and 26S proteasomes</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Fries;given-names:H-W</infon>
+      <infon key="name_3">surname:Troppmair;given-names:J</infon>
+      <infon key="name_0">surname:Daum;given-names:G</infon>
+      <infon key="name_1">surname:Eisenmann-Tappe;given-names:I</infon>
+      <infon key="name_4">surname:Rapp;given-names:UR</infon>
+      <infon key="pub-id_pmid">7855890</infon>
+      <infon key="volume">19</infon>
+      <infon key="source">Trends Biochem Sci</infon>
+      <infon key="fpage">474</infon>
+      <infon key="year">1994</infon>
+      <infon key="lpage">480</infon>
+      <infon key="type">ref</infon>
+      <offset>47861</offset>
+      <text>The ins and outs of Raf kinases</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Lehmann;given-names:R</infon>
+      <infon key="lpage">1000</infon>
+      <infon key="name_0">surname:Fischer-Vize;given-names:JA</infon>
+      <infon key="name_1">surname:Rubin;given-names:GM</infon>
+      <infon key="pub-id_pmid">1295747</infon>
+      <infon key="volume">116</infon>
+      <infon key="source">Development</infon>
+      <infon key="fpage">985</infon>
+      <infon key="year">1992</infon>
+      <infon key="type">ref</infon>
+      <offset>47893</offset>
+      <text>The fat facets gene is  required for Drosophilaeye and embryo development</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Itoh;given-names:M</infon>
+      <infon key="name_3">surname:Nagafuchi;given-names:A</infon>
+      <infon key="name_0">surname:Furuse;given-names:M</infon>
+      <infon key="name_1">surname:Hirase;given-names:T</infon>
+      <infon key="name_6">surname:Tsukita;given-names:S</infon>
+      <infon key="name_4">surname:Yonemura;given-names:S</infon>
+      <infon key="name_5">surname:Tsukita;given-names:S</infon>
+      <infon key="volume">123</infon>
+      <infon key="pub-id_pmid">8276896</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="fpage">1777</infon>
+      <infon key="year">1993</infon>
+      <infon key="lpage">1788</infon>
+      <infon key="type">ref</infon>
+      <offset>47967</offset>
+      <text>Occludin: a novel integral membrane protein localizing at tight junctions</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Cereijido;given-names:M</infon>
+      <infon key="lpage">125</infon>
+      <infon key="name_0">surname:Gonzalez-Mariscal;given-names:L</infon>
+      <infon key="name_1">surname:Chavez de Ramirez;given-names:B</infon>
+      <infon key="pub-id_pmid">4032460</infon>
+      <infon key="volume">86</infon>
+      <infon key="source">J Membr Biol</infon>
+      <infon key="fpage">113</infon>
+      <infon key="year">1985</infon>
+      <infon key="type">ref</infon>
+      <offset>48041</offset>
+      <text>Tight junction formation in cultured epithelial cells (MDCK)</text>
+    </passage>
+    <passage>
+      <infon key="lpage">1323</infon>
+      <infon key="name_0">surname:Han;given-names:L</infon>
+      <infon key="name_1">surname:Colicelli;given-names:J</infon>
+      <infon key="pub-id_pmid">7862125</infon>
+      <infon key="volume">15</infon>
+      <infon key="source">Mol Cell  Biol</infon>
+      <infon key="fpage">1318</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>48102</offset>
+      <text>A human protein selected for interference with ras function interacts directly with ras and competes with raf1</text>
+    </passage>
+    <passage>
+      <infon key="citation">Harlow, E., and D. Lame. 1988. Antibodies: A Laboratory Manual. Cold Spring  Harbor Laboratory, Cold Spring Harbor, NY.</infon>
+      <infon key="type">ref</infon>
+      <offset>48213</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="lpage">1226</infon>
+      <infon key="name_0">surname:Hicke;given-names:L</infon>
+      <infon key="pub-id_pmid">9409540</infon>
+      <infon key="volume">11</infon>
+      <infon key="source">FASEB J</infon>
+      <infon key="fpage">1215</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>48214</offset>
+      <text>Ubiquitin-dependent internalization and down-regulation of plasma memblane proteins</text>
+    </passage>
+    <passage>
+      <infon key="lpage">223</infon>
+      <infon key="name_0">surname:Hochstrasser;given-names:M</infon>
+      <infon key="pub-id_pmid">7612274</infon>
+      <infon key="volume">7</infon>
+      <infon key="source">Curr Opin Cell Biol</infon>
+      <infon key="fpage">215</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>48298</offset>
+      <text>Ubiquitin, proteasomes, and the regulation of intracellular protein degradation</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Fischer-Vize;given-names:JA</infon>
+      <infon key="lpage">1831</infon>
+      <infon key="name_0">surname:Huang;given-names:Y</infon>
+      <infon key="name_1">surname:Baker;given-names:RT</infon>
+      <infon key="pub-id_pmid">8525378</infon>
+      <infon key="volume">270</infon>
+      <infon key="source">Science</infon>
+      <infon key="fpage">1828</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>48378</offset>
+      <text>Control of cell fate by a  deubiquitinating enzyme encoded by the fat facetsgene</text>
+    </passage>
+    <passage>
+      <infon key="lpage">3216</infon>
+      <infon key="name_0">surname:Huang;given-names:Y</infon>
+      <infon key="name_1">surname:Fischer-Vize;given-names:JA</infon>
+      <infon key="pub-id_pmid">8898233</infon>
+      <infon key="volume">122</infon>
+      <infon key="source">Development</infon>
+      <infon key="fpage">3207</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>48459</offset>
+      <text>Undifferentiated cells in the developing Drosophilaeye influence facet assembly and require the Fat facets ubiquitin-specific protease</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Nagafuchi;given-names:A</infon>
+      <infon key="name_3">surname:Tsukita;given-names:S</infon>
+      <infon key="name_0">surname:Itoh;given-names:M</infon>
+      <infon key="name_1">surname:Yonemura;given-names:S</infon>
+      <infon key="name_4">surname:Tsukita;given-names:S</infon>
+      <infon key="pub-id_pmid">1955485</infon>
+      <infon key="volume">115</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="fpage">1449</infon>
+      <infon key="year">1991</infon>
+      <infon key="lpage">1462</infon>
+      <infon key="type">ref</infon>
+      <offset>48594</offset>
+      <text>A 220-kD undercoat-constitutive protein: its specific localization at cadherin-based cell-cell adhesion sites</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Yonemura;given-names:S</infon>
+      <infon key="name_3">surname:Kitani-Yasuda;given-names:T</infon>
+      <infon key="name_0">surname:Itoh;given-names:M</infon>
+      <infon key="name_1">surname:Nagafuchi;given-names:A</infon>
+      <infon key="name_4">surname:Tsukita;given-names:S</infon>
+      <infon key="name_5">surname:Tsukita;given-names:S</infon>
+      <infon key="volume">121</infon>
+      <infon key="pub-id_pmid">8486731</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="fpage">491</infon>
+      <infon key="year">1993</infon>
+      <infon key="lpage">502</infon>
+      <infon key="type">ref</infon>
+      <offset>48704</offset>
+      <text>The 220-kD protein colocalizing with cadherins in non-epithelial cells is identical to ZO-1, a tight junction-associated protein in epithelial cells: cDNA cloning and immunoelectron microscopy</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Moroi;given-names:S</infon>
+      <infon key="name_3">surname:Tsukita;given-names:S</infon>
+      <infon key="name_0">surname:Itoh;given-names:M</infon>
+      <infon key="name_1">surname:Nagafuchi;given-names:A</infon>
+      <infon key="pub-id_pmid">9214391</infon>
+      <infon key="volume">138</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="fpage">181</infon>
+      <infon key="year">1997</infon>
+      <infon key="lpage">192</infon>
+      <infon key="type">ref</infon>
+      <offset>48897</offset>
+      <text>Involvement of ZO-1 in cadherin-based cell adhesion through its direct binding to alpha-catenin and actin filaments</text>
+    </passage>
+    <passage>
+      <infon key="lpage">147</infon>
+      <infon key="name_0">surname:Iwamatsu;given-names:A</infon>
+      <infon key="pub-id_pmid">1592044</infon>
+      <infon key="volume">13</infon>
+      <infon key="source">Electrophoresis</infon>
+      <infon key="fpage">142</infon>
+      <infon key="year">1992</infon>
+      <infon key="type">ref</infon>
+      <offset>49010</offset>
+      <text>S-carboxymethylation of proteins transferred onto polyvinylidene difluoride membranes followed by in situ protease digestion and amino acid microsequencing</text>
+    </passage>
+    <passage>
+      <infon key="citation">Jaiswal, R.K., S.A. Moodie, A. Wolfman, and G.E. Landreth. 1994. The mitogen-activated protein kinase cascade is activated by B-Raf in responce to  nerve growth factor through interaction with p21ras. Mol. Cell. Biol. 14:6944- 6953.</infon>
+      <infon key="type">ref</infon>
+      <offset>49166</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Ye;given-names:ZH</infon>
+      <infon key="name_3">surname:Chen;given-names:YW</infon>
+      <infon key="name_0">surname:Kikuchi;given-names:A</infon>
+      <infon key="name_1">surname:Demo;given-names:SD</infon>
+      <infon key="name_4">surname:Williams;given-names:LT</infon>
+      <infon key="pub-id_pmid">7935463</infon>
+      <infon key="volume">14</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="fpage">7483</infon>
+      <infon key="year">1994</infon>
+      <infon key="lpage">7491</infon>
+      <infon key="type">ref</infon>
+      <offset>49167</offset>
+      <text>ralGDS family members interact with the effector loop of ras p21</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kuroda;given-names:S</infon>
+      <infon key="name_3">surname:Yamamoto;given-names:T</infon>
+      <infon key="name_0">surname:Kuriyama;given-names:M</infon>
+      <infon key="name_1">surname:Harada;given-names:N</infon>
+      <infon key="name_6">surname:Yamamoto;given-names:D</infon>
+      <infon key="name_7">surname:Prasad;given-names:R</infon>
+      <infon key="name_4">surname:Nakafuku;given-names:M</infon>
+      <infon key="name_5">surname:Iwamatsu;given-names:A</infon>
+      <infon key="name_8">surname:Croce;given-names:C</infon>
+      <infon key="name_9">surname:Canaani;given-names:E</infon>
+      <infon key="volume">271</infon>
+      <infon key="pub-id_pmid">8557659</infon>
+      <infon key="source">J Biol  Chem</infon>
+      <infon key="fpage">607</infon>
+      <infon key="year">1996</infon>
+      <infon key="name_10">surname:Kaibuchi;given-names:K</infon>
+      <infon key="lpage">610</infon>
+      <infon key="type">ref</infon>
+      <offset>49232</offset>
+      <text>Identification of AF-6 and canoe as putative targets for Ras</text>
+    </passage>
+    <passage>
+      <infon key="lpage">685</infon>
+      <infon key="name_0">surname:Laemmli;given-names:UK</infon>
+      <infon key="pub-id_pmid">5432063</infon>
+      <infon key="volume">227</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">680</infon>
+      <infon key="year">1970</infon>
+      <infon key="type">ref</infon>
+      <offset>49293</offset>
+      <text>Cleavage of structural proteins during the assembly of the head of bacteriophage T4</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Chen;given-names:F</infon>
+      <infon key="name_3">surname:Huang;given-names:Y</infon>
+      <infon key="name_0">surname:Li;given-names:Q</infon>
+      <infon key="name_1">surname:Hariharan;given-names:IK</infon>
+      <infon key="name_4">surname:Fischer;given-names:JA</infon>
+      <infon key="pub-id_pmid">9356481</infon>
+      <infon key="volume">94</infon>
+      <infon key="source">Proc Natl Acad  Sci USA</infon>
+      <infon key="fpage">12515</infon>
+      <infon key="year">1997</infon>
+      <infon key="lpage">12520</infon>
+      <infon key="type">ref</infon>
+      <offset>49377</offset>
+      <text>Genetic interactions with Rap1 and Ras1 reveal a second function for the Fat facets  deubiquitinating enzyme in Drosophilaeye development</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Sollner-Webb;given-names:B</infon>
+      <infon key="lpage">5717</infon>
+      <infon key="name_0">surname:Lopata;given-names:MA</infon>
+      <infon key="name_1">surname:Cleveland;given-names:DW</infon>
+      <infon key="pub-id_pmid">6589587</infon>
+      <infon key="volume">12</infon>
+      <infon key="source">Nucleic Acids Res</infon>
+      <infon key="fpage">5707</infon>
+      <infon key="year">1984</infon>
+      <infon key="type">ref</infon>
+      <offset>49515</offset>
+      <text>High level transient expression of a chloramphenicol acetyl transferase gene by DEAE-dextran mediated DNA transfection coupled with a dimethyl sulfoxide or glycerol shock treatment</text>
+    </passage>
+    <passage>
+      <infon key="lpage">432</infon>
+      <infon key="name_0">surname:Markwell;given-names:MAK</infon>
+      <infon key="pub-id_pmid">6758629</infon>
+      <infon key="volume">125</infon>
+      <infon key="source">Anal Biochem</infon>
+      <infon key="fpage">427</infon>
+      <infon key="year">1982</infon>
+      <infon key="type">ref</infon>
+      <offset>49696</offset>
+      <text>A new solid-state reagent to iodinate proteins. I. Conditions for the efficient labeling of antiserum</text>
+    </passage>
+    <passage>
+      <infon key="lpage">185</infon>
+      <infon key="name_0">surname:Marshall;given-names:CJ</infon>
+      <infon key="pub-id_pmid">7834738</infon>
+      <infon key="volume">80</infon>
+      <infon key="source">Cell</infon>
+      <infon key="fpage">179</infon>
+      <infon key="year">1995a</infon>
+      <infon key="type">ref</infon>
+      <offset>49798</offset>
+      <text>Specificity of receptor tyrosine kinase signaling: transient versus sustained extracellular signal-regulated kinase activation</text>
+    </passage>
+    <passage>
+      <infon key="lpage">1318</infon>
+      <infon key="name_0">surname:Marshall;given-names:MS</infon>
+      <infon key="pub-id_pmid">7557021</infon>
+      <infon key="volume">9</infon>
+      <infon key="source">FASEB J</infon>
+      <infon key="fpage">1311</infon>
+      <infon key="year">1995b</infon>
+      <infon key="type">ref</infon>
+      <offset>49925</offset>
+      <text>Ras target proteins in eukaryotic cells</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kondo;given-names:S</infon>
+      <infon key="name_3">surname:Kaibuchi;given-names:K</infon>
+      <infon key="name_0">surname:Matsuo;given-names:T</infon>
+      <infon key="name_1">surname:Takahashi;given-names:K</infon>
+      <infon key="name_4">surname:Yamamoto;given-names:D</infon>
+      <infon key="pub-id_pmid">9226438</infon>
+      <infon key="volume">124</infon>
+      <infon key="source">Development</infon>
+      <infon key="fpage">2671</infon>
+      <infon key="year">1997</infon>
+      <infon key="lpage">2680</infon>
+      <infon key="type">ref</infon>
+      <offset>49965</offset>
+      <text>Regulation of cone cell formation by Canoe and Ras in the developing  Drosophilaeye</text>
+    </passage>
+    <passage>
+      <infon key="lpage">76</infon>
+      <infon key="name_0">surname:McCormick;given-names:F</infon>
+      <infon key="pub-id_pmid">8193543</infon>
+      <infon key="volume">4</infon>
+      <infon key="source">Curr Opin  Genet Dev</infon>
+      <infon key="fpage">71</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>50049</offset>
+      <text>Activators and effectors of ras p21 proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kolch;given-names:W</infon>
+      <infon key="name_3">surname:Wolfman;given-names:A</infon>
+      <infon key="name_0">surname:Moodie;given-names:SA</infon>
+      <infon key="name_1">surname:Paris;given-names:MJ</infon>
+      <infon key="pub-id_pmid">7935430</infon>
+      <infon key="volume">14</infon>
+      <infon key="source">Mol Cell Biol</infon>
+      <infon key="fpage">7153</infon>
+      <infon key="year">1994</infon>
+      <infon key="lpage">7162</infon>
+      <infon key="type">ref</infon>
+      <offset>50094</offset>
+      <text>Association of  MEK1 with p21ras GMPPNP is dependent on B-Raf</text>
+    </passage>
+    <passage>
+      <infon key="lpage">44</infon>
+      <infon key="name_0">surname:Nagafuchi;given-names:A</infon>
+      <infon key="name_1">surname:Takeichi;given-names:M</infon>
+      <infon key="pub-id_pmid">2519616</infon>
+      <infon key="volume">1</infon>
+      <infon key="source">Cell Regul</infon>
+      <infon key="fpage">37</infon>
+      <infon key="year">1989</infon>
+      <infon key="type">ref</infon>
+      <offset>50158</offset>
+      <text>Transmembrane control of cadherin-mediated cell adhesion: a 94 kDa protein functionally associated with a specific region of the cytoplasmic domain of E-cadherin</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Tsukita;given-names:S</infon>
+      <infon key="lpage">245</infon>
+      <infon key="name_0">surname:Nagafuchi;given-names:A</infon>
+      <infon key="name_1">surname:Ishihara;given-names:S</infon>
+      <infon key="pub-id_pmid">7929566</infon>
+      <infon key="volume">127</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="fpage">235</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>50320</offset>
+      <text>The roles of catenins in the cadherin-mediated cell adhesion: functional analysis of E-cadherin-alpha catenin fusion molecules</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Jensen;given-names:JP</infon>
+      <infon key="name_3">surname:Weissman;given-names:AM</infon>
+      <infon key="name_0">surname:Orford;given-names:K</infon>
+      <infon key="name_1">surname:Crockett;given-names:C</infon>
+      <infon key="name_4">surname:Byers;given-names:SW</infon>
+      <infon key="pub-id_pmid">9312064</infon>
+      <infon key="volume">272</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="fpage">24735</infon>
+      <infon key="year">1997</infon>
+      <infon key="lpage">24738</infon>
+      <infon key="type">ref</infon>
+      <offset>50444</offset>
+      <text>Serine phosphorylation-regulated ubiquitination and degradation of beta-catenin</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Alder;given-names:H</infon>
+      <infon key="name_3">surname:Nakamura;given-names:T</infon>
+      <infon key="name_0">surname:Prasad;given-names:R</infon>
+      <infon key="name_1">surname:Gu;given-names:Y</infon>
+      <infon key="name_6">surname:Huebner;given-names:K</infon>
+      <infon key="name_7">surname:Gale;given-names:RP</infon>
+      <infon key="name_4">surname:Canaani;given-names:O</infon>
+      <infon key="name_5">surname:Saito;given-names:H</infon>
+      <infon key="name_8">surname:Nowell;given-names:PC</infon>
+      <infon key="name_9">surname:Kuriyama;given-names:K</infon>
+      <infon key="volume">53</infon>
+      <infon key="pub-id_pmid">8242616</infon>
+      <infon key="source">Cancer Res</infon>
+      <infon key="fpage">5624</infon>
+      <infon key="year">1993</infon>
+      <infon key="lpage">5628</infon>
+      <infon key="type">ref</infon>
+      <offset>50522</offset>
+      <text>Cloning of the ALL-1 fusion partner, the AF-6 gene, involved in acute myeloid leukemias with the t(6;11) chromosome translocation</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Dhand;given-names:R</infon>
+      <infon key="name_3">surname:Vanhaesebroeck;given-names:B</infon>
+      <infon key="name_0">surname:Rodriguez-Viciana;given-names:P</infon>
+      <infon key="name_1">surname:Warne;given-names:PH</infon>
+      <infon key="name_6">surname:Waterfield;given-names:MD</infon>
+      <infon key="name_7">surname:Downward;given-names:J</infon>
+      <infon key="name_4">surname:Gout;given-names:I</infon>
+      <infon key="name_5">surname:Fry;given-names:MJ</infon>
+      <infon key="volume">370</infon>
+      <infon key="pub-id_pmid">8052307</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">527</infon>
+      <infon key="year">1994</infon>
+      <infon key="lpage">532</infon>
+      <infon key="type">ref</infon>
+      <offset>50652</offset>
+      <text>Phosphatidylinositol-3-OH kinase as a direct target of Ras</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kaziro;given-names:Y</infon>
+      <infon key="lpage">24152</infon>
+      <infon key="name_0">surname:Satoh;given-names:T</infon>
+      <infon key="name_1">surname:Nakafuku;given-names:M</infon>
+      <infon key="pub-id_pmid">1447166</infon>
+      <infon key="volume">267</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="fpage">24149</infon>
+      <infon key="year">1992</infon>
+      <infon key="type">ref</infon>
+      <offset>50711</offset>
+      <text>Function of Ras as a molecular switch in signal transduction</text>
+    </passage>
+    <passage>
+      <infon key="lpage">12613</infon>
+      <infon key="name_0">surname:Spaargaren;given-names:M</infon>
+      <infon key="name_1">surname:Bischoff;given-names:JR</infon>
+      <infon key="pub-id_pmid">7809086</infon>
+      <infon key="volume">91</infon>
+      <infon key="source">Proc Natl Acad Sci USA</infon>
+      <infon key="fpage">12609</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>50772</offset>
+      <text>Identification of the guanine nucleotide dissociation stimulator for Ral as a putative effector molecule of R-ras, H-ras, K-ras, and Rap</text>
+    </passage>
+    <passage>
+      <infon key="lpage">163</infon>
+      <infon key="name_0">surname:Sudol;given-names:M</infon>
+      <infon key="pub-id_pmid">8871396</infon>
+      <infon key="volume">21</infon>
+      <infon key="source">Trends Biochem Sci</infon>
+      <infon key="fpage">161</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>50909</offset>
+      <text>The WW module competes with the SH3 domain? </text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Bohmann;given-names:D</infon>
+      <infon key="lpage">798</infon>
+      <infon key="name_0">surname:Treier;given-names:M</infon>
+      <infon key="name_1">surname:Staszewski;given-names:LM</infon>
+      <infon key="pub-id_pmid">8087846</infon>
+      <infon key="volume">78</infon>
+      <infon key="source">Cell</infon>
+      <infon key="fpage">787</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>50954</offset>
+      <text>Ubiquitin-dependent c-Jun degradation in vivo is mediated by the delta domain</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Cooper;given-names:JA</infon>
+      <infon key="lpage">214</infon>
+      <infon key="name_0">surname:Vojtek;given-names:AB</infon>
+      <infon key="name_1">surname:Hollenberg;given-names:SM</infon>
+      <infon key="pub-id_pmid">8334704</infon>
+      <infon key="volume">74</infon>
+      <infon key="source">Cell</infon>
+      <infon key="fpage">205</infon>
+      <infon key="year">1993</infon>
+      <infon key="type">ref</infon>
+      <offset>51029</offset>
+      <text>Mammalian Ras interacts directly with the serine/threonine kinase Raf</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Park;given-names:IK</infon>
+      <infon key="name_3">surname:Yoo;given-names:YJ</infon>
+      <infon key="name_0">surname:Woo;given-names:SK</infon>
+      <infon key="name_1">surname:Lee;given-names:JI</infon>
+      <infon key="name_6">surname:Ha;given-names:DB</infon>
+      <infon key="name_7">surname:Tanaka;given-names:K</infon>
+      <infon key="name_4">surname:Cho;given-names:CM</infon>
+      <infon key="name_5">surname:Kang;given-names:M-S</infon>
+      <infon key="name_8">surname:Chung;given-names:CH</infon>
+      <infon key="volume">270</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="fpage">18766</infon>
+      <infon key="year">1995</infon>
+      <infon key="lpage">18773</infon>
+      <infon key="type">ref</infon>
+      <offset>51099</offset>
+      <text>Multiple ubiquitin C-terminal hydrolases from chick skeletal muscle</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Ru;given-names:K</infon>
+      <infon key="name_3">surname:Yamada;given-names:T</infon>
+      <infon key="name_0">surname:Wood;given-names:SA</infon>
+      <infon key="name_1">surname:Pascoe;given-names:WS</infon>
+      <infon key="name_6">surname:Mattick;given-names:JS</infon>
+      <infon key="name_4">surname:Hirchenhain;given-names:J</infon>
+      <infon key="name_5">surname:Kemler;given-names:R</infon>
+      <infon key="volume">63</infon>
+      <infon key="pub-id_pmid">9178254</infon>
+      <infon key="source">Mech Dev</infon>
+      <infon key="fpage">29</infon>
+      <infon key="year">1997</infon>
+      <infon key="lpage">38</infon>
+      <infon key="type">ref</infon>
+      <offset>51167</offset>
+      <text>Cloning and expression analysis of a novel mouse gene  with sequence similarity to the Drosophila fat facetsgene</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Shimizu;given-names:K</infon>
+      <infon key="name_3">surname:Fukui;given-names:K</infon>
+      <infon key="name_0">surname:Yamamori;given-names:B</infon>
+      <infon key="name_1">surname:Kuroda;given-names:S</infon>
+      <infon key="name_4">surname:Ohtsuka;given-names:T</infon>
+      <infon key="name_5">surname:Takai;given-names:Y</infon>
+      <infon key="volume">270</infon>
+      <infon key="pub-id_pmid">7744815</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="fpage">11723</infon>
+      <infon key="year">1995</infon>
+      <infon key="lpage">11726</infon>
+      <infon key="type">ref</infon>
+      <offset>51280</offset>
+      <text>Purification of a Ras-dependent mitogen-activated protein kinase kinase kinase from bovine brain cytosol and its identification as a complex of B-Raf and 14-3-3 proteins</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Nakafuku;given-names:M</infon>
+      <infon key="name_3">surname:Iwamatsu;given-names:A</infon>
+      <infon key="name_0">surname:Yamamoto;given-names:T</infon>
+      <infon key="name_1">surname:Matsui;given-names:T</infon>
+      <infon key="name_4">surname:Kaibuchi;given-names:K</infon>
+      <infon key="pub-id_pmid">8530488</infon>
+      <infon key="volume">270</infon>
+      <infon key="source">J Biol Chem</infon>
+      <infon key="fpage">30557</infon>
+      <infon key="year">1995</infon>
+      <infon key="lpage">30561</infon>
+      <infon key="type">ref</infon>
+      <offset>51450</offset>
+      <text>A novel GTPase-activating protein for R-Ras</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kano;given-names:K</infon>
+      <infon key="name_3">surname:Taya;given-names:S</infon>
+      <infon key="name_0">surname:Yamamoto;given-names:T</infon>
+      <infon key="name_1">surname:Harada;given-names:N</infon>
+      <infon key="name_6">surname:Mizoguchi;given-names:A</infon>
+      <infon key="name_7">surname:Ide;given-names:C</infon>
+      <infon key="name_4">surname:Canaani;given-names:E</infon>
+      <infon key="name_5">surname:Matsuura;given-names:Y</infon>
+      <infon key="name_8">surname:Kaibuchi;given-names:K</infon>
+      <infon key="volume">139</infon>
+      <infon key="pub-id_pmid">9348294</infon>
+      <infon key="source">J Cell Biol</infon>
+      <infon key="fpage">785</infon>
+      <infon key="year">1997</infon>
+      <infon key="lpage">795</infon>
+      <infon key="type">ref</infon>
+      <offset>51494</offset>
+      <text>The Ras target AF-6 interacts with ZO-1 and serves as a peripheral component of tight junctions in epithelial cells</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>51610</offset>
+      <text>Address all correspondence and proofs to Kozo Kaibuchi, M.D. &amp; Ph.D.,  Division of Signal Transduction, Nara Institute of Science and Technology, 8916-5 Takayama, Ikoma 630-0101, Japan. Tel.: 81-743-72-5440. Fax:  81-743-72-5449. E-mail: kaibuchi@bs.aist-nara.ac.jp</text>
+    </passage>
+  </document>
+</collection>

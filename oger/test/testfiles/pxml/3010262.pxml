@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010262</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>06</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>06</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2008</Year>
+<Month>06</Month>
+<Day>20</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0032-3756</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>41</Volume>
+<Issue>3</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Jan</Month>
+<Day>21</Day>
+</PubDate>
+</JournalIssue>
+<Title>Polski tygodnik lekarski (Warsaw, Poland : 1960)</Title>
+<ISOAbbreviation>Pol Tyg Lek</ISOAbbreviation>
+</Journal>
+<ArticleTitle>[Pathogenic retrovirus--current facts and hypotheses].</ArticleTitle>
+<Pagination>
+<MedlinePgn>86-7</MedlinePgn>
+</Pagination>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Kazimierska</LastName>
+<ForeName>E</ForeName>
+<Initials>E</Initials>
+</Author>
+</AuthorList>
+<Language>pol</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D016454">Review</PublicationType>
+</PublicationTypeList>
+<VernacularTitle>Patogenny retrowirus--teraźniejszość i domysły.</VernacularTitle>
+</Article>
+<MedlineJournalInfo>
+<Country>POLAND</Country>
+<MedlineTA>Pol Tyg Lek</MedlineTA>
+<NlmUniqueID>9705468</NlmUniqueID>
+<ISSNLinking>0032-3756</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D000914">Antibodies, Viral</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D000956">Antigens, Viral</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D015483">HIV Antibodies</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D015488">HIV Antigens</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CitationSubset>X</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000163">Acquired Immunodeficiency Syndrome</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000175">diagnosis</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000382">microbiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000914">Antibodies, Viral</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000956">Antigens, Viral</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000032">analysis</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D017977">Deltaretrovirus</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D015483">HIV Antibodies</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D015488">HIV Antigens</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012192">Retroviridae Infections</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000382">microbiology</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+<NumberOfReferences>26</NumberOfReferences>
+</MedlineCitation>

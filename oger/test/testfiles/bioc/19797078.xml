@@ -1,0 +1,2035 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>BioCBioGRID.key</key>
+  <document>
+    <id>19797078</id>
+    <infon key="top">41</infon>
+    <infon key="catagory">marked</infon>
+    <passage>
+      <infon key="name_2">surname:Wang;given-names:Feng</infon>
+      <infon key="name_3">surname:Marcotte;given-names:Edward M.</infon>
+      <infon key="name_0">surname:Lo;given-names:Kai-Yin</infon>
+      <infon key="name_1">surname:Li;given-names:Zhihua</infon>
+      <infon key="license">This article is distributed under the terms of an Attribution-Noncommercial-Share Alike-No Mirror Sites license for the first six months after the publication date (see http://www.jcb.org/misc/terms.shtml). After six months it is available under a Creative Commons License (Attribution-Noncommercial-Share Alike 3.0 Unported license, as described at http://creativecommons.org/licenses/by-nc-sa/3.0/).</infon>
+      <infon key="article-id_publisher-id">200904110</infon>
+      <infon key="type">front</infon>
+      <infon key="article-id_doi">10.1083/jcb.200904110</infon>
+      <infon key="article-id_pmid">19797078</infon>
+      <infon key="lpage">862</infon>
+      <infon key="article-id_pmc">2753163</infon>
+      <infon key="fpage">849</infon>
+      <infon key="year">2009</infon>
+      <infon key="name_4">surname:Johnson;given-names:Arlen W.</infon>
+      <infon key="issue">6</infon>
+      <infon key="volume">186</infon>
+      <offset>0</offset>
+      <text>Ribosome stalk assembly requires the dual-specificity phosphatase Yvh1 for the exchange of Mrt4 with P0</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>104</offset>
+      <text>The step by step assembly process from preribosome in the nucleus to translation-competent 60S ribosome subunit in the cytoplasm is revealed (also see Kemmler et al. in this issue).</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>286</offset>
+      <text>The ribosome stalk is essential for recruitment of translation factors. In yeast, P0 and Rpl12 correspond to bacterial L10 and L11 and form the stalk base of mature ribosomes, whereas Mrt4 is a nuclear paralogue of P0. In this study, we show that the dual-specificity phosphatase Yvh1 is required for the release of Mrt4 from the pre-60S subunits. Deletion of YVH1 leads to the persistence of Mrt4 on pre-60S subunits in the cytoplasm. A mutation in Mrt4 at the protein-RNA interface bypasses the requirement for Yvh1. Pre-60S subunits associated with Yvh1 contain Rpl12 but lack both Mrt4 and P0. These results suggest a linear series of events in which Yvh1 binds to the pre-60S subunit to displace Mrt4. Subsequently, P0 loads onto the subunit to assemble the mature stalk, and Yvh1 is released. The initial assembly of the ribosome with Mrt4 may provide functional compartmentalization of ribosome assembly in addition to the spatial separation afforded by the nuclear envelope.</text>
+      <annotation id="A0">
+        <infon key="OrganismID">559292</infon>
+        <infon key="type">Organism</infon>
+        <infon key="src">edit</infon>
+        <location offset="361" length="5"/>
+        <text>yeast</text>
+      </annotation>
+      <annotation id="A1">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="736" length="4"/>
+        <text>Mrt4</text>
+      </annotation>
+      <annotation id="A2">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="799" length="4"/>
+        <text>Yvh1</text>
+      </annotation>
+      <annotation id="A3">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856656</infon>
+        <location offset="851" length="5"/>
+        <text>Rpl12</text>
+      </annotation>
+      <annotation id="A4">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="838" length="4"/>
+        <text>Yvh1</text>
+      </annotation>
+      <annotation id="A5">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="941" length="4"/>
+        <text>Yvh1</text>
+      </annotation>
+      <annotation id="A6">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="987" length="4"/>
+        <text>Mrt4</text>
+      </annotation>
+      <annotation id="GIe_16">
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="722" length="82"/>
+        <text>A mutation in Mrt4 at the protein-RNA interface bypasses the requirement for Yvh1.</text>
+      </annotation>
+      <annotation id="GIm_355">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="722" length="82"/>
+        <text>A mutation in Mrt4 at the protein-RNA interface bypasses the requirement for Yvh1.</text>
+      </annotation>
+      <annotation id="PPIm_57">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="805" length="78"/>
+        <text>Pre-60S subunits associated with Yvh1 contain Rpl12 but lack both Mrt4 and P0.</text>
+      </annotation>
+      <annotation id="PPIm_58">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="884" length="108"/>
+        <text>These results suggest a linear series of events in which Yvh1 binds to the pre-60S subunit to displace Mrt4.</text>
+      </annotation>
+      <annotation id="PPIe_383">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="884" length="108"/>
+        <text>These results suggest a linear series of events in which Yvh1 binds to the pre-60S subunit to displace Mrt4.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1271</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1284</offset>
+      <text>Eukaryotic cells spatially separate ribosome assembly in the nucleus from translation in the cytoplasm. This is thought to provide an environment that allows for extensive ribosomal RNA (rRNA) processing, folding, and assembly events without the interference of the array of translation factors and other ribosome-associated factors present in the cytoplasm. After the initial rRNA processing and assembly in the nucleolus (Venema and Tollervey, 1999), the nascent ribosomal subunits are exported out of the nucleus for final maturation in the cytoplasm (for reviews see Fromont-Racine et al., 2003; Tschochner and Hurt, 2003; Zemp and Kutay, 2007; Johnson, 2009). The recruitment of export factors may be a means of monitoring the progress of assembly to ensure that only correctly assembled subunits are exported (Johnson et al., 2002). Further maturation steps in the cytoplasm are required before the subunits become translationally active. The critical event in cytoplasmic maturation of the small subunit appears to be cleavage of the rRNA to yield mature 18S (Udem and Warner, 1973; Fatica et al., 2003). In contrast, no major cytoplasmic rRNA-processing events are known for the large subunit. However, multiple ATPases and GTPases act on the subunit to release trans-acting factors that were exported with the subunit and to assemble several ribosomal proteins into the subunit (for reviews see Fromont-Racine et al., 2003; Zemp and Kutay, 2007; Johnson, 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2755</offset>
+      <text>A critical structure of the large subunit is the ribosome stalk, comprising the factor-binding region of the GTPase-associated center. The stalk is required for recruitment of translation factors and is essential for ribosome activity (Ballesta and Remacha, 1996; Gonzalo and Reboud, 2003; Berk and Cate, 2007). In eukaryotic cells, it is composed of five proteins: Rpp0 (or P0) and two copies each of the acidic proteins P1 and P2 (Ballesta and Remacha, 1996; Hanson et al., 2004; Krokowski et al., 2005, 2006). P0 is a large protein that, together with Rpl12, interacts directly with 25S rRNA and forms the base of the stalk and the binding platform for the P1 and P2 proteins (Krokowski et al., 2006; Briceno et al., 2009). Because the stalk can be isolated as a pentameric complex (Hanson et al., 2004) and the P1 and P2 proteins facilitate the folding of P0 (Krokowski et al., 2005), it is likely that the entire complex is assembled together onto the ribosome. In bacterial ribosomes, L10 and L11, which correspond to eukaryotic P0 and Rpl12, bind cooperatively to helices 43 and 44 in domain II of 23S rRNA (Rosendahl and Douthwaite, 1995). It is likely that eukaryotic P0 and Rpl12 show similar cooperative binding to 25S rRNA as loss of Rpl12 reduces the affinity of P0 for the ribosome (Briones et al., 1998).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4076</offset>
+      <text>In eukaryotes, the nucleolar protein Mrt4 is closely related to P0 (Zuk et al., 1999); the two proteins share a conserved N-terminal domain, which is responsible for ribosome binding, whereas P0 contains an extended C terminus (Rodriguez-Mateos et al., 2009). Mrt4 has been identified in pre-60S ribosome complexes (Gavin et al., 2006; Collins et al., 2007) but not in mature 60S subunits, suggesting that Mrt4 binds ribosomes at an early stage of assembly in the nucleolus. On the contrary, P0 is cytoplasmic (Boguszewska et al., 2002) and is present in cytoplasmic pre-60S particles (Kressler et al., 2008) and mature 60S subunits. Based on these findings, it is assumed that Mrt4 is the nuclear paralogue of P0 (Rodriguez-Mateos et al., 2009) and that during assembly, Mrt4 is exchanged for P0. How Mrt4 is released to allow the assembly of P0 is not known.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4937</offset>
+      <text>Yeast Yvh1 was identified by sequence similarity to a dual-specificity phosphatase from vaccinia virus (Guan et al., 1992). However, the sequence conservation between these two proteins is restricted to their phosphatase domains, making it unlikely that they perform similar functions. Yvh1 and closely related proteins from other organisms have an N-terminal phosphatase domain and a C-terminal zinc-binding domain and are grouped in the atypical dual specificity phosphatases (Patterson et al., 2009). Yvh1 is highly conserved throughout eukaryotes, and human Yvh1 (DUSP12) complements the slow-growth phenotype of a YVH1 disruption mutant in Saccharomyces cerevisiae (Muda et al., 1999).</text>
+      <annotation id="40">
+        <infon key="OrganismID">559292</infon>
+        <infon key="type">Organism</infon>
+        <infon key="src">edit</infon>
+        <location offset="4937" length="5"/>
+        <text>Yeast</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5628</offset>
+      <text>In this study, we reveal the pathway for assembly of the ribosomal stalk base. We show that Yvh1 is required for release of Mrt4 from the nascent pre-60S subunit in yeast to allow assembly of the essential stalk base protein P0. Loss of Yvh1 results in the persistence of Mrt4 on pre-60S subunits and the relocalization of Mrt4 to the cytoplasm. Similarly, siRNA knockdown of the Yvh1 orthologue DUSP12 in HeLa cells leads to redistribution of MRTO4 to the cytoplasm, underscoring the role of Yvh1 as a critical factor regulating the assembly of the base of the ribosome stalk in eukaryotic cells. An accompanying paper in this issue by  presents similar conclusions about the role of Yvh1.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>6319</offset>
+      <text>Results</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>6327</offset>
+      <text>Yvh1 is required for ribosome biogenesis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6368</offset>
+      <text>A recent genome-wide protein complementation assay (PCA) in yeast linked Yvh1 to Tif6, Lsg1, and Rei1 (Tarassov et al., 2008). These factors are all required for biogenesis of the 60S subunit, and Lsg1 and Rei1 are strictly cytoplasmic proteins (for reviews see Fromont-Racine et al., 2003; Zemp and Kutay, 2007; Johnson, 2009). PCA monitors proximity (&lt;=80 A) but does not report direct physical interaction between protein pairs (Tarassov et al., 2008). Based on this PCA analysis, we speculated that Yvh1 functions in maturation of the large subunit. The two-hybrid interaction between Yvh1 and the nucleolar 60S biogenesis factor Nop7 further supported a role in 60S biogenesis (Sakumoto et al., 2001).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7077</offset>
+      <text>YVH1 is not essential, but its deletion (yvh1Delta) causes a strong defect in growth rate (Guan et al., 1992). To determine whether Yvh1 acts in ribosome biogenesis, we fractionated extracts from yvh1Delta and wild-type cells by sedimentation through sucrose density gradients. We observed that the level of 60S subunits was reduced in the yvh1Delta mutant (Fig. 1 A), which was indicated by reduced free 60S levels and the appearance of halfmers, 43S preinitiation complexes that contain 40S but not 60S subunits. We examined the effect of yvh1Delta on the well-established rRNA-processing pathway using Northern blotting. Compared with wild type, yvh1Delta cells showed a modest accumulation of 35S, 27SA/B, and 23S rRNAs, reduced levels of 25S, and no significant changes in 20S and 18S rRNAs (Fig. S1). The effects on 27S and 25S levels are consistent with Yvh1 being involved in 60S biogenesis. yvh1Delta cells also showed reduced 60S export, monitored by the localization of Rpl25-GFP (Fig. S2), as was recently reported (Liu and Chang, 2009).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>8109</offset>
+      <text>The dual-specificity phosphatase Yvh1 is a ribosome biogenesis factor, and its C-terminal domain is crucial for 60S interaction. (A) Extracts were prepared from BY4741 and yvh1Delta (AJY2976) cells and fractionated by sedimentation through 7-47% sucrose density gradients as described in Materials and methods. (B) Model of Yvh1 and various mutant constructs. Dark bars indicate the conserved phosphatase- and zinc-binding domains. Numbers indicate amino acid positions. (C) Protein extracts were prepared at 50 mM NaCl from AJY2976 (yvh1Delta) with pAJ2020 (Yvh1-myc), pAJ2024 (Yvh1-C117S-myc), pAJ2025 (Yvh1DeltaN-myc), and pAJ2026 (Yvh1DeltaC-myc) overlayed on 1 M sucrose cushions. Samples were centrifuged at 80,000 rpm for 60 min to separate free protein and ribosome particles. Equal amounts of supernatant (S) and pellet (P) fractions were separated by SDS-PAGE, and Western blots were performed using anti-c-myc (Yvh1) and anti-Rpl8 antibodies. WT, wild type.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9070</offset>
+      <text>Yvh1 has a dual specificity phosphatase domain in its N terminus and a Zn2+-binding domain at the C terminus (Fig. 1 B). Interestingly, only the C-terminal domain is necessary to complement the slow-growth defect of a yvh1Delta mutant (Liu and Chang, 2009). To dissect which functional domain of Yvh1 is required in 60S biogenesis, several Yvh1 mutants were constructed (Fig. 1 B). Consistent with previous data (Liu and Chang, 2009), Yvh1 containing a mutation in the catalytic site of the phosphatase domain (yvh1-C117S) or deleted of the entire phosphatase domain (yvh1DeltaN) complemented the deletion mutant, whereas Yvh1 lacking the zinc-binding domain (yvh1DeltaC) did not (unpublished data). Polysome profiles were analyzed in these Yvh1 mutants. yvh1-C117S and yvh1DeltaN showed essentially wild-type profiles, whereas yvh1DeltaC was indistinguishable from the complete deletion mutant (Liu and Chang, 2009; unpublished data). These results clearly link the growth defect of yvh1 mutants to a 60S biogenesis defect.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10080</offset>
+      <text>To determine whether this growth defect correlated with the ability of Yvh1 to bind to the 60S subunit, we separated ribosome-bound and free protein pools and analyzed these for the presence of Yvh1. The majority of wild-type Yvh1 and Yvh1-C117S cosedimented with ribosomes, whereas ~70% of Yvh1DeltaN protein was in the free pool, indicating a partial loss of ribosome binding (Fig. 1 C). Yvh1DeltaC was found entirely in the free pool, indicating that it completely lost 60S binding (Fig. 1 C). Together, these observations indicate that the function of Yvh1 requires its 60S subunit binding but not its phosphatase activity.</text>
+      <annotation id="A12">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="10306" length="4"/>
+        <text>Yvh1</text>
+      </annotation>
+      <annotation id="A13">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="10315" length="4"/>
+        <text>Yvh1</text>
+      </annotation>
+      <annotation id="PPIm_59">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="10280" length="189"/>
+        <text>The majority of wild-type Yvh1 and Yvh1-C117S cosedimented with ribosomes, whereas ~70% of Yvh1DeltaN protein was in the free pool, indicating a partial loss of ribosome binding (Fig. 1 C).</text>
+      </annotation>
+      <annotation id="PPIe_384">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="10280" length="189"/>
+        <text>The majority of wild-type Yvh1 and Yvh1-C117S cosedimented with ribosomes, whereas ~70% of Yvh1DeltaN protein was in the free pool, indicating a partial loss of ribosome binding (Fig. 1 C).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>10704</offset>
+      <text>RPL12 is a high copy suppressor of yvh1Delta</text>
+      <annotation id="23">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="10739" length="9"/>
+        <text>yvh1Delta</text>
+      </annotation>
+      <annotation id="A16">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852026</infon>
+        <location offset="10704" length="5"/>
+        <text>RPL12</text>
+      </annotation>
+      <annotation id="GIe_17">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="10704" length="44"/>
+        <text>RPL12 is a high copy suppressor of yvh1Delta</text>
+      </annotation>
+      <annotation id="GIm_356">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="10704" length="44"/>
+        <text>RPL12 is a high copy suppressor of yvh1Delta</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10746</offset>
+      <text>To better understand the function of Yvh1, we screened for high copy suppressors of the yvh1Delta growth defect. RPL12B was identified from this screen as a modest growth suppressor (Fig. 2 A). High copy RPL12A, which encodes a protein identical to Rpl12B, was also a weak suppressor (unpublished data). Because yvh1Delta cells exhibit defects not only in 60S biogenesis but also in other pathways (Park et al., 1996; Beeser and Cooper, 2000; Sakumoto et al., 2001; Hanaoka et al., 2005; Liu and Chang, 2009), we asked whether RPL12B specifically suppressed the defect in synthesis of large subunits. Extracts from yvh1Delta mutant cells with empty vector or high copy RPL12B were analyzed on sucrose density gradients. Increasing the copy number of RPL12B gave a modest improvement in polysomes but, surprisingly, reduced the levels of free 60S (Fig. 2 B).</text>
+      <annotation id="20">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852026</infon>
+        <location offset="10859" length="6"/>
+        <text>RPL12B</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852026</infon>
+        <location offset="10995" length="6"/>
+        <text>Rpl12B</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856656</infon>
+        <location offset="10950" length="6"/>
+        <text>RPL12A</text>
+      </annotation>
+      <annotation id="A21">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="10783" length="4"/>
+        <text>Yvh1</text>
+      </annotation>
+      <annotation id="A22">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="10834" length="9"/>
+        <text>yvh1Delta</text>
+      </annotation>
+      <annotation id="GIe_18">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="10859" length="80"/>
+        <text>RPL12B was identified from this screen as a modest growth suppressor (Fig. 2 A).</text>
+      </annotation>
+      <annotation id="GIe_19">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <location offset="10940" length="109"/>
+        <text>High copy RPL12A, which encodes a protein identical to Rpl12B, was also a weak suppressor (unpublished data).</text>
+      </annotation>
+      <annotation id="GIm_357">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="10746" length="112"/>
+        <text>To better understand the function of Yvh1, we screened for high copy suppressors of the yvh1Delta growth defect.</text>
+      </annotation>
+      <annotation id="GIm_358">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="10859" length="80"/>
+        <text>RPL12B was identified from this screen as a modest growth suppressor (Fig. 2 A).</text>
+      </annotation>
+      <annotation id="GIm_359">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <location offset="10940" length="109"/>
+        <text>High copy RPL12A, which encodes a protein identical to Rpl12B, was also a weak suppressor (unpublished data).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>11595</offset>
+      <text>RPL12B is a high copy suppressor of yvh1Delta. (A) Serial dilutions of AJY2976 (yvh1Delta) with vector or pAJ2458 (2micro RPL12B) were spotted onto URA dropout medium and incubated at 30 C for 2 d. (B) Extracts from AJY2976 (yvh1Delta) with vector or pAJ2458 were fractioned on sucrose gradients as described in Fig. 1.</text>
+      <annotation id="22">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852026</infon>
+        <location offset="11595" length="6"/>
+        <text>RPL12B</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="11631" length="9"/>
+        <text>yvh1Delta</text>
+      </annotation>
+      <annotation id="GIe_20">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="11595" length="46"/>
+        <text>RPL12B is a high copy suppressor of yvh1Delta.</text>
+      </annotation>
+      <annotation id="GIm_360">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="11595" length="46"/>
+        <text>RPL12B is a high copy suppressor of yvh1Delta.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>11904</offset>
+      <text>Yvh1 is required to release Mrt4</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11937</offset>
+      <text>Yeast Rpl12 corresponds to bacterial L11 that, together with L10, forms the base of the L7/L12 stalk (Gonzalo and Reboud, 2003; Diaconu et al., 2005). The binding of L11 and L10 to domain II of 23S rRNA is cooperative (Rosendahl and Douthwaite, 1995). This interaction between bacterial L11 and L10 led us to consider whether high copy suppression of yvh1Delta by RPL12B was the result of a defect in stalk assembly in the yvh1 mutant. The eukaryotic counterpart to bacterial L10 is P0, which is encoded by RPP0 in yeast. Thinking that P0 assembly may be defective, we first tested whether P0 is also a high copy suppressor of yvh1Delta. However, overexpression of P0 did not suppress the growth defect of a yvh1Delta mutant (unpublished data).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12673</offset>
+      <text>Mrt4 is a highly conserved protein in eukaryotes that is closely related to P0 in sequence. However, the two proteins show distinct compartmentalization; Mrt4 is present in the nucleolus and nucleoplasm, whereas P0 is a constituent of the mature ribosome in the cytoplasm. The similarity between the two proteins and the distinct localization suggests that Mrt4 acts as a biogenesis factor for the ribosome in the nucleolus and is replaced by P0 at a later stage in assembly. Sequence alignment of Mrt4, P0 and bacterial L10 (Fig. S2), and the atomic model of bacterial L7/L12 stalk (Kavran and Steitz, 2007) indicate that the conserved N-terminal domain of P0 and Mrt4 is responsible for RNA binding. Additionally, Mrt4 and P0 bind to the 60S subunit in a mutually exclusive fashion (Rodriguez-Mateos et al., 2009), further supporting the notion that the two proteins bind to the same site on the ribosome.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13581</offset>
+      <text>We considered that Yvh1 may be required for the release of Mrt4 from the subunit to allow P0 loading. This would predict that in the absence of Yvh1, Mrt4 would fail to be released and remain on subunits in the cytoplasm. To explore this possibility, we monitored the localization of Mrt4-GFP in wild-type versus yvh1Delta cells. In wild-type cells, Mrt4 was nuclear and enriched in the nucleolus. However, in the yvh1Delta strain, Mrt4 was nearly completely mislocalized to the cytoplasm (Fig. 3 A). However, we saw no effect on the localization of Nop7 (unpublished data), a nuclear 60S biogenesis factor reported to interact with Yvh1 (Sakumoto et al., 2001). This implies that yvh1Delta mutants specifically mislocalize Mrt4.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>14302</offset>
+      <text>Mrt4 persists on cytoplasmic ribosomes in the absence of Yvh1. (A) The localization of genomic Mrt4-GFP was visualized in AJY3040 (MRT4-GFP) and AJY3048 (MRT4-GFP yvh1Delta). DNA was stained with Hoechst 33342. (B) Localization of Mrt4-GFP in various yvh1 mutants: AJY3048 with pAJ2020 (Yvh1), pAJ2024 (Yvh1-C117S), pAJ2025 (Yvh1DeltaN), or pAJ2026 (Yvh1DeltaC). (C) Extracts of AJY3040 (MRT4-GFP YVH1) and AJY3048 (MRT4-GFP yvh1Delta) were fractioned on 7-47% sucrose gradients. The absorbance at 254 nm was monitored (top traces), fractions were precipitated with TCA, separated by SDS-PAGE, and the presence of Mrt4 and Rpl8 across the gradients was detected by Western blotting. (D) Immunoprecipitation (IP) and Western blotting were used to detect altered levels of Mrt4 in Rlp24, Nmd3, and Lsg1 complexes from wild-type (WT; AJY3040) and yvh1Delta (AJY3048 Delta) cells. Nmd3-myc (pAJ538), Lsg1-myc (pAJ903), and Rlp24-myc (pAJ2002) were immunoprecipitated from AJY3040 and AJY3048. Proteins were separated by SDS-PAGE and detected by Western blotting with alpha-myc (bait proteins), alpha-GFP (Mrt4), and alpha-Rpl8 antibodies. NC, negative control wild-type cells with empty vector.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15468</offset>
+      <text>To test whether the 60S binding or the phosphatase activity of Yvh1 is required for Mrt4 release, we monitored the Mrt4 localization in the different yvh1 mutants. Although the localization of Mrt4 was restored in yvh1DeltaN and phosphatase mutants that complement the slow-growth phenotype of yvh1Delta (Liu and Chang, 2009; data not shown), Mrt4 remained in the cytoplasm in yvh1DeltaC cells (Fig. 3 B). This result strongly connects the growth phenotype of yvh1Delta cells and Mrt4 mislocalization. The slow-growth defect of yvh1Delta may arise from a failure to recycle Mrt4 to the nucleus to support pre-60S assembly, a failure to release Mrt4 and load P0, or both (see Fig. 4 and Discussion).</text>
+      <annotation id="25">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="15682" length="10"/>
+        <text>yvh1DeltaN</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="15762" length="9"/>
+        <text>yvh1Delta</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="15661" length="4"/>
+        <text>Mrt4</text>
+      </annotation>
+      <annotation id="GIm_361">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="15632" length="241"/>
+        <text>Although the localization of Mrt4 was restored in yvh1DeltaN and phosphatase mutants that complement the slow-growth phenotype of yvh1Delta (Liu and Chang, 2009; data not shown), Mrt4 remained in the cytoplasm in yvh1DeltaC cells (Fig. 3 B).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16152</offset>
+      <text>The mislocalized Mrt4 could remain bound to the large subunit, indicating a failure in its release, or could be free in the cytoplasm, indicating a failure in its reimport to the nucleus. To distinguish between these possibilities, we analyzed the cosedimentation of Mrt4 with ribosomes in sucrose density gradients. Mrt4 cosedimented exclusively at the position of free 60S subunits in wild-type cells (Fig. 3 C), which is consistent with its role as a trans-acting factor of 60S subunits (note that these gradients do not resolve the different pre-60S and 60S species). The sedimentation pattern of Mrt4 was unaltered in a yvh1Delta mutant (Fig. 3 C), indicating that the Mrt4 observed in the cytoplasm in the absence of Yvh1 remains bound to free 60S subunits.</text>
+      <annotation id="A30">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="16469" length="4"/>
+        <text>Mrt4</text>
+      </annotation>
+      <annotation id="PPIm_60">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="16340" length="128"/>
+        <text>To distinguish between these possibilities, we analyzed the cosedimentation of Mrt4 with ribosomes in sucrose density gradients.</text>
+      </annotation>
+      <annotation id="PPIm_61">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="16469" length="254"/>
+        <text>Mrt4 cosedimented exclusively at the position of free 60S subunits in wild-type cells (Fig. 3 C), which is consistent with its role as a trans-acting factor of 60S subunits (note that these gradients do not resolve the different pre-60S and 60S species).</text>
+      </annotation>
+      <annotation id="PPIe_385">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="16340" length="128"/>
+        <text>To distinguish between these possibilities, we analyzed the cosedimentation of Mrt4 with ribosomes in sucrose density gradients.</text>
+      </annotation>
+      <annotation id="PPIe_386">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="16469" length="254"/>
+        <text>Mrt4 cosedimented exclusively at the position of free 60S subunits in wild-type cells (Fig. 3 C), which is consistent with its role as a trans-acting factor of 60S subunits (note that these gradients do not resolve the different pre-60S and 60S species).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16913</offset>
+      <text>For further evidence that Mrt4 remained on subunits in the cytoplasm, we asked whether we could detect a shift in Mrt4 association from nuclear to cytoplasmic complexes. Rlp24, Nmd3, and Lsg1 are essential trans-acting factors in 60S ribosome biogenesis. Both Rlp24 and Nmd3 shuttle, but their steady-state distributions are primarily nuclear and cytoplasmic, respectively, whereas Lsg1 is restricted to the cytoplasm. As shown in Fig. 3 D, Mrt4 was depleted from the Rlp24 complex but accumulated in Nmd3, and Lsg1 immunoprecipitated complexes in a yvh1Delta mutant. Thus, in the absence of Yvh1, Mrt4 is not efficiently released from the subunit and mislocalizes to the cytoplasm.</text>
+      <annotation id="27">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="17463" length="9"/>
+        <text>yvh1Delta</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="17354" length="4"/>
+        <text>Mrt4</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856575</infon>
+        <location offset="17414" length="4"/>
+        <text>Nmd3</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852779</infon>
+        <location offset="17424" length="4"/>
+        <text>Lsg1</text>
+      </annotation>
+      <annotation id="A38">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">850695</infon>
+        <location offset="17381" length="5"/>
+        <text>Rlp24</text>
+      </annotation>
+      <annotation id="PPIm_62">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="17332" length="148"/>
+        <text>As shown in Fig. 3 D, Mrt4 was depleted from the Rlp24 complex but accumulated in Nmd3, and Lsg1 immunoprecipitated complexes in a yvh1Delta mutant.</text>
+      </annotation>
+      <annotation id="PPIe_387">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="17332" length="148"/>
+        <text>As shown in Fig. 3 D, Mrt4 was depleted from the Rlp24 complex but accumulated in Nmd3, and Lsg1 immunoprecipitated complexes in a yvh1Delta mutant.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17593</offset>
+      <text>If the persistence of Mrt4 on the subunit is responsible for the slow growth of yvh1Delta cells, elimination of Mrt4 may alleviate the problem. As seen in Fig. 4 A, the mrt4Delta and yvh1Delta single mutants were almost indistinguishable from the mrt4Delta yvh1Delta double mutant in growth rate, indicating an epistatic relationship between mrt4Delta and yvh1Delta. Deletion of MRT4 did not improve the growth defect of the yvh1Delta mutant, probably because deletion of MRT4 itself results in a growth defect comparable to deletion of YVH1. We also tested the effect of increasing the levels of Mrt4 in yvh1Delta cells, reasoning that overexpressing Mrt4 could restore the nuclear pool of Mrt4 to support 60S biogenesis. However, if Yvh1 were absolutely required for release of Mrt4, increasing Mrt4 levels would be expected to drive more Mrt4 onto nascent subunits. Without a mechanism for its release, this could be deleterious in a yvh1 mutant. In fact, overexpression of MRT4 strongly inhibited cell growth in yvh1Delta cells (Fig. 4 B) but not wild type (not depicted).</text>
+      <annotation id="A41">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="18570" length="4"/>
+        <text>MRT4</text>
+      </annotation>
+      <annotation id="A42">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="18609" length="9"/>
+        <text>yvh1Delta</text>
+      </annotation>
+      <annotation id="GIe_21">
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="18543" length="126"/>
+        <text>In fact, overexpression of MRT4 strongly inhibited cell growth in yvh1Delta cells (Fig. 4 B) but not wild type (not depicted).</text>
+      </annotation>
+      <annotation id="GIm_362">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="18543" length="126"/>
+        <text>In fact, overexpression of MRT4 strongly inhibited cell growth in yvh1Delta cells (Fig. 4 B) but not wild type (not depicted).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18640</offset>
+      <text>The persistence of Mrt4 on subunits prevents P0 loading. (A) 10-fold serial dilutions of cultures of BY4741 (wild-type [WT]), AJY2976 (yvh1Delta), AJY2551 (mrt4Delta), and AJY2553 (yvh1Delta mrt4Delta) were spotted on a YPD plate and incubated at 30 C for 2 d. (B) Serial dilutions of AJY2976 (yvh1Delta) containing YVH1 (pAJ2020), vector, and high copy MRT4 (pAJ2486) were spotted on a Leu dropout plate and incubated at 30 C for 3 d. (C) Lsg1 was immunoprecipitated from BY4741 (wild type) and cells AJY2976 (yvh1Delta) containing pAJ901 (LSG1-13-xmyc) and empty vector or high copy MRT4 (pAJ2486). Immunoprecipitated proteins were separated by SDS-PAGE and detected by Western blotting antibodies against myc, P0, and Rpl8. (D) Extracts were prepared from AJY2976 (yvh1Delta) with vector or high copy MRT4 (pAJ2486) and analyzed by sucrose gradient sedimentation as described in Fig. 1. IP, immunoprecipitation; NC, negative control wild-type cells with empty vector.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19592</offset>
+      <text>The persistence of Mrt4 on subunits in the cytoplasm could prevent the assembly of P0 onto the subunit, accounting for the growth defect of yvh1Delta cells. We tested whether Mrt4 prevents P0 loading by immunoprecipitating Lsg1 particles from wild-type and yvh1Delta cells and comparing their relative P0 content to Rpl8 as a marker for 60S subunits. Fig. 4 C shows that the amount of P0 in the Lsg1-bound 60S complex was reduced in yvh1Delta cells compared with wild type. Overexpression of Mrt4 further reduced the level of P0 in these particles. Sucrose gradient analysis of yvh1Delta cells overexpressing Mrt4 showed a marked reduction in polysomes and a more dramatic imbalance in free subunits (Fig. 4 D), which is consistent with a defect in stalk assembly and utilization of 60S subunits. Therefore, Yvh1 plays a critical role in releasing Mrt4 to allow assembly of the ribosome stalk.</text>
+      <annotation id="A45">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="19767" length="4"/>
+        <text>Mrt4</text>
+      </annotation>
+      <annotation id="A46">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852779</infon>
+        <location offset="19815" length="4"/>
+        <text>Lsg1</text>
+      </annotation>
+      <annotation id="A47">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="19849" length="9"/>
+        <text>yvh1Delta</text>
+      </annotation>
+      <annotation id="A48">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856352</infon>
+        <location offset="19908" length="4"/>
+        <text>Rpl8</text>
+      </annotation>
+      <annotation id="A49">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">852779</infon>
+        <location offset="19987" length="4"/>
+        <text>Lsg1</text>
+      </annotation>
+      <annotation id="A50">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="20025" length="9"/>
+        <text>yvh1Delta</text>
+      </annotation>
+      <annotation id="PPIm_63">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="19749" length="193"/>
+        <text>We tested whether Mrt4 prevents P0 loading by immunoprecipitating Lsg1 particles from wild-type and yvh1Delta cells and comparing their relative P0 content to Rpl8 as a marker for 60S subunits.</text>
+      </annotation>
+      <annotation id="PPIm_64">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="19943" length="122"/>
+        <text>Fig. 4 C shows that the amount of P0 in the Lsg1-bound 60S complex was reduced in yvh1Delta cells compared with wild type.</text>
+      </annotation>
+      <annotation id="PPIe_388">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="19943" length="122"/>
+        <text>Fig. 4 C shows that the amount of P0 in the Lsg1-bound 60S complex was reduced in yvh1Delta cells compared with wild type.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>20474</offset>
+      <text>Mrt4-G68D bypasses the requirement for Yvh1</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20518</offset>
+      <text>Mutant Mrt4 containing a glycine to aspartate change at position 68 (Mrt4-G68D) was reported to be a dominant suppressor of the yvh1Delta growth defect (Nugroho, S., N. Sakumoto, and S. Harashima. 2003. International Conference on Yeast Genetics and Molecular Biology. Abstr. 10-42), but a molecular understanding of the suppression was not known. We confirmed this suppression of yvh1Delta by Mrt4-G68D (Fig. 5 A). To determine whether Mrt4-G68D suppresses the 60S ribosome biogenesis defects of yvh1Delta, we analyzed the polysome profile of yvh1Delta cells expressing Mrt4-G68D as the sole copy of MRT4. Expression of Mrt4-G68D in yvh1Delta cells fully restored the polysome profile of yvh1Delta cells, reversing the free subunit imbalance and eliminating the halfmers evident in the yvh1 deletion mutant (Fig. 5 B). Similarly, Mrt4-G68D reversed the rRNA-processing defects seen in yvh1Delta cells (Fig. S1). Suppression of yvh1Delta by a point mutation in Mrt4 strongly argues that Mrt4 is the target of Yvh1. If Mrt4-G68D suppresses the defects of yvh1Delta cells, we would also expect Mrt4-G68D to localize to the nucleus in a yvh1Delta mutant. Indeed, Mrt4-G68D was predominantly nuclear in the absence of Yvh1 (Fig. 5 C). Thus, this mutant Mrt4 appears to bypass Yvh1 function while maintaining Mrt4 function.</text>
+      <annotation id="28">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="20899" length="9"/>
+        <text>yvh1Delta</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="21152" length="9"/>
+        <text>yvh1Delta</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="21207" length="9"/>
+        <text>yvh1Delta</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="20912" length="4"/>
+        <text>Mrt4</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="21139" length="4"/>
+        <text>Mrt4</text>
+      </annotation>
+      <annotation id="GIe_22">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="20866" length="67"/>
+        <text>We confirmed this suppression of yvh1Delta by Mrt4-G68D (Fig. 5 A).</text>
+      </annotation>
+      <annotation id="GIe_23">
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="21125" length="212"/>
+        <text>Expression of Mrt4-G68D in yvh1Delta cells fully restored the polysome profile of yvh1Delta cells, reversing the free subunit imbalance and eliminating the halfmers evident in the yvh1 deletion mutant (Fig. 5 B).</text>
+      </annotation>
+      <annotation id="GIm_363">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="20866" length="67"/>
+        <text>We confirmed this suppression of yvh1Delta by Mrt4-G68D (Fig. 5 A).</text>
+      </annotation>
+      <annotation id="GIm_364">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="21125" length="212"/>
+        <text>Expression of Mrt4-G68D in yvh1Delta cells fully restored the polysome profile of yvh1Delta cells, reversing the free subunit imbalance and eliminating the halfmers evident in the yvh1 deletion mutant (Fig. 5 B).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>21807</offset>
+      <text>Mrt4-G68D has reduced the affinity for 60S subunits and bypasses the need for Yvh1. (A) Serial dilutions of BY4741 and AJY2976 (yvh1Delta) with vector or pAJ2461 (MRT4-G68D) were spotted onto selective media and incubated at 30 C. (B) Polysome profiles of AJY2976 (yvh1Delta) and AJY2553 with pAJ2461 (MRT4-G68D) were analyzed on 7-47% sucrose gradients as described in Fig. 1. (C) The localization of Mrt4-GFP (pAJ2457) and Mrt4-G68D-GFP (pAJ2461) was visualized in AJY2551 (mrt4Delta) and AJY2553 (mrt4Delta yvh1Delta) cells. DNA was stained with Hoechst. DIC, differential image contrast. (D) Crystal structure of the entire 50S subunit from the H. marismortui 50S subunit (Protein Data Bank accession no. 2QA4; Kavran and Steitz, 2007). CP, central protuberance; L1, L1 stalk; SB, stalk base. The proteins in yellow and red are L10 and L11, respectively. Rectangle indicates the region enlarged in E. (E) Enlarged view of the stalk base, looking down from the central protuberance. Blue, 23S (corresponding to 25S) rRNA; yellow, L10 (corresponding to P0); red, L11 (corresponding to Rpl12); orange, expected position of the G68D mutation in Mrt4 in the context of L10. (F) Cell extracts were prepared from AJY2553 (yvh1Delta mrt4Delta) with MRT4-GFP (pAJ2457; wild type [WT]) or MRT4G68D-GFP (pAJ2461; G68D) at the indicated salt concentrations. Free and ribosome-bound proteins were separated by sedimentation through sucrose cushions. Equal amounts of supernatant (S) and pellet (P) were separated by SDS-PAGE, and the presence of Mrt4 and Rpl8 (as a marker for 60S) was detected by Western blotting using anti-GFP or anti-Rpl8. Lanes 1 and 2 show whole cell extracts (WCE) to control loading.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23489</offset>
+      <text>Because of the similarity in sequence between Mrt4, P0, and bacterial L10 (Fig. S3), we modeled the Mrt4-G68D mutation into the L10 structure of the Haloarcula marismortui 50S subunit (Protein Data Bank accession no. 2QA4; Kavran and Steitz, 2007). Gly68 is in a region of Mrt4 that is highly conserved among Mrt4, P0, and bacterial L10 (Fig. S3), and flanking residues make direct contact with 23S RNA in the H. marismortui structure (Diaconu et al., 2005). In this model, Gly68 is at the Mrt4-25S rRNA interface located in a tight turn of the peptide backbone (Fig. 5, D and E). Introduction of Asp at this position would likely give electrostatic repulsion or distort the local structure of Mrt4, thereby weakening its affinity for the RNA. A weakened interaction with the ribosome could allow Mrt4 to be displaced from the ribosome without the need for Yvh1, explaining the mechanism of suppression. This would be similar to mutations in Tif6 that weaken its binding to the ribosome and bypass the requirement for Efl1 and Sdo1 to release Tif6 (Senger et al., 2001; Menne et al., 2007).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24582</offset>
+      <text>To determine whether Mrt4-G68D has reduced affinity for the ribosome, as we predicted from the structure model, we compared the salt sensitivity of the association of Mrt4 and Mrt4-G68D with 60S subunits. We found that the binding of Mrt4-G68D to the ribosome was significantly more salt sensitive than Mrt4. At 100 mM NaCl, the majority of wild-type and mutant Mrt4 was ribosome bound. However, at 200 and 300 mM NaCl, the majority of Mrt4-G68D was released from the subunit, whereas wild-type Mrt4 was largely unaffected (Fig. 5 F). The weakened affinity of Mrt4-G68D for the 60S subunit likely obviates the need for Yvh1 to release Mrt4. Because Mrt4-G68D fully complements the growth defect of an mrt4Delta mutant (unpublished data), the affinity of Mrt4-G68D for the ribosome must be finely balanced between binding strongly enough to support ribosome biogenesis but not so strongly that it requires Yvh1 for its release. It may seem counterintuitive that mutant Mrt4 with weaker affinity for 60S subunits is dominant, implying that it competes efficiently with wild-type Mrt4 for binding to the ribosome. However, in yvh1 mutants, wild-type Mrt4 is depleted from the nucleus because it is not released from subunits in the cytoplasm. This allows mutant Mrt4-G68D to load onto subunits effectively without competition from wild-type Mrt4.</text>
+      <annotation id="36">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="25231" length="4"/>
+        <text>Mrt4</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="25283" length="9"/>
+        <text>mrt4Delta</text>
+      </annotation>
+      <annotation id="A64">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="24816" length="4"/>
+        <text>Mrt4</text>
+      </annotation>
+      <annotation id="A65">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="24885" length="4"/>
+        <text>Mrt4</text>
+      </annotation>
+      <annotation id="GIm_365">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="25223" length="285"/>
+        <text>Because Mrt4-G68D fully complements the growth defect of an mrt4Delta mutant (unpublished data), the affinity of Mrt4-G68D for the ribosome must be finely balanced between binding strongly enough to support ribosome biogenesis but not so strongly that it requires Yvh1 for its release.</text>
+      </annotation>
+      <annotation id="PPIm_65">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="24787" length="103"/>
+        <text>We found that the binding of Mrt4-G68D to the ribosome was significantly more salt sensitive than Mrt4.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>25923</offset>
+      <text>Rpl12 is required for the recruitment of Yvh1 to the ribosome</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25985</offset>
+      <text>Based on the structure of the archaeal 50S subunit (Fig. 5, D and E), Rpl12 binds to the GTPase-associated domain of 25S rRNA, which is adjacent to Mrt4 in the pre-60S or P0 in the mature 60S subunit. Together, Rpl12 and P0 form the stalk base. Because Mrt4 is released by Yvh1 but Rpl12 remains in the Yvh1-60S complex (see Fig. 7), we speculated that Rpl12 might be required for Yvh1 binding on the 60S subunits. This idea was tested in an rpl12 deletion strain. In yeast, Rpl12 is encoded by two genes, RPL12A and RPL12B. The double deletion (rpl12DeltaDelta) is viable but slow growing. As shown in Fig. 6 A, the majority of Yvh1 in wild-type cells sediments with 60S subunits. However, Yvh1 was quantitatively lost from 60S subunits from the rpl12DeltaDelta strain. This indicates that Rpl12 is required for Yvh1 binding to the large subunit, suggesting that Rpl12 comprises part or all of the binding site for Yvh1.</text>
+      <annotation id="A67">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="26614" length="4"/>
+        <text>Yvh1</text>
+      </annotation>
+      <annotation id="PPIm_66">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="26576" length="90"/>
+        <text>As shown in Fig. 6 A, the majority of Yvh1 in wild-type cells sediments with 60S subunits.</text>
+      </annotation>
+      <annotation id="PPIe_389">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="26576" length="90"/>
+        <text>As shown in Fig. 6 A, the majority of Yvh1 in wild-type cells sediments with 60S subunits.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>26897</offset>
+      <text>Rpl12 is required for Yvh1 binding to the 60S subunit. (A) The binding of Yvh1 to 60S subunits was assayed in W303 and 6EA1 (rpl12DeltaDelta) expressing Yvh1-myc (pAJ2020) by sedimentation through sucrose cushions at 100 mM NaCl. Equal amounts of supernatant (S) and pellet (P) were separated by SDS-PAGE, and Yvh1 and Rpl8 were detected by Western blotting using anti-c-myc (Yvh1) and anti-Rpl8 antibodies. (B) Extracts were prepared from W303 (wild type [WT]) and 6EA1 (rpl12DeltaDelta) containing both pAJ2457 (Mrt4-GFP) and pAJ538 (Nmd3-myc), and immunoprecipitation (IP) was performed with anti-c-myc antibody and protein A beads. Precipitated proteins were eluted in 1x Laemmli buffer and separated by SDS-PAGE. Western blotting was performed against Nmd3-myc, Mrt4-GFP, and Rpl8. NC, negative control wild-type cells with empty vector.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27733</offset>
+      <text>If Yvh1 cannot be recruited to the 60S subunits in the rpl12DeltaDelta mutant, Mrt4 should persist on the 60S ribosome as it does in a yvh1Delta mutant. To test this idea, we asked whether Mrt4 was increased in abundance in Nmd3-containing 60S particles. Nmd3 was immunoprecipitated from wild-type or rpl12DeltaDelta cells, and the relative levels of Mrt4 were assayed by Western blotting. Indeed, Mrt4 was significantly enriched in the Nmd3 immunoprecipitation from the deletion mutant (Fig. 6 B), which is similar to what we observed in a yvh1Delta mutant (Fig. 3 D).</text>
+      <annotation id="A70">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="28131" length="4"/>
+        <text>Mrt4</text>
+      </annotation>
+      <annotation id="A71">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856575</infon>
+        <location offset="28170" length="4"/>
+        <text>Nmd3</text>
+      </annotation>
+      <annotation id="PPIm_67">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="28123" length="179"/>
+        <text>Indeed, Mrt4 was significantly enriched in the Nmd3 immunoprecipitation from the deletion mutant (Fig. 6 B), which is similar to what we observed in a yvh1Delta mutant (Fig. 3 D).</text>
+      </annotation>
+      <annotation id="PPIe_390">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="28123" length="179"/>
+        <text>Indeed, Mrt4 was significantly enriched in the Nmd3 immunoprecipitation from the deletion mutant (Fig. 6 B), which is similar to what we observed in a yvh1Delta mutant (Fig. 3 D).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28285</offset>
+      <text>The order and location of loading Mrt4, Yvh1, and P0 onto 60S subunits</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28356</offset>
+      <text>To dissect the order and localization of Mrt4 release, Yvh1 binding, and P0 loading, we used Yvh1 as bait to immunoprecipitate the pre-60S complex from wild-type cells. Surprisingly, we did not detect either Mrt4 or P0 in the Yvh1 immunoprecipitate (Fig. 7 A). As controls, we also immunoprecipitated Nmd3 and Rlp24, both of which shuttle but show a bias toward the cytoplasm and nucleus, respectively. Nmd3 showed enrichment for P0, whereas Rlp24 was strongly enriched for Mrt4, which is consistent with P0 being cytoplasmic and Mrt4 nuclear. All three bait proteins immunoprecipitated similar levels of 60S subunits, which were monitored by Western blotting for Rpl8. These results suggest a linear series of events in which Mrt4 is released when Yvh1 binds and the subsequent binding of P0 coincides with the release of Yvh1.</text>
+      <annotation id="A74">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">854844</infon>
+        <location offset="28449" length="4"/>
+        <text>Yvh1</text>
+      </annotation>
+      <annotation id="A75">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856575</infon>
+        <location offset="28657" length="4"/>
+        <text>Nmd3</text>
+      </annotation>
+      <annotation id="A76">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">850695</infon>
+        <location offset="28666" length="5"/>
+        <text>Rlp24</text>
+      </annotation>
+      <annotation id="A77">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856575</infon>
+        <location offset="28759" length="4"/>
+        <text>Nmd3</text>
+      </annotation>
+      <annotation id="A78">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">850695</infon>
+        <location offset="28798" length="5"/>
+        <text>Rlp24</text>
+      </annotation>
+      <annotation id="A79">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="28830" length="4"/>
+        <text>Mrt4</text>
+      </annotation>
+      <annotation id="A80">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853860</infon>
+        <location offset="28886" length="4"/>
+        <text>Mrt4</text>
+      </annotation>
+      <annotation id="A81">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">856352</infon>
+        <location offset="29020" length="4"/>
+        <text>Rpl8</text>
+      </annotation>
+      <annotation id="PPIm_68">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="28356" length="168"/>
+        <text>To dissect the order and localization of Mrt4 release, Yvh1 binding, and P0 loading, we used Yvh1 as bait to immunoprecipitate the pre-60S complex from wild-type cells.</text>
+      </annotation>
+      <annotation id="PPIm_69">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="28617" length="141"/>
+        <text>As controls, we also immunoprecipitated Nmd3 and Rlp24, both of which shuttle but show a bias toward the cytoplasm and nucleus, respectively.</text>
+      </annotation>
+      <annotation id="PPIm_70">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="28759" length="140"/>
+        <text>Nmd3 showed enrichment for P0, whereas Rlp24 was strongly enriched for Mrt4, which is consistent with P0 being cytoplasmic and Mrt4 nuclear.</text>
+      </annotation>
+      <annotation id="PPIm_71">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="28900" length="125"/>
+        <text>All three bait proteins immunoprecipitated similar levels of 60S subunits, which were monitored by Western blotting for Rpl8.</text>
+      </annotation>
+      <annotation id="PPIe_391">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="28356" length="168"/>
+        <text>To dissect the order and localization of Mrt4 release, Yvh1 binding, and P0 loading, we used Yvh1 as bait to immunoprecipitate the pre-60S complex from wild-type cells.</text>
+      </annotation>
+      <annotation id="PPIe_392">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="28617" length="141"/>
+        <text>As controls, we also immunoprecipitated Nmd3 and Rlp24, both of which shuttle but show a bias toward the cytoplasm and nucleus, respectively.</text>
+      </annotation>
+      <annotation id="PPIe_393">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="28900" length="125"/>
+        <text>All three bait proteins immunoprecipitated similar levels of 60S subunits, which were monitored by Western blotting for Rpl8.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>29185</offset>
+      <text>Yvh1 shuttles out of the nucleus bound to a 60S subunit that lacks both Mrt4 and P0. (A) Extracts were prepared from cultures of AJY3048 (MRT4-GFP yvh1Delta) with Yvh1-myc (pAJ2020) and AJY3040 (MRT4-GFP) with pAJ538 (NMD3-myc) or pAJ2002 (RLP24-myc). The myc-tagged bait proteins were immunoprecipitated as described in Materials and methods, proteins were separated by SDS-PAGE, and Western blotting was performed against myc, Mrt4-GFP, P0, Rpl12, and Rpl8. NC, negative control wild-type cells with empty vector. (B) The localization of Rpl25-GFP (pAJ907), Yvh1-GFP (pAJ2464), or P0-GFP (pAJ2469) expressed in the LMB-sensitive strain AJY1539. Cells were diluted into fresh medium from overnight cultures and incubated at 30 C for 60 min. 0.1 microg/ml LMB was added, and the cultures were incubated for another 30 min before microscopy. (C) The localization of Rpl25-GFP (pAJ907), Yvh1-GFP (pAJ2464), or P0-GFP (pAJ2469) expressed in an nmd3-1 mutant (AJY534) was visualized by fluorescence microscopy. IP, immunoprecipitation; WT, wild type.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30227</offset>
+      <text>We next turned to the question of where these exchanges take place. The steady-state distribution of Yvh1 is cytoplasmic and nuclear, whereas P0 is cytoplasmic. The localization of Yvh1 suggests that it shuttles and is consistent with a report that Yvh1 interacts physically with the nuclear 60S biogenesis factor Nop7 (Sakumoto et al., 2001). However, the cytoplasmic distribution of P0 does not preclude that it might also shuttle. If these proteins shuttle, we would expect their export to be linked to the 60S subunit, assuming that they are exported with the subunit. Because 60S export depends on Crm1 (Ho et al., 2000; Gadal et al., 2001), we treated cells with the Crm1 inhibitor leptomycin B (LMB) and tested whether Yvh1 or P0 was trapped in the nucleus. Under conditions where export of Nmd3 and Rpl25 was blocked, Yvh1 accumulated in the nucleus, although the degree to which Yvh1 accumulated appeared less than that of Nmd3 (Fig. 7 B and not depicted). However, P0 remained in the cytoplasm (Fig. 7 B). Although this result is consistent with the idea that Yvh1 shuttles out of the nucleus while bound to the 60S subunit, it does not rule out the possibility that Yvh1 is exported separately from the subunit but in a Crm1-dependent fashion. As an additional test, we examined Yvh1 localization in an nmd3-1 mutant. The nmd3-1 allele expresses a mutant protein that binds to pre-60S particles in the nucleus but is truncated for its C-terminal, leucine-rich nuclear export signal (Ho et al., 2000) and thus specifically impairs 60S export. This mutant showed strong nuclear accumulation of Yvh1 but not P0 (Fig. 7 C). These results suggest that Yvh1 shuttles and is exported from the nucleus bound to the nascent 60S particle, whereas P0 is restricted to the cytoplasm.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32010</offset>
+      <text>In an attempt to test whether Yvh1 could function in the nucleus, we fused the well-characterized nuclear localization sequence from the SV40 large T antigen to the amino terminus of Yvh1. This fusion protein fully complemented a yvh1Delta mutant (Fig. 8 A) and localized predominantly to the nucleus (Fig. 8 B). Sucrose gradient analysis of cells containing the NLS-Yvh1 construct as their sole copy of Yvh1 were indistinguishable from cells expressing wild-type Yvh1 (unpublished data). Furthermore, this construct promoted the release of Mrt4, as the wild-type localization of Mrt4 in the nucleolus and nucleus was observed in the cells (Fig. 8 C). These data support the idea that Yvh1 can release Mrt4 in the nucleus. However, we cannot rule out the possibility that a residual pool of NLS-Yvh1 in the cytoplasm is sufficient for this activity.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>32857</offset>
+      <text>Nuclear localized Yvh1 is functional. (A) Serial dilutions of yvh1Delta cells (AJY2976) expressing empty vector, Yvh1-GFP (pAJ2464), or NLS-Yvh1-GFP (pAJ2481) were plated on selective media and incubated at 30 C for 2 d. (B) yvh1Delta cells expressing NLS-Yvh1-GFP as described in A were stained with Hoechst and visualized in GFP and DAPI channels. (C) Mrt4-GFP was visualized in AJY3048 (yvh1Delta MRT4-GFP) with empty vector or NLS-Yvh1-myc (pAJ2494). DIC, differential interference contrast.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>33345</offset>
+      <text>The function of Yvh1 in releasing Mrt4 is conserved in human cells</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33412</offset>
+      <text>Human Yvh1 (DUSP12) complements the slow-growing phenotype of yvh1Delta in budding yeast, which is consistent with previous work (Fig. 9 A; Muda et al., 1999). Human Mrt4 (MRTO4) was also able to complement the growth defect of mrt4Delta. However, there was no improvement in growth from coexpressing both human MRTO4 and DUSP12 in a yvh1Delta mrt4Delta double mutant (unpublished data). We asked whether the complementation of yvh1Delta with DUSP12 correlated with restoring the function that we have ascribed to Yvh1 of releasing Mrt4. We monitored the cellular localization of yeast Mrt4-GFP in yvh1Delta cells expressing DUSP12. As shown in Fig. 9 B, the human orthologue of Yvh1 restored the normal nuclear and nucleolar localization of Mrt4 (see Fig. 3 B for comparison). This implies that DUSP12 can release yeast Mrt4 from 60S subunits.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34239</offset>
+      <text>The function of Yvh1 to release Mrt4 is conserved in human cells. (A) 10-fold serial dilutions of cultures of AJY2551 (mrt4Delta) cells with empty vector, pAJ2475 (MRT4-HA), or pAJ2477 (MRTO4) and AJY2976 (yvh1Delta) cells with empty vector, pAJ2020 (Yvh1), or pAJ2476 (DUSP12) were spotted on the selective plates and incubated at 30 C for 2 d. (B) The localization of Mrt4 was observed in AJY3048 (MRT4-GFP yvh1Delta) with vector or pAJ2476 (DUSP12). (C) HeLa cells were either untreated or transfected with control siRNA or siRNA against DUSP12. The localization of MRTO4 was detected by indirect immunofluorescence with anti-MRTO4 antibody (Santa Cruz Biotechnology, Inc.) 48 h after transfection. Nuclei were localized by staining with DAPI. (bottom) The efficiency of knockdown was monitored by Western blotting for DUSP12. DIC, differential interference contrast.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35102</offset>
+      <text>To further test whether the maturation pathway of the ribosome stalk is conserved from yeast to human, we asked if DUSP12 functions in human cells to release MRTO4. We used RNAi to knock down DUSP12 in HeLa cells and monitored the localization of MRTO4 by indirect immunofluorescence. Consistent with the localization of Mrt4 in yeast, MRTO4 was localized in the nucleus and nucleolus in HeLa cells (Fig. 9 C, top). Upon RNAi depletion of DUSP12, MRTO4 was found in the cytoplasm and nucleolus in HeLa cells but depleted from the nucleoplasm (Fig. 9 C, middle). Similar results were observed in HEK293T cells (unpublished data). No mislocalization was detected in the cells transfected with control siRNA (Fig. 9 C, bottom). The relocalization of MRTO4 from the nucleoplasm to the cytoplasm is consistent with our observation in yeast that Yvh1 is required for the release of Mrt4. However, it was surprising to us that the nucleolar pool of MRTO4 was also not diminished. In wild-type cells, MRTO4 is concentrated in the nucleolus, suggesting that its residence time in the nucleolus is long compared with that in the nucleoplasm. Because the DUSP12 depletion was not complete, MRTO4 is presumably released from subunits, but at a reduced rate. Under these conditions, if the recycling of MRTO4 to the nucleolus is slower than its export from the nucleus, we would expect the observed depletion of the nucleoplasmic pool preferentially over the nucleolar pool.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>36564</offset>
+      <text>Discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36575</offset>
+      <text>In this study, we have defined the assembly pathway for the ribosome stalk, which is an essential structure of the ribosome that recruits and activates translation factors. In eukaryotes, the stalk is composed of a pentameric complex of P0 and two heterodimers of the P1 and P2 proteins. The stalk is anchored to the ribosome through the N-terminal, RNA-binding domain of P0 and interaction with Rpl12, corresponding to bacterial L10 and L11, respectively. However, during initial assembly of the ribosome in the nucleolus, the P0 paralogue Mrt4 is used in place of P0. Consequently, a critical step in maturation of a functional ribosome is the exchange of Mrt4 with P0. We have shown that the atypical dual-specificity phosphatase Yvh1 (DUSP12 in human) is required for the release of Mrt4 to facilitate P0 loading. The ribosome-binding domain but not the phosphatase activity is required for Mrt4 release. This pathway is highly conserved in eukaryotes, indicated by the fact that DUSP12 complements the function of yeast Yvh1 to release Mrt4, and depletion of DUSP12 from human cells results in a failure to release MRTO4, which is analogous to the phenotype resulting from deletion of YVH1 in yeast.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>37780</offset>
+      <text>The order of events</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37800</offset>
+      <text>Our analysis suggests a linear series of events (Fig. 10). We propose that Yvh1 binds to pre-60S subunits through its interaction with Rpl12 and thereby releases Mrt4. It is possible that an additional factor acts with Yvh1 in the removal of Mrt4, as we were unable to trigger release of Mrt4 from subunits with purified Yvh1 in vitro (unpublished data). Physical and genetic interactions with NOP7 and the GTPase NOG1 could indicate a role for these factors (Honma et al., 2006). The localization of Mrt4 was not altered in mutants known to be required for other late maturation events, including drg1, rei1, efl1, or lsg1 mutants (unpublished data), suggesting that none of these factors act with Yvh1. The Yvh1-pre-60S particle is a discrete intermediate that contains neither Mrt4 nor P0. Yvh1 is subsequently released, and P0, and probably the P1 and P2 dimers as well, are loaded onto the subunit. We do not yet know whether the removal of Yvh1 requires additional factors or if P0 itself is capable of displacing Yvh1; all other known trans-acting factors on the 60S subunit in the cytoplasm require an ATPase or GTPase for their release.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38948</offset>
+      <text>Model for the pathway of assembling the stalk base in eukaryotes. Mrt4 and Rpl12 facilitate the correct folding of the RNA of the stalk base during ribosome biogenesis in the nucleolus. Yvh1 binds to Rpl12 and leads to the release of Mrt4. Subsequently, Yvh1 is displaced as the stalk assembles onto the 60S subunit.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39265</offset>
+      <text>Does Yvh1 release Mrt4 in the nucleus or in the cytoplasm? We have provided evidence that Yvh1 shuttles and is exported from the nucleus with the pre-60S particle. Yvh1 accumulates in the nucleus upon treatment with LMB and in an export-defective nmd3-1 mutant. We drove Yvh1 into the nucleus by providing it with a strong NLS. This protein was fully functional, suggesting that it can act in the nucleus. Furthermore, the two-hybrid interaction between Yvh1 and the nuclear protein Nop7 suggests a nuclear function (Sakumoto et al., 2001). In contrast, in the accompanying paper, Kemmler et al. (2009) suggest that Yvh1 is restricted to the cytoplasm and Mrt4 shuttles. It is clearly the case that in the absence of Yvh1, Mrt4 is exported with the pre-60S subunit. In their study, Yvh1 was tethered to the cytoplasmic protein Arc1. This protein was fully functional, suggesting that Yvh1 can function when restricted to the cytoplasm. Presently, it is difficult to reconcile these different results. Indeed, it is possible that Yvh1 can release Mrt4 in either cellular compartment. In contrast to Yvh1, we and Kemmler et al. (2009) both found no evidence that P0 enters the nucleus. Using fluorescence techniques, we could not detect a nuclear pool of P0 in wild-type cells nor could we trap P0 in the nucleus by inhibiting export by different means. Thus, we conclude that the loading of P0 is exclusively cytoplasmic.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>40686</offset>
+      <text>Is there more than one pathway to release Mrt4?</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40734</offset>
+      <text>In the absence of Yvh1, Mrt4 persists on 60S subunits in the cytoplasm but is not found on polysomes. Because P0 is essential, yvh1 mutants must continue to synthesize ribosomes with P0 despite the fact that the persistence of Mrt4 in these cells blocks P0 binding. It is possible that Mrt4 can be released from subunits independently of Yvh1 perhaps by direct displacement by P0. However, overexpressing P0 did not suppress a yvh1Delta mutant. Alternatively, Yvh1 may be absolutely required for the release of Mrt4. In this scenario, the persistence of Mrt4 on subunits in a yvh1 mutant will prevent the loading of P0 onto the Mrt4-containing subunits. In the absence of Mrt4 recycling to the nucleus, the nuclear pool of Mrt4 would be depleted, and because Mrt4 is not essential, these cells will continue to synthesize ribosomes effectively in the absence of Mrt4. Subunits made without Mrt4 will not require Yvh1 before P0 can load. We found that overexpression of Mrt4 was strongly dominant negative and reduced P0 loading in a yvh1Delta mutant. This is the expected result if Mrt4 requires Yvh1 for its release. Thus, we favor the idea that Yvh1 is required for the release of Mrt4 and that in the absence of Yvh1, the persistence of Mrt4 prevents assembly of the stalk, resulting in inactive 60S subunits.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42041</offset>
+      <text>The suppression of yvh1Delta by high copy RPL12 may also be explained by the deficiency for Mrt4 in the nucleus in the absence of Yvh1. Assuming that Rpl12 and Mrt4 bind 25S rRNA cooperatively, as observed for bacterial L10 and L11 on 23S rRNA (Rosendahl and Douthwaite, 1995), the depletion of Mrt4 from the nucleus could impair the binding of Rpl12 to the nascent ribosome. Increasing Rpl12 levels may overcome this defect.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>42464</offset>
+      <text>Why is Yvh1 needed for 60S subunit biogenesis?</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42511</offset>
+      <text>Although Yvh1 is needed for the release of Mrt4, Mrt4-G68D efficiently bypasses the need for Yvh1. Why then have cells evolved the additional factor Yvh1? A similar question can be posed for other factors involved in 60S export and maturation. For example, mutations have been identified in Tif6 that bypass the requirement for the Tif6 release factors Sdo1 and Efl1 (Becam et al., 2001; Senger et al., 2001; Menne et al., 2007), and mutations in Arx1 bypass the requirement for its release factor, Rei1 (Hung and Johnson, 2006). It seems likely that these release factors provide an added level of control of the final maturation steps of the 60S subunit. They could ensure that the pre-60S factors remain stably bound to the subunit with high affinity until the subunits reach the cytoplasm where they are released. Factors with reduced affinity would be expected to have a higher off rate and perhaps dissociate prematurely from the subunit. It is also possible that the cytoplasmic factors such as Yvh1 can be regulated by cellular signals, thereby monitoring, for example, the metabolic or translational capacity of the cell. Along these lines, DUSP12 was indentified as a protein that interacts with and accelerates the activity of glucokinase (Munoz-Alonso et al., 2000), suggesting the possibility of signaling between ribosome biogenesis and glycolysis.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43876</offset>
+      <text>Although the phosphatase domain of Yvh1 is highly conserved throughout the Yvh1/DUSP12 subfamily of atypical protein phosphatases, mutating the catalytic cysteine of Yvh1 had no effect on its role in releasing Mrt4 and did not yield a growth phenotype. Many dual-specificity protein phosphatases act on mitogen-activated protein kinases; however, the atypical dual-specificity phosphatases lack the specificity domain of these phosphatases and act on diverse substrates (Patterson et al., 2009). It is reasonable to think that the substrate for Yvh1 would be a ribosomal protein or biogenesis factor. However, the atypical phosphatase DUSP11 (PIR1) hydrolyzes 5'-tri- and -diphosphates from RNAs (Deshpande et al., 1999), raising the possibility that Yvh1 could have a role in RNA processing.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>44671</offset>
+      <text>Functional compartmentalization of ribosome assembly</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44724</offset>
+      <text>Why have cells evolved a complicated assembly pathway in which ribosomes are first assembled in the nucleolus with Mrt4 only to be replaced by the mature ribosomal protein P0 in the cytoplasm? It would seem more economical to assemble fully functional ribosomes that contain P0 from the start. We suggest that this reflects an additional level of separation of ribosome assembly from translation that we will call functional compartmentalization. This would seem unnecessary if there was rigid spatial separation of trans-acting factors and the nuclear compartment. In this case, the ribosomal proteins would all enter the nucleus for assembly into a subunit, obviating the need for preassembly with an orthologue. However, this strict separation of assembly and function may be difficult to achieve if, for instance, a translation factor has high affinity for a ribosomal protein that serves as its binding site, as this could result in nuclear import of the translation factor by virtue of associating with its cognate ribosomal protein. In addition, functionally compartmentalizing assembly from translation may also be important in organisms with an open mitosis where translation factors could gain access to the nucleus as the nuclear envelope is reassembled.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>45990</offset>
+      <text>Materials and methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>46012</offset>
+      <text>Strains, plasmids, and media</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46041</offset>
+      <text>All S. cerevisiae strains used in this study are listed in Table I. Unless otherwise indicated, all strains were grown at 30 C in rich medium (yeast extract peptone) or synthetic dropout medium containing 2% glucose. AJY2551 (mrt4Delta) and AJY2976 (yvhDelta) are haploid strains derived from the heterozygous diploid deletion collection (Research Genetics). The KanMX cassette of AJY2977 (yvh1Delta::KanMX) was switched to nourseothricin resistance (NAT r) as described previously (Tong et al., 2001) to produce AJY2547. AJY2553 and AJY3048 were derived from crossing AJY2551 with AJY2547 and AJY3040 with AJY2977, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>46663</offset>
+      <text>Strains used in this study</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>46690</offset>
+      <text>   Strain Genotype Source   BY4741 MATa his3Delta1 leu2Delta0 ura3Delta0 met15Delta0 NA  W303 MATa leu2-3,112 trp1-1 his3-11,15 ura3-1 ade2-1 can1-100 NA  6EA1 MATa leu2-3,112 trp1-1 his3-11,15 ura3-1 ade2-1 can1-100 rpl12aDelta::KanMX rpl12bDelta::HIS3 Briones et al., 1998  AJY543 MATa ade2 ade3 leu2 lys2-801 ura3-52 nmd3-1 Ho and Johnson, 1999  AJY1539 MATa ura3Delta0 his3Delta1 leu2Delta0 lys2Delta0 CRM1(T539C)-HA West et al., 2007  AJY2547 MATalpha ura3Delta0 his3Delta1 leu2Delta0 lys2Delta0 yvh1Delta::NAT r This study  AJY2551 MATa ura3Delta0 his3Delta1 leu2Delta0 lys2Delta0 mrt4Delta::KanMX This study  AJY2553 MATa ura3Delta0 his3Delta1 leu2Delta0 lys2Delta0 yvh1Delta::NATr mrt4Delta::KanMX This study  AJY2976 MATa ura3Delta0 his3Delta1 leu2Delta0 lys2Delta0 yvh1Delta::KanMX This study  AJY2977 MATalpha ura3Delta0 his3Delta1 leu2Delta0 lys2Delta0 yvh1Delta::KanMX This study  AJY2982 MATa ura3Delta0 his3Delta1 leu2Delta0 lys2Delta0 YVH1-GFP::HIS3 Open Biosystems  AJY3040 MATa ura3Delta0 his3Delta1 leu2Delta0 lys2Delta0 MRT4-GFP::HIS3 Open Biosystems  AJY3048 MATa ura3Delta0 his3Delta1 leu2Delta0 lys2Delta0 MRT4-GFP::HIS3 yvh1Delta::KanMX This study</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>47709</offset>
+      <text>NA, not applicable.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47729</offset>
+      <text>Plasmids used in this study are listed in Table II. pAJ2002 (RLP24-myc) contained 330 nucleotides upstream of the start codon plus the entire open reading frame of RLP24 fused in frame to a 13-myc tag in pRS415. For making pAJ2020 (Yvh1-myc) and pAJ2026 (Yvh1DeltaC-myc), YVH1 was amplified by PCR with primers AJO1148 and AJO1182 and AJO1148 and AJO1194, respectively. See Table S1 for oligonucleotides used in this work. The PCR products were digested with SstI and PacI and ligated into the same sites of pAJ1026 (Hung et al., 2008). pAJ2024 (Yvh1C117S-myc) and pAJ2025 (Yvh1DeltaN-myc) were made by fusion PCR. First-round PCR, using primers AJO1148XAJO1196 and AJO1195XAJO1149 for pAJ2024 and AJO1148XAJO1193 and AJO1192XAJO1149 for pAJ2025, generated two fragments. PCR products were used as templates in the second-round PCR with outer primers only. Final PCR products were digested with SstI and PacI and ligated into the same sites of pAJ1026. Primers AJO1227 and AJO1228 were used to amplify MRT4 and ligated into pAJ1025 (Meyer et al., 2007) to create pAJ2457. pAJ2463 was made with fusion PCR. Primers AJO1227 and AJO1237 and AJO1236 and AJO1229 were used in the first-round PCR, and outside primers were used in the second round. PCR products were digested with SstI and BamHI and ligated into the same sites of pAJ907 (Hedges et al., 2005). pAJ2464 was made by moving YVH1 as an SstI to PacI fragment from pAJ2020 into pAJ1025 (Meyer et al., 2007). pAJ2481 (NLS-YVH1-GFP) was made by fusion PCR with the oligo pairs AJO1148 with AJO1276 and AJO1275 with AJO1182. The PCR product was digested with SstI and PacI and ligated into the same sites of pAJ1025. pAJ2494 (NLS-YVH1-myc) was made by moving the SstI to PacI fragment from pAJ2481 into pAJ1026. DUSP12, amplified from a cDNA clone (MGC:10337; IMAGE:3958403; Open Biosystems) by using primers DUSP12-F2 and DUSP12-R2, was cloned into p415GPD cut with BamHI and HindIII by using the In-Fusion Advantage PCR Cloning kit (Clontech Laboratories, Inc.) to generate pAJ2476 (pGPD-DUSP12). MRTO4, amplified from a cDNA clone (MGC:4041; IMAGE:2821148; Open Biosystems) by using primers MRTO4-F2 and MRTO4-R2, was cloned into p416GPD-N3Flag cut with BamHI and XhoI by using the In-Fusion Advantage PCR Cloning kit to generate pAJ2477 (pGPD-3Flag-MRTO4). p416GPD-N3Flag was constructed by inserting an annealed duplex oligo Flag-1 and Flag-2 into SpeI site of p416GPD.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>50150</offset>
+      <text>Plasmids used in this study</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>50178</offset>
+      <text>   Plasmids Relevant markers Source   pAJ538 NMD3-myc LEU2 CEN Ho et al., 2000  pAJ901 LSG1-myc URA3 CEN Kallstrom et al., 2003  pAJ903 LSG1-myc LEU2 CEN Kallstrom et al., 2003  pAJ908 RPL25-GFP LEU2 CEN Kallstrom et al., 2003  pAJ2002 RLP24-myc LEU2 CEN This study  pAJ2020 YVH1-myc LEU2 CEN This study  pAJ2024 YVH1C117S-myc LEU2 CEN This study  pAJ2025 YVH1DeltaN-myc LEU2 CEN This study  pAJ2026 YVH1DeltaC-myc LEU2 CEN This study  pAJ2457 MRT4-GFP LEU2 CEN This study  pAJ2458 RPL12B URA3 2micro This study  pAJ2461 MRT4-G68D-GFP LEU2 CEN This study  pAJ2463 MRT4-G68D LEU2 CEN This study  pAJ2464 YVH1-GFP LEU2 CEN This study  pAJ2469 P0-GFP LEU2 CEN This study  pAJ2475 MRT4-HA URA3 CEN This study  pAJ2476 pGPD-DUSP12 LEU2 CEN This study  pAJ2477 pGPD-3Flag-MRTO4 URA3 CEN This study  pAJ2481 NLS-YVH1-GFP LEU2 CEN This study  pAJ2494 NLS-YVH1-myc LEU2 CEN This study  pAJ2495 p416GPD-N3Flag URA3 CEN This study</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51089</offset>
+      <text>Northern blotting</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51107</offset>
+      <text>Cells were cultured to an OD600 of ~0.2-0.3. Total RNA was extracted by the hot phenol method (Kohrer and Domdey, 1991). In brief, cells were resuspended in AE buffer (50 mM NaOAc and 10 mM EDTA) with hot acid phenol and heated at 65 C for 60 min. After centrifugation, the aqueous phase was recovered and extracted with phenol and chloroform twice. RNA was resolved in 1% formaldehyde gel or 6% TBE-urea polyacrylamide gels (Novex; Invitrogen) for small RNAs, transferred to nylon membrane (Zetaprobe; Bio-Rad Laboratories), and probed with P32-labeled oligonucleotides.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>51685</offset>
+      <text>Sedimentation through sucrose cushions</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>51724</offset>
+      <text>Cultures were grown to an OD600 of ~0.4-0.5 in the medium. Protein extracts were prepared by vortexing with glass beads in extraction buffer (20 mM Tris, pH 7.5, 6 mM MgCl2, 10% glycerol, 0.1% NP-40, 1 mM PMSF, 1 microM leupeptin, and 1 microM pepstatin A) at the different NaCl concentrations indicated in Figs. 1 C, 5F, and 6A. 200 microl of protein extracts was overlaid on 500 microl 1 M sucrose in 20 mM Tris, 8 mM MgCl2, and 100 mM KCl in 1.5-ml ultracentrifuge tubes (Beckman Coulter). Samples were centrifuged at 80,000 rpm in a rotor (TLA100.3; Beckman Coulter) at 4 C for 60 min. Proteins in the top layer (free protein) or the pellet (ribosome pool) were separated by SDS-PAGE and detected by Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>52439</offset>
+      <text>Sucrose gradient analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>52465</offset>
+      <text>For polysome profile assays, cultures were collected at an OD600 of ~0.2-0.3. Cycloheximide (200 microg/ml final concentration) was added, and cells were immediately harvested by pouring onto ice and centrifugation. Extracts were prepared by glass bead extraction in polysome lysis buffer (10 mM Tris-HCl, pH 7.5, 100 mM KCl, 10 mM MgCl2, 6 mM beta-mercaptoethanol, and 200 microg/ml cycloheximide). 9 OD260 U of protein extract were loaded onto linear 7-47% sucrose gradients in polysome lysis buffer. After a 2.5-h spin at 40,000 rpm in a rotor (SW40; Beckman Coulter), gradient fractions were collected on a density gradient fractionator (ISCO), continuously measuring absorbance at 254 nm.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53157</offset>
+      <text>Immunoprecipitation</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53177</offset>
+      <text>For immunoprecipitations, 200-250-ml cultures were grown to an OD600 of ~0.4-0.5 in selective medium. Cells were resuspended in IP buffer (20 mM Tris, pH 7.5, 100 mM NaCl, 6 mM MgCl2, 10% glycerol, 0.1% NP-40, 1mM PMSF, 1 microM leupeptin, and 1 microM pepstatin A), and cell extracts were made by glass bead lysis. alpha-C-myc monoclonal antibody (9e10) was added to the supernatants, and protein complexes were pulled down with BSA-blocked protein A agarose beads (Invitrogen). Samples were eluted in 25 microl of 1x Laemmli sample buffer and detected by Western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>53747</offset>
+      <text>Microscopy</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>53758</offset>
+      <text>Overnight cultures of yeast cells were diluted with fresh media to an OD600 of ~0.1 and were incubated for another 3-4 h at 30 C. For treatment with LMB, cells were concentrated 10-fold, and LMB was added at a final concentration of 0.1 microg/ml. Fluorescence was visualized on a microscope (E800; Nikon) fitted with a Plan Apo 100x 1.40 NA DIC objective and a digital camera (CoolSNAP ES; Photometrics) controlled with NIS Elements software (AR 2.10; Nikon). Images were prepared using Photoshop (version 7.0; Adobe).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>54281</offset>
+      <text>HeLa cells were grown to ~30% confluence on sterile coverslips. 10 nM siRNA (ON-TARGET plus SMARTpool; Thermo Fisher Scientific) specific to DUSP12 was transfected by using RNAiMax (Invitrogen). As controls, cells were either untreated or transfected with control siRNA. After 48 h, cells were fixed with 4% formaldehyde and permeabilized with cold methanol. MRTO4 was detected with anti-MRTO4 antibody (Santa Cruz Biotechnology, Inc.). The secondary antibody used was goat anti-mouse IgG (F(ab')2-TR; Santa Cruz Biotechnology, Inc.). Cells were mounted in mounting medium with DAPI (Vectashield HardSet; Vector Laboratories). Fluorescence was visualized on a microscope (TE2000-E; Nikon) fitted with a Plan Apo 40x 0.95 NA objective and a digital camera (Cascade II 512; Photometrics) controlled with the NIS Elements software (AR 3.0). Images were prepared using Photoshop.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>55164</offset>
+      <text>Online supplemental material</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>55193</offset>
+      <text>Fig. S1 displays Northern blot analysis of rRNA-processing intermediates from wild-type and yvh1Delta cells and yvh1Delta cells expressing MRT4-G68D. Fig. S2 shows the localization of Rpl25-EGFP in wild-type, yvh1Delta, mrt4Delta, and arx1Delta cells. Fig. S3 provides a multiple sequence alignment of Mrt4, P0, and bacterial L10. Table S1 lists the oligonucleotides used in this study. Online supplemental material is available at http://www.jcb.org/cgi/content/full/jcb.200904110/DC1.</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote_title</infon>
+      <offset>55665</offset>
+      <text>Abbreviations used in this paper:</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>55699</offset>
+      <text>LMB</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>55703</offset>
+      <text>leptomycin B</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>55716</offset>
+      <text>NATr</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>55721</offset>
+      <text>nourseothricin resistance</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>55747</offset>
+      <text>PCA</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>55751</offset>
+      <text>protein complementation assay</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>55781</offset>
+      <text>rRNA</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>55786</offset>
+      <text>ribosomal RNA</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1016/S0079-6603(08)60193-2</infon>
+      <infon key="volume">55</infon>
+      <infon key="name_0">surname:Ballesta;given-names:J.P.</infon>
+      <infon key="name_1">surname:Remacha;given-names:M.</infon>
+      <infon key="source">Prog. Nucleic Acid Res. Mol. Biol.</infon>
+      <infon key="lpage">193</infon>
+      <infon key="pub-id_pmid">8787610</infon>
+      <infon key="fpage">157</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>55800</offset>
+      <text>The large ribosomal subunit stalk as a regulatory element of the eukaryotic translational machinery</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1007/s004380100548</infon>
+      <infon key="name_2">surname:Racki;given-names:W.J.</infon>
+      <infon key="name_0">surname:Becam;given-names:A.M.</infon>
+      <infon key="name_1">surname:Nasr;given-names:F.</infon>
+      <infon key="name_4">surname:Herbert;given-names:C.J.</infon>
+      <infon key="name_3">surname:Zagulski;given-names:M.</infon>
+      <infon key="volume">266</infon>
+      <infon key="pub-id_pmid">11713675</infon>
+      <infon key="source">Mol. Genet. Genomics.</infon>
+      <infon key="fpage">454</infon>
+      <infon key="year">2001</infon>
+      <infon key="lpage">462</infon>
+      <infon key="type">ref</infon>
+      <offset>55900</offset>
+      <text>Ria1p (Ynl163c), a protein similar to elongation factors 2, is involved in the biogenesis of the 60S subunit of the ribosome in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1128/JB.182.12.3517-3528.2000</infon>
+      <infon key="volume">182</infon>
+      <infon key="name_0">surname:Beeser;given-names:A.E.</infon>
+      <infon key="name_1">surname:Cooper;given-names:T.G.</infon>
+      <infon key="source">J. Bacteriol.</infon>
+      <infon key="lpage">3528</infon>
+      <infon key="pub-id_pmid">10852885</infon>
+      <infon key="fpage">3517</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>56053</offset>
+      <text>The dual-specificity protein phosphatase Yvh1p regulates sporulation, growth, and glycogen accumulation independently of catalytic activity in Saccharomyces cerevisiae via the cyclic AMP-dependent protein kinase cascade</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1016/j.sbi.2007.05.009</infon>
+      <infon key="volume">17</infon>
+      <infon key="name_0">surname:Berk;given-names:V.</infon>
+      <infon key="name_1">surname:Cate;given-names:J.H.</infon>
+      <infon key="source">Curr. Opin. Struct. Biol.</infon>
+      <infon key="lpage">309</infon>
+      <infon key="pub-id_pmid">17574829</infon>
+      <infon key="fpage">302</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>56273</offset>
+      <text>Insights into protein biosynthesis from structures of bacterial ribosomes</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1016/S0248-4900(02)01192-9</infon>
+      <infon key="name_2">surname:Dukowski;given-names:P.</infon>
+      <infon key="name_0">surname:Boguszewska;given-names:A.</infon>
+      <infon key="name_1">surname:Tchorzewski;given-names:M.</infon>
+      <infon key="name_4">surname:Grankowski;given-names:N.</infon>
+      <infon key="name_3">surname:Winiarczyk;given-names:S.</infon>
+      <infon key="volume">94</infon>
+      <infon key="pub-id_pmid">12206653</infon>
+      <infon key="source">Biol. Cell.</infon>
+      <infon key="fpage">139</infon>
+      <infon key="year">2002</infon>
+      <infon key="lpage">146</infon>
+      <infon key="type">ref</infon>
+      <offset>56347</offset>
+      <text>Subcellular distribution of the acidic ribosomal P-proteins from Saccharomyces cerevisiae in various environmental conditions</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1016/j.biocel.2008.11.005</infon>
+      <infon key="name_2">surname:Remacha;given-names:M.</infon>
+      <infon key="name_0">surname:Briceno;given-names:V.</infon>
+      <infon key="name_1">surname:Camargo;given-names:H.</infon>
+      <infon key="name_4">surname:Ballesta;given-names:J.P.</infon>
+      <infon key="name_3">surname:Santos;given-names:C.</infon>
+      <infon key="volume">41</infon>
+      <infon key="pub-id_pmid">19084076</infon>
+      <infon key="source">Int. J. Biochem. Cell Biol.</infon>
+      <infon key="fpage">1315</infon>
+      <infon key="year">2009</infon>
+      <infon key="lpage">1322</infon>
+      <infon key="type">ref</infon>
+      <offset>56473</offset>
+      <text>Structural and functional characterization of the amino terminal domain of the yeast ribosomal stalk P1 and P2 proteins</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1074/jbc.273.48.31956</infon>
+      <infon key="name_2">surname:Remacha;given-names:M.</infon>
+      <infon key="name_0">surname:Briones;given-names:E.</infon>
+      <infon key="name_1">surname:Briones;given-names:C.</infon>
+      <infon key="name_3">surname:Ballesta;given-names:J.P.</infon>
+      <infon key="volume">273</infon>
+      <infon key="pub-id_pmid">9822666</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="fpage">31956</infon>
+      <infon key="year">1998</infon>
+      <infon key="lpage">31961</infon>
+      <infon key="type">ref</infon>
+      <offset>56593</offset>
+      <text>The GTPase center protein L12 is required for correct ribosomal stalk assembly but not for Saccharomyces cerevisiae viability</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Zhao;given-names:X.C.</infon>
+      <infon key="name_3">surname:Greenblatt;given-names:J.F.</infon>
+      <infon key="name_0">surname:Collins;given-names:S.R.</infon>
+      <infon key="name_1">surname:Kemmeren;given-names:P.</infon>
+      <infon key="name_6">surname:Weissman;given-names:J.S.</infon>
+      <infon key="name_7">surname:Krogan;given-names:N.J.</infon>
+      <infon key="name_4">surname:Spencer;given-names:F.</infon>
+      <infon key="name_5">surname:Holstege;given-names:F.C.</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">17200106</infon>
+      <infon key="source">Mol. Cell. Proteomics.</infon>
+      <infon key="fpage">439</infon>
+      <infon key="year">2007</infon>
+      <infon key="lpage">450</infon>
+      <infon key="type">ref</infon>
+      <offset>56719</offset>
+      <text>Toward a comprehensive atlas of the physical interactome of Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1074/jbc.274.23.16590</infon>
+      <infon key="name_2">surname:Hao;given-names:L.</infon>
+      <infon key="name_0">surname:Deshpande;given-names:T.</infon>
+      <infon key="name_1">surname:Takagi;given-names:T.</infon>
+      <infon key="name_4">surname:Charbonneau;given-names:H.</infon>
+      <infon key="name_3">surname:Buratowski;given-names:S.</infon>
+      <infon key="volume">274</infon>
+      <infon key="pub-id_pmid">10347225</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="fpage">16590</infon>
+      <infon key="year">1999</infon>
+      <infon key="lpage">16594</infon>
+      <infon key="type">ref</infon>
+      <offset>56804</offset>
+      <text>Human PIR1 of the protein-tyrosine phosphatase superfamily has RNA 5'-triphosphatase and diphosphatase activities</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1016/j.cell.2005.04.015</infon>
+      <infon key="name_2">surname:Schlunzen;given-names:F.</infon>
+      <infon key="name_0">surname:Diaconu;given-names:M.</infon>
+      <infon key="name_1">surname:Kothe;given-names:U.</infon>
+      <infon key="name_6">surname:Stark;given-names:H.</infon>
+      <infon key="name_7">surname:Rodnina;given-names:M.V.</infon>
+      <infon key="name_4">surname:Harms;given-names:J.M.</infon>
+      <infon key="name_3">surname:Fischer;given-names:N.</infon>
+      <infon key="name_8">surname:Wahl;given-names:M.C.</infon>
+      <infon key="name_5">surname:Tonevitsky;given-names:A.G.</infon>
+      <infon key="volume">121</infon>
+      <infon key="pub-id_pmid">15989950</infon>
+      <infon key="source">Cell.</infon>
+      <infon key="fpage">991</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">1004</infon>
+      <infon key="type">ref</infon>
+      <offset>56920</offset>
+      <text>Structural basis for the function of the ribosomal L7/12 stalk in factor binding and GTPase activation</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1128/MCB.23.5.1798-1807.2003</infon>
+      <infon key="name_2">surname:Dlakic;given-names:M.</infon>
+      <infon key="name_0">surname:Fatica;given-names:A.</infon>
+      <infon key="name_1">surname:Oeffinger;given-names:M.</infon>
+      <infon key="name_3">surname:Tollervey;given-names:D.</infon>
+      <infon key="volume">23</infon>
+      <infon key="pub-id_pmid">12588997</infon>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="fpage">1798</infon>
+      <infon key="year">2003</infon>
+      <infon key="lpage">1807</infon>
+      <infon key="type">ref</infon>
+      <offset>57023</offset>
+      <text>Nob1p is required for cleavage of the 3' end of 18S rRNA</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1016/S0378-1119(03)00629-2</infon>
+      <infon key="name_2">surname:Saveanu;given-names:C.</infon>
+      <infon key="name_0">surname:Fromont-Racine;given-names:M.</infon>
+      <infon key="name_1">surname:Senger;given-names:B.</infon>
+      <infon key="name_3">surname:Fasiolo;given-names:F.</infon>
+      <infon key="volume">313</infon>
+      <infon key="pub-id_pmid">12957375</infon>
+      <infon key="source">Gene.</infon>
+      <infon key="fpage">17</infon>
+      <infon key="year">2003</infon>
+      <infon key="lpage">42</infon>
+      <infon key="type">ref</infon>
+      <offset>57082</offset>
+      <text>Ribosome assembly in eukaryotes</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1128/MCB.21.10.3405-3415.2001</infon>
+      <infon key="name_2">surname:Kessl;given-names:J.</infon>
+      <infon key="name_0">surname:Gadal;given-names:O.</infon>
+      <infon key="name_1">surname:Strauss;given-names:D.</infon>
+      <infon key="name_4">surname:Tollervey;given-names:D.</infon>
+      <infon key="name_3">surname:Trumpower;given-names:B.</infon>
+      <infon key="name_5">surname:Hurt;given-names:E.</infon>
+      <infon key="volume">21</infon>
+      <infon key="pub-id_pmid">11313466</infon>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="fpage">3405</infon>
+      <infon key="year">2001</infon>
+      <infon key="lpage">3415</infon>
+      <infon key="type">ref</infon>
+      <offset>57114</offset>
+      <text>Nuclear export of 60s ribosomal subunits depends on Xpo1p and requires a nuclear export sequence-containing factor, Nmd3p, that associates with the large subunit protein Rpl10p</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1038/nature04532</infon>
+      <infon key="name_2">surname:Grandi;given-names:P.</infon>
+      <infon key="name_0">surname:Gavin;given-names:A.C.</infon>
+      <infon key="name_1">surname:Aloy;given-names:P.</infon>
+      <infon key="name_6">surname:Rau;given-names:C.</infon>
+      <infon key="name_7">surname:Jensen;given-names:L.J.</infon>
+      <infon key="name_4">surname:Boesche;given-names:M.</infon>
+      <infon key="name_3">surname:Krause;given-names:R.</infon>
+      <infon key="name_8">surname:Bastuck;given-names:S.</infon>
+      <infon key="name_9">surname:Dumpelfeld;given-names:B.</infon>
+      <infon key="name_5">surname:Marzioch;given-names:M.</infon>
+      <infon key="volume">440</infon>
+      <infon key="pub-id_pmid">16429126</infon>
+      <infon key="source">Nature.</infon>
+      <infon key="fpage">631</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">636</infon>
+      <infon key="type">ref</infon>
+      <offset>57291</offset>
+      <text>Proteome survey reveals modularity of the yeast cell machinery</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1016/S0248-4900(03)00034-0</infon>
+      <infon key="volume">95</infon>
+      <infon key="name_0">surname:Gonzalo;given-names:P.</infon>
+      <infon key="name_1">surname:Reboud;given-names:J.P.</infon>
+      <infon key="source">Biol. Cell.</infon>
+      <infon key="lpage">193</infon>
+      <infon key="pub-id_pmid">12867082</infon>
+      <infon key="fpage">179</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>57354</offset>
+      <text>The puzzling lateral flexible stalk of the ribosome</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1073/pnas.89.24.12175</infon>
+      <infon key="name_2">surname:Wang;given-names:Y.</infon>
+      <infon key="name_0">surname:Guan;given-names:K.</infon>
+      <infon key="name_1">surname:Hakes;given-names:D.J.</infon>
+      <infon key="name_4">surname:Cooper;given-names:T.G.</infon>
+      <infon key="name_3">surname:Park;given-names:H.D.</infon>
+      <infon key="name_5">surname:Dixon;given-names:J.E.</infon>
+      <infon key="volume">89</infon>
+      <infon key="pub-id_pmid">1334559</infon>
+      <infon key="source">Proc. Natl. Acad. Sci. USA.</infon>
+      <infon key="fpage">12175</infon>
+      <infon key="year">1992</infon>
+      <infon key="lpage">12179</infon>
+      <infon key="type">ref</infon>
+      <offset>57406</offset>
+      <text>A yeast protein phosphatase related to the vaccinia virus VH1 phosphatase is induced by nitrogen starvation</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1099/mic.0.27999-0</infon>
+      <infon key="name_2">surname:Ueno;given-names:K.</infon>
+      <infon key="name_0">surname:Hanaoka;given-names:N.</infon>
+      <infon key="name_1">surname:Umeyama;given-names:T.</infon>
+      <infon key="name_6">surname:Uehara;given-names:Y.</infon>
+      <infon key="name_7">surname:Niimi;given-names:M.</infon>
+      <infon key="name_4">surname:Beppu;given-names:T.</infon>
+      <infon key="name_3">surname:Ueda;given-names:K.</infon>
+      <infon key="name_5">surname:Fugo;given-names:H.</infon>
+      <infon key="volume">151</infon>
+      <infon key="pub-id_pmid">16000712</infon>
+      <infon key="source">Microbiology.</infon>
+      <infon key="fpage">2223</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">2232</infon>
+      <infon key="type">ref</infon>
+      <offset>57514</offset>
+      <text>A putative dual-specific protein phosphatase encoded by YVH1 controls growth, filamentation and virulence in Candida albicans</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1074/jbc.M405718200</infon>
+      <infon key="name_2">surname:Santos;given-names:C.</infon>
+      <infon key="name_0">surname:Hanson;given-names:C.L.</infon>
+      <infon key="name_1">surname:Videler;given-names:H.</infon>
+      <infon key="name_4">surname:Robinson;given-names:C.V.</infon>
+      <infon key="name_3">surname:Ballesta;given-names:J.P.</infon>
+      <infon key="volume">279</infon>
+      <infon key="pub-id_pmid">15294894</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="fpage">42750</infon>
+      <infon key="year">2004</infon>
+      <infon key="lpage">42757</infon>
+      <infon key="type">ref</infon>
+      <offset>57640</offset>
+      <text>Mass spectrometry of ribosomes from Saccharomyces cerevisiae: implications for assembly of the stalk complex</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1038/sj.emboj.7600547</infon>
+      <infon key="name_2">surname:Johnson;given-names:A.W.</infon>
+      <infon key="name_0">surname:Hedges;given-names:J.</infon>
+      <infon key="name_1">surname:West;given-names:M.</infon>
+      <infon key="source">EMBO J.</infon>
+      <infon key="volume">24</infon>
+      <infon key="pub-id_pmid">15660131</infon>
+      <infon key="fpage">567</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">579</infon>
+      <infon key="type">ref</infon>
+      <offset>57749</offset>
+      <text>Release of the export adapter, Nmd3p, from the 60S ribosomal subunit requires Rpl10p and the cytoplasmic GTPase Lsg1p</text>
+    </passage>
+    <passage>
+      <infon key="volume">19</infon>
+      <infon key="name_0">surname:Ho;given-names:J.H.</infon>
+      <infon key="name_1">surname:Johnson;given-names:A.W.</infon>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="lpage">2399</infon>
+      <infon key="pub-id_pmid">10022925</infon>
+      <infon key="fpage">2389</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>57867</offset>
+      <text>NMD3 encodes an essential cytoplasmic protein required for stable 60S ribosomal subunits in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1083/jcb.151.5.1057</infon>
+      <infon key="name_2">surname:Johnson;given-names:A.W.</infon>
+      <infon key="name_0">surname:Ho;given-names:J.H.</infon>
+      <infon key="name_1">surname:Kallstrom;given-names:G.</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="volume">151</infon>
+      <infon key="pub-id_pmid">11086007</infon>
+      <infon key="fpage">1057</infon>
+      <infon key="year">2000</infon>
+      <infon key="lpage">1066</infon>
+      <infon key="type">ref</infon>
+      <offset>57984</offset>
+      <text>Nmd3p is a Crm1p-dependent adapter protein for nuclear export of the large ribosomal subunit</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1038/sj.emboj.7601262</infon>
+      <infon key="name_2">surname:Shioda;given-names:R.</infon>
+      <infon key="name_0">surname:Honma;given-names:Y.</infon>
+      <infon key="name_1">surname:Kitamura;given-names:A.</infon>
+      <infon key="name_6">surname:Mini;given-names:T.</infon>
+      <infon key="name_7">surname:Jeno;given-names:P.</infon>
+      <infon key="name_4">surname:Ozaki;given-names:K.</infon>
+      <infon key="name_3">surname:Maruyama;given-names:H.</infon>
+      <infon key="name_8">surname:Maki;given-names:Y.</infon>
+      <infon key="name_9">surname:Yonezawa;given-names:K.</infon>
+      <infon key="name_5">surname:Oda;given-names:Y.</infon>
+      <infon key="volume">25</infon>
+      <infon key="pub-id_pmid">16888624</infon>
+      <infon key="source">EMBO J.</infon>
+      <infon key="fpage">3832</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">3842</infon>
+      <infon key="type">ref</infon>
+      <offset>58077</offset>
+      <text>TOR regulates late steps of ribosome maturation in the nucleoplasm via Nog1 in response to nutrients</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1128/MCB.26.10.3718-3727.2006</infon>
+      <infon key="volume">26</infon>
+      <infon key="name_0">surname:Hung;given-names:N.J.</infon>
+      <infon key="name_1">surname:Johnson;given-names:A.W.</infon>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="lpage">3727</infon>
+      <infon key="pub-id_pmid">16648468</infon>
+      <infon key="fpage">3718</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>58178</offset>
+      <text>Nuclear recycling of the pre-60S ribosomal subunit-associated factor Arx1 depends on Rei1 in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1091/mbc.E07-09-0968</infon>
+      <infon key="name_2">surname:Patel;given-names:S.S.</infon>
+      <infon key="name_0">surname:Hung;given-names:N.J.</infon>
+      <infon key="name_1">surname:Lo;given-names:K.Y.</infon>
+      <infon key="name_4">surname:Johnson;given-names:A.W.</infon>
+      <infon key="name_3">surname:Helmke;given-names:K.</infon>
+      <infon key="volume">19</infon>
+      <infon key="pub-id_pmid">18077551</infon>
+      <infon key="source">Mol. Biol. Cell.</infon>
+      <infon key="fpage">735</infon>
+      <infon key="year">2008</infon>
+      <infon key="lpage">744</infon>
+      <infon key="type">ref</infon>
+      <offset>58296</offset>
+      <text>Arx1 is a nuclear export receptor for the 60S ribosomal subunit in yeast</text>
+    </passage>
+    <passage>
+      <infon key="comment">editor</infon>
+      <infon key="name_0">surname:Johnson;given-names:A.W.</infon>
+      <infon key="name_1">surname:Kehlenbach;given-names:R.</infon>
+      <infon key="lpage">84</infon>
+      <infon key="fpage">69</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>58369</offset>
+      <text>Nuclear export of ribosomes Nuclear Transport</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1016/S0968-0004(02)02208-9</infon>
+      <infon key="name_2">surname:Dahlberg;given-names:J.</infon>
+      <infon key="name_0">surname:Johnson;given-names:A.W.</infon>
+      <infon key="name_1">surname:Lund;given-names:E.</infon>
+      <infon key="source">Trends Biochem. Sci.</infon>
+      <infon key="volume">27</infon>
+      <infon key="pub-id_pmid">12417134</infon>
+      <infon key="fpage">580</infon>
+      <infon key="year">2002</infon>
+      <infon key="lpage">585</infon>
+      <infon key="type">ref</infon>
+      <offset>58415</offset>
+      <text>Nuclear export of ribosomal subunits</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1128/MCB.23.12.4344-4355.2003</infon>
+      <infon key="name_2">surname:Johnson;given-names:A.</infon>
+      <infon key="name_0">surname:Kallstrom;given-names:G.</infon>
+      <infon key="name_1">surname:Hedges;given-names:J.</infon>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="volume">23</infon>
+      <infon key="pub-id_pmid">12773575</infon>
+      <infon key="fpage">4344</infon>
+      <infon key="year">2003</infon>
+      <infon key="lpage">4355</infon>
+      <infon key="type">ref</infon>
+      <offset>58452</offset>
+      <text>The putative GTPases Nog1p and Lsg1p are required for 60S ribosomal subunit biogenesis and are localized to the nucleus and cytoplasm, respectively</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1016/j.jmb.2007.05.091</infon>
+      <infon key="volume">371</infon>
+      <infon key="name_0">surname:Kavran;given-names:J.M.</infon>
+      <infon key="name_1">surname:Steitz;given-names:T.A.</infon>
+      <infon key="source">J. Mol. Biol.</infon>
+      <infon key="lpage">1059</infon>
+      <infon key="pub-id_pmid">17599351</infon>
+      <infon key="fpage">1047</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>58600</offset>
+      <text>Structure of the base of the L7/L12 stalk of the Haloarcula marismortui large ribosomal subunit: analysis of L11 movements</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Veisu;given-names:M.</infon>
+      <infon key="name_3">surname:Panse;given-names:V.G.</infon>
+      <infon key="name_0">surname:Kemmler;given-names:S.</infon>
+      <infon key="name_1">surname:Occhipinti;given-names:L.</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="volume">186</infon>
+      <infon key="pub-id_pmid">19797079</infon>
+      <infon key="fpage">863</infon>
+      <infon key="year">2009</infon>
+      <infon key="lpage">880</infon>
+      <infon key="type">ref</infon>
+      <offset>58723</offset>
+      <text>Yvh1 is required for a late maturation step in the 60S biogenesis pathway</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1016/0076-6879(91)94030-G</infon>
+      <infon key="volume">194</infon>
+      <infon key="name_0">surname:Kohrer;given-names:K.</infon>
+      <infon key="name_1">surname:Domdey;given-names:H.</infon>
+      <infon key="source">Methods Enzymol.</infon>
+      <infon key="lpage">405</infon>
+      <infon key="pub-id_pmid">1706459</infon>
+      <infon key="fpage">398</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>58797</offset>
+      <text>Preparation of high molecular weight RNA</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1083/jcb.200801181</infon>
+      <infon key="name_2">surname:Pertschy;given-names:B.</infon>
+      <infon key="name_0">surname:Kressler;given-names:D.</infon>
+      <infon key="name_1">surname:Roser;given-names:D.</infon>
+      <infon key="name_3">surname:Hurt;given-names:E.</infon>
+      <infon key="volume">181</infon>
+      <infon key="pub-id_pmid">18559667</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="fpage">935</infon>
+      <infon key="year">2008</infon>
+      <infon key="lpage">944</infon>
+      <infon key="type">ref</infon>
+      <offset>58838</offset>
+      <text>The AAA ATPase Rix7 powers progression of ribosome biogenesis by stripping Nsa1 from pre-60S particles</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Boguszewska;given-names:A.</infon>
+      <infon key="name_3">surname:Grankowski;given-names:N.</infon>
+      <infon key="name_0">surname:Krokowski;given-names:D.</infon>
+      <infon key="name_1">surname:Tchorzewski;given-names:M.</infon>
+      <infon key="source">Biochim. Biophys. Acta.</infon>
+      <infon key="volume">1724</infon>
+      <infon key="pub-id_pmid">15866509</infon>
+      <infon key="fpage">59</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">70</infon>
+      <infon key="type">ref</infon>
+      <offset>58941</offset>
+      <text>Acquisition of a stable structure by yeast ribosomal P0 protein requires binding of P1A-P2B complex: in vitro formation of the stalk structure</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1111/j.1365-2958.2006.05117.x</infon>
+      <infon key="name_2">surname:Abramczyk;given-names:D.</infon>
+      <infon key="name_0">surname:Krokowski;given-names:D.</infon>
+      <infon key="name_1">surname:Boguszewska;given-names:A.</infon>
+      <infon key="name_4">surname:Tchorzewski;given-names:M.</infon>
+      <infon key="name_3">surname:Liljas;given-names:A.</infon>
+      <infon key="name_5">surname:Grankowski;given-names:N.</infon>
+      <infon key="volume">60</infon>
+      <infon key="pub-id_pmid">16573688</infon>
+      <infon key="source">Mol. Microbiol.</infon>
+      <infon key="fpage">386</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">400</infon>
+      <infon key="type">ref</infon>
+      <offset>59084</offset>
+      <text>Yeast ribosomal P0 protein has two separate binding sites for P1/P2 proteins</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1534/genetics.108.100099</infon>
+      <infon key="volume">181</infon>
+      <infon key="name_0">surname:Liu;given-names:Y.</infon>
+      <infon key="name_1">surname:Chang;given-names:A.</infon>
+      <infon key="source">Genetics.</infon>
+      <infon key="lpage">915</infon>
+      <infon key="pub-id_pmid">19114459</infon>
+      <infon key="fpage">907</infon>
+      <infon key="year">2009</infon>
+      <infon key="type">ref</infon>
+      <offset>59161</offset>
+      <text>A mutant plasma membrane protein is stabilized upon loss of Yvh1, a novel ribosome assembly factor</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1038/ng1994</infon>
+      <infon key="name_2">surname:Sanchez-Puig;given-names:N.</infon>
+      <infon key="name_0">surname:Menne;given-names:T.F.</infon>
+      <infon key="name_1">surname:Goyenechea;given-names:B.</infon>
+      <infon key="name_6">surname:Brost;given-names:R.L.</infon>
+      <infon key="name_7">surname:Costanzo;given-names:M.</infon>
+      <infon key="name_4">surname:Tonkin;given-names:L.M.</infon>
+      <infon key="name_3">surname:Wong;given-names:C.C.</infon>
+      <infon key="name_8">surname:Boone;given-names:C.</infon>
+      <infon key="name_9">surname:Warren;given-names:A.J.</infon>
+      <infon key="name_5">surname:Ancliff;given-names:P.J.</infon>
+      <infon key="volume">39</infon>
+      <infon key="pub-id_pmid">17353896</infon>
+      <infon key="source">Nat. Genet.</infon>
+      <infon key="fpage">486</infon>
+      <infon key="year">2007</infon>
+      <infon key="lpage">495</infon>
+      <infon key="type">ref</infon>
+      <offset>59260</offset>
+      <text>The Shwachman-Bodian-Diamond syndrome protein mediates translational activation of ribosomes in yeast</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1073/pnas.0610704104</infon>
+      <infon key="name_2">surname:Yang;given-names:P.</infon>
+      <infon key="name_0">surname:Meyer;given-names:A.E.</infon>
+      <infon key="name_1">surname:Hung;given-names:N.J.</infon>
+      <infon key="name_4">surname:Craig;given-names:E.A.</infon>
+      <infon key="name_3">surname:Johnson;given-names:A.W.</infon>
+      <infon key="volume">104</infon>
+      <infon key="pub-id_pmid">17242366</infon>
+      <infon key="source">Proc. Natl. Acad. Sci. USA.</infon>
+      <infon key="fpage">1558</infon>
+      <infon key="year">2007</infon>
+      <infon key="lpage">1563</infon>
+      <infon key="type">ref</infon>
+      <offset>59362</offset>
+      <text>The specialized cytosolic J-protein, Jjj1, functions in 60S ribosomal subunit biogenesis</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1074/jbc.274.34.23991</infon>
+      <infon key="name_2">surname:Orth;given-names:K.</infon>
+      <infon key="name_0">surname:Muda;given-names:M.</infon>
+      <infon key="name_1">surname:Manning;given-names:E.R.</infon>
+      <infon key="name_3">surname:Dixon;given-names:J.E.</infon>
+      <infon key="volume">274</infon>
+      <infon key="pub-id_pmid">10446167</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="fpage">23991</infon>
+      <infon key="year">1999</infon>
+      <infon key="lpage">23995</infon>
+      <infon key="type">ref</infon>
+      <offset>59451</offset>
+      <text>Identification of the human YVH1 protein-tyrosine phosphatase orthologue reveals a novel zinc binding domain essential for in vivo function</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1074/jbc.M000841200</infon>
+      <infon key="name_2">surname:Kassis;given-names:N.</infon>
+      <infon key="name_0">surname:Munoz-Alonso;given-names:M.J.</infon>
+      <infon key="name_1">surname:Guillemain;given-names:G.</infon>
+      <infon key="name_4">surname:Burnol;given-names:A.F.</infon>
+      <infon key="name_3">surname:Girard;given-names:J.</infon>
+      <infon key="name_5">surname:Leturque;given-names:A.</infon>
+      <infon key="volume">275</infon>
+      <infon key="pub-id_pmid">10913113</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="fpage">32406</infon>
+      <infon key="year">2000</infon>
+      <infon key="lpage">32412</infon>
+      <infon key="type">ref</infon>
+      <offset>59591</offset>
+      <text>A novel cytosolic dual specificity phosphatase, interacting with glucokinase, increases glucose phosphorylation rate</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1002/(SICI)1097-0061(19960915)12:11&lt;1135::AID-YEA11&gt;3.0.CO;2-L</infon>
+      <infon key="name_2">surname:Clancy;given-names:M.J.</infon>
+      <infon key="name_0">surname:Park;given-names:H.D.</infon>
+      <infon key="name_1">surname:Beeser;given-names:A.E.</infon>
+      <infon key="name_3">surname:Cooper;given-names:T.G.</infon>
+      <infon key="volume">12</infon>
+      <infon key="pub-id_pmid">8896280</infon>
+      <infon key="source">Yeast.</infon>
+      <infon key="fpage">1135</infon>
+      <infon key="year">1996</infon>
+      <infon key="lpage">1151</infon>
+      <infon key="type">ref</infon>
+      <offset>59708</offset>
+      <text>The S. cerevisiae nitrogen starvation-induced Yvh1p and Ptp2p phosphatases play a role in control of sporulation</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:O'Brien;given-names:P.M.</infon>
+      <infon key="name_3">surname:Daly;given-names:R.J.</infon>
+      <infon key="name_0">surname:Patterson;given-names:K.I.</infon>
+      <infon key="name_1">surname:Brummer;given-names:T.</infon>
+      <infon key="source">Biochem. J.</infon>
+      <infon key="volume">418</infon>
+      <infon key="pub-id_pmid">19228121</infon>
+      <infon key="fpage">475</infon>
+      <infon key="year">2009</infon>
+      <infon key="lpage">489</infon>
+      <infon key="type">ref</infon>
+      <offset>59821</offset>
+      <text>Dual-specificity phosphatases: critical regulators with diverse cellular targets</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Garcia-Gomez;given-names:J.J.</infon>
+      <infon key="name_3">surname:Morreale;given-names:A.</infon>
+      <infon key="name_0">surname:Rodriguez-Mateos;given-names:M.</infon>
+      <infon key="name_1">surname:Abia;given-names:D.</infon>
+      <infon key="name_6">surname:Remacha;given-names:M.</infon>
+      <infon key="name_7">surname:Ballesta;given-names:J.P.</infon>
+      <infon key="name_4">surname:de la Cruz;given-names:J.</infon>
+      <infon key="name_5">surname:Santos;given-names:C.</infon>
+      <infon key="volume">37</infon>
+      <infon key="pub-id_pmid">19346338</infon>
+      <infon key="source">Nucleic Acids Res.</infon>
+      <infon key="fpage">3514</infon>
+      <infon key="year">2009</infon>
+      <infon key="lpage">3521</infon>
+      <infon key="type">ref</infon>
+      <offset>59902</offset>
+      <text>The amino terminal domain from Mrt4 protein can functionally replace the RNA binding domain of the ribosomal P0 protein</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1093/nar/23.13.2396</infon>
+      <infon key="volume">23</infon>
+      <infon key="name_0">surname:Rosendahl;given-names:G.</infon>
+      <infon key="name_1">surname:Douthwaite;given-names:S.</infon>
+      <infon key="source">Nucleic Acids Res.</infon>
+      <infon key="lpage">2403</infon>
+      <infon key="pub-id_pmid">7630717</infon>
+      <infon key="fpage">2396</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>60022</offset>
+      <text>Cooperative assembly of proteins in the ribosomal GTPase centre demonstrated by their interactions with mutant 23S rRNAs</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1006/bbrc.2001.6021</infon>
+      <infon key="name_2">surname:Mukai;given-names:Y.</infon>
+      <infon key="name_0">surname:Sakumoto;given-names:N.</infon>
+      <infon key="name_1">surname:Yamashita;given-names:H.</infon>
+      <infon key="name_4">surname:Harashima;given-names:S.</infon>
+      <infon key="name_3">surname:Kaneko;given-names:Y.</infon>
+      <infon key="volume">289</infon>
+      <infon key="pub-id_pmid">11716519</infon>
+      <infon key="source">Biochem. Biophys. Res. Commun.</infon>
+      <infon key="fpage">608</infon>
+      <infon key="year">2001</infon>
+      <infon key="lpage">615</infon>
+      <infon key="type">ref</infon>
+      <offset>60143</offset>
+      <text>Dual-specificity protein phosphatase Yvh1p, which is required for vegetative growth and sporulation, interacts with yeast pescadillo homolog in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1016/S1097-2765(01)00403-8</infon>
+      <infon key="name_2">surname:Graindorge;given-names:J.S.</infon>
+      <infon key="name_0">surname:Senger;given-names:B.</infon>
+      <infon key="name_1">surname:Lafontaine;given-names:D.L.</infon>
+      <infon key="name_6">surname:Garnier;given-names:J.M.</infon>
+      <infon key="name_7">surname:Breitenbach;given-names:M.</infon>
+      <infon key="name_4">surname:Camasses;given-names:A.</infon>
+      <infon key="name_3">surname:Gadal;given-names:O.</infon>
+      <infon key="name_8">surname:Hurt;given-names:E.</infon>
+      <infon key="name_9">surname:Fasiolo;given-names:F.</infon>
+      <infon key="name_5">surname:Sanni;given-names:A.</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">11779510</infon>
+      <infon key="source">Mol. Cell.</infon>
+      <infon key="fpage">1363</infon>
+      <infon key="year">2001</infon>
+      <infon key="lpage">1373</infon>
+      <infon key="type">ref</infon>
+      <offset>60312</offset>
+      <text>The nucle(ol)ar Tif6p and Efl1p are required for a late cytoplasmic step of ribosome synthesis</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1126/science.1153878</infon>
+      <infon key="name_2">surname:Landry;given-names:C.R.</infon>
+      <infon key="name_0">surname:Tarassov;given-names:K.</infon>
+      <infon key="name_1">surname:Messier;given-names:V.</infon>
+      <infon key="name_6">surname:Malitskaya;given-names:Y.</infon>
+      <infon key="name_7">surname:Vogel;given-names:J.</infon>
+      <infon key="name_4">surname:Serna Molina;given-names:M.M.</infon>
+      <infon key="name_3">surname:Radinovic;given-names:S.</infon>
+      <infon key="name_8">surname:Bussey;given-names:H.</infon>
+      <infon key="name_9">surname:Michnick;given-names:S.W.</infon>
+      <infon key="name_5">surname:Shames;given-names:I.</infon>
+      <infon key="volume">320</infon>
+      <infon key="pub-id_pmid">18467557</infon>
+      <infon key="source">Science.</infon>
+      <infon key="fpage">1465</infon>
+      <infon key="year">2008</infon>
+      <infon key="lpage">1470</infon>
+      <infon key="type">ref</infon>
+      <offset>60407</offset>
+      <text>An in vivo map of the yeast protein interactome</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1126/science.1065810</infon>
+      <infon key="name_2">surname:Parsons;given-names:A.B.</infon>
+      <infon key="name_0">surname:Tong;given-names:A.H.</infon>
+      <infon key="name_1">surname:Evangelista;given-names:M.</infon>
+      <infon key="name_6">surname:Robinson;given-names:M.</infon>
+      <infon key="name_7">surname:Raghibizadeh;given-names:S.</infon>
+      <infon key="name_4">surname:Bader;given-names:G.D.</infon>
+      <infon key="name_3">surname:Xu;given-names:H.</infon>
+      <infon key="name_8">surname:Hogue;given-names:C.W.</infon>
+      <infon key="name_9">surname:Bussey;given-names:H.</infon>
+      <infon key="name_5">surname:Page;given-names:N.</infon>
+      <infon key="volume">294</infon>
+      <infon key="pub-id_pmid">11743205</infon>
+      <infon key="source">Science.</infon>
+      <infon key="fpage">2364</infon>
+      <infon key="year">2001</infon>
+      <infon key="lpage">2368</infon>
+      <infon key="type">ref</infon>
+      <offset>60455</offset>
+      <text>Systematic genetic analysis with ordered arrays of yeast deletion mutants</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1016/S0962-8924(03)00054-0</infon>
+      <infon key="volume">13</infon>
+      <infon key="name_0">surname:Tschochner;given-names:H.</infon>
+      <infon key="name_1">surname:Hurt;given-names:E.</infon>
+      <infon key="source">Trends Cell Biol.</infon>
+      <infon key="lpage">263</infon>
+      <infon key="pub-id_pmid">12742169</infon>
+      <infon key="fpage">255</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>60529</offset>
+      <text>Pre-ribosomes on the road from the nucleolus to the cytoplasm</text>
+    </passage>
+    <passage>
+      <infon key="volume">248</infon>
+      <infon key="name_0">surname:Udem;given-names:S.A.</infon>
+      <infon key="name_1">surname:Warner;given-names:J.R.</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="lpage">1416</infon>
+      <infon key="pub-id_pmid">4568815</infon>
+      <infon key="fpage">1412</infon>
+      <infon key="year">1973</infon>
+      <infon key="type">ref</infon>
+      <offset>60591</offset>
+      <text>The cytoplasmic maturation of a ribosomal precursor ribonucleic acid in yeast</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1146/annurev.genet.33.1.261</infon>
+      <infon key="volume">33</infon>
+      <infon key="name_0">surname:Venema;given-names:J.</infon>
+      <infon key="name_1">surname:Tollervey;given-names:D.</infon>
+      <infon key="source">Annu. Rev. Genet.</infon>
+      <infon key="lpage">311</infon>
+      <infon key="pub-id_pmid">10690410</infon>
+      <infon key="fpage">261</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>60669</offset>
+      <text>Ribosome synthesis in Saccharomyces cerevisiae</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1074/jbc.M700256200</infon>
+      <infon key="name_2">surname:Lo;given-names:K.Y.</infon>
+      <infon key="name_0">surname:West;given-names:M.</infon>
+      <infon key="name_1">surname:Hedges;given-names:J.B.</infon>
+      <infon key="name_3">surname:Johnson;given-names:A.W.</infon>
+      <infon key="volume">282</infon>
+      <infon key="pub-id_pmid">17347149</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="fpage">14028</infon>
+      <infon key="year">2007</infon>
+      <infon key="lpage">14037</infon>
+      <infon key="type">ref</infon>
+      <offset>60716</offset>
+      <text>Novel interaction of the 60S ribosomal subunit export adapter Nmd3 at the nuclear pore complex</text>
+    </passage>
+    <passage>
+      <infon key="comment">doi:10.1016/j.febslet.2007.05.013</infon>
+      <infon key="volume">581</infon>
+      <infon key="name_0">surname:Zemp;given-names:I.</infon>
+      <infon key="name_1">surname:Kutay;given-names:U.</infon>
+      <infon key="source">FEBS Lett.</infon>
+      <infon key="lpage">2793</infon>
+      <infon key="pub-id_pmid">17509569</infon>
+      <infon key="fpage">2783</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>60811</offset>
+      <text>Nuclear export and cytoplasmic maturation of ribosomal subunits</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Jacobson;given-names:A.</infon>
+      <infon key="volume">153</infon>
+      <infon key="name_0">surname:Zuk;given-names:D.</infon>
+      <infon key="name_1">surname:Belk;given-names:J.P.</infon>
+      <infon key="source">Genetics.</infon>
+      <infon key="lpage">47</infon>
+      <infon key="pub-id_pmid">10471698</infon>
+      <infon key="fpage">35</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>60875</offset>
+      <text>Temperature-sensitive mutations in the Saccharomyces cerevisiae MRT4, GRC5, SLA2 and THS1 genes result in defects in mRNA turnover</text>
+    </passage>
+  </document>
+</collection>

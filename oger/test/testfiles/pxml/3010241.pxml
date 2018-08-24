@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010241</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>10</Month>
+<Day>01</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0305-1048</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>14</Volume>
+<Issue>8</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Apr</Month>
+<Day>25</Day>
+</PubDate>
+</JournalIssue>
+<Title>Nucleic acids research</Title>
+<ISOAbbreviation>Nucleic Acids Res.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Multiple mechanisms generate extrachromosomal circular DNA in Chinese hamster ovary cells.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3527-38</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Seven cloned small circular DNA molecules from CHO cells were sequenced and examined for the presence of homologies to each other and to a number of other functional sequences present in transposable elements, retroviruses, mammalian repeat sequences, and introns. The sequences of the CHO cell circular DNA molecules did not reveal common structural features that could explain their presence in the circular DNA population. A gene bank was constructed for CHO chromosomal DNA and sequences homologous to two of the seven small circular DNA molecules were isolated and sequenced. The nucleotide sequences present at the junction of circular and chromosomal DNA suggest that a recombination process involving homologous pairing may have been involved in the generation of one, but not the other, of the two circular DNA molecules.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Stanfield</LastName>
+<ForeName>S W</ForeName>
+<Initials>SW</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Helinski</LastName>
+<ForeName>D R</ForeName>
+<Initials>DR</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<DataBankList CompleteYN="Y">
+<DataBank>
+<DataBankName>GENBANK</DataBankName>
+<AccessionNumberList>
+<AccessionNumber>X03823</AccessionNumber>
+<AccessionNumber>X03824</AccessionNumber>
+<AccessionNumber>X03825</AccessionNumber>
+<AccessionNumber>X03826</AccessionNumber>
+<AccessionNumber>X03827</AccessionNumber>
+<AccessionNumber>X03828</AccessionNumber>
+<AccessionNumber>X03829</AccessionNumber>
+<AccessionNumber>X03830</AccessionNumber>
+</AccessionNumberList>
+</DataBank>
+</DataBankList>
+<GrantList CompleteYN="Y">
+<Grant>
+<GrantID>AI-07194</GrantID>
+<Acronym>AI</Acronym>
+<Agency>NIAID NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+</GrantList>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013486">Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+<PublicationType UI="D013487">Research Support, U.S. Gov't, P.H.S.</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>ENGLAND</Country>
+<MedlineTA>Nucleic Acids Res</MedlineTA>
+<NlmUniqueID>0411011</NlmUniqueID>
+<ISSNLinking>0305-1048</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D004270">DNA, Circular</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.21.-</RegistryNumber>
+<NameOfSubstance UI="D004262">DNA Restriction Enzymes</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1976 Oct;9(2):333-45</RefSource>
+<PMID Version="1">824055</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1985 Aug 12;13(15):5563-84</RefSource>
+<PMID Version="1">2994003</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1977 Dec;74(12):5463-7</RefSource>
+<PMID Version="1">271968</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1978 Dec;75(12):5855-9</RefSource>
+<PMID Version="1">282606</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1979 Dec;76(12):6142-6</RefSource>
+<PMID Version="1">118461</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1981 Aug 13;292(5824):591-5</RefSource>
+<PMID Version="1">6265802</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1981 Jun;78(6):3673-7</RefSource>
+<PMID Version="1">6943571</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1982 Jan 25;154(3):399-415</RefSource>
+<PMID Version="1">7077666</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochemistry. 1982 Apr 27;21(9):2076-85</RefSource>
+<PMID Version="1">7093232</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Plasmid. 1982 Nov;8(3):299-306</RefSource>
+<PMID Version="1">6294712</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Gene. 1982 Oct;19(3):259-68</RefSource>
+<PMID Version="1">6295879</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1983 Mar 10;302(5904):119-24</RefSource>
+<PMID Version="1">6186922</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Curr Top Dev Biol. 1983;18:59-88</RefSource>
+<PMID Version="1">6340979</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Annu Rev Biochem. 1983;52:441-66</RefSource>
+<PMID Version="1">6193753</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Sep;34(2):415-9</RefSource>
+<PMID Version="1">6616617</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Oct 25;11(20):7169-79</RefSource>
+<PMID Version="1">6314280</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1984 Jan;4(1):173-80</RefSource>
+<PMID Version="1">6700583</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1984 Mar 25;174(1):31-40</RefSource>
+<PMID Version="1">6325707</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Jul;81(13):4018-22</RefSource>
+<PMID Version="1">6330730</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Aug 9-15;310(5977):514-6</RefSource>
+<PMID Version="1">6205279</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1984 Oct 11;12(19):7533-48</RefSource>
+<PMID Version="1">6208533</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Biochem. 1984 Dec 3;145(2):203-20</RefSource>
+<PMID Version="1">6209137</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1985 Jan 20;181(2):161-73</RefSource>
+<PMID Version="1">2984431</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1985 Apr;82(7):1989-93</RefSource>
+<PMID Version="1">3856877</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1985 Apr;82(7):2072-6</RefSource>
+<PMID Version="1">2984679</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>DNA. 1985 Apr;4(2):165-70</RefSource>
+<PMID Version="1">3996185</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1985 Mar 5;182(1):31-43</RefSource>
+<PMID Version="1">2582138</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1985 Jan 25;13(2):473-84</RefSource>
+<PMID Version="1">2987797</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1985 Feb 11;13(3):1027-42</RefSource>
+<PMID Version="1">2582357</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1985 Feb 25;13(4):1073-88</RefSource>
+<PMID Version="1">4000935</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1985 May 17;228(4701):823-4</RefSource>
+<PMID Version="1">4001923</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1985 Aug 15-21;316(6029):641-3</RefSource>
+<PMID Version="1">2412125</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1977 Jun 15;113(1):237-51</RefSource>
+<PMID Version="1">881736</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001483">Base Sequence</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002460">Cell Line</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002875">Chromosomes</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000032">analysis</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D003001">Cloning, Molecular</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006224">Cricetinae</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003412">Cricetulus</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004262">DNA Restriction Enzymes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004270">DNA, Circular</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008957">Models, Genetic</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010053">Ovary</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011817">Rabbits</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012689">Sequence Homology, Nucleic Acid</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC339791</OtherID>
+</MedlineCitation>

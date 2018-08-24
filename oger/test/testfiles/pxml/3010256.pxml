@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010256</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>05</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>05</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2015</Year>
+<Month>11</Month>
+<Day>19</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0196-9781</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>6</Volume>
+<Issue>6</Issue>
+<PubDate>
+<MedlineDate>1985 Nov-Dec</MedlineDate>
+</PubDate>
+</JournalIssue>
+<Title>Peptides</Title>
+<ISOAbbreviation>Peptides</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Covalent labeling of neurotensin receptors in rat gastric fundus plasma membranes.</ArticleTitle>
+<Pagination>
+<MedlinePgn>1137-41</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Neurotensin receptors from plasma membranes of rat gastric fundus smooth muscle were specifically and covalently labeled either by using the photoreactive analogue 125I-labeled azidobenzoyl (Trp11)-neurotensin or by cross-linking (monoiodo-Tyr3)neurotensin to the membrane preparation by means of disuccinimidyl suberate. Analysis of plasma membranes by sodium dodecylsulfate-polyacrylamide gel electrophoresis and autoradiography revealed that the same protein band with an apparent molecular weight of 110,000 was specifically labeled by both methods. This band consisted of a single chain protein since its apparent size was found to be the same with or without reduction of membrane samples before electrophoresis. Only neurotensin and its biologically active analogues were able to protect plasma membranes against specific labeling of the protein band of molecular weight 110,000. Comparison of these results with those obtained from rat brain synaptic membranes shows that although rat central and peripheral neurotensin receptors exhibit similar specificities towards a series of neurotensin analogues, their subunit structures are different.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Mazella</LastName>
+<ForeName>J</ForeName>
+<Initials>J</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Kwan</LastName>
+<ForeName>C Y</ForeName>
+<Initials>CY</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Kitabgi</LastName>
+<ForeName>P</ForeName>
+<Initials>P</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Vincent</LastName>
+<ForeName>J P</ForeName>
+<Initials>JP</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Peptides</MedlineTA>
+<NlmUniqueID>8008690</NlmUniqueID>
+<ISSNLinking>0196-9781</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D003432">Cross-Linking Reagents</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D018028">Receptors, Neurotensin</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D017981">Receptors, Neurotransmitter</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D013388">Succinimides</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>39379-15-2</RegistryNumber>
+<NameOfSubstance UI="D009496">Neurotensin</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>V9WYZ7QMDT</RegistryNumber>
+<NameOfSubstance UI="C019358">disuccinimidyl suberate</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001667">Binding, Competitive</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002462">Cell Membrane</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003432">Cross-Linking Reagents</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005748">Gastric Fundus</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007700">Kinetics</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008970">Molecular Weight</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009496">Neurotensin</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051381">Rats</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011919">Rats, Inbred Strains</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D018028">Receptors, Neurotensin</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D017981">Receptors, Neurotransmitter</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000302">isolation &amp; purification</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013388">Succinimides</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

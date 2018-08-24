@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010288</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>11</Month>
+<Day>21</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0027-8424</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>83</Volume>
+<Issue>10</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>May</Month>
+</PubDate>
+</JournalIssue>
+<Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+<ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Retroviral mutants efficiently expressed in embryonal carcinoma cells.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3292-6</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>The myeloproliferative sarcoma virus (MPSV) is a unique member of the Moloney murine sarcoma virus family. Due to mutations in the U3 region of its long terminal repeat, MPSV has an expanded host range that includes cells of the hematopoietic compartment. Using a MPSV recombinant containing the gene for neomycin-resistance (NeoR-MPSV), we demonstrate that the host range of MPSV also includes undifferentiated F9 embryonal carcinoma cells. Transfer of G418-resistance with NeoR-MPSV to F9 cells is almost as efficient as G418-resistance transfer to fibroblasts, in contrast to G418-resistance transfer to PCC4 embryonal carcinoma cells, which is at least 3 orders of magnitude lower. To isolate NeoR-MPSV mutants that are efficiently expressed in PCC4 cells, G418-resistant PCC4 cell lines were induced to differentiate, and the provirus was rescued by superinfection with murine leukemia virus. Viral isolates (PCMV-5 and -6; PCMV = PCC4 cell-passaged NeoR-MPSV) were obtained and assayed for expression in embryonal carcinoma cells. The efficiency of NeoR transfer was equally as high in both F9 and PCC4 as in fibroblasts. mos oncogene expression was unaltered as judged by transformation capability. No gross alteration in the coding region and in the long terminal repeat was detectable by restriction enzyme analysis. NeoR-MPSV and its mutants PCMV-5 and -6 can thus be utilized as vectors for the efficient transduction of genes into embryonic cells.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Franz</LastName>
+<ForeName>T</ForeName>
+<Initials>T</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Hilberg</LastName>
+<ForeName>F</ForeName>
+<Initials>F</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Seliger</LastName>
+<ForeName>B</ForeName>
+<Initials>B</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Stocking</LastName>
+<ForeName>C</ForeName>
+<Initials>C</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Ostertag</LastName>
+<ForeName>W</ForeName>
+<Initials>W</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+<NlmUniqueID>7505876</NlmUniqueID>
+<ISSNLinking>0027-8424</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>1404-04-2</RegistryNumber>
+<NameOfSubstance UI="D009355">Neomycin</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>5688UTC01R</RegistryNumber>
+<NameOfSubstance UI="D014212">Tretinoin</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Nov;81(21):6627-31</RefSource>
+<PMID Version="1">6593721</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Nov;81(22):7137-40</RefSource>
+<PMID Version="1">6095270</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1985 Mar;53(3):862-6</RefSource>
+<PMID Version="1">2983095</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1985 Apr;82(8):2422-6</RefSource>
+<PMID Version="1">3857593</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>EMBO J. 1985 Mar;4(3):663-6</RefSource>
+<PMID Version="1">4006902</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>EMBO J. 1985 Jul;4(7):1799-803</RefSource>
+<PMID Version="1">2992943</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1985 Oct;56(1):284-92</RefSource>
+<PMID Version="1">2993656</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1985 Sep;82(17):5746-50</RefSource>
+<PMID Version="1">2994046</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1986 Jan;6(1):286-93</RefSource>
+<PMID Version="1">3023829</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Int J Cancer. 1968 Mar 15;3(2):223-7</RefSource>
+<PMID Version="1">5649158</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1973 Dec;70(12):3899-903</RefSource>
+<PMID Version="1">4521215</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Cell Physiol. 1974 Aug;84(1):13-27</RefSource>
+<PMID Version="1">4858519</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1975 Nov 5;98(3):503-17</RefSource>
+<PMID Version="1">1195397</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1977 Dec;12(4):973-82</RefSource>
+<PMID Version="1">202395</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1978 Nov;75(11):5565-9</RefSource>
+<PMID Version="1">281705</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Exp Cell Res. 1979 Dec;124(2):381-91</RefSource>
+<PMID Version="1">510422</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1980 Mar 14;207(4436):1222-4</RefSource>
+<PMID Version="1">6243788</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1980 Mar;19(3):795-805</RefSource>
+<PMID Version="1">6244898</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1980 Jun;20(2):393-9</RefSource>
+<PMID Version="1">6248241</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1980 Feb;33(2):573-82</RefSource>
+<PMID Version="1">6251235</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Virology. 1980 Aug;105(1):241-4</RefSource>
+<PMID Version="1">7414951</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1981 Feb;37(2):541-8</RefSource>
+<PMID Version="1">6261006</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1981 Apr 23;290(5808):720-2</RefSource>
+<PMID Version="1">6261151</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1981 Mar;23(3):809-14</RefSource>
+<PMID Version="1">6261957</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Natl Cancer Inst. 1981 May;66(5):935-40</RefSource>
+<PMID Version="1">6262560</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1981 Feb;78(2):1100-4</RefSource>
+<PMID Version="1">6262755</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1981 Jul 25;150(1):1-14</RefSource>
+<PMID Version="1">6271971</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1982 Aug 12;298(5875):623-8</RefSource>
+<PMID Version="1">6285203</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1982 Jul;79(13):4098-102</RefSource>
+<PMID Version="1">6955793</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1983 Jan 6;301(5895):32-7</RefSource>
+<PMID Version="1">6296681</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Apr;32(4):1105-13</RefSource>
+<PMID Version="1">6188535</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Jun;33(2):313-4</RefSource>
+<PMID Version="1">6305503</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Mar 29-Apr 4;308(5958):470-2</RefSource>
+<PMID Version="1">6323996</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1984 Jun;50(3):717-24</RefSource>
+<PMID Version="1">6328001</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Mol Cell Biol. 1984 May;4(5):923-30</RefSource>
+<PMID Version="1">6727874</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002454">Cell Differentiation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002460">Cell Line</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004351">Drug Resistance</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005786">Gene Expression Regulation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051379">Mice</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008980">Moloney murine sarcoma virus</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009154">Mutation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009355">Neomycin</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051381">Rats</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009053">Sarcoma Viruses, Murine</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013724">Teratoma</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014161">Transduction, Genetic</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014212">Tretinoin</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC323499</OtherID>
+</MedlineCitation>

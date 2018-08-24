@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010203</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2009</Year>
+<Month>10</Month>
+<Day>26</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0029-7844</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>67</Volume>
+<Issue>6</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Jun</Month>
+</PubDate>
+</JournalIssue>
+<Title>Obstetrics and gynecology</Title>
+<ISOAbbreviation>Obstet Gynecol</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Cytoreductive surgery in ovarian carcinoma: feasibility and morbidity.</ArticleTitle>
+<Pagination>
+<MedlinePgn>783-8</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Between 1974 and 1984, 70 patients underwent primary cytoreductive surgery for ovarian carcinoma at the University of California at Los Angeles. During the period of January 1974 to December 1978, optimal cytoreduction was achieved in 56.4% of the patients. With increased experience, this figure improved to 87.1% in the period of January 1979 to December 1983. The most common morbidity associated with the procedure was fever and prolonged ileus. Bowel resection was required in 20% of the patients and was not associated with increased morbidity. More liberal use of the end-to-end anastomosis stapling device facilitated low colon reanastomosis without colostomy, which contributed to the improved patient acceptance.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Heintz</LastName>
+<ForeName>A P</ForeName>
+<Initials>AP</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Hacker</LastName>
+<ForeName>N F</ForeName>
+<Initials>NF</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Berek</LastName>
+<ForeName>J S</ForeName>
+<Initials>JS</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Rose</LastName>
+<ForeName>T P</ForeName>
+<Initials>TP</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Munoz</LastName>
+<ForeName>A K</ForeName>
+<Initials>AK</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Lagasse</LastName>
+<ForeName>L D</ForeName>
+<Initials>LD</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Obstet Gynecol</MedlineTA>
+<NlmUniqueID>0401101</NlmUniqueID>
+<ISSNLinking>0029-7844</ISSNLinking>
+</MedlineJournalInfo>
+<CitationSubset>AIM</CitationSubset>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000230">Adenocarcinoma</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000601">surgery</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002288">Adenocarcinoma, Mucinous</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000601">surgery</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000368">Aged</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002277">Carcinoma</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000601">surgery</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004715">Endometriosis</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000601">surgery</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005334">Fever</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000209">etiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007415">Intestinal Obstruction</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000209">etiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007422">Intestines</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000601">surgery</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008875">Middle Aged</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010051">Ovarian Neoplasms</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000601">surgery</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011183">Postoperative Complications</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012189">Retrospective Studies</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

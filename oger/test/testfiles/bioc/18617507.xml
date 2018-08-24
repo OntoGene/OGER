@@ -1,0 +1,2714 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>BioCBioGRID.key</key>
+  <document>
+    <id>18617507</id>
+    <infon key="top">189</infon>
+    <infon key="catagory">marked</infon>
+    <passage>
+      <infon key="name_2">surname:Lazo;given-names:Pedro A.</infon>
+      <infon key="volume">7</infon>
+      <infon key="name_0">surname:Sanz-Garcia;given-names:Marta</infon>
+      <infon key="name_1">surname:Lopez-Sanchez;given-names:Inmaculada</infon>
+      <infon key="license">Author's Choice - Final Version Full Access Creative Commons Attribution Non-Commercial License applies to Author Choice Articles</infon>
+      <infon key="article-id_publisher-id">M700586-MCP200</infon>
+      <infon key="type">front</infon>
+      <infon key="article-id_doi">10.1074/mcp.M700586-MCP200</infon>
+      <infon key="article-id_pmid">18617507</infon>
+      <infon key="lpage">2214</infon>
+      <infon key="article-id_pmc">2577208</infon>
+      <infon key="journal-title">Molecular &amp; Cellular Proteomics : MCP</infon>
+      <infon key="fpage">2199</infon>
+      <infon key="year">2008</infon>
+      <infon key="issue">11</infon>
+      <offset>0</offset>
+      <text>Proteomics Identification of Nuclear Ran GTPase as an Inhibitor of Human VRK1 and VRK2 (Vaccinia-related Kinase) Activities*S</text>
+      <annotation id="A0">
+        <infon key="OrganismID">9606</infon>
+        <infon key="type">Organism</infon>
+        <infon key="src">edit</infon>
+        <location offset="67" length="5"/>
+        <text>Human</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>129</offset>
+      <text>Human vaccinia-related kinase (VRK) 1 is a novel serine-threonine kinase that regulates several transcription factors, nuclear envelope assembly, and chromatin condensation and is also required for cell cycle progression. The regulation of this kinase family is unknown. Mass spectrometry has permitted the identification of Ran as an interacting and regulatory protein of the VRK serine-threonine kinase activities. The stable interaction has been validated by pulldown of endogenous proteins as well as by reciprocal immunoprecipitations. The three members of the VRK family stably interact with Ran, and the interaction was not affected by the bound nucleotide, GDP or GTP. The interaction was stronger with the RanT24N that is locked in its inactive conformation and cannot bind nucleotides. None of the kinases phosphorylated Ran or RCC1. VRK1 does not directly interact with RCC1, but if Ran is present they can be isolated as a complex. The main effect of the interaction of inactive RanGDP with VRK1 is the inhibition of its kinase activity, which was detected by a reduction in VRK1 autophosphorylation and a reduction in phosphorylation of histone H3 in residues Thr-3 and Ser-10. The kinase activity inhibition can be relieved by the interaction with the constitutively active RanGTP or RanL43E, which locks Ran in its GTP-bound active conformation. In this complex, the interaction with VRK proteins does not alter the effect of its guanine exchange factor, RCC1. Ran is a novel negative regulator of nuclear VRK1 and VRK2 kinase activity, which may vary in different subcellular localizations generating an asymmetric intracellular distribution of kinase activity depending on local protein interactions.</text>
+      <annotation id="3">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="454" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="4">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="506" length="3"/>
+        <text>VRK</text>
+      </annotation>
+      <annotation id="5">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="727" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="6">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="695" length="3"/>
+        <text>VRK</text>
+      </annotation>
+      <annotation id="PPIm_219">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="400" length="145"/>
+        <text>Mass spectrometry has permitted the identification of Ran as an interacting and regulatory protein of the VRK serine-threonine kinase activities.</text>
+      </annotation>
+      <annotation id="PPIm_220">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="546" length="123"/>
+        <text>The stable interaction has been validated by pulldown of endogenous proteins as well as by reciprocal immunoprecipitations.</text>
+      </annotation>
+      <annotation id="PPIm_221">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="670" length="135"/>
+        <text>The three members of the VRK family stably interact with Ran, and the interaction was not affected by the bound nucleotide, GDP or GTP.</text>
+      </annotation>
+      <annotation id="PPIe_135">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="400" length="145"/>
+        <text>Mass spectrometry has permitted the identification of Ran as an interacting and regulatory protein of the VRK serine-threonine kinase activities.</text>
+      </annotation>
+      <annotation id="PPIe_136">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="546" length="123"/>
+        <text>The stable interaction has been validated by pulldown of endogenous proteins as well as by reciprocal immunoprecipitations.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1847</offset>
+      <text>Since completion of the human kinome, a new subfamily of serine-threonine kinases, known as vaccinia-related kinases (VRKs),1 has been identified (1) that is composed of three proteins (2), two of which are catalytically active, VRK1 and VRK2 (3, 4), and are mainly expressed in proliferating cells (2, 5, 6). These proteins have a conserved kinase domain but differ in their regulatory region with little conservation among them or with any other protein. The VRK1 protein is mostly nuclear (3, 4), although in some cell types it is also present in the cytosol (7); this subcellular localization is regulated in response to a specific signal.2 The VRK2 gene codes for two isoforms. The cytosolic VRK2A isoform corresponds to the full length and has 507 amino acids, and its carboxyl-terminal region has a hydrophobic tail and is membrane-bound to the endoplasmic reticulum and mitochondria (8). The VRK2B isoform is shorter; corresponds to the first 397 amino acids of isoform A, thus lacking the membrane-anchoring region; and has both a cytosolic and nuclear localization; the latter is mainly expressed in cell types in which the VRK1 protein is cytosolic, thus suggesting a functional replacement (8).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3054</offset>
+      <text>Human VRK1 is the best characterized protein; it phosphorylates several transcription factors related with cellular responses to stress such as p53 (3, 9-11), forming an autoregulatory circuit (12); c-Jun (13); and ATF2 (14). VRK1 also phosphorylates Baf, a protein implicated in the assembly of nuclear envelope membranes (15, 16) and in the formation of a functional mitotic spindle (17). Recently VRK1 has been shown to phosphorylate histone H3 in Thr-3 and Ser-10 residues and is implicated in chromatin condensation (18). VRK1 expression has been correlated with several proliferation markers in head and neck squamous cell carcinomas (6). VRK1 expression parallels that of c-myc and c-fos and occurs early in the G1 phase (19). The phenotype induced by inactivation of VRK1 induces defective cell proliferation and eventually cell death, suggesting that VRK1 can participate at some stage in these processes (10).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3976</offset>
+      <text>Cell-specific biological effects are determined by the interplay among signaling pathways in the cells, which are likely to be determined by the proteins expressed, their interactions, and their levels in each cell type, but most intracellular protein-protein interactions remain to be identified. For the identification of these interactions the use of proteomics approaches represents a powerful tool that can identify protein networks as well as placing the proteins within signaling pathways related with different biological processes. Furthermore the characteristics of specific protein-protein interactions can also result in the identification of novel protein motifs that can be used to identify new components of protein networks in the cell. Elucidation of the components of a signaling pathway requires the identification of specific protein-protein interactions, which may be either consecutive steps in the pathway or regulatory elements.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4929</offset>
+      <text>The components of the signaling pathway where VRK1 is implicated, or other VRK members, are little known, therefore we decided to search for interacting proteins using a proteomics-based approach. The nuclear Ran GTPase was identified in this study by proteomics analysis as a partner of VRK proteins. The small GTPases are a family of signaling proteins of which the most characterized members are the Ras, Rho, and Rac proteins (20), all of which are cytosolic and mediate signals that reach mitogen-activated protein kinase pathways (21, 22). There is also a nuclear small GTPase, Ran, that belongs to the Ras superfamily (23-26); its partners in the nuclei are mostly unknown except for importin proteins that are implicated in nuclear transport, which is the best well established function of Ran (25, 27). However, Ran is also implicated in regulation of kinetochore function (28) and formation of a functional mitotic spindle (29). The active RanGTP is necessary to form membrane vesicles that are precursors required for the assembly of the nuclear envelope (30). The only guanine exchange factor known for Ran is RCC1 (29, 31, 32). Ran participates in chromosome segregation by its interaction with RCC1 (28, 29, 31). RCC1 generates a local concentration of RanGTP that is necessary for activation of proteins required for kinetochore assembly, spindle formation, or nuclear envelope formation among other mitotic events (17, 32). Nuclear envelop reformation depends in its early stages on RanGTP (30, 33). Ran can also activate the mitotic kinase Aurora A (34). In addition, its GEF, RCC1, is regulated by phosphorylation in mitosis preventing Ran binding to importin and turning it to chromosome binding (29).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6652</offset>
+      <text>In this work the nuclear Ran GTPase was identified as a modulator of VRK activity on itself or on histone H3, an effect that depends on the activation state of Ran. However, VRK1 did not affect the nucleotide-bound state of Ran. Thus, this Ran interaction with VRK proteins might regulate their kinase activity spatially and temporally in the cell, thus contributing to determining different roles depending on its subcellular localization and representing a functional compartmentalization.</text>
+      <annotation id="8">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="6892" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="6913" length="3"/>
+        <text>VRK</text>
+      </annotation>
+      <annotation id="PPIm_222">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="6881" length="262"/>
+        <text>Thus, this Ran interaction with VRK proteins might regulate their kinase activity spatially and temporally in the cell, thus contributing to determining different roles depending on its subcellular localization and representing a functional compartmentalization.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>7144</offset>
+      <text>EXPERIMENTAL PROCEDURES</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7168</offset>
+      <text>Plasmids:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7180</offset>
+      <text>Plasmid pCEFL-GST expresses GST fusion protein in mammalian cells. VRK1 full-length cDNA was subcloned in vector pCEFL-GST with restriction sites BamHI-BamHI. Plasmid pCEFL-GST-VRK2B was described previously (8). Plasmids pCEFL-HA-VRK1 (10), pCEFL-HA-VRK2A, and pCEFL-HA-VRK2B (8) express the human proteins tagged with an HA epitope. Different regions of VRK2 were also subcloned as fusion proteins in pCEFL-GST to produce clones pCEFL-GST-VRK2-N (1-320), pCEFL-GST-VRK2A-C1 (256-508), pCEFL-GST-VRK2A-C2 (364-508), and pCEFL-GST-VRK2B-C (256-397). Prokaryotic expression clones in plasmid pGEX-4T expressing GST-Ran (wild type), GST-RanL43E, and GST-RanT24N were from C. Walczak (Indiana University) (24). Bacterial expression constructs 6xHisRCC1, 6xHisRCC1S2A, 6xHisRCC1S11A, and 6xHisRCC1S2,11A and mammalian expression construct RCC1-GFP were from Y. Zheng (29). The plasmid pGEX-GST-VRK1 expressing human GST-VRK1 fusion protein was described previously (3) as were plasmids pGEX-GST-VRK2A and pGEX-GST-VRK2B expressing human GST-VRK2A and GST-VRK2B (8). 6xHisVRK1 construct was generated by subcloning VRK1 cDNA in pET23A vector (Novagen, Merck). VRK1 mammalian constructs pcDNA-VRK1-N-myc and pGFP-VRK1-C were described previously (3) as were the VRK1 mutant pcDNA-VRK1 K179E-myc (10). The coding region of human VRK3 cDNA was cloned by RT-PCR using primers VRK3-R1 (5'-CCGAATTCATGATCTCCTTCTGTCCAGACTGTG-3') and VRK3-NotI (5'-TTGCGGCCGCCTAGGGCACCATCGGGAGGCCAATG-3') and cloned in the EcoRI-NotI restriction sites of vector pCEFL-HA generating plasmid pCEFL-HA-VRK3.</text>
+      <annotation id="10">
+        <infon key="OrganismID">9606</infon>
+        <infon key="type">Organism</infon>
+        <infon key="src">edit</infon>
+        <location offset="7473" length="5"/>
+        <text>human</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>8771</offset>
+      <text>Protein Expression and Purification:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8810</offset>
+      <text>GST-Ran fusion proteins and GST-VRK1 were expressed in BL21DE3 cells and purified using glutathione-Sepharose (GE Healthcare) as reported previously (3, 24), aliquoted, and stored at -20  C. In some cases, proteins were eluted using reduced glutathione at 10 or 20 mm. Protein concentrations were determined by the Bradford assay (Bio-Rad). His-tagged proteins were expressed and purified with TALON Metal Affinity Resin (BD Biosciences) and eluted with 200 mm imidazole (Merck). Recombinant protein histone H3 was purchased from Upstate.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9352</offset>
+      <text>Cell Culture and Transfections:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9386</offset>
+      <text>The HEK293T and HeLa cell lines were grown in Dulbecco's modified Eagle's medium supplemented with 10% fetal calf serum, 2 mm glutamine, and antibiotics (at 37  C in 5% CO2). For transient transfections, 106 HEK293T cells were grown in P100 dishes and transfected 24 h later with the indicated amounts of plasmids with the jetPEI reagent (Polytransfection, Ilkirch, France) according to the manufacturer's recommendations.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>9810</offset>
+      <text>Purification of VRK-associated Proteins:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9853</offset>
+      <text>For each transfection, a total of 5 x 107 HEK293T cells were plated in 100-mm culture dishes. Cells were transiently transfected with pCEFL-GST-VRK1, pCEFL-GST-VRK2B, or pCEFL-GST using jetPEI reagent. Cells were lysed 48 h post-transfection in lysis buffer containing 1% Triton X-100, 200 mm NaCl, 50 mm Tris-HCl, pH 8.0, 1 mm sodium orthovanadate, 1 mm NaF, and protease inhibitors. After 30 min at 4  C, insoluble material was removed by centrifugation. The lysates were incubated with glutathione-Sepharose beads for 12 h at 4  C. Sepharose beads were extensively washed with lysis buffer and subjected to 2D electrophoresis.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>10486</offset>
+      <text>Two-dimensional Gel Electrophoresis:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10525</offset>
+      <text>After the beads were washed, they were mixed with 250 mul of rehydration buffer (7 m urea, 2 m thiourea, 4% CHAPS, 50 mm DTT, 5 mm tris(2-carboxyethyl)phosphine, 15 mg of DeStreak, and 0.5% IPG buffer), vortexed, incubated for 30 min at 30  C, and centrifuged for 2 min at 15,000 rpm. The supernatant was precipitated with methanol/chloroform, and finally the pellet was resuspended in rehydration buffer. The samples were applied to 13-cm IPG strips with a nonlinear pH gradient of 3-10 (Amersham Biosciences). Isoelectric focusing was performed at 50 V for 12 h, 500 V for 1 h, 1000 V for 1 h, a voltage gradient ranging from 1000 to 8000 V for 30 min, and finally 5 h until the voltage reached 35,000 V. Strips were treated with SDS equilibration buffer (375 mm Tris-HCl, pH 8.8, 6 m urea, 20% glycerol, and 2% SDS) plus 2% DTT for 15 min for protein denaturation and after that with equilibration buffer plus 2.5% iodoacetamide for protein alkylation. The second dimension electrophoresis was performed on 10% SDS-polyacrylamide gels. The protein spots were visualized with SYPRO Ruby protein gel staining.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>11639</offset>
+      <text>Spot Excision and Tryptic Digestion of Proteins:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11690</offset>
+      <text>Spots of interest were excised automatically using a Proteineer spII robotic spot excision station (Bruker Daltonics, Bremen, Germany). The digestion was performed as described previously (35) with minor variations as follows: gel plugs were washed with 25 mm ammonium bicarbonate and acetonitrile and subsequently treated with 20 mm DTT in 25 mm ammonium bicarbonate and 100 mm iodoacetamide in 25 mm ammonium bicarbonate. Then the gel pieces were rinsed with 50 mm ammonium bicarbonate plus acetonitrile and dried. Modified porcine trypsin, at a final concentration of 12 ng/mul in 25 mm ammonium bicarbonate (Promega, Madison, WI), was added to the dry gel pieces and incubated at 37  C for 16 h. Tryptic peptides were recovered and dried in a speed vacuum system and resuspended with 0.1% trifluoroacetic acid and 50% acetonitrile in a final extraction volume of 5 mul.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12565</offset>
+      <text>Mass Determination of Tryptic Peptides and Protein Identification:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12634</offset>
+      <text>For MALDI-TOF peptide mass fingerprinting a 0.5-mul aliquot of matrix solution (5 g/liter 2,5-dihydroxybenzoic acid in 33% aqueous acetonitrile plus 0.1% trifluoroacetic acid) was manually loaded onto a 400-mum-diameter AnchorChip  target plate (Bruker Daltonics) probe and allowed to dry at room temperature. Then 1 mul of the above extraction solution was added and allowed to dry at room temperature. Samples were analyzed on a Bruker Daltonics Ultraflex MALDI-TOF mass spectrometer. The acquisition mass range was set to 680-4000 Da. The equipment was first externally calibrated using protonated mass signals from a standard peptide calibration mixture that contained seven peptides (Bruker Daltonics Peptide Calibration Standard 206196) covering the 1000-3200 m/z range, and thereafter every spectrum was internally calibrated using selected signals arising from trypsin autoproteolysis (842.510- and 2211.105-Da peptides) to reach a typical mass measurement accuracy of +-30 ppm. Each raw spectrum was opened in Bio Tools 2.1 (Bruker Daltonics) software and processed and analyzed by Xtof 5.1.1 software (Bruker Daltonics) using the following parameters: signal-to-noise threshold of 1, Savitzky-Golay algorithm for smoothing, tangential algorithm for base-line substraction, and centroid algorithm for monoisotopic peak assignment. In all cases, resolution was higher than 9000. All known contaminants (trypsin autoproteolysis and known keratin peaks) were excluded during the process. The generated peak lists were copied to the Mascot server (version 2.0, January 2004) and searched against the Swiss-Prot database (February 22, 2006; 207,132 sequence entries for Fig. 1 or October 11, 2006; 234,112 sequence entries for supplemental Fig. S1). Search parameters were set as follows: searches were restricted to Homo sapiens sequences (13,484 sequences for Fig. 1 or 14,780 for supplemental Fig. S1), up to one missed tryptic cleavage, mass accuracy of 100 ppm, MH+ monoisotopic masses, carbamidomethylcysteine as fixed modification, and methionine oxidation as variable modification. Mowse scores with a value greater than 54 were considered as significant (p &lt; 0.05).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14819</offset>
+      <text>Western Blot Analysis, GST Pulldown Assays, Immunoprecipitation, and Antibodies:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14902</offset>
+      <text>Cells were harvested 48 h post-transfection and lysed with lysis buffer (1% Triton X-100, 200 mm NaCl, 50 mm Tris-HCl, pH 8.0, 1 mm sodium orthovanadate, 1 mm NaF, and protease inhibitors). 25 mug of total protein lysate were analyzed in SDS-polyacrylamide gels to check protein expression. For GST pulldown assays, cells were lysed with lysis buffer, and a total of 1 mg of total cell extract or the amount of cells specified were incubated with glutathione-Sepharose beads or with the corresponding GST fusion protein for 2-12 h at 4  C. Beads were washed four times with lysis buffer and analyzed in SDS-polyacrylamide gels. For endogenous VRK1 or Ran immunoprecipitation, cells were lysed with immunoprecipitation buffer (50 mm Hepes, pH 7.5, 50 mm NaCl, 0.1% Tween 20, 1% Triton X-100, 10% glycerol, and protease and phosphatase inhibitors) 48 h after seeding. Clarified cell lysates were subjected to Ran immunoprecipitation with a specific monoclonal antibody or to VRK1 immunoprecipitation with VE1 and VC1 polyclonal antibodies at 4  C for several hours followed by incubation with gamma-Bind beads (GE Healthcare) overnight. Beads were extensively washed with immunoprecipitation buffer, processed with Laemmli buffer, and analyzed by SDS-PAGE. Human VRK1 protein was detected with monoclonal 1F6 or polyclonal VE1 antibody (7). Human VRK2 proteins were detected with a rabbit polyclonal antibody that recognized both isoforms (8). GST was identified with the monoclonal antibody B14 from Santa Cruz Biotechnology. Ran was detected with monoclonal clone 20 (BD Biosciences-Pharmingen). RCC1 was detected with N19 anti-goat polyclonal antibody from Santa Cruz Biotechnology. The HA epitope was detected with a specific monoclonal antibody from Covance (San Francisco, CA). The secondary antibodies used for Western blots anti-(mouse-HRP), anti-(rabbit-HRP) or anti-(goat-HRP) were from GE Healthcare. Luminescence in Western blot was developed with an ECL kit (GE Healthcare).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>16889</offset>
+      <text>In Vitro Interaction Assay:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16919</offset>
+      <text>In vitro binding assays were carried out with purified proteins at the indicated concentrations in 250 mul of MgCl2 buffer (20 mm Tris-HCl, pH 8.0, 50 mm NaCl, 2.5 mm MgCl2, 0.1% Triton X-100, and 10% (v/v) glycerol). Where specified, nucleotides or EDTA were added at 2 mm to perform the loading of nucleotides to Ran fusion proteins. The loading was carried out at room temperature for 30 min in a final volume of 50 mul before diluting to 250 mul in MgCl2 buffer. To perform the in vitro binding assays, proteins were incubated for 2 h at 4  C. GST-tagged proteins and interacting partners were precipitated by addition of 30 mul of glutathione-Sepharose beads. The beads were washed four times with MgCl2 buffer and analyzed by SDS-PAGE. Proteins were transferred to Immobilon-P membranes (Millipore) and immunoblotted with the appropriate antibodies.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17776</offset>
+      <text>VRK1 Kinase Assay:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17797</offset>
+      <text>VRK1 kinase activity was determined by assaying protein phosphorylation in a final volume of 30 mul containing kinase buffer (20 mm Tris-HCl, pH 7.5, 5 mm MgCl2, 0.5 mm DTT, and 150 mm KCl), 100 mum ATP, and 5 muCi of [gamma-32P]ATP with 1 mug of GST-VRK1, GST-VRK2A, or GST-VRK2B protein and the indicated amounts of another proteins as substrates or cofactors. In all assays, the amount of recombinant histone H3 used as substrate was 1 mug. To perform immunocomplex kinase assays, VRK1 was immunoprecipitated from HEK293T cells as described above. The reactions were routinely performed at 30  C for 30 min (3) and stopped by boiling in Laemmli buffer. In all cases, GST-VRK proteins or immunoprecipitated VRK1 was incubated previously with GST-Ran purified proteins or with buffer only 1 h at 4  C to allow the interaction before starting the phosphorylation reactions. The phosphorylated proteins were analyzed by electrophoresis in 12.5% SDS-polyacrylamide gels. The gels were stained with Coomassie Blue (Merck) or transferred to Immobilon-P membranes (Millipore), and the incorporated radioactivity was measured using a Molecular Imager FX (Bio-Rad). To detect specific phosphorylated residues of histone H3, proteins were transferred to Immobilon-P membranes and immunoblotted with anti-phosphohistone H3 Thr-3 and Ser-10 antibodies (Upstate). When indicated, membranes were stained with Ponceau stain.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>19208</offset>
+      <text>Confocal Immunofluorescence Microscopy:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19250</offset>
+      <text>HeLa or HEK293T cells were plated on 60-mm dishes containing poly-l-lysine-treated coverslips. 24 or 48 h later, the slides were collected, and cells were fixed and permeabilized with cold methanol/acetone (1:1) for 10 min at -20  C. A 1% bovine serum albumin solution in NaCl/Pi was used to block the cells for 30 min at room temperature. Endogenous Ran and VRK1 (or VRK2) were detected by consecutive immunostaining with the specific antibodies described above diluted in blocking solution. Cells were incubated for 1 h at room temperature with each primary antibody and then with a mixture of the secondary antibodies, goat anti-mouse Cy2-labeled (GE Healthcare) and goat anti-rabbit Cy3-labeled (GE Healthcare), for 1 h at room temperature. Nuclei were stained with 4',6-diamidino-2-phenylindole (Sigma) for 10 min at room temperature. Slides were mounted with Gelvatol (Monsanto) and analyzed with a Zeiss LSM510 confocal microscope.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>20194</offset>
+      <text>GDP Unloading/GTP Loading Assays:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20230</offset>
+      <text>For GDP release assays, a stock for several reactions of Ran loaded with radioactive GDP was made. GST-Ran (1 nmol) in loading buffer (20 mm Tris-HCl, pH 7.5, 100 mm NaCl, 0.1% (v/v) Triton X-100, 1 mm MgCl2, and 6 mm EDTA) was incubated with 0.185 MBq of [3H]GDP (5 muCi) (GE Healthcare TRK 335) in a final volume of 50 mul for 30 min at 24  C. To stabilize the bound nucleotide, the protein was diluted with 450 mul of loading buffer containing 20 mm MgCl2, and the dilution was stored in ice. In each reaction, 50 pmol of loaded Ran (25 mul) was mixed with an equal volume of reaction mixture. Reaction mixtures contained RCC1 and VRK1 in exchange buffer (20 mm Tris-HCl, pH 7.5, 100 mm NaCl, and 0.1% Triton X-100) to give final protein concentrations indicated in the figures and free unlabeled GTP for exchange in a final concentration of 2 mm. In all cases, loaded Ran was incubated previously for 15 min at 24  C with the indicated amount of VRK1 in exchange buffer or with exchange buffer only in reactions without VRK1 to allow the interaction. Then RCC1 and free GTP were added, and the final reaction mixture was incubated for 5 min at 24  C to perform the GDP release assay. To stop the reaction, samples were added to 2 ml of stop buffer (20 mm Tris-HCl, pH 7.5, 25 mm MgCl2, and 100 mm NaCl) and immediately filtered through nitrocellulose filters (Millipore). The filters were washed with 20 ml of stop buffer, transferred to vials, and dissolved with 1 ml of 2-methoxyethanol (Sigma). Radioactivity that remained bound to the filters was determined by liquid scintillation counting. Each reaction was performed in triplicate, and the results are shown as mean values with error bars indicating the S.E. For GTP binding assays, the same protocol was performed with the following variations: GST-Ran was loaded with 0.1 mumol of unlabeled GDP, and 0.007 mum (0.35 mul of) free 35S-GTP (GE Healthcare SJ-1320) was used for exchange in each reaction. The incorporated radioactivity was measured at the indicated times in the figures.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>22280</offset>
+      <text>RESULTS</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>22288</offset>
+      <text>Identification of Ran as a Partner of VRK2B and VRK1 by Mass Spectrometry:</text>
+      <annotation id="18">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="22306" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="22326" length="5"/>
+        <text>VRK2B</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="22336" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="PPIm_223">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="22288" length="74"/>
+        <text>Identification of Ran as a Partner of VRK2B and VRK1 by Mass Spectrometry:</text>
+      </annotation>
+      <annotation id="PPIe_137">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="22288" length="74"/>
+        <text>Identification of Ran as a Partner of VRK2B and VRK1 by Mass Spectrometry:</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22365</offset>
+      <text>To identify proteins that interact with members of the human VRK protein family an approach based on the use of a biochemical copurification of complexes using the GST affinity tag coupled with protein identification using mass spectrometry (MALDI-TOF) was followed (Fig 1A). For this aim HEK293T cells were transfected with mammalian plasmids expressing fusion proteins GST-VRK1 or GST-VRK2B (the nuclear isoform of VRK2) (8) that are identical and differ only in the last amino acid (8) and with the empty vector expressing GST. The correct expression of the transfected proteins was confirmed in an immunoblot analysis (Fig 1B, left, and supplemental Fig S1A, left). Cell extracts were used for a pulldown of associated proteins using as control GST versus GST-VRK2B or GST-VRK1. The proteins bound to the Sepharose beads were separated by isoelectrofocusing followed by an electrophoresis in the second dimension. SYPRO Ruby staining allowed the detection of several different spots pulled down with GST-VRK2B or GST-VRK1 but not with control GST that may correspond to proteins specifically bound to VRK proteins. In both cases, a ~25-kDa spot was excised from gels for MS identification (Fig. 1B, right and supplemental Fig S1A, right). The analysis of the MALDI-TOF spectrum in each case showed several tryptic peptide masses that matched to theoretical masses from the Ran GTPase sequence (Swiss-Prot accession number P62826) (Fig. 1C and supplemental Fig. S1B). For the spot from the VRK2B pulldown, 12 of the 21 mass values searched matched with Ran, spanning 39% of the protein sequence (Fig. 1D) with a score of 170. For the spot from the VRK1 pulldown, 15 of the 23 mass values matched with Ran, covering 59% of the full-length protein (supplemental Fig. S1C) with a score of 229. Sequences corresponding to each tryptic peptide are shown (Fig. 1C, right, and supplemental Fig S1C). These data indicate that the protein selectively bound to VRK2B or VRK1 is Ran, the only known nuclear GTPase (36). These results suggested that Ran can interact with several members of the VRK family.</text>
+      <annotation id="19">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="23921" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="24336" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="24406" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="23858" length="5"/>
+        <text>VRK2B</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="24319" length="5"/>
+        <text>VRK2B</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="24328" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="24451" length="3"/>
+        <text>VRK</text>
+      </annotation>
+      <annotation id="182">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="24016" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="183">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="24069" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="A15">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="22740" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="A16">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="22752" length="5"/>
+        <text>VRK2B</text>
+      </annotation>
+      <annotation id="A17">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="23129" length="5"/>
+        <text>VRK2B</text>
+      </annotation>
+      <annotation id="A18">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="23142" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="A19">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="23373" length="5"/>
+        <text>VRK2B</text>
+      </annotation>
+      <annotation id="A20">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="23386" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="A21">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="23742" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="PPIm_224">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="22641" length="254"/>
+        <text>For this aim HEK293T cells were transfected with mammalian plasmids expressing fusion proteins GST-VRK1 or GST-VRK2B (the nuclear isoform of VRK2) (8) that are identical and differ only in the last amino acid (8) and with the empty vector expressing GST.</text>
+      </annotation>
+      <annotation id="PPIm_225">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="22896" length="138"/>
+        <text>The correct expression of the transfected proteins was confirmed in an immunoblot analysis (Fig 1B, left, and supplemental Fig S1A, left).</text>
+      </annotation>
+      <annotation id="PPIm_226">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="23035" length="112"/>
+        <text>Cell extracts were used for a pulldown of associated proteins using as control GST versus GST-VRK2B or GST-VRK1.</text>
+      </annotation>
+      <annotation id="PPIm_227">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="23148" length="134"/>
+        <text>The proteins bound to the Sepharose beads were separated by isoelectrofocusing followed by an electrophoresis in the second dimension.</text>
+      </annotation>
+      <annotation id="PPIm_228">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="23283" length="200"/>
+        <text>SYPRO Ruby staining allowed the detection of several different spots pulled down with GST-VRK2B or GST-VRK1 but not with control GST that may correspond to proteins specifically bound to VRK proteins.</text>
+      </annotation>
+      <annotation id="PPIm_229">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="23484" length="123"/>
+        <text>In both cases, a ~25-kDa spot was excised from gels for MS identification (Fig. 1B, right and supplemental Fig S1A, right).</text>
+      </annotation>
+      <annotation id="PPIm_230">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="23608" length="227"/>
+        <text>The analysis of the MALDI-TOF spectrum in each case showed several tryptic peptide masses that matched to theoretical masses from the Ran GTPase sequence (Swiss-Prot accession number P62826) (Fig. 1C and supplemental Fig. S1B).</text>
+      </annotation>
+      <annotation id="PPIm_231">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <location offset="23836" length="157"/>
+        <text>For the spot from the VRK2B pulldown, 12 of the 21 mass values searched matched with Ran, spanning 39% of the protein sequence (Fig. 1D) with a score of 170.</text>
+      </annotation>
+      <annotation id="PPIm_232">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <location offset="23994" length="164"/>
+        <text>For the spot from the VRK1 pulldown, 15 of the 23 mass values matched with Ran, covering 59% of the full-length protein (supplemental Fig. S1C) with a score of 229.</text>
+      </annotation>
+      <annotation id="PPIm_233">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="24261" length="115"/>
+        <text>These data indicate that the protein selectively bound to VRK2B or VRK1 is Ran, the only known nuclear GTPase (36).</text>
+      </annotation>
+      <annotation id="PPIm_234">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="24377" length="85"/>
+        <text>These results suggested that Ran can interact with several members of the VRK family.</text>
+      </annotation>
+      <annotation id="PPIe_138">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="23035" length="112"/>
+        <text>Cell extracts were used for a pulldown of associated proteins using as control GST versus GST-VRK2B or GST-VRK1.</text>
+      </annotation>
+      <annotation id="PPIe_139">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <location offset="23836" length="157"/>
+        <text>For the spot from the VRK2B pulldown, 12 of the 21 mass values searched matched with Ran, spanning 39% of the protein sequence (Fig. 1D) with a score of 170.</text>
+      </annotation>
+      <annotation id="PPIe_140">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <location offset="23994" length="164"/>
+        <text>For the spot from the VRK1 pulldown, 15 of the 23 mass values matched with Ran, covering 59% of the full-length protein (supplemental Fig. S1C) with a score of 229.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>24465</offset>
+      <text>In Vitro Interaction of the Three Human VRK Proteins with GST-Ran:</text>
+      <annotation id="31">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="24505" length="3"/>
+        <text>VRK</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="24527" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="PPIm_235">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="24465" length="66"/>
+        <text>In Vitro Interaction of the Three Human VRK Proteins with GST-Ran:</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24534</offset>
+      <text>To further confirm that all human VRK proteins or their isoforms were able to interact with Ran, in vitro pulldown experiments were performed. The HEK293T cell line was transfected with plasmids expressing either VRK1 (10, 12) or VRK2B (8) and also VRK2A or VRK3. Cell extracts from transfected cells were used for a pulldown with glutathione-Sepharose beads containing either bacterially expressed GST-Ran or its mutants, GST-RanT24N that has a non-active conformation and mimics the GDP-bound state or RanL43E that mimics the GTP-bound active conformation and does not hydrolyze GTP (24, 37). The GST-Ran proteins were used to bring down associated proteins that were detected in immunoblots with an anti-HA antibody specific for the HA epitope tag used in VRK proteins. The three GST-Ran proteins, wild type and both mutants, but not the GST control, were able to stably interact with VRK1 (Fig. 2A), VRK2B (Fig. 2B), VRK2A (Fig. 2C), and VRK3 (Fig. 2D). These results indicate that the three human VRK proteins are able to interact with human Ran protein.</text>
+      <annotation id="35">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="25321" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="25422" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="25438" length="5"/>
+        <text>VRK2B</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="25455" length="5"/>
+        <text>VRK2A</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">51231</infon>
+        <location offset="25476" length="4"/>
+        <text>VRK3</text>
+      </annotation>
+      <annotation id="40">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="25581" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="A39">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="25536" length="3"/>
+        <text>VRK</text>
+      </annotation>
+      <annotation id="PPIm_236">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="25129" length="177"/>
+        <text>The GST-Ran proteins were used to bring down associated proteins that were detected in immunoblots with an anti-HA antibody specific for the HA epitope tag used in VRK proteins.</text>
+      </annotation>
+      <annotation id="PPIm_237">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="25307" length="184"/>
+        <text>The three GST-Ran proteins, wild type and both mutants, but not the GST control, were able to stably interact with VRK1 (Fig. 2A), VRK2B (Fig. 2B), VRK2A (Fig. 2C), and VRK3 (Fig. 2D).</text>
+      </annotation>
+      <annotation id="PPIm_238">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="25492" length="101"/>
+        <text>These results indicate that the three human VRK proteins are able to interact with human Ran protein.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25594</offset>
+      <text>Next whether VRK1 binding to Ran was concentration-dependent was tested. For this aim an in vitro interaction assay was performed using a non-limiting concentration of GST-Ran protein (80 nm) and increasing concentrations of VRK1 protein. The VRK1 bound to Ran was identified in an in vitro pulldown assay followed by an immunoblot. As the amount of VRK1-His increased so did the amount bound to GST-Ran (Fig. 2E), indicating that this interaction is direct and does not require any additional protein.</text>
+      <annotation id="42">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="25837" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="43">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="25851" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="45">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="25944" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="46">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="25994" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="PPIm_239">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="25833" length="93"/>
+        <text>The VRK1 bound to Ran was identified in an in vitro pulldown assay followed by an immunoblot.</text>
+      </annotation>
+      <annotation id="PPIm_240">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="25927" length="169"/>
+        <text>As the amount of VRK1-His increased so did the amount bound to GST-Ran (Fig. 2E), indicating that this interaction is direct and does not require any additional protein.</text>
+      </annotation>
+      <annotation id="PPIe_141">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="25833" length="93"/>
+        <text>The VRK1 bound to Ran was identified in an in vitro pulldown assay followed by an immunoblot.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26097</offset>
+      <text>Because the nucleotide loading of Ran might affect its interactions with other proteins such as VRK1, this in vitro interaction was also determined after loading Ran with either GDP or GTP to try to determine whether there were differences based on the bound nucleotide. GST-Ran and His-VRK1 were incubated in vitro under different conditions regarding the presence of nucleotide or EDTA. VRK1 was detected in the pulldown independently of the nucleotide present (Fig. 2F, the first two lanes with wild-type Ran), although it appeared to be stronger in the case of the inactive GST-RanT24N (Fig. 2F).</text>
+      <annotation id="A47">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="26486" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="PPIm_241">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="26486" length="211"/>
+        <text>VRK1 was detected in the pulldown independently of the nucleotide present (Fig. 2F, the first two lanes with wild-type Ran), although it appeared to be stronger in the case of the inactive GST-RanT24N (Fig. 2F).</text>
+      </annotation>
+      <annotation id="PPIe_142">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="26486" length="211"/>
+        <text>VRK1 was detected in the pulldown independently of the nucleotide present (Fig. 2F, the first two lanes with wild-type Ran), although it appeared to be stronger in the case of the inactive GST-RanT24N (Fig. 2F).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>26698</offset>
+      <text>Interaction of Endogenous VRK1 with GST-Ran:</text>
+      <annotation id="48">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="26724" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="49">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="26738" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="PPIm_242">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="26698" length="44"/>
+        <text>Interaction of Endogenous VRK1 with GST-Ran:</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26745</offset>
+      <text>Endogenous VRK1 protein is expressed at significant levels in HEK293T cells (Fig. 3A, top gel). Therefore extracts of this cell line were incubated with GST-Ran beads and used for a pulldown assay. The GST-Ran protein (Fig. 3A, left lane), but not the negative control GST (Fig. 3A, right lane), was able to specifically interact with human VRK1. Next to determine whether the conformation of Ran could significantly alter the interaction, a similar assay was performed using three different Ran proteins in the pulldown assay. The three Ran proteins, wild type, RanL43E and RanT24N mutants, were able to interact and brought down the endogenous VRK1 protein (Fig. 3B).</text>
+      <annotation id="54">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="26951" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="55">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="27086" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="56">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="27283" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="57">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="27391" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="A50">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="26902" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="PPIm_243">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="26841" length="101"/>
+        <text>Therefore extracts of this cell line were incubated with GST-Ran beads and used for a pulldown assay.</text>
+      </annotation>
+      <annotation id="PPIm_244">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="26943" length="148"/>
+        <text>The GST-Ran protein (Fig. 3A, left lane), but not the negative control GST (Fig. 3A, right lane), was able to specifically interact with human VRK1.</text>
+      </annotation>
+      <annotation id="PPIm_245">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="27273" length="141"/>
+        <text>The three Ran proteins, wild type, RanL43E and RanT24N mutants, were able to interact and brought down the endogenous VRK1 protein (Fig. 3B).</text>
+      </annotation>
+      <annotation id="PPIe_143">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="26841" length="101"/>
+        <text>Therefore extracts of this cell line were incubated with GST-Ran beads and used for a pulldown assay.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27415</offset>
+      <text>To confirm this result, a reciprocal experiment was performed to determine whether the endogenous Ran protein was also able to interact with transfected VRK1. For this aim HEK293T cells were transfected with plasmid pCEFL-GST-VRK1, and the expressed fusion GST-VRK1 protein was used for a pulldown experiment. In the lysate the expression of transfected proteins as well as endogenous Ran and its interacting protein RCC1 (29) were determined (Fig. 3C, top). In the pulldown Ran was clearly detected in the corresponding immunoblot in which RCC1 was also present in this complex (Fig. 3C, bottom). To rule out that RCC1 does not directly interact with VRK1, a similar experiment was performed in which exogenous RCC1 was transfected (plasmid pGFP-RCC1) to displace endogenous RCC1 from the complex. This exogenous GFP-RCC1 protein did not displace the endogenous RCC1 from Ran, but it did compete with VRK1 for some of Ran because a smaller amount of Ran was detected bound to VRK1, and no GFP-RCC1 could be detected bound to VRK1 in the pulldown (Fig. 3D).</text>
+      <annotation id="58">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="27890" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="59">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">1104</infon>
+        <location offset="27956" length="4"/>
+        <text>RCC1</text>
+      </annotation>
+      <annotation id="60">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="28366" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="61">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="28392" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="A56">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="27676" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="A57">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="27800" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="A58">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">1104</infon>
+        <location offset="27832" length="4"/>
+        <text>RCC1</text>
+      </annotation>
+      <annotation id="PPIm_246">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="27574" length="150"/>
+        <text>For this aim HEK293T cells were transfected with plasmid pCEFL-GST-VRK1, and the expressed fusion GST-VRK1 protein was used for a pulldown experiment.</text>
+      </annotation>
+      <annotation id="PPIm_247">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="27725" length="148"/>
+        <text>In the lysate the expression of transfected proteins as well as endogenous Ran and its interacting protein RCC1 (29) were determined (Fig. 3C, top).</text>
+      </annotation>
+      <annotation id="PPIm_248">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="27874" length="138"/>
+        <text>In the pulldown Ran was clearly detected in the corresponding immunoblot in which RCC1 was also present in this complex (Fig. 3C, bottom).</text>
+      </annotation>
+      <annotation id="PPIm_249">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="28214" length="258"/>
+        <text>This exogenous GFP-RCC1 protein did not displace the endogenous RCC1 from Ran, but it did compete with VRK1 for some of Ran because a smaller amount of Ran was detected bound to VRK1, and no GFP-RCC1 could be detected bound to VRK1 in the pulldown (Fig. 3D).</text>
+      </annotation>
+      <annotation id="PPIe_144">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="27574" length="150"/>
+        <text>For this aim HEK293T cells were transfected with plasmid pCEFL-GST-VRK1, and the expressed fusion GST-VRK1 protein was used for a pulldown experiment.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>28473</offset>
+      <text>Subcellular Localization of Endogenous VRK1 and Ran Proteins and Detection of Their Interaction by Reciprocal Immunoprecipitation:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>28606</offset>
+      <text>As an initial step, whether the two proteins, VRK1 and Ran, were at least partially colocalized within the cell was determined. The endogenous VRK1 and Ran proteins were detected by confocal immunofluorescence in HEK293T (Fig. 4A) and HeLa (not shown) cell lines. VRK1, detected with the polyclonal antibody VE1, was mostly localized in the nucleus, and some was localized in the cytosol (7). Ran was mostly cytosolic with some nuclear aggregation. Both proteins presented some overlap of their signals both in nucleus and cytosol in interphase (Fig. 4A). In cells that have finished cell division, Ran was mostly located on, or near, the nuclear membrane, but its overlap with VRK1 was intranuclear (Fig. 4B).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29317</offset>
+      <text>To validate the interaction detected between Ran and VRK1, a reciprocal immunoprecipitation experiment was performed. The expression of the VRK1 and Ran proteins was first checked in the cell lysate (Fig. 4C, top gel). This extract was used for immunoprecipitation of Ran (Fig. 4C, bottom left) or VRK1 protein (Fig. 4C, bottom right). In each case a parallel immunoprecipitation with an antibody of the same isotype without an endogenous target was performed as negative control. VRK1 was detected in the Ran immunoprecipitate but not in the control with a nonspecific (anti-AU5) antibody (Fig. 4C, bottom left). Next the inverse experiment was performed, endogenous VRK1 was immunoprecipitated, and the Ran protein was detected in this specific immunoprecipitate but not in the case of the control with an anti-FLAG antibody (Fig. 4C, bottom right). As a positive control, a parallel experiment was performed to check whether RCC1 was also detected as bound to immunoprecipitated Ran following the same experimental conditions used to see the interaction of VRK1 with immunoprecipitated Ran (Fig. 4D).</text>
+      <annotation id="67">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="29362" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="68">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="29370" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="71">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="29985" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="72">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="30022" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="114">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="29798" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="115">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="29823" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="121">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">1104</infon>
+        <location offset="30245" length="4"/>
+        <text>RCC1</text>
+      </annotation>
+      <annotation id="122">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="30299" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="126">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="30406" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="127">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="30377" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="PPIm_250">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="29317" length="117"/>
+        <text>To validate the interaction detected between Ran and VRK1, a reciprocal immunoprecipitation experiment was performed.</text>
+      </annotation>
+      <annotation id="PPIm_251">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="29798" length="132"/>
+        <text>VRK1 was detected in the Ran immunoprecipitate but not in the control with a nonspecific (anti-AU5) antibody (Fig. 4C, bottom left).</text>
+      </annotation>
+      <annotation id="PPIm_252">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="29931" length="237"/>
+        <text>Next the inverse experiment was performed, endogenous VRK1 was immunoprecipitated, and the Ran protein was detected in this specific immunoprecipitate but not in the case of the control with an anti-FLAG antibody (Fig. 4C, bottom right).</text>
+      </annotation>
+      <annotation id="PPIm_253">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="30169" length="251"/>
+        <text>As a positive control, a parallel experiment was performed to check whether RCC1 was also detected as bound to immunoprecipitated Ran following the same experimental conditions used to see the interaction of VRK1 with immunoprecipitated Ran (Fig. 4D).</text>
+      </annotation>
+      <annotation id="PPIe_145">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="29798" length="132"/>
+        <text>VRK1 was detected in the Ran immunoprecipitate but not in the control with a nonspecific (anti-AU5) antibody (Fig. 4C, bottom left).</text>
+      </annotation>
+      <annotation id="PPIe_146">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="29931" length="237"/>
+        <text>Next the inverse experiment was performed, endogenous VRK1 was immunoprecipitated, and the Ran protein was detected in this specific immunoprecipitate but not in the case of the control with an anti-FLAG antibody (Fig. 4C, bottom right).</text>
+      </annotation>
+      <annotation id="PPIe_147">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="30169" length="251"/>
+        <text>As a positive control, a parallel experiment was performed to check whether RCC1 was also detected as bound to immunoprecipitated Ran following the same experimental conditions used to see the interaction of VRK1 with immunoprecipitated Ran (Fig. 4D).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30421</offset>
+      <text>Because VRK1 and VRK2 have a high conservation in their first 396 amino acids, whether there was an overlap between Ran and VRK2 was also tested. In the case of the endogenous VRK2 proteins the antibody cannot discriminate between its two isoforms because the sequence of isoform B corresponds to the first 397 amino acids of isoform A; therefore the signal has to be distributed in the cytosol and some in nuclei (8). In HEK293T cells there was a strong overlap between the cytosolic signal of VRK2 and Ran (Fig. 4E), suggesting that they might also be forming a complex in this compartment.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>31014</offset>
+      <text>Identification of the VRK1 Region Interacting with Ran:</text>
+      <annotation id="78">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="31036" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="79">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="31065" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="PPIm_254">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="31014" length="55"/>
+        <text>Identification of the VRK1 Region Interacting with Ran:</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>31072</offset>
+      <text>To identify the region of the VRK1 molecule required for the interaction with Ran, a pulldown with three different constructs of VRK1 as targets of GST-Ran was performed. The VRK1 regions were the full length (amino acids 1-396), amino-terminal domain (amino acids 1-332), and carboxyl-terminal domain (amino acids 267-396) as well as the kinase-dead VRK1(K179E). The full length interacted very well, but there was a significant loss of binding with either the amino- or carboxyl-terminal region of VRK1, suggesting that they are much less efficient (Fig. 5A). These two constructs have an overlapping region corresponding to residues 267-332 (Fig. 5B). The interaction with kinase-dead VRK1 was also weaker probably because of the instability of this inactive protein that lacks autophosphorylation (19). VRK2B is almost identical in size and structure to VRK1 (8) and thus behaved in a similar manner (not shown). A similar experiment was performed using fusion proteins spanning different regions of VRK2 expressed from plasmids pCEFL-GST-VRK2N (1-320), pCEFL-GST-VRK2A-C1 (256-508), pCEFL-GST-VRK2A-C2 (364-508), and pCEFL-GST-VRK2B-C (256-397). In VRK2 the overlapping region corresponds to residues 256-320 (Fig. 5, C and D). These regions in both VRK1 and VRK2 have a very flexible structure that can adapt alternative conformations, particularly when truncated at one end of the protein as these protein constructs are. The interaction of RanL43E with VRK1 occurs through the same region as that in Ran because both behave in a similar way (Fig. 5E). Also the conservation of the interaction region in the three VRK proteins suggests that they might compete with each other, as well as with other Ran-binding proteins containing the same motif, for binding to Ran. This was tested using VRK3, which was able to partially compete with VRK1 for the interaction with Ran (Fig. 5F).</text>
+      <annotation id="82">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="32520" length="7"/>
+        <text>RanL43E</text>
+      </annotation>
+      <annotation id="83">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="32533" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="85">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">51231</infon>
+        <location offset="32868" length="4"/>
+        <text>VRK3</text>
+      </annotation>
+      <annotation id="86">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="32915" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="87">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="32945" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="A79">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="31102" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="A80">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="31150" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="A81">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="31201" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="A82">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="31224" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="A83">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="31247" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="A84">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="31423" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="PPIm_255">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="31072" length="170"/>
+        <text>To identify the region of the VRK1 molecule required for the interaction with Ran, a pulldown with three different constructs of VRK1 as targets of GST-Ran was performed.</text>
+      </annotation>
+      <annotation id="PPIm_256">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="31243" length="192"/>
+        <text>The VRK1 regions were the full length (amino acids 1-396), amino-terminal domain (amino acids 1-332), and carboxyl-terminal domain (amino acids 267-396) as well as the kinase-dead VRK1(K179E).</text>
+      </annotation>
+      <annotation id="PPIm_257">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="31436" length="197"/>
+        <text>The full length interacted very well, but there was a significant loss of binding with either the amino- or carboxyl-terminal region of VRK1, suggesting that they are much less efficient (Fig. 5A).</text>
+      </annotation>
+      <annotation id="PPIm_258">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="32501" length="130"/>
+        <text>The interaction of RanL43E with VRK1 occurs through the same region as that in Ran because both behave in a similar way (Fig. 5E).</text>
+      </annotation>
+      <annotation id="PPIm_259">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="32846" length="113"/>
+        <text>This was tested using VRK3, which was able to partially compete with VRK1 for the interaction with Ran (Fig. 5F).</text>
+      </annotation>
+      <annotation id="PPIe_148">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="31072" length="170"/>
+        <text>To identify the region of the VRK1 molecule required for the interaction with Ran, a pulldown with three different constructs of VRK1 as targets of GST-Ran was performed.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>32978</offset>
+      <text>RCC1 and VRK1 Can Bind Simultaneously to Ran:</text>
+      <annotation id="89">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">1104</infon>
+        <location offset="32978" length="4"/>
+        <text>RCC1</text>
+      </annotation>
+      <annotation id="90">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="32987" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="91">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="33019" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="PPIm_260">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="32978" length="45"/>
+        <text>RCC1 and VRK1 Can Bind Simultaneously to Ran:</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33026</offset>
+      <text>The data available indicate that Ran is able to bind to its GEF, the RCC1 protein (30, 38), and to VRK1 (this work); therefore it is possible that both proteins can bind simultaneously to Ran. First whether VRK1 could bind to RCC1 was determined in a pulldown assay. The GST-VRK1 protein was unable to bring down the RCC1 protein by itself (Fig. 6A) indicating that they do not appear to interact directly even if VRK1 is in a molar excess over RCC1.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33477</offset>
+      <text>It is possible that when Ran is bound to RCC1 the formation of this complex might increase Ran affinity for its interaction partner VRK1. Thus when the Ran-RCC1 complex is formed there might be a change in conformation of Ran that increases its binding to VRK1 without displacing RCC1. If that interpretation is correct, in an experiment in which Ran and VRK1 were equimolar, the binding to VRK1 was determined as the amount of RCC1 was increased. In this case the VRK1 bound to Ran increased as the amount of RCC1 was raised (Fig. 6B). A similar result was also obtained when using a molar excess of Ran (not shown). These results indicate that the binding of Ran to RCC1 facilitates the incorporation of VRK1 into the complex.</text>
+      <annotation id="93">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="33942" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="94">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="33956" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="95">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">1104</infon>
+        <location offset="33987" length="4"/>
+        <text>RCC1</text>
+      </annotation>
+      <annotation id="97">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="34138" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="98">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">1104</infon>
+        <location offset="34145" length="4"/>
+        <text>RCC1</text>
+      </annotation>
+      <annotation id="99">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="34183" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="PPIm_261">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="33925" length="88"/>
+        <text>In this case the VRK1 bound to Ran increased as the amount of RCC1 was raised (Fig. 6B).</text>
+      </annotation>
+      <annotation id="PPIm_262">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="34095" length="110"/>
+        <text>These results indicate that the binding of Ran to RCC1 facilitates the incorporation of VRK1 into the complex.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34206</offset>
+      <text>Ran and RCC1 Are Not Phosphorylated by VRK1 or VRK2B:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34262</offset>
+      <text>Because VRK1 and VRK2B proteins have kinase activity, whether Ran was also a phosphorylation target of these kinases was tested. For this aim an in vitro kinase assay was performed using GST-VRK1 (supplemental Fig. S2A) or GST-VRK2B (supplemental Fig. S2B), and as substrates Ran, RanT24N, and RanL43E proteins were used. The autophosphorylation of VRK2B and VRK1 was used as positive controls. VRK2B and VRK1 did not phosphorylate any of the Ran proteins, but the positive control of kinase autophosphorylation was clearly detected.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34796</offset>
+      <text>Ran is regulated by its interaction with its GEF factor, RCC1. RCC1 is regulated by phosphorylation in serine residues that inhibits its binding to importin (39) and promotes its association required for spindle assembly (29). Therefore, the phosphorylation of RCC1 by VRK1 might be possible, and this was tested using a panel of RCC1 phosphorylation mutants in an in vitro kinase assay (supplemental Fig. S3, A and B). The same result was obtained with VRK2B (supplemental Fig. S3C).This phosphorylation was studied with and without the inclusion of different Ran mutants, but none of them were able to induce the phosphorylation of RCC1 by VRK1 (supplemental Fig. S3D). Therefore it can be concluded that VRK1 does not phosphorylate RCC1.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>35537</offset>
+      <text>Ran Down-regulates the Kinase Activity of VRK1 and VRK2B on Autophosphorylation and on Phosphorylation of Histone H3:</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>35657</offset>
+      <text>Regulation of kinase activities is an alternative possibility resulting from a protein-protein interaction. The interaction between Ran and VRK1 might regulate the kinase activity of the latter. Therefore whether the kinase activity of VRK1 was affected by its interaction with Ran and whether it was dependent on any of the different forms of Ran were tested. For this aim two alternative assays were performed, autophosphorylation of VRK1 (3) and phosphorylation of histone H3 in Ser-3 and Thr-10 by VRK1 (18). Initially whether VRK1 autophosphorylation or H3 phosphorylation was affected by any of the different forms of Ran was determined. The kinetics of phosphorylation reaction is much faster than complex formation; therefore Ran and VRK1 were preincubated to form a complex before performing the kinase assay. VRK1 was able to autophosphorylate itself and phosphorylate H3, but these phosphorylations were inhibited by either wild-type Ran or the inactive RanT24N, whereas H3 was phosphorylated in the presence of the active RanL43E (Fig. 7A). Because RanL43E is able to stably bind GTP, the assay was also performed in its presence, but the result was similar to that without GTP (not shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36860</offset>
+      <text>Next a dose-dependent phosphorylation of H3 by VRK1 was performed in an in vitro kinase assay, and at the higher VRK1 dose, Ran was added at different concentrations. Autophosphorylation and H3 phosphorylation were dependent on the amount of VRK1 (Fig. 7B). The addition of increasing amounts of Ran inhibited both VRK1 autophosphorylation and H3 phosphorylation. The inhibition of phosphorylation was dependent on the amount of Ran present in the assay (Fig. 7B).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37325</offset>
+      <text>To determine whether a similar situation could be detected with the endogenous VRK1 kinase an experiment was performed in which the endogenous VRK1 protein was immunoprecipitated from either non-synchronized cells or cells blocked with nocodazole in the G2/M phase of the cell cycle. In the case of cells blocked in mitosis, there was an increase in autophosphorylation of VRK1 (Fig. 7C) as well as an increase in H3 phosphorylation, and both were inhibited by the inclusion of Ran protein in the assay (Fig. 7C, last two lanes).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37855</offset>
+      <text>It has been reported that VRK1 phosphorylates histone H3 in Thr-3 and Ser-10 (18). Therefore, whether these two residues were indeed phosphorylated by VRK1 was tested. The residues were detected using phosphospecific antibodies for each residue. An in vitro kinase assay was performed in the absence or presence of Ran (individual reaction components are shown in Fig. 7D, top), and the products were analyzed with the antibodies. VRK1 clearly phosphorylated H3 in Thr-3, which was reduced in the presence of Ran (Fig. 7D, bottom); however, the phosphorylation in Ser-10 was less noticeable because this antibody was much less efficient, although the phosphorylation signal also disappeared in the presence of Ran. From these experiments we can conclude that, in those complexes where VRK1 is interacting with Ran, VRK1 has a reduced kinase activity manifested both in its autophosphorylation and on its H3 specific target.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38779</offset>
+      <text>Because VRK proteins, particularly VRK2 and VRK1, have a highly conserved amino-terminal region with their catalytic domain (397 amino acids), whether the kinase activity of both VRK2 isoforms was also inhibited by Ran was also determined (Fig. 7E). The kinase activity of both VRK2A and VRK2B in autophosphorylation and on H3 phosphorylation assays was inhibited by the Ran protein (Fig. 7E).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39173</offset>
+      <text>VRK3 is a kinase-inactive protein (4, 40), and it has been postulated that it can recover kinase activity by its interaction with an unknown protein (41). Therefore whether Ran could recover this activity was tested. An in vitro kinase assay was performed with VRK3 in the presence of the three forms of Ran; none of them recovered the kinase activity (Fig. 7E).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>39536</offset>
+      <text>Interaction of VRK1 with Ran Does Not Affect the Nucleotide Exchange Activity of RCC1:</text>
+      <annotation id="101">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="39551" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="102">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="39561" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="PPIm_263">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="39536" length="86"/>
+        <text>Interaction of VRK1 with Ran Does Not Affect the Nucleotide Exchange Activity of RCC1:</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39625</offset>
+      <text>Because VRK1 is a nuclear protein the effect on the activity promoted by the nucleotide exchange factor RCC1 was studied. One possible consequence of the interaction between VRK1 and Ran is to modulate the nucleotide exchange activity. To try to determine a possible effect, whether VRK1 could affect the release of GDP mediated by RCC1 was first determined. For this aim Ran was loaded with GDP, and the release of GDP was determined in the presence of different amounts of RCC1 with and without an excess of VRK1 protein. RCC1 induced a dose-dependent release of GDP that was not affected by VRK1 (Fig. 8A). Alternatively VRK1 might affect the loading of GTP on Ran induced by RCC1. This potential loading of GTP was studied at different time points using different concentrations of RCC1 with and without VRK1. RCC1 increased the amount of GTP bound to Ran in both a time- and an RCC1 dose-dependent way, but neither of them was affected by incubation in the presence of VRK1 (Fig. 8B). From these data it can be concluded that VRK1 does not affect the role of RCC1 in regulating the nucleotide exchange of Ran.</text>
+      <annotation id="104">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="39799" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="105">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="39808" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="PPIm_264">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="39747" length="113"/>
+        <text>One possible consequence of the interaction between VRK1 and Ran is to modulate the nucleotide exchange activity.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>40740</offset>
+      <text>DISCUSSION</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40751</offset>
+      <text>The role of proteins interacting with VRK proteins can be of three main types: either substrates of the kinase reaction whose interaction is likely to be transient or regulatory proteins that either introduce covalent modifications or alternatively are able to form stable complexes by a protein-protein interaction, which might affect the enzymatic activity or specificity of VRK1. In this work we identified Ran as a negative regulator of VRK1 activity.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41207</offset>
+      <text>The activation of kinases by small GTPases is a well known mechanism of which activation of mitogen-activated protein kinase (MAPK) by Ras is probably the best known process (21, 22). In the inverse situation, the regulation of kinase activity by interaction with a small GTPase is a little characterized effect; the only case identified is the activation of PAK1 activity by Cdc42 (42-44). Ran has been shown to be an activator of Aurora A (34); thus small GTPase-kinase interactions can function as a switch of signaling pathways that play a role in different biological processes that need to be coordinated. However, there are no data regarding inhibition of kinase activities by their interaction with any small GTPase protein.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41942</offset>
+      <text>The identification of a stable interaction between VRK proteins and the Ran GTPase opens up new possibilities from a regulatory point of view. The VRK1 protein is very stable and, in continuously growing cells, is always present at relatively high levels (19); because of that it has been associated with cell proliferation (2, 5, 6). But this kinase, which can regulate several transcription factors, may not always be necessary, and therefore it is likely to be regulated either spatially or temporally. The inhibition of VRK1 kinase activity by RanGDP suggests that its kinase activity might be regulated in time and space, a role already known for Ran in other functions such as in the localization to the nuclear pore during interphase of Mad1p and Mad2p, two spindle assembly checkpoint proteins (36). In general only one conformation of Ran has the effect on the target protein, and it is possible that the inhibition of VRK1 activity by RanGDP might be necessary for its nuclear import.</text>
+      <annotation id="107">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="42014" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="188">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="41993" length="3"/>
+        <text>VRK</text>
+      </annotation>
+      <annotation id="PPIm_265">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="41942" length="142"/>
+        <text>The identification of a stable interaction between VRK proteins and the Ran GTPase opens up new possibilities from a regulatory point of view.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42937</offset>
+      <text>The identification of a protein, Ran, that is able to modulate the kinase activity of a nuclear protein, VRK1, has functional consequences. This interaction implies that within the nuclei regions, where these two proteins interact, the kinase activity is inhibited when Ran is bound to GDP. Although in those areas where there is an interaction with the GTP-bound form the kinase is active. Thus although there is a homogeneous distribution of VRK1 protein in the nucleus, it does not imply a similar distribution of its kinase activity. This functional heterogeneity is an important concept regarding the function of both proteins. The VRK1 protein is also present in the cytosol of some cell types (8) where Ran is in its inactive conformation; thus in cytosol, the activity of VRK1 is likely to be inhibited. The different compositions of protein complexes that implicate regulation of VRK1 activity are summarized in a diagram (Fig. 9), and their relative proportions in different subcellular location will determine the local effect of VRK1. In the cytosol, the interaction between Ran and VRK2 is more likely to play a relevant role, but the processes implicated still need to be identified and characterized. VRK2 modulates stress response to hypoxia (45) or to IL-1beta signal (46).</text>
+      <annotation id="109">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="44024" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="110">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="44032" length="4"/>
+        <text>VRK2</text>
+      </annotation>
+      <annotation id="PPIm_266">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="43984" length="168"/>
+        <text>In the cytosol, the interaction between Ran and VRK2 is more likely to play a relevant role, but the processes implicated still need to be identified and characterized.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44226</offset>
+      <text>Phosphorylation of histones by VRK1 was initially identified for histone H2B (3). Later the unique Drosophila melanogaster ortholog of this human kinase family, the NHK-1 (nucleosomal histone kinase), has also been shown to phosphorylate histones and is essential for chromosome condensation and mitotic progression (47-50). Histone H3 plays an important role in chromatin condensation once the DNA synthesis has been completed. Histone H3 can be phosphorylated by VRK1 in Thr-3 and Ser-10 (18). H3 phosphorylation in Thr-3 has been shown to be required early in mitosis and was concentrated in the central region of the metaphase plate (51); but the kinase was not known (51) although some studies have detected this activity (52). H3 phosphorylation in Ser-10 has been detected in mitogen-stimulated fibroblasts (53, 54) and is indispensable for cell transformation (55), which is also required for proper chromosome condensation and segregation (56). The subcellular location of H3 phosphorylated in Ser-10 has been detected concentrated in the periphery of chromosome packages in anaphase and telophase and reforming nuclei, thus presenting a different temporal and spatial pattern with respect to Thr-3 phosphorylation (51). VRK1 phosphorylation of H3 in both Thr-3 and Ser-10 contributes to nuclear condensation (18) and might also be acting as a downstream target of other signaling kinases that have been shown to phosphorylate H3 in in vivo systems, such as MSK (58), or haspin (59). H3 phosphorylation in Ser-10 by MSK1/2 has been implicated in the activation of immediate-early response genes (60, 61), a role that has also been identified for VRK13; and in this context, VRK1 might be an alternative kinase to the Pim1 kinase role in transcriptional complexes containing Myc (62).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46021</offset>
+      <text>The effect of Ran on the activity of VRK1 indicates that within the nucleus and depending on the concentration of each protein they might have different roles creating a functional heterogeneity. VRK1 is located dispersed throughout nuclei, but Ran activation is dependent on the differential gradient of RCC1 (29, 32). This differential activity can have an important role in the regulation of its transcription factors by phosphorylation that includes p53 (3, 10), ATF2 (14), c-Jun (13), and probably others that will be identified in the future. An alternative role of this inhibition of the phosphorylation by Ran might allow checking for the correctness of DNA replication. The formation of a complex with VRK1-Ran and non-phosphorylated RCC1 suggests that this complex is likely to be in a conformation that binds to chromatin rather than being implicated in nuclear transport that requires phosphorylation of RCC1 (29). The importance of intracellular phosphorylation gradients is exemplified by the role of Aurora B in anaphase where there is a cross-talk between Aurora B activation and microtubules (63).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47136</offset>
+      <text>Although VRK1 does not appear to affect the nucleotide-bound state of Ran, it will be necessary to determine whether it modulates some of the effects associated with Ran, such as nuclear transport. Therefore the interaction between VRK proteins and Ran might have additional effects. The interaction region is conserved among the three VRK proteins and is shared with other small GTPase-binding proteins, making feasible the formation of different combinations depending on intracellular location.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47634</offset>
+      <text>In summary, in this report we have shown that Ran GTPase, depending on its activation state, is able to regulate the kinase activity of the VRK1 and thus has the potential to generate areas within the cell with different kinase activity. This represents the first regulatory protein of VRK1 and one of the first nuclear kinases regulated by protein-protein interactions.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>48005</offset>
+      <text>Supplementary Material</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48028</offset>
+      <text>   </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48032</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>48035</offset>
+      <text>REFERENCES</text>
+    </passage>
+    <passage>
+      <infon key="source">Science</infon>
+      <infon key="citation">Manning, G., Whyte, D. B., Martinez, R., Hunter, T., and Sudarsanam, S. The protein kinase complement of the human genome. ( )  ,  -1934</infon>
+      <infon key="volume">298</infon>
+      <infon key="pub-id_pmid">12471243</infon>
+      <infon key="fpage">1912</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>48046</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Genomics</infon>
+      <infon key="citation">Nezu, J., Oku, A., Jones, M. H., and Shimane, M. ( ) Identification of two novel human putative serine/threonine kinases, VRK1 and VRK2, with structural similarity to vaccinia virus B1R kinase.  ,  -331</infon>
+      <infon key="volume">45</infon>
+      <infon key="pub-id_pmid">9344656</infon>
+      <infon key="fpage">327</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>48047</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Oncogene</infon>
+      <infon key="citation">Lopez-Borges, S., and Lazo, P. A. ( ) The human vaccinia-related kinase 1 (VRK1) phosphorylates threonine-18 within the mdm-2 binding site of the p53 tumour suppressor protein.  ,  -3664</infon>
+      <infon key="volume">19</infon>
+      <infon key="pub-id_pmid">10951572</infon>
+      <infon key="fpage">3656</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>48048</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="citation">Nichols, R. J., and Traktman, P. ( ) Characterization of three paralogous members of the mammalian vaccinia related kinase family.  ,  -7946</infon>
+      <infon key="volume">279</infon>
+      <infon key="pub-id_pmid">14645249</infon>
+      <infon key="fpage">7934</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>48049</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">FEBS Lett.</infon>
+      <infon key="citation">Vega, F. M., Gonzalo, P., Gaspar, M. L., and Lazo, P. A. ( ) Expression of the VRK (vaccinia-related kinase) gene family of p53 regulators in murine hematopoietic development.  ,  -180</infon>
+      <infon key="volume">544</infon>
+      <infon key="pub-id_pmid">12782311</infon>
+      <infon key="fpage">176</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>48050</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Mol. Cancer Res.</infon>
+      <infon key="citation">Santos, C. R., Rodriguez-Pinilla, M., Vega, F. M., Rodriguez-Peralto, J. L., Blanco, S., Sevilla, A., Valbuena, A., Hernandez, T., van Wijnen, A. J., Li, F., de Alava, E., Sanchez-Cespedes, M., and Lazo, P. A. ( ) VRK1 signaling pathway in the context of the proliferation phenotype in head and neck squamous cell carcinoma.  ,  -185</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">16547155</infon>
+      <infon key="fpage">177</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>48051</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Arch. Biochem. Biophys.</infon>
+      <infon key="citation">Valbuena, A., Lopez-Sanchez, I., Vega, F. M., Sevilla, A., Sanz-Garcia, M., Blanco, S., and Lazo, P. A. ( ) Identification of a dominant epitope in human vaccinia-related kinase 1 (VRK1) and detection of different intracellular subpopulations.  ,  -226</infon>
+      <infon key="volume">465</infon>
+      <infon key="pub-id_pmid">17617371</infon>
+      <infon key="fpage">219</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>48052</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">FEBS J.</infon>
+      <infon key="citation">Blanco, S., Klimcakova, L., Vega, F. M., and Lazo, P. A. ( ) The subcellular localization of vaccinia-related kinase-2 (VRK2) isoforms determines their different effect on p53 stability in tumour cell lines.  ,  -2504</infon>
+      <infon key="volume">273</infon>
+      <infon key="pub-id_pmid">16704422</infon>
+      <infon key="fpage">2487</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>48053</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Arch. Biochem. Biophys.</infon>
+      <infon key="citation">Barcia, R., Lopez-Borges, S., Vega, F. M., and Lazo, P. A. ( ) Kinetic properties of p53 phosphorylation by the human vaccinia-related kinase 1.  ,  -5</infon>
+      <infon key="volume">399</infon>
+      <infon key="pub-id_pmid">11883897</infon>
+      <infon key="fpage">1</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>48054</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="citation">Vega, F. M., Sevilla, A., and Lazo, P. A. ( ) Stabilization and accumulation induced by human vaccinia-related kinase 1.  ,  -10380</infon>
+      <infon key="volume">24</infon>
+      <infon key="pub-id_pmid">15542844</infon>
+      <infon key="fpage">10366</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>48055</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Plasmid</infon>
+      <infon key="citation">Kwon, S. Y., Choi, Y. J., Kang, T. H., Lee, K. H., Cha, S. S., Kim, G. H., Lee, H. S., Kim, K. T., and Kim, K. J. ( ) Highly efficient protein expression and purification using bacterial hemoglobin fusion vector.  ,  -282</infon>
+      <infon key="volume">53</infon>
+      <infon key="pub-id_pmid">15848232</infon>
+      <infon key="fpage">274</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>48056</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="citation">Valbuena, A., Vega, F. M., Blanco, S., and Lazo, P. A. ( ) p53 downregulates its activating vaccinia-related kinase 1, forming a new autoregulatory loop.  ,  -4793</infon>
+      <infon key="volume">26</infon>
+      <infon key="pub-id_pmid">16782868</infon>
+      <infon key="fpage">4782</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>48057</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Oncogene</infon>
+      <infon key="citation">Sevilla, A., Santos, C. R., Barcia, R., Vega, F. M., and Lazo, P. A. ( ) c-Jun phosphorylation by the human vaccinia-related kinase 1 (VRK1) and its cooperation with the N-terminal kinase of c-Jun (JNK).  ,  -8958</infon>
+      <infon key="volume">23</infon>
+      <infon key="pub-id_pmid">15378002</infon>
+      <infon key="fpage">8950</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>48058</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="citation">Sevilla, A., Santos, C. R., Vega, F. M., and Lazo, P. A. ( ) Human vaccinia-related kinase 1 (VRK1) activates the ATF2 transcriptional activity by novel phosphorylation on Thr-73 and Ser-62 and cooperates with JNK.  ,  -27465</infon>
+      <infon key="volume">279</infon>
+      <infon key="pub-id_pmid">15105425</infon>
+      <infon key="fpage">27458</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>48059</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Mol. Biol. Cell</infon>
+      <infon key="citation">Nichols, R. J., Wiebe, M. S., and Traktman, P. ( ) The vaccinia-related kinases phosphorylate the N' terminus of BAF, regulating its interaction with DNA and its retention in the nucleus.  ,  -2464</infon>
+      <infon key="volume">17</infon>
+      <infon key="pub-id_pmid">16495336</infon>
+      <infon key="fpage">2451</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>48060</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="citation">Gorjanacz, M., Klerkx, E. P., Galy, V., Santarella, R., Lopez-Iglesias, C., Askjaer, P., and Mattaj, I. W. ( ) Caenorhabditis elegans BAF-1 and its kinase VRK-1 participate directly in post-mitotic nuclear envelope assembly.  ,  -143</infon>
+      <infon key="volume">26</infon>
+      <infon key="source">EMBO J.</infon>
+      <infon key="fpage">132</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>48061</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Dev. Cell</infon>
+      <infon key="citation">Sazer, S. ( ) The view from Awaji island: past, present, and future of RCC1 and the Ran GTPase system.  ,  -733</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">16363093</infon>
+      <infon key="fpage">729</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>48062</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="citation">Kang, T. H., Park, D. Y., Choi, Y. H., Kim, K. J., Yoon, H. S., and Kim, K. T. ( ) Mitotic histone H3 phosphorylation by vaccinia-related kinase 1 in mammalian cells.  ,  -8546</infon>
+      <infon key="volume">27</infon>
+      <infon key="pub-id_pmid">17938195</infon>
+      <infon key="fpage">8533</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>48063</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="citation">Valbuena, A., Lopez-Sanchez, I., and Lazo, P. A. ( ) Human VRK1 is an early response gene and its loss causes a block in cell cycle progression.  ,  </infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">18286197</infon>
+      <infon key="fpage">e1642</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>48064</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Physiol. Rev.</infon>
+      <infon key="citation">Takai, Y., Sasaki, T., and Matozaki, T. ( ) Small GTP-binding proteins.  ,  -208</infon>
+      <infon key="volume">81</infon>
+      <infon key="pub-id_pmid">11152757</infon>
+      <infon key="fpage">153</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>48065</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Oncogene</infon>
+      <infon key="citation">Dhillon, A. S., Hagan, S., Rath, O., and Kolch, W. ( ) MAP kinase signalling pathways in cancer.  ,  -3290</infon>
+      <infon key="volume">26</infon>
+      <infon key="pub-id_pmid">17496922</infon>
+      <infon key="fpage">3279</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>48066</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Oncogene</infon>
+      <infon key="citation">McKay, M. M., and Morrison, D. K. ( ) Integrating signals from RTKs to ERK/MAPK.  ,  -3121</infon>
+      <infon key="volume">26</infon>
+      <infon key="pub-id_pmid">17496910</infon>
+      <infon key="fpage">3113</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>48067</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Trends Cell Biol.</infon>
+      <infon key="citation">Kuersten, S., Ohno, M., and Mattaj, I. W. ( ) Nucleocytoplasmic transport: Ran, beta and beyond.  ,  -503</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">11719056</infon>
+      <infon key="fpage">497</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>48068</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Mol. Biol. Cell</infon>
+      <infon key="citation">Ems-McClung, S. C., Zheng, Y., and Walczak, C. E. ( ) Importin alpha/beta and Ran-GTP regulate XCTK2 microtubule binding through a bipartite nuclear localization signal.  ,  -57</infon>
+      <infon key="volume">15</infon>
+      <infon key="pub-id_pmid">13679510</infon>
+      <infon key="fpage">46</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>48069</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Mol. Cell</infon>
+      <infon key="citation">Harel, A., and Forbes, D. J. ( ) Importin beta: conducting a much larger cellular symphony.  ,  -330</infon>
+      <infon key="volume">16</infon>
+      <infon key="pub-id_pmid">15525506</infon>
+      <infon key="fpage">319</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>48070</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Nat. Rev. Mol. Cell Biol.</infon>
+      <infon key="citation">Stewart, M. ( ) Molecular mechanism of the nuclear protein import cycle.  ,  -208</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">17287812</infon>
+      <infon key="fpage">195</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>48071</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Nat. Rev. Mol. Cell Biol.</infon>
+      <infon key="citation">Clarke, P. R., and Zhang, C. ( ) Spatial and temporal coordination of mitosis by Ran GTPase.  ,  -477</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">18478030</infon>
+      <infon key="fpage">464</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>48072</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Dev. Cell</infon>
+      <infon key="citation">Arnaoutov, A., and Dasso, M. ( ) The Ran GTPase regulates kinetochore function.  ,  -111</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">12852855</infon>
+      <infon key="fpage">99</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>48073</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="citation">Li, H.-Y., and Zheng, Y. ( ) Phosphorylation of RCC1 in mitosis is essential for producing a high RanGTP concentration on chromosomes and for spindle assembly in mammalian cells.  ,  -527</infon>
+      <infon key="volume">18</infon>
+      <infon key="pub-id_pmid">15014043</infon>
+      <infon key="fpage">512</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>48074</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Curr. Biol.</infon>
+      <infon key="citation">Zhang, C., and Clarke, P. R. ( ) Roles of Ran-GTP and Ran-GDP in precursor vesicle recruitment and fusion during nuclear envelope assembly in a human cell-free system.  ,  -212</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">11231159</infon>
+      <infon key="fpage">208</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>48075</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Nature</infon>
+      <infon key="citation">Bischoff, F. R., and Ponstingl, H. ( ) Catalysis of guanine nucleotide exchange on Ran by the mitotic regulator RCC1.  ,  -82</infon>
+      <infon key="volume">354</infon>
+      <infon key="pub-id_pmid">1944575</infon>
+      <infon key="fpage">80</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>48076</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Nature</infon>
+      <infon key="citation">Kalab, P., Pralle, A., Isacoff, E. Y., Heald, R., and Weis, K. ( ) Analysis of a RanGTP-regulated gradient in mitotic somatic cells.  ,  -701</infon>
+      <infon key="volume">440</infon>
+      <infon key="pub-id_pmid">16572176</infon>
+      <infon key="fpage">697</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>48077</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Trends Cell Biol.</infon>
+      <infon key="citation">Clarke, P. R., and Zhang, C. ( ) Ran GTPase: a master regulator of nuclear structure and function during the eukaryotic cell division cycle?  ,  -371</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">11514190</infon>
+      <infon key="fpage">366</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>48078</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Nat. Cell Biol.</infon>
+      <infon key="citation">Tsai, M. Y., Wiese, C., Cao, K., Martin, O., Donovan, P., Ruderman, J., Prigent, C., and Zheng, Y. ( ) A Ran signalling pathway mediated by the mitotic kinase Aurora A in spindle assembly.  ,  -248</infon>
+      <infon key="volume">5</infon>
+      <infon key="pub-id_pmid">12577065</infon>
+      <infon key="fpage">242</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>48079</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Anal. Chem.</infon>
+      <infon key="citation">Shevchenko, A., Wilm, M., Vorm, O., and Mann, M. ( ) Mass spectrometric sequencing of proteins silver-stained polyacrylamide gels.  ,  -858</infon>
+      <infon key="volume">68</infon>
+      <infon key="pub-id_pmid">8779443</infon>
+      <infon key="fpage">850</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>48080</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Curr. Opin. Cell Biol.</infon>
+      <infon key="citation">Quimby, B. B., and Dasso, M. ( ) The small GTPase Ran: interpreting the signs.  ,  -344</infon>
+      <infon key="volume">15</infon>
+      <infon key="pub-id_pmid">12787777</infon>
+      <infon key="fpage">338</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>48081</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="citation">Lounsbury, K. M., Richards, S. A., Carey, K. L., and Macara, I. G. ( ) Effects on regulatory factor interactions and subcellular localization.  ,  -32841</infon>
+      <infon key="volume">271</infon>
+      <infon key="pub-id_pmid">8955121</infon>
+      <infon key="fpage">32834</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>48082</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Cell</infon>
+      <infon key="citation">Renault, L., Kuhlmann, J., Henkel, A., and Wittinghofer, A. ( ) Structural basis for guanine nucleotide exchange on Ran by the regulator of chromosome condensation (RCC1).  ,  -255</infon>
+      <infon key="volume">105</infon>
+      <infon key="pub-id_pmid">11336674</infon>
+      <infon key="fpage">245</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>48083</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Curr. Biol.</infon>
+      <infon key="citation">Hutchins, J. R. A., Moore, W. J., Hood, F. E., Wilson, J. S. J., Andrews, P. D., Swedlow, J. R., and Clarke, P. R. ( ) Phosphorylation regulates the dynamic interaction of RCC1 with chromosomes during mitosis.  ,  -1104</infon>
+      <infon key="volume">14</infon>
+      <infon key="pub-id_pmid">15203004</infon>
+      <infon key="fpage">1099</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>48084</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Biochim. Biophys. Acta</infon>
+      <infon key="citation">Kang, T. H., and Kim, K. T. ( ) VRK3-mediated inactivation of ERK signaling in adult and embryonic rodent tissues.  ,  -58</infon>
+      <infon key="volume">1783</infon>
+      <infon key="pub-id_pmid">18035061</infon>
+      <infon key="fpage">49</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>48085</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Nat. Cell Biol.</infon>
+      <infon key="citation">Kang, T. H., and Kim, K. T. ( ) Negative regulation of ERK activity by VRK3-mediated activation of VHR phosphatase.  ,  -869</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">16845380</infon>
+      <infon key="fpage">863</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>48086</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="citation">Tu, H., and Wigler, M. ( ) Genetic evidence for Pak1 autoinhibition and its release by Cdc42.  ,  -611</infon>
+      <infon key="volume">19</infon>
+      <infon key="pub-id_pmid">9858584</infon>
+      <infon key="fpage">602</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>48087</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">J. Cell. Physiol.</infon>
+      <infon key="citation">Kumar, R., and Vadlamudi, R. K. ( ) Emerging functions of p21-activated kinases in human cancer cells.  ,  -144</infon>
+      <infon key="volume">193</infon>
+      <infon key="pub-id_pmid">12384990</infon>
+      <infon key="fpage">133</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>48088</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Nat. Rev. Cancer</infon>
+      <infon key="citation">Kumar, R., Gururaj, A. E., and Barnes, C. J. ( ) p21-activated kinases in cancer.  ,  -471</infon>
+      <infon key="volume">6</infon>
+      <infon key="pub-id_pmid">16723992</infon>
+      <infon key="fpage">459</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>48089</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="citation">Blanco, S., Santos, C., and Lazo, P. A. ( ) Vaccinia-related kinase 2 modulates the stress response to hypoxia mediated by TAK1.  ,  -7283</infon>
+      <infon key="volume">27</infon>
+      <infon key="pub-id_pmid">17709393</infon>
+      <infon key="fpage">7273</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>48090</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">PLoS ONE</infon>
+      <infon key="citation">Blanco, S., Sanz-Garcia, M., Santos, C. R., and Lazo, P. A. ( ) Modulation of interleukin-1 transcriptional response by the interaction between VRK2 and the JIP1 scaffold protein.  ,  </infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">18286207</infon>
+      <infon key="fpage">e1660</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>48091</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="citation">Aihara, H., Nakagawa, T., Yasui, K., Ohta, T., Hirose, S., Dhomae, N., Takio, K., Kaneko, M., Takeshima, Y., Muramatsu, M., and Ito, T. ( ) Nucleosomal histone kinase-1 phosphorylates H2A Thr 119 during mitosis in the early Drosophila embryo.  ,  -888</infon>
+      <infon key="volume">18</infon>
+      <infon key="pub-id_pmid">15078818</infon>
+      <infon key="fpage">877</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>48092</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="citation">Cullen, C. F., Brittle, A. L., Ito, T., and Ohkura, H. ( ) The conserved kinase NHK-1 is essential for mitotic progression and unifying acentrosomal meiotic spindles in Drosophila melanogaster.  ,  -602</infon>
+      <infon key="volume">171</infon>
+      <infon key="pub-id_pmid">16301329</infon>
+      <infon key="fpage">593</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>48093</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="citation">Ivanovska, I., Khandan, T., Ito, T., and Orr-Weaver, T. L. ( ) A histone code in meiosis: the histone kinase, NHK-1, is required for proper chromosomal architecture in Drosophila oocytes.  ,  -2582</infon>
+      <infon key="volume">19</infon>
+      <infon key="pub-id_pmid">16230526</infon>
+      <infon key="fpage">2571</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>48094</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Exp. Cell Res.</infon>
+      <infon key="citation">Brittle, A. L., Nanba, Y., Ito, T., and Ohkura, H. ( ) Concerted action of Aurora B, Polo and NHK-1 kinases in centromere-specific histone 2A phosphorylation.  ,  -2785</infon>
+      <infon key="volume">313</infon>
+      <infon key="pub-id_pmid">17586492</infon>
+      <infon key="fpage">2780</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>48095</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">FEBS Lett.</infon>
+      <infon key="citation">Polioudaki, H., Markaki, Y., Kourmouli, N., Dialynas, G., Theodoropoulos, P. A., Singh, P. B., and Georgatos, S. D. ( ) Mitotic phosphorylation of histone H3 at threonine 3.  ,  -44</infon>
+      <infon key="volume">560</infon>
+      <infon key="pub-id_pmid">14987995</infon>
+      <infon key="fpage">39</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>48096</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="citation">Shoemaker, C. B., and Chalkley, R. ( ) An H3 histone-specific kinase isolated from bovine thymus chromatin.  ,  -5807</infon>
+      <infon key="volume">253</infon>
+      <infon key="pub-id_pmid">209051</infon>
+      <infon key="fpage">5802</infon>
+      <infon key="year">1978</infon>
+      <infon key="type">ref</infon>
+      <offset>48097</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="citation">Chadee, D. N., Hendzel, M. J., Tylipski, C. P., Allis, C. D., Bazett-Jones, D. P., Wright, J. A., and Davie, J. R. ( ) Increased Ser-10 phosphorylation of histone H3 in mitogen-stimulated and oncogene-transformed mouse fibroblasts.  ,  -24920</infon>
+      <infon key="volume">274</infon>
+      <infon key="pub-id_pmid">10455166</infon>
+      <infon key="fpage">24914</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>48098</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="citation">Duncan, E. A., Anest, V., Cogswell, P., and Baldwin, A. S. ( ) The kinases MSK1 and MSK2 are required for epidermal growth factor-induced, but not tumor necrosis factor-induced, histone H3 Ser10 phosphorylation.  ,  -12525</infon>
+      <infon key="volume">281</infon>
+      <infon key="pub-id_pmid">16517600</infon>
+      <infon key="fpage">12521</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>48099</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Cancer Res.</infon>
+      <infon key="citation">Choi, H. S., Choi, B. Y., Cho, Y. Y., Mizuno, H., Kang, B. S., Bode, A. M., and Dong, Z. ( ) Phosphorylation of histone H3 at serine 10 is indispensable for neoplastic cell transformation.  ,  -5827</infon>
+      <infon key="volume">65</infon>
+      <infon key="pub-id_pmid">15994958</infon>
+      <infon key="fpage">5818</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>48100</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Cell</infon>
+      <infon key="citation">Wei, Y., Yu, L., Bowen, J., Gorovsky, M. A., and Allis, C. D. ( ) Phosphorylation of histone H3 is required for proper chromosome condensation and segregation.  ,  -109</infon>
+      <infon key="volume">97</infon>
+      <infon key="pub-id_pmid">10199406</infon>
+      <infon key="fpage">99</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>48101</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">EMBO J.</infon>
+      <infon key="citation">Soloaga, A., Thomson, S., Wiggin, G. R., Rampersaud, N., Dyson, M. H., Hazzalin, C. A., Mahadevan, L. C., and Arthur, J. S. ( ) MSK2 and MSK1 mediate the mitogen- and stress-induced phosphorylation of histone H3 and HMG-14.  ,  -2797</infon>
+      <infon key="volume">22</infon>
+      <infon key="pub-id_pmid">12773393</infon>
+      <infon key="fpage">2788</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>48102</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Nature</infon>
+      <infon key="citation">Yamamoto, Y., Verma, U. N., Prajapati, S., Kwak, Y. T., and Gaynor, R. B. ( ) Histone H3 phosphorylation by IKK-alpha is critical for cytokine-induced gene expression.  ,  -659</infon>
+      <infon key="volume">423</infon>
+      <infon key="pub-id_pmid">12789342</infon>
+      <infon key="fpage">655</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>48103</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="citation">Dai, J., Sultan, S., Taylor, S. S., and Higgins, J. M. ( ) The kinase haspin is required for mitotic histone H3 Thr 3 phosphorylation and normal metaphase chromosome alignment.  ,  -488</infon>
+      <infon key="volume">19</infon>
+      <infon key="pub-id_pmid">15681610</infon>
+      <infon key="fpage">472</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>48104</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Cell</infon>
+      <infon key="citation">Mahadevan, L. C., Willis, A. C., and Barratt, M. J. ( ) Rapid histone H3 phosphorylation in response to growth factors, phorbol esters, okadaic acid, and protein synthesis inhibitors.  ,  -783</infon>
+      <infon key="volume">65</infon>
+      <infon key="pub-id_pmid">2040014</infon>
+      <infon key="fpage">775</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>48105</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">J. Biochem.</infon>
+      <infon key="citation">Ito, T. ( ) Role of histone modification in chromatin dynamics.  ,  -614</infon>
+      <infon key="volume">141</infon>
+      <infon key="pub-id_pmid">17405795</infon>
+      <infon key="fpage">609</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>48106</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Nat. Cell Biol.</infon>
+      <infon key="citation">Zippo, A., De Robertis, A., Serafini, R., and Oliviero, S. ( ) PIM1-dependent phosphorylation of histone H3 at serine 10 is required for MYC-dependent transcriptional activation and oncogenic transformation.  ,  -944</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">17643117</infon>
+      <infon key="fpage">932</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>48107</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Nature</infon>
+      <infon key="citation">Fuller, B. G., Lampson, M. A., Foley, E. A., Rosasco-Nitcher, S., Le, K. V., Tobelmann, P., Brautigan, D. L., Stukenberg, P. T., and Kapoor, T. M. ( ) Midzone activation of aurora B in anaphase produces an intracellular phosphorylation gradient.  ,  -1136</infon>
+      <infon key="volume">453</infon>
+      <infon key="pub-id_pmid">18463638</infon>
+      <infon key="fpage">1132</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>48108</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>48109</offset>
+      <text>Published, MCP Papers in Press, July 9, 2008, DOI 10.1074/mcp.M700586-MCP200</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>48186</offset>
+      <text>The abbreviations used are: VRK, vaccinia-related kinase; RCC1, regulator of chromosome condensation 1; ATF2, activating transcription factor 2; GEF, guanine exchange factor; GTPase, guanine-triphosphate phosphatase; HA, hemagglutinin; 2D, two-dimensional; HRP, horseradish peroxidase; GFP, green fluorescent protein; MSK, mitogen-activated stress kinase; IKK, IKB kinase.</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>48559</offset>
+      <text>M. Sanz-Garcia and P. A. Lazo, unpublished data.</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>48609</offset>
+      <text>M. Sanz-Garcia, I. Lopez-Sanchez, and P. A. Lazo, submitted manuscript.</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>48684</offset>
+      <text>This work was supported in part by Ministerio de Educacion y Ciencia Grants SAF2004-02900, SAF2007-60242, and Consolider CSD2007-0017; by Junta de Castilla y Leon Grant CSI-14A08 and GR1S; and by the Federacion de Cajas de Ahorro de Castilla y Leon. The costs of publication of this article were defrayed in part by the payment of page charges. This article must therefore be hereby marked "advertisement" in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>49170</offset>
+      <text>The protein interactions from this publication have been submitted to the IMEx consortium through IntAct (PMID 17145710) and assigned the identifier IM-9273.</text>
+    </passage>
+    <passage>
+      <infon key="type">footnote</infon>
+      <offset>49328</offset>
+      <text>The on-line version of this article (available at http://www.mcponline.org) contains supplemental material.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>49436</offset>
+      <text>Proteomics identification of Ran as an interaction partner of VRK2B. A, experimental design. GST-VRK proteins or GST protein was transfected in HEK293T cells, and the protein complexes were isolated by glutathione-Sepharose pulldowns. The proteins were separated in parallel by 2D SDS-PAGE. Spots from the gels of GST-VRK1 and GST-VRK2B were selected for analysis when they did not appear in the GST control gel. The spots were subjected to trypsin digestion and analysis by MALDI-TOF. B, pulldown of proteins associated to GST-VRK2B. HEK293T cells were transfected with 8 mug of plasmid pCEFL-GST-VRK2B or 2 mug of pCEFL-GST as control, and the correct expression of the proteins was analyzed by Western blotting 48 h after transfection (left). The lysates were mixed with glutathione-Sepharose beads. Protein complexes were isolated by pulldown and subjected to 2D SDS-PAGE. Each sample was resolved in a pH range of 3-10, and the second dimension electrophoresis was performed on 10% SDS-polyacrylamide gels. A spot selected for further analysis is shown in the figure (right); it was later identified as Ran. IB, immunoblot. C, mass spectrum of the tryptic peptides of the selected spot (left). Mass value (m/z) and putative amino acid position assignments are indicated above peaks. Assignments were made using Mascot software. m/z value, position, and sequence of each assigned peptide are shown (right). Abs. Int., absolute intensity. D, peptide coverage map of Ran GTPase; the peptides used for identification are underlined and bold.</text>
+      <annotation id="144">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="49465" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="145">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="49498" length="5"/>
+        <text>VRK2B</text>
+      </annotation>
+      <annotation id="151">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="49964" length="5"/>
+        <text>VRK2B</text>
+      </annotation>
+      <annotation id="PPIm_267">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="49436" length="68"/>
+        <text>Proteomics identification of Ran as an interaction partner of VRK2B.</text>
+      </annotation>
+      <annotation id="PPIm_268">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="49922" length="48"/>
+        <text>B, pulldown of proteins associated to GST-VRK2B.</text>
+      </annotation>
+      <annotation id="PPIe_149">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="49529" length="141"/>
+        <text>GST-VRK proteins or GST protein was transfected in HEK293T cells, and the protein complexes were isolated by glutathione-Sepharose pulldowns.</text>
+      </annotation>
+      <annotation id="PPIe_150">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="49922" length="48"/>
+        <text>B, pulldown of proteins associated to GST-VRK2B.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>50981</offset>
+      <text>Interaction of the three VRK proteins with Ran. Pulldown with GST-Ran of transfected human VRK1 (A), VRK2B (B), VRK2A (C), and VRK3 (D) is shown. HEK293T cells were transfected with plasmids pCEFL-HA-VRK1 (5 mug), pCEFL-HA-VRK2B (5 mug), pCEFL-HA-VRK2A (8 mug), or pCEFL-HA-VRK3 (5 mug) expressing the corresponding human proteins. The protein expression was checked in the cell lysate prepared 48 h after transfection. Cell extracts were mixed with 10 mug of bacterially expressed and purified GST-Ran, its mutant T24N (inactive) and L43E (active) forms, and GST as negative control. The mixture was incubated for 2 h at 4  C with gentle rotation after which they were used for a pulldown using glutathione-Sepharose beads, and the proteins were detected in immunoblots (IB) with a specific antibody for the HA epitope present in the VRK proteins or anti-GST to detect whether the pulldowns contained equal amounts of proteins. E, dependence of the interaction on the concentration of VRK1. Incubations were carried out using a fixed concentration of GST-Ran (80 nm) and increasing concentrations (as indicated) of VRK1-His purified proteins in MgCl2 binding buffer as indicated under "Experimental Procedures." The mixture was incubated for 2 h at 4  C and used for a pulldown with Sepharose beads. The proteins present in the pulldown were detected in an immunoblot that was developed using antibodies specific for GST and VRK1. F, in vitro binding of VRK1-His to GST-Ran wild type (wt), GST-RanL43E, and GST-RanT24N with the addition of GTP, GDP, or EDTA. Incubations were carried out using 0.07 mum VRK1-His and 2 mum GST-Ran purified proteins loaded with 2 mm GDP, GTP, or EDTA in MgCl2 buffer. A Western blot of the pulldown was developed using antibodies to GST and VRK1.</text>
+      <annotation id="152">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="51024" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="153">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="52436" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="154">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="52452" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="156">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="51006" length="3"/>
+        <text>VRK</text>
+      </annotation>
+      <annotation id="A97">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="51047" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="A98">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="51072" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="A99">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="51082" length="5"/>
+        <text>VRK2B</text>
+      </annotation>
+      <annotation id="A100">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="51093" length="5"/>
+        <text>VRK2A</text>
+      </annotation>
+      <annotation id="A101">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">51231</infon>
+        <location offset="51108" length="4"/>
+        <text>VRK3</text>
+      </annotation>
+      <annotation id="PPIm_269">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="50981" length="47"/>
+        <text>Interaction of the three VRK proteins with Ran.</text>
+      </annotation>
+      <annotation id="PPIm_270">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="51029" length="97"/>
+        <text>Pulldown with GST-Ran of transfected human VRK1 (A), VRK2B (B), VRK2A (C), and VRK3 (D) is shown.</text>
+      </annotation>
+      <annotation id="PPIm_271">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <location offset="52413" length="127"/>
+        <text>F, in vitro binding of VRK1-His to GST-Ran wild type (wt), GST-RanL43E, and GST-RanT24N with the addition of GTP, GDP, or EDTA.</text>
+      </annotation>
+      <annotation id="PPIe_151">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="51029" length="97"/>
+        <text>Pulldown with GST-Ran of transfected human VRK1 (A), VRK2B (B), VRK2A (C), and VRK3 (D) is shown.</text>
+      </annotation>
+      <annotation id="PPIe_152">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <location offset="52413" length="127"/>
+        <text>F, in vitro binding of VRK1-His to GST-Ran wild type (wt), GST-RanL43E, and GST-RanT24N with the addition of GTP, GDP, or EDTA.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>52767</offset>
+      <text>Binding of endogenous VRK1 with GST-Ran or endogenous Ran with GST-VRK1. A, interaction of endogenous VRK1 and exogenous Ran proteins. The level of endogenous VRK1 in the HEK293T used for a pulldown is shown in the gel at the top. The extract was used for a pulldown with either purified GST-Ran (left) or GST as negative control (right). The proteins were detected with antibodies as indicated under "Experimental Procedures." B, interaction of endogenous VRK1 with different forms of Ran indicated in the legend (top) and used for a pulldown assay. HEK293T cells (6 x 107) were lysed, and the expression of endogenous VRK1 was checked with the 1F6 monoclonal specific antibody for human VRK1 (top gel). The lysate was incubated with 10 mug of GST-Ran or GST purified proteins 4-12 h at 4  C and centrifuged, and the beads were analyzed in an immunoblot (IB) with specific antibodies to VRK1 and GST (bottom gel). C, interaction of endogenous Ran with transfected VRK1. The endogenous proteins Ran and RCC1 in the cell lysate are shown at the top. HEK293T cells were transfected with plasmids pCEFL-GST-VRK1 (10 mug) and pCEFL-GST (2 mug), and their correct expression was checked in the cell lysate prepared 48 h after transfection. The lysate was mixed with glutathione-Sepharose beads for 4-12 h at 4  C, and the beads were pulled down by centrifugation. The proteins brought down with the beads were analyzed in an immunoblot with specific antibodies (lower blot). D, RCC1 does not bind directly to VRK1. HEK293T cells were transfected with plasmids pCEFL-GST-VRK1 (5 mug), pCEFL-GST (1 mug), and pGFP-RCC1 (2 mug) in the combinations indicated in the figure, and their correct expression was checked in the cell lysate prepared 48 h after transfection. The expression of endogenous Ran and RCC1 was also checked (top panel). The lysate was mixed with glutathione-Sepharose beads for 4-12 h at 4  C, and the beads were pulled down by centrifugation. The proteins brought down with the beads were analyzed in an immunoblot with specific antibodies (bottom panel).</text>
+      <annotation id="155">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="52789" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="157">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="52803" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="158">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="52821" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="159">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="52834" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="160">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="52869" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="161">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="52888" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="162">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="53711" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="163">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="53732" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="PPIm_272">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="52767" length="72"/>
+        <text>Binding of endogenous VRK1 with GST-Ran or endogenous Ran with GST-VRK1.</text>
+      </annotation>
+      <annotation id="PPIm_273">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="52840" length="61"/>
+        <text>A, interaction of endogenous VRK1 and exogenous Ran proteins.</text>
+      </annotation>
+      <annotation id="PPIm_274">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="53682" length="55"/>
+        <text>C, interaction of endogenous Ran with transfected VRK1.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>54849</offset>
+      <text>Subcellular localization of endogenous VRK1 and Ran proteins and detection of their interaction by reciprocal immunoprecipitations. A, confocal immunofluorescence microscopy of endogenous VRK1 and Ran proteins in HEK293T cells. VRK1 was detected with the VE1 polyclonal antibody, and as secondary antibody a Cy3-labeled anti-rabbit antibody was used. Ran was detected with a monoclonal antibody, and as secondary antibody a Cy2-labeled anti-mouse antibody was used. B, colocalization of endogenous Ran and VRK1 in cells that have completed division. C, HEK293T cells (2 x 108) were lysed, and the extracts were subjected to immunoblot analysis to check the expression of endogenous Ran and VRK1 (top panel) with specific antibodies. Half of the extracts were used to perform an immunoprecipitation (IP) of endogenous Ran with the specific monoclonal antibody and a control immunoprecipitation with a nonspecific monoclonal antibody (alphaAU5) (left panel). The other half of the extracts was used to immunoprecipitate endogenous VRK1 with a mixture of two specific polyclonal antibodies (VE1 and VC1) and to perform a control immunoprecipitation with a nonspecific polyclonal antibody (alphaFLAG) (right panel). The immunoprecipitations were subjected to immunoblot (IB) analysis. VRK1 was detected in the Ran immunoprecipitation but not in the negative control, and Ran was detected in the VRK1 immunoprecipitation but not in the negative control. D, as a positive control, the same conditions that were used to detect the interaction of VRK1 with immunoprecipitated Ran were used to see the interaction of RCC1 with immunoprecipitated Ran. E, colocalization of endogenous Ran and VRK2 in HEK293T cells. VRK2 protein was detected with a rabbit polyclonal antibody. Ran was detected as described above. DAPI, 4',6-diamidino-2-phenylindole.</text>
+      <annotation id="164">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="56130" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="165">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="56155" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="166">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="56216" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="167">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="56240" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="168">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="56388" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="170">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="56417" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="171">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">1104</infon>
+        <location offset="56457" length="4"/>
+        <text>RCC1</text>
+      </annotation>
+      <annotation id="172">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="56486" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="A110">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="54888" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="A111">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="54897" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="PPIm_275">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="54849" length="131"/>
+        <text>Subcellular localization of endogenous VRK1 and Ran proteins and detection of their interaction by reciprocal immunoprecipitations.</text>
+      </annotation>
+      <annotation id="PPIm_276">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="56130" length="167"/>
+        <text>VRK1 was detected in the Ran immunoprecipitation but not in the negative control, and Ran was detected in the VRK1 immunoprecipitation but not in the negative control.</text>
+      </annotation>
+      <annotation id="PPIm_277">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="56298" length="192"/>
+        <text>D, as a positive control, the same conditions that were used to detect the interaction of VRK1 with immunoprecipitated Ran were used to see the interaction of RCC1 with immunoprecipitated Ran.</text>
+      </annotation>
+      <annotation id="PPIe_153">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="54849" length="131"/>
+        <text>Subcellular localization of endogenous VRK1 and Ran proteins and detection of their interaction by reciprocal immunoprecipitations.</text>
+      </annotation>
+      <annotation id="PPIe_154">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="56130" length="167"/>
+        <text>VRK1 was detected in the Ran immunoprecipitation but not in the negative control, and Ran was detected in the VRK1 immunoprecipitation but not in the negative control.</text>
+      </annotation>
+      <annotation id="PPIe_155">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="56298" length="192"/>
+        <text>D, as a positive control, the same conditions that were used to detect the interaction of VRK1 with immunoprecipitated Ran were used to see the interaction of RCC1 with immunoprecipitated Ran.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>56686</offset>
+      <text>Mapping the VRK1 region that interacts with Ran. A, mapping the interaction between GST-Ran and VRK1. HEK293T cells were transfected with constructs expressing the full-length VRK1 (plasmid pCEFL-VRK1-HA), amino-terminal region 1-332 (pcDNA-VRK1-N-myc), carboxyl-terminal region 267-396 (pEGFP-C-VRK1), or the kinase-dead VRK1 (pCDNA-VRK1-K179E-myc). The lysates were incubated with 10 mug of GST-Ran purified protein and centrifuged, and the proteins in the pulldown were identified with a specific polyclonal antibody for VRK1 (lower panel). The expression of the proteins was determined by Western blot (top panel). B, diagram illustrating the common region between the different VRK1 constructs and identifying the region of VRK1 needed for interaction with Ran. C, pulldown of endogenous Ran with different constructs of human VRK2. HEK293T cells were transfected with plasmids pCEFL-GST, pCEFL-GST-VRK2N (1-320), pCEFL-GST-VRK2A-C1 (256-508), pCEFL-GST-VRK2A-C2 (364-508), and pCEFL-GST-VRK2B-C (256-397) expressing different regions of human VRK2. In the pulldown proteins the presence of endogenous Ran was determined with a specific antibody. D, diagram illustrating the common region between the different VRK2 constructs and identifying the region of VRK2 needed for interaction with Ran. E, interaction of RanL43E with VRK1. The experiment was performed as in A. F, partial competition of VRK3 with VRK1 for binding to Ran. The mixture of proteins in the concentrations indicated in the figure was used for a pulldown of His-VRK1, and the bound proteins were determined by immunoblot (IB). wt, wild type.</text>
+      <annotation id="173">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="56698" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="174">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="56730" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="A126">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="57479" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="A127">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="57518" length="4"/>
+        <text>VRK2</text>
+      </annotation>
+      <annotation id="A128">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7444</infon>
+        <location offset="57735" length="4"/>
+        <text>VRK2</text>
+      </annotation>
+      <annotation id="A129">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="57793" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="PPIm_278">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="56686" length="48"/>
+        <text>Mapping the VRK1 region that interacts with Ran.</text>
+      </annotation>
+      <annotation id="PPIm_279">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="57453" length="70"/>
+        <text>C, pulldown of endogenous Ran with different constructs of human VRK2.</text>
+      </annotation>
+      <annotation id="PPIm_280">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="57524" length="216"/>
+        <text>HEK293T cells were transfected with plasmids pCEFL-GST, pCEFL-GST-VRK2N (1-320), pCEFL-GST-VRK2A-C1 (256-508), pCEFL-GST-VRK2A-C2 (364-508), and pCEFL-GST-VRK2B-C (256-397) expressing different regions of human VRK2.</text>
+      </annotation>
+      <annotation id="PPIm_281">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="57741" length="96"/>
+        <text>In the pulldown proteins the presence of endogenous Ran was determined with a specific antibody.</text>
+      </annotation>
+      <annotation id="PPIe_156">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="57453" length="70"/>
+        <text>C, pulldown of endogenous Ran with different constructs of human VRK2.</text>
+      </annotation>
+      <annotation id="PPIe_157">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="57741" length="96"/>
+        <text>In the pulldown proteins the presence of endogenous Ran was determined with a specific antibody.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>58315</offset>
+      <text>RCC1 can facilitate the interaction of Ran with VRK1. A, VRK1 does not interact directly with RCC1. Incubations were carried out with bacterially expressed and purified proteins using 2 mum GST-VRK1, GST-Ran wild type (wt), or GST and 0.07 mum RCC1-His in MgCl2 buffer. A Western blot of the pulldown was developed using specific antibodies against GST and RCC1. B, RCC1 increases the interaction between VRK1 and Ran in a dose-dependent manner. In this experiment equimolar amounts of Ran and VRK1 were used. Proteins were detected in the pulldown with specific antibodies as indicated under "Experimental Procedures." IB, immunoblot.</text>
+      <annotation id="175">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="58354" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="176">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="58363" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="177">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">7443</infon>
+        <location offset="58720" length="4"/>
+        <text>VRK1</text>
+      </annotation>
+      <annotation id="178">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">5901</infon>
+        <location offset="58729" length="3"/>
+        <text>Ran</text>
+      </annotation>
+      <annotation id="PPIm_282">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="58315" length="53"/>
+        <text>RCC1 can facilitate the interaction of Ran with VRK1.</text>
+      </annotation>
+      <annotation id="PPIm_283">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="58678" length="82"/>
+        <text>B, RCC1 increases the interaction between VRK1 and Ran in a dose-dependent manner.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>58955</offset>
+      <text>Ran inhibition of VRK proteins autophosphorylation and phosphorylation of histone H3. A, in vitro kinase assay of VRK1 autophosphorylation and H3 phosphorylation in the presence of three forms of Ran, Ran wild type (wt), RanT24N, and RanL43E (in the presence of GTP). B, autophosphorylation of VRK1 and phosphorylation of H3 by VRK1 was dose-dependent and was inhibited by Ran also in a dose-dependent manner. C, phosphorylation of histone H3 by endogenous VRK1 was inhibited by Ran. VRK1 was immunoprecipitated from HEK293T cell extracts under normal growing conditions (lanes 2 and 3) or from mitotic HEK293T cell extracts (M; lanes 4 and 5). The immunoprecipitated VRK1 was used to perform a kinase assay using as substrate recombinant H3 in the presence (lanes 3 and 5) or absence (lanes 2 and 4) of 4 mug of purified GST-Ran wild type. As a control, an immunoprecipitation (IP) with a nonspecific antibody (alphaHA) was performed (lane 1). D, identification of the residues phosphorylated by VRK1 on histone H3. Specific phosphorylation of H3 in Thr-3 (p-H3 T3) and Ser-10 (p-H3 S10) by VRK1 was inhibited by Ran. The phosphorylated residues were identified with phosphospecific antibodies for each residue. At the top are shown the proteins present in the in vitro kinase assay. At the bottom is shown the result of the analysis with phosphospecific antibodies. E, effect of VRK2A (left) or VRK2B (right) on autophosphorylation of VRK2 protein and histone 3 phosphorylation. F, in vitro kinase activity assay of VRK3 in the presence of different forms of Ran protein. The kinase was tested in VRK3 autophosphorylation and histone H3 phosphorylation assays. IB, immunoblot.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>60631</offset>
+      <text>Effect of VRK1 on the nucleotide exchange activity of Ran. A, effect of VRK1 on the release of GDP bound to Ran. Ran (50 pmol) was preloaded with [3H]GDP followed by incubation with the specified amounts of RCC1 for 5 min and 2 mm GTP without VRK1 or with different amounts of VRK1. B, effect of VRK1 on Ran loading with GTP by RCC1. Ran (50 pmol) preloaded with unlabeled GDP was incubated with 35S-GTP for the specified time without RCC1, with 250 fmol of RCC1 or 500 fmol of RCC1, and with or without the addition of VRK1. The mean value of three experiments with their standard deviation are shown in both parts.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>61248</offset>
+      <text>Model of different complexes that affect the kinase activity of VRK1. Based on the components of the protein complex the kinase activity of VRK1 is modulated. The kinase activity is inhibited when it is bound to RanGDP. The VRK1 kinase activity is recovered if it is free, or bound to Ran in its active conformation (RanGTP), or to Ran activated by RCC1. In mitosis the nuclear membrane (dashed line) is disintegrated. Act., active; Inact., inactive; T3-P, phosphorylated Thr-3; S10-P, phosphorylated Ser-10.</text>
+    </passage>
+  </document>
+</collection>

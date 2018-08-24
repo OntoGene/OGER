@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010293</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>10</Month>
+<Day>01</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0027-8424</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>83</Volume>
+<Issue>10</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>May</Month>
+</PubDate>
+</JournalIssue>
+<Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+<ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Tissue tropism of a leukemogenic murine retrovirus is determined by sequences outside of the long terminal repeats.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3376-80</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Although it has been previously determined that the long terminal repeat (LTR) sequences of several murine retroviruses specify the major tissue tropism of leukemias they induce, data reported here show that the LTR is not responsible for tissue tropism in the case of all leukemogenic viruses. In an effort to determine whether LTR sequences of the acute erythroleukemia-inducing spleen focus-forming virus (SFFV), like those of the other murine leukemia viruses, are uniquely required to confer tissue specificity to the virus, we prepared recombinant SFFVs in which the LTR region containing promoter and enhancer functions was replaced with analogous LTR regions from Friend and Moloney ecotropic and mink cell focus-inducing viruses. It was found that all of the SFFV constructs, even those with a LTR derived from lymphoma-inducing viruses such as Moloney murine leukemia virus, transformed erythroid cells in vitro and induced exclusively an erythroid disease. These results demonstrate that sequences in SFFV that determine the tissue-specific nature of the disease reside outside the LTR.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Wolff</LastName>
+<ForeName>L</ForeName>
+<Initials>L</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Ruscetti</LastName>
+<ForeName>S</ForeName>
+<Initials>S</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+<NlmUniqueID>7505876</NlmUniqueID>
+<ISSNLinking>0027-8424</ISSNLinking>
+</MedlineJournalInfo>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1980 Dec;22(3):693-9</RefSource>
+<PMID Version="1">6936081</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1980 Oct;36(1):254-63</RefSource>
+<PMID Version="1">6255210</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1982 Jan;28(1):3-5</RefSource>
+<PMID Version="1">7066985</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1982 May 25;10(10):3315-30</RefSource>
+<PMID Version="1">6285295</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Appl Genet. 1982;1(4):327-41</RefSource>
+<PMID Version="1">6286831</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1982 Jul;43(1):223-33</RefSource>
+<PMID Version="1">6955527</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1982 Oct;44(1):19-31</RefSource>
+<PMID Version="1">7143566</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Gene. 1982 Oct;19(3):259-68</RefSource>
+<PMID Version="1">6295879</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1983 Mar;45(3):1004-16</RefSource>
+<PMID Version="1">6300443</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1983 Jul;80(14):4408-11</RefSource>
+<PMID Version="1">6308622</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Exp Hematol. 1983 Aug;11(7):649-60</RefSource>
+<PMID Version="1">6884443</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1984 Jan;49(1):214-22</RefSource>
+<PMID Version="1">6197537</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1984 Mar;49(3):828-40</RefSource>
+<PMID Version="1">6321768</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1984 Sep;51(3):695-705</RefSource>
+<PMID Version="1">6088793</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Curr Top Microbiol Immunol. 1984;112:21-44</RefSource>
+<PMID Version="1">6090060</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1984 Oct;52(1):248-54</RefSource>
+<PMID Version="1">6090701</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1985 Feb;53(2):570-8</RefSource>
+<PMID Version="1">3968721</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Virology. 1985 Feb;141(1):30-42</RefSource>
+<PMID Version="1">3856371</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1985 Jul;55(1):184-92</RefSource>
+<PMID Version="1">4009793</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1985 Jun 28;228(4707):1549-52</RefSource>
+<PMID Version="1">2990034</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1985 Sep;55(3):862-6</RefSource>
+<PMID Version="1">2991605</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Virology. 1985 Jul 30;144(2):481-94</RefSource>
+<PMID Version="1">4060594</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1983 Nov;48(2):542-6</RefSource>
+<PMID Version="1">6312107</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1971 Jul;68(7):1542-6</RefSource>
+<PMID Version="1">4104431</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Virology. 1973 Apr;52(2):456-67</RefSource>
+<PMID Version="1">4705382</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1979 Sep;18(1):93-100</RefSource>
+<PMID Version="1">509527</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1980 Jan;33(1):475-86</RefSource>
+<PMID Version="1">6245244</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1980 Sep;35(3):924-36</RefSource>
+<PMID Version="1">6252347</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1980 Jul;77(7):3932-6</RefSource>
+<PMID Version="1">6449003</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1981 Oct 15-21;293(5833):543-8</RefSource>
+<PMID Version="1">6169994</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D002472">Cell Transformation, Viral</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004742">Enhancer Elements, Genetic</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005622">Friend murine leukemia virus</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005786">Gene Expression Regulation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006412">Hematopoietic Stem Cells</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000382">microbiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009052">Leukemia Virus, Murine</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004915">Leukemia, Erythroblastic, Acute</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000382">microbiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051379">Mice</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008979">Moloney murine leukemia virus</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011401">Promoter Regions, Genetic</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012091">Repetitive Sequences, Nucleic Acid</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013155">Spleen Focus-Forming Viruses</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014018">Tissue Distribution</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC323516</OtherID>
+</MedlineCitation>

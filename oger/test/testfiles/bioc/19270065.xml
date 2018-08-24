@@ -1,0 +1,2074 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>BioCBioGRID.key</key>
+  <document>
+    <id>19270065</id>
+    <infon key="top">53</infon>
+    <infon key="catagory">marked</infon>
+    <passage>
+      <infon key="name_2">surname:Mihaljevic;given-names:Boris</infon>
+      <infon key="name_3">surname:Schwendener;given-names:Sybille</infon>
+      <infon key="name_0">surname:Zheng;given-names:Lu</infon>
+      <infon key="name_1">surname:Kanagaraj;given-names:Radhakrishnan</infon>
+      <infon key="name_6">surname:Shevelev;given-names:Igor</infon>
+      <infon key="article-id_publisher-id">gkp147</infon>
+      <infon key="license">This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/licenses/by-nc/2.0/uk/) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</infon>
+      <infon key="name_5">surname:Gerrits;given-names:Bertran</infon>
+      <infon key="issue">8</infon>
+      <infon key="article-id_doi">10.1093/nar/gkp147</infon>
+      <infon key="name_4">surname:Sartori;given-names:Alessandro A.</infon>
+      <infon key="volume">37</infon>
+      <infon key="article-id_pmc">2677886</infon>
+      <infon key="article-id_pmid">19270065</infon>
+      <infon key="fpage">2645</infon>
+      <infon key="year">2009</infon>
+      <infon key="lpage">2657</infon>
+      <infon key="type">front</infon>
+      <infon key="name_7">surname:Janscak;given-names:Pavel</infon>
+      <offset>0</offset>
+      <text>MRE11 complex links RECQ5 helicase to sites of DNA damage</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>58</offset>
+      <text>RECQ5 DNA helicase suppresses homologous recombination (HR) possibly through disruption of RAD51 filaments. Here, we show that RECQ5 is constitutively associated with the MRE11-RAD50-NBS1 (MRN) complex, a primary sensor of DNA double-strand breaks (DSBs) that promotes DSB repair and regulates DNA damage signaling via activation of the ATM kinase. Experiments with purified proteins indicated that RECQ5 interacts with the MRN complex through both MRE11 and NBS1. Functional assays revealed that RECQ5 specifically inhibited the 3' 5' exonuclease activity of MRE11, while MRN had no effect on the helicase activity of RECQ5. At the cellular level, we observed that the MRN complex was required for the recruitment of RECQ5 to sites of DNA damage. Accumulation of RECQ5 at DSBs was neither dependent on MDC1 that mediates binding of MRN to DSB-flanking chromatin nor on CtIP that acts in conjunction with MRN to promote resection of DSBs for repair by HR. Collectively, these data suggest that the MRN complex recruits RECQ5 to sites of DNA damage to regulate DNA repair.</text>
+      <annotation id="18">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="185" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="19">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="457" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4361</infon>
+        <location offset="229" length="5"/>
+        <text>MRE11</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4361</infon>
+        <location offset="507" length="5"/>
+        <text>MRE11</text>
+      </annotation>
+      <annotation id="40">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">10111</infon>
+        <location offset="235" length="5"/>
+        <text>RAD50</text>
+      </annotation>
+      <annotation id="44">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4683</infon>
+        <location offset="241" length="4"/>
+        <text>NBS1</text>
+      </annotation>
+      <annotation id="45">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4683</infon>
+        <location offset="517" length="4"/>
+        <text>NBS1</text>
+      </annotation>
+      <annotation id="PPIm_166">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="166" length="240"/>
+        <text>Here, we show that RECQ5 is constitutively associated with the MRE11-RAD50-NBS1 (MRN) complex, a primary sensor of DNA double-strand breaks (DSBs) that promotes DSB repair and regulates DNA damage signaling via activation of the ATM kinase.</text>
+      </annotation>
+      <annotation id="PPIm_167">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="407" length="115"/>
+        <text>Experiments with purified proteins indicated that RECQ5 interacts with the MRN complex through both MRE11 and NBS1.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>1140</offset>
+      <text>INTRODUCTION</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1153</offset>
+      <text>Proteins belonging to the RecQ DNA helicase family are highly conserved from bacteria to mammals. In human cells, five RecQ homologs have been identified and named RECQ1, BLM, WRN, RECQ4 and RECQ5. Inherited defects in the genes encoding for BLM, WRN and RECQ4 have been found to cause distinct autosomal recessive disorders associated with various forms of genomic instability, premature aging and predisposition to cancer (1). Numerous biochemical and cellular studies have shown that the RecQ homologs in human cells have nonredundant roles in the maintenance of genomic stability (2). Several lines of evidence suggest that BLM suppresses crossovers during homologous recombination (HR) by acting in concert with DNA topoisomerase IIIalpha to catalyze dissolution of double Holliday junctions (3,4). WRN acts specifically at telomeres to promote lagging-strand replication of G-rich telomeric regions, preventing telomere erosion and subsequent recombination (5,6). RECQ4 accumulates on chromatin during initiation of DNA replication to promote loading of replication factors at unwound origins (7,8).</text>
+      <annotation id="A9">
+        <infon key="OrganismID">9606</infon>
+        <infon key="type">Organism</infon>
+        <infon key="src">edit</infon>
+        <location offset="1254" length="5"/>
+        <text>human</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2256</offset>
+      <text>The role of human RECQ5 protein in the maintenance of genomic stability is not well understood. RECQ5 exists in at least three different isoforms resulting from alternative RNA splicing, but only the largest splice variant, RECQ5beta, localizes to the nucleus and possesses DNA helicase activity (9-11). Like other RecQ helicases, RECQ5beta promotes branch migration of Holliday junctions and exhibits strand-annealing and strand-exchange activities in vitro (11,12). It can also disrupt RAD51 presynaptic filaments in a reaction dependent on its ATPase activity and the presence of replication protein A (RPA) (13). In proliferating cells, RECQ5beta associates with the replication machinery and accumulates at sites of stalled replication forks (12). Hereafter RECQ5beta will be referred to as RECQ5.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3053</offset>
+      <text>Mice lacking the Recql5 gene are viable, but are highly prone to various types of cancer (13). Recql5-deficient cells accumulate Rad51 and gamma-H2AX foci and are prone to gross chromosomal rearrangements in response to replication stress (13). Moreover, Recql5 deficiency is associated with a significant increase in the frequency of both spontaneous and DNA-damage-induced HR (13,14). These findings establish Recql5/RECQ5 as a tumor suppressor that plays a role in the control of HR, possibly through disruption of inappropriately formed Rad51 filaments (13).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3613</offset>
+      <text>The MRE11-NBS1-RAD50 (MRN) complex exhibits 3' 5' exonuclease activity on double-stranded (ds) DNA and endonuclease activity on single-stranded (ss) DNA and hairpin DNA structures in a reaction stimulated by ATP (15). The nuclease active site resides in MRE11, while RAD50 contains a bipartite ATP binding domain split by a long repeat region that fold into an anti-parallel coiled-coil domain (16). The coiled-coil domain of RAD50 can dimerize via a hook structure located on the tip of this domain, which gives the MRN complex the capacity to tether DNA ends (16,17). NBS1 does not possess any enzymatic function, but it enhances the endonuclease activity of the MRE11-RAD50 complex (18).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4316</offset>
+      <text>The MRN complex is required for the maintenance of the integrity of DNA replication forks, double-strand break (DSB) repair, G2/M checkpoint activation, telomere length maintenance and meiotic recombination (15,19). Accumulating evidence suggests that it functions as a DSB sensor activating the ATM-dependent signaling pathway, which coordinates cell cycle arrest with DNA repair (20,21). In higher eukaryotes, null mutations in all components of the MRN complex are lethal (19), while hypomorphic mutations in the human MRE11 and NBS1 genes can give rise to Ataxia telangiectasia-like disorder (ATLD) and Nijmegen breakage syndrome (NBS), respectively, which are characterized by neurological abnormalities, radiosensitivity, genomic instability and cancer predisposition (19).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5096</offset>
+      <text>Here we show that RECQ5 and the MRN complex constitutively associate in vivo and colocalize at nuclear foci in response to replication arrest and chromosomal breakage. The interaction between RECQ5 and MRN is direct and can be mediated through both MRE11 and NBS1. We further show that the recruitment of RECQ5 to sites of DNA damage is dependent on MRN. Moreover, biochemical experiments reveal that RECQ5 inhibits the 3' 5' exonuclease activity associated with the MRE11 protein. Together, these data suggest a functional relationship between RECQ5 and the MRN complex in the cellular response to DNA damage.</text>
+      <annotation id="20">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="5288" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4361</infon>
+        <location offset="5345" length="5"/>
+        <text>MRE11</text>
+      </annotation>
+      <annotation id="46">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4683</infon>
+        <location offset="5355" length="4"/>
+        <text>NBS1</text>
+      </annotation>
+      <annotation id="A10">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="5114" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="PPIm_168">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="5096" length="167"/>
+        <text>Here we show that RECQ5 and the MRN complex constitutively associate in vivo and colocalize at nuclear foci in response to replication arrest and chromosomal breakage.</text>
+      </annotation>
+      <annotation id="PPIm_169">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="5264" length="96"/>
+        <text>The interaction between RECQ5 and MRN is direct and can be mediated through both MRE11 and NBS1.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>5713</offset>
+      <text>MATERIALS AND METHODS</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>5735</offset>
+      <text>Protein purification</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>5756</offset>
+      <text>The RECQ5 protein was produced in bacteria as fusion with self-cleaving chitin-binding domain (CBD) and purified as described previously (11). Escherichia coli RecQ was purified as described (22). Baculoviruses expressing (His)6-MRE11, (His)6-NBS1 and RAD50, respectively, were a kind gift from Dr Vilhelm Bohr. The MRN and MR complexes as well as the individual MRN subunits were produced in Sf9 cells infected with appropriate baculoviruses. Cells harvested at 72 h after infection were suspended in buffer A [50 mM sodium phosphate (pH 7.0), 0.3 M NaCl, 0.5% (v/v) Tween 20, 10% (v/v) glycerol, 2 mM beta-mercaptoethanol] supplemented with 20 mM imidazole and 2 mM phenylmethylsulfonylfluoride (PMSF) and disrupted by sonication. Cell extract was clarified by centrifugation at 100 000g for 1 h and loaded on a 5-ml HiTrap Ni2+-Sepharose column (GE Healthcare) equilibrated with buffer A containing 20 mM imidazole. Bound proteins were eluted with a linear concentration gradient of imidazole (50 ml; 50-350 mM) in buffer A. Fractions containing MRN proteins were pooled, dialyzed against buffer B [20 mM Tris-HCl (pH 8.0), 100 mM NaCl, 10% (v/v) glycerol and 1 mM DL-Dithiothreitol (DTT)] and loaded onto a 1-ml HiTrap Q Sepharose FF column (GE Healthcare). Bound proteins were eluted with a linear concentration gradient of NaCl (12 ml; 50-500 mM) in buffer B. The RAD50 protein was purified only via HiTrap Q Sepharose FF column as it was expressed without a histidine tag. Purified proteins were stored at -80 C. The concentration of purified proteins was determined by Bradford assay. The values obtained in Bradford assay were divided by predicted molecular mass of appropriate protein to calculate molar concentration. The MRN complex was assumed to have an 2:2:1 (M:R:N) stoichiometry (23).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>7565</offset>
+      <text>Antibodies</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>7576</offset>
+      <text>Rabbit polyclonal antibody against the C-terminal portion of RECQ5 (amino acids 675-991) was affinity purified as described previously (12). Additionally, the following commercially available antibodies were used in this study: mouse monoclonal anti-MRE11 antibody, clone 12D7 (Novus Biologicals), mouse monoclonal anti-RAD50 antibody, clone 13B3 (GeneTex), rabbit polyclonal anti-NBS1 antibody, ab-398 (Abcam), mouse monoclonal anti-NBS1 antibody, clone 1D7 (GeneTex), mouse monoclonal anti-gamma-H2AX antibody, clone JBW301 (Upstate Biotechnology), rabbit polyclonal anti-TFIIH p89 antibody (S-19), sc-293 (Santa Cruz Biotechnology), mouse monoclonal anti-RAD51 antibody, ab1837 (Abcam), rabbit polyclonal anti-ATM antibody (Abcam), mouse monoclonal anti-RPA antibody (Ab-3), clone RPA34-20 (Calbiochem), mouse monoclonal anti-Cyclin B1 antibody, clone GNS3 (Upstate) and mouse monoclonal anti-CtIP antibody (24).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>8491</offset>
+      <text>Cell culture and generation of DNA damage</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8533</offset>
+      <text>U2OS, HeLa and HEK 293T cells were maintained in Dulbecco modified Eagle's medium (DMEM; OmniLab) supplemented with 10% fetal calf serum (FCS; Life Technologies) and streptomycin/penicillin (100 U/ml). Immortalized ATLD1 cells transduced with retrovirus expressing the wild-type MRE11 cDNA (ATLD1-MRE11) or retrovirus harboring the empty vector were a kind gift from Dr Matthew Weitzman (25) and grown in DMEM supplemented with 20% FCS, streptomycin/penicillin (100 U/ml) and 1 mug/ml puromycin (Sigma-Aldrich). NBS cells stably transfected with vector containing the wild-type NBS1 cDNA (NBS-NBS1) as well as the parental NBS cells (GM7166 VA7) were obtained from Dr Yosef Shiloh and described in (26). Growth medium of complemented NBS cells was supplemented with hygromycin B (100 mug/ml). MDC1+/+ and MDC1-/- mouse embryonic fibroblasts (MEFs) were cultured under the same conditions as U2OS cells (27). Where indicated, cells were treated with 2 mM hydroxyurea (HU) for 16 h or with 20 muM cis-diamminedichloroplatinum (CDDP) for 8 h. Laser microirradiation to generate DNA DSBs in defined nuclear volumes was performed using a MMI CELLCUT system containing a UVA laser of 355 nm (Molecular Machines &amp; Industries). Prior to irradiation, cells were grown for 24 h in the presence of 10 muM bromodeoxyuridine (BrdU). Ionizing radiation (IR) was generated using a Faxitron X-ray system. UV irradiation (at a dose of 40 J/m2) was performed in a UV-Stratalinker 1800 equipped with a 254 nm UV lamp (Stratagene). Immediately after exposure to radiation, cells were placed back to incubator and incubated for various periods of time as indicated. For cell cycle analyses, ethanol-fixed cells were stained with propidium iodide (20 mug/ml; Molecular Probes) and subjected to flow cytometry in a Becton Dickinson cell sorter.</text>
+      <annotation id="51">
+        <infon key="OrganismID">9606</infon>
+        <infon key="type">Organism</infon>
+        <infon key="src">edit</infon>
+        <location offset="8533" length="29"/>
+        <text>U2OS, HeLa and HEK 293T cells</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>10359</offset>
+      <text>RNA interference</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10376</offset>
+      <text>To knock down MRE11 expression in human cells, we employed short-hairpin (sh) RNA technology. The oligonucleotides shRNA-MRE11-top (5'-gatccccacaggagaagagatcaactttcaagagaagttgatctcttctcctgttttttggaaa-3') and shRNA-MRE11-bottom 5'-agcttttccaaaaaacaggagaagagatcaacttctcttgaaagttgatctcttctcctgtggg-3') were annealed and ligated into the pSUPER vector (Oligoengine) digested with HindIII and BglII (regions homologous to the MRE11 sequence are underlined in each oligonucleotide). For control RNAi experiments, the oligonucleotides shRNA-C-top (5'-gatccccagacgtgtacacaactagtttcaagagaactagttgtgtacacgtcttttttggaaa-3') and shRNA-C-bottom (5'-agcttttccaaaaaagacgtgtacacaactagttctcttgaaactagttgtgtacacgtctggg-3') were annealed and processed as above. These oligonucleotides were designed by scrambling of the shRNA-MRE11 sequence within the MRE11 homology region. The resulting plasmid constructs were further modified by introducing a puromycin resistance marker. To do so, the 1.4 kb BamHI/PvuI fragment of pPUR (Clontech) was ligated into the BamHI and SmaI sites of the pSUPER derivatives. The shRNA plasmids were introduced into U2OS cells by liposomal transfection with Metafectene (Biontex) that was carried out essentially according to the manufacturer instructions. At 24 h posttransfection, cell cultures were supplemented with puromycin (2 mug/ml) to enhance the fraction of shRNA-expressing clones. Cells were usually harvested 3 days after addition of puromycin and analyzed as described below.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11892</offset>
+      <text>The nucleotide sequences of CtIP and control (Ctrl) siRNAs and siRNA transfection method were described previously (24).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>12013</offset>
+      <text>Immunofluorescence staining and analyses</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12054</offset>
+      <text>Cells grown on cover slips were fixed in methanol for 30 min at -20 C, which was followed by incubation in acetone for 30 s. After blocking in PBS supplemented with 2% FCS (blocking solution), cover slips were incubated overnight at 4 C with appropriate primary antibodies [rabbit polyclonal anti-RECQ5 (1:1000) in combination with either mouse monoclonal anti-RAD50 (1:200) or mouse monoclonal anti-gamma-H2AX (1:200); all antibodies were diluted in blocking solution]. After washing with PBS, the cells were incubated with FITC-conjugated sheep anti-rabbit (Sigma; dilution of 1:700) and Texas Red-conjugated donkey anti-mouse (Abcam; dilution of 1:200) secondary antibodies for 1 h at room temperature. The cover slips were then mounted with Vectashield (Vector Labs) and sealed. Images were taken on an Olympus IX81 fluorescence microscope and acquired with a CCD camera (Orca AG, Hamamatsu) using cellR software (Olympus). At least 150 nuclei were analyzed in each experiment.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>13037</offset>
+      <text>Immunoprecipitation assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>13063</offset>
+      <text>Cells grown in a 10-cm dish were subjected to trypsinization, harvested by centrifugation and suspended in 0.5 ml of lysis buffer [50 mM Tris-HCl (pH 8.0), 120 mM NaCl, 20 mM NaF, 15 mM sodium pyrophosphate, 0.5 mM sodium orthovanadate and 0.5% (v/v) NP-40] supplemented with a protease inhibitor cocktail (Complete, Mini; Roche). After a 30-min incubation on ice, the lysate was treated with 50 U of RNase-free DNase I (Roche) at 25 C for 30 min, and clarified by centrifugation. Cell extracts (1 mg) were incubated overnight at 4 C with purified rabbit anti-RECQ5 IgGs (1 mug) or with IgGs purified from pre-immune serum (1 mug). Immune complexes were subsequently incubated with protein A/G-agarose beads (20 mul, Santa Cruz Biotechnology) for 1 h at 4 C. After extensive washing with lysis buffer, beads were boiled in SDS-PAGE loading buffer (25 mul) for 10 min to release bound proteins. Immunoprecipitates were analyzed by western blotting. For mass spectrometry (MS) analysis, the immunoprecipitation protocol was scaled up to include 10 mg of total protein. The eluates from protein A/G-agarose beads were concentrated using a speed-vac before loading on a 7.5% (w/v) SDS-polyacrylamide gel.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>14273</offset>
+      <text>Liquid chromatography-MS/MS analysis</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14310</offset>
+      <text>SDS-PAGE gel was stained with Coomassie Brilliant Blue and sample lanes were cut into 10 slices. Each slice was further diced into smaller cubes (1 mm) and subjected to two cycles of rehydration in 50 mM ammonium bicarbonate (NH4HCO3) and dehydration in 80% (v/v) acetonitrile. Gel pieces were then incubated with 37 mM DTT solution at 50 C for 30 min. After two additional rounds of dehydration in 80% (v/v) acetonitrile, gel pieces were incubated with 20 mM iodoacetamide for 15 min in dark for protein alkylation. After another three rounds of rehydration in 50 mM NH4HCO3 and shrinking in 80% (v/v) acetonitrile, the gel pieces were incubated with freshly diluted trypsin solution (12.5 ng/mul) at 37 C for 4 h and then at 25 C overnight. Digested peptides were finally extracted by 0.1% formic acid (one time) and 80% (v/v) acetonitrile (three times) after which extracts were dried under vacuum. The tryptic peptides were analyzed on a Finnigan LCQ Deca (ThermoFisher, Basel Switzerland). Prior to MS analysis, peptides were separated by an online high-pressure liquid chromatograph (Agilent, Palo Alto, CA) on a C18 reverse phase column using acetonitrile/water system. MS/MS spectra were searched against the human portion (taxonomy ID: 9606) of the UniProt database (http://www.uniprot.org). The peptides identified were interrogated using the Mascot search algorithm (28). Mascot protein score of &gt;45 was considered significant. Individual ions scores &gt;41 indicate identity or extensive homology (P &lt;0.05).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>15832</offset>
+      <text>CBD pull-down assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15852</offset>
+      <text>CBD-tagged RECQ5 was produced in E. coli BL21-CodonPlus(DE3)-RIL cells (Stratagene) as previously described (11). Cells harvested from a 10-ml culture were resuspended in 1 ml of NET-150 buffer [10 mM Tris (pH 8.0), 1 mM EDTA, 150 mM NaCl, 10% (v/v) glycerol and 0.1% (v/v) Triton X-100] supplemented with a protease inhibitor cocktail (Complete, Mini; Roche) and disrupted by sonication followed by centrifugation at 20 000g for 45 min. Clarified cell extract (typically 50 mul) was incubated with 20 mul of chitin beads (NEB) in a total volume of 400 mul of NET-150 buffer for 2 h at 4 C. After extensive washing with NET-150 buffer, beads were incubated with recombinant MRN proteins (1 mug) in 400 mul of NET-150 buffer supplemented with ethidium bromide (50 mug/ml) for 2 h at 4 C. Bound proteins were analyzed by western blotting.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>16691</offset>
+      <text>Strand exchange assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16713</offset>
+      <text>Strand exchange assays with RECQ5 were performed essentially as described previously (12). Briefly, reactions were carried at 37 C in buffer containing 20 mM Tris-acetate (pH 7.9), 50 mM KOAc, 10 mM Mg(OAc)2, 1 mM DTT and 50 mug/ml BSA. 1 nM DNA substrates (60-mer/30-mer partial duplex and complementary 60-mer oligonucleotide, of which the former 60-mer oligonucleotide was radiolabeled at 5' end) were preincubated with 40 nM RECQ5 for 10 min to form a forked duplex. RECQ5-mediated strand exchange between the arms of the fork was initiated by addition of ATP (2 mM). Where required, the annealing mixture was preincubated with 40 nM MRN complex for 5 min prior to addition of ATP. Aliquots (5 mul) from different reaction time points were subjected to electrophoresis in 10% nondenaturing polyacrylamide gel (acrylamide/bis-acrylamide 19:1) run in 1xTBE buffer at 140 V. Gels were dried and subjected to phosphor-imaging analysis using a Typhoon 9400 scanner.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>17683</offset>
+      <text>Nuclease assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>17698</offset>
+      <text>The 3' 5' exonuclease activity of the MR(N) complex was measured using a 5'-tailed oligoduplex prepared by annealing of a 30-mer oligonucleotide (5'-ggagtaaagtactaggtatgtcgacattga-3') to the 3'-half of a 60-mer oligonucleotide (5'-gaggtcactccagtgaattcgagctcgcagtcaatgtcgacatacctagtactttactcc-3'). The 30-mer oligonucleotide was radiolabeled at the 5'-end prior to annealing. Reactions were conducted at 37 C in buffer containing 30 mM MOPS (pH 7.0), 25 mM KCl, 1 mM DTT, 2 mM MnCl2, 2 mM ATP and 50 mug/ml BSA. Reaction mixtures contained 1 nM DNA substrate, 40 nM MR(N) and varying concentrations of RECQ5 or E. coli RecQ, ranging from 0 to 80 nM. MR(N) and RECQ5 (or RecQ) were preincubated for 5 min on ice before adding to the DNA substrate. Reactions were terminated after 30 min by adding an equal volume of stop solution [80% (v/v) formamide, 10 mM EDTA, 0.1% (w/v) bromophenol blue and 0.1% (w/v) xylene cyanol] and heating at 95 C for 5 min. Reaction aliquots were subjected to electrophoresis in 15% (w/v) polyacrylamide gel containing 8 M urea (acrylamide/bis-acrylamide 19:1) run in 1xTBE buffer at 300 V. Gels were dried and subjected to phosphor-imaging analysis using a Typhoon 9400 scanner. DNA bands in the gel images were quantified using ImageQuant software (Molecular Dynamics).</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>19019</offset>
+      <text>RESULTS</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>19027</offset>
+      <text>Physical interaction between RECQ5 and the MRN complex</text>
+      <annotation id="21">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="19056" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="PPIm_170">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="19027" length="54"/>
+        <text>Physical interaction between RECQ5 and the MRN complex</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">table_caption</infon>
+      <offset>19082</offset>
+      <text>A selection of proteins identified by mass spectrometric analysis of the RECQ5 immunoprecipitate from 293T cells</text>
+    </passage>
+    <passage>
+      <infon key="type">table</infon>
+      <offset>19195</offset>
+      <text>   Protein Swiss-Prot entry Sequence coverage (%) Number of peptides Mascot protein scorea   RECQ5b O94762 18.0 57 347  MRE11b P49959 13.7 43 257  RAD50b Q92878 20.1 120 253  NBS1b O60934 6.1 18 157  DNA-dependent protein kinase catalytic subunit (DNA-PKcs)b P78527 15.5 160 1354  RECQ4b O94761 5.2 26 111  MCM7b P33993 20.4 44 251  RNA polymerase II largest subunit RPB1b P24928 25.6 240 1602  RNA polymerase II subunit 2 (RPB2) P30876 12.7 43 315  Nucleolin P19338 11.4 13 109  E3 ubiquitin-protein ligase EDD1 (UBR5) O95071 3 25 370</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>19733</offset>
+      <text>aMascot protein score of &gt;45 was considered significant.</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>19790</offset>
+      <text>bConfirmed by immunoblotting (IB).</text>
+    </passage>
+    <passage>
+      <infon key="type">table_footnote</infon>
+      <offset>19825</offset>
+      <text>The full list is available upon request.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19866</offset>
+      <text>To identify proteins associated with RECQ5 in vivo, we performed large-scale immunoprecipitation combined with mass spectrometric analysis. Using affinity-purified rabbit polyclonal anti-RECQ5 antibody, we immunoprecipitated RECQ5 from whole cell extract of HEK 293T cells containing 10 mg of protein. IgG purified from preimmune serum was used as the negative control. The immunoprecipitated proteins were separated by SDS-PAGE and visualized by Coomassie Blue staining (Figure S1). The lane containing RECQ5 immunoprecipitate was cut into 10 slices and proteins in each slice were identified by MS as described in Materials and Methods section. This analysis revealed a number of potential RECQ5 interactors involved in DNA metabolism (Figure S1 and Table 1). Our attention was in particular drawn to the MRN complex, a nuclease that plays a pivotal role in the recognition and repair of DSBs (20,21). </text>
+      <annotation id="17">
+        <infon key="OrganismID">9606</infon>
+        <infon key="type">Organism</infon>
+        <infon key="src">edit</infon>
+        <location offset="20124" length="14"/>
+        <text>HEK 293T cells</text>
+      </annotation>
+      <annotation id="33">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="19903" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="PPIm_171">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="19866" length="139"/>
+        <text>To identify proteins associated with RECQ5 in vivo, we performed large-scale immunoprecipitation combined with mass spectrometric analysis.</text>
+      </annotation>
+      <annotation id="PPIe_419">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="19866" length="139"/>
+        <text>To identify proteins associated with RECQ5 in vivo, we performed large-scale immunoprecipitation combined with mass spectrometric analysis.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>20773</offset>
+      <text>RECQ5 associates with the MRN complex in vivo. (A) Co-immunoprecipitation of the MRE11, RAD50 and NBS1 proteins with RECQ5 from total extract of 293T cells (1 mg of protein). Lane 1, 5% of the input material; lane 2, immunoprecipitation using IgG (1 mug) isolated from a preimmune serum; lane 3, immunoprecipitation with affinity-purified rabbit anti-RECQ5 antibody (1 mug); lane 4, the same as lane 3, but the extract was pretreated with DNase I (50 U) for 30 min at 25 C; lane 5, the same as lane 3, but extract was supplemented with ethidium bromide (50 mug/ml). (B) Co-immunoprecipitation of RECQ5 with the MRE11 protein from total extract of HeLa cells. Lane 1, 5% of the input material; lane 2, immunoprecipitation using IgG (1 mug) isolated from a preimmune serum; lane 3, immunoprecipitation using mouse monoclonal anti-MRE11 antibody (1 mug). (A and B) Immunoprecipitated proteins were analyzed by SDS-PAGE followed by IB using antibodies described in Materials and Methods section.</text>
+      <annotation id="22">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="20890" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="23">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="21369" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="34">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4361</infon>
+        <location offset="20854" length="5"/>
+        <text>MRE11</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4361</infon>
+        <location offset="21384" length="5"/>
+        <text>MRE11</text>
+      </annotation>
+      <annotation id="41">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">10111</infon>
+        <location offset="20861" length="5"/>
+        <text>RAD50</text>
+      </annotation>
+      <annotation id="47">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4683</infon>
+        <location offset="20871" length="4"/>
+        <text>NBS1</text>
+      </annotation>
+      <annotation id="A21">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="20773" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="PPIm_172">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="20773" length="46"/>
+        <text>RECQ5 associates with the MRN complex in vivo.</text>
+      </annotation>
+      <annotation id="PPIm_173">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="20820" length="127"/>
+        <text>(A) Co-immunoprecipitation of the MRE11, RAD50 and NBS1 proteins with RECQ5 from total extract of 293T cells (1 mg of protein).</text>
+      </annotation>
+      <annotation id="PPIm_174">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="21339" length="92"/>
+        <text>(B) Co-immunoprecipitation of RECQ5 with the MRE11 protein from total extract of HeLa cells.</text>
+      </annotation>
+      <annotation id="PPIe_420">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="20820" length="127"/>
+        <text>(A) Co-immunoprecipitation of the MRE11, RAD50 and NBS1 proteins with RECQ5 from total extract of 293T cells (1 mg of protein).</text>
+      </annotation>
+      <annotation id="PPIe_421">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="21339" length="92"/>
+        <text>(B) Co-immunoprecipitation of RECQ5 with the MRE11 protein from total extract of HeLa cells.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21768</offset>
+      <text>To verify the MS data, the RECQ5 immunoprecipitate from 293T cells was subjected to western blot analysis using antibodies against the individual MRN subunits. We found that this immunoprecipitate contained a large fraction of the endogenous MRN proteins, whereas the control immunoprecipitate obtained with IgG isolated from a pre-immune rabbit serum was devoid of these proteins (Figure 1A, compare lanes 1-3). The amount of MRN detected in RECQ5 immunoprecipitates from cell lysates pre-treated with DNaseI or ethidium bromide was comparable with that detected in RECQ5 immunoprecipitate from nontreated lysate, indicating that the observed association of RECQ5 with MRN proteins is DNA independent (Figure 1A; compare lanes 3, 4 and 5). We also performed a reciprocal co-immunoprecipitation experiment using anti-MRE11 antibody. We found that MRE11 immunoprecipitate from HeLa cells contained a significant amount of RECQ5 (Figure 1B). Collectively, these data indicate that a fraction of the MRN complex stably associates with RECQ5 in vivo. </text>
+      <annotation id="24">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="22689" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="36">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4361</infon>
+        <location offset="22615" length="5"/>
+        <text>MRE11</text>
+      </annotation>
+      <annotation id="A33">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="21795" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="A34">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4361</infon>
+        <location offset="22585" length="5"/>
+        <text>MRE11</text>
+      </annotation>
+      <annotation id="PPIm_175">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="21768" length="159"/>
+        <text>To verify the MS data, the RECQ5 immunoprecipitate from 293T cells was subjected to western blot analysis using antibodies against the individual MRN subunits.</text>
+      </annotation>
+      <annotation id="PPIm_176">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="21928" length="252"/>
+        <text>We found that this immunoprecipitate contained a large fraction of the endogenous MRN proteins, whereas the control immunoprecipitate obtained with IgG isolated from a pre-immune rabbit serum was devoid of these proteins (Figure 1A, compare lanes 1-3).</text>
+      </annotation>
+      <annotation id="PPIm_177">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="22509" length="91"/>
+        <text>We also performed a reciprocal co-immunoprecipitation experiment using anti-MRE11 antibody.</text>
+      </annotation>
+      <annotation id="PPIm_178">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="22601" length="106"/>
+        <text>We found that MRE11 immunoprecipitate from HeLa cells contained a significant amount of RECQ5 (Figure 1B).</text>
+      </annotation>
+      <annotation id="PPIe_422">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="22509" length="91"/>
+        <text>We also performed a reciprocal co-immunoprecipitation experiment using anti-MRE11 antibody.</text>
+      </annotation>
+      <annotation id="PPIe_423">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="22601" length="106"/>
+        <text>We found that MRE11 immunoprecipitate from HeLa cells contained a significant amount of RECQ5 (Figure 1B).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>22818</offset>
+      <text>Next, we compared the levels of the MRE11 protein in RECQ5 immunoprecipitates from cells exposed with various genotoxic agents including HU, IR and CDDP. This experiment revealed that the cellular level of the RECQ5-MRN complex is not significantly affected by DNA damage, suggesting that DNA damage does neither induce nor prevent the formation of the RECQ5-MRN complex in vivo (Figure S2A, compare lanes 2-4 with lane 1). We also examined the levels of RECQ5-MRN complex at different stages of the cell cycle. To do so, U2OS cells were synchronized at G1/S transition by HU treatment and then released into drug-free medium. Cells were collected at different time points after the removal of HU and subjected to immunoprecipitation with anti-RECQ5 antibody. In a parallel experiment, cell populations from the individual time points were subjected to FACS analysis to determine the stage of the cell cycle (Figure S2C). We found that the level of the RECQ5-MRN complex remained constant throughout the cell cycle, suggesting a constitutive association (Figure S2B).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>23896</offset>
+      <text>RECQ5 and the MRN complex interact directly. (A) Binding of purified MRN ('top panel') and MR ('bottom panel') complexes to chitin beads coated with RECQ5-CBD fusion. (B) Binding of individually purified RAD50 ('top panel'), NBS1 ('middle panel') and MRE11 ('bottom panel') proteins to chitin beads coated with RECQ5-CBD fusion. For (A) and (B): lane 1, 30% of input material; lane 2, chitin beads coated with CBD; lane 3, chitin beads coated with RECQ5-CBD fusion protein. Binding reactions were carried out as described in Materials and Methods section. (C) Western blot analysis of RECQ5 immunoprecipitates from total extracts of the following cells: NBS (NBS1 deficiency), NBS1+ (NBS complemented by stable transfection of the NBS1 cDNA), ATLD1 (MRE11 deficiency) and ATLD1+ (ATLD1 complemented by stable transfection of the MRE11 cDNA). Lanes 1-4, 5% of the input material as indicated, lanes 5-8, RECQ5 immunoprecipitates from total extracts (1 mg of protein) of the indicated cells. Blots were probed for the presence of RECQ5, MRE11, RAD50 and NBS1 using antibodies described in Materials and Methods section.</text>
+      <annotation id="A42">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="23896" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="PPIm_179">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="23896" length="44"/>
+        <text>RECQ5 and the MRN complex interact directly.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25044</offset>
+      <text>To determine whether RECQ5 and MRN interact directly, we performed affinity pull-down assays with purified recombinant proteins. RECQ5 was expressed in bacteria as a fusion with a CBD tag and bound to chitin beads. The beads were subsequently incubated with purified MRN and MR complexes, respectively, that were produced in insect cells by means of baculovirus system. We found that both complexes were avidly bound to RECQ5 beads, but not to control beads coated with CBD, suggesting that the interaction between RECQ5 and MRN observed in vivo is direct and independent of NBS1 (Figure 2A). </text>
+      <annotation id="A44">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="25065" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="A45">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="25173" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="A46">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="25464" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="PPIm_180">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="25044" length="128"/>
+        <text>To determine whether RECQ5 and MRN interact directly, we performed affinity pull-down assays with purified recombinant proteins.</text>
+      </annotation>
+      <annotation id="PPIm_181">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="25173" length="85"/>
+        <text>RECQ5 was expressed in bacteria as a fusion with a CBD tag and bound to chitin beads.</text>
+      </annotation>
+      <annotation id="PPIm_182">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">0</infon>
+        <location offset="25259" length="154"/>
+        <text>The beads were subsequently incubated with purified MRN and MR complexes, respectively, that were produced in insect cells by means of baculovirus system.</text>
+      </annotation>
+      <annotation id="PPIm_183">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="25414" length="222"/>
+        <text>We found that both complexes were avidly bound to RECQ5 beads, but not to control beads coated with CBD, suggesting that the interaction between RECQ5 and MRN observed in vivo is direct and independent of NBS1 (Figure 2A).</text>
+      </annotation>
+      <annotation id="PPIe_424">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="25044" length="128"/>
+        <text>To determine whether RECQ5 and MRN interact directly, we performed affinity pull-down assays with purified recombinant proteins.</text>
+      </annotation>
+      <annotation id="PPIe_425">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="25414" length="222"/>
+        <text>We found that both complexes were avidly bound to RECQ5 beads, but not to control beads coated with CBD, suggesting that the interaction between RECQ5 and MRN observed in vivo is direct and independent of NBS1 (Figure 2A).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25638</offset>
+      <text>In an attempt to further define the interaction site for RECQ5 on the MRN complex, we tested individually purified MRN subunits for binding to RECQ5-CBD beads. Interestingly, we found that both MRE11 and NBS1, but not RAD50, were bound to RECQ5, suggesting that the interaction between RECQ5 and the MRN complex is mediated not only by MRE11 but also by NBS1 (Figure 2B). To substantiate these findings, we performed immunoprecipitation experiments with total cell extracts from NBS and ATLD1 cells carrying hypomorphic mutations in the NBS1 and MRE11 genes, respectively. We found that the RECQ5 immunoprecipitate from NBS cells contained both MRE11 and RAD50 proteins in similar concentrations as the RECQ5 immunoprecipitate from NBS cells complemented with the wild-type NBS1 cDNA, confirming that RECQ5 binds to the MR complex in a manner independent of NBS1 (Figure 2C, lanes 1, 2, 5 and 6). In ATLD1 cells, the levels of NBS1 and RAD50 proteins were dramatically reduced as previously reported (29). However, a small amount of NBS1 could still be detected in the RECQ5 immunoprecipitate from these cells, indicating that NBS1 can interact with RECQ5 in absence of MRE11 (Figure 2C, lane 7). In MRE11-complemented ATLD1 cells, expression of all three subunits of the MRN complex could again be readily detected by western blot (Figure 2C, lane 4). Accordingly, the RECQ5 immunoprecipitate from total extract of these cells was found to contain substantial amounts of all three MRN proteins (Figure 2C, lane 8).</text>
+      <annotation id="25">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="25877" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="25924" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="27">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="26229" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="28">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="26341" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="29">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="26439" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="37">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4361</infon>
+        <location offset="25974" length="5"/>
+        <text>MRE11</text>
+      </annotation>
+      <annotation id="38">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4361</infon>
+        <location offset="25832" length="5"/>
+        <text>MRE11</text>
+      </annotation>
+      <annotation id="39">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4361</infon>
+        <location offset="26283" length="5"/>
+        <text>MRE11</text>
+      </annotation>
+      <annotation id="42">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">10111</infon>
+        <location offset="25856" length="5"/>
+        <text>RAD50</text>
+      </annotation>
+      <annotation id="43">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">10111</infon>
+        <location offset="26293" length="5"/>
+        <text>RAD50</text>
+      </annotation>
+      <annotation id="48">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4683</infon>
+        <location offset="25992" length="4"/>
+        <text>NBS1</text>
+      </annotation>
+      <annotation id="49">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4683</infon>
+        <location offset="26412" length="4"/>
+        <text>NBS1</text>
+      </annotation>
+      <annotation id="50">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4683</infon>
+        <location offset="26496" length="4"/>
+        <text>NBS1</text>
+      </annotation>
+      <annotation id="A55">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4683</infon>
+        <location offset="25842" length="4"/>
+        <text>NBS1</text>
+      </annotation>
+      <annotation id="A57">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4683</infon>
+        <location offset="26671" length="4"/>
+        <text>NBS1</text>
+      </annotation>
+      <annotation id="A58">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="26707" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="A59">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4361</infon>
+        <location offset="26808" length="5"/>
+        <text>MRE11</text>
+      </annotation>
+      <annotation id="A60">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">4683</infon>
+        <location offset="26765" length="4"/>
+        <text>NBS1</text>
+      </annotation>
+      <annotation id="A61">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="26788" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="A62">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="27008" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="PPIm_184">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="25798" length="211"/>
+        <text>Interestingly, we found that both MRE11 and NBS1, but not RAD50, were bound to RECQ5, suggesting that the interaction between RECQ5 and the MRN complex is mediated not only by MRE11 but also by NBS1 (Figure 2B).</text>
+      </annotation>
+      <annotation id="PPIm_185">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <location offset="26211" length="323"/>
+        <text>We found that the RECQ5 immunoprecipitate from NBS cells contained both MRE11 and RAD50 proteins in similar concentrations as the RECQ5 immunoprecipitate from NBS cells complemented with the wild-type NBS1 cDNA, confirming that RECQ5 binds to the MR complex in a manner independent of NBS1 (Figure 2C, lanes 1, 2, 5 and 6).</text>
+      </annotation>
+      <annotation id="PPIm_186">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="26644" length="190"/>
+        <text>However, a small amount of NBS1 could still be detected in the RECQ5 immunoprecipitate from these cells, indicating that NBS1 can interact with RECQ5 in absence of MRE11 (Figure 2C, lane 7).</text>
+      </annotation>
+      <annotation id="PPIm_187">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="26991" length="162"/>
+        <text>Accordingly, the RECQ5 immunoprecipitate from total extract of these cells was found to contain substantial amounts of all three MRN proteins (Figure 2C, lane 8).</text>
+      </annotation>
+      <annotation id="PPIe_426">
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="25798" length="211"/>
+        <text>Interestingly, we found that both MRE11 and NBS1, but not RAD50, were bound to RECQ5, suggesting that the interaction between RECQ5 and the MRN complex is mediated not only by MRE11 but also by NBS1 (Figure 2B).</text>
+      </annotation>
+      <annotation id="PPIe_427">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <location offset="26211" length="323"/>
+        <text>We found that the RECQ5 immunoprecipitate from NBS cells contained both MRE11 and RAD50 proteins in similar concentrations as the RECQ5 immunoprecipitate from NBS cells complemented with the wild-type NBS1 cDNA, confirming that RECQ5 binds to the MR complex in a manner independent of NBS1 (Figure 2C, lanes 1, 2, 5 and 6).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>27156</offset>
+      <text>RECQ5 inhibits the 3' 5' exonuclease activity of MRN complex</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27223</offset>
+      <text>Next, we investigated whether the interaction between RECQ5 and the MRN complex affects the biochemical activities of these proteins. The SDS-PAGE profile of the purified proteins used in this study is shown in Figure S3. First, we tested the effect of MRN on the helicase activity of RECQ5. Previous studies demonstrated that RECQ5 displays a poor 3' 5' helicase activity on oligonucleotide-based partial duplexes due to a strong strand-annealing activity residing in the C-terminal half of RECQ5 (11). However, RECQ5 could efficiently displace the lagging-strand oligonucleotide from synthetic forked structures with homologous arms where reannealing of this oligonucleotide is prevented by annealing of the parental strands (12). Thus, we evaluated the effect of the MRN complex on this strand-exchange reaction. We found that the rate of RECQ5-mediated strand-exchange was not altered upon addition of the MRN complex, suggesting that the MRN complex does not modulate the helicase activity of RECQ5 (Figure S4).</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>28248</offset>
+      <text>RECQ5 inhibits the 3' 5' exonuclease activity of MR(N). (A) Effect of RECQ5 on the 3' 5' exonuclease activity of MRN (lanes 3-7) and MR (lanes 8-12). (B) Effect of E. coli RecQ on the 3' 5' exonuclease activity of MRN (lanes 3-7) and MR (lanes 8-12). In (A) and (B), reaction mixtures were incubated at 37 C for 30 min, and contained 1 nM 5'-tailed oligoduplex substrates (60-mer/30-mer with a 5'-32P label on the shorter strand), 40 nM MRN or MR and various concentrations of RECQ5 or RecQ as indicated. Reaction products were analyzed by denaturing PAGE followed by phosphorimaging as described in Materials and Methods section. (C) Quantification of the gels shown in (A) and (B). Intensity of the DNA substrate band in each lane was measured using ImageQuant software. The obtained values were used to calculate the percentage of cleaved DNA. The values obtained for the reactions carried out in the absence of MR(N) were taken as 100% in these calculations. The data points represent the mean of three independent experiments.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>29311</offset>
+      <text>Since the MRN complex has been shown to possess 3' 5' exonuclease activity (15), we tested the effect of RECQ5 on MRN-mediated exonucleolytic processing of a 30-bp duplex with a 5'-ssDNA tail containing 30 nt. Our initial experiments showed that the MRN complex required manganese and ATP as cofactors to exhibit efficient 3' 5' exonuclease activity on this DNA substrate (data not shown), which is consistent with previously published data (18,30). Addition of RECQ5 to this reaction resulted in a significant decrease in the exonuclease activity of MRN (Figure 3A, lanes 3-7, and 3C). We did not observe the same effect with the E. coli RecQ helicase, excluding the possibility that the inhibition of the MRE11 nuclease by RECQ5 results from competition between these proteins for the DNA substrate (Figure 3B, lanes 3-7, and 3C). </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30163</offset>
+      <text>To investigate whether the inhibition of exonuclease activity of MRN by RECQ5 is dependent on the presence of the NBS1 protein, we evaluated the effect of RECQ5 on the exonuclease activity of the MR complex. The MR complex displayed a similar exonuclease activity as the MRN complex (Figure 3A and B, compare lanes 3 and 8, and C). Most importantly, RECQ5, but not RecQ, was found to inhibit the MR-mediated exonucleolytic processing (Figure 3A and B, lanes 8-12, and C).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>30637</offset>
+      <text>Collectively, these data indicate that RECQ5 inhibits the exonuclease activity of MRN most likely as a result of its binding to MRE11.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>30772</offset>
+      <text>RECQ5 and the MRN complex colocalize at sites of DNA damage</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>30832</offset>
+      <text>RECQ5 and RAD50 colocalize at sites of DNA damage. (A) Indirect immunofluorescence imaging of RECQ5 and RAD50 in U2OS cells prior to and after DNA replication arrest. Cells were either left untreated or incubated in the presence of HU for 16 h or exposed to UV light at a dose of 40 J/m2 followed by incubation for 6 h. After genotoxic treatments, cells were fixed with methanol and triply stained for RECQ5 (green), RAD50 (red) and DNA (blue) as described in Materials and Methods section. Overlap between the green and red signals in merged images appears yellow. (B) RECQ5 and RAD50 accumulate at laser-induced DNA DSBs. U2OS cells were sensitized with BrdU (10 muM; incubation for 24 h) and subjected to microirradiation with pulsed UVA laser (lambda = 355 nm) to generate linear tracks of DSBs. At indicated time points after irradiation, cells were fixed with methanol and co-immunostained either with anti-RECQ5 (green) and anti-gamma-H2AX (red) antibodies or with anti-RECQ5 (green) and anti-RAD50 (red) antibodies as indicated. DAPI (blue) was used to stain nuclei. (C) U2OS cells were treated as in (B) and 30 min postirradiation, co-immunostained with antibodies against RECQ5, gamma-H2AX (to detect microirradiated tracks) and cyclin B1 (to reveal cells in S/G2). gamma-H2AX and cyclin B1 are displayed in the same channel (red). DAPI (blue) was used to stain nuclei.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>32199</offset>
+      <text>To explore a potential role for RECQ5-MRN interaction in the maintenance of genomic stability, we analyzed the spatial relationship of these proteins in the nucleus of U2OS cells in response to various types of DNA damage including stalled replication forks, DNA adducts and DSBs. After individual DNA-damaging treatments, cell were fixed with methanol, co-immunostained with anti-RECQ5 and anti-RAD50 antibodies and analyzed by fluorescence microscopy. As expected, in majority of unperturbed cells, both RECQ5 and RAD50 were uniformly distributed in the nucleus (Figure 4A, top row). After HU treatment, which results in replication arrest due to depletion of deoxyribonucleotides, both RECQ5 and RAD50 formed bright nuclear foci that extensively colocalized in &gt;70% of cells (Figure 4A, middle row). Moreover, RECQ5 and RAD50 partially colocalized after exposure of cells to UVC light (40 J/m2) that can stall the progression of replication forks through induction of bulky DNA lesions (Figure 4A, bottom row). Thus, it is possible that RECQ5 and the MRN complex cooperate in the processing of stalled replication forks. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>33326</offset>
+      <text>To generate DSBs, U2OS cells were presensitized by incorporation of BrdU into genomic DNA and then locally exposed to UVA light (355 nm) using micro-laser technology, which results in linear tracks of DSBs across each irradiated nucleus (31). These tracks can be detected by immunofluorescence imaging of phosphorylated histone H2AX (gamma-H2AX) that is rapidly generated in the DSB-flanking chromatin by the ATM kinase (32). We found that RECQ5 started to accumulate at DSB tracks as early as 15 min after irradiation, reaching maximal levels at about 30 min after irradiation, and persisted at those sites as long as 1 h after irradiation (Figure 4B, top panel). Double staining for RECQ5 and RAD50 further confirmed these findings (Figure 4B, bottom panel).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>34084</offset>
+      <text>Like MRN, RECQ5 was found to accumulate at micro-irradiated areas essentially in all gamma-H2AX-positive cells (150 cells evaluated), suggesting that the recruitment of RECQ5 to DSBs is not restricted to any particular phase of the cell cycle. To confirm this assumption, microirradiated cells were doubly stained for RECQ5 and cyclin B1. We found that RECQ5 accumulated in the microirradiated nuclear regions in cyclin B1-positive cells (cells in S and G2) as well as in cells lacking any detectable amount of cyclin B1 (cells in G1) (Figure 4C). These data indicate that RECQ5 accumulates at DSBs throughout the interphase.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>34707</offset>
+      <text>The MRN complex is required for the recruitment of RECQ5 to sites of replication arrest</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>34795</offset>
+      <text>MRE11 is required for the recruitment of RECQ5 to arrested replication forks. (A) Western blot analysis of extracts of U2OS cells expressing indicated shRNAs. Cells were transfected with appropriate shRNA vector and subjected to puromycin selection for 3 days to enrich the population of transfected cells. Blots were probed for MRE11, RAD50, RECQ5, RAD51, ATM and TFIIH (loading control) using antibodies described in Materials and Methods section. Lane 1, extract from cells expressing control shRNA (Ctrl shRNA); lane 2, extract from cells expressing shRNA targeting the MRE11 transcript (MRE11 shRNA). (B) Effect of shRNA-mediated depletion of MRE11 in U2OS cells on nuclear distribution of RECQ5 in response to HU. Cells were transfected either with the plasmid expressing Ctrl shRNA ('bottom panel') or the plasmid expressing MRE11 shRNA ('top panel'), followed by puromycin selection. Two days after addition of puromycin, HU was added to a final concentration of 2 mM. After 16 h, cells were fixed and co-immunostained either for RECQ5 (green) and RAD50 (red) or for RECQ5 (green) and gamma-H2AX (red) as indicated. (C) Nuclear distribution of RECQ5 in ATLD1 ('top panel') and ATLD1-MRE11 ('bottom panel') cells after replication arrest by HU. Exponentially growing cells were treated with 2 mM HU for 16 h and then fixed and co-immunostained either for RECQ5 (green) and RAD50 (red) or for RECQ5 (green) and gamma-H2AX (red) as indicated.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>36253</offset>
+      <text>As the MRN complex is well known to function as a DNA damage sensor, we tested the possibility that it mediates the recruitment of RECQ5 to sites of DNA damage. First, we evaluated the effect of MRE11 deficiency on the focal distribution of RECQ5 after HU treatment. To do so, we silenced the expression of the MRE11 gene in U2OS cells using shRNA. We observed a dramatic reduction in the cellular level of MRE11 protein following puromycin selection for cells expressing anti-MRE11 shRNA construct, whereas no reduction in MRE11 levels was observed in cells harboring the control construct expressing a scrambled shRNA (Figure 5A). Depletion of MRE11 by shRNA also dramatically reduced the cellular level of RAD50, which is consistent with low levels of RAD50 found in ATLD1 cells, but it did not affect the level of RECQ5 (Figure 5A, lane 2 and Figure 2C, lane 3). Importantly, we found that shRNA-mediated depletion of MRE11 in U2OS cells completely abolished the formation of RECQ5 foci after HU treatment (Figure 5B, top panel). In contrast, HU-treated U2OS cells expressing the control shRNA contained both RECQ5 and RAD50 foci that showed extensive colocalization (Figure 5B, bottom panel, top row). Essentially the same results were obtained with ATLD1 and ATLD1-MRE11 cells (Figure 5C). </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>37550</offset>
+      <text>Further, the MRE11-proficient and MRE11-deficient cells were doubly stained for RECQ5 and gamma-H2AX. Histone H2AX is phosphorylated in response to replication arrest in ATR-dependent manner and forms nuclear foci that colocalize with PCNA and hence can serve as markers for stalled replication forks (33,34). As expected, in 70% of MRE11-proficient cells treated with HU, RECQ5 extensively colocalized with gamma-H2AX at bright nuclear foci (Figure 5B and C, bottom panels, bottom rows). MRE11-deficient cells also displayed gamma-H2AX foci in response to HU treatment (Figure 5B and C, top panels, bottom rows). However, RECQ5 foci were not seen in these cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>38205</offset>
+      <text>The MRN complex is required for the recruitment of RECQ5 to DSBs</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>38270</offset>
+      <text>MRE11, but not MDC1 and CtIP, is required for the recruitment of RECQ5 to laser-induced DSBs. Indicated cell lines were irradiated with UVA laser at 24 h following addition of BrdU (10 muM), fixed at 30 min after the irradiation and co-immunostained to visualize RECQ5 (green) and gamma-H2AX (red). DAPI (blue) was used to stain nuclei. For U2OS cell cultures, BrdU was added 2 days after transfection of CtIP or control (Ctrl) siRNA.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>38702</offset>
+      <text>To evaluate whether MRE11 is required for the recruitment of RECQ5 to DSBs, we microirradiated ATLD1 cells with UVA laser and stained them for RECQ5 and gamma-H2AX at 30 min after irradiation. We found that none of gamma-H2AX-positive ATLD1 cells contained RECQ5 tracks (Figure 6, top panel). In contrast, accumulation of RECQ5 at irradiated areas was seen in ATLD1-McRE11 cells (Figure 6, top panel). Collectively, these data indicate that the recruitment of RECQ5 to DSBs is dependent on a functional MRN complex. </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>39213</offset>
+      <text>The MRN complex has multiple functions in the cellular response to DSBs. Following activation of the ATM kinase by MRN bound to DNA ends, more MRN accumulates in large chromatin domains flanking DSBs, which is likely to enhance the DSB-induced signal by means of a positive feedback loop (32). Recruitment of MRN to DSB-flanking chromatin is critically dependent on MDC1 that forms a complex with MRN in a manner dependent on CK2 phosphorylation and directly interacts with gamma-H2AX in the damaged chromatin (35-38). To address whether MDC1 is required for the recruitment of RECQ5 to sites of DSBs, we compared DSB-induced nuclear trafficking of RECQ5 in MDC1+/+ and MDC1-/- MEFs. We found that MDC1 deficiency had no effect on the recruitment of RECQ5 to laser-induced DSB tracks (Figure 6, middle panel). Although this finding does not exclude the possibility that a fraction of the RECQ5 protein associate with DSB-flanking chromatin as a part of the MRN-MDC1 complex, it argues that MRN recruits RECQ5 to broken DNA ends. In both MDC1-proficient and MDC1-deficient MEFs, &gt;97% of irradiated nuclei (out of at least 100 nuclei) contained RECQ5-positive tracks, further supporting the notion that RECQ5 associates with DSBs in a cell-cycle independent manner (data not shown).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>40499</offset>
+      <text>MRN, in conjunction with CtIP, promotes resection of DSBs that arise during S/G2 phases of the cell cycle, generating 3'-ssDNA tails for HR repair (24). To address the question whether the recruitment of RECQ5 to DSBs occurs as a consequence of DSB resection, we depleted CtIP from U2OS cell by means of RNA interference (Figure S5A). Cells were fixed at 30 min after laser microirradiation and stained with anti-RECQ5 in combination with either anti-gamma-H2AX or anti-RPA antibodies. We found that CtIP depletion had no effect on accumulation of RECQ5 at DSB tracks (Figure 6, bottom panel). In contrast, accumulation of RPA at microirradiated areas was completely abolished upon CtIP depletion (Figure S5B) as previously reported (24). These data indicate that the observed MRE11-dependent accumulation of RECQ5 at DSB sites is not dependent on DSB resection.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>41361</offset>
+      <text>DISCUSSION</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>41372</offset>
+      <text>HR provides the most accurate mechanism for the repair of DSBs and ssDNA gaps which frequently occur in the cell as a result of collision of the DNA replication machinery with DNA lesions and other obstacles or as a result of processing of DNA lesions by DNA repair enzymes (39,40). In mitotic cells, most recombination intermediates are processed through pathways such as synthesis-dependent strand annealing (SDSA) or double-Holliday junction (dHJ) dissolution that do not result in crossovers. These mechanisms are important for avoidance of potentially deleterious chromosomal rearrangements that can arise if the homologous sequence used for HR-mediated repair is located at different chromosomal locus. A key step in HR is the formation of a RAD51-ssDNA filament that mediates the search for sequence homology and associates with the donor sequence forming the so-called D-loop structure (39). Recent studies indicated that the RECQ5 DNA helicase counteracts the formation of crossovers during HR (13,14). Moreover, it has been shown that RECQ5 has the ability to disrupt RAD51 nucleoprotein filaments in vitro (13). However, the importance of this activity in the regulation of HR in vivo still remains to be explored. Furthermore, it is not clear by now how RECQ5 is recruited to the sites of HR.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>42677</offset>
+      <text>Here we show that RECQ5 interacts with the MRN complex, a key player in the repair of DNA damage by HR. Our results suggest that this interaction is mediated through MRE11 and NBS1. At the biochemical level, RECQ5 specifically inhibited the 3' 5' exonuclease activity of the MRN and MR complexes, suggesting that RECQ5 interacts with the nuclease or DNA-binding domains of MRE11 thereby impairing the access of MRE11 to the DNA substrate. At the cellular level, MRE11 was required for the accumulation of RECQ5 at sites of arrested replication forks and sites of DSBs. Interestingly, recruitment of RECQ5 to DSBs was not dependent on MDC1, which mediates chromatin retention of MRN at sites of DNA damage (35,36). Moreover, RECQ5 accumulation at DSBs was not affected upon depletion of CtIP, indicating that it is not dependent on the DNA-end resection of DSBs in S/G2 generating 3'-ssDNA tails to initiate repair by HR (24). Instead, our data argue that RECQ5 migrates to and acts at broken DNA ends as a part of the MRN complex.</text>
+      <annotation id="A67">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">9400</infon>
+        <location offset="42695" length="5"/>
+        <text>RECQ5</text>
+      </annotation>
+      <annotation id="PPIm_188">
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="42677" length="103"/>
+        <text>Here we show that RECQ5 interacts with the MRN complex, a key player in the repair of DNA damage by HR.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>43716</offset>
+      <text>In the budding yeast Saccharomyces cerevisiae, the formation of crossovers during HR is counteracted mainly by the Srs2 DNA helicase, which has no obvious sequence homologs in higher eukaryotes (41,42). Like RECQ5, Srs2 has the capacity to disrupt Rad51 filaments formed on ssDNA (43,44). Srs2 also shows preference for unwinding of D-loop structures, and its helicase activity is stimulated by Rad51 filaments on dsDNA, supporting the proposed role for Srs2 in promoting SDSA (45). Strikingly, Srs2 has been shown to physically interact with the DNA-binding domain of Mre11 (46). This, together with our finding of a physical interaction between RECQ5 and the MRN complex in human cells, lends further support to the hypothesis that RECQ5 is a functional ortholog of Srs2 (13). Moreover, our data might explain how these anti-recombinases are delivered to sites of DNA repair. However, the precise role of the MRN complex in the function of these proteins during HR still remains to be addressed.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>44714</offset>
+      <text>Interestingly, we have found that RECQ5 accumulates at DSBs throughout the interphase. A recent study demonstrated that RAD51 accumulates at laser-induced damage sites not only in S/G2 phase, where DSBs are repaired by HR, but also in G1 phase where HR repair is suppressed (47). Thus, it is possible that one function of RECQ5 is to prevent RAD51-mediated HR events in G1 cells that could lead to detrimental chromosomal rearrangements because of the lack of an undamaged sister chromatid.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>45205</offset>
+      <text>We found that MRE11 was required for the RECQ5 focus formation in response to replication arrest by HU. Given the role for MRN as a DSB sensor, one can assume that these foci represent broken replication forks undergoing HR repair. However, HU-induced DNA DSBs become apparent only after 24 h of continuous HU treatment (48). In contrast, RECQ5 foci could readily be observed at 16 h following addition of HU, suggesting that they rather represent sites of stalled replication forks. Previous studies indicated that the MRN complex is associated with replication forks throughout S-phase via phosphorylation-dependent interaction with RPA (49-51). It was also shown that the MRN complex colocalizes with RPA in response to replication arrest by HU (48,52). Thus, it is possible that the MRN complex tethers RECQ5 to ssDNA regions generated at stalled replication forks to prevent formation of RAD51 filaments and subsequent DNA recombination. Such a 'fork clearing' function was proposed for the E. coli UvrD DNA helicase, a bacterial ortholog of Srs2, based on finding that the lethality conferred by uvrD deletion to certain replication mutants is suppressed by inactivation of the genes involved in the RecFOR pathway of HR (53,54). There is also evidence suggesting that Srs2 prevents recombination events at stalled replication forks favoring lesion bypass by translesion polymerases or through template-switching mechanism (55,56).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>46649</offset>
+      <text>The BLM helicase also suppresses crossover events during HR as evidenced by elevated rate of sister chromatid exchanges (SCEs) and increased incidence of loss of heterozygocity in BLM-deficient cells relative to normal cells (1). Recent studies demonstrated that, out of human RecQ helicases, only BLM could promote dHJ dissolution, suggesting that BLM is the human counterpart of the yeast Sgs1 helicase (3,4,41). Although there is also some evidence suggesting that BLM functions in the SDSA pathway of HR, genetic studies using mutant mouse cells clearly indicated that BLM and RECQ5 have nonredundant roles in suppression of crossovers, which is similar to the situation of Srs2 and Sgs1 in yeast (14,41,57).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>47362</offset>
+      <text>A recent study suggested that the human F-box helicase 1 (FBH1), which is conserved in Schizosaccharomyces pombe, but not in S. cerevisiae, is a functional ortholog of Srs2. It was shown that FBH1 shares homology with Srs2 within the helicase domain and suppresses specific recombination defects of S. cerevisiae srs2 mutants (58). Although it remains to be determined whether FBH1 possesses the ability to displace RAD51 from ssDNA, the existence of both Fbh1 and Srs2 in S. pombe rather suggests that these two helicases use different mechanisms to suppress recombination. This is further supported by the synthetic lethality of mutations in these genes, which is suppressed by deletion of the recombination gene rhp57 (59). Fbh1 is also essential for viability in absence of Rqh1, the sole RecQ homolog of S. pombe (59). Simultaneous inactivation of the FBH1 and BLM homologs in chicken DT40 cells is not lethal, but it results in much higher frequency of SCE relative to SCE levels in the respective single mutants (59). Thus, it seems that BLM, RECQ5 and FBH1 act rather in a complementary fashion during processing of HR intermediates. Since FBH1 helicase can function as the substrate specificity subunit of an SCF ubiquitin ligase complex one can speculate that it regulates recombination by triggering proteolytic degradation of recombination factors (60).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>48728</offset>
+      <text>RECQ5 is not the sole human RecQ helicase that interacts with the MRN complex. There is evidence for a functional link between MRN and BLM. Similar to Sgs1, BLM was found to coexist with MRN in a large complex containing proteins involved in the recognition and repair of aberrant DNA structures, although no evidence for a direct BLM-MRN interaction was reported (61). It was also shown that BLM and MRN colocalize at nuclear foci in response to replication stress and that BLM is required for the relocalization of MRN to sites of replication arrest (61,62). Previous studies also demonstrated that the MRN complex physically interacts with WRN, which is required for the resolution of HR intermediates (63-65). Moreover, these studies revealed that the relocalization of WRN to sites of DNA damage is dependent on a functional MRN complex (63,64). However, WRN and RECQ5 differ in the mode of their interaction with MRN. The formation of WRN-MRN complex in vivo is dependent on DNA damage (63,64), whereas, based on our data, RECQ5 appears to constitutively interact with MRN in vivo. The interaction between WRN and the MRN complex is solely mediated by NBS1 (63), while we show that RECQ5 can bind to both MRE11 and NBS1 and that the absence of NBS1 does not affect the association of RECQ5 with the MR complex. At the functional level, MRN dramatically stimulates the helicase activity of WRN (63), whereas it has no effect on the helicase activity of RECQ5. Further studies will definitely be needed to understand the molecular mechanisms underlying the cooperation between RecQ DNA helicases and the MRN complex in the biological processes that enforce genomic stability.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>50414</offset>
+      <text>SUPPLEMENTARY DATA</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50433</offset>
+      <text>Supplementary Data is available at NAR Online.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>50480</offset>
+      <text>FUNDING</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50488</offset>
+      <text>Swiss National Science Foundation (3100A0-102198, 3100A0-116008); UBS AG, Cancer League of the Canton of Zurich and Czech Science Foundation (GA204/09/0565). Funding for open access charge: Swiss National Science Foundation.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50713</offset>
+      <text>Conflict of interest statement. None declared</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>50759</offset>
+      <text>Supplementary Material</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50782</offset>
+      <text>   </text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>50786</offset>
+      <text>  </text>
+    </passage>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>50789</offset>
+      <text>REFERENCES</text>
+    </passage>
+    <passage>
+      <infon key="lpage">2322</infon>
+      <infon key="name_0">surname:Hanada;given-names:K</infon>
+      <infon key="name_1">surname:Hickson;given-names:ID</infon>
+      <infon key="pub-id_pmid">17571213</infon>
+      <infon key="volume">64</infon>
+      <infon key="source">Cell Mol. Life Sci.</infon>
+      <infon key="fpage">2306</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>50800</offset>
+      <text>Molecular genetics of RecQ helicase disorders</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Brosh;given-names:RM;suffix:Jr</infon>
+      <infon key="lpage">337</infon>
+      <infon key="name_0">surname:Sharma;given-names:S</infon>
+      <infon key="name_1">surname:Doherty;given-names:KM</infon>
+      <infon key="pub-id_pmid">16925525</infon>
+      <infon key="volume">398</infon>
+      <infon key="source">Biochem. J.</infon>
+      <infon key="fpage">319</infon>
+      <infon key="year">2006</infon>
+      <infon key="type">ref</infon>
+      <offset>50846</offset>
+      <text>Mechanisms of RecQ helicases in pathways of DNA metabolism and maintenance of genomic stability</text>
+    </passage>
+    <passage>
+      <infon key="lpage">874</infon>
+      <infon key="name_0">surname:Wu;given-names:L</infon>
+      <infon key="name_1">surname:Hickson;given-names:ID</infon>
+      <infon key="pub-id_pmid">14685245</infon>
+      <infon key="volume">426</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">870</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>50942</offset>
+      <text>The Bloom's syndrome helicase suppresses crossing over during homologous recombination</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Ralf;given-names:C</infon>
+      <infon key="name_3">surname:Bernstein;given-names:DA</infon>
+      <infon key="name_0">surname:Wu;given-names:L</infon>
+      <infon key="name_1">surname:Chan;given-names:KL</infon>
+      <infon key="name_6">surname:Vindigni;given-names:A</infon>
+      <infon key="name_7">surname:Janscak;given-names:P</infon>
+      <infon key="name_4">surname:Garcia;given-names:PL</infon>
+      <infon key="name_5">surname:Bohr;given-names:VA</infon>
+      <infon key="name_8">surname:Keck;given-names:JL</infon>
+      <infon key="name_9">surname:Hickson;given-names:ID</infon>
+      <infon key="volume">24</infon>
+      <infon key="pub-id_pmid">15990871</infon>
+      <infon key="source">EMBO J.</infon>
+      <infon key="fpage">2679</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">2687</infon>
+      <infon key="type">ref</infon>
+      <offset>51029</offset>
+      <text>The HRDC domain of BLM is required for the dissolution of double Holliday junctions</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Haggblom;given-names:CI</infon>
+      <infon key="name_3">surname:Karlseder;given-names:J</infon>
+      <infon key="name_0">surname:Crabbe;given-names:L</infon>
+      <infon key="name_1">surname:Verdun;given-names:RE</infon>
+      <infon key="pub-id_pmid">15591207</infon>
+      <infon key="volume">306</infon>
+      <infon key="source">Science</infon>
+      <infon key="fpage">1951</infon>
+      <infon key="year">2004</infon>
+      <infon key="lpage">1953</infon>
+      <infon key="type">ref</infon>
+      <offset>51113</offset>
+      <text>Defective telomere lagging strand synthesis in cells lacking WRN helicase activity</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Naeger;given-names:CM</infon>
+      <infon key="name_3">surname:Holtgreve-Grez;given-names:H</infon>
+      <infon key="name_0">surname:Crabbe;given-names:L</infon>
+      <infon key="name_1">surname:Jauch;given-names:A</infon>
+      <infon key="name_4">surname:Karlseder;given-names:J</infon>
+      <infon key="pub-id_pmid">17284601</infon>
+      <infon key="volume">104</infon>
+      <infon key="source">Proc. Natl Acad. Sci. USA</infon>
+      <infon key="fpage">2205</infon>
+      <infon key="year">2007</infon>
+      <infon key="lpage">2210</infon>
+      <infon key="type">ref</infon>
+      <offset>51196</offset>
+      <text>Telomere dysfunction as a cause of genomic instability in Werner syndrome</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Madine;given-names:M</infon>
+      <infon key="name_3">surname:Philpott;given-names:A</infon>
+      <infon key="name_0">surname:Sangrithi;given-names:MN</infon>
+      <infon key="name_1">surname:Bernal;given-names:JA</infon>
+      <infon key="name_6">surname:Venkitaraman;given-names:AR</infon>
+      <infon key="name_4">surname:Lee;given-names:J</infon>
+      <infon key="name_5">surname:Dunphy;given-names:WG</infon>
+      <infon key="volume">121</infon>
+      <infon key="pub-id_pmid">15960976</infon>
+      <infon key="source">Cell</infon>
+      <infon key="fpage">887</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">898</infon>
+      <infon key="type">ref</infon>
+      <offset>51270</offset>
+      <text>Initiation of DNA replication requires the RECQL4 protein mutated in Rothmund-Thomson syndrome</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kubota;given-names:Y</infon>
+      <infon key="name_3">surname:Hashimoto;given-names:Y</infon>
+      <infon key="name_0">surname:Matsuno;given-names:K</infon>
+      <infon key="name_1">surname:Kumano;given-names:M</infon>
+      <infon key="name_4">surname:Takisawa;given-names:H</infon>
+      <infon key="pub-id_pmid">16782873</infon>
+      <infon key="volume">26</infon>
+      <infon key="source">Mol. Cell Biol.</infon>
+      <infon key="fpage">4843</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">4852</infon>
+      <infon key="type">ref</infon>
+      <offset>51365</offset>
+      <text>The N-terminal noncatalytic region of Xenopus RecQ4 is required for chromatin binding of DNA polymerase alpha in the initiation of DNA replication</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Rubin;given-names:GM</infon>
+      <infon key="name_3">surname:Hawley;given-names:RS</infon>
+      <infon key="name_0">surname:Sekelsky;given-names:JJ</infon>
+      <infon key="name_1">surname:Brodsky;given-names:MH</infon>
+      <infon key="pub-id_pmid">10471747</infon>
+      <infon key="volume">27</infon>
+      <infon key="source">Nucleic Acids Res.</infon>
+      <infon key="fpage">3762</infon>
+      <infon key="year">1999</infon>
+      <infon key="lpage">3769</infon>
+      <infon key="type">ref</infon>
+      <offset>51512</offset>
+      <text>Drosophila and human RecQ5 exist in different isoforms generated by alternative splicing</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kitao;given-names:S</infon>
+      <infon key="name_3">surname:Furuichi;given-names:Y</infon>
+      <infon key="name_0">surname:Shimamoto;given-names:A</infon>
+      <infon key="name_1">surname:Nishikawa;given-names:K</infon>
+      <infon key="pub-id_pmid">10710432</infon>
+      <infon key="volume">28</infon>
+      <infon key="source">Nucleic Acids Res.</infon>
+      <infon key="fpage">1647</infon>
+      <infon key="year">2000</infon>
+      <infon key="lpage">1655</infon>
+      <infon key="type">ref</infon>
+      <offset>51601</offset>
+      <text>Human RecQ5beta, a large isomer of RecQ5 DNA helicase, localizes in the nucleoplasm and interacts with topoisomerases 3alpha and 3beta</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Jiricny;given-names:J</infon>
+      <infon key="name_3">surname:West;given-names:SC</infon>
+      <infon key="name_0">surname:Garcia;given-names:PL</infon>
+      <infon key="name_1">surname:Liu;given-names:Y</infon>
+      <infon key="name_4">surname:Janscak;given-names:P</infon>
+      <infon key="pub-id_pmid">15241474</infon>
+      <infon key="volume">23</infon>
+      <infon key="source">EMBO J.</infon>
+      <infon key="fpage">2882</infon>
+      <infon key="year">2004</infon>
+      <infon key="lpage">2891</infon>
+      <infon key="type">ref</infon>
+      <offset>51736</offset>
+      <text>Human RECQ5beta, a protein with DNA helicase and strand-annealing activities in a single polypeptide</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Garcia;given-names:PL</infon>
+      <infon key="name_3">surname:Zheng;given-names:L</infon>
+      <infon key="name_0">surname:Kanagaraj;given-names:R</infon>
+      <infon key="name_1">surname:Saydam;given-names:N</infon>
+      <infon key="name_4">surname:Janscak;given-names:P</infon>
+      <infon key="pub-id_pmid">17003056</infon>
+      <infon key="volume">34</infon>
+      <infon key="source">Nucleic Acids Res.</infon>
+      <infon key="fpage">5217</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">5231</infon>
+      <infon key="type">ref</infon>
+      <offset>51835</offset>
+      <text>Human RECQ5beta helicase promotes strand exchange on synthetic DNA structures resembling a stalled replication fork</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Sehorn;given-names:MG</infon>
+      <infon key="name_3">surname:Lu;given-names:X</infon>
+      <infon key="name_0">surname:Hu;given-names:Y</infon>
+      <infon key="name_1">surname:Raynard;given-names:S</infon>
+      <infon key="name_6">surname:Stark;given-names:JM</infon>
+      <infon key="name_7">surname:Barnes;given-names:EL</infon>
+      <infon key="name_4">surname:Bussen;given-names:W</infon>
+      <infon key="name_5">surname:Zheng;given-names:L</infon>
+      <infon key="name_8">surname:Chi;given-names:P</infon>
+      <infon key="name_9">surname:Janscak;given-names:P</infon>
+      <infon key="volume">21</infon>
+      <infon key="pub-id_pmid">18003859</infon>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="fpage">3073</infon>
+      <infon key="year">2007</infon>
+      <infon key="lpage">3084</infon>
+      <infon key="type">ref</infon>
+      <offset>51949</offset>
+      <text>RECQL5/Recql5 helicase regulates homologous recombination and suppresses tumor formation via disruption of Rad51 presynaptic filaments</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Barnes;given-names:E</infon>
+      <infon key="name_3">surname:Yan;given-names:M</infon>
+      <infon key="name_0">surname:Hu;given-names:Y</infon>
+      <infon key="name_1">surname:Lu;given-names:X</infon>
+      <infon key="name_4">surname:Lou;given-names:H</infon>
+      <infon key="name_5">surname:Luo;given-names:G</infon>
+      <infon key="volume">25</infon>
+      <infon key="pub-id_pmid">15831450</infon>
+      <infon key="source">Mol. Cell Biol.</infon>
+      <infon key="fpage">3431</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">3442</infon>
+      <infon key="type">ref</infon>
+      <offset>52084</offset>
+      <text>Recql5 and Blm RecQ DNA helicases have nonredundant roles in suppressing crossovers</text>
+    </passage>
+    <passage>
+      <infon key="lpage">327</infon>
+      <infon key="name_0">surname:D'Amours;given-names:D</infon>
+      <infon key="name_1">surname:Jackson;given-names:SP</infon>
+      <infon key="pub-id_pmid">11988766</infon>
+      <infon key="volume">3</infon>
+      <infon key="source">Nat. Rev. Mol. Cell Biol.</infon>
+      <infon key="fpage">317</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>52168</offset>
+      <text>The Mre11 complex: at the crossroads of DNA repair and checkpoint signalling</text>
+    </passage>
+    <passage>
+      <infon key="lpage">166</infon>
+      <infon key="name_0">surname:Assenmacher;given-names:N</infon>
+      <infon key="name_1">surname:Hopfner;given-names:KP</infon>
+      <infon key="pub-id_pmid">15309560</infon>
+      <infon key="volume">113</infon>
+      <infon key="source">Chromosoma</infon>
+      <infon key="fpage">157</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>52245</offset>
+      <text>MRE11/RAD50/NBS1: complex activities</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:van Gent;given-names:DC</infon>
+      <infon key="name_3">surname:Dekker;given-names:C</infon>
+      <infon key="name_0">surname:de Jager;given-names:M</infon>
+      <infon key="name_1">surname:van Noort;given-names:J</infon>
+      <infon key="name_4">surname:Kanaar;given-names:R</infon>
+      <infon key="name_5">surname:Wyman;given-names:C</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">11741547</infon>
+      <infon key="source">Mol. Cell</infon>
+      <infon key="fpage">1129</infon>
+      <infon key="year">2001</infon>
+      <infon key="lpage">1135</infon>
+      <infon key="type">ref</infon>
+      <offset>52282</offset>
+      <text>Human Rad50/Mre11 is a flexible complex that can tether DNA ends</text>
+    </passage>
+    <passage>
+      <infon key="lpage">1288</infon>
+      <infon key="name_0">surname:Paull;given-names:TT</infon>
+      <infon key="name_1">surname:Gellert;given-names:M</infon>
+      <infon key="pub-id_pmid">10346816</infon>
+      <infon key="volume">13</infon>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="fpage">1276</infon>
+      <infon key="year">1999</infon>
+      <infon key="type">ref</infon>
+      <offset>52347</offset>
+      <text>Nbs1 potentiates ATP-driven DNA unwinding and endonuclease cleavage by the Mre11/Rad50 complex</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Morales;given-names:M</infon>
+      <infon key="name_3">surname:Petrini;given-names:JH</infon>
+      <infon key="name_0">surname:Stracker;given-names:TH</infon>
+      <infon key="name_1">surname:Theunissen;given-names:JW</infon>
+      <infon key="pub-id_pmid">15279769</infon>
+      <infon key="volume">3</infon>
+      <infon key="source">DNA Repair (Amst.)</infon>
+      <infon key="fpage">845</infon>
+      <infon key="year">2004</infon>
+      <infon key="lpage">854</infon>
+      <infon key="type">ref</infon>
+      <offset>52442</offset>
+      <text>The Mre11 complex and the metabolism of chromosome breaks: the importance of communicating and holding things together</text>
+    </passage>
+    <passage>
+      <infon key="lpage">7748</infon>
+      <infon key="name_0">surname:Lee;given-names:JH</infon>
+      <infon key="name_1">surname:Paull;given-names:TT</infon>
+      <infon key="pub-id_pmid">18066086</infon>
+      <infon key="volume">26</infon>
+      <infon key="source">Oncogene</infon>
+      <infon key="fpage">7741</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>52561</offset>
+      <text>Activation and regulation of ATM kinase activity in response to DNA double-strand breaks</text>
+    </passage>
+    <passage>
+      <infon key="lpage">942</infon>
+      <infon key="name_0">surname:Lavin;given-names:MF</infon>
+      <infon key="name_1">surname:Kozlov;given-names:S</infon>
+      <infon key="pub-id_pmid">17457059</infon>
+      <infon key="volume">6</infon>
+      <infon key="source">Cell Cycle</infon>
+      <infon key="fpage">931</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>52650</offset>
+      <text>ATM activation and DNA damage response</text>
+    </passage>
+    <passage>
+      <infon key="lpage">2785</infon>
+      <infon key="name_0">surname:Bernstein;given-names:DA</infon>
+      <infon key="name_1">surname:Keck;given-names:JL</infon>
+      <infon key="pub-id_pmid">12771204</infon>
+      <infon key="volume">31</infon>
+      <infon key="source">Nucleic Acids Res.</infon>
+      <infon key="fpage">2778</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>52689</offset>
+      <text>Domain mapping of Escherichia coli RecQ defines the roles of conserved N- and C-terminal regions in the RecQ family</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Tainer;given-names:JA</infon>
+      <infon key="lpage">520</infon>
+      <infon key="name_0">surname:Williams;given-names:RS</infon>
+      <infon key="name_1">surname:Williams;given-names:JS</infon>
+      <infon key="pub-id_pmid">17713585</infon>
+      <infon key="volume">85</infon>
+      <infon key="source">Biochem. Cell Biol.</infon>
+      <infon key="fpage">509</infon>
+      <infon key="year">2007</infon>
+      <infon key="type">ref</infon>
+      <offset>52805</offset>
+      <text>Mre11-Rad50-Nbs1 is a keystone complex connecting DNA repair machinery, double-strand break signaling, and the chromatin template</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Coates;given-names:J</infon>
+      <infon key="name_3">surname:Mistrik;given-names:M</infon>
+      <infon key="name_0">surname:Sartori;given-names:AA</infon>
+      <infon key="name_1">surname:Lukas;given-names:C</infon>
+      <infon key="name_6">surname:Baer;given-names:R</infon>
+      <infon key="name_7">surname:Lukas;given-names:J</infon>
+      <infon key="name_4">surname:Fu;given-names:S</infon>
+      <infon key="name_5">surname:Bartek;given-names:J</infon>
+      <infon key="name_8">surname:Jackson;given-names:SP</infon>
+      <infon key="volume">450</infon>
+      <infon key="pub-id_pmid">17965729</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">509</infon>
+      <infon key="year">2007</infon>
+      <infon key="lpage">514</infon>
+      <infon key="type">ref</infon>
+      <offset>52935</offset>
+      <text>Human CtIP promotes DNA end resection</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Stracker;given-names:TH</infon>
+      <infon key="name_3">surname:Lilley;given-names:CE</infon>
+      <infon key="name_0">surname:Carson;given-names:CT</infon>
+      <infon key="name_1">surname:Schwartz;given-names:RA</infon>
+      <infon key="name_4">surname:Lee;given-names:DV</infon>
+      <infon key="name_5">surname:Weitzman;given-names:MD</infon>
+      <infon key="volume">22</infon>
+      <infon key="pub-id_pmid">14657032</infon>
+      <infon key="source">EMBO J.</infon>
+      <infon key="fpage">6610</infon>
+      <infon key="year">2003</infon>
+      <infon key="lpage">6620</infon>
+      <infon key="type">ref</infon>
+      <offset>52973</offset>
+      <text>The Mre11 complex is required for ATM activation and the G2/M checkpoint</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Morishima;given-names:K</infon>
+      <infon key="name_3">surname:Matsuura;given-names:S</infon>
+      <infon key="name_0">surname:Tauchi;given-names:H</infon>
+      <infon key="name_1">surname:Kobayashi;given-names:J</infon>
+      <infon key="name_6">surname:Ito;given-names:E</infon>
+      <infon key="name_7">surname:Masnada;given-names:D</infon>
+      <infon key="name_4">surname:Nakamura;given-names:A</infon>
+      <infon key="name_5">surname:Shiraishi;given-names:T</infon>
+      <infon key="name_8">surname:Delia;given-names:D</infon>
+      <infon key="name_9">surname:Komatsu;given-names:K</infon>
+      <infon key="volume">276</infon>
+      <infon key="pub-id_pmid">11062235</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="fpage">12</infon>
+      <infon key="year">2001</infon>
+      <infon key="lpage">15</infon>
+      <infon key="type">ref</infon>
+      <offset>53046</offset>
+      <text>The forkhead-associated domain of NBS1 is essential for nuclear foci formation after irradiation but not essential for hRAD50.hMRE11.NBS1 complex DNA repair activity</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Franco;given-names:S</infon>
+      <infon key="name_3">surname:Gostissa;given-names:M</infon>
+      <infon key="name_0">surname:Lou;given-names:Z</infon>
+      <infon key="name_1">surname:Minter-Dykhouse;given-names:K</infon>
+      <infon key="name_6">surname:Manis;given-names:JP</infon>
+      <infon key="name_7">surname:van Deursen;given-names:J</infon>
+      <infon key="name_4">surname:Rivera;given-names:MA</infon>
+      <infon key="name_5">surname:Celeste;given-names:A</infon>
+      <infon key="name_8">surname:Nussenzweig;given-names:A</infon>
+      <infon key="name_9">surname:Paull;given-names:TT</infon>
+      <infon key="volume">21</infon>
+      <infon key="pub-id_pmid">16427009</infon>
+      <infon key="source">Mol. Cell</infon>
+      <infon key="fpage">187</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">200</infon>
+      <infon key="type">ref</infon>
+      <offset>53212</offset>
+      <text>MDC1 maintains genomic stability by participating in the amplification of ATM-dependent DNA damage signals</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Creasy;given-names:DM</infon>
+      <infon key="name_3">surname:Cottrell;given-names:JS</infon>
+      <infon key="name_0">surname:Perkins;given-names:DN</infon>
+      <infon key="name_1">surname:Pappin;given-names:DJ</infon>
+      <infon key="pub-id_pmid">10612281</infon>
+      <infon key="volume">20</infon>
+      <infon key="source">Electrophoresis</infon>
+      <infon key="fpage">3551</infon>
+      <infon key="year">1999</infon>
+      <infon key="lpage">3567</infon>
+      <infon key="type">ref</infon>
+      <offset>53319</offset>
+      <text>Probability-based protein identification by searching sequence databases using mass spectrometry data</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Stankovic;given-names:T</infon>
+      <infon key="name_3">surname:Bressan;given-names:DA</infon>
+      <infon key="name_0">surname:Stewart;given-names:GS</infon>
+      <infon key="name_1">surname:Maser;given-names:RS</infon>
+      <infon key="name_6">surname:Raams;given-names:A</infon>
+      <infon key="name_7">surname:Byrd;given-names:PJ</infon>
+      <infon key="name_4">surname:Kaplan;given-names:MI</infon>
+      <infon key="name_5">surname:Jaspers;given-names:NG</infon>
+      <infon key="name_8">surname:Petrini;given-names:JH</infon>
+      <infon key="name_9">surname:Taylor;given-names:AM</infon>
+      <infon key="volume">99</infon>
+      <infon key="pub-id_pmid">10612394</infon>
+      <infon key="source">Cell</infon>
+      <infon key="fpage">577</infon>
+      <infon key="year">1999</infon>
+      <infon key="lpage">587</infon>
+      <infon key="type">ref</infon>
+      <offset>53421</offset>
+      <text>The DNA double-strand break repair gene hMRE11 is mutated in individuals with an ataxia-telangiectasia-like disorder</text>
+    </passage>
+    <passage>
+      <infon key="lpage">979</infon>
+      <infon key="name_0">surname:Paull;given-names:TT</infon>
+      <infon key="name_1">surname:Gellert;given-names:M</infon>
+      <infon key="pub-id_pmid">9651580</infon>
+      <infon key="volume">1</infon>
+      <infon key="source">Mol. Cell</infon>
+      <infon key="fpage">969</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>53538</offset>
+      <text>The 3' to 5' exonuclease activity of Mre 11 facilitates repair of DNA double-strand breaks</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Lukas;given-names:J</infon>
+      <infon key="lpage">154</infon>
+      <infon key="name_0">surname:Lukas;given-names:C</infon>
+      <infon key="name_1">surname:Bartek;given-names:J</infon>
+      <infon key="pub-id_pmid">15988581</infon>
+      <infon key="volume">114</infon>
+      <infon key="source">Chromosoma</infon>
+      <infon key="fpage">146</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>53633</offset>
+      <text>Imaging of protein movement induced by chromosomal breakage: tiny 'local' lesions pose great 'global' challenges</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kitagawa;given-names:R</infon>
+      <infon key="name_3">surname:Melander;given-names:F</infon>
+      <infon key="name_0">surname:Bekker-Jensen;given-names:S</infon>
+      <infon key="name_1">surname:Lukas;given-names:C</infon>
+      <infon key="name_6">surname:Lukas;given-names:J</infon>
+      <infon key="name_4">surname:Kastan;given-names:MB</infon>
+      <infon key="name_5">surname:Bartek;given-names:J</infon>
+      <infon key="volume">173</infon>
+      <infon key="pub-id_pmid">16618811</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="fpage">195</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">206</infon>
+      <infon key="type">ref</infon>
+      <offset>53754</offset>
+      <text>Spatial organization of the mammalian genome surveillance machinery in response to DNA strand breaks</text>
+    </passage>
+    <passage>
+      <infon key="lpage">47762</infon>
+      <infon key="name_0">surname:Ward;given-names:IM</infon>
+      <infon key="name_1">surname:Chen;given-names:J</infon>
+      <infon key="pub-id_pmid">11673449</infon>
+      <infon key="volume">276</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="fpage">47759</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>53855</offset>
+      <text>Histone H2AX is phosphorylated in an ATR-dependent manner in response to replicational stress</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Bonner;given-names:WM</infon>
+      <infon key="name_3">surname:Cleaver;given-names:JE</infon>
+      <infon key="name_0">surname:Limoli;given-names:CL</infon>
+      <infon key="name_1">surname:Giedzinski;given-names:E</infon>
+      <infon key="pub-id_pmid">11756691</infon>
+      <infon key="volume">99</infon>
+      <infon key="source">Proc. Natl Acad. Sci. USA</infon>
+      <infon key="fpage">233</infon>
+      <infon key="year">2002</infon>
+      <infon key="lpage">238</infon>
+      <infon key="type">ref</infon>
+      <offset>53949</offset>
+      <text>UV-induced replication arrest in the xeroderma pigmentosum variant leads to DNA double-strand breaks, gamma-H2AX formation, and Mre11 relocalization</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Stucki;given-names:M</infon>
+      <infon key="name_3">surname:Falck;given-names:J</infon>
+      <infon key="name_0">surname:Lukas;given-names:C</infon>
+      <infon key="name_1">surname:Melander;given-names:F</infon>
+      <infon key="name_6">surname:Lerenthal;given-names:Y</infon>
+      <infon key="name_7">surname:Jackson;given-names:SP</infon>
+      <infon key="name_4">surname:Bekker-Jensen;given-names:S</infon>
+      <infon key="name_5">surname:Goldberg;given-names:M</infon>
+      <infon key="name_8">surname:Bartek;given-names:J</infon>
+      <infon key="name_9">surname:Lukas;given-names:J</infon>
+      <infon key="volume">23</infon>
+      <infon key="pub-id_pmid">15201865</infon>
+      <infon key="source">EMBO J.</infon>
+      <infon key="fpage">2674</infon>
+      <infon key="year">2004</infon>
+      <infon key="lpage">2683</infon>
+      <infon key="type">ref</infon>
+      <offset>54095</offset>
+      <text>Mdc1 couples DNA double-strand break recognition by Nbs1 with its H2AX-dependent chromatin retention</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Mohammad;given-names:D</infon>
+      <infon key="name_3">surname:Yaffe;given-names:MB</infon>
+      <infon key="name_0">surname:Stucki;given-names:M</infon>
+      <infon key="name_1">surname:Clapperton;given-names:JA</infon>
+      <infon key="name_4">surname:Smerdon;given-names:SJ</infon>
+      <infon key="name_5">surname:Jackson;given-names:SP</infon>
+      <infon key="volume">123</infon>
+      <infon key="pub-id_pmid">16377563</infon>
+      <infon key="source">Cell</infon>
+      <infon key="fpage">1213</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">1226</infon>
+      <infon key="type">ref</infon>
+      <offset>54196</offset>
+      <text>MDC1 directly binds phosphorylated histone H2AX to regulate cellular responses to DNA double-strand breaks</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Townsend;given-names:K</infon>
+      <infon key="name_3">surname:Pavic;given-names:L</infon>
+      <infon key="name_0">surname:Spycher;given-names:C</infon>
+      <infon key="name_1">surname:Miller;given-names:ES</infon>
+      <infon key="name_6">surname:Stewart;given-names:GS</infon>
+      <infon key="name_7">surname:Stucki;given-names:M</infon>
+      <infon key="name_4">surname:Morrice;given-names:NA</infon>
+      <infon key="name_5">surname:Janscak;given-names:P</infon>
+      <infon key="volume">181</infon>
+      <infon key="pub-id_pmid">18411308</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="fpage">227</infon>
+      <infon key="year">2008</infon>
+      <infon key="lpage">240</infon>
+      <infon key="type">ref</infon>
+      <offset>54303</offset>
+      <text>Constitutive phosphorylation of MDC1 physically links the MRE11-RAD50-NBS1 complex to damaged chromatin</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Falck;given-names:J</infon>
+      <infon key="name_3">surname:Bartek;given-names:J</infon>
+      <infon key="name_0">surname:Melander;given-names:F</infon>
+      <infon key="name_1">surname:Bekker-Jensen;given-names:S</infon>
+      <infon key="name_4">surname:Mailand;given-names:N</infon>
+      <infon key="name_5">surname:Lukas;given-names:J</infon>
+      <infon key="volume">181</infon>
+      <infon key="pub-id_pmid">18411307</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="fpage">213</infon>
+      <infon key="year">2008</infon>
+      <infon key="lpage">226</infon>
+      <infon key="type">ref</infon>
+      <offset>54407</offset>
+      <text>Phosphorylation of SDT repeats in the MDC1 N terminus triggers retention of NBS1 at the DNA damage-modified chromatin</text>
+    </passage>
+    <passage>
+      <infon key="lpage">271</infon>
+      <infon key="name_0">surname:Krogh;given-names:BO</infon>
+      <infon key="name_1">surname:Symington;given-names:LS</infon>
+      <infon key="pub-id_pmid">15568977</infon>
+      <infon key="volume">38</infon>
+      <infon key="source">Annu. Rev. Genet.</infon>
+      <infon key="fpage">233</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>54525</offset>
+      <text>Recombination proteins in yeast</text>
+    </passage>
+    <passage>
+      <infon key="lpage">113</infon>
+      <infon key="name_0">surname:Li;given-names:X</infon>
+      <infon key="name_1">surname:Heyer;given-names:WD</infon>
+      <infon key="pub-id_pmid">18166982</infon>
+      <infon key="volume">18</infon>
+      <infon key="source">Cell Res.</infon>
+      <infon key="fpage">99</infon>
+      <infon key="year">2008</infon>
+      <infon key="type">ref</infon>
+      <offset>54557</offset>
+      <text>Homologous recombination in DNA repair and DNA damage tolerance</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Liberi;given-names:G</infon>
+      <infon key="name_3">surname:Foiani;given-names:M</infon>
+      <infon key="name_0">surname:Ira;given-names:G</infon>
+      <infon key="name_1">surname:Malkova;given-names:A</infon>
+      <infon key="name_4">surname:Haber;given-names:JE</infon>
+      <infon key="pub-id_pmid">14622595</infon>
+      <infon key="volume">115</infon>
+      <infon key="source">Cell</infon>
+      <infon key="fpage">401</infon>
+      <infon key="year">2003</infon>
+      <infon key="lpage">411</infon>
+      <infon key="type">ref</infon>
+      <offset>54621</offset>
+      <text>Srs2 and Sgs1-Top3 suppress crossovers during double-strand break repair in yeast</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Fabre;given-names:F</infon>
+      <infon key="name_3">surname:Gangloff;given-names:S</infon>
+      <infon key="name_0">surname:Robert;given-names:T</infon>
+      <infon key="name_1">surname:Dervins;given-names:D</infon>
+      <infon key="pub-id_pmid">16724109</infon>
+      <infon key="volume">25</infon>
+      <infon key="source">EMBO J.</infon>
+      <infon key="fpage">2837</infon>
+      <infon key="year">2006</infon>
+      <infon key="lpage">2846</infon>
+      <infon key="type">ref</infon>
+      <offset>54703</offset>
+      <text>Mrc1 and Srs2 are major actors in the regulation of spontaneous crossover</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Li;given-names:Y</infon>
+      <infon key="name_3">surname:Villemain;given-names:J</infon>
+      <infon key="name_0">surname:Krejci;given-names:L</infon>
+      <infon key="name_1">surname:Van Komen;given-names:S</infon>
+      <infon key="name_6">surname:Ellenberger;given-names:T</infon>
+      <infon key="name_7">surname:Sung;given-names:P</infon>
+      <infon key="name_4">surname:Reddy;given-names:MS</infon>
+      <infon key="name_5">surname:Klein;given-names:H</infon>
+      <infon key="volume">423</infon>
+      <infon key="pub-id_pmid">12748644</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">305</infon>
+      <infon key="year">2003</infon>
+      <infon key="lpage">309</infon>
+      <infon key="type">ref</infon>
+      <offset>54777</offset>
+      <text>DNA helicase Srs2 disrupts the Rad51 presynaptic filament</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Soustelle;given-names:C</infon>
+      <infon key="name_3">surname:Kowalczykowski;given-names:SC</infon>
+      <infon key="name_0">surname:Veaute;given-names:X</infon>
+      <infon key="name_1">surname:Jeusset;given-names:J</infon>
+      <infon key="name_4">surname:Le Cam;given-names:E</infon>
+      <infon key="name_5">surname:Fabre;given-names:F</infon>
+      <infon key="volume">423</infon>
+      <infon key="pub-id_pmid">12748645</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">309</infon>
+      <infon key="year">2003</infon>
+      <infon key="lpage">312</infon>
+      <infon key="type">ref</infon>
+      <offset>54835</offset>
+      <text>The Srs2 helicase prevents recombination by disrupting Rad51 nucleoprotein filaments</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Fabre;given-names:F</infon>
+      <infon key="name_3">surname:Gangloff;given-names:S</infon>
+      <infon key="name_0">surname:Dupaigne;given-names:P</infon>
+      <infon key="name_1">surname:Le Breton;given-names:C</infon>
+      <infon key="name_4">surname:Le Cam;given-names:E</infon>
+      <infon key="name_5">surname:Veaute;given-names:X</infon>
+      <infon key="volume">29</infon>
+      <infon key="pub-id_pmid">18243118</infon>
+      <infon key="source">Mol. Cell</infon>
+      <infon key="fpage">243</infon>
+      <infon key="year">2008</infon>
+      <infon key="lpage">254</infon>
+      <infon key="type">ref</infon>
+      <offset>54920</offset>
+      <text>The Srs2 helicase activity is stimulated by Rad51 filaments on dsDNA: implications for crossover incidence during mitotic recombination</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Maffioletti;given-names:G</infon>
+      <infon key="name_3">surname:Petrini;given-names:JH</infon>
+      <infon key="name_0">surname:Chiolo;given-names:I</infon>
+      <infon key="name_1">surname:Carotenuto;given-names:W</infon>
+      <infon key="name_4">surname:Foiani;given-names:M</infon>
+      <infon key="name_5">surname:Liberi;given-names:G</infon>
+      <infon key="volume">25</infon>
+      <infon key="pub-id_pmid">15964827</infon>
+      <infon key="source">Mol. Cell Biol.</infon>
+      <infon key="fpage">5738</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">5751</infon>
+      <infon key="type">ref</infon>
+      <offset>55056</offset>
+      <text>Srs2 and Sgs1 DNA helicases associate with Mre11 in different subcomplexes following checkpoint activation and CDK1-mediated Srs2 phosphorylation</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kurumizaka;given-names:H</infon>
+      <infon key="name_3">surname:Chen;given-names:DJ</infon>
+      <infon key="name_0">surname:Kim;given-names:JS</infon>
+      <infon key="name_1">surname:Krasieva;given-names:TB</infon>
+      <infon key="name_4">surname:Taylor;given-names:AM</infon>
+      <infon key="name_5">surname:Yokomori;given-names:K</infon>
+      <infon key="volume">170</infon>
+      <infon key="pub-id_pmid">16061690</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="fpage">341</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">347</infon>
+      <infon key="type">ref</infon>
+      <offset>55202</offset>
+      <text>Independent and sequential recruitment of NHEJ and HR factors to DNA damage sites in mammalian cells</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Dixon;given-names:K</infon>
+      <infon key="name_3">surname:Bissler;given-names:JJ</infon>
+      <infon key="name_0">surname:Robison;given-names:JG</infon>
+      <infon key="name_1">surname:Lu;given-names:L</infon>
+      <infon key="pub-id_pmid">15653682</infon>
+      <infon key="volume">280</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="fpage">12927</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">12934</infon>
+      <infon key="type">ref</infon>
+      <offset>55303</offset>
+      <text>DNA lesion-specific co-localization of the Mre11/Rad50/Nbs1 (MRN) complex and replication protein A (RPA) to repair foci</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Wells;given-names:J</infon>
+      <infon key="name_3">surname:Olivares;given-names:H</infon>
+      <infon key="name_0">surname:Maser;given-names:RS</infon>
+      <infon key="name_1">surname:Mirzoeva;given-names:OK</infon>
+      <infon key="name_6">surname:Farnham;given-names:PJ</infon>
+      <infon key="name_7">surname:Petrini;given-names:JH</infon>
+      <infon key="name_4">surname:Williams;given-names:BR</infon>
+      <infon key="name_5">surname:Zinkel;given-names:RA</infon>
+      <infon key="volume">21</infon>
+      <infon key="pub-id_pmid">11486038</infon>
+      <infon key="source">Mol. Cell Biol.</infon>
+      <infon key="fpage">6006</infon>
+      <infon key="year">2001</infon>
+      <infon key="lpage">6016</infon>
+      <infon key="type">ref</infon>
+      <offset>55424</offset>
+      <text>Mre11 complex and DNA replication: linkage to E2F and sites of DNA synthesis</text>
+    </passage>
+    <passage>
+      <infon key="lpage">218</infon>
+      <infon key="name_0">surname:Mirzoeva;given-names:OK</infon>
+      <infon key="name_1">surname:Petrini;given-names:JH</infon>
+      <infon key="pub-id_pmid">12556560</infon>
+      <infon key="volume">1</infon>
+      <infon key="source">Mol. Cancer Res.</infon>
+      <infon key="fpage">207</infon>
+      <infon key="year">2003</infon>
+      <infon key="type">ref</infon>
+      <offset>55501</offset>
+      <text>DNA replication-dependent nuclear dynamics of the Mre11 complex</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Liu;given-names:E</infon>
+      <infon key="name_3">surname:Lee;given-names:AY</infon>
+      <infon key="name_0">surname:Olson;given-names:E</infon>
+      <infon key="name_1">surname:Nievera;given-names:CJ</infon>
+      <infon key="name_4">surname:Chen;given-names:L</infon>
+      <infon key="name_5">surname:Wu;given-names:X</infon>
+      <infon key="volume">27</infon>
+      <infon key="pub-id_pmid">17591703</infon>
+      <infon key="source">Mol. Cell Biol.</infon>
+      <infon key="fpage">6053</infon>
+      <infon key="year">2007</infon>
+      <infon key="lpage">6067</infon>
+      <infon key="type">ref</infon>
+      <offset>55565</offset>
+      <text>The Mre11 complex mediates the S-phase checkpoint through an interaction with replication protein A</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Dixon;given-names:K</infon>
+      <infon key="name_3">surname:Oakley;given-names:GG</infon>
+      <infon key="name_0">surname:Robison;given-names:JG</infon>
+      <infon key="name_1">surname:Elliott;given-names:J</infon>
+      <infon key="pub-id_pmid">15180989</infon>
+      <infon key="volume">279</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="fpage">34802</infon>
+      <infon key="year">2004</infon>
+      <infon key="lpage">34810</infon>
+      <infon key="type">ref</infon>
+      <offset>55665</offset>
+      <text>Replication protein A and the Mre11.Rad50.Nbs1 complex co-localize and interact at sites of stalled replication forks</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Selva;given-names:M</infon>
+      <infon key="name_3">surname:Jeusset;given-names:J</infon>
+      <infon key="name_0">surname:Veaute;given-names:X</infon>
+      <infon key="name_1">surname:Delmas;given-names:S</infon>
+      <infon key="name_6">surname:Fabre;given-names:F</infon>
+      <infon key="name_7">surname:Petit;given-names:MA</infon>
+      <infon key="name_4">surname:Le Cam;given-names:E</infon>
+      <infon key="name_5">surname:Matic;given-names:I</infon>
+      <infon key="volume">24</infon>
+      <infon key="pub-id_pmid">15565170</infon>
+      <infon key="source">EMBO J.</infon>
+      <infon key="fpage">180</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">189</infon>
+      <infon key="type">ref</infon>
+      <offset>55783</offset>
+      <text>UvrD helicase, unlike Rep helicase, dismantles RecA nucleoprotein filaments in Escherichia coli</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Michel;given-names:B</infon>
+      <infon key="lpage">1675</infon>
+      <infon key="name_0">surname:Flores;given-names:MJ</infon>
+      <infon key="name_1">surname:Sanchez;given-names:N</infon>
+      <infon key="pub-id_pmid">16135232</infon>
+      <infon key="volume">57</infon>
+      <infon key="source">Mol. Microbiol.</infon>
+      <infon key="fpage">1664</infon>
+      <infon key="year">2005</infon>
+      <infon key="type">ref</infon>
+      <offset>55879</offset>
+      <text>A fork-clearing role for UvrD</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Davies;given-names:AA</infon>
+      <infon key="name_3">surname:Huttner;given-names:D</infon>
+      <infon key="name_0">surname:Papouli;given-names:E</infon>
+      <infon key="name_1">surname:Chen;given-names:S</infon>
+      <infon key="name_6">surname:Ulrich;given-names:HD</infon>
+      <infon key="name_4">surname:Krejci;given-names:L</infon>
+      <infon key="name_5">surname:Sung;given-names:P</infon>
+      <infon key="volume">19</infon>
+      <infon key="pub-id_pmid">15989970</infon>
+      <infon key="source">Mol. Cell</infon>
+      <infon key="fpage">123</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">133</infon>
+      <infon key="type">ref</infon>
+      <offset>55909</offset>
+      <text>Crosstalk between SUMO and ubiquitin on PCNA is mediated by recruitment of the helicase Srs2p</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Sacher;given-names:M</infon>
+      <infon key="name_3">surname:Hoege;given-names:C</infon>
+      <infon key="name_0">surname:Pfander;given-names:B</infon>
+      <infon key="name_1">surname:Moldovan;given-names:GL</infon>
+      <infon key="name_4">surname:Jentsch;given-names:S</infon>
+      <infon key="pub-id_pmid">15931174</infon>
+      <infon key="volume">436</infon>
+      <infon key="source">Nature</infon>
+      <infon key="fpage">428</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">433</infon>
+      <infon key="type">ref</infon>
+      <offset>56003</offset>
+      <text>SUMO-modified PCNA recruits Srs2 to prevent recombination during S phase</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Egelman;given-names:EH</infon>
+      <infon key="name_3">surname:Mazin;given-names:AV</infon>
+      <infon key="name_0">surname:Bugreev;given-names:DV</infon>
+      <infon key="name_1">surname:Yu;given-names:X</infon>
+      <infon key="pub-id_pmid">18003860</infon>
+      <infon key="volume">21</infon>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="fpage">3085</infon>
+      <infon key="year">2007</infon>
+      <infon key="lpage">3094</infon>
+      <infon key="type">ref</infon>
+      <offset>56076</offset>
+      <text>Novel pro- and anti-recombination activities of the Bloom's syndrome helicase</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Baryshnikova;given-names:A</infon>
+      <infon key="name_3">surname:Kim;given-names:JH</infon>
+      <infon key="name_0">surname:Chiolo;given-names:I</infon>
+      <infon key="name_1">surname:Saponaro;given-names:M</infon>
+      <infon key="name_4">surname:Seo;given-names:YS</infon>
+      <infon key="name_5">surname:Liberi;given-names:G</infon>
+      <infon key="volume">27</infon>
+      <infon key="pub-id_pmid">17724085</infon>
+      <infon key="source">Mol. Cell Biol.</infon>
+      <infon key="fpage">7439</infon>
+      <infon key="year">2007</infon>
+      <infon key="lpage">7450</infon>
+      <infon key="type">ref</infon>
+      <offset>56154</offset>
+      <text>The human F-Box DNA helicase FBH1 faces Saccharomyces cerevisiae Srs2 and postreplication repair pathway roles</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Sakaguchi;given-names:C</infon>
+      <infon key="name_3">surname:Toda;given-names:T</infon>
+      <infon key="name_0">surname:Morishita;given-names:T</infon>
+      <infon key="name_1">surname:Furukawa;given-names:F</infon>
+      <infon key="name_6">surname:Shinagawa;given-names:H</infon>
+      <infon key="name_4">surname:Carr;given-names:AM</infon>
+      <infon key="name_5">surname:Iwasaki;given-names:H</infon>
+      <infon key="volume">25</infon>
+      <infon key="pub-id_pmid">16135799</infon>
+      <infon key="source">Mol. Cell Biol.</infon>
+      <infon key="fpage">8074</infon>
+      <infon key="year">2005</infon>
+      <infon key="lpage">8083</infon>
+      <infon key="type">ref</infon>
+      <offset>56265</offset>
+      <text>Role of the Schizosaccharomyces pombe F-box DNA helicase in processing recombination intermediates</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Kim;given-names:DH</infon>
+      <infon key="name_3">surname:Ryu;given-names:GH</infon>
+      <infon key="name_0">surname:Kim;given-names:JH</infon>
+      <infon key="name_1">surname:Kim;given-names:J</infon>
+      <infon key="name_4">surname:Bae;given-names:SH</infon>
+      <infon key="name_5">surname:Seo;given-names:YS</infon>
+      <infon key="volume">32</infon>
+      <infon key="pub-id_pmid">15118074</infon>
+      <infon key="source">Nucleic Acids Res.</infon>
+      <infon key="fpage">2287</infon>
+      <infon key="year">2004</infon>
+      <infon key="lpage">2297</infon>
+      <infon key="type">ref</infon>
+      <offset>56364</offset>
+      <text>SCFhFBH1 can act as helicase and E3 ubiquitin ligase</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Yazdi;given-names:P</infon>
+      <infon key="name_3">surname:Neff;given-names:N</infon>
+      <infon key="name_0">surname:Wang;given-names:Y</infon>
+      <infon key="name_1">surname:Cortez;given-names:D</infon>
+      <infon key="name_4">surname:Elledge;given-names:SJ</infon>
+      <infon key="name_5">surname:Qin;given-names:J</infon>
+      <infon key="volume">14</infon>
+      <infon key="pub-id_pmid">10783165</infon>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="fpage">927</infon>
+      <infon key="year">2000</infon>
+      <infon key="lpage">939</infon>
+      <infon key="type">ref</infon>
+      <offset>56417</offset>
+      <text>BASC, a super complex of BRCA1-associated proteins involved in the recognition and repair of aberrant DNA structures</text>
+    </passage>
+    <passage>
+      <infon key="lpage">30</infon>
+      <infon key="name_0">surname:Franchitto;given-names:A</infon>
+      <infon key="name_1">surname:Pichierri;given-names:P</infon>
+      <infon key="pub-id_pmid">11916980</infon>
+      <infon key="volume">157</infon>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="fpage">19</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>56534</offset>
+      <text>Bloom's syndrome protein is required for correct relocalization of RAD50/MRE11/NBS1 complex after replication fork arrest</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Opresko;given-names:PL</infon>
+      <infon key="name_3">surname:Arthur;given-names:LM</infon>
+      <infon key="name_0">surname:Cheng;given-names:WH</infon>
+      <infon key="name_1">surname:von Kobbe;given-names:C</infon>
+      <infon key="name_6">surname:Carney;given-names:JP</infon>
+      <infon key="name_7">surname:Bohr;given-names:VA</infon>
+      <infon key="name_4">surname:Komatsu;given-names:K</infon>
+      <infon key="name_5">surname:Seidman;given-names:MM</infon>
+      <infon key="volume">279</infon>
+      <infon key="pub-id_pmid">15026416</infon>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="fpage">21169</infon>
+      <infon key="year">2004</infon>
+      <infon key="lpage">21176</infon>
+      <infon key="type">ref</infon>
+      <offset>56656</offset>
+      <text>Linkage between Werner syndrome protein and the Mre11 complex via Nbs1</text>
+    </passage>
+    <passage>
+      <infon key="lpage">1339</infon>
+      <infon key="name_0">surname:Franchitto;given-names:A</infon>
+      <infon key="name_1">surname:Pichierri;given-names:P</infon>
+      <infon key="pub-id_pmid">15467456</infon>
+      <infon key="volume">3</infon>
+      <infon key="source">Cell Cycle</infon>
+      <infon key="fpage">1331</infon>
+      <infon key="year">2004</infon>
+      <infon key="type">ref</infon>
+      <offset>56727</offset>
+      <text>Werner syndrome protein and the MRE11 complex are involved in a common pathway of replication fork recovery</text>
+    </passage>
+    <passage>
+      <infon key="name_2">surname:Swanson;given-names:C</infon>
+      <infon key="name_3">surname:Emond;given-names:MJ</infon>
+      <infon key="name_0">surname:Saintigny;given-names:Y</infon>
+      <infon key="name_1">surname:Makienko;given-names:K</infon>
+      <infon key="name_4">surname:Monnat;given-names:RJ;suffix:Jr</infon>
+      <infon key="pub-id_pmid">12242278</infon>
+      <infon key="volume">22</infon>
+      <infon key="source">Mol. Cell Biol.</infon>
+      <infon key="fpage">6971</infon>
+      <infon key="year">2002</infon>
+      <infon key="lpage">6978</infon>
+      <infon key="type">ref</infon>
+      <offset>56835</offset>
+      <text>Homologous recombination resolution defect in Werner syndrome</text>
+    </passage>
+  </document>
+</collection>

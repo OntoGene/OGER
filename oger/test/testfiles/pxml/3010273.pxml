@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010273</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>11</Month>
+<Day>21</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0032-7484</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>16</Volume>
+<Issue>1</Issue>
+<PubDate>
+<Year>1986</Year>
+</PubDate>
+</JournalIssue>
+<Title>Preparative biochemistry</Title>
+<ISOAbbreviation>Prep. Biochem.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Purification and characterization of a cytosolic activator protein for the gastric H+,K+-ATPase system from dog fundic mucosa.</ArticleTitle>
+<Pagination>
+<MedlinePgn>21-32</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>An endogenous protein activator (AF) responsible for the activation of the gastric H+,K+-ATPase system, identified recently as the biochemical mechanism for the transport of H+, has been purified to homogeneity and partially characterized. The purification procedure (at 0-4 degrees C) involves simultaneous concentration and dialysis of the cytosolic fraction from dog fundic cells under negative pressure, pH 4.8 precipitation and two consecutive gel filtration steps on sephacryl S-200 columns. The highly purified and active AF is a protein of 80 Kd consisting of two identical subunits of 40 Kd each. The AF not only stimulates the gastric H+,K+-ATPase activity but also greatly enhances the rate of ATPase dependent proton pumping inside gastric microsomal vesicles. The data clearly suggest an important regulatory role of the cytosolic AF in the gastric HCl secretory process.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Bandopadhyay</LastName>
+<ForeName>S</ForeName>
+<Initials>S</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Ray</LastName>
+<ForeName>T K</ForeName>
+<Initials>TK</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Prep Biochem</MedlineTA>
+<NlmUniqueID>1276634</NlmUniqueID>
+<ISSNLinking>0032-7484</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>EC 3.6.1.-</RegistryNumber>
+<NameOfSubstance UI="D000251">Adenosine Triphosphatases</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.6.3.10</RegistryNumber>
+<NameOfSubstance UI="D017506">H(+)-K(+)-Exchanging ATPase</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000251">Adenosine Triphosphatases</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003600">Cytosol</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000201">enzymology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004285">Dogs</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004789">Enzyme Activation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005753">Gastric Mucosa</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000201">enzymology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D017506">H(+)-K(+)-Exchanging ATPase</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008861">Microsomes</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000201">enzymology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008970">Molecular Weight</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

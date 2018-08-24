@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010250</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>03</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>03</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2006</Year>
+<Month>11</Month>
+<Day>15</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0163-5581</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>8</Volume>
+<Issue>2</Issue>
+<PubDate>
+<Year>1986</Year>
+</PubDate>
+</JournalIssue>
+<Title>Nutrition and cancer</Title>
+<ISOAbbreviation>Nutr Cancer</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Influence of wheat bran on some reductive and hydrolytic activities of the rat cecal flora.</ArticleTitle>
+<Pagination>
+<MedlinePgn>125-31</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>For 30 days, male weanling rats were fed a semipurified, fiber-free diet or a diet that contained 5, 15, or 30% (wt/wt) wheat bran. The activities of four cecal microbial enzymes were determined. Wheat bran significantly increased the wet weight content of the cecum and total bacterial count per cecum at the intermediate- and high-treatment levels, but it had no effect on bacterial concentration per gram wet weight of cecal contents. Total beta-glucosidase and beta-glucuronidase activities per cecum were generally increased. Wheat bran decreased total nitrate reductase activity, but there was no change in total nitroreductase activity. Wheat bran significantly decreased enzyme activities for nitro-and nitrate reduction per gram of cecal contents but increased beta-glucosidase activity. The activities of the enzymes per 10(11) bacteria followed a similar pattern to that noted per gram of cecal contents. Such fiber-dependent changes in enzyme activity may alter the steady-state concentration of toxic and genotoxic chemicals in the lumen of the hindgut.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Mallett</LastName>
+<ForeName>A K</ForeName>
+<Initials>AK</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Rowland</LastName>
+<ForeName>I R</ForeName>
+<Initials>IR</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Bearne</LastName>
+<ForeName>C A</ForeName>
+<Initials>CA</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Nutr Cancer</MedlineTA>
+<NlmUniqueID>7905040</NlmUniqueID>
+<ISSNLinking>0163-5581</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>EC 1.-</RegistryNumber>
+<NameOfSubstance UI="D010088">Oxidoreductases</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 1.7.-</RegistryNumber>
+<NameOfSubstance UI="D009565">Nitrate Reductases</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 1.7.-</RegistryNumber>
+<NameOfSubstance UI="D009601">Nitroreductases</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 1.7.99.4</RegistryNumber>
+<NameOfSubstance UI="D050901">Nitrate Reductase</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.2.1.21</RegistryNumber>
+<NameOfSubstance UI="D001617">beta-Glucosidase</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.2.1.31</RegistryNumber>
+<NameOfSubstance UI="D005966">Glucuronidase</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001835">Body Weight</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000187">drug effects</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002432">Cecum</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000382">microbiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004043">Dietary Fiber</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004305">Dose-Response Relationship, Drug</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005966">Glucuronidase</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006868">Hydrolysis</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D050901">Nitrate Reductase</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009565">Nitrate Reductases</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009601">Nitroreductases</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009929">Organ Size</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000187">drug effects</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010088">Oxidoreductases</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051381">Rats</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011919">Rats, Inbred Strains</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001617">beta-Glucosidase</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

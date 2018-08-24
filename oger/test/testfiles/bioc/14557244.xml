@@ -1,0 +1,882 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>PMC</source>
+  <date>20140719</date>
+  <key>BioCBioGRID.key</key>
+  <document>
+    <id>14557244</id>
+    <infon key="top">44</infon>
+    <infon key="catagory">marked</infon>
+    <passage>
+      <infon key="name_2">surname:Feng;given-names:Daorong</infon>
+      <infon key="name_3">surname:Liang;given-names:Chun</infon>
+      <infon key="name_0">surname:Fu;given-names:Xinrong</infon>
+      <infon key="name_1">surname:Ng;given-names:Christine</infon>
+      <infon key="kwd">CDK; CDK inhibitor; p97; VCP; ubiquitin-proteosome proteolysis</infon>
+      <infon key="article-id_publisher-id">200307025</infon>
+      <infon key="type">front</infon>
+      <infon key="article-id_doi">10.1083/jcb.200307025</infon>
+      <infon key="article-id_pmid">14557244</infon>
+      <infon key="lpage">26</infon>
+      <infon key="article-id_pmc">2173437</infon>
+      <infon key="journal-title">The Journal of Cell Biology</infon>
+      <infon key="fpage">21</infon>
+      <infon key="year">2003</infon>
+      <infon key="issue">1</infon>
+      <infon key="fn">Abbreviations used in this paper: CDK, cyclin-dependent kinase; td, temperature-sensitive degron; coIP, coimmunoprecipitation; IP, immunoprecipitation.</infon>
+      <infon key="volume">163</infon>
+      <offset>0</offset>
+      <text>Cdc48p is required for the cell cycle commitment point at Start via degradation of the G1-CDK inhibitor Far1p</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>110</offset>
+      <text>The budding yeast Cdc48p and its mammalian homologue p97 are involved in many important cellular activities. Because previous cdc48 mutants have exclusive G2/M arrest, Cdc48p was thought to play an essential role only during mitosis. We found that Cdc48p is required for the execution of Start (a yeast cell cycle commitment point equivalent to the restriction point in mammalian cells) in both a normal mitotic cell cycle and cell cycle reentry after mating pheromone withdrawal through degradation of the G1-cyclin-dependent kinase inhibitor Far1p. Our work is the first to uncover novel roles of Cdc48p as a critical cell cycle regulator in G1, and to shed new light on cell cycle regulation of Far1p, which is the first cyclin-dependent kinase inhibitor shown to be a substrate of an essential proteolysis event mediated by Cdc48p.</text>
+      <annotation id="36">
+        <infon key="OrganismID">559292</infon>
+        <infon key="type">Organism</infon>
+        <infon key="src">edit</infon>
+        <location offset="114" length="13"/>
+        <text>budding yeast</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>948</offset>
+      <text>Introduction</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>961</offset>
+      <text>Cdc48p/p97 homologues (p97 is also termed VCP [valosin-containing protein]) belong to the AAA (ATPase associated with a variety of cellular activities) superfamily. Cdc48p/p97 has been shown to participate in a variety of cellular processes including: mitosis (Moir et al., 1982; Frohlich et al., 1991), spindle pole organization (Frohlich et al., 1991), homotypic membrane fusion (Latterich et al., 1995; Kondo et al., 1997), endoplasmic reticulum-associated protein degradation (Braun et al., 2002; Jarosch et al., 2002; Rabinovich et al., 2002), transcription factor processing (Hoppe et al., 2000; Hitchcock et al., 2001; Rape et al., 2001), and ubiquitin-proteasome proteolysis pathways (Ghislain et al., 1996; Dai et al., 1998; Dai and Li, 2001).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>1718</offset>
+      <text>Ubiquitin-mediated proteolysis plays critical roles in the cell cycle by regulating cyclin-dependent kinase (CDK) activities through degradation of CDK activators or inhibitors, thus promoting cell cycle transitions. After target proteins are multi-ubiquitinated, they are transported to the 26S proteasome for degradation. Recently, the crucial role of a chaperone-like Cdc48-Ufd1-Npl4 complex has been identified in the recognition and transport of polyubiquitin-tagged proteins, bringing them to the 26S proteasome for degradation (Meyer et al., 2000, 2002; Dai and Li, 2001; Ye et al., 2001). These studies suggest that Cdc48p regulates many cellular processes by this mechanism.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2406</offset>
+      <text>Besides mitosis, the G1 phase of the cell cycle is also controlled in part by ubiquitin-mediated proteolysis. One of the critical control points in G1 phase is the Start in yeast, which is equivalent to the restriction point in mammalian cells. After yeast cells have passed through Start, they not only initiate DNA replication but also form buds and duplicate their spindle pole. Activation of Cdc28 protein kinase by G1-specific cyclins is necessary for all of these Start events. However, Cdc48p has not been implicated in G1 control.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>2945</offset>
+      <text>The previous conditional cdc48 mutants are quite "leaky," as indicated by several cell doublings before eventual G2/M arrest at the restrictive temperatures (Moir et al., 1982; Frohlich et al., 1991), which has led to the idea that Cdc48p plays an essential role only during mitosis. By using a "tight" temperature-sensitive degron (td) mutant in CDC48, we found that Cdc48p is required for Start in G1 phase, as well as for mitosis. Furthermore, Cdc48p is essential for Start execution in both mitotic cell cycle and cell cycle reentry after mating pheromone removal; this function is achieved through degradation of the G1-CDK inhibitor Far1p.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>3599</offset>
+      <text>Results and discussion</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>3622</offset>
+      <text>To study the functions of Cdc48p in the cell cycle, we constructed a cdc48-td mutant in a GAL-UBR1 strain in which UBR1, the gene encoding the degron recognition factor, can be induced by galactose for efficient degradation of degron-tagged proteins at 37 C (Labib et al., 2000). The Cdc48-td protein in cdc48-td cells could be mostly degraded within 1 h at 37 C (unpublished data). The wild-type CDC48 gene on a plasmid could completely rescue the cdc48-td mutant (unpublished data); strains complemented in this way were used as wild-type controls.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>4175</offset>
+      <text>The wild-type control and cdc48-td strains were first synchronized in G1 phase with the mating pheromone alpha factor, and each culture was split into two halves: one half was left at the permissive temperature of 25 C as the control, while the other half was induced to degrade the Cdc48-td protein in cdc48-td cells at 37 C. Next, cells in the two cultures of each strain were released from alpha factor arrest into fresh medium at 25 C (Fig. 1 A) or 37 C (Fig. 1 B), respectively, and cell cycle progressions were monitored by flow cytometry and budding index counting at various time points after release. Wild-type cells at both 25 C and 37 C and cdc48-td cells at 25 C showed normal kinetics of bud formation and S phase entry and progression (Fig. 1). In contrast, most cdc48-td cells were unable to bud or enter S phase at 37 C (Fig. 1). Because bud formation and S phase entry are two independent cell cycle events that initiate simultaneously at the G1/S transition after cells have traversed Start, our data suggest that Cdc48p is required for the execution of Start.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>5256</offset>
+      <text>cdc48-td cells are defective for budding and S phase entry. Wild-type (CDC48) and cdc48-td cells were arrested in G1 with alpha factor at 25 C in glucose medium, and one half of culture remained in the same medium at 25 C for 2 h, while the other half was transferred into galactose medium containing alpha factor at 25 C to induce UBR1 for 1 h and then shifted to 37 C for 1 h to degrade the Cdc48-td protein. Next, cells were released from alpha factor arrest into glucose medium at 25 C (A) or galactose medium at 37 C (B), respectively. Aliquots of cells were collected at various time points after release. Cell cycle progressions of the cells were monitored by flow cytometry and budding index counting (% Budded, percentages of budded cells in the population).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>6021</offset>
+      <text>In response to alpha factor in G1, the expression of Cln1p-Cln3p (the G1 cyclins) and activity of Cdc28p-Cln (the G1-CDK) are inhibited, and cells arrest at Start. Reentry into the cell cycle after alpha factor removal is achieved by recovery of the Cdc28p-Cln activities. Therefore, it is possible that the failure of cdc48-td mutant cells to traverse Start at 37 C after alpha factor withdrawal was due to the inability of the cells to recover the G1-CDK activities. To test this possibility, we blocked wild-type and cdc48-td cells in G1 with alpha factor, induced Cdc48-td proteolysis at 37 C, and then released the cells into fresh medium at 37 C. Cells were harvested at different time points after release; Cdc28p and associated proteins were precipitated by p13Suc1 beads (p13 is a fission yeast CDK-binding protein that also binds the budding yeast Cdc28p) from yeast cell extracts; and the Cdc28 kinase activity was assayed using histone H1 as a substrate. In wild-type cells, Cdc28 kinase activity was absent in alpha factor-arrested cells (Fig. 2 A, 0 min) but gradually increased after release from the arrest, as expected. In contrast, no significant kinase activity was detected in cdc48-td cells after release, suggesting that recovery of the CDK activities after alpha factor removal requires Cdc48p.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>7326</offset>
+      <text>cdc48-td cells are defective for activation of Cdc28p-Cln kinase and degradation of Far1p. (A) Wild-type (CDC48) and cdc48-td cells were synchronized with alpha factor at 25 C in raffinose medium. Galactose was added to induce UBR1 at 25 C for 1 h, and the cells were shifted to 37 C for 1 h to degrade the Cdc48-td protein. The cells were released into fresh galactose medium at 37 C for 1 h and harvested at 20-min intervals. After precipitation with p13Suc1 beads, the kinase activities and amounts of precipitated Cdc28p were measured by histone H1 kinase assay and immunoblotting, respectively. Cell cycle progressions were monitored by flow cytometry. (B-D) Similar experiments to those in A were performed with CLN2-Myc (B) or FAR1-Myc cells (C and D) in CDC48 and cdc48-td backgrounds, and anti-Myc immunoblotting for whole cell extracts (B and C), or antiubiquitin immunoblotting for anti-Myc immunoprecipitates (D) was performed. Orc3p served as the gel loading control. (E) Extracts from FAR1-Myc-tagged and untagged strains were immunoprecipitated with anti-Myc, and whole cell extract and immunoprecipitates were immunoblotted with antiubiquitin.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>8491</offset>
+      <text>We examined the levels of Cln2p in total yeast cell extracts in alpha factor arrest-and-release experiments with CLN2-Myc strains. In wild-type cells, Cln2p was absent in alpha factor-arrested cells and increased after release from the arrest, as expected (Fig. 2 B). However, in cdc48-td cells, Cln2p remained at a low level after release. Together, the data shown in Fig. 1 and Fig. 2 (A and B) suggest that Cdc48p is required for recovery of CLN2 expression, for Cdc28p-Cln kinase activities, and for cell cycle reentry after alpha factor removal.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9035</offset>
+      <text>Because Cdc48p is known to be required for ubiquitin-proteasome proteolysis pathways, we hypothesized that inhibition of Cdc28-Cln kinase activities in cdc48-td resulted from failure to degrade a Cdc28p-Cln inhibitor in cdc48-td cells. One plausible candidate is Far1p (factor arrest), which is required for G1 arrest through inhibition of CLN gene expression and of Cdc28-Cln kinase activities in response to alpha factor (Chang and Herskowitz, 1990; McKinney et al., 1993; Peter et al., 1993; Valdivieso et al., 1993; Peter and Herskowitz, 1994). Far1p is degraded through the ubiquitin-proteasome pathway to allow cell cycle reentry after alpha factor withdrawal (Henchoz et al., 1997; Blondel et al., 2000).</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>9745</offset>
+      <text>To test if the G1 arrest was attributable to failure to degrade Far1p in cdc48-td cells, we examined the levels of Far1p in alpha factor arrest-and-release experiments with FAR1-Myc strains. As expected, Far1p accumulated in both wild-type and cdc48-td cells in the presence of alpha factor (Fig. 2 C, 0 min). Also as expected, the Far1p level decreased and ultimately disappeared after wild-type cells were released from alpha factor arrest (Fig. 2 C). However, Far1p was quite stable in cdc48-td cells after release from alpha factor arrest (Fig. 2 C). These results support our hypothesis that the inability to reenter the cell cycle resulted from failure of Far1p degradation in cdc48-td cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>10432</offset>
+      <text>It has been shown that Cdc48p is responsible for bringing ubiquitinated proteins to the 26S proteosome for degradation, but it is not required for ubiquitination of protein substrates (Dai and Li, 2001; Hitchcock et al., 2001; Rape et al., 2001; Ye et al., 2001). To determine if the role of Cdc48p in Far1p degradation was also at a postubiquitination step, we used cdc48-td cells to check the ubiquitination status of Far1p in alpha factor block-and-release experiments. Far1-Myc was immunoprecipitated from yeast cell extracts with an anti-Myc antibody, and precipitated proteins were immunoblotted with an antiubiquitin antiserum. Far1-Myc was found ubiquitinated in cdc48-td cells at 37 C, as evident by the presence of smears (Fig. 2 D). We confirmed that the signals attributed to Far1-Ub were indeed from Far1-Ub, as smear signals could be detected by antiubiquitin immunoblotting in anti-Myc immunoprecipites from the FAR1-Myc tagged, but not untagged, strains (Fig. 2 E). These results suggest that Cdc48p is not required for ubiquitination of Far1p, as in the case of other substrates whose degradation is mediated through Cdc48p.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>11572</offset>
+      <text>We have established that cdc48-td cells are defective for Start due to failure of Far1p degradation. However, alpha factor was used to synchronize cells in G1 in these experiments, as in previous Far1p studies. To determine if Cdc48p was also required for degradation of Far1p at Start in the mitotic cell cycle, we examined cell cycle arrest phenotypes of cdc48-td cells in experiments that did not use alpha factor for cell presynchronization.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>12012</offset>
+      <text>Asynchronous wild-type and cdc48-td cells were shifted to 37 C after induction of UBR1 to degrade the Cdc48-td protein, or kept at 25 C as the control, and cell cycle distributions were examined by flow cytometry and bud index counting. Judging from the DNA contents, cdc48-td cells had both G1 and G2/M populations at both 25 and 37 C, as did the wild-type cells (Fig. 3 A). However, only cdc48-td cells at 37 C had most of their budded cells as large budded compared with a more or less equal mixture of small- and large-budded cells in wild-type cells at 25 and 37 C and cdc48-td cells at 25 C (Fig. 3 A). This suggests that some cdc48-td cells arrested in G1 as unbudded cells with 1C DNA, whereas others arrested in G2/M as large-budded cells with 2C DNA at 37 C. To formally rule out the possibility that cdc48-td cells might have no cell cycle arrest at 37 C, nocodazole or alpha factor was added to yeast cell cultures just before they were shifted to 37 C (Fig. 3 A). As expected, wild-type cells at both temperatures, and cdc48-td cells at 25 C, were able to traverse G1 and arrest in G2/M in the nocodazole experiment, and to go through mitosis and arrest in G1 in the alpha factor experiment. In contrast, at 37 C in the presence of nocodazole or alpha factor, cdc48-td cells arrested in both G1 and G2/M; i.e., they could not traverse either G1 (in the nocodazole experiment) or mitosis (in the alpha factor experiment). Together, these results demonstrate that Cdc48p is required for cells to pass through G1, as well as mitosis, in the mitotic cell cycle.</text>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>13582</offset>
+      <text>cdc48-td cells arrest in both G1 and G2/M at 37 C, and FAR1 deletion or CLN2 constitutive expression can overcome the G1 arrest. (A) Asynchronous wild-type (CDC48) and cdc48-td cells grown in glucose medium at 25 C were either transferred to galactose medium at 25 C to induce UBR1 for 1 h and then shifted to 37 C, or kept in glucose medium at 25 C. Nocodazole or alpha factor was added to aliquots of cells at 25 and 37 C, and samples were harvested for flow cytometry and budding index analysis 4 h later. % Budded (Large), percentages of budded cells and of large-budded cells (in parentheses, defined as those with bud size of at least 60% of the mother) among all budded cells. (B) After UBR1 induction, asynchronous CDC48/far1Delta and cdc48-td/far1Delta cells were shifted to 37 C in galactose medium with or without nocodazole, or kept in glucose medium at 25 C. Cells were analyzed as in A. (C) After UBR1 induction, asynchronous cdc48-td/CLN2 and cdc48-td/GAL-CLN2 were shifted to 37 C in galactose medium or kept in glucose medium at 25 C. Cells were analyzed as in A.</text>
+      <annotation id="12">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851431</infon>
+        <location offset="13582" length="5"/>
+        <text>cdc48</text>
+      </annotation>
+      <annotation id="13">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853283</infon>
+        <location offset="13637" length="4"/>
+        <text>FAR1</text>
+      </annotation>
+      <annotation id="14">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855819</infon>
+        <location offset="13654" length="4"/>
+        <text>CLN2</text>
+      </annotation>
+      <annotation id="GIe_4">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="13582" length="128"/>
+        <text>cdc48-td cells arrest in both G1 and G2/M at 37 C, and FAR1 deletion or CLN2 constitutive expression can overcome the G1 arrest.</text>
+      </annotation>
+      <annotation id="GIm_14">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="13582" length="128"/>
+        <text>cdc48-td cells arrest in both G1 and G2/M at 37 C, and FAR1 deletion or CLN2 constitutive expression can overcome the G1 arrest.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>14664</offset>
+      <text>To determine if the G1 arrest phenotype of cdc48-td cells not treated with alpha factor was also due to failure of Far1p degradation, we asked whether deletion of the FAR1 gene could liberate cdc48-td cells from the G1 arrest. CDC48 (wild-type control)/far1Delta and cdc48-td/far1Delta strains were used to perform experiments similar to those shown in Fig. 3 A. As expected, CDC48/far1Delta cells showed no cell cycle arrest without nocodazole, and they could be blocked in G2/M by nocodazole at 37 C (Fig. 3 B). However, unlike cdc48-td cells with an intact FAR1 that have both G1 and G2/M arrest points as discussed in the previous paragraph, most cdc48-td/far1Delta cells could traverse G1 and only arrest in G2/M at 37 C with or without nocodazole (Fig. 3 B). Therefore, deletion of FAR1 allowed cdc48-td cells to bypass G1 arrest even when Cdc48-td protein was degraded.</text>
+      <annotation id="3">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851431</infon>
+        <location offset="15315" length="5"/>
+        <text>cdc48</text>
+      </annotation>
+      <annotation id="7">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853283</infon>
+        <location offset="15324" length="9"/>
+        <text>far1Delta</text>
+      </annotation>
+      <annotation id="8">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853283</infon>
+        <location offset="15452" length="4"/>
+        <text>FAR1</text>
+      </annotation>
+      <annotation id="9">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851431</infon>
+        <location offset="15465" length="5"/>
+        <text>cdc48</text>
+      </annotation>
+      <annotation id="A6">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851431</infon>
+        <location offset="15194" length="5"/>
+        <text>cdc48</text>
+      </annotation>
+      <annotation id="A8">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853283</infon>
+        <location offset="15224" length="4"/>
+        <text>FAR1</text>
+      </annotation>
+      <annotation id="GIe_5">
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="15178" length="250"/>
+        <text>However, unlike cdc48-td cells with an intact FAR1 that have both G1 and G2/M arrest points as discussed in the previous paragraph, most cdc48-td/far1Delta cells could traverse G1 and only arrest in G2/M at 37 C with or without nocodazole (Fig. 3 B).</text>
+      </annotation>
+      <annotation id="GIe_6">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <location offset="15429" length="111"/>
+        <text>Therefore, deletion of FAR1 allowed cdc48-td cells to bypass G1 arrest even when Cdc48-td protein was degraded.</text>
+      </annotation>
+      <annotation id="GIm_15">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="15178" length="250"/>
+        <text>However, unlike cdc48-td cells with an intact FAR1 that have both G1 and G2/M arrest points as discussed in the previous paragraph, most cdc48-td/far1Delta cells could traverse G1 and only arrest in G2/M at 37 C with or without nocodazole (Fig. 3 B).</text>
+      </annotation>
+      <annotation id="GIm_16">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <location offset="15429" length="111"/>
+        <text>Therefore, deletion of FAR1 allowed cdc48-td cells to bypass G1 arrest even when Cdc48-td protein was degraded.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>15528</offset>
+      <text>In addition to deletion of the FAR1 gene, elimination of the Far1p-mediated inhibition of Cdc28p-Cln kinase activities can be achieved by constitutive overexpression of CLN2 (Oehlen and Cross, 1994). By using a cdc48-td/GAL-CLN2 strain in which the chromosomal copy of CLN2 was placed under the control of a galactose inducible promoter, we tested whether GAL-CLN2 could also allow cdc48-td cells to traverse Start at 37 C. Unlike cdc48-td/CLN2 cells, which arrested in both G1 and G2/M at 37 C (Fig. 3, A and C), cdc48-td/GAL-CLN2 cells could bypass the G1 block and only arrested in G2/M at 37 C (Fig. 3 C). Together, the results from Fig. 3 strongly suggest that the essential function of Cdc48p in Start is achieved through degradation of Far1p, leading to activation of CLN expression and of the Cdc28p-Cln kinase.</text>
+      <annotation id="17">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851431</infon>
+        <location offset="16042" length="5"/>
+        <text>cdc48</text>
+      </annotation>
+      <annotation id="18">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855819</infon>
+        <location offset="16055" length="4"/>
+        <text>CLN2</text>
+      </annotation>
+      <annotation id="A12">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851431</infon>
+        <location offset="15959" length="5"/>
+        <text>cdc48</text>
+      </annotation>
+      <annotation id="A14">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">855819</infon>
+        <location offset="15968" length="4"/>
+        <text>CLN2</text>
+      </annotation>
+      <annotation id="GIe_7">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="15952" length="185"/>
+        <text>Unlike cdc48-td/CLN2 cells, which arrested in both G1 and G2/M at 37 C (Fig. 3, A and C), cdc48-td/GAL-CLN2 cells could bypass the G1 block and only arrested in G2/M at 37 C (Fig. 3 C).</text>
+      </annotation>
+      <annotation id="GIm_17">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="15952" length="185"/>
+        <text>Unlike cdc48-td/CLN2 cells, which arrested in both G1 and G2/M at 37 C (Fig. 3, A and C), cdc48-td/GAL-CLN2 cells could bypass the G1 block and only arrested in G2/M at 37 C (Fig. 3 C).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>16351</offset>
+      <text>To determine if the action of Cdc48p in Far1p degradation was through binding to Far1p, we performed reciprocal coimmunoprecipitation (coIP) experiments between Cdc48p and Far1p. Cells were first blocked in G1 with alpha factor, and then released into fresh medium. Cells, harvested 7-20 min after alpha factor removal, were pooled for the coIP experiments. Because Far1p degradation occurs during this period, possible interactions between Cdc48p and Far1p are most likely to be detected. Both Far1-Myc and Cdc48p were detected in the anti-Myc immunoprecipitates from the FAR1-Myc, but not the untagged control strains (Fig. 4 A). In the reciprocal coIP, an anti-Cdc48 antiserum also precipitated both Cdc48p and Far1-Myc (Fig. 4 B). To confirm that the smear on the anti-Myc immunoblot after anti-Cdc48 immunoprecipitation (IP; Fig. 4 B, lane 3) represented ubiquitinated Far1-Myc, we performed a two-step IP experiment. First, yeast cell extracts were immunoprecipitated with anti-Cdc48. Next, the precipitated proteins were dissolved, denatured, and reprecipitated with an anti-Myc antibody. The precipitated proteins after the two-step IP were analyzed by immunoblotting using anti-Myc and antiubiquitin antibodies. Far1-Myc and its ubiquitinated forms were detected in the immunoprecipitates from the FAR1-Myc, but not the untagged control strains (Fig. 4 C). Moreover, ubiquitinated Far1p was enriched relative to un-ubiquitinated Far1p (Fig. 4 B, compare lane 3 with lane 1; and Fig. 4 C, compare lane 4 with lane 2), as has been shown for some other proteolysis substrates (Dai et al., 1998; Rape et al., 2001). These results suggest that Cdc48p participates in Far1p degradation by interacting with Far1p.</text>
+      <annotation id="20">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853283</infon>
+        <location offset="16846" length="4"/>
+        <text>Far1</text>
+      </annotation>
+      <annotation id="21">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851431</infon>
+        <location offset="16859" length="6"/>
+        <text>Cdc48p</text>
+      </annotation>
+      <annotation id="22">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853283</infon>
+        <location offset="16924" length="4"/>
+        <text>FAR1</text>
+      </annotation>
+      <annotation id="24">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851431</infon>
+        <location offset="17015" length="5"/>
+        <text>Cdc48</text>
+      </annotation>
+      <annotation id="25">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851431</infon>
+        <location offset="17054" length="6"/>
+        <text>Cdc48p</text>
+      </annotation>
+      <annotation id="26">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853283</infon>
+        <location offset="17065" length="4"/>
+        <text>Far1</text>
+      </annotation>
+      <annotation id="PPIm_21">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="16841" length="141"/>
+        <text>Both Far1-Myc and Cdc48p were detected in the anti-Myc immunoprecipitates from the FAR1-Myc, but not the untagged control strains (Fig. 4 A).</text>
+      </annotation>
+      <annotation id="PPIm_22">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="16983" length="102"/>
+        <text>In the reciprocal coIP, an anti-Cdc48 antiserum also precipitated both Cdc48p and Far1-Myc (Fig. 4 B).</text>
+      </annotation>
+      <annotation id="PPIe_11">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="16841" length="141"/>
+        <text>Both Far1-Myc and Cdc48p were detected in the anti-Myc immunoprecipitates from the FAR1-Myc, but not the untagged control strains (Fig. 4 A).</text>
+      </annotation>
+      <annotation id="PPIe_12">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="16983" length="102"/>
+        <text>In the reciprocal coIP, an anti-Cdc48 antiserum also precipitated both Cdc48p and Far1-Myc (Fig. 4 B).</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">fig_caption</infon>
+      <offset>18063</offset>
+      <text>Cdc48p physically interacts with Far1p and CDC48 genetically interacts with CDC34. FAR1-Myc (A and C) and FAR1-untagged (A-C) cells were arrested in G1 with alpha factor and released from the arrest. Cells harvested 7-20 min after release were pooled, and yeast cell extracts were immunoprecipitated with anti-Myc (A), preimmune serum (B), or anti-Cdc48 (B and C). Anti-Cdc48 immunoprecipitates in C were dissolved, denatured, and reprecipitated with anti-Myc. Immunoprecipitates were analyzed by immunoblotting with anti-Myc, anti-Cdc48, or antiubiquitin. (D) Spores of a tetratype tetrad from the CDC48 cdc34-1/cdc48-3 CDC34 double heterozygous diploid were incubated at 25, 30, or 37 C. Spore 1, double mutant; spores 2 and 4, single mutants; and spore 3, wild type. The original single cdc34-1and cdc48-3 mutants were used for comparison. (E) A model for the function of Cdc48p in G1 control. See Results and discussion for details.</text>
+      <annotation id="29">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851431</infon>
+        <location offset="18063" length="6"/>
+        <text>Cdc48p</text>
+      </annotation>
+      <annotation id="30">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">853283</infon>
+        <location offset="18096" length="5"/>
+        <text>Far1p</text>
+      </annotation>
+      <annotation id="31">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851431</infon>
+        <location offset="18106" length="5"/>
+        <text>CDC48</text>
+      </annotation>
+      <annotation id="32">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851624</infon>
+        <location offset="18139" length="5"/>
+        <text>CDC34</text>
+      </annotation>
+      <annotation id="GIm_18">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="18063" length="82"/>
+        <text>Cdc48p physically interacts with Far1p and CDC48 genetically interacts with CDC34.</text>
+      </annotation>
+      <annotation id="PPIm_23">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">PPImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="18063" length="82"/>
+        <text>Cdc48p physically interacts with Far1p and CDC48 genetically interacts with CDC34.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>19002</offset>
+      <text>Far1p degradation is mediated through the G1 ubiquitin-conjugating system composed of Cdc34p, Cdc4p, Cdc53p, and Skp1p (Henchoz et al., 1997; Blondel et al., 2000). We asked if the function of Cdc48p in Far1p degradation is through the G1 proteolysis pathway by testing if double mutants in CDC48 and CDC34 had synthetic lethality interactions. Haploid cdc48-3 and cdc34-1 single mutants in the same strain background were crossed, tetrads analysis was performed, and the segregants were incubated at 25 C. The colonies were replica plated and incubated at 25 , 30 , and 37 C to examine the growth of the spores. 19 tetrads were analyzed and 13 tetratypes, 2 parental ditypes, and 4 nonparental ditypes were found, nearly matching the expected radio. Of the 21 cdc48-3 cdc34-1 double mutants, eight failed to form colonies and arrested growth as microcolonies, each with roughly 100 cells on tetrad dissection plates at 25 C (unpublished data). The double mutants that did form small colonies grew much more slowly than did the cdc48-3 and cdc34-1 single mutants at 25 C; and unlike the single mutants, the double mutants were nonviable at 30 C (Fig. 4 D). The synthetic growth defects of the cdc48-3 cdc34-1 double mutants are consistent with Cdc48p and Cdc34p being involved in the same pathway, which is likely to be degradation of Far1p.</text>
+      <annotation id="34">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851431</infon>
+        <location offset="20195" length="5"/>
+        <text>cdc48</text>
+      </annotation>
+      <annotation id="35">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851624</infon>
+        <location offset="20203" length="5"/>
+        <text>cdc34</text>
+      </annotation>
+      <annotation id="A33">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851431</infon>
+        <location offset="20030" length="5"/>
+        <text>cdc48</text>
+      </annotation>
+      <annotation id="A36">
+        <infon key="src">edit</infon>
+        <infon key="type">Gene</infon>
+        <infon key="GeneID">851624</infon>
+        <location offset="20042" length="5"/>
+        <text>cdc34</text>
+      </annotation>
+      <annotation id="GIe_8">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GIevidence</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="20159" length="184"/>
+        <text>The synthetic growth defects of the cdc48-3 cdc34-1 double mutants are consistent with Cdc48p and Cdc34p being involved in the same pathway, which is likely to be degradation of Far1p.</text>
+      </annotation>
+      <annotation id="GIm_19">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_III_Confirmed">1</infon>
+        <location offset="19753" length="193"/>
+        <text>Of the 21 cdc48-3 cdc34-1 double mutants, eight failed to form colonies and arrested growth as microcolonies, each with roughly 100 cells on tetrad dissection plates at 25 C (unpublished data).</text>
+      </annotation>
+      <annotation id="GIm_20">
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <infon key="Phase_III_Confirmed">2</infon>
+        <location offset="19947" length="211"/>
+        <text>The double mutants that did form small colonies grew much more slowly than did the cdc48-3 and cdc34-1 single mutants at 25 C; and unlike the single mutants, the double mutants were nonviable at 30 C (Fig. 4 D).</text>
+      </annotation>
+      <annotation id="GIm_21">
+        <infon key="Phase_I_Annotated">1</infon>
+        <infon key="type">GImention</infon>
+        <infon key="Phase_II_Annotated">1</infon>
+        <location offset="20159" length="184"/>
+        <text>The synthetic growth defects of the cdc48-3 cdc34-1 double mutants are consistent with Cdc48p and Cdc34p being involved in the same pathway, which is likely to be degradation of Far1p.</text>
+      </annotation>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>20357</offset>
+      <text>The G2/M arrest phenotypes of the previous cdc48-1 mutant had led to the classification of CDC48 as a cell division cycle gene required for mitosis (Moir et al., 1982; Frohlich et al., 1991). We have established that Cdc48p is also essential for activation of the Cdc28-Cln kinase via degradation of Far1p in G1 phase, and that degradation of Far1p is required for Start traverse in the normal mitotic cell cycle, as well as for cell cycle reentry after alpha factor treatment and subsequent release. Our findings demonstrate new functions of Cdc48p; i.e., to be a critical G1 regulator through degradation of Far1p, which is the first CDK inhibitor discovered as a substrate of Cdc48p-mediated proteolysis. It will be of interest and significance to examine if some other CDK inhibitors are also substrates in Cdc48p/p97-mediated proteolysis pathways in yeast and other eukaryotes.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21237</offset>
+      <text>The functions of Far1p have previously been defined only in the context of response to mating pheromone. However, the expression of FAR1 is cell cycle regulated, with a peak at the M/G1 transition (McKinney et al., 1993), suggesting that Far1p may play a role in the normal cell cycle. Consistent with this, Far1p was found in a complex with Cdc28p-Cln in cells not exposed to pheromone, although the amount of Far1p bound to Cdc28p-Cln increased significantly when cells were treated with alpha factor (Peter et al., 1993; Gartner et al., 1998). Now, we conclude that efficient turnover of Far1p is necessary for cell cycle reentry after alpha factor withdrawal and for normal cell cycle progression, suggesting that Far1p may play a role in the mitotic cell cycle.</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>21998</offset>
+      <text>In the presence of alpha factor, phosphorylation of Far1p by the pheromone-induced MAP kinase Fus3p inhibits degradation of Far1p, leading to Far1p accumulation and G1 arrest (Peter et al., 1993). We show that if Cdc48p is absent, as in cdc48-td cells at 37 C, accumulation of Far1p, even in the absence of alpha factor, can result in cell cycle arrest in G1. Therefore, Cdc48p-mediated Far1p degradation is essential for the mitotic cell cycle. Our findings raise the intriguing possibility that Far1p may play an important role in the normal cell cycle; perhaps it ensures genomic stability, a function attributed to the Cdc28p-Clb inhibitor Sic1p (Lengronne and Schwob, 2002) and mammalian CDK inhibitors, such as p21 and p27, whose loss of function can lead to genomic instability and cancer. In such a hypothesis (Fig. 4 E), we propose that yeast cells use Far1p to inhibit the expression of CLN genes and Cdc28p/Cln kinase activities in early G1, until the cells are well prepared to commit to another cell cycle. Far1p is degraded through the ubiquitin-Cdc48p-proteosome proteolysis pathway, and the cells traverse Start, leading to the G1 to S transition.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_1</infon>
+      <offset>23161</offset>
+      <text>Materials and methods</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>23183</offset>
+      <text>Construction of yeast strains</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>23213</offset>
+      <text>The cdc48-td strain was generated by inserting a HindIII-MspI CDC48 fragment into the HindIII-ClaI sites of plasmid pPW66R (a gift from J. Diffley, Cancer Research, UK; Dohmen et al., 1994), followed by linearization within the CDC48 sequence by SphI and integration into the CDC48 chromosomal locus in the YKL83 strain (ubr1Delta::GAL-UBR1; Labib et al., 2000). To construct the CLN2-Myc (with 13 tandem copies of the c-Myc epitope) strain, a DNA fragment obtained by PCR with the primers OL164 and OL165, using plasmid pFA6a-13myc-kanMX6 (a gift from B. Stillman, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY; Longtine et al., 1998) as the template, was transformed into cdc48-td to generate YL559. The same strategy was used to generate the FAR1-Myc strain using OL173 and OL174 instead of OL164 and OL165. To generate the GAL-CLN2 strain, the PCR product obtained with primers OL190 and OL191 and plasmid pFA6a-kanMX6-pGAL1-3HA (a gift from B. Stillman; Longtine et al., 1998) was introduced into cdc48-td to generate YL571. To generate the corresponding wild-type control strains, plasmid YEp213-CDC48, which was constructed by cloning a 3,946-bp MscI fragment containing CDC48 into YEp213 by blunt end ligation, was transformed into these cdc48-td strains, generating YL569, YL572, and YL573, respectively. To construct the far1Delta strains in CDC48 and cdc48-td backgrounds, PCR product obtained with primers OL172 and OL173 and plasmid pFA6a-kanMX6 (a gift from B. Stillman; Longtine et al., 1998) was introduced into YKL83 and cdc48-td to replace the chromosomal copy of FAR1, generating YL560 and YL561, respectively.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>24849</offset>
+      <text>Sequences of the primers</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>24874</offset>
+      <text>Primers used for strain construction were as follows: OL164, 5'-agcagtgcctcatctttaatttcttttggtatgggcaatacccaagtaatacggatccccgggttaattaa-3'; OL165, 5'-ttttggtacgtttggcaaattggcattcatttatcatgaaaagaacaggaagaattcgagctcgtttaaac-3';OL172, 5'-gtctatagatccactggaaagcttcgtgggcgtaagaaggcaatctattacggatccccgggttaattaa-3'; OL173, 5'-aaaggaaaagcaaaagcctcgaaatacgggcctcgattcccgaactagaattcgagctcgtttaaac-3'; OL174, 5'-tggtaaagcagcaaagaattcatcaga-ccctgaagttcccaacctccggatccccgggttaattaa-3'; OL190, 5'-ctctatagctgccaa-ttcattcgcttaccacatcataatttgcatacagaattcgagctcgtttaaac-3'; and OL191, 5'-gatgacgagtcccatacggggtcttggttcagcactagcagccattgtgcactgagcagcgtaatctg-3'.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>25547</offset>
+      <text>Cdc28 kinase assay</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>25566</offset>
+      <text>Soluble cell extracts were prepared by bead beating with lysis buffer (50 mM Tris-HCl, pH 7.5, 50 mM NaF, 5 mM EDTA, 0.1% NP-40, 250 mM NaCl, and 1x "Complete Protease Inhibitors" added just before use; Roche). Each extract (200 mug of total proteins) was added to 15 mul p13Suc1-agarose beads (Upstate Biotechnology) and incubated at 4 C for 2 h to precipitate Cdc28p. The beads were washed four times with lysis buffer. Proteins bound to half of the beads were used in immunoblotting to check the precipitation efficiency of Cdc28p. The other half of the beads was washed twice with H1 kinase buffer (50 mM Tris-HCl, pH 7.5, 10 mM MgCl2, and 1 mM DTT). Some 10 mul of kinase assay mixture (10 muCi gamma-[32P] ATP, 2 mug histone H1, and 100 muM ATP in 1x kinase buffer) was added to the beads, and the mixture was incubated at 25 C for 10 min. The reaction was stopped by adding 10 mul of 2x Laemmli's buffer followed by boiling. Samples were resolved by 10% SDS-PAGE gel and subjected to autoradiography.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>26580</offset>
+      <text>Two-step IP</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>26592</offset>
+      <text>Immunoprecipitates of the first (anti-Cdc48; a gift from K. Frohlich, Physiologisch-chemisches Institut, Tubingen, Germany) IP were boiled in 50 mul of lysis/IP buffer (Zhang et al., 2002) containing 1% SDS for 10 min. Next, solublized proteins were diluted with 450 mul of lysis/IP buffer and subjected to the second (anti-Myc) IP.</text>
+    </passage>
+    <passage>
+      <infon key="type">title_2</infon>
+      <offset>26925</offset>
+      <text>Cell synchronization, flow cytometry, immunoprecipitation, and immunoblotting</text>
+    </passage>
+    <passage>
+      <infon key="type">paragraph</infon>
+      <offset>27003</offset>
+      <text>These experiments were performed as described previously (Liang and Stillman, 1997; Zhang et al., 2002).</text>
+    </passage>
+    <passage>
+      <infon key="source">EMBO J.</infon>
+      <infon key="citation">Blondel, M., J.M. Galan, Y. Chi, C. Lafourcade, C. Longaretti, R.J. Deshaies, and M. Peter. . Nuclear-specific degradation of Far1 is controlled by the localization of the F-box protein Cdc4.  :-6097.</infon>
+      <infon key="volume">19</infon>
+      <infon key="pub-id_pmid">11080155</infon>
+      <infon key="fpage">6085</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>27108</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">EMBO J.</infon>
+      <infon key="citation">Braun, S., K. Matuschewski, M. Rape, S. Thoms, and S. Jentsch. . Role of the ubiquitin-selective CDC48 (UFD1/NPL4) chaperone (segregase) in ERAD of OLE1 and other substrates.  :-621.</infon>
+      <infon key="volume">21</infon>
+      <infon key="pub-id_pmid">11847109</infon>
+      <infon key="fpage">615</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>27109</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Cell.</infon>
+      <infon key="citation">Chang, F., and I. Herskowitz. . Identification of a gene necessary for cell cycle arrest by a negative growth factor of yeast: FAR1 is an inhibitor of G1 cyclin, CLN2.  :-1011.</infon>
+      <infon key="volume">63</infon>
+      <infon key="pub-id_pmid">2147873</infon>
+      <infon key="fpage">999</infon>
+      <infon key="year">1990</infon>
+      <infon key="type">ref</infon>
+      <offset>27110</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Nat. Cell Biol.</infon>
+      <infon key="citation">Dai, R.M., and C.C. Li. . Valosin-containing protein is a multi-ubiquitin chain-targeting factor required in ubiquitin-proteasome degradation.  :-744.</infon>
+      <infon key="volume">3</infon>
+      <infon key="pub-id_pmid">11483959</infon>
+      <infon key="fpage">740</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>27111</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">J. Biol. Chem.</infon>
+      <infon key="citation">Dai, R.M., E. Chen, D.L. Longo, C.M. Gorbea, and C.C. Li. . Involvement of valosin-containing protein, an ATPase co-purified with IkappaBalpha and 26 S proteasome, in ubiquitin-proteasome-mediated degradation of IkappaBalpha.  :-3573.</infon>
+      <infon key="volume">273</infon>
+      <infon key="pub-id_pmid">9452483</infon>
+      <infon key="fpage">3562</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>27112</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Science.</infon>
+      <infon key="citation">Dohmen, R.J., P. Wu, and A. Varshavsky. . Heat-inducible degron: a method for constructing temperature-sensitive mutants.  :-1276.</infon>
+      <infon key="volume">263</infon>
+      <infon key="pub-id_pmid">8122109</infon>
+      <infon key="fpage">1273</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>27113</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">J. Cell Biol.</infon>
+      <infon key="citation">Frohlich, K.U., H.W. Fries, M. Rudiger, R. Erdmann, D. Botstein, and D. Mecke. . Yeast cell cycle protein Cdc48p shows full-length homology to the mammalian protein VCP and is a member of protein family involved in secretion, peroxisome formation, and gene expression.  :-453.</infon>
+      <infon key="volume">114</infon>
+      <infon key="pub-id_pmid">1860879</infon>
+      <infon key="fpage">443</infon>
+      <infon key="year">1991</infon>
+      <infon key="type">ref</infon>
+      <offset>27114</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="citation">Gartner, A., A. Jovanovic, D.I. Jeoung, S. Bourlat, F.R. Cross, and G. Ammerer. . Pheromone-dependent G1 cell cycle arrest requires Far1 phosphorylation, but may not involve inhibition of Cdc28-Cln2 kinase, in vivo.  :-3691.</infon>
+      <infon key="volume">18</infon>
+      <infon key="pub-id_pmid">9632750</infon>
+      <infon key="fpage">3681</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>27115</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">EMBO J.</infon>
+      <infon key="citation">Ghislain, M., R.J. Dohmen, F. Levy, and A. Varshavsky. . Cdc48p interacts with Ufd3p, a WD repeat protein required for ubiquitin-mediated proteolysis in Saccharomyces cerevisiae.  :-4899.</infon>
+      <infon key="volume">15</infon>
+      <infon key="pub-id_pmid">8890162</infon>
+      <infon key="fpage">4884</infon>
+      <infon key="year">1996</infon>
+      <infon key="type">ref</infon>
+      <offset>27116</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="citation">Henchoz, S., Y. Chi, B. Catarin, I. Herskowitz, R.J. Deshaies, and M. Peter. . Phosphorylation- and ubiquitin-dependent degradation of the cyclin-dependent kinase inhibitor Far1p in budding yeast.  :-3060.</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">9367986</infon>
+      <infon key="fpage">3046</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>27117</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Mol. Biol. Cell.</infon>
+      <infon key="citation">Hitchcock, A.L., H. Krebber, S. Frietze, A. Lin, M. Latterich, and P.A. Silver. . The conserved npl4 protein complex mediates proteasome-dependent membrane-bound transcription factor activation.  :-3241.</infon>
+      <infon key="volume">12</infon>
+      <infon key="pub-id_pmid">11598205</infon>
+      <infon key="fpage">3226</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>27118</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Cell.</infon>
+      <infon key="citation">Hoppe, T., K. Matuschewski, M. Rape, S. Schlenker, H.D. Ulrich, and S. Jentsch. . Activation of a membrane-bound transcription factor by regulated ubiquitin/proteasome-dependent processing.  :-586.</infon>
+      <infon key="volume">102</infon>
+      <infon key="pub-id_pmid">11007476</infon>
+      <infon key="fpage">577</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>27119</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Nat. Cell Biol.</infon>
+      <infon key="citation">Jarosch, E., C. Taxis, C. Volkwein, J. Bordallo, D. Finley, D.H. Wolf, and T. Sommer. . Protein dislocation from the ER requires polyubiquitination and the AAA-ATPase Cdc48.  :-139.</infon>
+      <infon key="volume">4</infon>
+      <infon key="pub-id_pmid">11813000</infon>
+      <infon key="fpage">134</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>27120</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Nature.</infon>
+      <infon key="citation">Kondo, H., C. Rabouille, R. Newman, T.P. Levine, D. Pappin, P. Freemont, and G. Warren. . p47 is a cofactor for p97-mediated membrane fusion.  :-78.</infon>
+      <infon key="volume">388</infon>
+      <infon key="pub-id_pmid">9214505</infon>
+      <infon key="fpage">75</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>27121</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Science.</infon>
+      <infon key="citation">Labib, K., J.A. Tercero, and J.F.X. Diffley. . Uninterrupted MCM2-7 function required for DNA replication fork progression.  :-1647.</infon>
+      <infon key="volume">288</infon>
+      <infon key="pub-id_pmid">10834843</infon>
+      <infon key="fpage">1643</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>27122</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Cell.</infon>
+      <infon key="citation">Latterich, M., K.U. Frohlich, and R. Schekman. . Membrane fusion and the cell cycle: Cdc48p participates in the fusion of ER membranes.  :-893.</infon>
+      <infon key="volume">82</infon>
+      <infon key="pub-id_pmid">7553849</infon>
+      <infon key="fpage">885</infon>
+      <infon key="year">1995</infon>
+      <infon key="type">ref</infon>
+      <offset>27123</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Mol. Cell.</infon>
+      <infon key="citation">Lengronne, A., and E. Schwob. . The yeast CDK inhibitor Sic1 prevents genomic instability by promoting replication origin licensing in late G1.  :-1078.</infon>
+      <infon key="volume">9</infon>
+      <infon key="pub-id_pmid">12049742</infon>
+      <infon key="fpage">1067</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>27124</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="citation">Liang, C., and B. Stillman. . Persistent initiation of DNA replication and chromatin-bound MCM proteins during the cell cycle in cdc6 mutants.  :-3386.</infon>
+      <infon key="volume">11</infon>
+      <infon key="pub-id_pmid">9407030</infon>
+      <infon key="fpage">3375</infon>
+      <infon key="year">1997</infon>
+      <infon key="type">ref</infon>
+      <offset>27125</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Yeast.</infon>
+      <infon key="citation">Longtine, M.S., A. McKenzie III, D.J. Demarini, N.G. Shah, A. Wach, A. Brachat, P. Philippsen, and J.R. Pringle. . Additional modules for versatile and economical PCR-based gene deletion and modification in Saccharomyces cerevisiae.  :-961.</infon>
+      <infon key="volume">14</infon>
+      <infon key="pub-id_pmid">9717241</infon>
+      <infon key="fpage">953</infon>
+      <infon key="year">1998</infon>
+      <infon key="type">ref</infon>
+      <offset>27126</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="citation">McKinney, J.D., F. Chang, N. Heintz, and F.R. Cross. . Negative regulation of FAR1 at the Start of the yeast cell cycle.  :-843.</infon>
+      <infon key="volume">7</infon>
+      <infon key="pub-id_pmid">8491380</infon>
+      <infon key="fpage">833</infon>
+      <infon key="year">1993</infon>
+      <infon key="type">ref</infon>
+      <offset>27127</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">EMBO J.</infon>
+      <infon key="citation">Meyer, H.H., J.G. Shorter, J. Seemann, D. Pappin, and G. Warren. . A complex of mammalian ufd1 and npl4 links the AAA-ATPase, p97, to ubiquitin and nuclear transport pathways.  :-2192.</infon>
+      <infon key="volume">19</infon>
+      <infon key="pub-id_pmid">10811609</infon>
+      <infon key="fpage">2181</infon>
+      <infon key="year">2000</infon>
+      <infon key="type">ref</infon>
+      <offset>27128</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">EMBO J.</infon>
+      <infon key="citation">Meyer, H.H., Y. Wang, and G. Warren. . Direct binding of ubiquitin conjugates by the mammalian p97 adaptor complexes, p47 and Ufd1-Npl4.  :-5652.</infon>
+      <infon key="volume">21</infon>
+      <infon key="pub-id_pmid">12411482</infon>
+      <infon key="fpage">5645</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>27129</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Genetics.</infon>
+      <infon key="citation">Moir, D., S.E. Stewart, B.C. Osmond, and D. Botstein. . Cold sensitive cell division cycle mutants of yeast: isolation, properties, and pseudoversion studies.  :-563.</infon>
+      <infon key="volume">100</infon>
+      <infon key="pub-id_pmid">6749598</infon>
+      <infon key="fpage">547</infon>
+      <infon key="year">1982</infon>
+      <infon key="type">ref</infon>
+      <offset>27130</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Genes Dev.</infon>
+      <infon key="citation">Oehlen, L.J., and F.R. Cross. . G1 cyclins CLN1 and CLN2 repress the mating factor response pathway at Start in the yeast cell cycle.  :-1070.</infon>
+      <infon key="volume">8</infon>
+      <infon key="pub-id_pmid">7926787</infon>
+      <infon key="fpage">1058</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>27131</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Science.</infon>
+      <infon key="citation">Peter, M., and I. Herskowitz. . Direct inhibition of the yeast cyclin-dependent kinase Cdc28-Cln by Far1.  :-1231.</infon>
+      <infon key="volume">265</infon>
+      <infon key="pub-id_pmid">8066461</infon>
+      <infon key="fpage">1228</infon>
+      <infon key="year">1994</infon>
+      <infon key="type">ref</infon>
+      <offset>27132</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Cell.</infon>
+      <infon key="citation">Peter, M., A. Gartner, J. Horecka, G. Ammerer, and I. Herskowitz. . FAR1 links the signal transduction pathway to the cell cycle machinery in yeast.  :-760.</infon>
+      <infon key="volume">73</infon>
+      <infon key="pub-id_pmid">8500168</infon>
+      <infon key="fpage">747</infon>
+      <infon key="year">1993</infon>
+      <infon key="type">ref</infon>
+      <offset>27133</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="citation">Rabinovich, E., A. Kerem, K.U. Frohlich, N. Diamant, and S. Bar-Nun. . AAA-ATPase p97/Cdc48p, a cytosolic chaperone required for endoplasmic reticulum-associated protein degradation.  :-634.</infon>
+      <infon key="volume">22</infon>
+      <infon key="pub-id_pmid">11756557</infon>
+      <infon key="fpage">626</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>27134</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Cell.</infon>
+      <infon key="citation">Rape, M., T. Hoppe, I. Gorr, M. Kalocay, H. Richly, and S. Jentsch. . Mobilization of processed, membrane-tethered SPT23 transcription factor by CDC48 (UFD1/NPL4), a ubiquitin-selective chaperone.  :-677.</infon>
+      <infon key="volume">107</infon>
+      <infon key="pub-id_pmid">11733065</infon>
+      <infon key="fpage">667</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>27135</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Mol. Cell. Biol.</infon>
+      <infon key="citation">Valdivieso, M.H., K. Sugimoto, K.Y. Jahng, P.M. Fernandes, and C. Wittenberg. . FAR1 is required for posttranscriptional regulation of CLN2 gene expression in response to mating pheromone.  :-1022.</infon>
+      <infon key="volume">13</infon>
+      <infon key="pub-id_pmid">8423774</infon>
+      <infon key="fpage">1013</infon>
+      <infon key="year">1993</infon>
+      <infon key="type">ref</infon>
+      <offset>27136</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Nature.</infon>
+      <infon key="citation">Ye, Y., H.H. Meyer, and T.A. Rapport. . The AAA-ATPase Cdc48/p97 and its partners transport proteins from ER into cytosol.  :-656.</infon>
+      <infon key="volume">414</infon>
+      <infon key="pub-id_pmid">11740563</infon>
+      <infon key="fpage">652</infon>
+      <infon key="year">2001</infon>
+      <infon key="type">ref</infon>
+      <offset>27137</offset>
+      <text/>
+    </passage>
+    <passage>
+      <infon key="source">Cell.</infon>
+      <infon key="citation">Zhang, Y., Z. Yu, X. Fu, and C. Liang. . Noc3p, a bHLH protein, plays an integral role in the initiation of DNA replication in budding yeast.  :-860.</infon>
+      <infon key="volume">109</infon>
+      <infon key="pub-id_pmid">12110182</infon>
+      <infon key="fpage">849</infon>
+      <infon key="year">2002</infon>
+      <infon key="type">ref</infon>
+      <offset>27138</offset>
+      <text/>
+    </passage>
+  </document>
+</collection>

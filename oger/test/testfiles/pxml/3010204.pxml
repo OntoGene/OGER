@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010204</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2009</Year>
+<Month>10</Month>
+<Day>26</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0029-7844</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>67</Volume>
+<Issue>6</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Jun</Month>
+</PubDate>
+</JournalIssue>
+<Title>Obstetrics and gynecology</Title>
+<ISOAbbreviation>Obstet Gynecol</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Second-look laparotomy in the management of malignant germ cell tumors of the ovary.</ArticleTitle>
+<Pagination>
+<MedlinePgn>789-93</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>From 1970 to 1985, 53 patients with malignant nondysgerminomatous germ cell tumors of the ovary underwent second-look laparotomy after initial surgery and combination chemotherapy. Twenty-two patients had immature teratoma, 15 had endodermal sinus tumor, 15 had mixed germ cell tumor, and one patient had embryonal carcinoma. Thirty-one of the neoplasms were stage I, four were stage II, 17 were stage III, and one was stage IV. Two patients received a combination of actinomycin-D, 5-fluorouracil, and cyclophosphamide; four patients received vinblastine, bleomycin, and cisplatin; 44 patients received vincristine, actinomycin-D, and cyclophosphamide; and three patients received a combination of the last two regimens. Second-look findings were negative in 52 patients and positive in one patient who was subsequently salvaged with further chemotherapy. One patient with stage I endodermal sinus tumor relapsed nine months after a negative second-look laparotomy and died. Two patients with negative findings subsequently died of leukemia. Of 53 patients undergoing second-look laparotomy, three are dead (one of cancer and two of leukemia), and 50 patients are surviving without disease. Although the precise role of second-look laparotomy in patients with malignant germ cell tumors is yet to be established, possible indications are discussed.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Gershenson</LastName>
+<ForeName>D M</ForeName>
+<Initials>DM</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Copeland</LastName>
+<ForeName>L J</ForeName>
+<Initials>LJ</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>del Junco</LastName>
+<ForeName>G</ForeName>
+<Initials>G</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Edwards</LastName>
+<ForeName>C L</ForeName>
+<Initials>CL</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Wharton</LastName>
+<ForeName>J T</ForeName>
+<Initials>JT</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Rutledge</LastName>
+<ForeName>F N</ForeName>
+<Initials>FN</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Obstet Gynecol</MedlineTA>
+<NlmUniqueID>0401101</NlmUniqueID>
+<ISSNLinking>0029-7844</ISSNLinking>
+</MedlineJournalInfo>
+<CitationSubset>AIM</CitationSubset>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000293">Adolescent</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000971">Antineoplastic Combined Chemotherapy Protocols</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000627">therapeutic use</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002648">Child</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003131">Combined Modality Therapy</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D007813">Laparotomy</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009373">Neoplasms, Germ Cell and Embryonal</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000188">drug therapy</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000532">radiotherapy</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000601">surgery</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010051">Ovarian Neoplasms</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000188">drug therapy</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000532">radiotherapy</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000601">surgery</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012086">Reoperation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012189">Retrospective Studies</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

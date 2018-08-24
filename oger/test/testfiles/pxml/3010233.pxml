@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010233</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>10</Month>
+<Day>01</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0305-1048</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>14</Volume>
+<Issue>8</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Apr</Month>
+<Day>25</Day>
+</PubDate>
+</JournalIssue>
+<Title>Nucleic acids research</Title>
+<ISOAbbreviation>Nucleic Acids Res.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>The genes encoding the small subunit of ribulose-1,5-bisphosphate carboxylase are expressed differentially in petunia leaves.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3325-42</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>We have isolated five members of the multigene family encoding the small subunit (rbcS) of ribulose-1,5-bisphosphate carboxylase in petunia and examined their expression in petunia leaves. Of the five rbcS genes, two (ssu11A and ssu8) are expressed at high levels in petunia leaves. Northern analysis using gene specific oligonucleotide probes revealed that ssu11A accounts for 40% of the total rbcS transcripts in petunia leaves while ssu8 accounts for 4 to 5% of the total rbcS transcripts. Structural comparisons of ssu8 and ssu11A revealed that the coding sequence of ssu8 is interrupted by three introns, while the coding sequence of ssu11A is interrupted by two introns. The positions of the first two introns are identical, the third intron in ssu8 is located in a highly conserved region of the protein. The 5' and 3' flanking sequences of ssu11A are highly homologous to the 5' and 3' flanking sequences of ssu8. S1 nuclease mapping was used to locate the start of transcription of ssu8 and ssu11A and showed that ssu8 mRNA leader differs in sequence from the ssu11A mRNA leader.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Tumer</LastName>
+<ForeName>N E</ForeName>
+<Initials>NE</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Clark</LastName>
+<ForeName>W G</ForeName>
+<Initials>WG</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Tabor</LastName>
+<ForeName>G J</ForeName>
+<Initials>GJ</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Hironaka</LastName>
+<ForeName>C M</ForeName>
+<Initials>CM</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Fraley</LastName>
+<ForeName>R T</ForeName>
+<Initials>RT</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Shah</LastName>
+<ForeName>D M</ForeName>
+<Initials>DM</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<DataBankList CompleteYN="Y">
+<DataBank>
+<DataBankName>GENBANK</DataBankName>
+<AccessionNumberList>
+<AccessionNumber>X03820</AccessionNumber>
+<AccessionNumber>X03821</AccessionNumber>
+</AccessionNumberList>
+</DataBank>
+</DataBankList>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>ENGLAND</Country>
+<MedlineTA>Nucleic Acids Res</MedlineTA>
+<NlmUniqueID>0411011</NlmUniqueID>
+<ISSNLinking>0305-1048</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D046911">Macromolecular Substances</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9007-49-2</RegistryNumber>
+<NameOfSubstance UI="D004247">DNA</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.21.-</RegistryNumber>
+<NameOfSubstance UI="D004262">DNA Restriction Enzymes</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 4.1.1.39</RegistryNumber>
+<NameOfSubstance UI="D012273">Ribulose-Bisphosphate Carboxylase</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1972 Jun;69(6):1408-12</RefSource>
+<PMID Version="1">4504350</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1985 Apr 11;13(7):2373-86</RefSource>
+<PMID Version="1">4000958</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Methods Enzymol. 1980;65(1):499-560</RefSource>
+<PMID Version="1">6246368</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Dev Biol. 1981 Apr 30;83(2):201-17</RefSource>
+<PMID Version="1">6113179</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Annu Rev Biochem. 1981;50:349-83</RefSource>
+<PMID Version="1">6791577</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Appl Genet. 1981;1(2):127-37</RefSource>
+<PMID Version="1">6180117</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1983 Feb 10;258(3):1399-402</RefSource>
+<PMID Version="1">6296093</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Appl Genet. 1982;1(6):483-98</RefSource>
+<PMID Version="1">7153686</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1983 Jan;80(1):278-82</RefSource>
+<PMID Version="1">6572002</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1983 Feb 11;219(4585):626-31</RefSource>
+<PMID Version="1">6297005</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Jun 25;11(12):4177-83</RefSource>
+<PMID Version="1">6688128</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Annu Rev Biochem. 1983;52:507-35</RefSource>
+<PMID Version="1">6351728</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Nov;35(1):117-25</RefSource>
+<PMID Version="1">6226365</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Cell. 1983 Nov;35(1):225-33</RefSource>
+<PMID Version="1">6313224</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>EMBO J. 1984 Aug;3(8):1671-9</RefSource>
+<PMID Version="1">6479146</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochim Biophys Acta. 1973 Aug 24;319(2):223-34</RefSource>
+<PMID Version="1">4748357</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000595">Amino Acid Sequence</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001483">Base Sequence</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003001">Cloning, Molecular</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004247">DNA</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000302">isolation &amp; purification</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004262">DNA Restriction Enzymes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D005796">Genes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D046911">Macromolecular Substances</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010944">Plants</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000201">enzymology</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012273">Ribulose-Bisphosphate Carboxylase</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D014158">Transcription, Genetic</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC339776</OtherID>
+</MedlineCitation>

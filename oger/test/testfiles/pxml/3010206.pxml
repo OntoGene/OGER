@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010206</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>10</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>10</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2009</Year>
+<Month>11</Month>
+<Day>11</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0029-7917</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>38</Volume>
+<Issue>1</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Jan</Month>
+</PubDate>
+</JournalIssue>
+<Title>Occupational health; a journal for occupational health nurses</Title>
+<ISOAbbreviation>Occup Health (Lond)</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Danger? Asbestos.</ArticleTitle>
+<Pagination>
+<MedlinePgn>24-6</MedlinePgn>
+</Pagination>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Gray</LastName>
+<ForeName>C</ForeName>
+<Initials>C</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>ENGLAND</Country>
+<MedlineTA>Occup Health (Lond)</MedlineTA>
+<NlmUniqueID>0021263</NlmUniqueID>
+<ISSNLinking>0029-7917</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D017632">Asbestos, Serpentine</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>1332-21-4</RegistryNumber>
+<NameOfSubstance UI="D001194">Asbestos</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>N</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D001194">Asbestos</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D017632">Asbestos, Serpentine</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001195">Asbestosis</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000517">prevention &amp; control</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" Type="Geographic" UI="D004739">England</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D005390">Fires</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D009784">Occupational Diseases</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000209">etiology</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000517">prevention &amp; control</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011481">Protective Clothing</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011482">Protective Devices</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012306">Risk</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

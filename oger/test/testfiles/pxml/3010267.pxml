@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010267</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>24</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>24</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>11</Month>
+<Day>21</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0032-5791</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>65</Volume>
+<Issue>3</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Mar</Month>
+</PubDate>
+</JournalIssue>
+<Title>Poultry science</Title>
+<ISOAbbreviation>Poult. Sci.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Effects of adding acid or base to the diet on semen of heat-stressed, aging broiler breeder males.</ArticleTitle>
+<Pagination>
+<MedlinePgn>589-91</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Males were fed breeder basal diet, basal diet + .67 g NaHCO3, + .43 g NH4Cl, or + .86 g NH4Cl/100 g basal and exposed to diurnal cyclic temperatures of 23.9 to 35 C in chambers from 24 to 54 weeks of age. Males fed basal diet + NaHCO3 or .43 g NH4Cl were significantly heavier in body weight by 32 to 39 weeks of age than males on basal diet. Males fed the NaHCO3 diet produced significantly more semen in the first 16 weeks than males on basal diet. No differences were found in percent packed sperm value (PSV), percent dead sperm, or percent abnormal sperm between semen of males fed NaHCO3 diet and basal diet. Spermatozoal motility was significantly higher for semen of males fed NaHCO3 or NH4Cl diets during the 32- to 39-week age period.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Latorre</LastName>
+<ForeName>J R</ForeName>
+<Initials>JR</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Harris</LastName>
+<ForeName>G C</ForeName>
+<Initials>GC</Initials>
+<Suffix>Jr</Suffix>
+</Author>
+<Author ValidYN="Y">
+<LastName>Nelson</LastName>
+<ForeName>T S</ForeName>
+<Initials>TS</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Sexton</LastName>
+<ForeName>K J</ForeName>
+<Initials>KJ</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D003160">Comparative Study</PublicationType>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Poult Sci</MedlineTA>
+<NlmUniqueID>0401150</NlmUniqueID>
+<ISSNLinking>0032-5791</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D001639">Bicarbonates</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>01Q9PC255D</RegistryNumber>
+<NameOfSubstance UI="D000643">Ammonium Chloride</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>8MDF5V39QO</RegistryNumber>
+<NameOfSubstance UI="D017693">Sodium Bicarbonate</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>9NEZ333N27</RegistryNumber>
+<NameOfSubstance UI="D012964">Sodium</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000367">Age Factors</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000643">Ammonium Chloride</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001639">Bicarbonates</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002645">Chickens</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000502">physiology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D004032">Diet</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006358">Hot Temperature</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000009">adverse effects</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006863">Hydrogen-Ion Concentration</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012661">Semen</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000187">drug effects</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012964">Sodium</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D017693">Sodium Bicarbonate</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013081">Sperm Motility</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000187">drug effects</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013312">Stress, Physiological</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000209">etiology</QualifierName>
+<QualifierName MajorTopicYN="N" UI="Q000662">veterinary</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

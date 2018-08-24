@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010207</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>09</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>09</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2011</Year>
+<Month>07</Month>
+<Day>29</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0029-8484</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>73</Volume>
+<Issue>5</Issue>
+<PubDate>
+<Year>1985</Year>
+<Month>Dec</Month>
+</PubDate>
+</JournalIssue>
+<Title>Shigaku = Odontology; journal of Nihon Dental College</Title>
+<ISOAbbreviation>Shigaku</ISOAbbreviation>
+</Journal>
+<ArticleTitle>[The synthesis of monodispersed spherical silica as a filler to be used in the manufacture of composite resins].</ArticleTitle>
+<Pagination>
+<MedlinePgn>1133-64</MedlinePgn>
+</Pagination>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Ishijima</LastName>
+<ForeName>H</ForeName>
+<Initials>H</Initials>
+</Author>
+</AuthorList>
+<Language>jpn</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>JAPAN</Country>
+<MedlineTA>Shigaku</MedlineTA>
+<NlmUniqueID>1275704</NlmUniqueID>
+<ISSNLinking>0029-8484</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D003188">Composite Resins</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>7631-86-9</RegistryNumber>
+<NameOfSubstance UI="D012822">Silicon Dioxide</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>D</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002627">Chemistry, Physical</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D003188">Composite Resins</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006863">Hydrogen-Ion Concentration</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D055605">Physicochemical Phenomena</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D012822">Silicon Dioxide</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000138">chemical synthesis</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

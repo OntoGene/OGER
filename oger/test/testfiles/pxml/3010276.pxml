@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010276</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>17</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>17</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2004</Year>
+<Month>11</Month>
+<Day>17</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0755-4982</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>15</Volume>
+<Issue>14</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Apr</Month>
+<Day>5</Day>
+</PubDate>
+</JournalIssue>
+<Title>Presse médicale (Paris, France : 1983)</Title>
+<ISOAbbreviation>Presse Med</ISOAbbreviation>
+</Journal>
+<ArticleTitle>[Intradural metastasis of cerebral glioblastoma multiforme].</ArticleTitle>
+<Pagination>
+<MedlinePgn>664-5</MedlinePgn>
+</Pagination>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Lauvin</LastName>
+<ForeName>R</ForeName>
+<Initials>R</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Chenal</LastName>
+<ForeName>C</ForeName>
+<Initials>C</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Gedouin</LastName>
+<ForeName>D</ForeName>
+<Initials>D</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Gadan</LastName>
+<ForeName>R</ForeName>
+<Initials>R</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Ben-Hassel</LastName>
+<ForeName>M</ForeName>
+<Initials>M</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Kerbrat</LastName>
+<ForeName>P</ForeName>
+<Initials>P</Initials>
+</Author>
+</AuthorList>
+<Language>fre</Language>
+<PublicationTypeList>
+<PublicationType UI="D002363">Case Reports</PublicationType>
+<PublicationType UI="D016422">Letter</PublicationType>
+</PublicationTypeList>
+<VernacularTitle>Métastase intradurale de glioblastome multiforme cérébral.</VernacularTitle>
+</Article>
+<MedlineJournalInfo>
+<Country>FRANCE</Country>
+<MedlineTA>Presse Med</MedlineTA>
+<NlmUniqueID>8302490</NlmUniqueID>
+<ISSNLinking>0755-4982</ISSNLinking>
+</MedlineJournalInfo>
+<CitationSubset>IM</CitationSubset>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000293">Adolescent</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D001932">Brain Neoplasms</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005909">Glioblastoma</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000556">secondary</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013120">Spinal Cord Neoplasms</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000556">secondary</QualifierName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

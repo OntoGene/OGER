@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010237</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>13</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>10</Month>
+<Day>01</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0305-1048</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>14</Volume>
+<Issue>8</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Apr</Month>
+<Day>25</Day>
+</PubDate>
+</JournalIssue>
+<Title>Nucleic acids research</Title>
+<ISOAbbreviation>Nucleic Acids Res.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>DNA sequence of the region in the genome of herpes simplex virus type 1 containing the exonuclease gene and neighbouring genes.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3435-48</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>We report the sequence of a 7800 base pair region of herpes simplex virus type 1 DNA, representing approximately 0.16 to 0.20 map units in the genome. This contains sequences transcribed into a leftward oriented set of five 3' coterminal mRNAs, together with two rightward transcribed flanking genes. One of the leftward genes encodes the virus's alkaline exonuclease, but the other gene products are uncharacterized. The amino acid sequence of one encoded protein suggested that it is a membrane embedded species. The DNA sequence is densely utilised, with two predicted out-of-frame overlaps of coding sequences, and probably six occurrences of promoter elements within coding sequences. Homologues of five of the genes were found for the distantly related Epstein-Barr virus, with a similar overall relative arrangement.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>McGeoch</LastName>
+<ForeName>D J</ForeName>
+<Initials>DJ</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Dolan</LastName>
+<ForeName>A</ForeName>
+<Initials>A</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Frame</LastName>
+<ForeName>M C</ForeName>
+<Initials>MC</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<DataBankList CompleteYN="Y">
+<DataBank>
+<DataBankName>GENBANK</DataBankName>
+<AccessionNumberList>
+<AccessionNumber>X03839</AccessionNumber>
+</AccessionNumberList>
+</DataBank>
+</DataBankList>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>ENGLAND</Country>
+<MedlineTA>Nucleic Acids Res</MedlineTA>
+<NlmUniqueID>0411011</NlmUniqueID>
+<ISSNLinking>0305-1048</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D004279">DNA, Viral</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.-</RegistryNumber>
+<NameOfSubstance UI="D005092">Exonucleases</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 3.1.21.-</RegistryNumber>
+<NameOfSubstance UI="D004262">DNA Restriction Enzymes</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Gen Virol. 1968 Dec;3(3):337-47</RefSource>
+<PMID Version="1">4304099</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1971 Aug;8(2):125-32</RefSource>
+<PMID Version="1">4329966</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1972 Mar;9(3):408-18</RefSource>
+<PMID Version="1">4335659</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1977 Oct 13;269(5629):621-3</RefSource>
+<PMID Version="1">199849</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Biol Chem. 1978 May 25;253(10):3557-62</RefSource>
+<PMID Version="1">206546</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1979 Oct;32(1):140-6</RefSource>
+<PMID Version="1">232166</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Virology. 1980 Jun;103(2):493-501</RefSource>
+<PMID Version="1">6247825</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1980 Sep;35(3):798-811</RefSource>
+<PMID Version="1">6252339</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1982 Jul 23;217(4557):316-24</RefSource>
+<PMID Version="1">6283634</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1982 Aug;43(2):386-94</RefSource>
+<PMID Version="1">6287023</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Intervirology. 1982;17(1-3):1-199</RefSource>
+<PMID Version="1">6811498</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1982 Aug 11;10(15):4765-82</RefSource>
+<PMID Version="1">6290988</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Gen Virol. 1983 May;64(Pt 5):997-1006</RefSource>
+<PMID Version="1">6302217</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Gen Virol. 1983 Oct;64 (Pt 10):2249-60</RefSource>
+<PMID Version="1">6311954</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1983 Dec;48(3):591-603</RefSource>
+<PMID Version="1">6313961</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Oct 11;11(19):6647-66</RefSource>
+<PMID Version="1">6314251</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Virology. 1983 Oct 30;130(2):427-38</RefSource>
+<PMID Version="1">6316638</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1984 Jan 11;12(1 Pt 1):387-95</RefSource>
+<PMID Version="1">6546423</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1984 Jan 11;12(1 Pt 2):447-55</RefSource>
+<PMID Version="1">6546428</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1983 Dec 10;11(23):8205-20</RefSource>
+<PMID Version="1">6324078</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1984 Mar 12;12(5):2473-87</RefSource>
+<PMID Version="1">6324121</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1984 Jun 25;12(12):5087-99</RefSource>
+<PMID Version="1">6330697</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Jul 19-25;310(5974):207-11</RefSource>
+<PMID Version="1">6087149</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Mol Biol. 1985 Jan 5;181(1):1-13</RefSource>
+<PMID Version="1">2984429</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1985 May;54(2):317-28</RefSource>
+<PMID Version="1">2985801</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Virology. 1985 Aug;145(1):36-48</RefSource>
+<PMID Version="1">2990101</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1985 Nov 25;13(22):8143-63</RefSource>
+<PMID Version="1">2999714</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem Biophys Res Commun. 1963 Apr 2;11:55-9</RefSource>
+<PMID Version="1">14033128</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1981 Jun;38(3):1005-14</RefSource>
+<PMID Version="1">6264148</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Virol. 1981 Sep;39(3):894-902</RefSource>
+<PMID Version="1">6270358</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nucleic Acids Res. 1982 Jan 11;10(1):141-56</RefSource>
+<PMID Version="1">7063399</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Virology. 1982 Jan 15;116(1):116-27</RefSource>
+<PMID Version="1">6278703</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000595">Amino Acid Sequence</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001482">Base Composition</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001483">Base Sequence</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003001">Cloning, Molecular</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004262">DNA Restriction Enzymes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004279">DNA, Viral</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D005092">Exonucleases</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D005796">Genes</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D005814">Genes, Viral</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D010957">Plasmids</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D018139">Simplexvirus</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000201">enzymology</QualifierName>
+<QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014158">Transcription, Genetic</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC339783</OtherID>
+</MedlineCitation>

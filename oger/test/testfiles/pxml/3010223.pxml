@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010223</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>05</Month>
+<Day>28</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>05</Month>
+<Day>28</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>11</Month>
+<Day>21</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0031-3998</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>20</Volume>
+<Issue>3</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>Mar</Month>
+</PubDate>
+</JournalIssue>
+<Title>Pediatric research</Title>
+<ISOAbbreviation>Pediatr. Res.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Protective effect of subinhibitory polymyxin B alone and in combination with ampicillin for overwhelming Haemophilus influenzae type B infection in the infant rat: evidence for in vivo and in vitro release of free endotoxin after ampicillin treatment.</ArticleTitle>
+<Pagination>
+<MedlinePgn>237-41</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>The potential endotoxin modifying effects of subinhibitory doses of polymyxin B were evaluated in an animal model of overwhelming septicemia. Five to six day old Sprague-Dawley rats were infected intraperitoneally with 10(6)-10(7) cfu of Haemophilus influenzae type b. At 12 h after infection, at which time mortality was 18%, subinhibitory doses of polymyxin b (0.0125 mg/kg X 3 q 3 h) either alone or in combination with 500 mg/kg ampicillin significantly increased survival at 17 and 20 h (p = 0.009, 0.01 and p = 0.003, 0.01) compared to animals treated with 0.5 mg/kg of ampicillin alone. Prolonged survival at 36 h (p = 0.009) was seen in animals receiving both ampicillin and low dose polymyxin compared to either ampicillin dose alone. Ampicillin significantly reduced the number of bacteria in blood of survivors (p less than 0.023 at 30 min) compared to untreated animals but increased the activity of free endotoxin at 30 min compared to controls (p = 0.006). In vitro endotoxin release from H. influenzae type b increased 5-fold after addition of 100 micrograms/ml of ampicillin, whereas a six-fold reduction in endotoxin activity was measured after the addition of 7 micrograms/ml of polymyxin B. Subinhibitory doses of polymyxin B modulate the ethal effects of overwhelming H. influenzae type b infection in infant rats and might be beneficial as adjunct treatment in gram-negative septicemia.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Walterspiel</LastName>
+<ForeName>J N</ForeName>
+<Initials>JN</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Kaplan</LastName>
+<ForeName>S L</ForeName>
+<Initials>SL</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Mason</LastName>
+<ForeName>E O</ForeName>
+<Initials>EO</Initials>
+<Suffix>Jr</Suffix>
+</Author>
+<Author ValidYN="N">
+<LastName>Walterspiel</LastName>
+<ForeName>J W</ForeName>
+<Initials>JW</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Pediatr Res</MedlineTA>
+<NlmUniqueID>0100714</NlmUniqueID>
+<ISSNLinking>0031-3998</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D004731">Endotoxins</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D011113">Polymyxins</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>1404-26-8</RegistryNumber>
+<NameOfSubstance UI="D011112">Polymyxin B</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>7C782967RD</RegistryNumber>
+<NameOfSubstance UI="D000667">Ampicillin</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="ErratumIn">
+<RefSource>Pediatr Res 1987 Dec;22(6):654</RefSource>
+<Note>Walterspiel JW [corrected to Walterspiel JN]</Note>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000667">Ampicillin</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000627">therapeutic use</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000831">Animals, Newborn</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004359">Drug Therapy, Combination</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D004731">Endotoxins</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006192">Haemophilus Infections</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000188">drug therapy</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006193">Haemophilus influenzae</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011112">Polymyxin B</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000627">therapeutic use</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011113">Polymyxins</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000627">therapeutic use</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051381">Rats</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011919">Rats, Inbred Strains</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D013997">Time Factors</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+</MedlineCitation>

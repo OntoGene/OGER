@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+<PMID Version="1">3010291</PMID>
+<DateCreated>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCreated>
+<DateCompleted>
+<Year>1986</Year>
+<Month>06</Month>
+<Day>23</Day>
+</DateCompleted>
+<DateRevised>
+<Year>2013</Year>
+<Month>11</Month>
+<Day>21</Day>
+</DateRevised>
+<Article PubModel="Print">
+<Journal>
+<ISSN IssnType="Print">0027-8424</ISSN>
+<JournalIssue CitedMedium="Print">
+<Volume>83</Volume>
+<Issue>10</Issue>
+<PubDate>
+<Year>1986</Year>
+<Month>May</Month>
+</PubDate>
+</JournalIssue>
+<Title>Proceedings of the National Academy of Sciences of the United States of America</Title>
+<ISOAbbreviation>Proc. Natl. Acad. Sci. U.S.A.</ISOAbbreviation>
+</Journal>
+<ArticleTitle>Atrial natriuretic factor receptors in rat kidney, adrenal gland, and brain: autoradiographic localization and fluid balance dependent changes.</ArticleTitle>
+<Pagination>
+<MedlinePgn>3557-61</MedlinePgn>
+</Pagination>
+<Abstract>
+<AbstractText>Mammalian atria contain natriuretic peptides designated atrial natriuretic factors (ANF). Using in vitro autoradiography with 125I-labeled ANF, we have localized high-affinity (Kd = 150 pM) ANF binding sites to the glomeruli of the kidney, zona glomerulosa of the adrenal gland, and choroid plexus of the brain. The numbers of sites in both kidney and adrenal are increased in rats deprived of water; increases are detectable within 72 hr of water deprivation in the kidney and within 24 hr in the adrenal gland. Receptor numbers decline in rats given 2.0% NaCl as drinking water and in diabetic rats. The discrete localizations and dynamic alterations of these receptors suggest that ANF regulates fluid balance through diverse but coordinated effects on receptors in numerous organs including the kidney, adrenal, and brain.</AbstractText>
+</Abstract>
+<AuthorList CompleteYN="Y">
+<Author ValidYN="Y">
+<LastName>Lynch</LastName>
+<ForeName>D R</ForeName>
+<Initials>DR</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Braas</LastName>
+<ForeName>K M</ForeName>
+<Initials>KM</Initials>
+</Author>
+<Author ValidYN="Y">
+<LastName>Snyder</LastName>
+<ForeName>S H</ForeName>
+<Initials>SH</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<GrantList CompleteYN="Y">
+<Grant>
+<GrantID>DA-00074</GrantID>
+<Acronym>DA</Acronym>
+<Agency>NIDA NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+<Grant>
+<GrantID>DA-00266</GrantID>
+<Acronym>DA</Acronym>
+<Agency>NIDA NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+<Grant>
+<GrantID>GM-07309</GrantID>
+<Acronym>GM</Acronym>
+<Agency>NIGMS NIH HHS</Agency>
+<Country>United States</Country>
+</Grant>
+</GrantList>
+<PublicationTypeList>
+<PublicationType UI="D016428">Journal Article</PublicationType>
+<PublicationType UI="D013487">Research Support, U.S. Gov't, P.H.S.</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>UNITED STATES</Country>
+<MedlineTA>Proc Natl Acad Sci U S A</MedlineTA>
+<NlmUniqueID>7505876</NlmUniqueID>
+<ISSNLinking>0027-8424</ISSNLinking>
+</MedlineJournalInfo>
+<ChemicalList>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D011956">Receptors, Cell Surface</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="D012492">Salts</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>0</RegistryNumber>
+<NameOfSubstance UI="C472610">atrial natriuretic peptide, rat</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>40GP35YQ49</RegistryNumber>
+<NameOfSubstance UI="D003900">Desoxycorticosterone</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>7S5I7G3JQL</RegistryNumber>
+<NameOfSubstance UI="D003907">Dexamethasone</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>85637-73-6</RegistryNumber>
+<NameOfSubstance UI="D009320">Atrial Natriuretic Factor</NameOfSubstance>
+</Chemical>
+<Chemical>
+<RegistryNumber>EC 4.6.1.2</RegistryNumber>
+<NameOfSubstance UI="D017461">Receptors, Atrial Natriuretic Factor</NameOfSubstance>
+</Chemical>
+</ChemicalList>
+<CitationSubset>IM</CitationSubset>
+<CommentsCorrectionsList>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1984 Jan 6;223(4631):67-9</RefSource>
+<PMID Version="1">6419347</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Hypertension. 1983 Sep-Oct;5(5):672-5</RefSource>
+<PMID Version="1">6684638</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem Biophys Res Commun. 1984 Jan 13;118(1):131-9</RefSource>
+<PMID Version="1">6230082</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Mar;81(5):1575-9</RefSource>
+<PMID Version="1">6324205</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Histochemistry. 1984;80(2):113-27</RefSource>
+<PMID Version="1">6370928</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 May;81(9):2640-4</RefSource>
+<PMID Version="1">6232612</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1984 Jun 1;224(4652):992-4</RefSource>
+<PMID Version="1">6326267</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Am J Physiol. 1984 Apr;246(4 Pt 2):F447-56</RefSource>
+<PMID Version="1">6720901</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocrinology. 1984 Jun;114(6):2284-92</RefSource>
+<PMID Version="1">6327241</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Jun 21-27;309(5970):717-9</RefSource>
+<PMID Version="1">6233494</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Jun 21-27;309(5970):719-22</RefSource>
+<PMID Version="1">6547210</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Jun 21-27;309(5970):722-4</RefSource>
+<PMID Version="1">6328328</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Nature. 1984 Jun 21-27;309(5970):724-6</RefSource>
+<PMID Version="1">6203042</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1984 Jul 20;225(4659):324-6</RefSource>
+<PMID Version="1">6234658</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem Biophys Res Commun. 1984 Jul 18;122(1):171-4</RefSource>
+<PMID Version="1">6331441</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Life Sci. 1984 Oct 15;35(16):1675-82</RefSource>
+<PMID Version="1">6090843</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Natl Acad Sci U S A. 1984 Oct;81(19):5946-50</RefSource>
+<PMID Version="1">6091122</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Life Sci. 1984 Dec 3;35(23):2311-8</RefSource>
+<PMID Version="1">6094938</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Am J Med. 1984 Dec;77(6):1069-75</RefSource>
+<PMID Version="1">6239544</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Life Sci. 1985 Jan 14;36(2):177-82</RefSource>
+<PMID Version="1">2981383</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem Biophys Res Commun. 1984 Dec 14;125(2):562-8</RefSource>
+<PMID Version="1">6097241</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>FEBS Lett. 1985 Feb 25;181(2):199-202</RefSource>
+<PMID Version="1">2982657</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Clin Invest. 1985 Feb;75(2):769-73</RefSource>
+<PMID Version="1">3156153</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Peptides. 1984 Nov-Dec;5(6):1043-8</RefSource>
+<PMID Version="1">6099555</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Peptides. 1984 Nov-Dec;5(6):1167-72</RefSource>
+<PMID Version="1">6241671</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Science. 1985 Apr 19;228(4697):323-5</RefSource>
+<PMID Version="1">3157217</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem Biophys Res Commun. 1985 Apr 16;128(1):325-30</RefSource>
+<PMID Version="1">3157379</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Life Sci. 1985 May 13;36(19):1843-8</RefSource>
+<PMID Version="1">3157850</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Life Sci. 1985 May 13;36(19):1873-9</RefSource>
+<PMID Version="1">3157852</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Circ Res. 1985 Jun;56(6):801-7</RefSource>
+<PMID Version="1">2408776</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Pharmacol. 1985 May 8;111(2):291-2</RefSource>
+<PMID Version="1">3160595</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Am J Physiol. 1985 Aug;249(2 Pt 2):F299-307</RefSource>
+<PMID Version="1">3895978</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Histochemistry. 1985;82(5):441-52</RefSource>
+<PMID Version="1">3161851</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Clin Endocrinol Metab. 1985 Oct;61(4):677-80</RefSource>
+<PMID Version="1">2993343</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Regul Pept. 1985 Jul;11(3):237-43</RefSource>
+<PMID Version="1">2997859</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Eur J Pharmacol. 1986 Feb 18;121(2):285-7</RefSource>
+<PMID Version="1">2938978</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Cell Biol. 1964 Oct;23:151-72</RefSource>
+<PMID Version="1">14228508</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Proc Soc Exp Biol Med. 1979 Sep;161(4):508-11</RefSource>
+<PMID Version="1">482282</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Brain Res. 1979 Dec 28;179(2):255-70</RefSource>
+<PMID Version="1">228806</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Life Sci. 1981 Jan 5;28(1):89-94</RefSource>
+<PMID Version="1">7219045</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Neuroendocrinology. 1981 Apr;32(4):248-56</RefSource>
+<PMID Version="1">7012657</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocrinology. 1982 Oct;111(4):1045-50</RefSource>
+<PMID Version="1">6288343</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>J Neurosci Methods. 1982 Jul;6(1-2):59-73</RefSource>
+<PMID Version="1">6126619</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Can J Physiol Pharmacol. 1982 Sep;60(9):1149-52</RefSource>
+<PMID Version="1">7151010</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Endocrinology. 1983 Jun;112(6):2007-14</RefSource>
+<PMID Version="1">6303754</PMID>
+</CommentsCorrections>
+<CommentsCorrections RefType="Cites">
+<RefSource>Biochem Biophys Res Commun. 1983 Dec 28;117(3):859-65</RefSource>
+<PMID Version="1">6230081</PMID>
+</CommentsCorrections>
+</CommentsCorrectionsList>
+<MeshHeadingList>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000311">Adrenal Glands</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000315">Adrenalectomy</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D009320">Atrial Natriuretic Factor</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001345">Autoradiography</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001921">Brain</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D001931">Brain Mapping</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D002831">Choroid Plexus</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003900">Desoxycorticosterone</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003907">Dexamethasone</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D003921">Diabetes Mellitus, Experimental</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D006973">Hypertension</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007016">Hypophysectomy</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007668">Kidney</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D007700">Kinetics</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D051381">Rats</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011922">Rats, Mutant Strains</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D017461">Receptors, Atrial Natriuretic Factor</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D011956">Receptors, Cell Surface</DescriptorName>
+<QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D012492">Salts</DescriptorName>
+<QualifierName MajorTopicYN="N" UI="Q000494">pharmacology</QualifierName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="N" UI="D014868">Water Deprivation</DescriptorName>
+</MeshHeading>
+<MeshHeading>
+<DescriptorName MajorTopicYN="Y" UI="D014882">Water-Electrolyte Balance</DescriptorName>
+</MeshHeading>
+</MeshHeadingList>
+<OtherID Source="NLM">PMC323556</OtherID>
+</MedlineCitation>

@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>OGER: OntoGene’s Biomedical Entity Recogniser</title>
+  <link rel='stylesheet' type='text/css'
+    href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'/>
+  <style>
+    body { background: whitesmoke; }
+    td { padding: 0cm 0.2cm 0cm 0.2cm; }
+    label { font-weight: normal; }
+    .page-heading { padding-bottom: 9px; margin: 40px 0 20px; }
+    .hidden { display: none; }
+    .visible {}
+
+    /*ODIN markup*/
+    article-title { font-weight: bold; }
+    s { display: block; text-decoration: none; text-align: left; }
+  </style>
+  <script type="text/javascript">
+    // AJAX stuff.
+
+    // Actual AJAX mechanism.
+    function ajax_request(payload, route, target,
+                          msg_node, wait_msg, success, failure) {
+      var xmlhttp = new XMLHttpRequest();
+
+      // Status handling.
+      xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4) {
+          if (xmlhttp.status == 200) {
+            msg_node.innerHTML = '';
+            target.innerHTML = xmlhttp.responseText;
+            // Success callback.
+            if (typeof(success) !== 'undefined') {
+              success(xmlhttp);
+            }
+          } else {
+            msg_node.innerHTML = "Error " + xmlhttp.status + " occurred";
+            // Failure callback.
+            if (typeof(failure) !== 'undefined') {
+              failure();
+            }
+          }
+        } else {
+          msg_node.innerHTML = wait_msg;
+        }
+      }
+
+      // Data transmission.
+      xmlhttp.open("POST", route, true);
+      xmlhttp.send(payload);
+    }
+
+    // Check if this annotator has been loaded yet.
+    function check_annotator(ann, timeout) {
+      // Short circuit: there's nothing to do if the radio is enabled.
+      if (!ann.disabled) {
+        return;
+      }
+      // Set an initial value for the timeout, or increase it.
+      if (typeof(timeout) === 'undefined') {
+        timeout = 1000;
+      } else {
+        timeout = Math.min(timeout*2, 15000);
+      }
+      // AJAX callback.
+      function success(xmlhttp) {
+        if (xmlhttp.responseText == 'Loading...') {
+          // Recursively check again.
+          setTimeout(function() {check_annotator(ann, timeout);}, timeout);
+        } else {
+          // Enable the radio button now.
+          ann.removeAttribute('disabled');
+          // Also, if this annotator is the target, enable the submit button now.
+          if (ann.checked) {
+            document.getElementById('btn-ann-submit').removeAttribute('disabled');
+          }
+        }
+      }
+      var route = 'ann/check/' + ann.value,
+          label = document.getElementById('label-' + ann.value);
+      ajax_request(null, route, label, label, 'Checking...', success);
+    }
+
+    // Make sure any PubMed/PMC ID is one number.
+    function invalid_ann_request(format, data) {
+      if (format == 'pubmed' || format == 'pmc') {
+        if (/^\s*[0-9]+\s*$/.test(data)) {
+          return false;
+        } else {
+          return true;
+        }
+      } else {
+        return false;
+      }
+    }
+
+    // Create the right URL format.
+    function construct_route(annotator, format, data) {
+      var ann = '/',
+          mode = 'upload',
+          docid = '';
+      if (annotator !== 'default') {
+        ann = '-' + annotator + '/'
+      }
+      if (format == 'pubmed' || format == 'pmc') {
+        mode = 'fetch';
+        docid = '/' + data.trim();
+      }
+      return mode + ann + format + '/odin' + docid;
+    }
+
+    // Hide/show annotated-document view.
+    function toggle_document_view(hide) {
+      var ann_doc = document.getElementById('div-ann-doc'),
+          ann_legend = document.getElementById('div-ann-legend'),
+          ann_form = document.getElementById('div-ann-form'),
+          ann_result = document.getElementById('div-ann-result');
+
+      if (hide) {
+        var cform = 'visible',
+            cdoc = 'hidden';
+        // Clear the annotated document and its legend.
+        ann_doc.innerHTML = '';
+        ann_legend.innerHTML = '';
+      } else {
+        var cform = 'hidden',
+            cdoc = 'visible';
+      }
+      // Toggle visibility.
+      ann_form.setAttribute('class', cform);
+      ann_result.setAttribute('class', cdoc);
+    }
+
+    // Extract color/type information from the response.
+    function create_entity_type_legend(xmlhttp) {
+      var div_legend = document.getElementById('div-ann-legend'),
+          terms = xmlhttp.responseXML.getElementsByTagName('Term'),
+          legend = '<p><strong>Legend</strong></p>',
+          entities = {};
+      for (var i = terms.length; i--;) {
+        entities[terms[i].getAttribute('type')] = terms[i].getAttribute('style');
+      }
+      for (var etype in entities) {
+        if (entities.hasOwnProperty(etype)) {
+          legend += '<span style="' + entities[etype] + '">' + etype + '</span><br/>';
+        }
+      }
+      div_legend.innerHTML = legend;
+    }
+
+    onload = function() {
+      // Place an event listener on the input form.
+      // It suppresses the normal page-replacing request on
+      // form submission.
+      var ann_form = document.getElementById('form-ann');
+      ann_form.addEventListener('submit', function(ev) {
+
+        var result_div = document.getElementById('div-ann-result'),
+            msg_div = document.getElementById('div-msg'),
+            doc_div = document.getElementById('div-ann-doc'),
+            text_box = document.getElementById('txt-ann'),
+            submit_button = document.getElementById('btn-ann-submit'),
+            payload = ann_form['annotation-payload'].value,
+            outformat = ann_form['article-format'].value,
+            annotator = ann_form['annotator'].value;
+
+        // Clear any previous messages.
+        msg_div.innerHTML = '';
+        // Sanity-check the input.
+        if (invalid_ann_request(outformat, payload)) {
+          // Submitting anything but a number as PM/PMC ID is prevented early.
+          msg_div.innerHTML = '<strong>Invalid ID: numeric value required!</strong>';
+        } else {
+          // Prevent multiple interleaved requests from impatient users.
+          submit_button.setAttribute('disabled', 'disabled');
+          // Success callback: Hide all other page elements and make a legend.
+          function success(xmlhttp) {
+            toggle_document_view(false);
+            create_entity_type_legend(xmlhttp);
+            // Select the text in the text box to mark it as used.
+            text_box.select();
+            submit_button.removeAttribute('disabled');
+          }
+          // Re-enable the submit button on failure.
+          function failure() {
+            submit_button.removeAttribute('disabled');
+          }
+          // Post the AJAX request.
+          var route = construct_route(annotator, outformat, payload);
+          ajax_request(payload, route, doc_div, msg_div,
+                       'Annotation in progress...', success, failure);
+        }
+
+        // Prevent reloading the page on submit.
+        ev.preventDefault();
+
+      }, false);
+
+      // Check the annotator list for unfinished loading.
+      var annotators = document.getElementById('div-ann-radios').childNodes,
+          submit_button = document.getElementById('btn-ann-submit');
+      for (var i=annotators.length; i--;) {
+        annotators[i].addEventListener('change', function(ev) {
+          submit_button.removeAttribute('disabled');
+        }, false);
+        check_annotator(annotators[i]);
+      }
+    }
+  </script>
+</head>
+<body>
+  <center>
+    <h1 class="page-heading">
+      <a id="anchor-title" style="color: black; text-decoration: none;">
+        OGER: OntoGene’s Biomedical Entity Recogniser
+      </a>
+    </h1>
+    <hr/>
+  </center>
+  <center>
+    <div style="width: 80%; padding-bottom: 1cm;">
+      <div id="div-ann-form">
+        <center>
+          <p>
+            OGER is a web service for biomedical text annotation.
+            Users can provide as input a PubMed ID, a PubMed Central ID, or their own text.
+            By default, OGER will use the terminologies from the <a href="http://pub.cl.uzh.ch/purl/biodb/">Bio Term Hub</a> (BTH) to annotate the provided text.
+            Optionally, users can first create their own selection of resources from the BTH, then use it for annotation using this service.
+          </p>
+          <p>
+            This page is intended only as a demonstrator, for usage as a web service see <a href="http://www.ontogene.org/resources/oger">this explanation</a>.
+          </p>
+          <hr/>
+          <p>
+            Specify a document by ID or paste it into the text area.
+          </p>
+          <div id="div-msg"></div>
+          <form id="form-ann" role="form" method="post"
+              accept-charset="UTF-8">
+            <select name="article-format">
+              <option value="pubmed">PubMed ID</option>
+              <option value="pmc">PubMed Central ID</option>
+              <option value="txt">plain text</option>
+            </select>
+            <textarea id="txt-ann" rows="3" cols="50" name="annotation-payload"></textarea>
+            <input type="submit" value="Annotate"/ id="btn-ann-submit">
+            <br/>
+            <div id="div-ann-radios">
+              <input type="radio" name="annotator" value="default" checked="checked" /> <label id="label-default">default</label><br/>
+            </div>
+          </form>
+        </center>
+      </div>
+      <div id="div-ann-result" class="hidden">
+        <div id="div-ann-doc" style="float: left; width: 70%; padding-bottom: .5cm;"></div>
+        <div id="div-ann-legend" style="float: left; width: 30%; padding-bottom: 1cm;"></div>
+        <input type="button" id="btn-doc-view" value="Back" onclick="toggle_document_view(true);" />
+      </div>
+    </div>
+  </center>
+</body>
+</html>
