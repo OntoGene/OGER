@@ -3,17 +3,22 @@
 A flexible, dictionary-based system for extracting biomedical terms from scientific articles.
 
 
+## Demo
+
+A demo version of OGER is hosted at <https://pub.cl.uzh.ch/purl/OGER>.
+
+
 ## Installation
 
 Install OGER from its repository using [pip](https://pip.pypa.io/):
 
-    pip install git+https://gitlab.cl.uzh.ch/ontogene/pyogpipeline.git
+    pip install git+https://github.com/OntoGene/OGER.git
 
 Make sure you use Python 3's pip (eg. `pip3`).
 Python 2.x is not supported.
 
 
-## Usage
+## Usage: Command-line Tool
 
 The installation process should provide you with an executable `oger`, which is the common starting point for a number of command-line tools.
 Type `oger `_`CMD`_, followed by command-specific options, to run the desired tool:
@@ -31,15 +36,58 @@ To see a list of available options for each command, run eg. `oger serve -h`.
 As an alternative to the `oger` executable, you may run `python3 -m oger `_`CMD`_.
 
 
+## Usage: Python Library
+
+Get config and start a pipeline server:
+```pycon
+>>> from oger.ctrl.router import Router, PipelineServer
+>>> conf = Router(termlist_path='oger/test/testfiles/test_terms.tsv')
+>>> pl = PipelineServer(conf)
+```
+
+Load a text document from disk (using the included test suite):
+```pycon
+>>> doc = pl.load_one('oger/test/testfiles/txt/13373697.txt', 'txt')
+>>> doc
+<Article with 1 subelement at 0x7f8b2135d860>
+>>> doc.text
+'[The kind and the measure of ventilation disorders in tuberculous bronchostenosis in relation to its localization]. \n'
+```
+
+Download a collection of articles from PubMed:
+```pycon
+>>> coll = pl.load_one(['21436587', '21436588'], fmt='pubmed')
+>>> coll
+<Collection with 2 subelements at 0x7f8b215f4cc0>
+>>> coll[0]
+<Article with 2 subelements at 0x7f8b2156a5f8>
+>>> coll[0][0]
+<Section with 1 subelement at 0x7f8b2156a358>
+>>> coll[0][0].text
+'Human prostate cancer metastases target the hematopoietic stem cell niche to establish footholds in mouse bone marrow.\n'
+```
+
+Run entity recognition:
+```pycon
+>>> pl.process(coll)
+>>> entity = next(coll[0].iter_entities())
+>>> entity.text, entity.start, entity.end
+('Human', 0, 5)
+>>> entity.cid
+'9606'
+>>> entity.info
+('organism', 'Homo sapiens', 'NCBI Taxonomy', '9606', 'DC')
+```
+
+
 ## Documentation
 
-Documentation is maintained in our [gitlab wiki](https://gitlab.cl.uzh.ch/ontogene/pyogpipeline/wikis/home).
+Documentation is maintained in the [GitHub wiki](https://github.com/OntoGene/OGER/wiki).
 
 
 ## Prerequisites
 
-The pipeline runs on Python 3 only.
-It was tested with Python 3.4 and 3.5.
+OGER runs on Python 3.4+.
 
 The following third-party libraries need to be installed (pip should take care of this):
 
@@ -48,16 +96,19 @@ The following third-party libraries need to be installed (pip should take care o
 * [NLTK](http://www.nltk.org)
 
 
-## Credits
+## Publications
 
-Lenz Furrer  
-furrer@cl.uzh.ch
+If you use OGER in an academic context, please cite us:
 
-Nico Colic  
-ncolic@gmail.com
+Lenz Furrer and Fabio Rinaldi (2017):
+**OGER: OntoGene's Entity Recogniser in the BeCalm TIPS Task**.
+In: *Proceedings of the BioCreative V.5 Challenge Evaluation Workshop*, pp. 175–182.
+| [PDF](https://github.com/OntoGene/OGER/wiki/attachments/furrer-rinaldi-2017.pdf)
+| [bibtex](https://github.com/OntoGene/OGER/wiki/attachments/furrer-rinaldi-2017.bib) |
 
-Adrian van der Lek  
-adrian.vanderlek@uzh.ch
-
-Tilia Ellendorff  
-ellendorff@cl.uzh.ch
+Marco Basaldella, Lenz Furrer, Carlo Tasso, and Fabio Rinaldi (2017):
+**Entity recognition in the biomedical domain using a hybrid approach**.
+In: *Journal of Biomedical Semantics* 8(1), 51.
+DOI: [10.1186/s13326-017-0157-6](https://doi.org/10.1186/s13326-017-0157-6)
+| [PDF](https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/s13326-017-0157-6)
+| [bibtex](https://github.com/OntoGene/OGER/wiki/attachments/basaldella-et-al-2017.bib) |
