@@ -3,7 +3,6 @@
 ## Version 1.1
 
 - parameter additions:
-  * optional byte offsets for BioC input and output
   * multiple postfilters allowed
   * new parameter `field-names` interacts with ex-termlist parameter `extra-fields`
   * new output formats *bioc_json* and *pubanno_json*
