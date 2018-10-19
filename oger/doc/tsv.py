@@ -11,7 +11,7 @@ Formatter for TSV output (with/without context).
 
 import csv
 
-from .document import Collection, Sentence
+from .document import Sentence
 from .export import StreamFormatter
 from ..util.iterate import CacheOneIter
 
@@ -33,10 +33,7 @@ class TSVFormatter(StreamFormatter):
 
         if self.config.p.include_header:
             self._write_header(writer)
-        if isinstance(content, Collection):
-            self._write_collection(writer, content)
-        else:
-            self._write_article(writer, content)
+        self._write_body(writer, content)
 
     def _write_header(self, writer):
         headers = ('DOCUMENT ID',
@@ -52,8 +49,8 @@ class TSVFormatter(StreamFormatter):
         headers += self.extra_fields
         writer.writerow(headers)
 
-    def _write_collection(self, writer, coll):
-        for article in coll:
+    def _write_body(self, writer, content):
+        for article in content.get_subelements('article', include_self=True):
             self._write_article(writer, article)
 
     def _write_article(self, writer, article):

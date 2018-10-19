@@ -9,6 +9,8 @@ Formatter for ODIN XML output.
 '''
 
 
+import itertools as it
+
 from lxml.builder import E
 
 from .document import Collection
@@ -26,71 +28,59 @@ class ODINFormatter(XMLMemoryFormatter):
     }
 
     def _dump(self, content):
+        counters = [it.count(1) for _ in range(2)]  # continuous IDs
         if isinstance(content, Collection):
-            return self._collection(content)
+            return self._collection(content, *counters)
         else:
-            return self._article(content)
+            return self._article(content, *counters)
 
-    def _collection(self, coll):
+    def _collection(self, coll, sent_ids, tok_ids):
         node = E('collection')
-        sent_id, tok_id = 0, 0  # continuous IDs
         for article in coll:
-            art_node, sent_id, tok_id = self._article_counters(
-                article, sent_id, tok_id)
-            node.append(art_node)
+            node.append(self._article(article, sent_ids, tok_ids))
         return node
 
-    def _article(self, article):
-        node, *_ = self._article_counters(article)
-        return node
-
-    def _article_counters(self, article, sent_id=0, tok_id=0):
-        '''
-        Article node and continuous IDs.
-        '''
+    def _article(self, article, sent_ids, tok_ids):
         node = E('article', id=str(article.id_))
 
         # Add sections.
         for section in article:
-            sec_node, sent_id, tok_id = self._section(section, sent_id, tok_id)
-            node.append(sec_node)
+            node.append(self._section(section, sent_ids, tok_ids))
 
         # Add the (redundant?) stand-off annotations (concept level).
         node.append(self._og_dict(article))
 
-        return node, sent_id, tok_id
+        return node
 
-    def _section(self, section, sent_id, tok_id):
+    def _section(self, section, sent_ids, tok_ids):
         tag = self.section_names.get(section.type_.lower(), 'section')
         node = E(tag, id=str(section.id_))
-        for sent_id, sent in enumerate(section, sent_id+1):
-            sent_node, tok_id = self._sentence(
-                sent, section.start, sent_id, tok_id)
-            node.append(sent_node)
-        return node, sent_id, tok_id
+        for sent, sent_id in zip(section, sent_ids):
+            node.append(self._sentence(sent, section.start, sent_id, tok_ids))
+        return node
 
-    def _sentence(self, sent, section_offset, sent_id, tok_id):
+    def _sentence(self, sent, section_offset, sent_id, tok_ids):
         sent_node = E('S', i=str(sent.id_), id='S{}'.format(sent_id))
 
         sent.tokenize()
 
-        intertoks = self._itertoks(sent, tok_id, section_offset)
+        intertoks = self._itertoks(sent, tok_ids, section_offset)
         mentions = self._itermentions(sent, section_offset)
         try:
-            tok_id, token, tok_node = next(intertoks)
+            token, tok_node = next(intertoks)
             for term_start, term_end, term_node in mentions:
                 while token.end <= term_start:
                     # Tokens preceding this term mention are added directly
                     # to the sentence node.
                     sent_node.append(tok_node)
-                    tok_id, token, tok_node = next(intertoks)
+                    token, tok_node = next(intertoks)
 
                 # Tokens belonging to the term mention are added
                 # to the mention's node.
                 sent_node.append(term_node)
                 while token.start < term_end:
                     term_node.append(tok_node)
-                    tok_id, token, tok_node = next(intertoks)
+                    token, tok_node = next(intertoks)
 
                 # Do some in-place modifications.
                 self._fixup_term(term_node)
@@ -103,10 +93,10 @@ class ODINFormatter(XMLMemoryFormatter):
             pass
 
         # Append any remaining tokens.
-        for tok_id, _, tok_node in intertoks:  # redefine tok_id: up-reporting
+        for _, tok_node in intertoks:
             sent_node.append(tok_node)
 
-        return sent_node, tok_id
+        return sent_node
 
     @staticmethod
     def _token(tok, cont_id, section_offset):
@@ -119,28 +109,28 @@ class ODINFormatter(XMLMemoryFormatter):
                  o2=str(tok.end - section_offset))
         return node
 
-    def _itertoks(self, sent, tok_id, section_offset):
+    def _itertoks(self, sent, tok_ids, section_offset):
         '''
         Iterate over tokens with proper spacing (tail text).
         '''
         # We don't know if we need to append a space until we see the next
         # token. Therefore, yielding is delayed by one iteration.
-        itoks = enumerate(sent, tok_id+1)
+        itoks = zip(sent, tok_ids)
         try:  # respect PEP 479
-            this_id, this_token = next(itoks)
+            this_token, this_id = next(itoks)
         except StopIteration:
             return
 
-        for next_id, next_token in itoks:
+        for next_token, next_id in itoks:
             node = self._token(this_token, this_id, section_offset)
             if next_token.start > this_token.end:
                 # Non-adjacent tokens -> add a space.
                 node.tail = ' '
-            yield this_id, this_token, node
+            yield this_token, node
             this_id, this_token = next_id, next_token
 
         node = self._token(this_token, this_id, section_offset)
-        yield this_id, this_token, node
+        yield this_token, node
 
     def _itermentions(self, sent, offset):
         '''

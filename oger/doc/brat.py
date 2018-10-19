@@ -11,9 +11,9 @@ Formatter for the brat stand-off format.
 
 import re
 import logging
+import itertools as it
 from collections import defaultdict
 
-from .document import Collection, Section
 from .export import StreamFormatter
 
 
@@ -83,37 +83,29 @@ class BratAnnFormatter(StreamFormatter):
             yield index, att, atype
 
     def write(self, stream, content):
-        if isinstance(content, Collection):
-            self._write_collection(stream, content)
-        else:
-            self._write_article(stream, content)
+        counters = [it.count(1) for _ in range(3)]
+        for article in content.get_subelements('article', include_self=True):
+            self._write_anno(stream, article, counters)
 
-    def _write_collection(self, stream, coll):
-        counters = (0, 0, 0)
-        for article in coll:
-            counters = self._ann_counters(stream, article, counters=counters)
-
-    def _write_article(self, stream, article):
-        self._ann_counters(stream, article)
-
-    def _ann_counters(self, stream, article, counters=(0, 0, 0)):
+    def _write_anno(self, stream, article, counters):
         '''
-        Write article-level annotations and capture continuous IDs.
+        Write article-level annotations with continuous IDs.
         '''
-        t, n, a = counters
+        c_t, c_n, c_a = counters
         mentions = self._get_mentions(article)
-        for t, (loc_type, entities) in enumerate(sorted(mentions.items()), t+1):
+        for (loc_type, entities), t in zip(sorted(mentions.items()), c_t):
             stream.write('T{0}\t{3} {1} {2}\t{4}\n'.format(t, *loc_type))
-            for n, e in enumerate(entities, n+1):
+            for e, n in zip(entities, c_n):
                 # Add all remaining information as "AnnotatorNotes".
-                info = '\t'.join(e.info[1:])
-                stream.write('#{}\tAnnotatorNotes T{}\t{}\n'.format(n, t, info))
-                for i, att, atype in self.attributes:
-                    value = e.info[i]
-                    if value:
-                        a += 1
-                        stream.write(self._attribute(atype, att, value, a, t))
-        return t, n, a
+                self._write_anno_note(stream, e, t, n, c_a)
+
+    def _write_anno_note(self, stream, entity, t, n, c_a):
+        info = '\t'.join(entity.info[1:])
+        stream.write('#{}\tAnnotatorNotes T{}\t{}\n'.format(n, t, info))
+        for i, att, atype in self.attributes:
+            value = entity.info[i]
+            if value:
+                stream.write(self._attribute(atype, att, value, next(c_a), t))
 
     def _get_mentions(self, article):
         mentions = defaultdict(list)

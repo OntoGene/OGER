@@ -74,9 +74,12 @@ class Unit(object):
 
         self.subelements.append(subelement)
 
-    def get_subelements(self, subelement_type):
+    def get_subelements(self, subelement_type, include_self=False):
         """
         Iterate over subelements at any subordinate level.
+
+        If include_self is True, retrieval starts at the
+        root level already.
 
         Example use:
             my_article.get_subelements("sentence")
@@ -85,6 +88,7 @@ class Unit(object):
         if isinstance(subelement_type, str):
             try:
                 subelement_type = dict(
+                    collection=Collection,
                     article=Article,
                     section=Section,
                     sentence=Sentence,
@@ -94,13 +98,20 @@ class Unit(object):
                 raise TypeError('unknown subelement_type: {}'
                                 .format(subelement_type))
 
+        if include_self and isinstance(self, subelement_type):
+            # The root level matches.
+            return iter([self])
+
         if not self.subelements:
+            # No subelements -- nothing to return.
             return iter([])
 
         if isinstance(self.subelements[0], subelement_type):
+            # The first sub-level matches.
             return iter(self.subelements)
 
         else:
+            # Recursively descend into sub-subelements.
             return (subsub
                     for sub in self.subelements
                     for subsub in sub.get_subelements(subelement_type))
@@ -110,10 +121,8 @@ class Unit(object):
         Iterate over all entities, ordered by start offset.
 
         This method is defined for all units (at every level).
-        However, it will only find entities if a descendant
-        of type Sentence can be reached.
         '''
-        for sentence in self.get_subelements(Sentence):
+        for sentence in self.get_subelements(Sentence, include_self=True):
             for entity in sentence.iter_entities():
                 yield entity
 
@@ -155,13 +164,12 @@ class Exporter(Unit):
         '''
         previous_ids = (int(e.id_) for e in self.iter_entities()
                         if isinstance(e.id_, int) or e.id_.isdigit())
-        id_ = max(previous_ids, default=0) + 1
-        last_article = None
-        for sentence in self.get_subelements(Sentence):
-            if sentence.section.article != last_article:
-                entity_recognizer.reset()
-                last_article = sentence.section.article
-            id_ = sentence.recognize_entities(entity_recognizer, id_)
+        start_id = max(previous_ids, default=0) + 1
+        ids = it.count(start_id)
+        for article in self.get_subelements(Article, include_self=True):
+            entity_recognizer.reset()
+            for sentence in article.get_subelements(Sentence):
+                sentence.recognize_entities(entity_recognizer, ids)
 
     def pickle(self, output_filename):
         '''
@@ -346,13 +354,15 @@ class Sentence(Unit):
             for id_, (token, start, end) in enumerate(toks):
                 self.add_subelement(Token(id_, token, start, end))
 
-    def recognize_entities(self, entity_recognizer, start_id=0):
+    def recognize_entities(self, entity_recognizer, ids=None):
         '''
         Run entity recognition and sort the results by offsets.
         '''
+        if ids is None:
+            ids = it.count()
         entities = entity_recognizer.recognize_entities(self.text)
-        nonempty = bool(self.entities)
-        for id_, ((start, end), info) in enumerate(entities, start_id):
+        prev_len = len(self.entities)
+        for ((start, end), info), id_ in zip(entities, ids):
             surface = self.text[start:end]
             entity = Entity(id_,
                             surface,
@@ -360,17 +370,11 @@ class Sentence(Unit):
                             end+self.start,
                             info)
             self.entities.append(entity)
-        try:
-            final_id = id_ + 1
-        except NameError:
-            # Undefined loop variable -- no entity found.
-            final_id = start_id
-        else:
+
+        if prev_len and len(self.entities) > prev_len:
             # If the new annotations weren't the first ones, then they need
             # to be sorted in.
-            if nonempty:
-                self.entities.sort(key=Entity.sort_key)
-        return final_id
+            self.entities.sort(key=Entity.sort_key)
 
     def iter_entities(self):
         '''
