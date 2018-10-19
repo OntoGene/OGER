@@ -19,6 +19,7 @@ from .brat import BratFormatter
 from .becalm import BeCalmAbstractFetcher, BeCalmPatentFetcher
 from .becalm import BeCalmTSVFormatter, BeCalmJSONFormatter
 from .pubanno import PubAnnoJSONFormatter
+from .pubtator import PubTatorFormatter, PubTatorFBKFormatter
 
 
 # Keep these mappings up to date.
@@ -50,6 +51,8 @@ EXPORTERS = {
     'becalm_tsv': BeCalmTSVFormatter,
     'becalm_json': BeCalmJSONFormatter,
     'pubanno_json': PubAnnoJSONFormatter,
+    'pubtator': PubTatorFormatter,
+    'pubtator_fbk': PubTatorFBKFormatter,
 }
 
 OUTFMTS = list(EXPORTERS.keys())

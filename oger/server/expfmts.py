@@ -43,6 +43,8 @@ _exporters = (
     ('bioc', doc.BioCXMLFormatter),
     ('bioc_json', doc.BioCJSONFormatter),
     ('pubanno_json', doc.PubAnnoJSONFormatter),
+    ('pubtator', doc.PubTatorFormatter),
+    ('pubtator_fbk', doc.PubTatorFBKFormatter),
     ('odin', FurbishedODINFormatter),
     ('odin_custom', CustomODINFormatter),
 )
