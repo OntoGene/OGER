@@ -19,6 +19,7 @@ from .brat import BratFormatter
 from .becalm import BeCalmAbstractFetcher, BeCalmPatentFetcher
 from .becalm import BeCalmTSVFormatter, BeCalmJSONFormatter
 from .pubanno import PubAnnoJSONFormatter
+from .pubtator import PubTatorLoader, PubTatorFBKLoader
 from .pubtator import PubTatorFormatter, PubTatorFBKFormatter
 
 
@@ -30,6 +31,8 @@ LOADERS = {
     'becalmabstracts': BeCalmAbstractFetcher,
     'becalmpatents': BeCalmPatentFetcher,
     'pubmed': PXMLFetcher,
+    'pubtator': PubTatorLoader,
+    'pubtator_fbk': PubTatorFBKLoader,
     'pxml': PXMLLoader,
     'pxml.gz': MedlineLoader,
     'pmc': PMCFetcher,

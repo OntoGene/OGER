@@ -219,12 +219,13 @@ class Router(object):
         '''
         Iterate over input collections.
 
-        With bioc and pxml.gz input, each pointer/path is a collection.
+        With bioc, pubtator and pxml.gz input, each pointer/path
+        is a collection.
         With pubmed/pmc, there is only one collection in total.
         Otherwise, each subdirectory below input_directory
         contains one collection.
         '''
-        if self.p.article_format == 'bioc':
+        if self.p.article_format in ('bioc', 'pubtator', 'pubtator_fbk'):
             # Each path node is a collection.
             for path, id_ in self.iter_path_ID(pointers):
                 if id_ is None:
@@ -270,7 +271,8 @@ class Router(object):
             for chunk in iter_chunks(it, self.p.efetch_max_ids):
                 with ctxt.setcurrent():
                     yield from self._check_ids(chunk, loader)
-        elif self.p.article_format in ('bioc', 'pxml.gz'):
+        elif self.p.article_format in ('bioc', 'pxml.gz',
+                                       'pubtator', 'pubtator_fbk'):
             for path, id_ in self.iter_path_ID(pointers):
                 with ctxt.setcurrent(id_):
                     yield from loader.iter_documents(path)

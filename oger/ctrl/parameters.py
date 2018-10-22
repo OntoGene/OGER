@@ -213,8 +213,7 @@ class Params(ParamBase):
     # the ID. Use it like so: '{id!p}'
     # -- or, to get a 4-digit prefix: '{id!p:.4}'.
     fn_format_in = '{id}.{ext}'
-    # Input article format: txt|pxml|pxml.gz|nxml|bioc|pubmed|pmc|
-    #                       becalmabstracts|becalmpatents
+    # Input article format: see oger.doc.INFMTS for a list of accepted names.
     article_format = 'pxml'
     # Fallback for the input format: If a document can't be loaded,
     # try again with this alternative format (using IDs as pointers, not paths)
@@ -246,7 +245,7 @@ class Params(ParamBase):
     # for `ext` ("tsv" or "xml").
     # It is applied like fn_format_in (see above).
     fn_format_out = fn_format_in
-    # Output format: xml|tsv|text_xml|text_tsv|bioc|becalm_tsv|becalm_json
+    # Output format: see oger.doc.OUTFMTS for a list of accepted names.
     # A space-separated list is also accepted (multiple files per article).
     export_format = 'tsv'
     # Additional fields in the termlist TSV.
