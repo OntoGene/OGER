@@ -9,6 +9,7 @@ Streaming utilities.
 '''
 
 
+import io
 import codecs
 import urllib.request
 
@@ -26,3 +27,17 @@ def ropen(locator, encoding='utf-8', **kwargs):
     else:
         f = open(locator, encoding=encoding, **kwargs)
     return f
+
+
+def text_stream(source, encoding='utf-8', **kwargs):
+    '''
+    If needed, open and decode a text stream from a path, URL, or open file.
+    '''
+    # Source is a stream.
+    if hasattr(source, 'read'):
+        # Check if this stream needs decoding.
+        if isinstance(source, (io.RawIOBase, io.BufferedIOBase)):
+            source = codecs.getreader(encoding)(source)
+        return source
+    # Source is a path/URL.
+    return ropen(source, encoding=encoding, **kwargs)

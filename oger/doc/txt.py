@@ -12,28 +12,16 @@ Loader for plain-text input.
 import os
 import io
 import json
-import codecs
 
 from .document import Article
 from .load import DocLoader, DocIterator
+from ..util.stream import text_stream
 
 
 class _TXTLoaderMixin:
     '''
     Base loader for plain-text documents.
     '''
-    @staticmethod
-    def _text_stream(source, call):
-        # Source is a stream.
-        if hasattr(source, 'read'):
-            # Check if this stream needs decoding.
-            if isinstance(source, (io.RawIOBase, io.BufferedIOBase)):
-                source = codecs.getreader('utf-8')(source)
-            return call(source)
-        # Source is a path.
-        with open(source, encoding='utf-8') as f:
-            return call(f)
-
     def _document(self, stream, docid):
         if self.config.p.single_section:
             # All text in a single section.
@@ -116,7 +104,8 @@ class TXTLoader(DocLoader, _TXTLoaderMixin):
         '''
         Get a very simply structured article.
         '''
-        return self._text_stream(source, lambda f: self._document(f, id_))
+        with text_stream(source) as f:
+            return self._document(f, id_)
 
 
 class TXTJSONLoader(DocIterator, _TXTLoaderMixin):
@@ -124,7 +113,8 @@ class TXTJSONLoader(DocIterator, _TXTLoaderMixin):
     Loader for multiple plain-text documents embedded in JSON.
     '''
     def iter_documents(self, source):
-        docs = self._text_stream(source, json.load)
+        with text_stream(source) as f:
+            docs = json.load(f)
 
         for doc in docs:
             stream = io.StringIO(doc['text'])
