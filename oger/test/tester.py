@@ -59,6 +59,9 @@ TESTCASES = [
     'txt_directory',
     'txt_id',
     'txt_collection',
+    'txt_json',
+    'pubtator',
+    'pubtator_fbk',
     'pxmlgz',
     'pxml_directory',
     'pxml_id',
@@ -263,6 +266,15 @@ def txt_collection(outputdir):
 
     # TODO output is just called 'None'
     # Is there a way to make that nicer?
+
+def txt_json(outputdir):
+    _multiple_outfmts(outdir(outputdir), 'txt_json')
+
+def pubtator(outputdir):
+    _multiple_outfmts(outdir(outputdir), 'pubtator')
+
+def pubtator_fbk(outputdir):
+    _multiple_outfmts(outdir(outputdir), 'pubtator_fbk')
 
 def pxmlgz(outputdir):
     _multiple_outfmts(outdir(outputdir), 'pxml.gz')

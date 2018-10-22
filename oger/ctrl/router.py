@@ -232,7 +232,7 @@ class Router(object):
                     id_ = os.path.splitext(os.path.basename(path))[0]
                 with ctxt.setcurrent(id_):
                     yield loader.collection(path, id_)
-        elif self.p.article_format == 'pxml.gz':
+        elif self.p.article_format in ('pxml.gz', 'txt_json'):
             # Each path node is a collection.
             for path, id_ in self.iter_path_ID(pointers):
                 if id_ is None:
@@ -271,7 +271,7 @@ class Router(object):
             for chunk in iter_chunks(it, self.p.efetch_max_ids):
                 with ctxt.setcurrent():
                     yield from self._check_ids(chunk, loader)
-        elif self.p.article_format in ('bioc', 'pxml.gz',
+        elif self.p.article_format in ('bioc', 'pxml.gz', 'txt_json',
                                        'pubtator', 'pubtator_fbk'):
             for path, id_ in self.iter_path_ID(pointers):
                 with ctxt.setcurrent(id_):

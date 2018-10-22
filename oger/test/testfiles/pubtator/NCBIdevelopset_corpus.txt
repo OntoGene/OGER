@@ -1,0 +1,100 @@
+8931701|t|Identification of WASP mutations, mutation hotspots and genotype-phenotype disparities in 24 patients with the Wiskott-Aldrich syndrome.
+8931701|a|The Wiskott-Aldrich syndrome (WAS), an X-linked immunodeficiency disease caused by mutation in the recently isolated gene encoding WAS protein (WASP), is known to be associated with extensive clinical heterogeneity. Cumulative mutation data have revealed that WASP genotypes are also highly variable among WAS patients, but the relationship of phenotype with genotype in this disease remains unclear. To address this issue we characterized WASP mutations in 24 unrelated WAS patients, including 18 boys with severe classical WAS and 6 boys expressing mild forms of the disease, and then examined the degree of correlation of these as well as all previously published WASP mutations with disease severity. By analysis of these compiled mutation data, we demonstrated clustering of WASP mutations within the four most N-terminal exons of the gene and also identified several sites within this region as hotspots for WASP mutation. These characteristics were observed, however, in both severe and mild cases of the disease. Similarly, while the cumulative data revealed a predominance of missense mutations among the WASP gene lesions observed in boys with isolated thrombocytopenia, missense mutations were not exclusively associated with milder WAS phenotypes, but also comprised a substantial portion (38%) of the WASP gene defects found in patients with severe disease. These findings, as well as the detection of identical WASP mutations in patients with disparate phenotypes, reveal a lack of phenotype concordance with genotype in WAS and thus imply that phenotypic outcome in this disease cannot be reliably predicted solely on the basis of WASP genotypes.. 
+8931701	111	135	Wiskott-Aldrich syndrome	SpecificDisease	D014923
+8931701	141	165	Wiskott-Aldrich syndrome	SpecificDisease	D014923
+8931701	167	170	WAS	SpecificDisease	D014923
+8931701	176	209	X-linked immunodeficiency disease	DiseaseClass	D007153+D040181
+8931701	268	271	WAS	Modifier	D014923
+8931701	443	446	WAS	Modifier	D014923
+8931701	608	611	WAS	Modifier	D014923
+8931701	662	665	WAS	SpecificDisease	D014923
+8931701	1291	1316	isolated thrombocytopenia	SpecificDisease	D013921
+8931701	1381	1384	WAS	Modifier	D014923
+8931701	1672	1675	WAS	SpecificDisease	D014923
+
+9174057|t|Mutations in the arginine-rich protein gene (ARP) in pancreatic cancer.
+9174057|a|The ARP gene encodes a highly conserved arginine-rich protein from chromosomal band 3p21. 1 1. At the cytogenetic level this region is frequently deleted in a variety of different solid tumors, although not in pancreatic cancer. We have reported the presence of a specific mutation (ATG50-- > AGG) or deletion of codon 50 of the ARP gene in different tumor types (Shridhar et al., 1996, 1996a). In the present study, we have observed mutations involving codon 50 in 11 of 37 pancreatic tumors. The frequency of codon 50 mutation is roughly the same in pancreatic tumors as in the other types of tumors previously examined. In addition, we have detected mutations at codon 51 in multiple PCR subclones in two other pancreatic tumors. Mutations in the ARP gene are thus commonly observed in pancreatic cancer, as well as many other cancers.
+9174057	53	70	pancreatic cancer	SpecificDisease	D010190
+9174057	252	264	solid tumors	DiseaseClass	D009369
+9174057	282	299	pancreatic cancer	SpecificDisease	D010190
+9174057	423	434	tumor types	DiseaseClass	D009369
+9174057	547	564	pancreatic tumors	SpecificDisease	D010190
+9174057	624	641	pancreatic tumors	SpecificDisease	D010190
+9174057	667	673	tumors	DiseaseClass	D009369
+9174057	786	803	pancreatic tumors	SpecificDisease	D010190
+9174057	861	878	pancreatic cancer	SpecificDisease	D010190
+9174057	902	909	cancers	DiseaseClass	D009369
+
+9056547|t|Nonsense mutation in exon 3 of the proteolipid protein gene (PLP) in a family with an unusual form of Pelizaeus-Merzbacher disease.
+9056547|a|We report a G-- > A transition at nucleotide 431 of the proteolipid protein gene (PLP) results in a nonsense codon in a family with an unusual form of Pelizaeus-Merzbacher disease (PMD). The mutation, which creates a second AluI restriction site, results in a nonsense mutation in PLP. The clinical picture resembles somewhat that of X-linked spastic paraplegia (SPG). It differs from this and both the classical and connatal forms of PMD in that it is relatively mild in form, onset is delayed beyond age 2 years, nystagmus is absent, tremors are prominent, mental retardation is not severe, some patients show dementia or personality disorders, the disease is progressive rather than static in some, and several females show signs of disease. The nonsense mutation, which is in exon 3B, should block the synthesis of normal PLP but spare DM20, the isoform whose persistence has been associated with mild forms of PLP-associated disease in both humans and mice.. 
+9056547	102	130	Pelizaeus-Merzbacher disease	SpecificDisease	OMIM:312080
+9056547	283	311	Pelizaeus-Merzbacher disease	SpecificDisease	OMIM:312080
+9056547	313	316	PMD	SpecificDisease	OMIM:312080
+9056547	466	493	X-linked spastic paraplegia	SpecificDisease	OMIM:312920
+9056547	495	498	SPG	SpecificDisease	OMIM:312920
+9056547	567	570	PMD	SpecificDisease	OMIM:312080
+9056547	647	656	nystagmus	DiseaseClass	D020417
+9056547	668	675	tremors	DiseaseClass	D014202
+9056547	691	709	mental retardation	DiseaseClass	D008607
+9056547	744	752	dementia	DiseaseClass	D003704
+9056547	756	777	personality disorders	DiseaseClass	D010554
+9056547	1047	1069	PLP-associated disease	DiseaseClass	OMIM:312080+OMIM:312920
+
+8790412|t|The hybrid PAX3-FKHR fusion protein of alveolar rhabdomyosarcoma transforms fibroblasts in culture.
+8790412|a|Pediatric alveolar rhabdomyosarcoma is characterized by a chromosomal translocation that fuses parts of the PAX3 and FKHR genes. PAX3 codes for a transcriptional regulator that controls developmental programs, and FKHR codes for a forkhead-winged helix protein, also a likely transcription factor. The PAX3-FKHR fusion product retains the DNA binding domains of the PAX3 protein and the putative activator domain of the FKHR protein. The PAX3-FKHR protein has been shown to function as a transcriptional activator. Using the RCAS retroviral vector, we have introduced the PAX3-FKHR gene into chicken embryo fibroblasts. Expression of the PAX3-FKHR protein in these cells leads to transformation  the cells become enlarged, grow tightly packed and in multiple layers, and acquire the ability for anchorage-independent growth. This cellular transformation in vitro will facilitate studies on the mechanism of PAX3-FKHR-induced oncogenesis.. 
+8790412	39	64	alveolar rhabdomyosarcoma	SpecificDisease	D018232
+8790412	100	135	Pediatric alveolar rhabdomyosarcoma	SpecificDisease	D018232
+
+8786135|t|Comparative genome mapping of the ataxia-telangiectasia region in mouse, rat, and Syrian hamster.
+8786135|a|Chromosomal locations of the Atm (ataxia-telangiectasia (AT) -mutated) and Acat1 (mitochondrial acetoacetyl-CoA thiolase) genes in mouse, rat, and Syrian hamster were determined by direct R-banding FISH. Both genes were colocalized to the C-D band of mouse chromosome 9, the proximal end of q24. 1 of rat chromosome 8, and qa4-qa5 of Syrian hamster chromosome 12. The regions in the mouse and rat were homologous to human chromosome 11q. Fine genetic linkage mapping of the mouse AT region was performed using the interspecific backcross mice. Atm, Acat1, and Npat, which is a new gene isolated from the AT region, and 12 flanking microsatellite DNA markers were examined. No recombinations were found among the Atm, Npat, Acat1, and D9Mit6 loci, and these loci were mapped 2. 0 cM distal to D9Mit99 and 1. 3 cM proximal to D9Mit102. Comparison of the linkage map of mouse chromosome 9 (MMU9) and that of human chromosome 11 (HSA11) indicates that there is a chromosomal rearrangement due to an inversion between Ets1 and Atm-Npat-Acat1 and that the inversion of MMU9 originated from the chromosomal breakage at the boundary between Gria4 and Atm-Npat-Acat1 on HSA11. This type of inversion appeared to be conserved in the three rodent species, mouse, rat, and Syrian hamster, using additional comparative mapping data with the Rck gene 
+8786135	34	55	ataxia-telangiectasia	Modifier	D001260
+8786135	132	153	ataxia-telangiectasia	Modifier	D001260
+8786135	155	157	AT	Modifier	D001260
+8786135	578	580	AT	Modifier	D001260
+
+8828602|t|Gene therapy for phenylketonuria.
+8828602|a|Classical phenylketonuria (PKU) is an autosomal recessive disorder caused by a deficiency of hepatic phenylalanine hydroxylase (PAH). Limitations of the current dietary treatment for PKU have led to the development of potential treatments based on somatic gene transfer. Three different vector systems have been examined. Vectors derived from a recombinant retrovirus or a DNA/protein complex can efficiently transduce the PAH cDNA into PAH-deficient hepatocytes in vitro, but the application of these vector systems is presently limited by their low transduction efficiency in vivo. In contrast, a vector derived from a recombinant adenovirus can restore 10% -80% of normal hepatic PAH activity into PAH-deficient mice, which completely normalizes serum phenylalanine levels. This treatment is transient and cannot be effectively re-administered due to the presence of neutralizing antibodies directed against the recombinant adenoviral vector. However, these findings suggest that PKU can be completely corrected by somatic gene therapy, and provide some direction for the future development of adenoviral vectors.. 
+8828602	17	32	phenylketonuria	SpecificDisease	D010661
+8828602	44	59	phenylketonuria	SpecificDisease	D010661
+8828602	61	64	PKU	SpecificDisease	D010661
+8828602	72	100	autosomal recessive disorder	DiseaseClass	D030342
+8828602	113	160	deficiency of hepatic phenylalanine hydroxylase	SpecificDisease	OMIM:261600
+8828602	217	220	PKU	SpecificDisease	D010661
+8828602	471	484	PAH-deficient	Modifier	OMIM:261600
+8828602	735	748	PAH-deficient	Modifier	OMIM:261600
+8828602	1017	1020	PKU	SpecificDisease	D010661
+
+8944023|t|Identification of a RING protein that can interact in vivo with the BRCA1 gene product.
+8944023|a|The hereditary breast and ovarian cancer gene, BRCA1, encodes a large polypeptide that contains the cysteine-rich RING motif, a zinc-binding domain found in a variety of regulatory proteins. Here we describe a novel protein that interacts in vivo with the N-terminal region of BRCA1. This BRCA1-associated RING domain (BARD1) protein contains an N-terminal RING motif, three tandem ankyrin repeats, and a C-terminal sequence with significant homology to the phylogenetically conserved BRCT domains that lie near the C terminus of BRCA1. The BARD1/BRCA1 interaction is disrupted by BRCA1 missense mutations that segregate with breast cancer susceptibility, indicating that BARD1 may be involved in mediating tumour suppression by BRCA1.. 
+8944023	92	128	hereditary breast and ovarian cancer	Modifier	D061325
+8944023	714	727	breast cancer	Modifier	D001943
+8944023	795	801	tumour	Modifier	D009369
+
+8675707|t|Increased coronary heart disease in Japanese-American men with mutation in the cholesteryl ester transfer protein gene despite increased HDL levels.
+8675707|a|Plasma high density lipoprotein (HDL) levels are strongly genetically determined and show a general inverse relationship with coronary heart disease (CHD). The cholesteryl ester transfer protein (CETP) mediates the transfer of cholesteryl esters from HDL to other lipoproteins and is a key participant in the reverse transport of cholesterol from the periphery to the liver. A high prevalence of two different CETP gene mutations (D442G, 5. 1%; intron 14G  A, 0. 5%), was found in 3, 469 men of Japanese ancestry in the Honolulu Heart Program and mutations were associated with decreased CETP (-35%) and increased HDL chol levels (+ 10% for D442G). However, the overall prevalence of definite CHD was 21% in men with mutations and 16% in men without mutations. The relative risk (RR) of CHD was 1. 43 in men with mutations (P <. 05); after adjustment for CHD risk factors, the RR was 1. 55 (P =. 02); after additional adjustment for HDL levels, the RR was 1. 68 (P =. 008). Similar RR values were obtained for the D442G mutation alone. Increased CHD in men with mutations was primarily observed for HDL chol 41-60 mg/dl; for HDL chol > 60 mg/dl men with and without mutations had low CHD prevalence. Thus, genetic CETP deficiency appears to be an independent risk factor for CHD, primarily due to increased CHD prevalence in men with the D442G mutation and HDL cholesterol between 41 and 60 mg/dl. The findings suggest that both HDL concentration and the dynamics of cholesterol transport through HDL (i. e., reverse cholesterol transport) determine the anti-atherogenicity of the HDL fraction.
+8675707	10	32	coronary heart disease	SpecificDisease	D003327
+8675707	275	297	coronary heart disease	SpecificDisease	D003327
+8675707	299	302	CHD	SpecificDisease	D003327
+8675707	842	845	CHD	SpecificDisease	D003327
+8675707	936	939	CHD	SpecificDisease	D003327
+8675707	1004	1007	CHD	Modifier	D003327
+8675707	1195	1198	CHD	SpecificDisease	D003327
+8675707	1333	1336	CHD	SpecificDisease	D003327
+8675707	1363	1378	CETP deficiency	SpecificDisease	OMIM:143470
+8675707	1424	1427	CHD	SpecificDisease	D003327
+8675707	1456	1459	CHD	Modifier	D003327
+
+8968760|t|Ataxia-telangiectasia: founder effect among north African Jews.
+8968760|a|The ATM gene is responsible for the autosomal recessive disorder ataxia-telangiectasia (A-T), characterized by cerebellar degeneration, immunodeficiency and cancer predisposition. A-T carriers were reported to be moderately cancer-prone. A wide variety of A-T mutations, most of which are unique to single families, were identified in various ethnic groups, precluding carrier screening with mutation-specific assays. However, a single mutation was observed in 32/33 defective ATM alleles in Jewish A-T families of North African origin, coming from various regions of Morocco and Tunisia. This mutation, 103C-- > T, results in a stop codon at position 35 of the ATM protein. In keeping with the nature of this mutation, various antibodies directed against the ATM protein failed to defect this protein in patient cells. A rapid carrier detection assay detected this mutation in three out of 488 ATM alleles of Jewish Moroccan or Tunisian origin. This founder effect provides a unique opportunity for population-based screening for A-T carriers in a large Jewish community.. 
+8968760	0	21	Ataxia-telangiectasia	SpecificDisease	D001260
+8968760	100	128	autosomal recessive disorder	DiseaseClass	D030342
+8968760	129	150	ataxia-telangiectasia	SpecificDisease	D001260
+8968760	152	155	A-T	SpecificDisease	D001260
+8968760	175	198	cerebellar degeneration	DiseaseClass	D013132
+8968760	200	216	immunodeficiency	DiseaseClass	D007153
+8968760	221	242	cancer predisposition	DiseaseClass	D009369
+8968760	244	247	A-T	Modifier	D001260
+8968760	288	300	cancer-prone	DiseaseClass	D009369
+8968760	320	323	A-T	Modifier	D001260
+8968760	563	566	A-T	Modifier	D001260
+8968760	1095	1098	A-T	Modifier	D001260

@@ -1,0 +1,11 @@
+12098649|t|Lack of association between estrogen receptor 1 gene polymorphisms and multiple sclerosis in southern Italy in humans.
+12098649|a|Estrogen receptor 1 gene polymorphisms (ESR1) have been found to be associated with multiple sclerosis (MS) in both Japanese and Finnish populations. We investigated the association between ESR1 polymorphisms (PvuII and XbaI) and MS in a study of 132 MS patients and 129 controls from the same geographic background (southern Italy). Allelic and genotypic frequencies were not different between MS patients and population controls for either the PvuII or XbaI polymorphism. This result suggests that the association between a given disease and a genomic characteristic must be confirmed by separate investigations in different populations.
+12098649	28	47	estrogen receptor 1	Gene	2099
+12098649	71	89	multiple sclerosis	Disease	D009103
+12098649	119	138	Estrogen receptor 1	Gene	2099
+12098649	159	163	ESR1	Gene	2099
+12098649	203	221	multiple sclerosis	Disease	D009103
+12098649	223	225	MS	Disease	D009103
+12098649	309	313	ESR1	Gene	2099
+12098649	349	351	MS	Disease	D009103
+12098649	514	516	MS	Disease	D009103

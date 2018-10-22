@@ -1,0 +1,24 @@
+10381787|t|Dose-dependent inhibition of platelet cyclooxygenase-1 and monocyte cyclooxygenase-2 by meloxicam in healthy subjects.
+10381787|a|We evaluated whether therapeutic blood levels of meloxicam are associated with selective inhibition of monocyte cyclooxygenase (COX)-2 in vitro and ex vivo. Concentration-response curves for the inhibition of monocyte COX-2 and platelet COX-1 were obtained in vitro after the incubation of meloxicam with whole blood samples. Moreover, 11 healthy volunteers received placebo or 7.5 or 15 mg/day meloxicam, each treatment for 7 consecutive days, according to a randomized, double-blind, crossover design. Before dosing and 24 h after the seventh dose of each regimen, heparinized whole blood samples were incubated with lipopolysaccharide (10 microgram/ml) for 24 h at 37 degrees C, and prostaglandin E2 was measured in plasma as an index of monocyte COX-2 activity. The production of thromboxane B2 in whole blood allowed to clot at 37 degrees C for 60 min was assessed as an index of platelet COX-1 activity. The administration of placebo did not significantly affect plasma prostaglandin E2 (21. 3 +/- 7.5 versus 19.1 +/- 4 ng/ml, mean +/- S.D., n = 11) or serum thromboxane B2 (426 +/- 167 versus 425 +/- 150 ng/ml) levels. In contrast, the administration of 7.5 and 15 mg of meloxicam caused dose-dependent reductions in monocyte COX-2 activity by 51% and 70%, respectively, and in platelet COX-1 activity by 25% and 35%, respectively. Although the IC50 value of meloxicam for inhibition of COX-1 was 10-fold higher than the IC50 value of COX-2 in vitro, this biochemical selectivity was inadequate to clearly separate the effects of meloxicam on the two isozymes after oral dosing as a function of the daily dose and interindividual variation in steady-state plasma levels.
+10381787	T10	CHEMICAL	1095	1111	prostaglandin E2
+10381787	T11	CHEMICAL	88	97	meloxicam
+10381787	T12	GENE-Y	231	253	cyclooxygenase (COX)-2
+10381787	T13	GENE-Y	1353	1358	COX-2
+10381787	T14	GENE-Y	1414	1419	COX-1
+10381787	T15	GENE-Y	1514	1519	COX-1
+10381787	T16	GENE-Y	1562	1567	COX-2
+10381787	T17	GENE-Y	337	342	COX-2
+10381787	T18	GENE-Y	356	361	COX-1
+10381787	T19	GENE-Y	869	874	COX-2
+10381787	T1	CHEMICAL	1184	1198	thromboxane B2
+10381787	T20	GENE-Y	1013	1018	COX-1
+10381787	T21	GENE-Y	38	54	cyclooxygenase-1
+10381787	T22	GENE-Y	68	84	cyclooxygenase-2
+10381787	T2	CHEMICAL	1298	1307	meloxicam
+10381787	T3	CHEMICAL	1486	1495	meloxicam
+10381787	T4	CHEMICAL	1657	1666	meloxicam
+10381787	T5	CHEMICAL	409	418	meloxicam
+10381787	T6	CHEMICAL	514	523	meloxicam
+10381787	T7	CHEMICAL	168	177	meloxicam
+10381787	T8	CHEMICAL	805	821	prostaglandin E2
+10381787	T9	CHEMICAL	903	917	thromboxane B2
