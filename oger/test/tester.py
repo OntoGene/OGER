@@ -265,16 +265,16 @@ def txt_collection(outputdir):
     # Is there a way to make that nicer?
 
 def pxmlgz(outputdir):
-    _multiple_outfmts(outputdir, 'pxml.gz')
+    _multiple_outfmts(outdir(outputdir), 'pxml.gz')
 
 def pxml_directory(outputdir):
-    _multiple_outfmts(outputdir, 'pxml')
+    _multiple_outfmts(outdir(outputdir), 'pxml')
 
 def _multiple_outfmts(outputdir, fmt):
     for mode in ['collection', 'document']:
         export = ' '.join(OUTPUT_FORMATS)
         testlogger.info('-> %s (%s mode)', export, mode)
-        output = outdir(outputdir, mode)
+        output = '_'.join((outputdir, mode))
         misc = '-c fn-format-out {fmt}/{id}.{ext}'
         arguments = make_arguments(format=fmt,
                                    output=output,
