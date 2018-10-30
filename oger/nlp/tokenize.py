@@ -12,6 +12,7 @@ Canonical interface for basic NLP tasks.
 import os.path
 import re
 import ast
+import pickle
 
 import nltk
 from lxml import etree as ET
@@ -36,7 +37,8 @@ class Text_processing(object):
         self.word_tokenizer = self._create_word_tokenizer(word_tokenizer)
         self.sentence_tokenizer = self._create_sentence_tokenizer(sentence_tokenizer)
 
-    def _create_word_tokenizer(self, name):
+    @staticmethod
+    def _create_word_tokenizer(name):
         """
         Here you can add supported word tokenizers.
 
@@ -58,18 +60,19 @@ class Text_processing(object):
             return RegexTokenizer(arg)
 
         else:
-            raise NotImplementedError(
-                'Word tokenizer: {}'.format(self.word_tokenizer))
+            raise ValueError('Unknown word tokenizer: {}'.format(name))
 
-    def _create_sentence_tokenizer(self, name):
+    @staticmethod
+    def _create_sentence_tokenizer(name):
         """Here you can add supported sentence tokenizers."""
         if name == 'PunktSentenceTokenizer':
             from nltk.tokenize import PunktSentenceTokenizer
             return PunktSentenceTokenizer()
 
         else:
-            raise NotImplementedError(
-                'Sentence tokenizer: {}'.format(self.sentence_tokenizer))
+            # Try to open a pickled sentence tokenizer.
+            with open(name, 'rb') as f:
+                return pickle.load(f)
 
     def span_tokenize_sentences(self, text, offset=0):
         """
