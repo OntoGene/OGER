@@ -11,6 +11,7 @@ Canonical interface for basic NLP tasks.
 
 import os.path
 import re
+import ast
 
 import nltk
 from lxml import etree as ET
@@ -50,7 +51,11 @@ class Text_processing(object):
             return PunktWordTokenizer()
 
         elif name.startswith('RegexTokenizer'):
-            return eval(name)
+            # name is a Python expression for constructing a RegexTokenizer,
+            # eg. "RegexTokenizer(r'\w+|[^\W\S]+')\n".
+            # Strip off the class name and parse the argument.
+            arg = ast.literal_eval(name[len('RegexTokenizer'):])
+            return RegexTokenizer(arg)
 
         else:
             raise NotImplementedError(
