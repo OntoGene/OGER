@@ -15,6 +15,8 @@ which returns one or more normalization functions.
 import re
 import unicodedata
 
+from ..util.stream import text_stream
+
 # Note: more imports in some of the _load_* functions.
 # This avoids unnecessary imports that take a long time to load.
 
@@ -112,3 +114,38 @@ def _load_greektranslit():
         return letters.sub(_replace, token)
 
     return translit
+
+
+def _load_mask(repl='0', target='digits', *args):
+    '''
+    Mask certain tokens through a replacement.
+
+    The target parameter can be a special name like "digits"
+    or a path to a file with a list of targets (one token
+    per line).
+    '''
+    if args:
+        # Try to recover from filenames containing dashes,
+        # which were interpreted by the load function as
+        # argument separators.
+        target = '-'.join((target, *args))
+
+    if target == 'digits':
+        test = str.isdigit
+    elif target == 'numeric':
+        test = str.isnumeric
+    elif target == 'punct':
+        test = re.compile(r'[^\w\s]+').fullmatch
+    else:
+        # Read targets from a file.
+        with text_stream(target) as f:
+            target_tokens = frozenset(t.strip() for t in f)
+        test = target_tokens.__contains__
+
+    def mask(token):
+        '''Mask certain tokens.'''
+        if test(token):
+            return repl
+        return token
+
+    return mask
