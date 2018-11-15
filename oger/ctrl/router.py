@@ -99,11 +99,11 @@ class PipelineServer(object):
             yield loader.load_one(data, id_=None)
 
     def _get_loader(self, fmt, params):
-        conf = Router(self._conf, **params)  # if self._conf is None, forward it
+        conf = self._param_overload(params)
         return LOADERS[fmt](conf)
 
     def process(self, content):
-        'Process one article/collection.'
+        '''Run NER+linking on one article/collection.'''
         for er in self.ers:
             content.recognize_entities(er)
 
@@ -112,9 +112,32 @@ class PipelineServer(object):
         for pf in self.conf.postfilters:
             pf(content)
 
-    def export(self, content):
-        'Write an article/collection to disc.'
-        self.conf.export(content)
+    def export(self, content, **params):
+        '''Write an article/collection to disk.'''
+        conf = self._param_overload(params)
+        conf.export(content)
+
+    def write(self, content, fmt, stream, **params):
+        '''Write this article/collection to an open file.'''
+        exporter = self._get_exporter(fmt, params)
+        exporter.write(stream, content)
+
+    def dump(self, content, fmt, **params):
+        '''Serialise the article/collection to str or bytes.'''
+        exporter = self._get_exporter(fmt, params)
+        return exporter.dump(content)
+
+    def _get_exporter(self, fmt, params):
+        conf = self._param_overload(params)
+        return EXPORTERS[fmt](conf, fmt)
+
+    def _param_overload(self, params):
+        '''Create a new Router instance if necessary.'''
+        if params:
+            # If self._conf is None, forward it anyway.
+            return Router(self._conf, **params)
+        else:
+            return self.conf
 
 
 class Router(object):

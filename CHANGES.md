@@ -6,7 +6,8 @@
 - new input and output formats *pubtator* and *pubtator_fbk*
 - new normalization method *mask*
 - new parameters `byte-offsets-in` and `byte-offsets-out` for interpreting and producing BioC documents with byte-based offsets
-- fix a security hole involving eval()
+- improved PipelineServer class for library usage
+- fixed a security hole involving eval()
 - allow specifying a pretrained sentence splitter
 
 
