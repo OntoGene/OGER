@@ -60,18 +60,26 @@ class PipelineServer(object):
     Call setup() explicitly when it is needed.
     '''
     def __init__(self, conf=None):
-        self.conf = None
-        self.ers = None
-        self._postfilters = None
-        if conf is not None:
-            self.setup(conf)
+        self._conf = conf
 
-    def setup(self, conf):
-        'Make this server functional.'
-        self.conf = conf
-        # Get the lazy loaders now.
-        self.ers = conf.entity_recognizers
-        self._postfilters = conf.postfilters
+    @property
+    def conf(self):
+        '''A Router object holding configurations.'''
+        if self._conf is None:
+            self._conf = Router()  # initialize with default values
+        return self._conf
+
+    @property
+    def ers(self):
+        '''All entity recognizers.'''
+        return self.conf.entity_recognizers
+
+    def setup(self, conf, load_lazy=True):
+        '''Delayed setup.'''
+        self._conf = conf
+        if load_lazy:
+            _ = conf.postfilters
+            _ = conf.entity_recognizers
 
     def iter_contents(self, pointers=None):
         'Iterate over input articles/collections.'
@@ -91,7 +99,7 @@ class PipelineServer(object):
             yield loader.load_one(data, id_=None)
 
     def _get_loader(self, fmt, params):
-        conf = Router(self.conf, **params)
+        conf = Router(self._conf, **params)  # if self._conf is None, forward it
         return LOADERS[fmt](conf)
 
     def process(self, content):
@@ -101,7 +109,7 @@ class PipelineServer(object):
 
     def postfilter(self, content):
         'Postfilter an article/collection.'
-        for pf in self._postfilters:
+        for pf in self.conf.postfilters:
             pf(content)
 
     def export(self, content):
