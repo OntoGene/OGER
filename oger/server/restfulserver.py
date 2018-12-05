@@ -10,9 +10,9 @@ A RESTful API for OGER.
 
 
 import os
-import sys
 import json
 import logging
+import hashlib
 import argparse
 import datetime
 import multiprocessing as mp
@@ -464,13 +464,11 @@ class AnnotatorManager:
         struct = tuple(tuple(ep.iterparams()) for ep in conf.p.recognizers)
         return cls.hashtoken(struct)
 
-    _hash_mask = (1 << sys.hash_info.width) - 1
-
     @classmethod
     def hashtoken(cls, structure):
         'Create a hex token from a hashable structure.'
-        h = hash(structure)
-        return '{:X}'.format(h & cls._hash_mask)  # get rid of the sign
+        h = hashlib.sha1(repr(structure).encode()).hexdigest()
+        return h[-16:]  # 64 bits (same as Python's hash()) is enough
 
 
 class _Annotator:
