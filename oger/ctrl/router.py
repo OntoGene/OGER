@@ -56,11 +56,13 @@ class PipelineServer(object):
     Organise text processing and entity recognition.
 
     By initialising an object without conf (a Router instance),
-    the server setup is delayed.
-    Call setup() explicitly when it is needed.
+    default settings are used.
     '''
-    def __init__(self, conf=None):
+    def __init__(self, conf=None, lazy=True):
         self._conf = conf
+        if not lazy:
+            _ = conf.postfilters
+            _ = conf.entity_recognizers
 
     @property
     def conf(self):
@@ -73,13 +75,6 @@ class PipelineServer(object):
     def ers(self):
         '''All entity recognizers.'''
         return self.conf.entity_recognizers
-
-    def setup(self, conf, load_lazy=True):
-        '''Delayed setup.'''
-        self._conf = conf
-        if load_lazy:
-            _ = conf.postfilters
-            _ = conf.entity_recognizers
 
     def iter_contents(self, pointers=None):
         'Iterate over input articles/collections.'

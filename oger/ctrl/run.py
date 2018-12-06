@@ -101,7 +101,7 @@ def run_serial(conf, pointers=None):
     '''
     Run the pipeline for a series of articles or collections.
     '''
-    server = router.PipelineServer(conf)
+    server = router.PipelineServer(conf, lazy=False)
     level = 'collection' if conf.p.iter_mode == 'collection' else 'article'
     for content in server.iter_contents(pointers):
         logging.info('Processing %s %s', level, content.id_)

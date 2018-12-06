@@ -531,7 +531,7 @@ class BlockingAnnotator(_Annotator):
     '''
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self._server = router.PipelineServer(self.config)
+        self._server = router.PipelineServer(self.config, lazy=False)
 
     @staticmethod
     def is_ready():
@@ -587,7 +587,7 @@ class AsyncAnnotator(_Annotator):
         '''
         Run a PipelineServer instance in a child process.
         '''
-        server = router.PipelineServer(config)
+        server = router.PipelineServer(config, lazy=False)
         # Consume the start signal -- empty queue means ready.
         requests.get()
 
