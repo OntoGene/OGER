@@ -505,7 +505,7 @@ class Router(object):
         Import an external postfiltering function from an arbitrary module.
         '''
         # Get the function name, if defined.
-        func = 'postfilter'
+        func = 'postfilter'  # default function name
         try:
             p, f = path.rsplit(':', 1)
         except ValueError:
@@ -514,8 +514,11 @@ class Router(object):
             if f.isidentifier():
                 path, func = p, f
         # Import the module and access the respective function.
-        from importlib.machinery import SourceFileLoader
-        m = SourceFileLoader('postfilter', path).load_module()
+        if path == 'builtin':
+            import oger.post as m
+        else:
+            from importlib.machinery import SourceFileLoader
+            m = SourceFileLoader('postfilter', path).load_module()
         return getattr(m, func)
 
     def get_in_path(self, id_):
