@@ -16,6 +16,7 @@ import itertools as it
 from .document import Collection, Article, Entity
 from .load import CollLoader
 from .export import StreamFormatter
+from ..util.misc import tsv_format
 from ..util.stream import text_stream
 
 
@@ -45,10 +46,9 @@ class PubTatorLoader(CollLoader):
         for line in stream:
             if line.strip():
                 doc_lines.append(line)
-            else:
-                if doc_lines:
-                    yield doc_lines
-                    doc_lines = []
+            elif doc_lines:
+                yield doc_lines
+                doc_lines = []
         if doc_lines:
             yield doc_lines
 
@@ -151,7 +151,7 @@ class PubTatorFormatter(StreamFormatter):
     ext = 'txt'
 
     def write(self, stream, content):
-        tsv = csv.writer(stream, delimiter='\t', quotechar=None)
+        tsv = csv.writer(stream, **tsv_format)
         first = True
         for article in content.get_subelements('article', include_self=True):
             if first:

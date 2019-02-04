@@ -40,6 +40,15 @@ class BackwardsCompatibility:
                 'parameter %s is obsolete, use %s instead', obs, new)
 
 
+# CSV flavour for reading and writing TSV files.
+# Treat every character literally (including quotes).
+tsv_format = dict(
+    lineterminator='\n',  # ignored by csv.reader
+    delimiter='\t',
+    quotechar=None,
+)
+
+
 def codepoint_indices(text, codec, text2bytes=True):
     '''
     Create a mapping from text to byte offsets, or vice versa.

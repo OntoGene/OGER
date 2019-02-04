@@ -17,7 +17,7 @@ import os.path
 import logging
 
 from ..ctrl import parameters
-from ..util import stream
+from ..util import misc, stream
 from . import term_normalization as normalization
 from .term_tokenization import TermTokenizer
 
@@ -197,7 +197,7 @@ class EntityRecognizer(object):
         entry = ('',) * n_fields
 
         with stream.ropen(config.path, encoding='utf-8', newline='') as tsv:
-            reader = csv.reader(tsv, dialect=TSVDialect)
+            reader = csv.reader(tsv, escapechar='\\', **misc.tsv_format)
             if config.skip_header:
                 next(reader)
             for line_no, line in enumerate(reader, 1+config.skip_header):
@@ -469,21 +469,3 @@ class RegexAbbrevDetector(AbbrevDetector):
     def recognize_entities(self, sentence):
         for entity in super().recognize_entities(sentence):
             yield entity
-
-
-class TSVDialect(csv.Dialect):
-    '''
-    TSV dialect for reading the term list.
-
-    Treat every character literally (including quotes),
-    except for the tab character and the backslash.
-    The backslash escapes a literal tab or backslash.
-    '''
-    lineterminator = '\r\n'  # ignored by csv.reader
-    delimiter = '\t'
-    skipinitialspace = False
-    escapechar = '\\'
-    quoting = csv.QUOTE_NONE  # no special treatment of quote characters
-    quotechar = '"'
-    doublequote = False
-    strict = False  # no exceptions on invalid input

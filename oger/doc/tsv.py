@@ -14,6 +14,7 @@ import csv
 from .document import Sentence
 from .export import StreamFormatter
 from ..util.iterate import CacheOneIter
+from ..util.misc import tsv_format
 
 
 class TSVFormatter(StreamFormatter):
@@ -29,7 +30,7 @@ class TSVFormatter(StreamFormatter):
         self.extra_dummy = ('',) * len(self.extra_fields)
 
     def write(self, stream, content):
-        writer = csv.writer(stream, delimiter='\t', lineterminator='\n')
+        writer = csv.writer(stream, **tsv_format)
 
         if self.config.p.include_header:
             self._write_header(writer)
