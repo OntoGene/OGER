@@ -97,7 +97,7 @@ def jsonable_iterator(o):
     try:
         first = next(o)
     except AttributeError:
-        raise TypeError("{!r} is not JSON serializable".format(0))
+        raise TypeError("{!r} is not JSON serializable".format(o))
     except StopIteration:
         return ()
     else:
