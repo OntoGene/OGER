@@ -311,8 +311,9 @@ class Params(ParamBase):
 
         # Create instance variables which hide the class defaults.
         er_params = []
-        backw_comp = BackwardsCompatibility(
-            termlist_extra_fields='extra_fields')
+        backw_comp = BackwardsCompatibility({
+            'termlist_extra_fields': 'extra_fields',
+        })
         for key, value in backw_comp.items(params):
             if hasattr(self, key):
                 setattr(self, key, value)

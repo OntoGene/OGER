@@ -11,14 +11,15 @@ Miscellaneous utilities.
 
 import codecs
 import logging
+from collections.abc import Hashable
 
 
 class BackwardsCompatibility:
     '''
     Check changed parameters and report obsolete use.
     '''
-    def __init__(self, **renamed):
-        self.renamed = renamed
+    def __init__(self, changes):
+        self.changes = changes
         self._warnings = []
 
     def items(self, params):
@@ -26,9 +27,13 @@ class BackwardsCompatibility:
         Iterate over up-to-date key-value pairs.
         '''
         for key, value in params.items():
-            if key in self.renamed:
-                self._warnings.append((key, self.renamed[key]))
-                key = self.renamed[key]
+            if key in self.changes:
+                key, obs = self.changes[key], key
+                self._warnings.append((obs, key))
+            if hashable(value) and (key, value) in self.changes:
+                value, obs = self.changes[key, value], value
+                obs = '{} value {!r}'.format(key, obs)
+                self._warnings.append((obs, repr(value)))
             yield key, value
 
     def warnings(self):
@@ -38,6 +43,11 @@ class BackwardsCompatibility:
         for obs, new in self._warnings:
             logging.warning(
                 'parameter %s is obsolete, use %s instead', obs, new)
+
+
+def hashable(obj):
+    '''Test if this object is hashable.'''
+    return isinstance(obj, Hashable)
 
 
 # CSV flavour for reading and writing TSV files.
