@@ -93,8 +93,8 @@ class EntityRecognizer(object):
               [1] = term_type (or category),
               [2] = term_preferred_form,
               [3] = resource of origin
-              [4] = original ID (in the respective database),
-              [5] = OntoGene ID
+              [4] = native ID (in the respective database),
+              [5] = UMLS CUI
             )
         If additional fields were defined through `extra_fields`,
         then the value tuple is extended correspondingly.
@@ -242,7 +242,7 @@ class EntityRecognizer(object):
     @staticmethod
     def termlist_format_4(fields):
         '''
-        Legacy format with 4 columns, original ID first.
+        Legacy format with 4 columns, native ID first.
 
         [0] ID, [1] term, [2] type, [3] preferred form
         '''
@@ -254,10 +254,10 @@ class EntityRecognizer(object):
     @staticmethod
     def termlist_format_6(fields):
         '''
-        Like the legacy format, but including original DB and OntoGene ID.
+        Like the legacy format, but including original DB and UMLS CUI.
 
-        [0] original ID, [1] term, [2] type, [3] preferred form,
-        [4] resource from which it comes, [5] OntoGene ID
+        [0] native ID, [1] term, [2] type, [3] preferred form,
+        [4] resource from which it comes, [5] UMLS CUI
         '''
         term = fields[1]
         std = (fields[2], fields[3], fields[4], fields[0], fields[5])
@@ -267,10 +267,10 @@ class EntityRecognizer(object):
     @staticmethod
     def termlist_format_hub(fields):
         '''
-        Format produced by the Term Hub (OntoGene ID first).
+        Format produced by the Term Hub (UMLS CUI first).
 
-        [0] OntoGene ID, [1] resource from which it comes,
-        [2] original ID, [3] term, [4] preferred form, [5] type
+        [0] UMLS CUI, [1] resource from which it comes,
+        [2] native ID, [3] term, [4] preferred form, [5] type
         '''
         term = fields[3]
         std = (fields[5], fields[4], fields[1], fields[2], fields[0])
@@ -316,8 +316,8 @@ class EntityRecognizer(object):
             [1] type
             [2] preferred_form
             [3] resource (from which it comes)
-            [4] original_id
-            [5] ontogene_id
+            [4] native_id
+            [5] umls_cui
 
             * [3] and [5] are only useful if the termlist_format is 6 or hub.
 

@@ -404,7 +404,7 @@ class Entity(object):
 
     # Default fields defined by the termlist.
     std_fields = ('type', 'preferred_form',
-                  'original_resource', 'original_id', 'ontogene_id')
+                  'original_resource', 'native_id', 'umls_cui')
 
     def __init__(self, id_, text, start, end, info):
         self.id_ = id_
@@ -436,6 +436,11 @@ class Entity(object):
         return self.info[3]
 
     @property
+    def cui(self):
+        'UMLS CUI field.'
+        return self.info[4]
+
+    @property
     def extra(self):
         'Any additional fields.'
         return self.info[5:]
@@ -455,8 +460,7 @@ class Entity(object):
         if fields is None:
             fields = self.std_fields
         for label, value in zip(fields, self.info):
-            if label != 'ontogene_id':  # no use for the concept counter
-                yield label, value
+            yield label, value
 
     @classmethod
     def sort(cls, entities):

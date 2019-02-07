@@ -441,8 +441,8 @@ class ERParams(ParamBase):
     # Fields of the termlist TSV:
     # Possible values:
     #   4 (old format)
-    #   6 (extended old format, original ID first)
-    #   hub (Term-Hub format, OntoGene ID first)
+    #   6 (extended old format, native ID first)
+    #   hub (Bio-Term-Hub format, UMLS CUI first)
     field_format = 'hub'
     # Is the first line a column header that should be skipped?
     skip_header = False

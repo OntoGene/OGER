@@ -46,7 +46,8 @@ class TSVFormatter(StreamFormatter):
                    'ENTITY ID',
                    'ZONE',
                    'SENTENCE ID',
-                   'ORIGIN')
+                   'ORIGIN',
+                   'UMLS CUI')
         headers += self.extra_fields
         writer.writerow(headers)
 
@@ -91,7 +92,8 @@ class TSVFormatter(StreamFormatter):
                                  entity.cid,
                                  section_type,
                                  sent_id,
-                                 entity.db)
+                                 entity.db,
+                                 entity.cui)
                                 + entity.extra)
                 last_end = max(last_end, entity.end)
             # Add sparse lines for the remaining tokens.
@@ -123,4 +125,5 @@ class TSVFormatter(StreamFormatter):
                        '',
                        '',
                        sent_id,
+                       '',
                        '') + self.extra_dummy
