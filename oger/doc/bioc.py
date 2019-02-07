@@ -183,7 +183,7 @@ class BioCLoader(CollLoader, _OffsetMixin):
 
     def _meta_dict(self, node):
         'Read metadata into a dictionary.'
-        meta = {n: node.find(n).text for n in ('source', 'date', 'key')}
+        meta = {n: node.find(n).text or '' for n in ('source', 'date', 'key')}
         meta.update(self.infon_dict(node))
         return meta
 
