@@ -313,6 +313,7 @@ class Params(ParamBase):
         er_params = []
         backw_comp = BackwardsCompatibility({
             'termlist_extra_fields': 'extra_fields',
+            ('termlist_field_format', 'hub'): 'bth',
         })
         for key, value in backw_comp.items(params):
             if hasattr(self, key):
@@ -443,8 +444,8 @@ class ERParams(ParamBase):
     # Possible values:
     #   4 (old format)
     #   6 (extended old format, native ID first)
-    #   hub (Bio-Term-Hub format, UMLS CUI first)
-    field_format = 'hub'
+    #   bth (Bio-Term-Hub format, UMLS CUI first)
+    field_format = 'bth'
     # Is the first line a column header that should be skipped?
     skip_header = False
     # Non-public config: number of extra fields (derived from global option).
@@ -499,7 +500,7 @@ def parse_cmdline(args=None):
     Parse commandline arguments into a dict of parameters.
     '''
     ap = argparse.ArgumentParser(
-        description='Run the Ontogene pipeline.',
+        description='Run OGER locally.',
         usage='%(prog)s [OPTIONS] [-t (id|glob)] [POINTERS]',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         argument_default=argparse.SUPPRESS,

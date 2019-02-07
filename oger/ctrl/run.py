@@ -5,7 +5,7 @@
 
 
 '''
-Run the Python 3 version of the Ontogene pipeline from the command line.
+Run OGER from the command line.
 
 This module provides:
 - invocation of the command-line interface

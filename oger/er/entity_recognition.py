@@ -265,9 +265,9 @@ class EntityRecognizer(object):
         return term, std, extra
 
     @staticmethod
-    def termlist_format_hub(fields):
+    def termlist_format_bth(fields):
         '''
-        Format produced by the Term Hub (UMLS CUI first).
+        Format produced by the Bio Term Hub (UMLS CUI first).
 
         [0] UMLS CUI, [1] resource from which it comes,
         [2] native ID, [3] term, [4] preferred form, [5] type
@@ -319,7 +319,7 @@ class EntityRecognizer(object):
             [4] native_id
             [5] umls_cui
 
-            * [3] and [5] are only useful if the termlist_format is 6 or hub.
+            * [3] and [5] are only useful if the termlist_format is 6 or bth.
 
             If additional fields were defined in the constructor,
             the tuples are extended appropriately.
