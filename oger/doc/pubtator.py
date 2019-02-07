@@ -93,7 +93,11 @@ class PubTatorLoader(CollLoader):
         return line[i]
 
     def _section(self, fields):
-        label, text = fields
+        try:
+            label, text = fields
+        except ValueError:  # pipe character in text body
+            label = fields[0]
+            text = '|'.join(fields[1:])
         label = self._section_labels.get(label)
         return label, text
 

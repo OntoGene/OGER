@@ -1,6 +1,11 @@
 # Changes to the OG Python3 Pipeline
 
 
+## Version 1.2.1
+
+- bug fixes in input/output formats
+
+
 ## Version 1.2
 
 - new input and output formats *pubtator* and *pubtator_fbk*
