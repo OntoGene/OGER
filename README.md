@@ -100,6 +100,13 @@ The following third-party libraries need to be installed (pip should take care o
 
 If you use OGER in an academic context, please cite us:
 
+Lenz Furrer, Anna Jancso, Nicola Colic, and Fabio Rinaldi (2019):
+**OGER++: hybrid multi-type entity recognition**.
+In: *Journal of Cheminformatics* 11:7.
+DOI: [10.1186/s13321-018-0326-3](https://doi.org/10.1186/s13321-018-0326-3)
+| [PDF](https://jcheminf.biomedcentral.com/track/pdf/10.1186/s13321-018-0326-3)
+| [bibtex](https://github.com/OntoGene/OGER/wiki/attachments/furrer-et-al-2019.bib) |
+
 Lenz Furrer and Fabio Rinaldi (2017):
 **OGER: OntoGene's Entity Recogniser in the BeCalm TIPS Task**.
 In: *Proceedings of the BioCreative V.5 Challenge Evaluation Workshop*, pp. 175â€“182.
@@ -108,7 +115,7 @@ In: *Proceedings of the BioCreative V.5 Challenge Evaluation Workshop*, pp. 175â
 
 Marco Basaldella, Lenz Furrer, Carlo Tasso, and Fabio Rinaldi (2017):
 **Entity recognition in the biomedical domain using a hybrid approach**.
-In: *Journal of Biomedical Semantics* 8(1), 51.
+In: *Journal of Biomedical Semantics* 8:51.
 DOI: [10.1186/s13326-017-0157-6](https://doi.org/10.1186/s13326-017-0157-6)
 | [PDF](https://jbiomedsem.biomedcentral.com/track/pdf/10.1186/s13326-017-0157-6)
 | [bibtex](https://github.com/OntoGene/OGER/wiki/attachments/basaldella-et-al-2017.bib) |
