@@ -65,10 +65,12 @@ def _load_unicode(form='NFKC'):
 
 
 def _load_stem(which='lancaster'):
+    from functools import lru_cache
     from nltk.stem import LancasterStemmer, PorterStemmer
     options = {'lancaster': LancasterStemmer, 'porter': PorterStemmer}
     stemmer = options[which.lower()]
-    return stemmer().stem
+    cached_callable = lru_cache(2**16)(stemmer().stem)
+    return cached_callable
 
 
 def _load_greektranslit():
