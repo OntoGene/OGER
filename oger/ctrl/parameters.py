@@ -226,6 +226,8 @@ class Params(ParamBase):
 
     # Include the MeSH list, as a separate section (pxml, pxml.gz, pubmed).
     include_mesh = False
+    # In addition to the descriptor name, add an Entity with the MeSH ID (UI).
+    mesh_as_entities = False
     # Conflate all sections into one section (pxml, pxml.gz, pubmed, txt).
     # For txt, if single_section is False, blank lines separate sections.
     single_section = False

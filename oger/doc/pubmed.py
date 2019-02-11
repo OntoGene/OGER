@@ -12,11 +12,12 @@ Loaders for different formats provided by PubMed.
 
 import gzip
 import logging
+import itertools as it
 from urllib import request as url_request, parse as url_parse
 
 from lxml import etree
 
-from .document import Article
+from .document import Article, Entity
 from .load import _Loader, DocLoader, DocIterator, text_node
 
 
@@ -46,8 +47,11 @@ class _MedlineParser(_Loader):
             offset = article.subelements[-1].end
             sections = self._conflate_sections(sections, offset)
 
-        for label, text in sections:
+        anno_counter = it.count(1)
+        for label, text, anno in sections:
             article.add_section(label, text)
+            if any(anno):
+                self._insert_annotations(article[-1], anno, anno_counter)
 
         return article
 
@@ -58,24 +62,27 @@ class _MedlineParser(_Loader):
         Put the section headers into the text (unless it is "UNLABELLED").
         Append separators to each element.
         '''
-        flat = []
-        for label, text in sections:
+        # Temporary container for sentences, offsets and (optional) MeSH IDs.
+        flat = []  # type: List[Tuple[Tuple[str, int], Optional[str]]]
+        for label, text, anno in sections:
             if label not in ('UNLABELLED', 'Abstract'):
-                flat.append((label + ': ', offset))
+                flat.append(((label + ': ', offset), None))
                 offset += len(label) + 2
             if isinstance(text, str):
                 tok = self.config.text_processor
                 sents = tok.span_tokenize_sentences(text, offset)
-                flat.extend((sent, start) for sent, start, _ in sents)
+                flat.extend(((sent, start), None) for sent, start, _ in sents)
                 offset += len(text)
             else:
                 # List of MeSH headings.
-                for sent in text:
-                    flat.append((sent, offset))
+                for sent, ui in zip(text, anno):
+                    flat.append(((sent, offset), ui))
                     offset += len(sent)
-        yield 'Abstract', flat
+        text, anno = zip(*flat) if flat else ((), ())
+        yield 'Abstract', text, anno
 
     def _iter_sections(self, root):
+        placeholder = [None]
         for section in root.iterfind('.//AbstractText'):
             # Sectioned abstracts have a label attribute.
             # Otherwise, use the containing elem's tag as the label
@@ -86,15 +93,47 @@ class _MedlineParser(_Loader):
             label = section.get('Label')
             if label is None:
                 label = section.getparent().tag
-            yield label, text + '\n'
+            yield label, text + '\n', placeholder
 
         # Optionally add the MeSH list.
-        if self.config.p.include_mesh:
-            mesh = [entry.text + '\n'
+        add_anno = self.config.p.mesh_as_entities
+        if add_anno or self.config.p.include_mesh:
+            mesh = [(entry.text + '\n', entry.get('UI', 'unknown'))
                     for entry in root.iterfind('.//MeshHeading/DescriptorName')
                     if entry.text]
             if mesh:
-                yield 'MeSH descriptor names', mesh
+                names, uis = zip(*mesh)
+                if not add_anno:
+                    uis = [None for _ in uis]
+                yield 'MeSH descriptor names', names, uis
+
+    def _insert_annotations(self, section, uis, counter):
+        # Annotations come from the MeSH heading lists.
+        # They are annotated at document level, but OGER needs character
+        # offsets, so the names are included as text in a separate section
+        # in order to serve as an anchor for the Entity objects.
+        # Each descriptor name is included as a separate sentence.
+
+        # When constructing the Article object, an ID is recorded for every
+        # piece of text. It is a placeholder (None) most of the time.
+        # This allows dealing with the complexity introduced with the
+        # single-section option, which affects the offsets (among other things).
+
+        for sent, ui in zip(section, uis):
+            if ui is None:
+                continue
+            id_ = next(counter)
+            text = sent.text.rstrip()
+            start = sent.start
+            end = start + len(text)
+            info = self._entity_info(ui)
+            sent.entities.append(Entity(id_, text, start, end, info))
+
+    def _entity_info(self, native_id):
+        info = ['unknown'] * len(self.config.entity_fields)
+        info[2] = 'MeSH'
+        info[3] = native_id
+        return tuple(info)
 
 
 class _PMCParser(_Loader):
