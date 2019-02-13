@@ -269,7 +269,9 @@ class Router(object):
                 if id_ is None:
                     id_ = os.path.splitext(os.path.splitext(
                         os.path.basename(path))[0])[0] # split away .xml.gz
-                yield self._collection(id_, ((path,), ctxt, loader))
+                # Avoid repeated pointer parsing: make absolute and wrap.
+                path = [os.path.abspath(path)]
+                yield self._collection(id_, (path, ctxt, loader))
         elif self.p.article_format in ('pubmed', 'pmc',
                                        'becalmabstracts', 'becalmpatents'):
             # All documents belong to the same collection.
