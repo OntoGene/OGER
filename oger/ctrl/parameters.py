@@ -314,6 +314,8 @@ class Params(ParamBase):
         # Create instance variables which hide the class defaults.
         er_params = []
         backw_comp = BackwardsCompatibility({
+            ('article_format', 'bioc'): 'bioc_xml',
+            ('export_format', 'bioc'): 'bioc_xml',
             'termlist_extra_fields': 'extra_fields',
             ('termlist_field_format', 'hub'): 'bth',
         })

@@ -299,8 +299,8 @@ class Router(object):
             for chunk in iter_chunks(it, self.p.efetch_max_ids):
                 with ctxt.setcurrent():
                     yield from self._check_ids(chunk, loader)
-        elif self.p.article_format in ('bioc', 'pxml.gz', 'txt_json',
-                                       'pubtator', 'pubtator_fbk'):
+        elif self.p.article_format in ('bioc_xml', 'bioc_json', 'pxml.gz',
+                                       'txt_json', 'pubtator', 'pubtator_fbk'):
             for path, id_ in self.iter_path_ID(pointers):
                 with ctxt.setcurrent(id_):
                     yield from loader.iter_documents(path)

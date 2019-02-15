@@ -10,6 +10,7 @@ Streaming utilities.
 
 
 import io
+import os
 import codecs
 import urllib.request
 
@@ -41,3 +42,14 @@ def text_stream(source, encoding='utf-8', **kwargs):
         return source
     # Source is a path/URL.
     return ropen(source, encoding=encoding, **kwargs)
+
+
+def basename(source):
+    '''
+    Try to get a base filename.
+    '''
+    if hasattr(source, 'name'):
+        source = source.name
+    if isinstance(source, str):
+        return os.path.basename(source)
+    return None

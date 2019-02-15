@@ -65,7 +65,7 @@ TESTCASES = [
     'pxmlgz',
     'pxml_directory',
     'pxml_id',
-    'bioc',
+    'bioc_xml',
     'download_pubmed',
     'download_pmc',
     'download_bad_pmc',
@@ -316,9 +316,9 @@ def pxml_id(outputdir):
                                miscellaneous='-b pubmed')
     run_with_arguments(arguments)
 
-def bioc(outputdir):
-    output = join(outputdir, 'bioc')
-    arguments = make_arguments(format='bioc',
+def bioc_xml(outputdir):
+    output = join(outputdir, 'bioc_xml')
+    arguments = make_arguments(format='bioc_xml',
                                output=output,
                                export='xml')
     run_with_arguments(arguments)

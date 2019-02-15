@@ -9,6 +9,7 @@ Loader and formatter for BioC XML.
 '''
 
 
+import json
 import logging
 from collections import OrderedDict
 
@@ -20,6 +21,7 @@ from .load import CollLoader, text_node
 from .export import XMLMemoryFormatter, StreamFormatter
 from ..util.iterate import peekaheaditer, json_iterencode
 from ..util.misc import iter_codepoint_indices_utf8, iter_byte_indices_utf8
+from ..util.stream import text_stream, basename
 
 
 class _OffsetMixin:
@@ -27,11 +29,12 @@ class _OffsetMixin:
     Mixin for byte-offset handling.
     '''
     def _offset_mngr(self):
-        if isinstance(self, BioCLoader):
+        if isinstance(self, _BioCLoader):
+            fmt = 'xml' if isinstance(self, BioCXMLLoader) else 'json'
             if self.config.p.byte_offsets_in:
-                return ByteOffsetReader()
+                return ByteOffsetReader(fmt)
             else:
-                return OffsetReader()
+                return OffsetReader(fmt)
         else:
             if self.config.p.byte_offsets_out:
                 return ByteOffsetWriter()
@@ -39,56 +42,40 @@ class _OffsetMixin:
                 return OffsetWriter()
 
 
-class BioCLoader(CollLoader, _OffsetMixin):
+class _BioCLoader(CollLoader, _OffsetMixin):
     '''
-    Parser for BioC XML.
+    Base class for BioC parsing.
 
     Currently, any existing relation nodes are discarded.
     '''
+
     def __init__(self, config):
         super().__init__(config)
         self._warned_already = set()  # cache warnings
 
     def collection(self, source, id_):
-        '''
-        Read BioC XML into a document.Collection object.
-        '''
-        collection = Collection(id_)
-
-        it = peekaheaditer(self._iterparse(source))
-        coll_node = next(it).getparent()
+        coll_node, docs = self._parse_collection(source)
+        collection = Collection(id_, basename(source))
         collection.metadata = self._meta_dict(coll_node)
-
-        for doc in it:
+        for doc in docs:
             collection.add_article(self._article(doc))
-
         return collection
 
-    def iter_documents(self, source):
-        '''
-        Iterate over document.Article objects.
-        '''
-        for doc in self._iterparse(source):
-            yield self._article(doc)
-
-    @staticmethod
-    def _iterparse(source):
-        for _, node in etree.iterparse(source, tag='document'):
-            yield node
-            node.clear()
+    def _parse_collection(self, source):
+        raise NotImplementedError
 
     def _article(self, node):
         '''
         Read a document node into a document.Article object.
         '''
-        article = Article(node.find('id').text,
+        article = Article(self._text(node, 'id', ifnone=None),
                           tokenizer=self.config.text_processor)
         article.metadata = self.infon_dict(node)
         article.year = article.metadata.pop('year', None)
         article.type_ = article.metadata.pop('type', None)
 
         offset_mngr = self._offset_mngr()
-        for passage in node.iterfind('passage'):
+        for passage in self._iterfind(node, 'passage'):
             sec_type, text, offset, infon, anno = self._section(passage,
                                                                 offset_mngr)
             article.add_section(sec_type, text, offset)
@@ -96,7 +83,8 @@ class BioCLoader(CollLoader, _OffsetMixin):
             section.metadata = infon
             self._insert_annotations(section, anno)
             # Get infon elements on sentence level.
-            for sent, sent_node in zip(section, passage.iterfind('sentence')):
+            for sent, sent_node in zip(section,
+                                       self._iterfind(passage, 'sentence')):
                 sent.metadata = self.infon_dict(sent_node)
 
         return article
@@ -105,12 +93,12 @@ class BioCLoader(CollLoader, _OffsetMixin):
         '''Get all relevant data from a passage node.'''
         infon = self.infon_dict(node)
         type_ = infon.pop('type', None)
-        text = text_node(node, 'text', ifnone='')
+        text = self._text(node)
         if text is None:
             # Text and annotations at sentence level.
             offset = offset_mngr.start(node)
             text, anno = [], []
-            for sent in node.iterfind('sentence'):
+            for sent in self._iterfind(node, 'sentence'):
                 text.append(self._sentence(sent, offset_mngr))
                 anno.extend(self._get_annotations(sent, offset_mngr))
         else:
@@ -119,23 +107,21 @@ class BioCLoader(CollLoader, _OffsetMixin):
             anno = self._get_annotations(node, offset_mngr)
         return type_, text, offset, infon, anno
 
-    @staticmethod
-    def _sentence(node, offset_mngr):
-        'Get text and offset from a sentence node.'
-        text = text_node(node, 'text', ifnone='')
+    def _sentence(self, node, offset_mngr):
+        '''Get text and offset from a sentence node.'''
+        text = self._text(node)
         offset = offset_mngr.update(node, text)
         return text, offset
 
-    @staticmethod
-    def _get_annotations(node, offset_mngr):
+    def _get_annotations(self, node, offset_mngr):
         '''
         Iterate over annotations.
 
         Any non-contiguous annotation is split up into
         multiple contiguous annotations.
         '''
-        for anno in node.iterfind('annotation'):
-            for loc in anno.iterfind('location'):
+        for anno in self._iterfind(node, 'annotation'):
+            for loc in self._iterfind(anno, 'location'):
                 start, length = (int(loc.get(n)) for n in ('offset', 'length'))
                 end = offset_mngr.character(start+length)
                 start = offset_mngr.character(start)
@@ -163,14 +149,14 @@ class BioCLoader(CollLoader, _OffsetMixin):
             logging.warning('annotations outside character range')
 
     def _entity(self, anno, start, end):
-        'Create an Entity instance from a BioC annotation node.'
+        '''Create an Entity instance from a BioC annotation node.'''
         id_ = anno.get('id')
-        text = text_node(anno, 'text', ifnone='')
+        text = self._text(anno)
         info = self._entity_info(anno)
         return Entity(id_, text, start, end, info)
 
     def _entity_info(self, anno):
-        'Create an `info` tuple.'
+        '''Create an `info` tuple.'''
         infons = self.infon_dict(anno)
         values = tuple(infons.pop(label, 'unknown')
                        for label in self.config.entity_fields)
@@ -182,15 +168,79 @@ class BioCLoader(CollLoader, _OffsetMixin):
         return values
 
     def _meta_dict(self, node):
-        'Read metadata into a dictionary.'
-        meta = {n: node.find(n).text or '' for n in ('source', 'date', 'key')}
+        '''Read metadata into a dictionary.'''
+        meta = {n: self._text(node, n) for n in ('source', 'date', 'key')}
         meta.update(self.infon_dict(node))
         return meta
 
+    def infon_dict(self, node):
+        '''Read all infon nodes into a dictionary.'''
+        raise NotImplementedError
+
+    def _iterfind(self, node, query):
+        raise NotImplementedError
+
+    def _text(self, node, query='text', ifnone=''):
+        raise NotImplementedError
+
+
+class BioCXMLLoader(_BioCLoader):
+    '''
+    Parser for BioC XML.
+    '''
+
+    def _parse_collection(self, source):
+        docs = peekaheaditer(self._iterparse(source))
+        coll_node = next(docs).getparent()
+        return coll_node, docs
+
+    def iter_documents(self, source):
+        for doc in self._iterparse(source):
+            yield self._article(doc)
+
+    @staticmethod
+    def _iterparse(source):
+        for _, node in etree.iterparse(source, tag='document'):
+            yield node
+            node.clear()
+
+    def infon_dict(self, node):
+        return {n.attrib['key']: n.text for n in self._iterfind(node, 'infon')}
+
+    @staticmethod
+    def _iterfind(node, query):
+        return node.iterfind(query)
+
+    @staticmethod
+    def _text(node, query='text', ifnone=''):
+        return text_node(node, query, ifnone=ifnone)
+
+
+class BioCJSONLoader(_BioCLoader):
+    '''
+    Parser for BioC JSON.
+    '''
+
+    @staticmethod
+    def _parse_collection(source):
+        '''
+        Read BioC JSON into a document.Collection object.
+        '''
+        with text_stream(source) as f:
+            coll_node = json.load(f)
+        return coll_node, coll_node['documents']
+
     @staticmethod
     def infon_dict(node):
-        'Read all infon nodes into a dictionary.'
-        return {n.attrib['key']: n.text for n in node.iterfind('infon')}
+        return node.get('infons', {})
+
+    @staticmethod
+    def _iterfind(node, query):
+        return iter(node[query + 's'])
+
+    @staticmethod
+    def _text(node, query='text', ifnone=''):
+        return node.get(query, ifnone)
 
 
 class BioCXMLFormatter(XMLMemoryFormatter, _OffsetMixin):
@@ -503,10 +553,21 @@ class OffsetReader(_OffsetManager):
     '''
     Offset forwarding (dummy conversion) for reading BioC.
     '''
+    def __init__(self, unit_type):
+        super().__init__()
+        self._start = getattr(self, '_start_{}'.format(unit_type))
+
+    _start = None  # overriden by an instance attribute
+
     @staticmethod
-    def _start(unit):
+    def _start_xml(unit):
         # Unit is an lxml element.
         return int(unit.find('offset').text)
+
+    @staticmethod
+    def _start_json(unit):
+        # Unit is a dict.
+        return int(unit['offset'])
 
 
 class ByteOffsetReader(OffsetReader, _OffsetConverter):

@@ -13,7 +13,7 @@ from .txt import TXTLoader, TXTJSONLoader
 from .pubmed import PXMLLoader, PXMLFetcher, MedlineLoader, PMCLoader, PMCFetcher
 from .tsv import TSVFormatter
 from .xml import EntityXMLFormatter, TextXMLFormatter
-from .bioc import BioCLoader, BioCXMLFormatter, BioCJSONFormatter
+from .bioc import BioCXMLLoader, BioCJSONLoader, BioCXMLFormatter, BioCJSONFormatter
 from .odin import ODINFormatter
 from .brat import BratFormatter
 from .becalm import BeCalmAbstractFetcher, BeCalmPatentFetcher
@@ -27,7 +27,9 @@ from .pubtator import PubTatorFormatter, PubTatorFBKFormatter
 LOADERS = {
     'txt': TXTLoader,
     'txt_json': TXTJSONLoader,
-    'bioc': BioCLoader,
+    'bioc': BioCXMLLoader,  # keep for backwards compatibility
+    'bioc_xml': BioCXMLLoader,
+    'bioc_json': BioCJSONLoader,
     'becalmabstracts': BeCalmAbstractFetcher,
     'becalmpatents': BeCalmPatentFetcher,
     'pubmed': PXMLFetcher,
@@ -40,6 +42,7 @@ LOADERS = {
 }
 
 INFMTS = list(LOADERS.keys())
+INFMTS.remove('bioc')  # don't encourage obsolete names
 
 EXPORTERS = {
     'tsv': TSVFormatter,
