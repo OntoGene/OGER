@@ -66,6 +66,7 @@ TESTCASES = [
     'pxml_directory',
     'pxml_id',
     'bioc_xml',
+    'bioc_json',
     'download_pubmed',
     'download_pmc',
     'download_bad_pmc',
@@ -323,9 +324,12 @@ def bioc_xml(outputdir):
                                export='xml')
     run_with_arguments(arguments)
 
-    # this crashes when a document is not xml
-    # when the xml is broken
-    # or when it doesn't contain an ID element in the document element
+def bioc_json(outputdir):
+    output = join(outputdir, 'bioc_json')
+    arguments = make_arguments(format='bioc_json',
+                               output=output,
+                               export='pubtator')
+    run_with_arguments(arguments)
 
 def download_pubmed(outputdir):
     pointers = join(IDFILES, 'pubmed_pmids.txt')

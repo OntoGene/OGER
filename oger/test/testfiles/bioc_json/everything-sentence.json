@@ -1,0 +1,91 @@
+{
+  "date": "20130426",
+  "source": "Made up file to test that everything is allowed and processed. Has text in the sentences.",
+  "key": "everything.key",
+  "infons": {
+    "collection-infon-key": "collection-infon-value"
+  },
+  "documents": [
+    {
+      "passages": [
+        {
+          "offset": 0,
+          "relations": [
+            {
+              "nodes": [
+                {
+                  "role": "passage-relation",
+                  "refid": "RP1"
+                }
+              ],
+              "infons": {
+                "passage-relation-infon-key": "passage-relation-infon-value"
+              },
+              "id": "RP1"
+            }
+          ],
+          "infons": {
+            "passage-infon-key": "passage-infon-value"
+          },
+          "sentences": [
+            {
+              "text": "text of sentence",
+              "infons": {
+                "sentence-infon-key": "sentence-infon-value"
+              },
+              "annotations": [
+                {
+                  "text": "annotation text",
+                  "infons": {
+                    "annotation-infon-key": "annotation-infon-value"
+                  },
+                  "id": "S1",
+                  "locations": [
+                    {
+                      "length": 2,
+                      "offset": 1
+                    }
+                  ]
+                }
+              ],
+              "relations": [
+                {
+                  "nodes": [
+                    {
+                      "role": "sentence-relation",
+                      "refid": "RS1"
+                    }
+                  ],
+                  "infons": {
+                    "setence-relation-infon-key": "sentence-relation-infon-value"
+                  },
+                  "id": "RS1"
+                }
+              ],
+              "offset": 0
+            }
+          ],
+          "annotations": []
+        }
+      ],
+      "infons": {
+        "document-infon-key": "document-infon-value"
+      },
+      "id": "1",
+      "relations": [
+        {
+          "nodes": [
+            {
+              "role": "document-relation",
+              "refid": "RD1"
+            }
+          ],
+          "infons": {
+            "document-relation-infon-key": "document-relation-infon-value"
+          },
+          "id": "D1"
+        }
+      ]
+    }
+  ]
+}

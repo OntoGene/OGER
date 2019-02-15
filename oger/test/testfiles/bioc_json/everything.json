@@ -1,0 +1,69 @@
+{
+  "date": "20130426",
+  "source": "Made up file to test that everything is allowed and processed. Has text in the passage.",
+  "key": "everything.key",
+  "infons": {
+    "collection-infon-key": "collection-infon-value"
+  },
+  "documents": [
+    {
+      "passages": [
+        {
+          "text": "text of passage",
+          "offset": 0,
+          "relations": [
+            {
+              "nodes": [
+                {
+                  "role": "passage-relation",
+                  "refid": "RP1"
+                }
+              ],
+              "infons": {
+                "passage-relation-infon-key": "passage-relation-infon-value"
+              },
+              "id": "RP1"
+            }
+          ],
+          "infons": {
+            "passage-infon-key": "passage-infon-value"
+          },
+          "sentences": [],
+          "annotations": [
+            {
+              "text": "annotation text",
+              "infons": {
+                "annotation-infon-key": "annotation-infon-value"
+              },
+              "id": "P1",
+              "locations": [
+                {
+                  "length": 2,
+                  "offset": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "infons": {
+        "document-infon-key": "document-infon-value"
+      },
+      "id": "1",
+      "relations": [
+        {
+          "nodes": [
+            {
+              "role": "document-relation",
+              "refid": "RD1"
+            }
+          ],
+          "infons": {
+            "document-relation-infon-key": "document-relation-infon-value"
+          },
+          "id": "D1"
+        }
+      ]
+    }
+  ]
+}
