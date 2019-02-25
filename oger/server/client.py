@@ -11,8 +11,10 @@ Client parameters accepted by the API.
 
 IN_PARAMS = [
     'include_mesh',
+    'mesh_as_entities',
     'single_section',
     'sentence_split',
+    'byte_offsets_out',
     'sentence_tokenizer',
     'field_names',
 ]
@@ -20,7 +22,7 @@ OUT_PARAMS = [
     'include_header',
     'sentence_level',
     'bioc_meta',
-    'byte_offsets',
+    'byte_offsets_in',
     'word_tokenizer',
     'field_names',
 ]
@@ -58,7 +60,7 @@ class ParamHandler:
                 groups = self._targets[canonical_name]
             except KeyError:
                 if param not in ('dict', 'postfilter'):
-                    raise ValueError('unrecognised parameter: {}', param)
+                    raise ValueError('unrecognised parameter: {}'.format(param))
             else:
                 value = ' '.join(params.getlist(param))
                 for group in groups:
