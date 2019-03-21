@@ -1,6 +1,14 @@
 # Changes to the OG Python3 Pipeline
 
 
+## Version 1.3
+
+- new input format: *bioc_json*
+- built-in postfilters for removing subsumed/overlapping matches and frequent false positives
+- parameter `mesh-as-entities` for recognising MeSH descriptor names as entity annotations (*pubmed* and *pxml* format)
+- UMLS CUIs (given in the termlist) included in _bioc*_, *(text_)tsv* and *xml* output formats
+
+
 ## Version 1.2.1
 
 - bug fixes in input/output formats
