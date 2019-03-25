@@ -105,7 +105,7 @@
           mode = 'upload/',
           docid = '',
           query = query_string({
-            'postfilter': postfilter,
+            'postfilter': String(postfilter),  // enforce explicit false
             'dict': annotator === 'default' ? null : annotator});
       if (format === 'pubmed' || format === 'pmc') {
         mode = 'fetch/';

@@ -514,9 +514,12 @@ class _Annotator:
         '''
         Call each postfilter on the document.
         '''
-        if 'true' in filternames:
-            # Special value: use all filters.
+        # Special values: true/false enable/disable all filters.
+        # Specifying no filters explicitly defaults to enabling all too.
+        if 'true' in filternames or not filternames:
             filternames = self.postfilters.keys()
+        elif 'false' in filternames:
+            filternames = []
 
         for name in filternames:
             try:
