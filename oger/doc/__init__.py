@@ -21,6 +21,7 @@ from .becalm import BeCalmTSVFormatter, BeCalmJSONFormatter
 from .pubanno import PubAnnoJSONFormatter
 from .pubtator import PubTatorLoader, PubTatorFBKLoader
 from .pubtator import PubTatorFormatter, PubTatorFBKFormatter
+from .europepmc import EuPMCFormatter, EuPMCZipFormatter
 
 
 # Keep these mappings up to date.
@@ -59,6 +60,8 @@ EXPORTERS = {
     'pubanno_json': PubAnnoJSONFormatter,
     'pubtator': PubTatorFormatter,
     'pubtator_fbk': PubTatorFBKFormatter,
+    'europepmc': EuPMCFormatter,
+    'europepmc.zip': EuPMCZipFormatter,
 }
 
 OUTFMTS = list(EXPORTERS.keys())

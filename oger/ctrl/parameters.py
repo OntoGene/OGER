@@ -280,6 +280,9 @@ class Params(ParamBase):
     # - Brat format: fields that go into attribute annotations.
     brat_bin_attributes = ()  # binary attributes
     brat_mv_attributes = ()  # multi-valued attributes
+    # - Europe PMC format: global metadata.
+    #   Must be a mapping or a serialised JSON object.
+    eupmc_meta = ()
 
     # Hook for postfiltering an article or collection.
     # Path(s) to a module, optionally followed by a function name,
@@ -366,6 +369,7 @@ class Params(ParamBase):
         self.include_header = self.bool(self.include_header)
         self.sentence_level = self.bool(self.sentence_level)
         self.bioc_meta = self.mapping(self.bioc_meta, allow_None=True)
+        self.eupmc_meta = self.mapping(self.eupmc_meta)
 
         self.byte_offsets_in = self.bool(self.byte_offsets_in)
         self.byte_offsets_out = self.bool(self.byte_offsets_out)
