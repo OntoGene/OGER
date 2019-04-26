@@ -39,6 +39,7 @@ class CustomODINFormatter(doc.ODINFormatter):
 
 _exporters = (
     ('tsv', doc.TSVFormatter),
+    ('text_tsv', doc.TSVFormatter),
     ('xml', doc.EntityXMLFormatter),
     ('bioc', doc.BioCXMLFormatter),
     ('bioc_json', doc.BioCJSONFormatter),
@@ -82,7 +83,7 @@ def furbish_odin(node):
     customised at runtime by the user.)
     '''
     colors = cycle('cyan magenta gold chartreuse red lavender '
-                   'yellowgreen orange skyblue grey'.split())
+                   'yellowgreen orange skyblue grey pink green blue'.split())
     entity_colors = defaultdict(lambda: next(colors))
 
     for term in node.iterfind('.//Term'):
