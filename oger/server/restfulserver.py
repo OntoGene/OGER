@@ -193,15 +193,9 @@ def build_web_page(source, target):
     'Customise the entry page with available annotators.'
     page = ET.parse(source, parser=HTMLParser)
     radio_group = page.find('.//div[@id="div-ann-radios"]')
-    for name in list(ann_manager.additional):
+    ann_manager.purge()
+    for name in ann_manager.additional:
         ann = ann_manager.active[name]
-        # Check for dead annotators.
-        try:
-            ready = ann.is_ready()
-        except RuntimeError:
-            ann_manager.remove(name)
-            continue
-
         # Create a new radio button for each non-default annotator.
         args = dict(type='radio', name='annotator', value=name)
         node = ET.SubElement(radio_group, 'input', **args)
@@ -215,7 +209,7 @@ def build_web_page(source, target):
             radio_group[0].attrib.pop('checked', None)
             node.set('checked', 'checked')
         # Disable this annotator if not ready yet (even if pre-selected).
-        if not ready:
+        if not ann.is_ready():
             node.set('disabled', 'disabled')
         # If the targeted annotator is not ready yet,
         # disable the submit button as well.
@@ -234,6 +228,7 @@ def system_status():
     '''
     Check if the whole service is running.
     '''
+    ann_manager.purge()
     return {
         'status': 'running',
         'active annotation dictionaries': len(ann_manager.active),
@@ -415,6 +410,7 @@ class AnnotatorManager:
                                postfilter=(), **params)
 
         key = self.key(config)
+        self.purge()
         if key not in self.active:
             logging.info('Starting new annotator %s', key)
             self.active[key] = self.start(config, desc, blocking)
@@ -452,6 +448,14 @@ class AnnotatorManager:
         if not name:
             name = self.default
         return self.active[name]
+
+    def purge(self):
+        """Remove any dead annotators."""
+        for name, ann in list(self.active.items()):
+            try:
+                ann.is_ready()
+            except RuntimeError:
+                self.remove(name)
 
     def start(self, config, desc, blocking):
         'Initiate a new annotation server.'
