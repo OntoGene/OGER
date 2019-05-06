@@ -69,6 +69,7 @@
       function success(xmlhttp) {
         var response = JSON.parse(xmlhttp.responseText);
         if (response['status'] === 'loading') {
+          label.innerHTML = 'Loading...';
           // Recursively check again.
           setTimeout(function() {check_annotator(ann, timeout);}, timeout);
         } else if (response['status'] === 'ready') {

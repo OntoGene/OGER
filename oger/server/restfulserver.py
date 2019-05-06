@@ -122,7 +122,7 @@ def setup_logging():
 
 ann_manager = None  # this global variable is set in init()
 
-ANN = '/<ann:re:[0-9A-F]+>'
+ANN = '/<ann:re:[0-9a-f]+>'
 
 FETCH = '/fetch'
 UPLOAD = '/upload'
