@@ -12,6 +12,7 @@ Compute coverage of annotated terms with P/R/F1.
 import sys
 import logging
 import argparse
+from pathlib import Path
 from collections import defaultdict
 
 
@@ -190,6 +191,7 @@ def proc_from_contents(gold, anno, measure='strict', macro=False,
         key_field (int): primary sort key
         offset_fields (pair of int): where to find the offsets
         backmap (BackMap or None): pointers to original records
+        **out_params: passed to SelectionWriter()
     '''
     writer = SelectionWriter(out_params, pp_counts=measure != 'strict')
     judge = Evaluator(gold, measure, key_field, offset_fields)
@@ -621,50 +623,71 @@ class SelectionWriter(object):
               'counts')
 
     def __init__(self, selection, pp_counts=False):
+        """
+        Register handlers for the selected output.
+
+        Args:
+            selection (Dict[str, Any]): map labels to handlers
+                The keys must be one of self.labels.
+                The values can be a path-like (including the
+                special value "-" for STDOUT), an open file,
+                or a callback (a callable accepting a variable
+                number of arguments).
+            pp_counts (bool): include PP counts or not?
+        """
         self.record_selection = []
         self.coverage_selection = []
-        self.count_stream = None
+        self.count_handler = None
         self._open_streams = []
         self._count_labels = [l.upper() for l in self.labels[:3+pp_counts]]
 
         for i, label in enumerate(self.labels):
             try:
-                path = selection[label]
+                spec = selection[label]
             except KeyError:
                 continue
-            stream = self._open(path)
+            handler = self._get_handler(spec)
             if i < 4:
-                self.record_selection.append((i, stream))
+                self.record_selection.append((i, handler))
             elif i < 7:
-                self.coverage_selection.append((i-4, label.title(), stream))
+                self.coverage_selection.append((i-4, label.title(), handler))
             else:
-                self.count_stream = stream
+                self.count_handler = handler
 
     def write_records(self, items, backmap):
         'Write TP/FP/FN/PP records.'
-        for i, stream in self.record_selection:
+        for i, handler in self.record_selection:
             for record in items[i]:
                 for line in backmap.get(record):
-                    print(*line, sep='\t', file=stream)
+                    handler(*line)
 
     def write_coverage(self, prf):
         'Write P/R/F1 figures.'
-        for i, label, stream in self.coverage_selection:
-            print(label, prf[i], sep='\t', file=stream)
+        for i, label, handler in self.coverage_selection:
+            handler(label, prf[i])
 
     def write_counts(self, counts):
         'Write TP/FP/FN/PP counts.'
-        if self.count_stream is not None:
+        if self.count_handler is not None:
             for label, count in zip(self._count_labels, counts):
-                print(label, count, sep='\t', file=self.count_stream)
+                self.count_handler(label, count)
 
-    def _open(self, path):
-        if path == '-':
-            return sys.stdout
+    def _get_handler(self, spec):
+        if callable(spec):
+            return spec
+
+        if spec == '-':
+            stream = sys.stdout
+        elif hasattr(spec, 'write'):
+            stream = spec
         else:
-            stream = open(path, 'w', encoding='utf8')
+            stream = Path(spec).open('w', encoding='utf8')
             self._open_streams.append(stream)
-            return stream
+
+        def _handler(*args):
+            print(*args, sep='\t', file=stream)
+
+        return _handler
 
     def close(self):
         'Close any open filehandles.'
