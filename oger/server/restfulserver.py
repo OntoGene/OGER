@@ -278,15 +278,15 @@ def check_annotator(ann):
     Check if this annotator is ready.
     '''
     try:
-        ann = ann_manager.get(ann)
-        status = 'ready' if ann.is_ready() else 'loading'
+        annotator = ann_manager.get(ann)
+        status = 'ready' if annotator.is_ready() else 'loading'
     except KeyError as e:
         raise HTTPError(404, 'unknown dict: {}'.format(e), exception=e)
     except RuntimeError:
         ann_manager.remove(ann)
         status = 'crashed'
 
-    return {'description': ann.description, 'status': status}
+    return {'description': annotator.description, 'status': status}
 
 
 @delete('/dict' + ANN)
