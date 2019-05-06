@@ -9,9 +9,12 @@ Compute coverage of annotated terms with P/R/F1.
 '''
 
 
+import re
 import sys
 import logging
+import numbers
 import argparse
+import itertools as it
 from pathlib import Path
 from collections import defaultdict
 
@@ -311,8 +314,8 @@ class Evaluator(object):
         # Re-index the FN without offsets.
         gold = defaultdict(list)
         for record in fn:
-            start, end, rest = self._decompose_by_offset(record)
-            gold[rest].append((start, end, record))
+            spans, rest = self._decompose_by_offset(record)
+            gold[rest].append((spans, record))
 
         # In order not to miss potential pairings, sort all records by length.
         # If long-spanning records are paired first, they might shadow a sub-
@@ -328,17 +331,17 @@ class Evaluator(object):
                      for record in fp), key=self._lensort)
 
         # Look for any non-zero overlap.
-        for start, end, rest, record in fp:
-            for i, (g_start, g_end, g_record) in enumerate(gold.get(rest, ())):
-                if max(start, g_start) < min(end, g_end):
+        for spans, rest, record in fp:
+            for i, (g_spans, g_record) in enumerate(gold.get(rest, ())):
+                if self._overlap(spans, g_spans):
                     del gold[rest][i]  # avoid another match
                     yield record, g_record
-                    break
+                    break  # next FP record
 
     @staticmethod
-    def _lensort(start_end_rest):
+    def _lensort(record):
         'Sort decomposed records by length, then position.'
-        return start_end_rest[1]-start_end_rest[0], start_end_rest
+        return sum(e-s for s, e in record[0]), record
 
     def _decompose_by_offset(self, record):
         'Separate offsets from the rest of the record.'
@@ -346,12 +349,29 @@ class Evaluator(object):
         start, end, rest = None, None, []
         for i, item in enumerate(record):
             if i == start_field:
-                start = int(item)
+                start = self._parse_offset(item)
             elif i == end_field:
-                end = int(item)
+                end = self._parse_offset(item)
             else:
                 rest.append(item)
-        return start, end, tuple(rest)
+        spans = list(zip(start, end))
+        return spans, tuple(rest)
+
+    @staticmethod
+    def _parse_offset(offset):
+        """Accept multiple spans per record."""
+        if isinstance(offset, str):
+            offset = map(int, re.split(r'[ ,;]+', offset))
+        elif isinstance(offset, numbers.Number):
+            offset = [offset]
+        return sorted(offset)
+
+    @staticmethod
+    def _overlap(spans_a, spans_b):
+        """Does any span from A overlap with a span from B?"""
+        comb = it.product(spans_a, spans_b)
+        return any(max(starts) < min(ends)
+                   for starts, ends in (zip(a, b) for a, b in comb))
 
     def _update_counts(self, records):
         'Update previous counts with the lengths of new items.'
