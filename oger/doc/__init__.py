@@ -9,19 +9,17 @@ Internal text representation.
 '''
 
 
-from .txt import TXTLoader, TXTJSONLoader
-from .pubmed import PXMLLoader, PXMLFetcher, MedlineLoader, PMCLoader, PMCFetcher
-from .tsv import TSVFormatter
-from .xml import EntityXMLFormatter, TextXMLFormatter
-from .bioc import BioCXMLLoader, BioCJSONLoader, BioCXMLFormatter, BioCJSONFormatter
-from .odin import ODINFormatter
-from .brat import DualFormatter, TxtFormatter, BratAnnFormatter, BioNLPAnnFormatter
-from .becalm import BeCalmAbstractFetcher, BeCalmPatentFetcher
-from .becalm import BeCalmTSVFormatter, BeCalmJSONFormatter
-from .pubanno import PubAnnoJSONFormatter
-from .pubtator import PubTatorLoader, PubTatorFBKLoader
-from .pubtator import PubTatorFormatter, PubTatorFBKFormatter
-from .europepmc import EuPMCFormatter, EuPMCZipFormatter
+from .txt import *
+from .pubmed import *
+from .tsv import *
+from .xml import *
+from .bioc import *
+from .odin import *
+from .brat import *
+from .becalm import *
+from .pubanno import *
+from .pubtator import *
+from .europepmc import *
 
 
 # Keep these mappings up to date.
@@ -47,7 +45,7 @@ INFMTS.remove('bioc')  # don't encourage obsolete names
 
 EXPORTERS = {
     'tsv': TSVFormatter,
-    'txt': TxtFormatter,
+    'txt': TXTFormatter,
     'text_tsv': TSVFormatter,
     'xml': EntityXMLFormatter,
     'text_xml': TextXMLFormatter,

@@ -9,6 +9,9 @@ Formatter for Europe PMC's JSON-lines format.
 """
 
 
+__all__ = ['EuPMCFormatter', 'EuPMCZipFormatter']
+
+
 import io
 import json
 import zipfile

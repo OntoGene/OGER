@@ -9,6 +9,9 @@ Formatter for ODIN XML output.
 '''
 
 
+__all__ = ['ODINFormatter']
+
+
 import itertools as it
 from xml.etree.ElementTree import Element, ElementTree
 

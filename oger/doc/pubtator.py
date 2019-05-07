@@ -8,6 +8,9 @@
 Loader and formatter for the PubTator format.
 '''
 
+__all__ = ['PubTatorLoader', 'PubTatorFBKLoader',
+           'PubTatorFormatter', 'PubTatorFBKFormatter']
+
 
 import csv
 import logging

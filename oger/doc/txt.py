@@ -9,6 +9,9 @@ Loader for plain-text input.
 '''
 
 
+__all__ = ['TXTLoader', 'TXTJSONLoader']
+
+
 import os
 import io
 import json

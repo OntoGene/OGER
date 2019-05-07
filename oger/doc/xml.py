@@ -9,6 +9,9 @@ Formatter for simple XML output.
 '''
 
 
+__all__ = ['EntityXMLFormatter', 'TextXMLFormatter']
+
+
 from lxml.builder import E
 
 from .document import Collection

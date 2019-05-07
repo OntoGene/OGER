@@ -9,6 +9,9 @@ Formatter for TSV output (with/without context).
 '''
 
 
+__all__ = ['TSVFormatter']
+
+
 import csv
 
 from .document import Sentence

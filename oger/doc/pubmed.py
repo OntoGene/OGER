@@ -10,6 +10,10 @@ Loaders for different formats provided by PubMed.
 '''
 
 
+__all__ = ['MedlineLoader',
+           'PXMLLoader', 'PXMLFetcher', 'PMCLoader', 'PMCFetcher']
+
+
 import gzip
 import logging
 import itertools as it

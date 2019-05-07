@@ -11,6 +11,9 @@ http://www.pubannotation.org/docs/annotation-format/
 '''
 
 
+__all__ = ['PubAnnoJSONFormatter']
+
+
 import json
 
 from .document import Section

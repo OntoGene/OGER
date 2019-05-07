@@ -9,6 +9,10 @@ Formatter for the brat stand-off format.
 '''
 
 
+__all__ = ['DualFormatter',
+           'TXTFormatter', 'BratAnnFormatter', 'BioNLPAnnFormatter']
+
+
 import re
 import logging
 import itertools as it
@@ -24,7 +28,7 @@ class DualFormatter:
     def __init__(self, config, fmt_name):
         # Brat and BioNLP need two output files.
         # Create a subformatter for each.
-        self.txt = TxtFormatter(config, fmt_name)
+        self.txt = TXTFormatter(config, fmt_name)
         self.ann = AnnFormatter(config, fmt_name)
 
     def export(self, content):
@@ -51,7 +55,7 @@ class DualFormatter:
                 self.ann.dump(content))
 
 
-class TxtFormatter(StreamFormatter):
+class TXTFormatter(StreamFormatter):
     '''
     Plain text, on which the stand-off annotations are based.
     '''

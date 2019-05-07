@@ -9,6 +9,10 @@ Loader and formatter for BioC XML.
 '''
 
 
+__all__ = ['BioCXMLLoader', 'BioCJSONLoader',
+           'BioCXMLFormatter', 'BioCJSONFormatter']
+
+
 import json
 import logging
 from collections import OrderedDict
