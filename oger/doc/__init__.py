@@ -15,7 +15,7 @@ from .tsv import TSVFormatter
 from .xml import EntityXMLFormatter, TextXMLFormatter
 from .bioc import BioCXMLLoader, BioCJSONLoader, BioCXMLFormatter, BioCJSONFormatter
 from .odin import ODINFormatter
-from .brat import BratFormatter
+from .brat import DualFormatter, TxtFormatter, BratAnnFormatter, BioNLPAnnFormatter
 from .becalm import BeCalmAbstractFetcher, BeCalmPatentFetcher
 from .becalm import BeCalmTSVFormatter, BeCalmJSONFormatter
 from .pubanno import PubAnnoJSONFormatter
@@ -47,6 +47,7 @@ INFMTS.remove('bioc')  # don't encourage obsolete names
 
 EXPORTERS = {
     'tsv': TSVFormatter,
+    'txt': TxtFormatter,
     'text_tsv': TSVFormatter,
     'xml': EntityXMLFormatter,
     'text_xml': TextXMLFormatter,
@@ -54,7 +55,10 @@ EXPORTERS = {
     'bioc_xml': BioCXMLFormatter,
     'bioc_json': BioCJSONFormatter,
     'odin': ODINFormatter,
-    'brat': BratFormatter,
+    'bionlp': DualFormatter,
+    'bionlp.ann': BioNLPAnnFormatter,
+    'brat': DualFormatter,
+    'brat.ann': BratAnnFormatter,
     'becalm_tsv': BeCalmTSVFormatter,
     'becalm_json': BeCalmJSONFormatter,
     'pubanno_json': PubAnnoJSONFormatter,

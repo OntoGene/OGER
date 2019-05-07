@@ -17,15 +17,15 @@ from collections import defaultdict
 from .export import StreamFormatter
 
 
-class BratFormatter:
+class DualFormatter:
     '''
     Distributor for delegating to the actual formatters.
     '''
     def __init__(self, config, fmt_name):
-        # Brat needs two output files.
+        # Brat and BioNLP need two output files.
         # Create a subformatter for each.
-        self.txt = BratTxtFormatter(config, fmt_name)
-        self.ann = BratAnnFormatter(config, fmt_name)
+        self.txt = TxtFormatter(config, fmt_name)
+        self.ann = AnnFormatter(config, fmt_name)
 
     def export(self, content):
         '''
@@ -38,7 +38,8 @@ class BratFormatter:
         '''
         Write text and annotations to the same stream.
         '''
-        logging.warning('writing brat text and annotations to the same file')
+        logging.warning('writing %s text and annotations to the same file',
+                        self.txt.fmt_name)
         self.txt.write(stream, content)
         self.ann.write(stream, content)
 
@@ -50,15 +51,26 @@ class BratFormatter:
                 self.ann.dump(content))
 
 
-class BratTxtFormatter(StreamFormatter):
+class TxtFormatter(StreamFormatter):
     '''
-    Plain text, on which brat's stand-off annotations are based.
+    Plain text, on which the stand-off annotations are based.
     '''
     ext = 'txt'
 
     @staticmethod
     def write(stream, content):
         stream.writelines(content.iter_text())
+
+
+def AnnFormatter(config, fmt_name):
+    """Wrapper for brat and BioNLP constructors."""
+    if fmt_name == 'brat':
+        formatter = BratAnnFormatter
+    elif fmt_name == 'bionlp':
+        formatter = BioNLPAnnFormatter
+    else:
+        raise ValueError('unknown format: {}'.format(fmt_name))
+    return formatter(config, fmt_name)
 
 
 class BratAnnFormatter(StreamFormatter):
@@ -126,3 +138,23 @@ class BratAnnFormatter(StreamFormatter):
         else:
             # Binary attributes.
             return 'A{}\t{} T{}\n'.format(n_a, value, n_t)
+
+
+class BioNLPAnnFormatter(StreamFormatter):
+    '''
+    Stand-off annotations for BioNLP.
+    '''
+    ext = 'ann'
+    template = 'T{counter}\t{e.cid} {e.start} {e.end}\t{e.text}\n'
+
+    def write(self, stream, content):
+        counter = it.count(1)
+        for article in content.get_subelements('article', include_self=True):
+            self._write_anno(stream, article, counter)
+
+    def _write_anno(self, stream, article, counter):
+        '''
+        Write article-level annotations with continuous IDs.
+        '''
+        for entity, t in zip(article.iter_entities(), counter):
+            stream.write(self.template.format(counter=t, e=entity))
