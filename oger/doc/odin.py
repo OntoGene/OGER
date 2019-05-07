@@ -10,22 +10,30 @@ Formatter for ODIN XML output.
 
 
 import itertools as it
-
-from lxml.builder import E
+from xml.etree.ElementTree import Element, ElementTree
 
 from .document import Collection
-from .export import XMLMemoryFormatter
+from .export import StreamFormatter
 
 
-class ODINFormatter(XMLMemoryFormatter):
+class ODINFormatter(StreamFormatter):
     '''
     ODIN's XML for text and annotations.
     '''
+
+    ext = 'xml'
+    binary = True
+
     section_names = {
         'title': 'article-title',
         'abstract': 'abstract',
         'mesh descriptor names': 'mesh',
     }
+
+    def write(self, stream, content):
+        root = self._dump(content)
+        tree = ElementTree(root)
+        tree.write(stream, encoding='UTF-8', xml_declaration=True)
 
     def _dump(self, content):
         counters = [it.count(1) for _ in range(2)]  # continuous IDs
@@ -35,13 +43,13 @@ class ODINFormatter(XMLMemoryFormatter):
             return self._article(content, *counters)
 
     def _collection(self, coll, sent_ids, tok_ids):
-        node = E('collection')
+        node = Element('collection')
         for article in coll:
             node.append(self._article(article, sent_ids, tok_ids))
         return node
 
     def _article(self, article, sent_ids, tok_ids):
-        node = E('article', id=str(article.id_))
+        node = Element('article', id=str(article.id_))
 
         # Add sections.
         for section in article:
@@ -54,13 +62,13 @@ class ODINFormatter(XMLMemoryFormatter):
 
     def _section(self, section, sent_ids, tok_ids):
         tag = self.section_names.get(section.type_.lower(), 'section')
-        node = E(tag, id=str(section.id_))
+        node = Element(tag, id=str(section.id_))
         for sent, sent_id in zip(section, sent_ids):
             node.append(self._sentence(sent, section.start, sent_id, tok_ids))
         return node
 
     def _sentence(self, sent, section_offset, sent_id, tok_ids):
-        sent_node = E('S', i=str(sent.id_), id='S{}'.format(sent_id))
+        sent_node = Element('S', i=str(sent.id_), id='S{}'.format(sent_id))
 
         sent.tokenize()
 
@@ -103,10 +111,11 @@ class ODINFormatter(XMLMemoryFormatter):
         '''
         Offsets restart at each section.
         '''
-        node = E('W', tok.text,
-                 id='W{}'.format(cont_id),
-                 o1=str(tok.start - section_offset),
-                 o2=str(tok.end - section_offset))
+        node = Element('W',
+                       id='W{}'.format(cont_id),
+                       o1=str(tok.start - section_offset),
+                       o2=str(tok.end - section_offset))
+        node.text = tok.text
         return node
 
     def _itertoks(self, sent, tok_ids, section_offset):
@@ -162,8 +171,8 @@ class ODINFormatter(XMLMemoryFormatter):
         values = '|'.join('{}:{}:{}'.format(e.cid, e.type, e.text)
                           for e in entities)
         type_ = '|'.join(set(e.type for e in entities))
-        node = E('Term', allvalues=values, type=type_,
-                 o1=str(start-offset), o2=str(end-offset))
+        node = Element('Term', allvalues=values, type=type_,
+                       o1=str(start-offset), o2=str(end-offset))
         return start, end, node
 
     @staticmethod
@@ -180,14 +189,14 @@ class ODINFormatter(XMLMemoryFormatter):
 
     @staticmethod
     def _og_dict(article):
-        node = E('og-dict')
+        node = Element('og-dict')
         seen = set()
         for entity in article.iter_entities():
             id_ = entity.cid
             if id_ not in seen:
-                node.append(E('og-dict-entry',
-                              cid=str(id_),
-                              cname=entity.pref,
-                              type=entity.type))
+                node.append(Element('og-dict-entry',
+                                    cid=str(id_),
+                                    cname=entity.pref,
+                                    type=entity.type))
                 seen.add(id_)
         return node
