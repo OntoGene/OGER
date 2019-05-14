@@ -382,24 +382,22 @@ class Router(object):
         Iterate over pairs <input path, ID>.
 
         IDs might be None.
-        The paths are either absolute or relative to the
-        current working directory.
+        The paths are expanded, ie. they are either absolute
+        or relative to the current working directory.
         '''
+        for path, id_ in self._iter_relpath_ID(pointers):
+            yield os.path.join(self.p.input_directory, path), id_
+
+    def _iter_relpath_ID(self, pointers):
+        """Iterate over path-ID pairs, relative to input_directory."""
         if self.p.pointer_type == 'id':
             # ID-based path: both path and ID are known.
             for id_ in self._iter_ids(pointers):
-                yield self.get_in_path(id_), id_
+                yield self._get_rel_in_path(id_), id_
         else:
             # Directory walk: no ID info.
-            for path in self._iter_paths(pointers):
+            for path in self._iter_relpaths(pointers):
                 yield path, None
-
-    def _iter_paths(self, paths):
-        '''
-        Iterate over expanded paths (absolute or relative to the CWD).
-        '''
-        for path in self._iter_relpaths(paths):
-            yield os.path.join(self.p.input_directory, path)
 
     def _iter_relpaths(self, paths):
         '''
@@ -423,40 +421,26 @@ class Router(object):
             with open(e.pointers) as f:
                 yield from self._parse_pointers(f)
 
-    def _iter_subdirs(self, paths):
+    def _iter_subdirs(self, pointers):
         '''
-        Iterate over pairs <subdir, paths>.
+        Iterate over pairs <subdir, pointers>.
 
-        In both input and output, `paths` can be a glob or
-        an iterable of path strings.
-        They are all relative to input_directory.
+        The pointers are parsed, but not expanded.
+        Ie. they are read from a given input file, but (in
+        case of paths) they are still relative to the input
+        directory.
         '''
-        try:
-            i = self._parse_pointers(paths)
-        except ParsePointerException as e:
-            # Treat paths as a glob.
+        subdirs = {}
+        for path, id_ in self._iter_relpath_ID(pointers):
+            sub = path.split(os.sep, 1)[0]
+            if sub == path:
+                sub = 'unknown'
+            pointer = id_ if self.p.pointer_type == 'id' else path
             try:
-                subs, rest = e.pointers.split(os.sep, 1)
-            except ValueError:
-                # No subdirectories.
-                yield 'unknown', e.pointers
-            else:
-                # Iterate over a partial glob.
-                for s in self._iter_paths(subs):
-                    s = os.path.basename(s)
-                    yield s, os.path.join(s, rest)
-        else:
-            # Not a glob: Sort and aggregate.
-            subdirs = {}
-            for p in i:
-                s = p.split(os.sep, 1)[0]
-                if s == p:
-                    s = 'unknown'
-                try:
-                    subdirs[s].append(p)
-                except KeyError:
-                    subdirs[s] = [p]
-            yield from subdirs.items()
+                subdirs[sub].append(pointer)
+            except KeyError:
+                subdirs[sub] = [pointer]
+        return iter(subdirs.items())
 
     def _parse_pointers(self, pointers):
         '''
@@ -464,7 +448,7 @@ class Router(object):
         '''
         # Note: This method returns an iterator, rather than being a generator.
         # This makes sure that the ParsePointerException is raised instantly,
-        # not only when iteration starts (cf. the try block in _iter_subdirs).
+        # not only when iteration starts.
         if pointers is None:
             pointers = self.p.pointers
 
@@ -525,8 +509,12 @@ class Router(object):
         '''
         Construct the input path for this ID.
         '''
-        fn = pfmt.format(self.p.fn_format_in, id=id_, ext=self.p.article_format)
-        return os.path.join(self.p.input_directory, fn)
+        return os.path.join(self.p.input_directory, self._get_rel_in_path(id_))
+
+    def _get_rel_in_path(self, id_):
+        """Input path relative to input directory."""
+        return pfmt.format(self.p.fn_format_in,
+                           id=id_, ext=self.p.article_format)
 
     def get_out_path(self, id_, base, fmt, ext):
         '''
