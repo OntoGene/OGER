@@ -146,7 +146,7 @@ def main():
     if args.anno_fields is None:
         args.anno_fields = [FieldSelector(ANNO_FIELDS)]
     args.key_field = args.anno_fields[0].map(args.key_field, origin=1)
-    try:
+    try:  # FieldSelector.__len__ might raise a ValueError.
         if len(args.offset_fields) != 2:
             raise ValueError()
     except ValueError:
@@ -443,17 +443,17 @@ def coverage_PRF(tp, fp, fn):
         P = tp / (tp + fp)
     except ZeroDivisionError:
         # No FP -> perfect precision.
-        P = 1
+        P = 1.
     try:
         R = tp / (tp + fn)
     except ZeroDivisionError:
         # No FN -> perfect recall.
-        R = 1
+        R = 1.
     try:
         F1 = 2 * P * R / (P + R)
     except ZeroDivisionError:
         # Both P and R equal 0 -> F1 = 0
-        F1 = 0
+        F1 = 0.
     return P, R, F1
 
 
