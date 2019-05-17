@@ -151,3 +151,25 @@ def _load_mask(repl='0', target='digits', *args):
         return token
 
     return mask
+
+
+def _load_ise():
+    """
+    Convert -ise-/-yse- spelling to -ize-/yze-.
+
+    Covers the following cases:
+        normalise
+        normalises
+        normalised
+        normalising
+        normalisation
+        normalisations
+    and the same for "yse" as in "analyse".
+    """
+    condition = re.compile(r'([iy])s(e[sd]?|ing|ations?)\b')
+
+    def normalize(token):
+        """Normalize spelling "ise" to "ize"."""
+        return condition.sub(r'\1z\2', token)
+
+    return normalize
