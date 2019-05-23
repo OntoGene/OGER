@@ -61,8 +61,12 @@ class PipelineServer(object):
     def __init__(self, conf=None, lazy=True):
         self._conf = conf
         if not lazy:
-            _ = conf.postfilters
-            _ = conf.entity_recognizers
+            self.get_ready()
+
+    def get_ready(self):
+        """Load lazy resources."""
+        _ = self.conf.postfilters
+        _ = self.conf.entity_recognizers
 
     @property
     def conf(self):

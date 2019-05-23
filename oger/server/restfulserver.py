@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf8
 
-# Author: Lenz Furrer, 2016--2017
+# Author: Lenz Furrer, 2016--2019
 
 
 '''
@@ -15,8 +15,8 @@ import logging
 import hashlib
 import argparse
 import datetime
-import multiprocessing as mp
 from collections import OrderedDict
+from concurrent.futures import ThreadPoolExecutor
 
 from lxml import etree as ET
 from bottle import get, post, delete, response, request, error, HTTPError
@@ -33,10 +33,6 @@ from .client import ParamHandler
 
 BOTTLE_HOST = '0.0.0.0'
 BOTTLE_PORT = 12321
-# Bottle's tempfile solution for large files interferes with queue pickling
-# for multiprocessing. Increase the threshold to 100M, which should be enough,
-# since the allowed payload max size is far less.
-request.__class__.MEMFILE_MAX = 100 * 1024 * 1024
 
 INPUT_FORM = os.path.join(os.path.dirname(__file__), 'static', 'form.html')
 
@@ -459,8 +455,7 @@ class AnnotatorManager:
 
     def start(self, config, desc, blocking):
         'Initiate a new annotation server.'
-        ann_type = BlockingAnnotator if blocking else AsyncAnnotator
-        return ann_type(config, desc, self.postfilters)
+        return Annotator(config, desc, self.postfilters, blocking)
 
     @classmethod
     def key(cls, conf):
@@ -475,19 +470,36 @@ class AnnotatorManager:
         return h[-16:]  # 64 bits (same as Python's hash()) is enough
 
 
-class _Annotator:
-    def __init__(self, config, desc, postfilters):
+class Annotator:
+    """
+    Wrapper for a PipelineServer with termlist loading in a separate thread.
+    """
+
+    def __init__(self, config, desc, postfilters, blocking=False):
         if desc is None:
             desc = 'Annotator created at {}'.format(datetime.datetime.utcnow())
         self.config = config
         self.description = desc
         self.postfilters = postfilters
+        self._pls = router.PipelineServer(self.config, lazy=True)
+
+        # Load the termlist asynchronously.
+        executor = ThreadPoolExecutor(max_workers=1)
+        self._loading = executor.submit(self._pls.get_ready)
+        self._ready = False
+        executor.shutdown(wait=blocking)
+        self.is_ready()  # trigger an exception if loading failed.
 
     def is_ready(self):
         '''
-        Is this annotator ready for processing documents?
+        Has this annotator finished loading the termlist?
         '''
-        raise NotImplementedError
+        if not self._ready and self._loading.done():
+            # Wasn't ready before, but is now.
+            if self._loading.exception() is not None:
+                raise RuntimeError('annotator has died')
+            self._ready = True
+        return self._ready
 
     def process(self, in_params, out_params, postfilters):
         '''
@@ -501,17 +513,12 @@ class _Annotator:
 
     def _get_annotated(self, params):
         '''
-        Get an annotated document or collection.
-        '''
-        raise NotImplementedError
-
-    @staticmethod
-    def _annotate(server, params):
-        '''
         Load and annotate one document or collection.
         '''
-        document = server.load_one(**params)
-        server.process(document)
+        if not self.is_ready():
+            raise RuntimeError('annotator not yet loaded')
+        document = self._pls.load_one(**params)
+        self._pls.process(document)
         return document
 
     def _postfilter(self, document, filternames):
@@ -531,79 +538,6 @@ class _Annotator:
             except KeyError:
                 raise ValueError('unknown postfilter: {}'.format(name))
             postfilter(document)
-
-class BlockingAnnotator(_Annotator):
-    '''
-    Wrapper for a PipelineServer with simplified interface.
-    '''
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self._server = router.PipelineServer(self.config, lazy=False)
-
-    @staticmethod
-    def is_ready():
-        return True
-
-    def _get_annotated(self, params):
-        return self._annotate(self._server, params)
-
-class AsyncAnnotator(_Annotator):
-    '''
-    Wrapper for communicating with an annotator child process.
-    '''
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self._downstream = mp.Queue()
-        self._upstream = mp.Queue()
-        self._proc = mp.Process(
-            target=self._run,
-            args=(self.config, self._downstream, self._upstream))
-        self._ready = False
-
-        self._proc.start()
-        self._downstream.put(None)  # start signal
-
-    def __del__(self):
-        self._downstream.put(None)  # sentinel
-        self._proc.join(2)  # don't wait long for garbage collection
-        if self._proc.exitcode is None:
-            self._proc.terminate()
-
-    def is_ready(self):
-        '''
-        Has the child process finished loading the termlist?
-        '''
-        if not self._proc.is_alive():
-            raise RuntimeError('annotator has died')
-        if not self._ready:
-            if self._downstream.empty():
-                self._ready = True
-        return self._ready
-
-    def _get_annotated(self, params):
-        if not self.is_ready():
-            raise RuntimeError('annotator not yet loaded')
-        self._downstream.put(params)
-        result = self._upstream.get()
-        if isinstance(result, Exception):
-            raise result
-        return result
-
-    @classmethod
-    def _run(cls, config, requests, responses):
-        '''
-        Run a PipelineServer instance in a child process.
-        '''
-        server = router.PipelineServer(config, lazy=False)
-        # Consume the start signal -- empty queue means ready.
-        requests.get()
-
-        for params in iter(requests.get, None):
-            try:
-                result = cls._annotate(server, params)
-            except Exception as e:
-                result = e
-            responses.put(result)
 
 
 # ============== #
