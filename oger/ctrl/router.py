@@ -373,10 +373,16 @@ class Router(object):
         '''
         Iterate over the pointers.
 
-        Depending on the pointer_type, these are either IDs
-        or paths relative to input_directory.
+        Depending on the pointer_type, these are either IDs,
+        paths relative to input_directory, or a list of IDs/
+        paths in the case of subdirectory-based collections.
         '''
-        if self.p.pointer_type == 'id':
+        if self.p.iter_mode == 'collection' and self.p.article_format not in (
+                'bioc', 'pubtator', 'pubtator_fbk', 'pxml.gz', 'txt_json',
+                'pubmed', 'pmc', 'becalmabstracts', 'becalmpatents'):
+            # Subdirectory grouping requires nested pointers.
+            yield from self._subdirs(pointers).values()
+        elif self.p.pointer_type == 'id':
             yield from self._iter_ids(pointers)
         else:
             yield from self._iter_relpaths(pointers)
@@ -431,11 +437,15 @@ class Router(object):
         '''
         Iterate over pairs <subdir, pointers>.
 
+        This is a group-by operation on the pointers.
         The pointers are parsed, but not expanded.
         Ie. they are read from a given input file, but (in
         case of paths) they are still relative to the input
         directory.
         '''
+        return iter(self._subdirs(pointers).items())
+
+    def _subdirs(self, pointers):
         subdirs = {}
         for path, id_ in self._iter_relpath_ID(pointers):
             sub = path.split(os.sep, 1)[0]
@@ -446,7 +456,7 @@ class Router(object):
                 subdirs[sub].append(pointer)
             except KeyError:
                 subdirs[sub] = [pointer]
-        return iter(subdirs.items())
+        return subdirs
 
     def _parse_pointers(self, pointers):
         '''
@@ -464,9 +474,25 @@ class Router(object):
         # Case 2: open file.
         elif hasattr(pointers, 'read'):
             return (line.strip() for line in pointers)
-        # Case 3: iterable of string.
+        # Case 3: iterable of [iterable of] string.
         else:
-            return iter(pointers)
+            return self._flatten_pointers(pointers)
+
+    @staticmethod
+    def _flatten_pointers(pointers):
+        """
+        Un-nest pointers if necessary.
+
+        When collection mode with subdirectory-based
+        grouping, the pointers are nested (in order to
+        work properly with multiprocessing) and need to
+        be un-nested here.
+        """
+        for p in pointers:
+            if isinstance(p, str):
+                yield p
+            else:
+                yield from p
 
 
     # =============== #
