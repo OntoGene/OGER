@@ -411,7 +411,9 @@ class Router(object):
             yield from self._parse_pointers(paths)
         except ParsePointerException as e:
             # Treat paths as a glob.
-            yield from glob.glob1(self.p.input_directory, e.pointers)
+            for path in glob.iglob(os.path.join(self.p.input_directory,
+                                                e.pointers)):
+                yield os.path.relpath(path, self.p.input_directory)
 
     def _iter_ids(self, ids):
         '''
