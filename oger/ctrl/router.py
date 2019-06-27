@@ -41,6 +41,8 @@ import os.path
 import glob
 import string
 import logging
+import itertools as it
+import multiprocessing
 from datetime import datetime
 
 from . import parameters
@@ -381,7 +383,8 @@ class Router(object):
                 'bioc', 'pubtator', 'pubtator_fbk', 'pxml.gz', 'txt_json',
                 'pubmed', 'pmc', 'becalmabstracts', 'becalmpatents'):
             # Subdirectory grouping requires nested pointers.
-            yield from self._subdirs(pointers).values()
+            for _, p in self._iter_subdirs(pointers):
+                yield p
         elif self.p.pointer_type == 'id':
             yield from self._iter_ids(pointers)
         else:
@@ -443,20 +446,34 @@ class Router(object):
         case of paths) they are still relative to the input
         directory.
         '''
-        return iter(self._subdirs(pointers).items())
+        if multiprocessing.current_process().name == 'MainProcess':
+            return self._subdirs_greedy(pointers)
+        else:
+            # If this is a child worker, it must not greedily consume
+            # all pointers now. The main process made sure they are sorted.
+            return self._subdirs_consecutive(pointers)
 
-    def _subdirs(self, pointers):
+    def _subdirs_greedy(self, pointers):
         subdirs = {}
+        for sub, pointer in self._subdir_pointer(pointers):
+            try:
+                subdirs[sub].append(pointer)
+            except KeyError:
+                subdirs[sub] = [pointer]
+        return iter(subdirs.items())
+
+    def _subdirs_consecutive(self, pointers):
+        for sub, grouped in it.groupby(self._subdir_pointer(pointers),
+                                       key=lambda p: p[0]):
+            yield sub, [pointer for _, pointer in grouped]
+
+    def _subdir_pointer(self, pointers):
         for path, id_ in self._iter_relpath_ID(pointers):
             sub = path.split(os.sep, 1)[0]
             if sub == path:
                 sub = 'unknown'
             pointer = id_ if self.p.pointer_type == 'id' else path
-            try:
-                subdirs[sub].append(pointer)
-            except KeyError:
-                subdirs[sub] = [pointer]
-        return subdirs
+            yield sub, pointer
 
     def _parse_pointers(self, pointers):
         '''
