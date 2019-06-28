@@ -46,7 +46,7 @@ INFMTS.remove('bioc')  # don't encourage obsolete names
 EXPORTERS = {
     'tsv': TSVFormatter,
     'txt': TXTFormatter,
-    'text_tsv': TSVFormatter,
+    'text_tsv': TextTSVFormatter,
     'xml': EntityXMLFormatter,
     'text_xml': TextXMLFormatter,
     'bioc': BioCXMLFormatter,  # keep for backwards compatibility

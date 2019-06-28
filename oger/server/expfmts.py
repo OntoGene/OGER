@@ -39,7 +39,7 @@ class CustomODINFormatter(doc.ODINFormatter):
 
 _exporters = (
     ('tsv', doc.TSVFormatter),
-    ('text_tsv', doc.TSVFormatter),
+    ('text_tsv', doc.TextTSVFormatter),
     ('xml', doc.EntityXMLFormatter),
     ('bioc', doc.BioCXMLFormatter),
     ('bioc_json', doc.BioCJSONFormatter),

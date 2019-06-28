@@ -9,7 +9,7 @@ Formatter for TSV output (with/without context).
 '''
 
 
-__all__ = ['TSVFormatter']
+__all__ = ['TSVFormatter', 'TextTSVFormatter']
 
 
 import csv
@@ -22,13 +22,13 @@ from ..util.misc import tsv_format
 
 class TSVFormatter(StreamFormatter):
     '''
-    Compact TSV format for annotations and optional context.
+    Compact TSV format for annotations.
     '''
+
     ext = 'tsv'
 
     def __init__(self, config, fmt_name):
         super().__init__(config, fmt_name)
-        self.all_tokens = fmt_name == 'text_tsv'
         self.extra_fields = self.config.entity_fields[5:]
         self.extra_dummy = ('',) * len(self.extra_fields)
 
@@ -61,17 +61,7 @@ class TSVFormatter(StreamFormatter):
     def _write_article(self, writer, article):
         # For each token, find all recognized entities starting here.
         # Write a fully-fledged TSV line for each entity.
-        # In all_tokens mode, also add sparse lines for non-entity tokens.
-        if self.all_tokens:
-            # A clever iterator that yields the intermediate tokens' lines.
-            interlines = self._tsv_interlines
-            # Make sure all sentences are tokenized.
-            for sentence in article.get_subelements(Sentence):
-                sentence.tokenize()
-        else:
-            # A dummy that always produces an empty sequence.
-            interlines = lambda *_: ()
-
+        # In the text-tsv subclass, also add sparse lines for non-entity tokens.
         for i, sentence in enumerate(article.get_subelements(Sentence), 1):
             # Use an ad-hoc counter for continuous sentence IDs.
             sent_id = 'S{}'.format(i)
@@ -82,8 +72,8 @@ class TSVFormatter(StreamFormatter):
 
             for entity in sentence.iter_entities():
                 # Add sparse lines for all tokens preceding the current entity.
-                for row in interlines(last_end, entity.start, toks, ids):
-                    writer.writerow(row)
+                writer.writerows(
+                    self._tok_rows(last_end, entity.start, toks, ids))
                 # Add a rich line for each entity (possibly multiple lines
                 # for the same token(s)).
                 writer.writerow((article.id_,
@@ -100,10 +90,27 @@ class TSVFormatter(StreamFormatter):
                                 + entity.extra)
                 last_end = max(last_end, entity.end)
             # Add sparse lines for the remaining tokens.
-            for row in interlines(last_end, float('inf'), toks, ids):
-                writer.writerow(row)
+            writer.writerows(self._tok_rows(last_end, float('inf'), toks, ids))
 
-    def _tsv_interlines(self, start, end, tokens, ids):
+    @staticmethod
+    def _tok_rows(start, end, tokens, ids):
+        # Subclass hook.
+        del start, end, tokens, ids
+        return iter(())
+
+
+class TextTSVFormatter(TSVFormatter):
+    '''
+    Compact TSV format for annotations and context.
+    '''
+
+    def _write_article(self, writer, article):
+        # Make sure all sentences are tokenized.
+        for sentence in article.get_subelements(Sentence):
+            sentence.tokenize()
+        super()._write_article(writer, article)
+
+    def _tok_rows(self, start, end, tokens, ids):
         '''
         Iterate over tokens within the offset window start..end.
         '''
