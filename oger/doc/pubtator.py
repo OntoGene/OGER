@@ -201,7 +201,7 @@ class PubTatorFormatter(StreamFormatter):
 
     @staticmethod
     def _select_anno_fields(docid, start, end, entity):
-        return (docid, start, end, entity.text, entity.type, entity.cid)
+        return (docid, start, end, entity.text_wn, entity.type, entity.cid)
 
 
 class PubTatorFBKFormatter(PubTatorFormatter):

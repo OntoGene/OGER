@@ -20,6 +20,7 @@ Word-level tokenization can be skipped.
 """
 
 
+import re
 import pickle
 import itertools as it
 from collections import namedtuple
@@ -412,6 +413,11 @@ class Entity(object):
         self.start = start
         self.end = end
         self.info = info
+
+    @property
+    def text_wn(self):
+        """Whitespace normalised text: replace newlines and tabs."""
+        return re.sub(r'\s', ' ', self.text)
 
     # Accessor methods for the standard fields:
 

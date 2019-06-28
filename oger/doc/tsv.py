@@ -90,7 +90,7 @@ class TSVFormatter(StreamFormatter):
                                  entity.type,
                                  entity.start,
                                  entity.end,
-                                 entity.text,
+                                 entity.text_wn,
                                  entity.pref,
                                  entity.cid,
                                  section_type,

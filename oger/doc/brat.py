@@ -127,7 +127,7 @@ class BratAnnFormatter(StreamFormatter):
         mentions = defaultdict(list)
         for e in article.iter_entities():
             name = self._valid_fieldname(e.type)
-            mentions[e.start, e.end, name, e.text].append(e)
+            mentions[e.start, e.end, name, e.text_wn].append(e)
         return mentions
 
     @classmethod
@@ -149,7 +149,7 @@ class BioNLPAnnFormatter(StreamFormatter):
     Stand-off annotations for BioNLP.
     '''
     ext = 'ann'
-    template = 'T{counter}\t{e.cid} {e.start} {e.end}\t{e.text}\n'
+    template = 'T{counter}\t{e.cid} {e.start} {e.end}\t{e.text_wn}\n'
 
     def write(self, stream, content):
         counter = it.count(1)
