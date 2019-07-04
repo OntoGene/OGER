@@ -16,6 +16,7 @@ from .xml import *
 from .bioc import *
 from .odin import *
 from .brat import *
+from .conll import *
 from .becalm import *
 from .pubanno import *
 from .pubtator import *
@@ -57,6 +58,7 @@ EXPORTERS = {
     'bionlp.ann': BioNLPAnnFormatter,
     'brat': DualFormatter,
     'brat.ann': BratAnnFormatter,
+    'conll': CoNLLFormatter,
     'becalm_tsv': BeCalmTSVFormatter,
     'becalm_json': BeCalmJSONFormatter,
     'pubanno_json': PubAnnoJSONFormatter,

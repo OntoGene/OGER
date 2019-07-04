@@ -280,6 +280,10 @@ class Params(ParamBase):
     # - Brat format: fields that go into attribute annotations.
     brat_bin_attributes = ()  # binary attributes
     brat_mv_attributes = ()  # multi-valued attributes
+    # - CoNLL format: which tagset for the sequence tags?
+    conll_tagset = 'IOBES'  #  ('IOBES', 'IOB', 'IO')
+    # - CoNLL format: include docid and/or character offsets?
+    conll_include = ()  # ('docid', 'offset')
     # - Europe PMC format: global metadata.
     #   Must be a mapping or a serialised JSON object.
     eupmc_meta = ()
@@ -380,6 +384,7 @@ class Params(ParamBase):
                                 for a, m in ((self.brat_bin_attributes, False),
                                              (self.brat_mv_attributes, True))
                                 for n in a]
+        self.conll_include = self.split(self.conll_include)
         self.postfilter = self.split(self.postfilter)
 
         self.recognizers = tuple(self.parse_ER_settings(er_params))

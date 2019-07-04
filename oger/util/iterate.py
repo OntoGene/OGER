@@ -11,6 +11,7 @@ Iteration utilities.
 
 import json
 import itertools as it
+from contextlib import contextmanager
 
 
 def iter_chunks(iterable, chunksize):
@@ -117,3 +118,16 @@ class _PhonyList(list):
 
     def __bool__(self):
         return True
+
+
+def context_coroutine(generator):
+    """Wrap a coroutine in a context manager."""
+    @contextmanager
+    def _wrap(*args, **kwargs):
+        cr = generator(*args, **kwargs)
+        try:
+            cr.send(None)
+            yield cr
+        finally:
+            cr.close()
+    return _wrap
