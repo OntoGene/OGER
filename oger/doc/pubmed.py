@@ -48,8 +48,7 @@ class _MedlineParser(_Loader):
         sections = self._iter_sections(node)
 
         if self.config.p.single_section:
-            offset = article.subelements[-1].end
-            sections = self._conflate_sections(sections, offset)
+            sections = self._conflate_sections(sections)
 
         anno_counter = it.count(1)
         for label, text, anno in sections:
@@ -59,7 +58,7 @@ class _MedlineParser(_Loader):
 
         return article
 
-    def _conflate_sections(self, sections, offset):
+    def _conflate_sections(self, sections):
         '''
         Conflate the sections into one.
 
@@ -67,21 +66,16 @@ class _MedlineParser(_Loader):
         Append separators to each element.
         '''
         # Temporary container for sentences, offsets and (optional) MeSH IDs.
-        flat = []  # type: List[Tuple[Tuple[str, int], Optional[str]]]
+        flat = []  # type: List[Tuple[str, Optional[str]]]
         for label, text, anno in sections:
             if label not in ('UNLABELLED', 'Abstract'):
-                flat.append(((label + ': ', offset), None))
-                offset += len(label) + 2
+                flat.append((label + ': ', None))
             if isinstance(text, str):
-                tok = self.config.text_processor
-                sents = tok.span_tokenize_sentences(text, offset)
-                flat.extend(((sent, start), None) for sent, start, _ in sents)
-                offset += len(text)
+                sents = self.config.text_processor.tokenize_sentences(text)
+                flat.extend((sent, None) for sent in sents)
             else:
                 # List of MeSH headings.
-                for sent, ui in zip(text, anno):
-                    flat.append(((sent, offset), ui))
-                    offset += len(sent)
+                flat.extend(zip(text, anno))
         text, anno = zip(*flat) if flat else ((), ())
         yield 'Abstract', text, anno
 
@@ -167,9 +161,6 @@ class _PMCParser(_Loader):
         for node in root.xpath('.//abstract'):
             if node.get("abstract-type"):
                 yield node.get("abstract-type").capitalize() + self.NL
-                # This will allow titles like "teaser"
-                # Not sure if CRAFT format allows this
-                # Otherwise just set to "Abstract"
             else:
                 yield "Abstract" + self.NL
 

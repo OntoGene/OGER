@@ -35,7 +35,8 @@ class Text_processing(object):
 
     def __init__(self, word_tokenizer, sentence_tokenizer):
         self.word_tokenizer = self._create_word_tokenizer(word_tokenizer)
-        self.sentence_tokenizer = self._create_sentence_tokenizer(sentence_tokenizer)
+        self.sentence_tokenizer = self._create_sentence_tokenizer(
+            sentence_tokenizer)
 
     @staticmethod
     def _create_word_tokenizer(name):
@@ -95,7 +96,9 @@ class Text_processing(object):
             yield text[start:end], start+offset, end+offset
 
     def tokenize_sentences(self, text):
-        return self.sentence_tokenizer.tokenize(text)
+        """Iterate over sentences, including trailing whitespace."""
+        for sent, _, _ in self.span_tokenize_sentences(text):
+            yield sent
 
     def span_tokenize_words(self, text, offset=0):
         """
@@ -111,12 +114,6 @@ class Text_processing(object):
 
     def tokenize_words(self, text):
         return self.word_tokenizer.tokenize(text)
-
-    @staticmethod
-    def flatify(tokens_per_sentence):
-        for sentence in tokens_per_sentence:
-            for token in sentence:
-                yield token
 
     @staticmethod
     def pos_tag(span_tokens):
@@ -142,32 +139,6 @@ class Text_processing(object):
                               in zip(span_tokens, tagged_tokens)]
 
         return span_tagged_tokens
-
-    @staticmethod
-    def export_tokens_to_xml(id_, tokens_per_sentence, output_directory):
-        root = ET.Element("root")
-        for sentence_number, sentence in enumerate(tokens_per_sentence):
-            S = ET.SubElement(root, "S")
-            S.set('i', str(sentence_number))
-
-            for word in sentence:
-                W = ET.SubElement(S, "W")
-                W.text = word[0]
-
-                # Create the o1 and o2 attributes for the starting and ending
-                # position of the word
-                W.set('end', str(word[2]))
-                W.set('begin', str(word[1]))
-
-        # prepare printing
-        directory = os.path.join(output_directory, 'text_processing')
-        os.makedirs(directory, exist_ok=True)
-        file_name = os.path.join(directory, id_ + '.xml')
-
-        # write out with pretty_print
-        with open(file_name, 'wb') as f:
-            f.write(ET.tostring(root, method='xml', encoding="UTF-8",
-                                xml_declaration=True, pretty_print=True))
 
 
 class RegexTokenizer(object):
