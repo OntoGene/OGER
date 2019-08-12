@@ -52,17 +52,20 @@ class EuPMCFormatter(StreamFormatter):
         for s, sent in enumerate(article.get_subelements('Sentence'), start=1):
             section = self._section_name(sent.section, meta['src'])
             locations = it.groupby(sent.entities, key=lambda e: (e.start, e.end))
-            for l, ((start, end), entities) in enumerate(locations, start=1):
-                entities = set((e.pref, e.cid) for e in entities)
-                ann = {
-                    'position': '{}.{}'.format(s, l),
-                    'prefix': text[max(start-20, 0):start],
-                    'postfix': text[end:end+20],
-                    'exact': text[start:end],
-                    'section': section,
-                    'tags': [{'name': n, 'uri': u} for n, u in entities]
-                }
-                doc['anns'].append(ann)
+            for l, ((start, end), colocated) in enumerate(locations, start=1):
+                types = it.groupby(colocated, key=lambda e: e.type)
+                for type_, entities in types:
+                    entities = set((e.pref, e.cid) for e in entities)
+                    ann = {
+                        'position': '{}.{}'.format(s, l),
+                        'prefix': text[max(start-20, 0):start],
+                        'postfix': text[end:end+20],
+                        'exact': text[start:end],
+                        'section': section,
+                        'type': type_,
+                        'tags': [{'name': n, 'uri': u} for n, u in entities]
+                    }
+                    doc['anns'].append(ann)
         return doc
 
     def _section_name(self, section, src):
