@@ -98,6 +98,12 @@ class EuPMCZipFormatter(EuPMCFormatter):
 
         with zipfile.ZipFile(stream, 'w', zipfile.ZIP_DEFLATED) as zf:
             for n, hunk in hunks:
-                member = zf.open('hunk_{}.jsonl'.format(n+1), mode='w')
+                arcname = 'hunk_{}.jsonl'.format(n+1)
+                try:
+                    member = zf.open(arcname, mode='w')
+                except RuntimeError:  # Python < 3.6 doesn't support mode='w'
+                    member = io.BytesIO()
                 with io.TextIOWrapper(member, encoding='utf8') as f:
                     super()._write(f, hunk)
+                    if isinstance(member, io.BytesIO):
+                        zf.writestr(arcname, member.getvalue())
