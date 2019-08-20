@@ -142,8 +142,8 @@ class _PMCParser(_Loader):
 
     def _document(self, node, docid):
         title = self._itertext(node.find('.//title-group/article-title'))
-        abstract = ''.join(self._get_abstract(node))
-        body = ''.join(self._get_body(node))
+        abstract = self._sentence_split(self._get_abstract(node))
+        body = list(self._sentence_split(self._get_body(node)))
 
         # Try to get a missing PMCID.
         if docid is None:
@@ -171,6 +171,11 @@ class _PMCParser(_Loader):
         for node in root.xpath('.//body'):
             for body_section in node.xpath('.//title | .//p | .//label'):
                 yield self._itertext(body_section)
+
+    def _sentence_split(self, texts):
+        split = self.config.text_processor.tokenize_sentences
+        for text in texts:
+            yield from split(text)
 
     def _itertext(self, node):
         return ''.join(node.itertext()).strip() + self.NL
