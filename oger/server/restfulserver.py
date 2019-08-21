@@ -24,7 +24,7 @@ from bottle import run as run_bottle, view, ERROR_PAGE_TEMPLATE
 
 from ..ctrl import router, parameters
 from .expfmts import EXPORT_FMTS, export
-from .client import ParamHandler
+from .client import ParamHandler, sanity_check
 
 
 # ============= #
@@ -402,6 +402,8 @@ class AnnotatorManager:
         return its name instead.
         '''
         # Remove any postfilter for security reasons.
+        for p, v in params.items():
+            sanity_check(p, v)
         config = router.Router(self._default_settings,
                                postfilter=(), **params)
 

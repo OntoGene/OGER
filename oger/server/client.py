@@ -63,7 +63,19 @@ class ParamHandler:
                     raise ValueError('unrecognised parameter: {}'.format(param))
             else:
                 value = ' '.join(params.getlist(param))
+                sanity_check(canonical_name, value)
                 for group in groups:
                     extracted[group][canonical_name] = value
 
         return extracted
+
+
+def sanity_check(param, value):
+    """Check for dangerous settings."""
+    # Don't allow pickle objects for the tokenizers (security hazard!).
+    if param in ('word_tokenizer', 'sentence_tokenizer'):
+        from ..nlp.tokenize import Text_processing
+        allowed = ('WORD_TOKENIZERS' if param == 'word_tokenizer' else
+                   'SENT_TOKENIZERS')
+        if value not in getattr(Text_processing, allowed):
+            raise ValueError('unrecognised {}: {}'.format(param, value))
