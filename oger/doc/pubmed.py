@@ -143,15 +143,14 @@ class _PMCParser(_Loader):
     def _document(self, node, docid):
         title = self._itertext(node.find('.//title-group/article-title'))
         abstract = self._sentence_split(self._get_abstract(node))
-        body = list(self._sentence_split(self._get_body(node)))
         if docid is None:
             docid = self._get_docid(node)
 
         article = Article(docid, tokenizer=self.config.text_processor)
         article.add_section('title', title)
         article.add_section('abstract', abstract)
-        if body:
-            article.add_section('body', body)
+        for type_, paragraphs in self._get_sections(node):
+            article.add_section(type_, self._sentence_split(paragraphs))
 
         return article
 
@@ -174,10 +173,21 @@ class _PMCParser(_Loader):
             for abstract_section in node.xpath('.//title | .//p'):
                 yield self._itertext(abstract_section)
 
-    def _get_body(self, root):
+    def _get_sections(self, root):
         for node in root.xpath('.//body'):
-            for body_section in node.xpath('.//title | .//p | .//label'):
-                yield self._itertext(body_section)
+            paragraphs = node.iter('title', 'p', 'label')
+            for sec, pnodes in it.groupby(paragraphs, key=self._top_level_sec):
+                type_ = 'body' if sec is None else sec.get('sec-type', 'section')
+                yield type_, map(self._itertext, pnodes)
+
+    @staticmethod
+    def _top_level_sec(node):
+        sec = None
+        for anc in node.iterancestors('sec', 'body'):
+            if anc.tag == 'body':
+                break  # don't go beyond this point
+            sec = anc
+        return sec
 
     def _sentence_split(self, texts):
         split = self.config.text_processor.tokenize_sentences
