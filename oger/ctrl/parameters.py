@@ -299,9 +299,12 @@ class Params(ParamBase):
     # TEXT PROCESSING.
     # ================
 
-    # Tokenizers used in text_processing and for entity_recognition.
-    # Currently, word_tokenizer can be WordPunctTokenizer or PunktWordTokenizer
-    # sentence_tokenizer currently can only be PunktSentenceTokenizer
+    # Tokenizers used in text processing and for entity recognition.
+    # Can be an NLTK tokenizer or a pickled object supporting the methods
+    # tokenize() and span_tokenize().
+    # If the NLTK constructor takes arguments, specify them as a Python
+    # expression, eg. "RegexpTokenizer(r'\w+')" (no keywords, though).
+    # For a pickle, specify its path.
     word_tokenizer = 'WordPunctTokenizer'
     sentence_tokenizer = 'PunktSentenceTokenizer'
 

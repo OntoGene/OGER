@@ -9,13 +9,10 @@ Canonical interface for basic NLP tasks.
 '''
 
 
-import os.path
-import re
 import ast
 import pickle
 
 import nltk
-from lxml import etree as ET
 
 
 class Text_processing(object):
@@ -33,45 +30,46 @@ class Text_processing(object):
     Structure of tagged tokens: same as tokens, and [3] is tag
     """
 
+    WORD_TOKENIZERS = (
+        'RegexpTokenizer',
+        'RegexTokenizer',
+        'TreebankTokenizer',
+        'WordPunctTokenizer',
+    )
+    SENT_TOKENIZERS = (
+        'PunktSentenceTokenizer',
+    )
+
     def __init__(self, word_tokenizer, sentence_tokenizer):
-        self.word_tokenizer = self._create_word_tokenizer(word_tokenizer)
-        self.sentence_tokenizer = self._create_sentence_tokenizer(
-            sentence_tokenizer)
+        self.word_tokenizer = self._load_tokenizer(
+            word_tokenizer, self.WORD_TOKENIZERS)
+        self.sentence_tokenizer = self._load_tokenizer(
+            sentence_tokenizer, self.SENT_TOKENIZERS)
 
     @staticmethod
-    def _create_word_tokenizer(name):
+    def _load_tokenizer(name, targets):
         """
-        Here you can add supported word tokenizers.
-
-        Note that it must implement the span_tokenize method.
+        Load a tokenizer from NLTK or from a pickle.
         """
-        if name == 'WordPunctTokenizer':
-            from nltk.tokenize import WordPunctTokenizer
-            return WordPunctTokenizer()
+        if name.startswith(targets):  # NLTK
+            # Look for constructor arguments as part of the name.
+            try:
+                i = name.index('(')
+            except ValueError:
+                args = ()
+            else:
+                name, args = name[:i], name[i:]
+                args = ast.literal_eval(args)
+                if not isinstance(args, tuple):  # single argument
+                    args = (args,)
+                if name == 'RegexTokenizer':  # backwards compatibility
+                    name = 'RegexpTokenizer'
 
-        elif name == 'PunktWordTokenizer':
-            from nltk.tokenize import PunktWordTokenizer
-            return PunktWordTokenizer()
+            from nltk import tokenize
+            cls = getattr(tokenize, name)
+            return cls(*args)
 
-        elif name.startswith('RegexTokenizer'):
-            # name is a Python expression for constructing a RegexTokenizer,
-            # eg. "RegexTokenizer(r'\w+|[^\W\S]+')\n".
-            # Strip off the class name and parse the argument.
-            arg = ast.literal_eval(name[len('RegexTokenizer'):])
-            return RegexTokenizer(arg)
-
-        else:
-            raise ValueError('Unknown word tokenizer: {}'.format(name))
-
-    @staticmethod
-    def _create_sentence_tokenizer(name):
-        """Here you can add supported sentence tokenizers."""
-        if name == 'PunktSentenceTokenizer':
-            from nltk.tokenize import PunktSentenceTokenizer
-            return PunktSentenceTokenizer()
-
-        else:
-            # Try to open a pickled sentence tokenizer.
+        else:  # pickled object
             with open(name, 'rb') as f:
                 return pickle.load(f)
 
@@ -113,6 +111,7 @@ class Text_processing(object):
             yield text[start:end], start+offset, end+offset
 
     def tokenize_words(self, text):
+        """Iterate over word tokens."""
         return self.word_tokenizer.tokenize(text)
 
     @staticmethod
@@ -139,25 +138,3 @@ class Text_processing(object):
                               in zip(span_tokens, tagged_tokens)]
 
         return span_tagged_tokens
-
-
-class RegexTokenizer(object):
-    '''
-    Wrapper around re.findall()/re.finditer().
-    '''
-
-    def __init__(self, pattern):
-        self.token = re.compile(pattern)
-
-    def tokenize(self, text):
-        '''
-        Split `text` into a list of tokens.
-        '''
-        return self.token.findall(text)
-
-    def span_tokenize(self, text):
-        '''
-        Iterate over pairs <start offset, end offset>.
-        '''
-        for m in self.token.finditer(text):
-            yield m.start(), m.end()
