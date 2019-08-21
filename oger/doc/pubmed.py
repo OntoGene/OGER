@@ -141,7 +141,7 @@ class _PMCParser(_Loader):
     NL = '\n\n'
 
     def _document(self, node, docid):
-        title = self._itertext(node.find('.//title-group/article-title'))
+        title = self._get_title(node)
         abstract = self._sentence_split(self._get_abstract(node))
         if docid is None:
             docid = self._get_docid(node)
@@ -162,6 +162,12 @@ class _PMCParser(_Loader):
             if n is not None:
                 return n.text
         return 'unknown'
+
+    def _get_title(self, node):
+        title = node.find('.//title-group/article-title')
+        if title is None:
+            title = node.find('.//article-categories/subj-group/subject')
+        return self._itertext(title)
 
     def _get_abstract(self, root):
         for node in root.xpath('.//abstract'):
