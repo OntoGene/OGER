@@ -144,10 +144,8 @@ class _PMCParser(_Loader):
         title = self._itertext(node.find('.//title-group/article-title'))
         abstract = self._sentence_split(self._get_abstract(node))
         body = list(self._sentence_split(self._get_body(node)))
-
-        # Try to get a missing PMCID.
         if docid is None:
-            docid = node.find('.//article-id[@pub-id-type="pmc"]').text
+            docid = self._get_docid(node)
 
         article = Article(docid, tokenizer=self.config.text_processor)
         article.add_section('title', title)
@@ -156,6 +154,15 @@ class _PMCParser(_Loader):
             article.add_section('body', body)
 
         return article
+
+    @staticmethod
+    def _get_docid(node):
+        """Try to get a missing ID, preferring PMCID and PMID."""
+        for t in ('="pmc"', '="pubmed"', ''):
+            n = node.find('.//article-id[@pub-id-type{}]'.format(t))
+            if n is not None:
+                return n.text
+        return 'unknown'
 
     def _get_abstract(self, root):
         for node in root.xpath('.//abstract'):
