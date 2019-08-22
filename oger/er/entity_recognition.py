@@ -17,9 +17,17 @@ import os.path
 import logging
 
 from ..ctrl import parameters
+from ..nlp.tokenize import Text_processing
 from ..util import misc, stream
 from . import term_normalization as normalization
-from .term_tokenization import TermTokenizer
+
+
+DEFAULT_TOKEN = (
+    # A token is a sequence of either numerical or alphabetical characters.
+    r'\d+|[^\W\d_]+',
+    # For abbreviation detection, a single parenthesis also forms a token.
+    r'\d+|[^\W\d_]+|[()]'
+)
 
 
 class EntityRecognizer(object):
@@ -50,8 +58,7 @@ class EntityRecognizer(object):
         `stopwords` is either an iterable of stopwords
         or a path to a list of stopwords (one per line).
         """
-        self.tokenizer = TermTokenizer(config.term_token,
-                                       config.abbrev_detection)
+        self.tokenizer = Text_processing(self._tokenizer_spec(config), None)
         self._normalizers = normalization.load(config.normalize)
         self.stopwords = self.import_stopwords(config.stopwords)
         self.term_first, self.full_terms = self.load_termlist(config, **kwargs)
@@ -66,6 +73,14 @@ class EntityRecognizer(object):
         # pickle file, but doesn't load it.
         kwargs['skip_loading'] = True
         cls(*args, **kwargs)
+
+    @staticmethod
+    def _tokenizer_spec(config):
+        if config.term_tokenizer:
+            return config.term_tokenizer
+        else:
+            token = config.term_token or DEFAULT_TOKEN[config.abbrev_detection]
+            return 'RegexpTokenizer({})'.format(repr(token))
 
     def import_stopwords(self, stopwords):
         '''

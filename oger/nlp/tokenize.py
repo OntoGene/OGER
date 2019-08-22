@@ -51,6 +51,9 @@ class Text_processing(object):
         """
         Load a tokenizer from NLTK or from a pickle.
         """
+        if name is None:
+            return None
+
         if name.startswith(targets):  # NLTK
             # Look for constructor arguments as part of the name.
             try:

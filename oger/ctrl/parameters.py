@@ -475,6 +475,10 @@ class ERParams(ParamBase):
     # Regular expression defining a token, as used in the ER process.
     term_token = None
 
+    # Alternatively, specify a word tokenizer, as for the global
+    # word_tokenizer option (term_token is ignored in that case).
+    term_tokenizer = None
+
     # Local abbreviation detection (document-wise memory).
     abbrev_detection = False
 
