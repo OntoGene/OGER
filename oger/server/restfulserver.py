@@ -23,6 +23,7 @@ from bottle import get, post, delete, response, request, error, HTTPError
 from bottle import run as run_bottle, view, ERROR_PAGE_TEMPLATE
 
 from ..ctrl import router, parameters
+from ..util.misc import log_exc
 from .expfmts import EXPORT_FMTS, export
 from .client import ParamHandler, sanity_check
 
@@ -487,7 +488,8 @@ class Annotator:
 
         # Load the termlist asynchronously.
         executor = ThreadPoolExecutor(max_workers=1)
-        self._loading = executor.submit(self._pls.get_ready)
+        self._loading = executor.submit(
+            log_exc, self._pls.get_ready, 'loading annotator failed')
         self._ready = False
         executor.shutdown(wait=blocking)
         self.is_ready()  # trigger an exception if loading failed.

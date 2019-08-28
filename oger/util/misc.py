@@ -59,6 +59,15 @@ tsv_format = dict(
 )
 
 
+def log_exc(func, msg, *args, **kwargs):
+    """Wrap a function call for logging exception info."""
+    try:
+        func(*args, **kwargs)
+    except:
+        logging.exception(msg)
+        raise
+
+
 def codepoint_indices(text, codec, text2bytes=True):
     '''
     Create a mapping from text to byte offsets, or vice versa.
