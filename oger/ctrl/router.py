@@ -50,6 +50,7 @@ from ..doc.document import Collection, Entity
 from ..doc import EXPORTERS, LOADERS
 from ..nlp.tokenize import Text_processing
 from ..er.entity_recognition import EntityRecognizer, AbbrevDetector
+from .. import post as builtin_postfilters
 from ..util.iterate import iter_chunks
 
 
@@ -532,8 +533,11 @@ class Router(object):
     def _get_postfilters(self, paths):
         return [self._load_postfilter(p) for p in paths if p is not None]
 
-    @staticmethod
-    def _load_postfilter(path):
+    # Class-level cache for imported postfilters.
+    _loaded_postfilters = {'builtin': builtin_postfilters}
+
+    @classmethod
+    def _load_postfilter(cls, path):
         '''
         Import an external postfiltering function from an arbitrary module.
         '''
@@ -546,13 +550,19 @@ class Router(object):
         else:
             if f.isidentifier():
                 path, func = p, f
-        # Import the module and access the respective function.
-        if path == 'builtin':
-            import oger.post as m
-        else:
+        # Import the module containing the postfilter function.
+        try:
+            m = cls._loaded_postfilters[path]
+        except KeyError:
             from importlib.machinery import SourceFileLoader
             m = SourceFileLoader('postfilter', path).load_module()
-        return getattr(m, func)
+            cls._loaded_postfilters[path] = m
+        # Check the postfilter function.
+        postfilter = getattr(m, func)
+        if not callable(postfilter):
+            raise ValueError(
+                'postfilter {}:{} is not callable'.format(path, func))
+        return postfilter
 
     def get_in_path(self, id_):
         '''
