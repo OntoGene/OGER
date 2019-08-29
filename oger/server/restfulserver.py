@@ -387,13 +387,10 @@ class AnnotatorManager:
         self.default = self.key(self._default_settings)  # default server name
         self.active = {}                  # all active servers
         self.additional = []              # names of additional servers
-        self.postfilters = OrderedDict()  # all postfilters
 
         logging.info('Starting default annotator %s', self.default)
-        self.active[self.default] = self.start(self._default_settings,
-                                               desc='default', blocking=True)
-        for func in self._default_settings.postfilters:
-            self.postfilters[func.__name__] = func
+        self.active[self.default] = Annotator(self._default_settings,
+                                              desc='default', blocking=True)
 
     def add(self, params, desc=None, blocking=False):
         '''
@@ -402,17 +399,16 @@ class AnnotatorManager:
         In case an existing one has the same settings,
         return its name instead.
         '''
-        # Remove any postfilter for security reasons.
+        # Sanitize user-specified parameters for security reasons.
         for p, v in params.items():
             sanity_check(p, v)
-        config = router.Router(self._default_settings,
-                               postfilter=(), **params)
+        config = router.Router(self._default_settings, **params)
 
         key = self.key(config)
         self.purge()
         if key not in self.active:
             logging.info('Starting new annotator %s', key)
-            self.active[key] = self.start(config, desc, blocking)
+            self.active[key] = Annotator(config, desc, blocking)
             self.additional.append(key)
             # Dispose of surplus annotators.
             while len(self.additional) > self.n:
@@ -456,10 +452,6 @@ class AnnotatorManager:
             except RuntimeError:
                 self.remove(name)
 
-    def start(self, config, desc, blocking):
-        'Initiate a new annotation server.'
-        return Annotator(config, desc, self.postfilters, blocking)
-
     @classmethod
     def key(cls, conf):
         'Select the relevant parts of this configuration.'
@@ -478,12 +470,12 @@ class Annotator:
     Wrapper for a PipelineServer with termlist loading in a separate thread.
     """
 
-    def __init__(self, config, desc, postfilters, blocking=False):
+    def __init__(self, config, desc, blocking=False):
         if desc is None:
             desc = 'Annotator created at {}'.format(datetime.datetime.utcnow())
         self.config = config
         self.description = desc
-        self.postfilters = postfilters
+        self._postfilters = None  # accessible by name
         self._pls = router.PipelineServer(self.config, lazy=True)
 
         # Load the termlist asynchronously.
@@ -504,6 +496,18 @@ class Annotator:
                 raise RuntimeError('annotator has died')
             self._ready = True
         return self._ready
+
+    @property
+    def postfilters(self):
+        """Postfilters by name."""
+        if self._postfilters is None:
+            if not self.is_ready():
+                raise RuntimeError('annotator not yet loaded')
+            # Index the filters by their function name.
+            self._postfilters = OrderedDict()
+            for func in self._pls.conf.postfilters:
+                self._postfilters[func.__name__] = func
+        return self._postfilters
 
     def process(self, in_params, out_params, postfilters):
         '''

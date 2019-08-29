@@ -9,6 +9,9 @@ Client parameters accepted by the API.
 '''
 
 
+from ..ctrl import parameters
+
+
 IN_PARAMS = [
     'include_mesh',
     'mesh_as_entities',
@@ -79,3 +82,8 @@ def sanity_check(param, value):
                    'SENT_TOKENIZERS')
         if value not in getattr(Text_processing, allowed):
             raise ValueError('unrecognised {}: {}'.format(param, value))
+    if param == 'postfilter':
+        for v in parameters.Params.split(value):
+            if not v.startswith('builtin:'):
+                raise ValueError(
+                    'postfilter {} not allowed (built-ins only)'.format(v))
