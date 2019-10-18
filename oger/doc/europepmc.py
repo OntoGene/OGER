@@ -92,18 +92,19 @@ class EuPMCZipFormatter(EuPMCFormatter):
     ext = 'zip'
     binary = True
 
-    def _write(self, stream, articles):
+    def write(self, stream, content):
+        articles = content.get_subelements('Article', include_self=True)
         # Iterate in hunks of 10,000, the max number of lines per file allowed.
         hunks = it.groupby(articles, key=lambda _, i=it.count(): next(i)//10000)
 
         with zipfile.ZipFile(stream, 'w', zipfile.ZIP_DEFLATED) as zf:
             for n, hunk in hunks:
-                arcname = 'hunk_{}.jsonl'.format(n+1)
+                arcname = '{}_{}.jsonl'.format(content.id_, n+1)
                 try:
                     member = zf.open(arcname, mode='w')
                 except RuntimeError:  # Python < 3.6 doesn't support mode='w'
                     member = io.BytesIO()
                 with io.TextIOWrapper(member, encoding='utf8') as f:
-                    super()._write(f, hunk)
+                    self._write(f, hunk)
                     if isinstance(member, io.BytesIO):
                         zf.writestr(arcname, member.getvalue())
