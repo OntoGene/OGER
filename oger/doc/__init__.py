@@ -32,6 +32,7 @@ LOADERS = {
     'bioc_json': BioCJSONLoader,
     'becalmabstracts': BeCalmAbstractFetcher,
     'becalmpatents': BeCalmPatentFetcher,
+    'conll': CoNLLLoader,
     'pubmed': PXMLFetcher,
     'pubtator': PubTatorLoader,
     'pubtator_fbk': PubTatorFBKLoader,
