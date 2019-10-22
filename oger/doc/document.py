@@ -249,33 +249,18 @@ class Section(Unit):
         self.type_ = section_type
         self.article = article
         self._text = None
+        # Character offsets -- adjusted later through add_sentences().
+        self.start = start
+        self.end = start
 
         if isinstance(text, str):
             # Single string element.
             self.add_sentences(
                 self.article.tokenizer.span_tokenize_sentences(text, start))
             self._text = text
-            # Use the length of the plain text avoids problems with
-            # any trailing whitespace, which is reported inconsistently
-            # by the Punkt sentence splitter.
-            end = start + len(text)
         else:
             # Iterable of strings or <string, offset...> tuples.
             self.add_sentences(self._guess_offsets(text, start))
-            try:
-                # Do not rely on the `start` default argument.
-                # If there were offsets in the sentences iterable,
-                # they should have precedence.
-                start = self.subelements[0].start
-                end = self.subelements[-1].end
-            except IndexError:
-                # No text in this section.
-                # Keep the start argument and set the length to 0.
-                end = start
-
-        # Character offsets:
-        self.start = start
-        self.end = end
 
     @property
     def text(self):
@@ -330,6 +315,10 @@ class Section(Unit):
         first_id = len(self.subelements)
         for id_, (sent, *span) in enumerate(sentences, first_id):
             self.add_subelement(Sentence(id_, sent, self, *span))
+        if self.subelements:
+            # Adjust the section-level offsets based on the sentences.
+            self.start = self.subelements[0].start
+            self.end = self.subelements[-1].end
 
 
 class Sentence(Unit):
