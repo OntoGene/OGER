@@ -390,7 +390,7 @@ class Entity(object):
     '''
     Link from textual evidence to a concept identifier.
     '''
-    __slots__ = ('id_', 'text', 'start', 'end', 'info', 'fields')
+    __slots__ = ('id_', 'text', 'start', 'end', 'info')
 
     # Default fields defined by the termlist.
     std_fields = ('type', 'preferred_form',
