@@ -1,5 +1,25 @@
 # Changes to the OG Python3 Pipeline
 
+## Version 1.4
+
+- REST API:
+  * various bugfixes
+  * new default value `true` for the postfilter parameter
+  * don't allow pickle objects in user-defined configuration
+  * allow built-in postfilters in user-defined annotators
+  * background loading uses threads (concurrent.futures) instead of subprocesses (multiprocessing) -- more stable now
+- new formats:
+  * europepmc and europepmc.zip (output)
+  * *bionlp* (output)
+  * *brat.ann*, *bionlp.ann*, *txt* (output) (individual files of bionlp and brat)
+  * *conll* (input and output)
+- fixes to input/output formats:
+  * *pmc* (more robust)
+  * *tsv* (no newlines/tabs inside mentions)
+- new normalization method: ise/ize spelling
+- fixes to document/collection iteration
+- evaluation: misc improvements
+
 
 ## Version 1.3
 
