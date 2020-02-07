@@ -43,13 +43,14 @@ As an alternative to the `oger` executable, you may run `python3 -m oger `_`CMD`
 Get config and start a pipeline server:
 ```pycon
 >>> from oger.ctrl.router import Router, PipelineServer
->>> conf = Router(termlist_path='oger/test/testfiles/test_terms.tsv')
+>>> conf = Router(termlist_path='testfiles/test_terms.tsv')
 >>> pl = PipelineServer(conf)
 ```
+Note: test files can be downloaded [here](oger/test/testfiles).
 
 Load a text document from disk (using the included test suite):
 ```pycon
->>> doc = pl.load_one('oger/test/testfiles/txt/13373697.txt', 'txt')
+>>> doc = pl.load_one('testfiles/txt/13373697.txt', 'txt')
 >>> doc
 <Article with 1 subelement at 0x7f8b2135d860>
 >>> doc.text
