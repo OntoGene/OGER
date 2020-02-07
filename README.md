@@ -81,6 +81,13 @@ Run entity recognition:
 ('organism', 'Homo sapiens', 'NCBI Taxonomy', '9606', 'DC')
 ```
 
+Export to disk:
+```pycon
+>>> pl.postfilter(coll)  # run any registered postfiltering functions
+>>> with open('output/collection.json', 'w', encoding='utf8') as f:
+...     pl.write(coll, 'bioc_json', f)
+```
+
 
 ## Documentation
 
