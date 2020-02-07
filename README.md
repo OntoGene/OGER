@@ -15,7 +15,9 @@ Install OGER from its repository using [pip](https://pip.pypa.io/):
     pip install git+https://github.com/OntoGene/OGER.git
 
 Make sure you use Python 3's pip (eg. `pip3`).
-Python 2.x is not supported.
+Python 2.x is not supported.  
+Note: By default, `pip` installs Python packages at the system level, which typically requires root/admin privileges.
+To install OGER to a user-owned location, set the `--user` flag.
 
 
 ## Usage: Command-line Tool
@@ -41,13 +43,14 @@ As an alternative to the `oger` executable, you may run `python3 -m oger `_`CMD`
 Get config and start a pipeline server:
 ```pycon
 >>> from oger.ctrl.router import Router, PipelineServer
->>> conf = Router(termlist_path='oger/test/testfiles/test_terms.tsv')
+>>> conf = Router(termlist_path='testfiles/test_terms.tsv')
 >>> pl = PipelineServer(conf)
 ```
+Note: test files can be downloaded [here](oger/test/testfiles).
 
 Load a text document from disk (using the included test suite):
 ```pycon
->>> doc = pl.load_one('oger/test/testfiles/txt/13373697.txt', 'txt')
+>>> doc = pl.load_one('testfiles/txt/13373697.txt', 'txt')
 >>> doc
 <Article with 1 subelement at 0x7f8b2135d860>
 >>> doc.text
@@ -77,6 +80,13 @@ Run entity recognition:
 '9606'
 >>> entity.info
 ('organism', 'Homo sapiens', 'NCBI Taxonomy', '9606', 'DC')
+```
+
+Export to disk:
+```pycon
+>>> pl.postfilter(coll)  # run any registered postfiltering functions
+>>> with open('output/collection.json', 'w', encoding='utf8') as f:
+...     pl.write(coll, 'bioc_json', f)
 ```
 
 
