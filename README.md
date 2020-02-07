@@ -15,7 +15,9 @@ Install OGER from its repository using [pip](https://pip.pypa.io/):
     pip install git+https://github.com/OntoGene/OGER.git
 
 Make sure you use Python 3's pip (eg. `pip3`).
-Python 2.x is not supported.
+Python 2.x is not supported.  
+Note: By default, `pip` installs Python packages at the system level, which typically requires root/admin privileges.
+To install OGER to a user-owned location, set the `--user` flag.
 
 
 ## Usage: Command-line Tool
