@@ -84,10 +84,13 @@ Run entity recognition:
 
 Export to disk:
 ```pycon
->>> pl.postfilter(coll)  # run any registered postfiltering functions
 >>> with open('output/collection.json', 'w', encoding='utf8') as f:
 ...     pl.write(coll, 'bioc_json', f)
 ```
+
+The second argument specifies the output format.
+OGER supports BioC (XML and JSON), PubTator, PubAnnotation JSON, BioNLP stand-off, and CoNLL, among others.
+A full list of available formats is given [here](https://github.com/OntoGene/OGER/wiki/run#output-parameters) (see the `export-format` parameter).
 
 
 ## Documentation
