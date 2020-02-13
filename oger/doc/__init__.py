@@ -27,6 +27,7 @@ from .europepmc import *
 LOADERS = {
     'txt': TXTLoader,
     'txt_json': TXTJSONLoader,
+    'txt.tar': TXTTarLoader,
     'bioc': BioCXMLLoader,  # keep for backwards compatibility
     'bioc_xml': BioCXMLLoader,
     'bioc_json': BioCJSONLoader,

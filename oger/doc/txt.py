@@ -9,16 +9,16 @@ Loader for plain-text input.
 '''
 
 
-__all__ = ['TXTLoader', 'TXTJSONLoader']
+__all__ = ['TXTLoader', 'TXTJSONLoader', 'TXTTarLoader']
 
 
-import os
 import io
 import json
+import tarfile
 
 from .document import Article
 from .load import DocLoader, DocIterator
-from ..util.stream import text_stream
+from ..util.stream import text_stream, basename
 
 
 class _TXTLoaderMixin:
@@ -41,9 +41,7 @@ class _TXTLoaderMixin:
 
         if docid is None:
             # Resort to using the filename as an ID, if available.
-            # (The stream might have an empty or no "name" attribute.)
-            path = getattr(stream, 'name', None) or 'unknown'
-            docid = os.path.splitext(os.path.basename(path))[0]
+            docid = basename(stream)
 
         article = Article(docid, tokenizer=self.config.text_processor)
         for text in sections:
@@ -123,3 +121,23 @@ class TXTJSONLoader(DocIterator, _TXTLoaderMixin):
             stream = io.StringIO(doc['text'])
             id_ = doc['id']
             yield self._document(stream, id_)
+
+
+class TXTTarLoader(DocIterator, _TXTLoaderMixin):
+    '''
+    Loader for multiple  plain-text documents in a TAR archive.
+    '''
+    def iter_documents(self, source):
+        args = dict(mode='r')
+        if hasattr(source, 'read'):
+            args['fileobj'] = source
+        else:
+            args['name'] = source
+        with tarfile.open(**args) as tf:
+            for member in tf:
+                try:
+                    stream = text_stream(tf.extractfile(member))
+                except AttributeError:
+                    continue  # member is not a regular file
+                id_ = basename(member.name)
+                yield self._document(stream, id_)

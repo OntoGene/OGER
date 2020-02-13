@@ -51,5 +51,5 @@ def basename(source):
     if hasattr(source, 'name'):
         source = source.name
     if isinstance(source, str):
-        return os.path.basename(source)
+        return os.path.splitext(os.path.basename(source))[0]
     return None

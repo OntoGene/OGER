@@ -60,6 +60,7 @@ TESTCASES = [
     'txt_id',
     'txt_collection',
     'txt_json',
+    'txt_tar',
     'conll',
     'pubtator',
     'pubtator_fbk',
@@ -271,6 +272,9 @@ def txt_collection(outputdir):
 
 def txt_json(outputdir):
     _multiple_outfmts(outdir(outputdir), 'txt_json')
+
+def txt_tar(outputdir):
+    _multiple_outfmts(outdir(outputdir), 'txt.tar')
 
 def conll(outputdir):
     _multiple_outfmts(outdir(outputdir), 'conll')
