@@ -60,6 +60,7 @@ TESTCASES = [
     'txt_id',
     'txt_collection',
     'txt_json',
+    'conll',
     'pubtator',
     'pubtator_fbk',
     'pxmlgz',
@@ -270,6 +271,9 @@ def txt_collection(outputdir):
 
 def txt_json(outputdir):
     _multiple_outfmts(outdir(outputdir), 'txt_json')
+
+def conll(outputdir):
+    _multiple_outfmts(outdir(outputdir), 'conll')
 
 def pubtator(outputdir):
     _multiple_outfmts(outdir(outputdir), 'pubtator')
