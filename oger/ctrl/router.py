@@ -258,14 +258,18 @@ class Router(object):
         Otherwise, each subdirectory below input_directory
         contains one collection.
         '''
-        if self.p.article_format in ('bioc', 'pubtator', 'pubtator_fbk'):
+        if loader.__class__.__name__.endswith('Fetcher'):  # no unique method
+            # All documents belong to the same collection.
+            id_ = 'collection_{:%Y-%m-%d_%H%M%S}'.format(datetime.now())
+            yield self._collection(id_, (pointers, ctxt, loader))
+        elif hasattr(loader, 'collection'):
             # Each path node is a collection.
             for path, id_ in self.iter_path_ID(pointers):
                 if id_ is None:
                     id_ = os.path.splitext(os.path.basename(path))[0]
                 with ctxt.setcurrent(id_):
                     yield loader.collection(path, id_)
-        elif self.p.article_format in ('pxml.gz', 'txt_json'):
+        elif hasattr(loader, 'iter_documents'):
             # Each path node is a collection.
             for path, id_ in self.iter_path_ID(pointers):
                 if id_ is None:
@@ -274,11 +278,6 @@ class Router(object):
                 # Avoid repeated pointer parsing: make absolute and wrap.
                 path = [os.path.abspath(path)]
                 yield self._collection(id_, (path, ctxt, loader))
-        elif self.p.article_format in ('pubmed', 'pmc',
-                                       'becalmabstracts', 'becalmpatents'):
-            # All documents belong to the same collection.
-            id_ = 'collection_{:%Y-%m-%d_%H%M%S}'.format(datetime.now())
-            yield self._collection(id_, (pointers, ctxt, loader))
         else:
             # Each subdirectory is a collection.
             # If there is no subdirectory, everything is one collection.
@@ -300,14 +299,12 @@ class Router(object):
         '''
         Iterate over input documents.
         '''
-        if self.p.article_format in ('pubmed', 'pmc',
-                                     'becalmabstracts', 'becalmpatents'):
+        if loader.__class__.__name__.endswith('Fetcher'):  # no unique method
             it = self._iter_ids(pointers)  # use IDs, regardless of type
             for chunk in iter_chunks(it, self.p.efetch_max_ids):
                 with ctxt.setcurrent():
                     yield from self._check_ids(chunk, loader)
-        elif self.p.article_format in ('bioc_xml', 'bioc_json', 'pxml.gz',
-                                       'txt_json', 'pubtator', 'pubtator_fbk'):
+        elif hasattr(loader, 'iter_documents'):
             for path, id_ in self.iter_path_ID(pointers):
                 with ctxt.setcurrent(id_):
                     yield from loader.iter_documents(path)
