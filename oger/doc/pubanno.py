@@ -16,6 +16,7 @@ __all__ = ['PubAnnoJSONFormatter']
 
 import json
 
+from .document import Article
 from .export import StreamFormatter
 
 
@@ -26,13 +27,21 @@ class PubAnnoJSONFormatter(StreamFormatter):
     ext = 'json'
 
     def write(self, stream, content):
-        json_object = {}
-        json_object['text'] = content.text
-        json_object['denotations'] = [self._entity(e)
-                                      for e in content.iter_entities()]
-        json_object['sourceid'] = content.id_
-        json_object.update(self._metadata())
+        if isinstance(content, Article):
+            json_object = self._document(content)
+        else:
+            json_object = [self._document(a)
+                           for a in content.get_subelements(Article)]
         return json.dump(json_object, stream)
+
+    def _document(self, article):
+        doc = {}
+        doc['text'] = article.text
+        doc['denotations'] = [self._entity(e)
+                              for e in article.iter_entities()]
+        doc['sourceid'] = article.id_
+        doc.update(self._metadata())
+        return doc
 
     def _entity(self, entity):
         return {'id' : self._format_id(entity.id_),
