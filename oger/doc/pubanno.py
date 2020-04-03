@@ -16,7 +16,6 @@ __all__ = ['PubAnnoJSONFormatter']
 
 import json
 
-from .document import Section
 from .export import StreamFormatter
 
 
@@ -28,8 +27,7 @@ class PubAnnoJSONFormatter(StreamFormatter):
 
     def write(self, stream, content):
         json_object = {}
-        json_object['text'] = ''.join(
-            s.text for s in content.get_subelements(Section))
+        json_object['text'] = content.text
         json_object['denotations'] = [self._entity(e)
                                       for e in content.iter_entities()]
         return json.dump(json_object, stream)
