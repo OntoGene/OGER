@@ -32,7 +32,7 @@ class PubAnnoJSONFormatter(StreamFormatter):
         else:
             json_object = [self._document(a)
                            for a in content.get_subelements(Article)]
-        return json.dump(json_object, stream)
+        return json.dump(json_object, stream, indent=2)
 
     def _document(self, article):
         doc = {}
