@@ -287,6 +287,9 @@ class Params(ParamBase):
     # - Europe PMC format: global metadata.
     #   Must be a mapping or a serialised JSON object.
     eupmc_meta = ()
+    # - PubAnnotation JSON format: global metadata.
+    #   Must be a mapping or a serialised JSON object.
+    pubanno_meta = ()
 
     # Hook for postfiltering an article or collection.
     # Path(s) to a module, optionally followed by a function name,
@@ -377,6 +380,7 @@ class Params(ParamBase):
         self.sentence_level = self.bool(self.sentence_level)
         self.bioc_meta = self.mapping(self.bioc_meta, allow_None=True)
         self.eupmc_meta = self.mapping(self.eupmc_meta)
+        self.pubanno_meta = self.mapping(self.pubanno_meta)
 
         self.byte_offsets_in = self.bool(self.byte_offsets_in)
         self.byte_offsets_out = self.bool(self.byte_offsets_out)

@@ -30,6 +30,8 @@ class PubAnnoJSONFormatter(StreamFormatter):
         json_object['text'] = content.text
         json_object['denotations'] = [self._entity(e)
                                       for e in content.iter_entities()]
+        json_object['sourceid'] = content.id_
+        json_object.update(self._metadata())
         return json.dump(json_object, stream)
 
     def _entity(self, entity):
@@ -47,3 +49,10 @@ class PubAnnoJSONFormatter(StreamFormatter):
             return 'T{}'.format(id_)
         else:
             return id_
+
+    def _metadata(self):
+        meta = dict(self.config.p.pubanno_meta)
+        meta.setdefault(
+            'sourcedb',
+            'PubMed' if self.config.p.article_format == 'pubmed' else 'unknown')
+        return meta
