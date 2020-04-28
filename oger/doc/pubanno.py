@@ -11,22 +11,31 @@ http://www.pubannotation.org/docs/annotation-format/
 '''
 
 
-__all__ = ['PubAnnoJSONFormatter']
+__all__ = ['PubAnnoJSONFormatter', 'PubAnnoJSONtgzFormatter']
 
 
+import io
 import json
+import time
+import tarfile
 
 from .document import Article, Section
-from .export import StreamFormatter
+from .export import Formatter, StreamFormatter
 
 
-class PubAnnoJSONFormatter(StreamFormatter):
+class PubAnnoJSONFormatter(Formatter):
     '''
     PubAnnotation JSON format.
     '''
     ext = 'json'
 
     def write(self, stream, content):
+        json.dump(self._prepare(content), stream, indent=2)
+
+    def dump(self, content):
+        return json.dumps(self._prepare(content), indent=2)
+
+    def _prepare(self, content):
         if isinstance(content, Section):
             json_object = self._division(content)
         elif isinstance(content, Article):
@@ -34,7 +43,7 @@ class PubAnnoJSONFormatter(StreamFormatter):
         else:
             json_object = [self._document(a)
                            for a in content.get_subelements(Article)]
-        return json.dump(json_object, stream, indent=2)
+        return json_object
 
     def _division(self, section):
         return self._annotation(section, offset=section.start,
@@ -64,3 +73,23 @@ class PubAnnoJSONFormatter(StreamFormatter):
             'sourcedb',
             'PubMed' if self.config.p.article_format == 'pubmed' else 'unknown')
         return meta
+
+
+class PubAnnoJSONtgzFormatter(StreamFormatter, PubAnnoJSONFormatter):
+    """
+    Gzipped TAR archive with PubAnnotation JSON files.
+    """
+
+    ext = 'tgz'
+    binary = True
+
+    def write(self, stream, content):
+        with tarfile.open(fileobj=stream, mode='w:gz') as tar:
+            for sec in content.get_subelements(Section):
+                div = self._division(sec)
+                name = '{}-{}.json'.format(div['sourceid'], div['divid'])
+                blob = json.dumps(div, indent=2).encode('utf8')
+                info = tarfile.TarInfo(name)
+                info.size = len(blob)
+                info.mtime = time.time()
+                tar.addfile(info, io.BytesIO(blob))

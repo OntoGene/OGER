@@ -64,6 +64,7 @@ EXPORTERS = {
     'becalm_tsv': BeCalmTSVFormatter,
     'becalm_json': BeCalmJSONFormatter,
     'pubanno_json': PubAnnoJSONFormatter,
+    'pubanno_json.tgz': PubAnnoJSONtgzFormatter,
     'pubtator': PubTatorFormatter,
     'pubtator_fbk': PubTatorFBKFormatter,
     'europepmc': EuPMCFormatter,
