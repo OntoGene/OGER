@@ -1,5 +1,10 @@
 # Changes to the OG Python3 Pipeline
 
+## Version 1.5
+
+- new output format: *pubanno_json.tgz*, gzipped archive of PubAnnotation JSON
+
+
 ## Version 1.4.1
 
 - bug fixes in PubAnnotation output
