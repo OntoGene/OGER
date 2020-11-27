@@ -14,6 +14,7 @@ __all__ = ['TXTLoader', 'TXTJSONLoader', 'TXTTarLoader', 'TXTTSVLoader']
 
 import io
 import json
+import csv
 import tarfile
 
 from .document import Article
