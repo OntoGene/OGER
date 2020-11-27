@@ -151,7 +151,7 @@ class TXTTSVLoader(DocIterator, _TXTLoaderMixin):
     ColumnB -> [text] format
     '''
     def iter_documents(self, source):
-        with open(source, 'r') as f:
+        with text_stream(source) as f:
             data = csv.reader(f, dialect='excel', delimiter='\t')
             next(data) # skips header row
             for id_, text in data:
