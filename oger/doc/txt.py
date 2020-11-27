@@ -154,5 +154,5 @@ class TXTTSVLoader(DocIterator, _TXTLoaderMixin):
         with open(source, 'r') as f:
             data = csv.reader(f, dialect='excel', delimiter='\t')
             next(data) # skips header row
-            for idx, row in data:
-                yield self._document(row, idx)
+            for id_, text in data:
+                yield self._document([text], id_)
