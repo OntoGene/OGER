@@ -9,7 +9,7 @@ Loader for plain-text input.
 '''
 
 
-__all__ = ['TXTLoader', 'TXTJSONLoader', 'TXTTarLoader']
+__all__ = ['TXTLoader', 'TXTJSONLoader', 'TXTTarLoader', 'TXTTSVLoader']
 
 
 import io
@@ -141,3 +141,17 @@ class TXTTarLoader(DocIterator, _TXTLoaderMixin):
                     continue  # member is not a regular file
                 id_ = basename(member.name)
                 yield self._document(stream, id_)
+
+
+class TXTTSVLoader(DocIterator, _TXTLoaderMixin):
+    '''
+    Loader for single TSV document consisting of 
+    ColumnA -> [id]
+    ColumnB -> [text] format
+    '''
+    def iter_documents(self, source):
+        with open(source, 'r') as f:
+            data = csv.reader(f, dialect='excel', delimiter='\t')
+            next(data) # skips header row
+            for idx, row in data:
+                yield self._document(row, idx)
