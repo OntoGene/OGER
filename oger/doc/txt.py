@@ -155,4 +155,4 @@ class TXTTSVLoader(DocIterator, _TXTLoaderMixin):
             data = csv.reader(f, dialect='excel', delimiter='\t')
             next(data) # skips header row
             for id_, text in data:
-                yield self._document([text], id_)
+                yield self._document(iter([text]), id_)
