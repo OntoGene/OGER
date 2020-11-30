@@ -61,6 +61,7 @@ TESTCASES = [
     'txt_collection',
     'txt_json',
     'txt_tar',
+    'txt_tsv',
     'conll',
     'pubtator',
     'pubtator_fbk',
@@ -269,6 +270,16 @@ def txt_collection(outputdir):
 
     # TODO output is just called 'None'
     # Is there a way to make that nicer?
+
+def txt_tsv(outputdir):
+    for output_format in OUTPUT_FORMATS:
+        testlogger.info('-> %s', output_format)
+        output = join(outdir(outputdir), output_format)
+        arguments = make_arguments(format='txt_tsv',
+                                   output=output,
+                                   export=output_format,
+                                   pointers='*.tsv')
+        run_with_arguments(arguments)
 
 def txt_json(outputdir):
     _multiple_outfmts(outdir(outputdir), 'txt_json')

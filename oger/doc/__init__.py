@@ -28,6 +28,7 @@ LOADERS = {
     'txt': TXTLoader,
     'txt_json': TXTJSONLoader,
     'txt.tar': TXTTarLoader,
+    'txt_tsv': TXTTSVLoader,
     'bioc': BioCXMLLoader,  # keep for backwards compatibility
     'bioc_xml': BioCXMLLoader,
     'bioc_json': BioCJSONLoader,
