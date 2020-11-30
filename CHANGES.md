@@ -1,8 +1,9 @@
-# Changes to the OG Python3 Pipeline
+# Changes to OGER
 
 ## Version 1.5
 
 - new output format: *pubanno_json.tgz*, gzipped archive of PubAnnotation JSON
+- new input format: *txt_tsv*, two-column TSV <doc-ID, text>
 
 
 ## Version 1.4.1
